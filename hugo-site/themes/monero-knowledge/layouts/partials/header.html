@@ -1,0 +1,15 @@
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">
+            <svg viewBox="0 0 256 256" width="32" height="32">
+                <circle cx="128" cy="128" r="128" fill="#FF6600"/>
+                <path d="M62 170V86l66 66 66-66v84h-24v-42l-42 42-42-42v42z" fill="white"/>
+            </svg>
+            <span>Monero Knowledge</span>
+        </a>
+
+        <nav class="site-nav">
+            {{ partial "language-switcher.html" . }}
+        </nav>
+    </div>
+</header>

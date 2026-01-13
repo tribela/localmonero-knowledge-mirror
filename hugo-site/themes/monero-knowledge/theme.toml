@@ -1,0 +1,12 @@
+name = "Monero Knowledge"
+license = "MIT"
+licenselink = "https://github.com/monero/knowledge"
+description = "A clean, multilingual theme for Monero knowledge base"
+homepage = "https://github.com/monero/knowledge"
+min_version = "0.100.0"
+
+[author]
+  name = "LocalMonero Archive"
+
+[params]
+  mainColor = "#FF6600"

@@ -1,0 +1,29 @@
+{{ define "main" }}
+<article class="article-single">
+    <header class="article-header">
+        <h1>{{ .Title }}</h1>
+        <div class="article-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ with .Params.image_credit }}
+            <span class="image-credit">Illustration by <a href="{{ $.Params.image_credit_url }}" target="_blank" rel="noopener">{{ . }}</a></span>
+            {{ end }}
+        </div>
+    </header>
+
+    {{ with .Params.image }}
+    <figure class="article-hero">
+        <img src="{{ . }}" alt="{{ $.Title }}">
+    </figure>
+    {{ end }}
+
+    <div class="article-body">
+        {{ .Content }}
+    </div>
+
+    <nav class="article-nav">
+        <a href="{{ .Site.Home.RelPermalink }}knowledge/" class="back-link">← Back to Knowledge Base</a>
+
+        {{ partial "language-switcher.html" . }}
+    </nav>
+</article>
+{{ end }}

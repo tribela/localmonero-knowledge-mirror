@@ -1,0 +1,35 @@
+<div class="language-switcher">
+    <button class="lang-toggle" aria-label="Select language">
+        <span class="current-lang">{{ .Lang | upper }}</span>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+            <path d="M2 4l4 4 4-4z"/>
+        </svg>
+    </button>
+    <ul class="lang-dropdown">
+        {{ range .Site.Languages }}
+        <li>
+            <a href="{{ $.RelPermalink | replaceRE (printf "^/%s/" $.Lang) (printf "/%s/" .Lang) }}" 
+               {{ if eq $.Lang .Lang }}class="active"{{ end }}
+               lang="{{ .Lang }}">
+                {{ .LanguageName }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.querySelector('.lang-toggle');
+    const dropdown = document.querySelector('.lang-dropdown');
+    
+    toggle.addEventListener('click', function(e) {
+        e.stopPropagation();
+        dropdown.classList.toggle('open');
+    });
+    
+    document.addEventListener('click', function() {
+        dropdown.classList.remove('open');
+    });
+});
+</script>
