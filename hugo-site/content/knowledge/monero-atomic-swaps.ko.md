@@ -1,0 +1,97 @@
+---
+title: "Monero에서 원자 스왑이 작동하는 방법"
+slug: "monero-atomic-swaps"
+date: "2020-11-18"
+image: "/images/atomic.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+분권화와 진정한 무허가 시스템을 추구하면서, 암호 화폐 공간에서 탈 중앙화 거래소와 원자 스왑만큼 탐내는 것은 거의 없습니다. Monero는 처음부터 프로토콜을 설계하려고 할 때 개인 정보 보호 기능이 고유 한 문제를 야기하기 때문에 원자 스왑을 구현하는 데 어려움을 겪었습니다. 
+
+하지만 먼저 백업합시다. 원자 스왑이란 무엇입니까? 아토믹 스왑은 서로 다른 블록 체인에있는 두 개의 서로 다른 암호 화폐를 중개자없이 신뢰할 수있는 방식으로 교환 할 수있는 프로토콜입니다. 이것은 누군가가 암호 화폐 A를 암호 화폐 B로 교환하기를 원하면 교환 없이도 중앙 집중식 또는 탈 중앙화를 할 수 있다는 것을 의미합니다. 상상할 수 있듯이 이것은 상당한 연구가 필요하며이를 가능하게하는 전체 기술 세부 사항은 상당히 복잡해집니다. 다시 한번, LocalMonero는 일반인을 돕고 간단한 설명을 제공합니다. 
+
+시작하기 위해 비트 코인에서 구현 한 가장 간단한 형태의 원자 스왑을 고려해 보겠습니다. 누군가가 비트 코인을 동일한 해시 시간 잠금 계약 기술을 사용하는 다른 코인으로 교환하고 싶다면 다음과 같은 방법으로 그렇게 할 수 있습니다. Alice는 Bitcoin (BTC)을 갖고 있지만 Litecoin (LTC)을 원하고 Bob은 LTC를 갖고 있지만 BTC를 원합니다. 그들은 원자 스왑을 결정하여 각자가 원하는 동전을 얻습니다. Alice는 자금을 잠그는 스크립트를 사용하여 BTC를 특수 주소로 보내 그녀도 액세스 할 수 없게합니다. Alice가 그녀의 BTC를 Lockbox에 넣는 것처럼 생각할 수 있습니다. 락박스가 만들어지면 그녀는 키를 얻고이 키의 해시를 Bob에게 보냅니다. 이제 Bob은 키 자체가 아니라 해시 만 가지고 있으므로 아직 자금에 액세스 할 수 없습니다. 
+
+Bob은이 해시를 자신의 Lockbox를 생성하는 시드로 사용하고 LTC를 그곳에 전송합니다. Alice의 키 해시가 Bob의 Lockbox가 만들어지는 시드로 사용되었으므로 그녀는 자신의 키를 사용하여 Bob의 Lockbox에서 LTC를 요청할 수 있습니다. 그녀의 열쇠가 맞습니다! 그러나 수학 부두 마술을 사용하여 그녀가 LTC 잠금을 열기 위해 키를 사용할 때, 그녀는 Bob에게 키를 공개하고, Bob은이를 사용하여 자신의 자물쇠 상자에 넣은 BTC를 청구 할 수 있습니다. 이러한 방식으로 중개자없이 Alice와 Bob은 자산을 성공적으로 교환했습니다. 
+
+하지만 약간의 문제가 있습니다. Alice가 자신의 락박스로 전송하고 Bob이 더 이상 거래하지 않기로 결정하면 어떻게 될까요? 이제 Alice는 자신이 잠근 BTC에 액세스 할 수없고 Bob이 거래의 일부를 완료하지 않기 때문에 Alice는 돈을 영원히 잃게됩니다. 운 좋게도 비트 코인에는 환불 거래라는 작은 기술이 있으므로 일정 시간이 지난 후 Bob이 BTC를 청구하지 않으면 스크립트에 안전 장치가 내장되어 BTC가 자동으로 앨리스에게 돌아갑니다. 이것은 Monero의 원자 스왑 구현을위한 주요 속도 범프였습니다. Monero의 [ 링 서명 개인 정보 보호 기술 ](/knowledge/ring-signatures) 때문에 거래 발신자는 항상 불확실합니다. 거래의 출처를 알지 못하더라도 프로토콜은 어떻게 환불 거래를 할 수 있나요? 
+
+2017 년에 소규모 연구자들은 Monero에서 원자 스왑이 작동하는 다른 방법을 설명했습니다. 몇 년간의 개선 끝에 연구원들은 Monero가 환불 거래 없이도 비트 코인과 원자 스왑을 수행 할 수있는 프로세스를 마무리했습니다. 
+
+이 수준의 기술적 인 복잡성의 많은 것들과 마찬가지로, 우리의 설명은 아이디어를 전달하기 위해 일부를 지나치게 단순화 할 것이지만이 프로세스가 작동하는 메커니즘에 대한 확실한 아이디어를 제공 할 것입니다. 
+
+Alice (XMR을 갖고 있고 BTC를 원하는)와 Bob (BTC를 갖고 있고 XMR을 원하는) 모두 원자 스왑을 지원하는 프로그램을 다운로드하여 실행해야합니다. 이것은 지갑, 탈 중앙화 거래소 또는 특수한 특정 프로그램으로 구현 될 수 있지만 소프트웨어는 원자 스왑 프로토콜을 실행해야합니다. 첫 번째 단계에서 Alice와 Bob의 클라이언트는 서로 연결하고 여러 공유 비밀 및 키를 만듭니다. 이 단계에서는 Alice가 키의 절반을 갖고 Bob이 다른 키를 갖는 새 Monero 주소가 생성됩니다. 그러나 Monero는 아직 거기에 없으므로 지출 할 것이 없습니다. 이 주소에 대해 마지막으로 주목해야 할 점은 둘 다이 지갑에 대한보기 키를 가지고 있으므로 Monero가 도착했는지 또는 언제 도착했는지 확인하기 위해 내부를 들여다 볼 수 있다는 것입니다. 
+
+두 번째 단계에서 Bob은 이미 논의한 비트 코인 원자 스왑 프로토콜과 유사한 특수 주소로 BTC를 보냅니다. Alice는 BTC가 블록 체인의이 주소에 도착하는 것을 확인한 후 자신과 Bob이 모두 키의 절반을 가지고있는 Monero 주소로 Monero를 보냅니다. Bob은보기 키가 있기 때문에 Monero가 도착했는지 확인할 수 있으며 Monero가 지갑에 안전하게있는 것을 확인하면 Alice에게 Bitcoin을 인출 할 수있는 키 조각을 보냅니다. 다른 프로토콜과 유사하게, 비트 코인을 주장하는 과정은 모네로 키의 절반을 밥에게 보여줍니다. 이제 Bob은 양쪽을 모두 가지고 있으므로 Monero를 차지할 수있는 반면 Alice는 자신의 절반 만 가지고 있기 때문에 이전에 가져 가려고 할 수 없습니다. 
+
+따라서이 모든 것을 살펴 보았지만 Monero가 환불 거래 문제를 어떻게 해결할 수 있었는지에 대해 여전히 약간 혼란 스러우면 대답은 매우 간단합니다. Monero 자체에는 환불 거래가 없으므로 독자는 Bitcoin (환불 거래가있는)이 먼저 전송되고 블록 체인에있는 것으로 확인 된 후에 만 ​​Monero가 전송된다는 사실을 알아야합니다. 이를 통해 Monero는 이러한 기능 자체가 없어도 환불 거래에서 스크립트를 작성하고 활용할 수있는 비트 코인의 기능을 활용할 수 있습니다. 
+
+아토믹 스왑이 이제 완료되었지만 여기에서 Bob은 새로 청구 된 XMR에 대한 몇 가지 옵션을 사용할 수 있습니다. 그는이 Monero 지갑을 그대로 사용하거나 XMR을 이미 소유하고있는 다른 지갑으로 이동할 수 있습니다. Alice는 여전히 뷰 키가 있고 내부를 볼 수 있기 때문에 Bob은 Monero를 다른 지갑으로 옮길 가능성이 높습니다. 
+
+이 프로토콜의 장점은 여전히 ​​새롭고 최적화 할 여지가 많다는 것입니다. 또한 아키텍처가 매우 유연하기 때문에 다른 지갑이나 탈 중앙화 거래소에서의 구현은 단순하고 기존 아키텍처에 깔끔하게 맞아야합니다. 
+
+더 보기
+
+  * [Monero가 순환 경제를 가능하게 하는 방법](/knowledge/monero-circular-economies/)
+
+  * [와사비처럼 모네로의 링 시그니처 vs 코인조인](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [자신의 키를 보유해야 하는 이유(및 방법!)](/knowledge/hold-your-keys/)
+
+  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero/)
+
+  * [원격 노드가 Monero의 개인 정보에 미치는 영향](/knowledge/remote-nodes-privacy/)
+
+  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades/)
+
+  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool과 Monero Mining의 탈중앙화에서의 역할](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero/)
+
+  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup/)
+
+  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value/)
+
+  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect/)
+
+  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking/)
+
+  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams/)
+
+  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking/)
+
+  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct/)
+
+  * [모네로 비밀주소가 신상을 보호하는 방법](/knowledge/monero-stealth-addresses/)
+
+  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses/)
+
+  * [모네로 출력에 대하여](/knowledge/monero-outputs/)
+
+  * [초보자를 위한 모네로 사용 습관 추천](/knowledge/monero-best-practices/)
+
+  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures/)
+
+  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size/)
+
+  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag/)
+
+  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission/)
+
+  * [모네로의 간단한 역사](/knowledge/monero-history/)
+
+  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked/)
+
+  * [모네로에 관한 15가지 미신과 우려, 그리고 그 해답](/knowledge/monero-myths-debunked/)
+
+  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion/)
+
+  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx/)
+
+  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better/)

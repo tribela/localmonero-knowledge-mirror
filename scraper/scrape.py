@@ -25,10 +25,10 @@ TIMEOUT = 30
 # All supported languages
 LANGUAGES = [
     "en", "ko",
-    # "ar", "bg", "cs", "da", "de", "el", "es", "fi", "fr",
-    # "ha", "hi", "hu", "id", "it", "ja", "lt", "lv", "nb",
-    # "nl", "pl", "pt-br", "ro", "ru", "sk", "sl", "so", "sv", "sw",
-    # "tl", "tr", "ur", "zh-cn", "zh-tw"
+    "ar", "bg", "cs", "da", "de", "el", "es", "fi", "fr",
+    "ha", "hi", "hu", "id", "it", "ja", "lt", "lv", "nb",
+    "nl", "pl", "pt-br", "ro", "ru", "sk", "sl", "so", "sv", "sw",
+    "tl", "tr", "ur", "zh-cn", "zh-tw"
 ]
 
 # Language display names for Hugo config

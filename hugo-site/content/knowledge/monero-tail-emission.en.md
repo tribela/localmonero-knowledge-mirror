@@ -1,0 +1,97 @@
+---
+title: "Why Monero Has a Tail Emission"
+slug: "monero-tail-emission"
+date: "2020-07-30"
+image: "/images/emission.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+When most people think of what sets Monero apart, they think of Monero’s privacy technology. Indeed, most would consider the privacy, and the fungibility that it unlocks, as Monero’s defining trait, and the main weapon it brings into the ring when compared to other coins. What most people might not know is that Monero contains other protocol differences from Bitcoin and its derivatives that some might argue are just as important as Monero’s privacy technologies. In this article, we will look at one of these: the tail emission.
+
+First, let’s define what this term means. A tail emission is an unceasing subsidy of block rewards, even after the ‘last’ Monero is minted. In other words, Monero’s block reward will never fall to zero, but rather fall until it reaches 0.6 XMR per block, and then stay there forever. Miners will always be paid to mine Monero, and will never have to solely rely on a fee market.
+
+But let’s take a step back for a moment, and look at mining on a very high level. Monero miners are incentivized to secure a network by mining hashes. The incentive is the opportunity to make Monero if they find a new block. This Monero is awarded in two ways. Firstly, the miner receives the paid fees of every user who paid for their transaction's inclusion in the block. These are the transaction fees that you pay when you send a transaction. Secondly, the miner receives a predetermined amount of Monero from the protocol itself. In most cases, this ‘block reward’ is substantially higher than the user transaction fees, and is where miners make the most money. This block reward serves to keep the miners financially invested in the chain’s security, but also to get new coins into circulation.
+
+In most cryptocurrency protocols, this block reward is set to decrease over time. Most Bitcoin derivatives have what are called halvenings, predetermined points in time where the block reward halves (such as from 20 BTC to 10 BTC). These halvenings happen every few years, and every time it happens, the security on the network decreases. Why? Well, we encourage the reader to read our [article on Mining and RandomX](/knowledge/monero-mining-randomx), and in doing so they will learn that mining is a race. Block rewards are only given out to those who find a block, and there are many entities in competition to do so. When the rewards are higher, more people are interested in playing this game, whereas when the rewards are low, less people, even those with the equipment to do so, will be willing to use their time and resources on a chance to win a measly prize.
+
+Already we begin to scratch the surface of the reason for Monero’s tail emission. Monero too has a decreasing block reward, although unlike Bitcoin there are no halvenings. Instead, each block reward is a tiny amount less than the previous one, so the reduction is much smoother. But the question for all cryptocurrencies is: “What happens when the block reward hits zero?” This is a strange situation in which we both know and don’t know the answer. The part we know is that there will be no more block reward subsidy, which means miners will have to be incentivized by the user transaction fees alone. What we don’t know is if these amounts will be enough to keep the miners securing the chain.
+
+As mentioned earlier, at present time, the block reward outweighs the transaction fees by a substantial amount, so the hope is that, as more users use the chain, fees would increase, and with increased fees the miners will deem it worth their time to continue mining. There is another side to this scenario however, the side of the users. If fees increase, then it will become much more expensive to transact with cryptocurrency for everyone, potentially walling it off from those without sufficient monetary resources. But on the other hand, if the fees stay low and the block reward goes to zero, then very few miners will secure the network, leaving it vulnerable to 51% attacks and reversed transactions.
+
+Nobody has good answers for this scenario, and no major coin has yet entered this phase of their cryptocurrency's life, so we have no real-world experience with it either. It’s all speculation. A gamble. Bitcoin makes the bet that the fees will be enough to sustain the miners, even if it means excluding the impoverished. Monero makes a different bet. Monero bets that the fees alone would not be enough for chain security, so it includes a tail emission as part of the protocol.
+
+We remind the reader that the block reward will not fall below 0.6 XMR per block, ever. Will this be enough to incentivize miners? We don’t know, but it’s certainly better than 0, which is what almost every other currency has built in to their protocol.
+
+The main criticism levied against this approach is that this means Monero’s supply is theoretically infinite, causing inflation over time, while coins that cap the block reward have a finite supply, their scarcity increasing the value over time. We feel this argument is insufficient for several reasons.
+
+Firstly, what good is a scarce, high-value coin that is easily attacked, censored, and subverted due to low security? If anything, the low security would decrease the value, more than offsetting what increase the scarcity would provide. Secondly, though Monero’s supply is theoretically infinite, the inflation is linear and trends toward zero as a yearly percentage, unlike fiat which is exponential.
+
+Monero’s inflation is precisely known ahead of time, and can be accurately projected, unlike fiat which may increase by more or less on a given year based on the whims of the powers that be. This still preserves the cypherpunk spirit of removing the possibility of human corruption through protocol enforced technology. With the added benefit of the peace of mind that the security of Monero’s blockchain through mining will be around as long as the world needs it.
+
+The last point we want to touch on is one of fairness. Money is used in several ways, as a store of value, as a medium of exchange, and as a unit of account. In a system where supply is finite, inflation will stop, meaning that those that use it as a store of value use the system for free. They benefit from the continued security provided by the miners without paying anything for it, since without inflation, their money does not slowly lose value over time. Conversely, anyone who uses the currency as a medium of exchange gets penalized (via potentially high transaction fees). This will encourage people to hold but not spend, and skews the fairness of the system to favor holders. By having a tail emission, this evens out the equation. Now holders also pay a small tax, via inflation, for the system's security. The tail emission makes it more fair for everyone.
+
+Further reading
+
+  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies/)
+
+  * [Monero’s Ring Signatures vs CoinJoin Like in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Why (And How!) You Should Hold Your Own Keys](/knowledge/hold-your-keys/)
+
+  * [Contributing Back to Monero](/knowledge/contributing-to-monero/)
+
+  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy/)
+
+  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades/)
+
+  * [View Tags: How One Byte Will Reduce Monero Wallet Sync Times by 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool and Its Role in Decentralizing Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero/)
+
+  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect/)
+
+  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking/)
+
+  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams/)
+
+  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps/)
+
+  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking/)
+
+  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct/)
+
+  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses/)
+
+  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses/)
+
+  * [Monero Outputs Explained](/knowledge/monero-outputs/)
+
+  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices/)
+
+  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures/)
+
+  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag/)
+
+  * [A Brief History of Monero](/knowledge/monero-history/)
+
+  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked/)
+
+  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+
+  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion/)
+
+  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx/)
+
+  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better/)

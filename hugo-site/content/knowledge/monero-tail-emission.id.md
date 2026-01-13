@@ -1,0 +1,97 @@
+---
+title: "Mengapa Monero Memiliki Tail Emission"
+slug: "monero-tail-emission"
+date: "2020-07-30"
+image: "/images/emission.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Ketika kebanyakan orang berpikir tentang apa yang membedakan Monero, mereka berpikir tentang teknologi privasi Monero. Memang, sebagian besar akan mempertimbangkan privasi, dan fungibilitas yang dibukanya, sebagai ciri khas Monero, dan senjata utama yang dibawanya ke dalam ring jika dibandingkan dengan koin lainnya. Apa yang kebanyakan orang mungkin tidak tahu adalah bahwa Monero mengandung perbedaan protokol lain dari Bitcoin dan turunannya yang menurut beberapa orang sama pentingnya dengan teknologi privasi Monero. Pada artikel ini, kita akan melihat salah satunya: Tail Emission.
+
+Pertama, mari kita tentukan apa arti istilah ini. Tail Emission adalah subsidi tanpa henti dari hadiah blok, bahkan setelah Monero 'terakhir' dicetak. Dengan kata lain, hadiah blok Monero tidak akan pernah jatuh ke nol, melainkan jatuh hingga mencapai 0,6 XMR per blok, dan kemudian tetap di sana selamanya. Penambang akan selalu dibayar untuk menambang Monero, dan tidak akan pernah hanya mengandalkan pasar biaya.
+
+Tapi mari kita mundur sejenak, dan lihat penambangan pada level yang sangat tinggi. Penambang Monero diberi insentif untuk mengamankan jaringan dengan menambang hash. Insentifnya adalah kesempatan untuk membuat Monero jika mereka menemukan blok baru. Monero ini diberikan dalam dua cara. Pertama, penambang menerima biaya yang dibayarkan dari setiap pengguna yang membayar penyertaan transaksi mereka di blok. Ini adalah biaya transaksi yang Anda bayarkan saat mengirim transaksi. Kedua, penambang menerima jumlah Monero yang telah ditentukan sebelumnya dari protokol itu sendiri. Dalam kebanyakan kasus, 'hadiah blok' ini jauh lebih tinggi daripada biaya transaksi pengguna, dan di situlah penambang menghasilkan uang paling banyak. Imbalan blok ini berfungsi untuk membuat para penambang berinvestasi secara finansial dalam keamanan chain, tetapi juga untuk mendapatkan koin baru ke dalam sirkulasi.
+
+Di sebagian besar protokol mata uang kripto, hadiah blok ini akan berkurang seiring waktu. Sebagian besar turunan Bitcoin memiliki apa yang disebut halvening, titik waktu yang telah ditentukan sebelumnya di mana hadiah blok dibagi dua (seperti dari 20 BTC menjadi 10 BTC). Halvening ini terjadi setiap beberapa tahun, dan setiap kali hal itu terjadi, keamanan jaringan menurun. Mengapa? Nah, kami mendorong pembaca untuk membaca artikel [ kami tentang Penambangan dan RandomX ](/knowledge/monero-mining-randomx), dan dengan demikian mereka akan belajar bahwa penambangan adalah perlombaan. Hadiah blok hanya diberikan kepada mereka yang menemukan blok, dan ada banyak entitas yang bersaing untuk melakukannya. Ketika hadiahnya lebih tinggi, lebih banyak orang yang tertarik untuk memainkan permainan ini, sedangkan ketika hadiahnya rendah, lebih sedikit orang, bahkan mereka yang memiliki peralatan untuk melakukannya, akan bersedia menggunakan waktu dan sumber daya mereka untuk mendapatkan kesempatan memenangkan hadiah yang sangat sedikit.
+
+Kita sudah mulai menggores permukaan mengenai penyebab dari tail emission Monero. Monero juga memiliki hadiah blok yang menurun, meskipun tidak seperti Bitcoin, tidak ada halvening. Sebaliknya, setiap hadiah blok jumlahnya sedikit lebih sedikit dari yang sebelumnya, jadi pengurangannya jauh lebih mulus. Tetapi pertanyaan untuk semua mata uang kripto adalah: “Apa yang terjadi jika hadiah blok mencapai nol?” Ini adalah situasi yang aneh di mana kita berdua tahu dan tidak tahu jawabannya. Bagian yang kita ketahui adalah bahwa tidak akan ada lagi subsidi hadiah blok, yang berarti penambang harus diberi insentif hanya dengan biaya transaksi pengguna. Yang tidak kami ketahui adalah apakah jumlah ini akan cukup untuk membuat para penambang mengamankan chain tersebut.
+
+Seperti yang disebutkan sebelumnya, saat ini, hadiah blok melebihi biaya transaksi dengan jumlah yang substansial, jadi harapannya adalah, karena lebih banyak pengguna menggunakan chain, biaya akan meningkat, dan dengan peningkatan biaya, penambang akan menganggapnya layak bagi waktu mereka untuk digunakan melanjutkan penambangan. Namun ada sisi lain dari skenario ini, sisi pengguna. Jika biaya meningkat, maka akan menjadi jauh lebih mahal bagi semua orang untuk bertransaksi dengan mata uang kripto, berpotensi menutupi mereka yang tidak memiliki sumber daya moneter yang memadai. Namun di sisi lain, jika biaya tetap rendah dan hadiah blok menjadi nol, maka sangat sedikit penambang yang akan mengamankan jaringan, membuatnya rentan terhadap serangan 51% dan transaksi terbalik.
+
+Tidak ada yang memiliki jawaban bagus untuk skenario ini, dan belum ada koin besar yang memasuki fase ini di kehidupan cryptocurrency mereka, jadi kami juga tidak memiliki pengalaman dunia nyata dengannya. Itu semua spekulasi. Taruhan. Bitcoin bertaruh bahwa biayanya akan cukup untuk menopang para penambang, bahkan jika itu berarti mengecualikan mereka yang miskin. Monero membuat taruhan yang berbeda. Monero bertaruh bahwa biayanya saja tidak akan cukup untuk keamanan chain, sehingga memasukkan tail emission sebagai bagian dari protokol.
+
+Kami mengingatkan pembaca bahwa hadiah blok tidak akan pernah turun di bawah 0,6 XMR per blok. Apakah ini cukup untuk memberi insentif kepada penambang? Kami tidak tahu, tapi ini pasti lebih baik dari 0, yang oleh hampir semua mata uang lainnya telah dibangun ke dalam protokol mereka. 
+
+Kritik utama yang dilontarkan terhadap pendekatan ini adalah bahwa ini berarti persediaan Monero secara teoritis tidak terbatas, menyebabkan inflasi dari waktu ke waktu, sementara koin yang membatasi hadiah blok memiliki persediaan yang terbatas, kelangkaannya meningkatkan nilainya dari waktu ke waktu. Kami merasa argumen ini tidak cukup karena beberapa alasan.
+
+Pertama, apa gunanya koin langka bernilai tinggi yang mudah diserang, disensor, dan ditumbangkan karena keamanan yang rendah? Jika ada, keamanan yang rendah akan menurunkan nilai, lebih dari cukup untuk mengimbangi apa yang diberikan oleh peningkatan kelangkaan. Kedua, meskipun pasokan Monero secara teoritis tidak terbatas, inflasinya linier dan cenderung nol sebagai persentase tahunan, tidak seperti fiat yang bersifat eksponensial.
+
+Inflasi Monero diketahui dengan tepat sebelumnya, dan dapat diproyeksikan secara akurat, tidak seperti fiat yang dapat meningkat kurang lebih pada tahun tertentu berdasarkan keinginan kekuatan yang ada. Ini masih mempertahankan semangat cypherpunk untuk menghilangkan kemungkinan korupsi manusia melalui teknologi yang ditegakkan protokol. Dengan manfaat tambahan berupa ketenangan pikiran bahwa keamanan blockchain Monero melalui penambangan masih akan ada selama dunia membutuhkannya.
+
+Poin terakhir yang ingin kami sentuh adalah tentang keadilan. Uang digunakan dalam beberapa cara, sebagai penyimpan nilai, sebagai alat tukar, dan sebagai satuan hitung. Dalam sistem di mana persediaan terbatas, inflasi akan berhenti, artinya mereka yang menggunakannya sebagai penyimpan nilai menggunakan sistem itu secara gratis. Mereka mendapat manfaat dari keamanan berkelanjutan yang diberikan oleh para penambang tanpa membayar apa pun untuk itu, karena tanpa inflasi, uang mereka tidak secara perlahan-lahan kehilangan nilainya seiring berjalannya waktu. Sebaliknya, siapa pun yang menggunakan mata uang sebagai alat tukar akan dikenakan sanksi (melalui biaya transaksi yang berpotensi tinggi). Ini akan mendorong orang untuk memegang tetapi tidak membelanjakannya, dan merusak keadilan sistem, untuk mendukung pemegangnya. Dengan memiliki tail emission, hal ini meratakan persamaan. Sekarang pemegang juga membayar sedikit pajak, melalui inflasi, untuk keamanan sistem. Tail emission membuatnya lebih adil bagi semua orang.
+
+Bacaan lebih lanjut
+
+  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies/)
+
+  * [Ring signature Monero vs CoinJoin seperti di Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Mengapa (dan bagaimana!) Anda harus memegang kunci Anda sendiri](/knowledge/hold-your-keys/)
+
+  * [Berkontribusi kembali ke Monero](/knowledge/contributing-to-monero/)
+
+  * [Bagaimana node jarak jauh memengaruhi privasi Monero](/knowledge/remote-nodes-privacy/)
+
+  * [Bagaimana Monero menggunakan hard-fork untuk memutakhirkan jaringan](/knowledge/network-upgrades/)
+
+  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Apa yang Akan Dilakukannya untuk Monero](/knowledge/seraphis-for-monero/)
+
+  * [Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect/)
+
+  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking/)
+
+  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams/)
+
+  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps/)
+
+  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking/)
+
+  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct/)
+
+  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses/)
+
+  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses/)
+
+  * [Output Monero Dijelaskan](/knowledge/monero-outputs/)
+
+  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices/)
+
+  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures/)
+
+  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag/)
+
+  * [Sejarah Singkat Monero](/knowledge/monero-history/)
+
+  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked/)
+
+  * [Top 15 Mitos dan Kekhawatiran Monero Terbantahkan](/knowledge/monero-myths-debunked/)
+
+  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion/)
+
+  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx/)
+
+  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better/)

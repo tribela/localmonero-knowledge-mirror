@@ -1,0 +1,97 @@
+---
+title: "Varför Monero har en svans emission"
+slug: "monero-tail-emission"
+date: "2020-07-30"
+image: "/images/emission.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+När mest människor tänka av vad uppsättningar Monero åtskilda, de tänka deIngen har bra svar på det här scenariot, och inget större mynt har ännu kommit in i den här fasen av deras kryptovalutans liv, så vi har ingen verklig erfarenhet av det heller. Allt är spekulationer. En chansnin flesta människor tänker på vad som skiljer Monero åt, de tänker på Moneros sekretessteknik. Faktum är att de flesta skulle betrakta integriteten och fungibiliteten som Moneros definierande egenskap och det viktigaste vapnet som den tar med sig in i ringen jämfört med andra mynt. Vad de flesta kanske inte vet är att Monero innehåller andra protokollskillnader från Bitcoin och dess derivat som vissa skulle kunna hävda är lika viktiga som Moneros sekretessteknik. I den här artikeln ska vi titta närmare på en av dessa: tail emission.
+
+Låt oss först definiera vad denna term betyder. En tail emission är en oavbruten subvention av blockbelöningar, även efter att den 'sista' Moneron har präglats. Med andra ord kommer Moneros blockbelöning aldrig att falla till noll, utan snarare falla tills den når 0,6 XMR per block, och sedan stanna där för alltid. Gruvarbetare kommer alltid att få betalt för att bryta Monero, och kommer aldrig att behöva enbart förlita sig på en avgiftsmarknad.
+
+Men låt oss ta ett steg tillbaka ett ögonblick och titta på mining på en mycket hög nivå. Monero-miners har ett incitament att säkra ett nätverk genom att mina hashes. Incitamentet är möjligheten att tjäna Monero om de hittar ett nytt block. Denna Monero tilldelas på två sätt. Först får minern de betalda avgifterna för varje användare som betalat för att deras transaktion ska inkluderas i blocket. Detta är de transaktionsavgifter som du betalar när du skickar en transaktion. För det andra får mineraren en förutbestämd mängd Monero från själva protokollet. I de flesta fall är denna "blockbelöning" betydligt högre än användarnas transaktionsavgifter, och det är här miners tjänar mest pengar. Blockbelöningen används för att hålla miners finansiellt investerade i kedjans säkerhet, men också för att få nya mynt i omlopp.
+
+I de flesta kryptovalutaprotokoll är denna blockbelöning inställd på att minska över tid. De flesta Bitcoin-derivat har så kallade halvenings, förutbestämda tidpunkter då blockbelöningen halveras (t.ex. från 20 BTC till 10 BTC). Dessa halveringar inträffar med några års mellanrum, och varje gång det händer minskar säkerheten i nätverket. Hur kommer det sig? Tja, vi uppmuntrar läsaren att läsa vår [artikel om gruvdrift och RandomX](/knowledge/monero-mining-randomx), och genom att göra det kommer de att lära sig att gruvdrift är en tävling. Blockbelöningar delas bara ut till dem som hittar ett block, och det finns många enheter som konkurrerar om att göra det. När belöningarna är högre är fler människor intresserade av att spela detta spel, medan när belöningarna är låga är färre människor, även de som har utrustningen för att göra det, villiga att använda sin tid och sina resurser på en chans att vinna ett ynkligt pris.
+
+Vi börjar redan skrapa på ytan av orsaken till Moneros svansemission. Monero har också en minskande blockbelöning, men till skillnad från Bitcoin finns det inga halveringar. Istället är varje blockbelöning en liten mängd mindre än den föregående, så minskningen är mycket mjukare. Men frågan för alla kryptovalutor är: "Vad händer när blockbelöningen når noll?" Det här är en märklig situation där vi både vet och inte vet svaret. Den del vi vet är att det inte kommer att finnas någon mer blockbelöningssubvention, vilket innebär att miners måste uppmuntras enbart av användarnas transaktionsavgifter. Vad vi inte vet är om dessa belopp kommer att räcka för att hålla miners säkra i kedjan.
+
+Som nämnts tidigare, är blockbelöningen för närvarande betydligt större än transaktionsavgifterna, så förhoppningen är att avgifterna ska öka när fler användare använder kedjan, och med ökade avgifter kommer miners att anse att det är värt deras tid att fortsätta miningen. Det finns dock en annan sida av detta scenario, användarnas sida. Om avgifterna ökar kommer det att bli mycket dyrare att handla med kryptovaluta för alla, vilket potentiellt kan avskärma det från dem utan tillräckliga monetära resurser. Men å andra sidan, om avgifterna förblir låga och blockbelöningen går till noll, kommer väldigt få miners att säkra nätverket, vilket gör det sårbart för 51%-attacker och omvända transaktioner.
+
+Ingen har bra svar på detta scenario, och inget större mynt har ännu gått in i denna fas av sin kryptovalutas liv, så vi har ingen verklig erfarenhet av det heller. Allt är spekulation. En chansning. Bitcoin satsar på att avgifterna kommer att vara tillräckliga för att upprätthålla miners, även om det innebär att de fattiga exkluderas. Monero gör en annan satsning. Monero satsar på att enbart avgifterna inte skulle räcka till för kedjesäkerhet, så det inkluderar en tail emission som en del av protokollet.
+
+Vi påminner läsaren om att blockbelöningen inte kommer att sjunka under 0,6 XMR per block, någonsin. Kommer detta att vara tillräckligt för att stimulera miners? Vi vet inte, men det är definitivt bättre än 0, vilket är vad nästan alla andra valutor har byggt in i sitt protokoll.
+
+Den huvudsakliga kritiken mot detta tillvägagångssätt är att det innebär att Moneros utbud teoretiskt sett är oändligt, vilket orsakar inflation över tid, medan mynt som begränsar blockbelöningen har ett begränsat utbud och deras knapphet ökar värdet över tid. Vi anser att detta argument är otillräckligt av flera skäl.
+
+För det första, vad är det för nytta med ett sällsynt mynt av högt värde som lätt kan attackeras, censureras och undermineras på grund av låg säkerhet? Om något skulle den låga säkerheten minska värdet och mer än uppväga den ökning som knappheten skulle ge. För det andra, även om Moneros utbud är teoretiskt oändligt, är inflationen linjär och trender mot noll som en årlig procentandel, till skillnad från fiat som är exponentiell.
+
+Moneros inflation är exakt känd i förväg och kan beräknas exakt, till skillnad från fiat som kan öka med mer eller mindre under ett visst år baserat på makthavarnas nycker. Detta bevarar fortfarande cypherpunk andan att ta bort möjligheten till mänsklig korruption genom protokollförd teknik. Med den extra fördelen av sinnesro att säkerheten i Moneros blockkedja genom gruvdrift kommer att finnas så länge världen behöver det.
+
+Den sista punkten som vi vill beröra är rättvisan. Pengar används på flera sätt, som en värdebevarare, som ett bytesmedel och som en räkneenhet. I ett system där tillgången är begränsad kommer inflationen att upphöra, vilket innebär att de som använder dem som värdebevarare använder systemet gratis. De drar nytta av den fortsatta säkerhet som gruvarbetarna tillhandahåller utan att betala något för det, eftersom deras pengar utan inflation inte långsamt förlorar värde över tid. Omvänt straffas alla som använder valutan som ett bytesmedel (via potentiellt höga transaktionsavgifter). Detta kommer att uppmuntra människor att hålla men inte spendera, och snedvrider rättvisan i systemet för att gynna innehavare. Genom att ha ett svansutsläpp jämnar detta ut ekvationen. Nu betalar innehavarna också en liten skatt, via inflationen, för systemets säkerhet. Tail-emissionen gör det mer rättvist för alla.
+
+Vidare läsning
+
+  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies/)
+
+  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Varför (och hur!) du ska hålla i dina egna nycklar](/knowledge/hold-your-keys/)
+
+  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero/)
+
+  * [Hur fjärrnoder påverkar Moneros integritet](/knowledge/remote-nodes-privacy/)
+
+  * [Hur Monero använder hard-forks för att uppgradera nätverket](/knowledge/network-upgrades/)
+
+  * [Visa taggar: Hur en byte kommer att minska Monero plånbokssynkroniseringstider med 40% +](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Vad det kommer att göra för Monero](/knowledge/seraphis-for-monero/)
+
+  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Varför Monero är en bättre värdebevarare än Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect/)
+
+  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking/)
+
+  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams/)
+
+  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps/)
+
+  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking/)
+
+  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct/)
+
+  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses/)
+
+  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses/)
+
+  * [Monero Utgångar Förklaras](/knowledge/monero-outputs/)
+
+  * [Monero bästa praxis för nybörjare](/knowledge/monero-best-practices/)
+
+  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures/)
+
+  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag/)
+
+  * [En kort historia om Monero](/knowledge/monero-history/)
+
+  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked/)
+
+  * [Topp 15 Monero myter och bekymmer debunked](/knowledge/monero-myths-debunked/)
+
+  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion/)
+
+  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx/)
+
+  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better/)

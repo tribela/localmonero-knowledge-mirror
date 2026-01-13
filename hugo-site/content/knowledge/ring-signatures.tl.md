@@ -1,0 +1,107 @@
+---
+title: "Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero"
+slug: "ring-signatures"
+date: "2020-09-08"
+image: "/images/rings.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Kilala si Monero sa lahat ng dako sa crypto space bilang hari ng privacy coins. Bagama't alam ng lahat na nag-aalok ang Monero ng magandang privacy, hindi gaanong naiintindihan ng marami kung paano gumagana ang privacy.
+
+Maraming iba pang privacy coin ang nag-publish ng mga infographics ng chart ng paghahambing, na naglilista ng mga pangalan ng teknolohiya sa privacy ng bawat coin, at karamihan ay nilalagyan nila ng label ang teknolohiya ng Monero bilang RingCT, ngunit ito ay bahagyang totoo lamang. Ang Monero ay talagang may tatlong-prong na diskarte sa privacy. Isang teknolohiya para itago ang receiver ng isang transaksyon, isa para itago ang halagang ipinadala, at isa para itago ang output na ginamit, ito ay mga stealth address, RingCT, at mga ring signature ayon sa pagkakabanggit.
+
+Ang three-pronged approach na ito ay nangangahulugan na kung ang isa sa mga teknolohiya ay nasira, ang iba ay hindi kinakailangang magbahagi ng parehong kapalaran. Ang mga ring signature ay ang pinakamahina na link sa scheme ng privacy; ang salitang mahina dito ay nangangahulugang ang pinaka madaling kapitan sa heuristic attacks. Maglaan tayo ng ilang oras upang tuklasin ang mga ito, di ba?
+
+Tulad ng nabanggit sa itaas, ang layunin ng mga ring signature ay itago ang isang output na ginamit sa isang transaksyon. Kung ang terminolohiya ng 'input/output' ng cryptocurrency ay nakalilito sa iyo, huwag mag-alala. Sa totoo lang hindi ito kumplikado. Kapag narinig mo ang 'output' mag-isip lang ng tseke. Isa sa mga bagay na iyon, hindi na masyadong karaniwan, na ginagamit ng mga tao upang magbayad. Tulad ng tseke, maaari itong tukuyin sa anumang halaga - $10, $32.50, atbp - at ipinagpapalit sa pagitan ng mga nakikipagtransaksyon na partido. Para sa mga cryptocurrencies, ang mga output ay nagsisilbi sa mga function na ito.
+
+Kapag may nagbayad sa iyo ng 10 Monero, makakatanggap ka ng 10 XMR output. Ang output na ito ay may halaga (10), at ito ay kung ano ang kinuha mula sa wallet ng nagpadala, sa parehong paraan kapag nagbabayad ka para sa isang serbisyo, isang bill ang umalis sa iyong pisikal na wallet at ibibigay sa taong iyong binibili.
+
+Ang paraan ng pagtatago ng output ay sa pamamagitan ng paggawa ng singsing (kaya ang pangalan) ng mga decoy na output. Ngunit ang mga decoy na ito ay hindi 'pekeng' mga output'. Ang mga ito ay tunay na nakaraang mga output mula sa blockchain na walang kinalaman sa kasalukuyang transaksyon, ngunit sa isang tagamasid sa labas, ang bawat isa sa mga output na ito ay maaaring magmukhang pantay na malamang na ang tunay. Ang laki ng set ng mga decoy na output, kasama ang tunay na isa ay tinatawag na ringsize, at sa kasalukuyan ang Monero's ay labing-isa. Kaya mayroong sampung decoy output at isang tunay.
+
+Bakit hindi na lang natin dagdagan ang bilang na ito sa 100 o kahit 1000? The more the better, di ba? Well, mula sa isang pananaw sa privacy, oo, ngunit may iba pang mga bagay na dapat isaalang-alang. Bumalik tayo sa isang pisikal na halimbawa upang makita kung ano ang ibig kong sabihin. Kung gusto mong itago ang isa sa iyong mga perang papel sa sampung mga decoy, kakailanganin mong magdala ng labing-isang dolyar sa iyong wallet para sa bawat dolyar na gusto mong gastusin. Isang tunay na dolyar, at sampung peke. Ito ay nagiging medyo mahirap kung gusto mong gumastos ng kahit ilang dolyar. Ngayon isipin na tinaasan namin ang halaga ng decoy sa 1000. Para sa bawat isang dolyar na gusto mong gastusin, kakailanganin mong magdala ng humigit-kumulang 1001 dolyar. Kailangan mong magdala ng portpolyo para lang makabili ng isang candy bar! Mahalagang tandaan na ang mga pirma ng singsing ay hindi gumagana sa ganitong paraan, halimbawa, ang mga decoy mismo ay hindi bahagi ng lagda, mga sanggunian lamang sa mga ito, ngunit inaasahan namin na ang pagkakatulad na ito ay maaaring maging kapaki-pakinabang sa paglarawan ng mga pangunahing konsepto.< /p>
+
+Ang mga decoy sa blockchain ay gumagana nang katulad. Ang bawat idinagdag na decoy ay nagpapataas ng oras at gastos sa pag-verify ng transaksyon. Ang bawat node ay kailangang i-download ang buong ring signature para sa bawat transaksyon, at ang bawat ring signature ay naglalaman ng tunay na output, pati na rin ang mga decoy. Hindi lang iyon, ngunit kailangan nitong i-verify ang matematika na kahit isa sa mga output na ito ay totoo, at ang oras ng pag-verify ng matematika ay tumataas din sa bawat decoy. Nangangahulugan ito na kailangan nating makahanap ng isang masayang gitnang lupa, kung saan ang laki ng singsing ay sapat na malaki upang sapat na malabo ang tunay na output, kahit na laban sa maraming heuristic na pag-atake, ngunit sapat na maliit upang hindi maging sanhi ng pagtaas ng blockchain sa napakalaking rate. Hindi sapat na pumili ng arbitrary na numero, o dagdagan lang ang ringsize kapag ginawa naming mas maliit ang lagda (gaya ng sa CLSAG). Gusto ng komunidad ng Monero ng kongkreto, mathematical na ebidensya kung saan ang ringsize ay nag-aalok ng pinakamahusay na trade off. Masyadong maliit ang isang numero, at hindi magiging sapat na malakas ang privacy laban sa mga heuristic na pag-atake. Masyadong malaki, at maaaring maliit na benepisyo lang ang natatanggap namin sa panig ng privacy, at hindi na kailangang magdusa patungkol sa pag-scale.
+
+Isang huling bagay na babanggitin. Pinapasimple ng ilang literatura ng Monero at sinasabi na itinatago ng mga pirma ng singsing ang nagpadala, ngunit hindi ito ganap na totoo, at ang pagkakaiba ay hindi lamang nakakatuwang. Ang pagkakaiba sa pagitan ng nagpadala (isang tao) at isang output (isang bill) ay malaki pagdating sa pagpapanatili ng privacy. Habang ang isang output ay maaaring may kaugnayan sa isang nagpadala, ang isang output mismo ay hindi katumbas ng isang nagpadala. Kaya kahit na masira ang isang singsing signature, hindi ito kinakailangang mag-link sa pagkakakilanlan ng isang tao, at parehong nakatago ang halaga at ang receiver, na pinapaliit ang pinsalang nagawa sa privacy ng lahat ng partido.
+
+Hindi iyon nangangahulugan na ang isang sirang pirma ng singsing ay hindi gaanong mahalaga. Ang anumang na-leak na metadata ay masama, at may potensyal na magbunyag ng higit pang impormasyon kaysa sa aming iniisip, lalo na kapag ginamit kasabay ng iba pang metadata. Kaya't ginagawa namin ang aming makakaya upang matiyak na ang napiling ringsize ay may akademikong higpit sa likod ng desisyon, ang iba pang pagtagas ng metadata ay mababawasan, at ang mga karanasan ng user ay nagde-default sa pinakamahusay na posibleng mga aksyon.
+
+Ngunit kung ang posibilidad ng isang sirang lagda ay nag-aalala pa rin sa iyo, mabuti, may ilang hindi kapani-paniwalang balita sa abot-tanaw. Ang susunod na henerasyon ng mga protocol sa pagkapribado na ginagawa, gaya ng Triptych, Arcturus, at Lelantus, ay talagang may maayos na kakayahan. Sa mga protocol na ito, ang sukat ay logarithmically, hindi linearly, habang tumataas ang laki ng ring. Nangangahulugan ito na maaari tayong magkasya ng 100 decoy, ngunit ang space na ginamit ay mas malapit sa ringsize 10 sa lumang teknolohiya. Iyon ang pagkakaiba, at makabuluhang mapapabuti ang privacy sa lahat.
+
+Sa larong pusa at daga na privacy, patuloy na naninibago si Monero upang manatiling nangunguna sa curve at matiyak ang pinakamahusay na praktikal na privacy para sa lahat.
+
+Ang mga decoy sa blockchain ay gumagana nang katulad. Ang bawat idinagdag na decoy ay nagpapataas ng oras at gastos sa pag-verify ng transaksyon. Ang bawat node ay kailangang i-download ang buong ring signature para sa bawat transaksyon, at ang bawat ring signature ay naglalaman ng tunay na output, pati na rin ang mga decoy. Hindi lang iyon, ngunit kailangan nitong i-verify ang matematika na kahit isa sa mga output na ito ay totoo, at ang oras ng pag-verify ng matematika ay tumataas din sa bawat decoy. Nangangahulugan ito na kailangan nating makahanap ng isang masayang gitnang lupa, kung saan ang laki ng singsing ay sapat na malaki upang sapat na malabo ang tunay na output, kahit na laban sa maraming heuristic na pag-atake, ngunit sapat na maliit upang hindi maging sanhi ng pagtaas ng blockchain sa napakalaking rate. Hindi sapat na pumili ng arbitrary na numero, o dagdagan lang ang ringsize kapag ginawa naming mas maliit ang lagda (gaya ng sa CLSAG). Gusto ng komunidad ng Monero ng kongkreto, mathematical na ebidensya kung saan ang ringsize ay nag-aalok ng pinakamahusay na trade off. Masyadong maliit ang isang numero, at hindi magiging sapat na malakas ang privacy laban sa mga heuristic na pag-atake. Masyadong malaki, at maaaring maliit na benepisyo lang ang natatanggap namin sa panig ng privacy, at hindi na kailangang magdusa patungkol sa pag-scale.
+
+Isang huling bagay na babanggitin. Pinapasimple ng ilang literatura ng Monero at sinasabi na itinatago ng mga pirma ng singsing ang nagpadala, ngunit hindi ito ganap na totoo, at ang pagkakaiba ay hindi lamang nakakatuwang. Ang pagkakaiba sa pagitan ng nagpadala (isang tao) at isang output (isang bill) ay malaki pagdating sa pagpapanatili ng privacy. Habang ang isang output ay maaaring may kaugnayan sa isang nagpadala, ang isang output mismo ay hindi katumbas ng isang nagpadala. Kaya kahit na masira ang isang singsing signature, hindi ito kinakailangang mag-link sa pagkakakilanlan ng isang tao, at parehong nakatago ang halaga at ang receiver, na pinapaliit ang pinsalang nagawa sa privacy ng lahat ng partido.
+
+Hindi iyon nangangahulugan na ang isang sirang pirma ng singsing ay hindi gaanong mahalaga. Ang anumang na-leak na metadata ay masama, at may potensyal na magbunyag ng higit pang impormasyon kaysa sa aming iniisip, lalo na kapag ginamit kasabay ng iba pang metadata. Kaya't ginagawa namin ang aming makakaya upang matiyak na ang napiling ringsize ay may akademikong higpit sa likod ng desisyon, ang iba pang pagtagas ng metadata ay mababawasan, at ang mga karanasan ng user ay nagde-default sa pinakamahusay na posibleng mga aksyon.
+
+Ngunit kung ang posibilidad ng isang sirang lagda ay nag-aalala pa rin sa iyo, mabuti, may ilang hindi kapani-paniwalang balita sa abot-tanaw. Ang susunod na henerasyon ng mga protocol sa pagkapribado na ginagawa, gaya ng Triptych, Arcturus, at Lelantus, ay talagang may maayos na kakayahan. Sa mga protocol na ito, ang sukat ay logarithmically, hindi linearly, habang tumataas ang laki ng ring. Nangangahulugan ito na maaari tayong magkasya ng 100 decoy, ngunit ang space na ginamit ay mas malapit sa ringsize 10 sa lumang teknolohiya. Iyon ang pagkakaiba, at makabuluhang mapapabuti ang privacy sa lahat.
+
+Sa larong pusa at daga na privacy, patuloy na naninibago si Monero upang manatiling nangunguna sa curve at matiyak ang pinakamahusay na praktikal na privacy para sa lahat.
+
+Karagdagang pagbabasa
+
+  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies/)
+
+  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys/)
+
+  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero/)
+
+  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy/)
+
+  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades/)
+
+  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero/)
+
+  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect/)
+
+  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking/)
+
+  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams/)
+
+  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps/)
+
+  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking/)
+
+  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct/)
+
+  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses/)
+
+  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses/)
+
+  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs/)
+
+  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices/)
+
+  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag/)
+
+  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission/)
+
+  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history/)
+
+  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked/)
+
+  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+
+  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion/)
+
+  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx/)
+
+  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better/)

@@ -1,0 +1,97 @@
+---
+title: "Bakit May Tail Emission ang Monero"
+slug: "monero-tail-emission"
+date: "2020-07-30"
+image: "/images/emission.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Kapag iniisip ng karamihan sa mga tao kung ano ang pinagkaiba ni Monero, iniisip nila ang teknolohiya ng privacy ng Monero. Sa katunayan, isasaalang-alang ng karamihan ang pagkapribado, at ang pagiging naa-unlock nito, bilang pangunahing katangian ni Monero, at ang pangunahing sandata na dinadala nito sa singsing kung ihahambing sa iba pang mga barya. Ang maaaring hindi alam ng karamihan sa mga tao ay ang Monero ay naglalaman ng iba pang mga pagkakaiba sa protocol mula sa Bitcoin at mga derivatives nito na maaaring ipagtatalunan ng ilan ay kasinghalaga ng mga teknolohiya sa privacy ng Monero. Sa artikulong ito, titingnan natin ang isa sa mga ito: ang tail emission.
+
+Una, tukuyin natin kung ano ang ibig sabihin ng terminong ito. Ang tail emission ay isang walang tigil na subsidy ng block rewards, kahit na matapos ang 'huling' Monero ay nai-minted. Sa madaling salita, ang block reward ni Monero ay hindi kailanman bababa sa zero, ngunit sa halip ay babagsak ito hanggang umabot ito sa 0.6 XMR bawat block, at pagkatapos ay manatili doon magpakailanman. Ang mga minero ay palaging babayaran sa minahan ng Monero, at hindi na kailangang umasa lamang sa isang market ng bayad.
+
+Ngunit bumalik tayo saglit, at tingnan ang pagmimina sa napakataas na antas. Ang mga minero ng Monero ay binibigyang-insentibo upang ma-secure ang isang network sa pamamagitan ng pagmimina ng mga hash. Ang insentibo ay ang pagkakataong gumawa ng Monero kung makakita sila ng bagong block. Ang Monero na ito ay iginawad sa dalawang paraan. Una, natatanggap ng minero ang mga bayad na bayarin ng bawat user na nagbayad para sa pagsasama ng kanilang transaksyon sa block. Ito ang mga bayarin sa transaksyon na babayaran mo kapag nagpadala ka ng transaksyon. Pangalawa, ang minero ay tumatanggap ng paunang natukoy na halaga ng Monero mula sa protocol mismo. Sa karamihan ng mga kaso, ang 'block reward' na ito ay higit na mataas kaysa sa mga bayarin sa transaksyon ng user, at kung saan kumikita ang mga minero. Ang block reward na ito ay nagsisilbing panatilihing pinansiyal na namumuhunan ang mga minero sa seguridad ng chain, ngunit para rin magkaroon ng mga bagong barya sa sirkulasyon.
+
+Sa karamihan ng mga protocol ng cryptocurrency, nakatakdang bumaba ang block reward na ito sa paglipas ng panahon. Karamihan sa mga Bitcoin derivatives ay may tinatawag na halvenings, mga paunang natukoy na punto sa oras kung saan ang block reward ay nahahati (tulad ng mula 20 BTC hanggang 10 BTC). Nangyayari ang mga halvening na ito kada ilang taon, at sa tuwing mangyayari ito, bumababa ang seguridad sa network. Bakit? Kaya, hinihikayat namin ang mambabasa na basahin ang aming [artikulo sa Pagmimina at RandomX](/knowledge/monero-mining-randomx), at sa paggawa nito ay malalaman nila na ang pagmimina ay isang lahi. Ibinibigay lang ang mga reward sa block sa mga nakahanap ng block, at maraming entity na nakikipagkumpitensya para gawin ito. Kapag mas mataas ang mga gantimpala, mas maraming tao ang interesadong maglaro ng larong ito, samantalang kapag mababa ang mga gantimpala, mas kaunting tao, kahit na ang mga may kagamitan para gawin ito, ay handang gamitin ang kanilang oras at mga mapagkukunan sa pagkakataong manalo ng napakaliit. premyo.
+
+Nagsisimula na kaming scratch the surface of the reason for Monero's tail emission. Ang Monero ay mayroon ding bumababa na gantimpala sa block, bagama't hindi katulad ng Bitcoin ay walang mga halvenings. Sa halip, ang bawat block reward ay isang maliit na halaga na mas mababa kaysa sa nauna, kaya ang pagbabawas ay mas maayos. Ngunit ang tanong para sa lahat ng cryptocurrencies ay: "Ano ang mangyayari kapag ang block reward ay umabot sa zero?" Ito ay isang kakaibang sitwasyon kung saan pareho nating alam at hindi alam ang sagot. Ang bahaging alam namin ay wala nang block reward subsidy, na nangangahulugang ang mga minero ay kailangang bigyan ng insentibo sa pamamagitan lamang ng mga bayarin sa transaksyon ng user. Ang hindi namin alam ay kung sapat ba ang mga halagang ito para panatilihing secure ng mga minero ang chain.
+
+Tulad ng nabanggit kanina, sa kasalukuyang panahon, mas malaki ang halaga ng block reward sa mga bayarin sa transaksyon, kaya ang pag-asa ay, habang mas maraming user ang gumagamit ng chain, tataas ang mga bayarin, at kapag tumaas ang mga bayarin ay ituturing ng mga minero na sulit ito. ang kanilang oras upang ipagpatuloy ang pagmimina. May isa pang panig sa senaryo na ito gayunpaman, ang panig ng mga gumagamit. Kung tataas ang mga bayarin, magiging mas mahal ang pakikipagtransaksyon sa cryptocurrency para sa lahat, na posibleng iwasan ito mula sa mga walang sapat na mapagkukunan ng pera. Ngunit sa kabilang banda, kung ang mga bayarin ay mananatiling mababa at ang block reward ay magiging zero, kung gayon napakakaunting mga minero ang magse-secure sa network, na magiging bulnerable sa 51% na pag-atake at mga binaliktad na transaksyon.
+
+Walang sinuman ang may magagandang sagot para sa sitwasyong ito, at wala pang malaking coin ang pumasok sa yugtong ito ng buhay ng kanilang cryptocurrency, kaya wala rin kaming karanasan dito sa totoong mundo. Ang lahat ng ito ay haka-haka. Isang sugal. Ang Bitcoin ay tumataya na ang mga bayarin ay magiging sapat upang mapanatili ang mga minero, kahit na nangangahulugan ito na hindi kasama ang mga naghihirap. Gumagawa ng ibang taya si Monero. Tinataya ni Monero na ang mga bayarin lamang ay hindi magiging sapat para sa seguridad ng chain, kaya may kasama itong tail emission bilang bahagi ng protocol.
+
+Paalalahanan namin ang mambabasa na ang block reward ay hindi bababa sa 0.6 XMR bawat block, kailanman. Sapat na ba ito para bigyan ng insentibo ang mga minero? Hindi namin alam, ngunit tiyak na mas mahusay ito kaysa sa 0, na kung ano ang halos lahat ng iba pang currency ay naka-built in sa kanilang protocol.
+
+Ang pangunahing batikos na ipinapataw laban sa diskarteng ito ay ang ibig sabihin nito ay theoretically infinite ang supply ng Monero, na nagdudulot ng inflation sa paglipas ng panahon, habang ang mga coin na sumasaklaw sa block reward ay may hangganang supply, ang kanilang kakulangan ay tumataas ang halaga sa paglipas ng panahon. Sa palagay namin ay hindi sapat ang argumentong ito para sa ilang kadahilanan.
+
+Una, ano ang silbi ng isang kakaunting, mataas na halaga na barya na madaling inaatake, ma-censor, at masira dahil sa mababang seguridad? Kung mayroon man, mababawasan ng mababang seguridad ang halaga, higit pa sa pag-offset sa kung anong pagtaas ang ibibigay ng kakulangan. Pangalawa, kahit na ang supply ng Monero ay theoretically infinite, ang inflation ay linear at tungo sa zero bilang taunang porsyento, hindi tulad ng fiat na exponential.
+
+Ang inflation ng Monero ay tiyak na nalalaman nang maaga, at maaaring tumpak na hulaan, hindi katulad ng fiat na maaaring tumaas nang higit pa o mas kaunti sa isang partikular na taon batay sa mga kapritso ng mga kapangyarihan. Pinapanatili pa rin nito ang diwa ng cypherpunk na alisin ang posibilidad ng katiwalian ng tao sa pamamagitan ng teknolohiyang ipinapatupad ng protocol. Sa dagdag na benepisyo ng kapayapaan ng isip na ang seguridad ng blockchain ng Monero sa pamamagitan ng pagmimina ay mananatili hangga't kailangan ito ng mundo.
+
+Ang huling puntong gusto naming talakayin ay ang pagiging patas. Ginagamit ang pera sa maraming paraan, bilang isang tindahan ng halaga, bilang isang daluyan ng palitan, at bilang isang yunit ng account. Sa isang sistema kung saan ang supply ay may hangganan, ang inflation ay titigil, ibig sabihin, ang mga gumagamit nito bilang isang tindahan ng halaga ay gumagamit ng sistema nang libre. Nakikinabang sila sa patuloy na seguridad na ibinibigay ng mga minero nang walang binabayaran para dito, dahil kung walang inflation, ang kanilang pera ay hindi dahan-dahang nawawalan ng halaga sa paglipas ng panahon. Sa kabaligtaran, ang sinumang gagamit ng currency bilang medium of exchange ay mapaparusahan (sa pamamagitan ng potensyal na mataas na bayarin sa transaksyon). Hikayatin nito ang mga tao na humawak ngunit hindi gumastos, at pinipihit ang pagiging patas ng sistema upang paboran ang mga may hawak. Sa pamamagitan ng pagkakaroon ng tail emission, pinapapantay nito ang equation. Ngayon ang mga may hawak ay nagbabayad din ng maliit na buwis, sa pamamagitan ng inflation, para sa seguridad ng system. Ang tail emission ay ginagawa itong mas patas para sa lahat.
+
+Karagdagang pagbabasa
+
+  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies/)
+
+  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys/)
+
+  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero/)
+
+  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy/)
+
+  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades/)
+
+  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero/)
+
+  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect/)
+
+  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking/)
+
+  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams/)
+
+  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps/)
+
+  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking/)
+
+  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct/)
+
+  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses/)
+
+  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses/)
+
+  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs/)
+
+  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices/)
+
+  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures/)
+
+  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag/)
+
+  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history/)
+
+  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked/)
+
+  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+
+  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion/)
+
+  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx/)
+
+  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better/)

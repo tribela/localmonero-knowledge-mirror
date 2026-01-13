@@ -1,0 +1,93 @@
+---
+title: "Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó"
+slug: "monero-networking"
+date: "2020-11-11"
+image: "/images/networking.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Nem kéne meglepetést okoznia annak, hogy a Monero, és az összes többi kriptovaluta az interneten keresztül működik. Mégis, bár ez alapvetőnek és nyilvánvalónak tűnik, sokan nem gondolják végig, hogy ez mit jelent a magánéletükre nézve. Más szóval, vannak dolgok, ami ellen a Monero meg tud védeni és vannak amiktől nem, pusztán az internet természeténél fogva. Ezen megfontolások némelyike pusztán kellemetlenség, míg mások sokkal komolyabbak egy olyan helyzetben, ahol teljes titoktartásra van szükség. Szánjunk időt arra, hogy megértsük, hogyan lépnek kapcsolatba egymással a Monero-felhasználók a hálózaton, és mit jelent ez az adataik szempontjából.
+
+A dolgok triviális végén kezdve, ha a felhasználó nem fér hozzá az internethez, nem tud új blokkokat letölteni, mások tranzakcióit terjeszteni, és nem képes saját tranzakciókat kezdeményezni. Érdekesség, hogy egy teljes csomóponttal rendelkező, internet-hozzáférés nélküli felhasználó hozhat létre offline tranzakciót, amelyet később el lehet küldeni. Ez azért van, mert egy gyűrűs aláírásnak csak a blokklánc kimeneteire van szüksége, amik között elrejtőzhet. Egy rövid emlékeztető a [ gyűrűs aláírások működéséről](/knowledge/ring-signatures): elrejti a felhasználó által küldött valódi kimenetet a múltból kiválasztott, nem kapcsolódó kimenetek között. Ha a felhasználó hozzáfér ilyen kimenetekhez egy teljesen letöltött blokklánc (teljes csomópont) formájában, akkor képes gyűrűs aláírást létrehozni a múltbeli kimenetekből, és amint az internetkapcsolat helyreáll, továbbíthatja a tranzakciót a hálózatra.
+
+Egy távoli csomópontot használó felhasználó ezt nem tudja megtenni, mivel amikor létrehozza gyűrűaláírását, kapcsolatba kell lépnie egy távoli csomóponttal további kimenetekért. Az internet hiánya azt jelenti, hogy nem éri el ezt a csomópontot, így nem rendelkezik offline tranzakciók létrehozásának lehetőségével.
+
+Mielőtt folytatnánk az adatvédelmi megfontolásokat, tekintsük át röviden az internet egészének működését. Az internet nem más, mint a számítógépek összekapcsolása más számítógépekkel. Ennyi. A blog, amit szívesen olvas? Csak néhány fájl, amelyet valaki más számítógépén tárolnak. Ez a webhely, amelyen ezt a cikket olvassa (LocalMonero)? Egy számítógépen tárolt fájlok és kód. Még az őrült nagy oldalak is így működnek. Vegyük például a YouTube-ot. Csupán tárolt videók a Google gigantikus számítógépes rendszerein, amihez csatlakozik, hogy letöltse a videót a saját számítógépére a megtekintéshez.
+
+Ezek a számítógépek úgy tudják megkülönböztetni egymást, hogy minden internethez csatlakozó számítógép egyedi azonosítót kap, amit IP-címnek neveznek. Ezek általában számok négy, pontokkal elválasztott csoportja, például: 172.66.35.7. Fontos ezt észben tartani, amikor átgondoljuk, hogy a Monero információi hogyan közlekednek az interneten. A Monero egy peer-to-peer hálózat (P2P), ami azt jelenti, hogy a számítógépek közvetlenül csatlakoznak egymáshoz, nem pedig közvetítőt használnak. Tehát amikor a felhasználó teljes csomópontja egy újonnan felfedezett blokkot tölt le, azt nem egy központi szerverről teszi, hanem a társaitól. Ennek az a hátránya, hogy a felhasználók megtudják egymás IP-címét.
+
+Nos? Ez a hatalmas probléma? Ez csak egy szám, igaz? Nem egészen. Az IP-címek maguk is információt tartalmaznak a felhasználóról, például a tartózkodási országról és a hálózat szolgáltatójáról, de ami még rosszabb, az internetszolgáltatók (ISP) tudják minden egyes szolgáltatásukat használó személy IP-címét. Ez azt jelenti, hogy ezek a szolgáltatók és azok, akikkel együttműködnek, megfigyelhetik a felhasználó internetes forgalmát, és néhány trükk bevetésével felfedezhetik, hogy Monerot használ. Mielőtt megijedne, figyelje meg a pontos megfogalmazást. Ezek a leskelődők csak azt látják, hogy valaki csatlakozik a Monero hálózat más csomópontjaihoz. A Monero adatvédelmi technológiája miatt semmi más nem szivárog ki az egyénről. Nem látszik, hogy futtatnak-e csomópont, vagy küldenek-e tranzakciókat, és ha küldenek is tranzakciót, annak tartalma nem ismert. Az internetszolgáltatók csak annyit láthatnak, hogy az egyik felhasználójuk csatlakozik a Monero hálózathoz.
+
+Namost, egyesek számára vagy bizonyos helyeken ez az információ már önmagában is elegendő lehet, hogy kárt tegyen a hírnevében vagy a szabadságában. Vagy talán elfogadhatatlannak tartja, hogy bárki bármilyen okból megsértse a magánéletét vagy lássa, amit az interneten tesz. Ezeket az egyéneket arra bátorítjuk, hogy csak VPN, Tor vagy I2P használatával csatlakozzanak a Monero hálózathoz, amelyek mindegyike olyan szolgáltatás, amely elrejti a felhasználó IP-címét mások elől, valamint a felhasználó tevékenységét az internetszolgáltató elől. E szolgáltatások közötti különbségek túlmutatnak jelen cikk keretein, de rengeteg jó minőségű írás lelhető fel a témában, ezért az érintett felhasználókat arra biztatjuk, hogy tájékozódjanak tovább a témában!
+
+A többiek tán azt gondolhatják, hogy nem nagy ügy, ha mások tudják, hogy csatlakoznak a Monero hálózathoz. Hiszen a tranzakcióink tényleges tartalma, vagy hogy küldünk-e egyáltalán, a nyilvánosság előtt rejtve marad, mi baj történhet? Bár ez igaz lehet, a felhasználóknak azt ajánljuk, vegyék fontolóra a kriptovaluták fő vonzerejét, hogy mindenki a saját bankja lehet. Amikor a saját privát kulcsáért felel, és valami történik vele, senki nem segíthet az elveszett pénz visszaszerzésében.
+
+A saját bankjának lenni azt jelenti, hogy nem csak a digitális, hanem a fizikai biztonságát is figyelembe kell venni. Könnyen előfordulhat, hogy a Monero hálózathoz csatlakozva nem kívánt figyelmet von magára, nem feltétlenül olyan méretű szereplők részéről, mint a nemzetállamok, hanem önös érdeküket követő egyénekét, mint például a könnyű pénzre vágyó számítógépes bűnözők. Számtalan történet létezik a kriptográfiai térben ilyen esetek tényleges megtörténtéről.
+
+Ennek a cikknek nem célja a félelemkeltés vagy megfélemlítés, hanem arra szeretné ösztönözni a felhasználót, hogy keressék meg a számukra megfelelő védelmet azt internetes böngészéshez. A jó hír az, hogy ezek a készségek az általános internethasználatnál is javukra válnak, nem csak a Monero esetében, és mint ilyenek, az egyre inkább internetre kapcsolt világunkban egy talpraesett felhasználó nem tévedhet nagyot, ha megfelelő tudást és készségeket halmoz fel a biztonsága érdekében, hogy valóban hatékonyan lehessen a saját bankja.
+
+További olvasnivaló
+
+  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies/)
+
+  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys/)
+
+  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero/)
+
+  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy/)
+
+  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades/)
+
+  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero/)
+
+  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup/)
+
+  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value/)
+
+  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect/)
+
+  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking/)
+
+  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams/)
+
+  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps/)
+
+  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct/)
+
+  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses/)
+
+  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses/)
+
+  * [Monero kimenetek magyarázata](/knowledge/monero-outputs/)
+
+  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices/)
+
+  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures/)
+
+  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size/)
+
+  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag/)
+
+  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission/)
+
+  * [A Monero rövid története](/knowledge/monero-history/)
+
+  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked/)
+
+  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked/)
+
+  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion/)
+
+  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx/)
+
+  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better/)

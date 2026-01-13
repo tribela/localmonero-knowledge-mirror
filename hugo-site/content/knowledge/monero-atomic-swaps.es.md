@@ -1,0 +1,97 @@
+---
+title: "Cómo funcionarán los intercambios atómicos en Monero"
+slug: "monero-atomic-swaps"
+date: "2020-11-18"
+image: "/images/atomic.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+En la búsqueda de la descentralización y un sistema verdaderamente sin permisos, pocas cosas son tan codiciadas en el espacio de las criptomonedas como los intercambios descentralizados y los intercambios atómicos. Desde sus inicios, Monero ha tenido problemas para implementar intercambios atómicos, ya que las características de privacidad crean problemas únicos al intentar diseñar un protocolo.
+
+Pero primero, retrocedamos. ¿Qué son los intercambios atómicos? Un intercambio atómico es un protocolo mediante el cual dos criptomonedas diferentes, en diferentes cadenas de bloques, se pueden intercambiar de manera confiable y sin intermediarios. Esto significa que si alguien quisiera cambiar la criptomoneda A por la criptomoneda B, podría hacerlo sin un intercambio, centralizado o descentralizado. Como se puede imaginar, esto requiere una investigación considerable y los detalles técnicos completos que lo hacen posible se vuelven bastante complicados. Una vez más, LocalMonero está aquí para ayudar y dar una explicación simple para la persona común.
+
+Para empezar, consideremos la forma más simple de intercambio atómico, implementada por Bitcoin. Si alguien quiere intercambiar Bitcoin por otra moneda que use la misma tecnología de contrato de bloqueo de tiempo hash, puede hacerlo de la siguiente manera. Alice tiene Bitcoin (BTC), pero quiere Litecoin (LTC), y Bob tiene LTC, pero quiere BTC. Deciden hacer un intercambio atómico para que cada uno obtenga la moneda que quiera. Alice envía su BTC a una dirección especial, utilizando scripts que bloquean los fondos para que ni siquiera ella pueda acceder a ellos. Puedes pensar en ello como si Alice pusiera su BTC en una caja de seguridad. Cuando se hace la caja de seguridad, obtiene una llave y envía un hash de esta llave a Bob. Ahora Bob no tiene la clave en sí, solo el hash, por lo que aún no puede acceder a los fondos.
+
+Bob usa este hash como semilla a partir de la cual genera su propia caja de seguridad y envía su LTC allí, donde también está bloqueado. Dado que el hash de la llave de Alice se utilizó como semilla mediante la cual se hizo la caja de seguridad de Bob, ella puede usar su llave para reclamar el LTC en la caja de seguridad de Bob. ¡Su llave encaja! Pero, usando magia vudú matemática, cuando usa su llave para abrir la cerradura LTC, le revela la llave a Bob, quien luego puede usarla para reclamar el BTC que puso en su caja de seguridad. De esta manera, sin intermediarios, Alice y Bob han intercambiado sus activos con éxito.
+
+Pero hay un pequeño problema. ¿Qué pasa si Alice envía a su caja de seguridad y Bob decide que ya no quiere comerciar? Ahora, dado que Alice no puede acceder a su BTC que bloqueó y Bob no completará su parte de la transacción, Alice simplemente pierde su dinero para siempre. Bueno, afortunadamente, Bitcoin tiene una pequeña tecnología llamada transacciones de reembolso, por lo que después de un período de tiempo, si Bob no reclama el BTC, los scripts tienen un sistema de seguridad integrado, donde el BTC volverá automáticamente a Alice. Este fue el aumento de velocidad principal para la implementación de intercambios atómicos de Monero. Debido a la [tecnología de privacidad de firmas de anillo de Monero](/knowledge/ring-signatures), el remitente de una transacción siempre es incierto. ¿Cómo puede el protocolo realizar una transacción de reembolso si ni siquiera sabe de dónde vino la transacción?
+
+En 2017, un pequeño grupo de investigadores describió un método diferente mediante el cual los intercambios atómicos funcionarían en Monero. Después de varios años de refinamiento, los investigadores finalizaron un proceso mediante el cual Monero podría realizar intercambios atómicos con Bitcoin, incluso sin transacciones de reembolso.
+
+Al igual que con muchas cosas de este nivel de complejidad técnica, nuestra explicación simplificará demasiado algunas cosas para transmitir la idea, pero aún así dará una idea sólida de los mecanismos por los cuales este proceso funcionaría.
+
+Tanto Alice (que tiene XMR y quiere BTC) como Bob (que tiene BTC y quiere XMR) deben descargar y ejecutar un programa que admita el intercambio atómico. Esto puede implementarse en billeteras, intercambios descentralizados o programas especiales y específicos, pero el software debe ejecutar el protocolo de intercambio atómico. En el primer paso, los clientes de Alice y Bob se conectan entre sí y crean varios secretos y claves compartidos. En este paso, se crea una nueva dirección de Monero, con Alice con la mitad de la clave y Bob con la otra. Sin embargo, todavía no hay Monero allí, por lo que no hay nada para gastar. Una última cosa a tener en cuenta sobre esta dirección es que ambos tienen la tecla de vista de esta billetera, por lo que ambos pueden mirar adentro para ver si llega Monero o cuándo.
+
+En el segundo paso, Bob envía su BTC a una dirección especial, similar al protocolo de intercambio atómico de Bitcoin que ya hemos discutido. Después de que Alice ve que el BTC llega a esta dirección en la cadena de bloques, envía su Monero a la dirección de Monero a la que ella y Bob tienen la mitad de una clave. Bob puede verificar que el Monero llegó ya que él también tiene la clave de vista, y una vez que ve que el Monero está seguro en la billetera, le envía a Alice una pieza de una clave que le permitirá retirar el Bitcoin. Al igual que en el otro protocolo, el proceso de reclamar Bitcoin revela su mitad de la clave Monero a Bob. Ahora Bob tiene ambas mitades, por lo que puede reclamar el Monero, mientras que Alice solo tiene su mitad, por lo que no puede intentar tomarlo antes que él.
+
+Entonces, si analizó todo esto y todavía está un poco confundido acerca de cómo Monero pudo solucionar el problema de las transacciones de reembolso, la respuesta es bastante simple. Dado que Monero en sí no tiene transacciones de reembolso, el lector debe notar que el Bitcoin (que sí tiene transacciones de reembolso) se envía primero, y solo después de que se verifica que está en la cadena de bloques se envía el Monero. Esto permite a Monero utilizar la capacidad de Bitcoin para escribir en transacciones de reembolso y aprovecharlas, sin necesidad de tener estas capacidades en sí.
+
+El intercambio atómico ahora está completo, pero a partir de aquí, Bob tiene un par de opciones para su XMR recién reclamado. Puede usar esta billetera Monero tal cual, o mover el XMR a otra billetera que ya posee. Lo más probable es que Bob mueva el Monero a otra billetera, porque Alice todavía tiene la tecla de visualización y puede ver el interior.
+
+La belleza de este protocolo es que todavía es bastante nuevo y hay mucho espacio para optimizaciones. También es bastante flexible en su arquitectura, por lo que la implementación en otras billeteras o intercambios descentralizados debe ser simple y adaptarse perfectamente a su arquitectura existente.
+
+Otras lecturas
+
+  * [Cómo Monero permite de forma única las economías circulares](/knowledge/monero-circular-economies/)
+
+  * [Las firmas del anillo de Monero contra CoinJoin como en Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Por qué (y cómo) deberías tener tus propias llaves](/knowledge/hold-your-keys/)
+
+  * [Contribuyendo a Monero](/knowledge/contributing-to-monero/)
+
+  * [Cómo afectan los nodos remotos a la privacidad de Monero](/knowledge/remote-nodes-privacy/)
+
+  * [Cómo Monero utiliza las horquillas para actualizar la red](/knowledge/network-upgrades/)
+
+  * [Ver etiquetas: Cómo un byte reducirá los tiempos de sincronización de la cartera de Monero en más de un 40%](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool y su papel en la descentralización de la minería de Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Lo que hará por Monero](/knowledge/seraphis-for-monero/)
+
+  * [¿Es la conversión de Bitcoin a Monero tan privada como la compra directa de Monero?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Por qué Monero utiliza una configuración sin confianza a diferencia de Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Por qué Monero es una mejor reserva de valor que Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Cómo Monero puede superar los efectos de red de Bitcoin](/knowledge/network-effect/)
+
+  * [Por qué Monero tiene la comunidad de pensamiento más crítica](/knowledge/critical-thinking/)
+
+  * [Estafas a tener en cuenta al usar Monero](/knowledge/monero-scams/)
+
+  * [Lo que todo usuario de Monero necesita saber cuando se trata de redes](/knowledge/monero-networking/)
+
+  * [Cómo RingCT oculta los importes de las transacciones de Monero](/knowledge/monero-ringct/)
+
+  * [Cómo las direcciones de Monero Stealth protegen su identidad](/knowledge/monero-stealth-addresses/)
+
+  * [Cómo las subdirecciones de Monero previenen la vinculación de identidades](/knowledge/monero-subaddresses/)
+
+  * [Explicación de las salidas de Monero](/knowledge/monero-outputs/)
+
+  * [Mejores prácticas de Monero para principiantes](/knowledge/monero-best-practices/)
+
+  * [Cómo las firmas de anillo oscurecen los resultados de Monero](/knowledge/ring-signatures/)
+
+  * [Cómo Monero resolvió el problema del tamaño del bloque que afecta a Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Cómo CLSAG mejorará la eficiencia de Monero](/knowledge/what-is-clsag/)
+
+  * [Por qué Monero tiene una emisión de cola](/knowledge/monero-tail-emission/)
+
+  * [La historia de monero](/knowledge/monero-history/)
+
+  * [Wired Magazine está equivocado sobre Monero, aquí está el por qué](/knowledge/wired-article-debunked/)
+
+  * [Los 15 principales mitos y preocupaciones de Monero desacreditados](/knowledge/monero-myths-debunked/)
+
+  * [Cómo Dandelion ++ mantiene los orígenes de las transacciones de Monero en privado](/knowledge/monero-dandelion/)
+
+  * [Por qué Monero es de código abierto y descentralizado](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: lo que hace que RandomX sea tan especial](/knowledge/monero-mining-randomx/)
+
+  * [Por qué Monero es mejor que Dash, Zcash, Zcoin (incluso con Lelantus), Grin y Bitcoin Mixers como Wasabi (Actualizado en mayo de 2020)](/knowledge/why-monero-is-better/)

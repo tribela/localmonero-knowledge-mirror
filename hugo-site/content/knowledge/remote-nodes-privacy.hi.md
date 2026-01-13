@@ -1,0 +1,132 @@
+---
+title: "Remote nodes कैसे Monero की गोपनीयता को प्रभावित करते हैं"
+slug: "remote-nodes-privacy"
+date: "2022-02-16"
+image: "/images/nodes.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+अन्य cryptocurrency की तुलना में Monero के सबसे बड़े लाभों में से एक यह on-chain गोपनीयता है, लेकिन क्या आपने कभी सोचा है कि जब आप एक remote node का उपयोग करते हैं तो Monro की गोपनीयता कैसे बनी रहती है? यदि आप MyMonero जैसे "लाइट बटुआ"(light wallet) server का उपयोग करते हैं तो कैसा रहेगा? 
+
+इस लेख में हम कुछ विवरणों में गोता लगाएँगे कि कैसे Monero remote node का उपयोग करते हुए भी असाधारण on-chain गोपनीयता प्रदान करता है, साथ ही remote node का उपयोग करते समय किससे सावधान रेहना चाहिए। 
+
+## Monero में nodes क्या कार्य करते हैं?
+
+उन लोगों के लिए जो Monero के काम करने के तरीके से कम परिचित हैं, Monero नेटवर्क में node (या server) को कोई भी चला सकता है और node के मालिक को अनुमति दे सकता है - या अन्य जो इसे साझा करना चुनते हैं! - blockchain को synchronise करने के लिए और उसको नेटवर्क पर दूसरों को उपलब्ध कराने के लिए। ये node नेटवर्क पर होने वाले सभी लेन-देन के साथ-साथ प्रकाशित होने वाले सभी block को भी सत्यापित करते हैं और यह सुनिश्चित करते हैं कि वे सभी सर्वसम्मति से निर्धारित नियमों का पालन करते हैं। 
+
+अन्य कार्य जो Monero में काम करता है, वह सभी data प्रदान करने का एक तरीका है जो आपके पसंदीदा मोनेरो बटुए को आपके लेनदेन के लिए ठीक से जाँचने और नए लेनदेन करने की आवश्यकता है। यह data दो तरह से nodes द्वारा प्रदान किया जाता है: 
+
+  * बटुए द्वारा blockchain पर प्रत्येक blockchain से data का अनुरोध किया जाता है, आपसे संबंधित लेनदेन के लिए scan किया जाता है, और फिर बटुए द्वारा देखे जाने के बाद छोड़ दिया जाता है। 
+    * [ View tags ](/knowledge/view-tags-reduce-monero-sync-time) की बदौलत इस चरण में जल्द ही काफी सुधार किया जाएगा।
+  * लेन-देन भेजते समय, आपके द्वारा उपयोग किया जाने वाला node लेन-देन का निर्माण करते समय उपयोग करने के लिए संभावित decoy (या नकली इनपुट) की एक सूची प्रदान करता है, यह सुनिश्चित करता है कि जब भी आप Monero खर्च करते हैं तो आपके पास छिपने के लिए अच्छी भीड़ होती है। 
+    * ये decoy [ Ring Signature ](/knowledge/ring-signatures) का हिस्सा है, जो chain पर गोपनीयता के लिए Monero के दृष्टिकोण का एक महत्वपूर्ण हिस्सा है। 
+
+## Monero का उपयोग करने का सबसे निजी और सुरक्षित तरीका क्या है?
+
+Remote nodes का उपयोग करते समय Monero द्वारा प्रदान की गई मजबूत on-chain गोपनीयता के साथ भी यह सुनिश्चित करने के लिए कि आपके पास Monero blockchain की एक मूल प्रति है और आपका IP गुप्त है, अपना खुद का Monero node चलाना है। अपना स्वयं का node चलाते समय अन्य लाभ यह है कि आप नेटवर्क में वापस योगदान कर सकते हैं, अन्य nodes को अपने node से synchrome करने दे सकते हैं या यहाँ तक कि अन्य उपयोगकर्ताओं को अपने node से अपने बटुए से जोड़ने दे सकते हैं। 
+
+कहा जा रहा है कि Monero अभी भी remote node का उपयोग करते समय उत्कृष्ट गोपनीयता प्रदान करता है। यदि आप अपना खुद का Monero node चलाने में रुचि रखते हैं, तो ऐसा करने के लिए यहाँ एक आसान पुस्तिका है: 
+
+  * [Run a Monero Node](https://sethforprivacy.com/guides/run-a-monero-node/)
+
+## एक remote node मेरे बारे में क्या सीख सकता है?
+
+Remote node का उपयोग करते समय, कुछ प्रमुख जानकारी होती है जो remote node के संपर्क में आ जाती है और कुछ प्रमुख तरीके हैं जिनसे node आप पर हमला कर सकता है, आपको लेन-देन करने से रोक सकता है, और बहुत कुछ।
+
+एक remote node आपके बारे में सबसे पहली चीज़ जो सीख सकता है वह है आपका Public IP Address। हालांकि यह एक VPN या Tor के माध्यम से छुपाया जाएगा, remote node आपके Public IP Address को लेन-देन के साथ जोड़ सकता है, जिससे आप जहाँ से लेन-देन कर रहे हैं, उसे ढूंढने में मदद मिलेगी। Remote node आपके बटुए को sync किए गए अंतिम block को भी सीख सकता है और इसका उपयोग आपके बारे में शिक्षित अनुमान लगाने और बनाने के लिए कर सकता है, जैसे कि आप सामान्य रूप से Monero का उपयोग कब करते हैं और आपने आखिरी बार Monero कब खर्च किया था। यह विशेष रूप से सच है यदि आप हमेशा एक ही IP Address (जैसे आपका घर) से आ रहे हैं। आखिरी महत्वपूर्ण चीज़ जो एक remote node आपके बारे में जान सकता है, वह आपके द्वारा भेजे गए लेनदेन के बारे में बुनियादी जानकारी है। हालांकि यह सबसे स्पष्ट जानकारी हो सकती है जो remote node operator को आपके बारे में मिलता है, यह समझना महत्वपूर्ण है कि इसका उपयोग लेन-देन के प्रेषक को ट्रैक करने में मदद के लिए किया जा सकता है जब उस जानकारी को अन्य off-chain जानकारी के साथ जोड़ा जाता है। यह विशेष रूप से खतरनाक हो सकता है यदि remote node एक दुर्भावनापूर्ण व्यक्ति, एक blockchain analytics कंपनी, या एक दमनकारी राज्य द्वारा चलाया जाता है। 
+
+एक remote node आपसे block छिपाकर आपको परेशान करने का प्रयास कर सकता है, जिससे आपके बटुए को लगता है कि यह sync किया गया था जब यह नहीं था। इससे आपको लगता है कि धन खो गया है या जब तक आप किसी अन्य node से जुडते नही, तब तक आप धन खर्च करने से रोके जा सकते हैं। आखिरी महत्वपूर्ण चीज़ जो एक remote node कर सकता है, वह है आपके बटुए को छल की सूची में हेरफेर करना। इससे आपका बटुआ या तो लेन-देन करने में पूरी तरह से विफल हो सकता है (जिससे आप धन खर्च करने में असमर्थ हो जाते हैं), या remote node को कोशिश करने और डिकॉय प्रदान करने की अनुमति दे सकता है जो यह जानता है कि प्रत्येक लेनदेन में आपको प्राप्त होने वाली गुमनामी को कम करने के लिए खर्च किया जाता है। 
+
+## remote का उपयोग करते समय कौन सी गोपनीयता निश्चितताएँ अभी भी मौजूद है?
+
+हालांकि इस लेख ने आपको थोड़ा डरा दिया होगा, यह महसूस करना महत्वपूर्ण है कि Monero द्वारा प्रदान की जाने वाली गोपनीयता remote node का उपयोग करते समय भी उत्कृष्ट है, और इस तरह से उपयोग किए जाने पर किसी भी अन्य cryptocurrency से कहीं अधिक है। आप अभी भी Monero द्वारा प्रदान की गई मजबूत on-chain गोपनीयता प्राप्त करते हैं, क्योंकि remote node कभी भी वास्तविक इनपुट (आप कौन से सिक्के खर्च कर रहे हैं), लेन-देन में खर्च किए गए Monero की राशि या लेनदेन के प्राप्तकर्ता के पते को नहीं जानते हैं। बाहर के पर्यवेक्षक भी सही इनपुट, राशि, या पते को देख नहीं सकते हैं (इससे कोई फर्क नहीं पड़ता कि आप किस प्रकार के node का उपयोग करना चुनते हैं!), यह सुनिश्चित करते हुए कि remote node के अलावा भी आपका IP Address, wallet sync जानकारी और लेनदेन की मजबूत गोपनीयता ठीक है 
+
+Remote node की कभी भी आपके द्वारा भेजे या प्राप्त किए गए पिछले लेन-देन या आपके बटुए में वर्तमान में Monero की राशि तक पहुँच नहीं होती है, और जिस क्षण आप दूसरे node का उपयोग करना शुरू करते हैं, वह आपके लेन-देन में सभी दृश्यता खो देता है। Remote node को कभी भी कोई निजी कुंजियाँ (या तो व्यय/spend या दृश्य/view कुंजियाँ) प्रदान नहीं की जाती हैं, और इसलिए आपका बटुआ निजी, सुरक्षित और प्रयोग करने योग्य बना रहता है। चाहे कोई भी remote node हो, आपको कभी भी Monero को खोने या चोरी होने का जोखिम नहीं होता है, क्योंकि node प्राप्तकर्ता के पते को संपादित नहीं कर सकता है, कभी भी आपके बटुए की निजी चाबियों तक पहुँच नहीं सकता है, और किसी भी तरह से आपके Monero को ज़ब्त नहीं कर सकता है। 
+
+## MyMonero जैसे "हलके बटुए" के बारे में क्या ख्याल है?
+
+हालांकि यह विषय इस लेख के दायरे से थोड़ा बाहर है, मैं Monero में एक अद्वितीय प्रकार के बटुए - "light wallet" को संबोधित करना चाहता था। Light wallet नाम इस तथ्य से आता है कि आपके बटुआ (आपके phone या computer पर) को किसी भी blockchain synchronisation का प्रदर्शन नहीं करना पड़ता है, जिससे अनुभव तेज़ और अधिक तरल हो जाता है। 
+
+हालांकि, इस तरह के बटुए अभी के लिए एक गंभीर गोपनीयता खतरे के साथ आते हैं - आपका बटुआ आपके द्वारा उपयोग किए जाने वाले remote server को निजी दृश्य कुंजी(private view key) भेजता है (जैसे MyMonero में), remote server को किसी भी प्राप्त धन में पूर्ण दृश्यता देता है। आपके बटुए के निर्माण के बाद से (और जब तक आप उस बटुए या बीज का उपयोग बंद नहीं करते)। यह आपको node ऑपरेटर से प्राप्त होने वाली गोपनीयता को काफी कम कर देता है, और इसका सावधानी के साथ उपयोग किया जाना चाहिए। 
+
+शुक्र है कि Monero समुदाय उस software को बेहतर बनाने पर काम कर रहा है जिसका उपयोग आप अपने स्वयं के Light Wallet Server (LWS) को host करने के लिए कर सकते हैं, जो आपको अपनी निजी दृश्य कुंजी(private view ket) के साथ किसी तीसरे पक्ष पर भरोसा किए बिना तेज़ synchronisation की अनुमति देगा - क्योंकि आप वह software चलाएँगे जहाँ आपका बटुआ निजी दृश्य कुंजी(private view ke) भेजता है! 
+
+इस custom light wallet server के बारे में अधिक जानकारी के लिए, नीचे दिए गए Github repository को देखें: 
+
+  * [monero-lws](https://github.com/vtnerd/monero-lws)
+
+## मैं और अधिक कैसे सीखूँ?
+
+यदि आप उत्सुक हैं और Monero में nodes को बेहतर ढंग से समझना पसंद करेंगे और remote node का उपयोग करने या अपना खुद का चलाने पर गौर करेंगे, तो आरंभ करने के लिए शानदार स्थानों के लिए नीचे दिए गए लिंक देखें:
+
+  * [Monero World, a list of community-run remote nodes that can be used](https://moneroworld.com/#nodes)
+  * [Monero nodes run by Seth For Privacy, the author of this article](https://sethforprivacy.com/about/#high-performance-monero-nodes)
+  * [monero.fail, a list of remote nodes with frequently checked status](https://monero.fail/)
+  * [How to connect to a remote node within GUI wallet](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
+  * [Moneropedia - Remote Node](https://www.getmonero.org/resources/moneropedia/remote-node.html)
+
+अग्रिम पठन
+
+  * [कैसे Monero विशिष्ट रूप से परिपत्र अर्थव्यवस्थाओं को सक्षम बनाता है](/knowledge/monero-circular-economies/)
+
+  * [Wasabi की तरह Monero के Ring Signature बनाम CoinJoin](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [क्यों (और कैसे!) आपको अपनी चाबियां खुद रखनी चाहिए](/knowledge/hold-your-keys/)
+
+  * [Monero में वापस योगदान करना](/knowledge/contributing-to-monero/)
+
+  * [नेटवर्क को अपग्रेड करने के लिए Monero hard-forks का उपयोग कैसे करता है](/knowledge/network-upgrades/)
+
+  * [view tags: कैसे एक byte Monero wallet sync के समय को ४०%+ तक कम कर देगा](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool और Monero खनन के विकेंद्रीकरण में इसकी भूमिका](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Monero के लिए यह क्या करेगा](/knowledge/seraphis-for-monero/)
+
+  * [क्या Bitcoin को Monero में बदलना उतना ही निजी है जितना कि सीधे मोनेरो को खरीदना?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Monero ZCash के विपरीत एक भरोसा न लगने वाले(Trustless) प्रणाली का उपयोग क्यों करता है](/knowledge/monero-trustless-setup/)
+
+  * [Bitcoin की तुलना में Monero मूल्य का एक बेहतर भण्डार क्यों है](/knowledge/monero-better-store-of-value/)
+
+  * [Monero Bitcoin के नेटवर्क प्रभाव(network effect) से कैसे जीत सकता है](/knowledge/network-effect/)
+
+  * [Monero के पास सबसे गंभीर सोच वाला समुदाय क्यों है](/knowledge/critical-thinking/)
+
+  * [Monero का उपयोग करते समय इन घोटालों से बचें](/knowledge/monero-scams/)
+
+  * [Monero में Atomic Swap कैसे काम करेगा](/knowledge/monero-atomic-swaps/)
+
+  * [जब networking की बात आती है तो हर Monero उपयोगकर्ता को क्या पता होना चाहिए](/knowledge/monero-networking/)
+
+  * [कैसे RingCT Monero लेनदेन राशि को छुपाता है](/knowledge/monero-ringct/)
+
+  * [Monero Stealth Address आपकी पहचान को कैसे सुरक्षित रखता है](/knowledge/monero-stealth-addresses/)
+
+  * [कैसे Monero Subaddress पहचान संयोजन को रोकते हैं](/knowledge/monero-subaddresses/)
+
+  * [Monero Outputs समझाया गया](/knowledge/monero-outputs/)
+
+  * [प्रारंभी लोगों के लिए Monero सर्वोत्तम प्रणाली](/knowledge/monero-best-practices/)
+
+  * [Ring Signature कैसे Monero के उत्पादन को अस्पष्ट करते हैं](/knowledge/ring-signatures/)
+
+  * [Monero ने Bitcoin को प्रभावित करने वाली block size की समस्या को कैसे हल किया](/knowledge/dynamic-block-size/)
+
+  * [CLSAG कैसे Monero की दक्षता में सुधार करेगा](/knowledge/what-is-clsag/)
+
+  * [Monero में Tail Emission क्यों है](/knowledge/monero-tail-emission/)
+
+  * [Monero का एक संक्षिप्त इतिहास](/knowledge/monero-history/)
+
+  * [Wired पत्रिका Monero के बारे में गलत है, जाने क्यों](/knowledge/wired-article-debunked/)
+
+  * [शीर्ष 15 Monero मिथकों और चिंताओं को खारिज किया गया](/knowledge/monero-myths-debunked/)
+
+  * [Dandelion++ कैसे Monero के लेन-देन की उत्पत्ति को निजी रखता है](/knowledge/monero-dandelion/)
+
+  * [Monero खुला स्रोत(open source) और विकेंद्रीकृत क्यों है](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [मोनेरो खनन: क्या RandomX को इतना खास बनाता है](/knowledge/monero-mining-randomx/)
+
+  * [Monero क्यों Dash, Zcash, Zcoin (यहाँ तक कि Lelantus के साथ भी), Grin and Bitcoin Mixers जैसे Wasabi से बेहतर है (संपादित मई २०२०)](/knowledge/why-monero-is-better/)

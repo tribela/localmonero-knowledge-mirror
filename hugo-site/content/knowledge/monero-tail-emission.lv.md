@@ -1,0 +1,97 @@
+---
+title: "Kāpēc Monero ir astes emisija"
+slug: "monero-tail-emission"
+date: "2020-07-30"
+image: "/images/emission.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Kad lielākā daļa cilvēku domā par to, kas atšķir Monero, viņi domā par Monero privātuma tehnoloģiju. Patiešām, lielākā daļa uzskatītu, ka privātums un tā sniegtā aizvietojamība ir Monero raksturīgā iezīme un galvenais ierocis, ko tas ienes ringā, salīdzinot ar citām monētām. Lielākā daļa cilvēku var nezināt, ka Monero satur citas protokolu atšķirības no Bitcoin un tā atvasinājumiem, par kurām daži varētu apgalvot, ka tās ir tikpat svarīgas kā Monero privātuma tehnoloģijas. Šajā rakstā mēs apskatīsim vienu no tiem: astes emisiju.
+
+Vispirms definēsim, ko nozīmē šis termins. Astes emisija ir nemitīga bloka atlīdzības subsīdija pat pēc “pēdējā” Monero mainošanas. Citiem vārdiem sakot, Monero bloka atlīdzība nekad nesamazināsies līdz nullei, bet tiks nofiksēta, kad tā sasniegs 0,6 XMR par bloku, un tad paliks tur uz visiem laikiem. Maineriem vienmēr tiks maksāts, lai viņi mainotu Monero, un viņiem nekad nebūs jāpaļaujas tikai uz maksām.
+
+Taču spersim soli atpakaļ un aplūkosim mainošanu ļoti augstā līmenī. Monero maineri tiek stimulēti stiprināt tīklu, mainojot hashes. Stimuls ir iespēja izveidot Monero, ja viņi atrod jaunu bloku. Šis Monero tiek piešķirts divos veidos. Pirmkārt, maineris saņem katra lietotāja, kurš samaksājis par sava pārskaitījuma iekļaušanu blokā, samaksātās maksas. Šīs ir pārskaitījumu maksas, ko maksājat, nosūtot pārskaitījumu. Otrkārt, maineris saņem iepriekš noteiktu Monero daudzumu no paša protokola. Vairumā gadījumu šī “bloka atlīdzība” ir ievērojami augstāka par lietotāju pārskaitījumu maksām, un šeit maineri pelna visvairāk. Šī bloka atlīdzība kalpo, lai maineri finansiāli ieguldītu ķēdes drošībā, kā arī, lai laistu apgrozībā jaunas monētas.
+
+Lielākajā daļā kriptovalūtu protokolu šī bloka atlīdzība laika gaitā ir iestatīta uz samazināšanos. Lielākajai daļai Bitcoin atvasinājumu ir tā sauktā sadalīšana uz pusēm, iepriekš noteikti laika punkti, kuros bloka atlīdzība samazinās uz pusi (piemēram, no 20 BTC līdz 10 BTC). Šie samazinājumi notiek ik pēc dažiem gadiem, un katru reizi, kad tas notiek, tīkla drošība samazinās. Kāpēc? Mēs mudinām lasītāju izlasīt mūsu [rakstu par ieguvi un RandomX](/knowledge/monero-mining-randomx), un, to lasot, uzzināsiet, ka ieguve ir sacensības. Bloku atlīdzības tiek piešķirtas tikai tiem, kas atrod bloku, un par to konkurē daudzas personas. Kad atlīdzība ir lielāka, vairāk cilvēku ir ieinteresēti spēlēt šo spēli, turpretim, ja atlīdzība ir zema, mazāk cilvēku, pat tie, kuriem ir tam nepieciešamais aprīkojums, būs gatavi izmantot savu laiku un resursus, lai gūtu nelielu atlīdzību.
+
+Mēs jau sākam aplūkot Monero astes emisijas iemeslu. Arī Monero bloka atlīdzība samazinās, lai gan atšķirībā no Bitcoin nav sadalīšanas uz pusēm. Tā vietā katra bloka atlīdzība ir par nelielu summu mazāka nekā iepriekšējā, tāpēc samazinājums ir daudz vienmērīgāks. Bet jautājums par visām kriptovalūtām ir šāds: "Kas notiek, kad bloka atlīdzība sasniedz nulli?" Šī ir dīvaina situācija, kurā mēs gan zinām, gan nezinām atbildi. Daļa, ko mēs zinām, ir tāda, ka vairs nebūs bloka atlīdzības subsīdijas, kas nozīmē, ka mainerus stimulēs tikai lietotāju pārskaitījumu maksas. Mēs nezinām, vai šīs summas būs pietiekamas, lai maineri noturētu ķēdi darbībā.
+
+Kā jau minēts iepriekš, šobrīd bloka atlīdzība par ievērojamu summu pārsniedz pārskaitījumu maksas, tāpēc ir cerība, ka, jo vairāk lietotāju izmantos ķēdi, jo maksas palielināsies, un, palielinoties maksai, maineri uzskatīs par izdevīgu turpināt ieguvi. Tomēr šim scenārijam ir arī otra puse, lietotāju puse. Ja maksas palielināsies, pārskaitījumu veikšana ar kriptovalūtu ikvienam kļūs daudz dārgāka, un, iespējams, atdalīs tos, kuriem nav pietiekami daudz naudas. Bet, no otras puses, ja maksas paliek zemas un bloka atlīdzība samazinās līdz nullei, ļoti maz maineru nodrošinās tīklu, atstājot to neaizsargātu pret 51% uzbrukumiem un atgrieztiem pārskaitījumiem.
+
+Nevienam nav labas atbildes uz šo scenāriju, un neviena nozīmīga monēta vēl nav nonākusi šajā savas kriptovalūtas dzīves fāzē, tāpēc arī mums nav reālas pieredzes ar to. Tās visas ir spekulācijas. Azartspēle. Bitcoin liek likmi, ka maksas būs pietiekamas, lai uzturētu mainerus, pat ja tas nozīmē nabadzīgo izslēgšanu. Monero izdara citu likmi. Monero liek, ka ar maksām vien nepietiktu ķēdes drošībai, tāpēc protokolā ir iekļauta astes emisija.
+
+Atgādinām lasītājam, ka bloka atlīdzība nekad nesamazināsies zem 0,6 XMR par bloku. Vai ar to pietiks, lai stimulētu mainerus? Mēs nezinām, bet tas noteikti ir labāk par 0, kā tas ir gandrīz visu citu valūtu protokolos.
+
+Galvenā kritika pret šo pieeju ir tāda, ka tas nozīmē, ka Monero piedāvājums teorētiski ir bezgalīgs, laika gaitā izraisot inflāciju, savukārt monētām, kas ierobežo bloka atlīdzību, ir ierobežots piedāvājums, un to trūkums laika gaitā palielina vērtību. Mēs uzskatām, ka šis arguments ir nepilnīgs vairāku iemeslu dēļ.
+
+Pirmkārt, kāds labums no maz pieejamas, augstvērtīgas monētas, kurai zemās drošības dēļ ir viegli uzbrukt, kuru var cenzēt un sagraut? Ja kas, tad zemā drošība samazinātu vērtību vairāk nekā kompensētu deficīta pieaugums. Otrkārt, lai gan Monero piedāvājums teorētiski ir bezgalīgs, inflācija ir lineāra un ik gadu tuvojas nullei, atšķirībā no fiat, kas ir eksponenciāls.
+
+Monero inflācija ir precīzi zināma iepriekš, un to var precīzi prognozēt, atšķirībā no fiat, kur piedāvājums noteiktā gadā var palielināties vairāk vai mazāk, pamatojoties uz esošo spēku kaprīzēm. Tas joprojām saglabā cypherpunk garu, novēršot korupcijas iespējamību, izmantojot protokolu nodrošinātās tehnoloģijas. Ar papildu priekšrocībām, ko sniedz sirdsmiers, Monero blokķēdes drošība, izmantojot mainošanu, būs pieejama tik ilgi, kamēr pasaulei tas būs vajadzīgs.
+
+Pēdējais jautājums, kam vēlamies pieskarties, ir godīgums. Naudu izmanto vairākos veidos: kā vērtības glabātāju, kā apmaiņas līdzekli un kā norēķinu vienību. Sistēmā, kurā piedāvājums ir ierobežots, inflācija apstāsies, kas nozīmē, ka tie, kas to izmanto kā vērtības krātuvi, izmanto sistēmu bez maksas. Viņi gūst labumu no maineru nepārtrauktās drošības, par to neko nemaksājot, jo bez inflācijas viņu nauda laika gaitā nezaudē vērtību. Un otrādi, ikviens, kurš izmanto valūtu kā maiņas līdzekli, tiek sodīts (izmantojot potenciāli augstu pārskaitījuma maksu). Tas mudinās cilvēkus turēt, bet netērēt, un sagroza sistēmas godīgumu, dodot priekšroku turētājiem. Astes emisijas gadījumā tas tiek izlīdzināts. Tagad turētāji maksā arī nelielu nodokli caur inflāciju, lai nodrošinātu sistēmas drošību. Astes emisija padara to godīgāku visiem.
+
+Lasīt tālāk
+
+  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies/)
+
+  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys/)
+
+  * [Iesaiste Monero](/knowledge/contributing-to-monero/)
+
+  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy/)
+
+  * [Kā Monero izmanto hard-forks tīkla uzlabošanai](/knowledge/network-upgrades/)
+
+  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool un tā loma Monero mainošanas decentralizācijā](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero/)
+
+  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup/)
+
+  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect/)
+
+  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking/)
+
+  * [Krāpniecība, kam jāpievērš uzmanība, lietojot Monero](/knowledge/monero-scams/)
+
+  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps/)
+
+  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking/)
+
+  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct/)
+
+  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses/)
+
+  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses/)
+
+  * [Monero izvades tuvplānā](/knowledge/monero-outputs/)
+
+  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices/)
+
+  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures/)
+
+  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag/)
+
+  * [Īsa Monero vēsture](/knowledge/monero-history/)
+
+  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked/)
+
+  * [15 populārākie Monero mīti un bažas atspēkotas](/knowledge/monero-myths-debunked/)
+
+  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion/)
+
+  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx/)
+
+  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better/)

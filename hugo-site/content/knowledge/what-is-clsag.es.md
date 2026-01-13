@@ -1,0 +1,93 @@
+---
+title: "Cómo CLSAG mejorará la eficiencia de Monero"
+slug: "what-is-clsag"
+date: "2020-08-05"
+image: "/images/clsag.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Como protocolo, Monero se encuentra actualmente en un estado constante de innovación. Utilizando la investigación en soluciones dentro y fuera de la cadena, la comunidad de Monero busca áreas para mejorar y hacer que Monero sea más privado, más escalable y más accesible para todos. Una de las innovaciones más recientes es el reemplazo del esquema de firma de anillo enlazable, MLSAG, con un reemplazo CLSAG, que significa Concise Linkable Spontaneous Anonymous Group.
+
+En el nivel superficial, la implementación de CLSAG disminuirá las transacciones de 2 entradas y 2 salidas más comunes en un 25%. También veremos una disminución del 10% en el tiempo de verificación.
+
+¿Pero qué es exactamente CLSAG? ¿Qué hace y cómo difiere de la versión anterior, MLSAG? Dediquemos un minuto a recordarnos por qué y cómo las firmas de anillo para que podamos entender mejor este concepto. Las firmas de anillo permiten entradas no interactivas, testigos indistinguibles mediante el uso de conjuntos de anonimato seleccionados por el firmante de salidas anteriores. En términos simples, permite al usuario ocultar sus resultados utilizados en una transacción junto con resultados no relacionados, y puede hacer todo esto sin necesidad de que otra persona participe. Todo lo que necesitas es una copia de la cadena de bloques. Cada una de estas salidas en su mayoría parece ser igualmente probable de ser el envío real, ocultando así los metadatos sobre el remitente.
+
+Sin embargo, esto genera un pequeño problema. ¿Qué pasaría si un usuario construyera una firma de anillo con todas las salidas señuelo? ¿Cómo podría alguien saber que el remitente desconocido no tiene la autoridad para enviar ninguno de ellos? ¿Podría este usuario gastar dinero falso? La respuesta es no. La firma del anillo incluye un método para probar que al menos una de las salidas es propiedad del remitente desconocido, sin revelar cuál es. De hecho, tanto CLSAG como MLSAG (en adelante, los SAG) son parte de la firma del anillo que lo demuestra. Curiosamente, al mismo tiempo, demuestra que el monto de la transacción, aunque oculto detrás de las transacciones confidenciales (RingCT), se equilibra. Que los SAG prueban dos cosas, que una salida es propiedad de alguien en el ring, y que los saldos de las transacciones son importantes y, en realidad, dónde radica el tamaño y los ahorros de verificación. Si esto se está volviendo confuso, no se preocupe, pronto llegaremos a una analogía divertida y fácil de entender.
+
+El antiguo esquema de firma, MLSAG (Grupo Anónimo Espontáneo Vinculable de Múltiples Capas) prueba las dos cosas antes mencionadas en una firma de anillo, pero hace cada una por separado. El uso de cálculos separados para las claves de firma y compromiso significa operaciones más lentas. Una computadora moderna puede hacer estos cálculos en cuestión de milisegundos, lo que no parece mucho, y de hecho, para una transacción no lo es. Pero cuando consideramos la gran cantidad de transacciones en la cadena de bloques de Monero, y que un nodo que se sincroniza desde cero tendrá que descargar y verificar cada una de ellas, los bytes y milisegundos comienzan a acumularse rápidamente.
+
+CLSAG combina las matemáticas necesarias para demostrar ambas en una sola, así como las calcula a la vez, y lo hace de manera segura. ¿Qué significa esto de manera segura? Bueno, para aclarar esto, y con suerte hacer que todo tenga más sentido, exploremos esa analogía divertida prometida.
+
+Digamos que necesita ir tanto a la tienda de comestibles como a la ferretería para recoger dos cosas diferentes: alimentos y productos químicos de limpieza tóxicos. No querrás que se mezclen, ya que si hay un accidente, los químicos se derramarán sobre la comida, haciéndolos no comestibles. Decide estar súper seguro y conducir desde su casa hasta la tienda de comestibles, comprar la comida y luego regresar a su casa. Solo después de descargar la comida, regresa al automóvil, conduce a la ferretería y regresa a su casa con los productos químicos. Ha realizado dos viajes por separado para garantizar la seguridad de todas las compras. Aunque de hecho es seguro, es ineficiente. Esto representa MLSAG, donde se almacenan dos conjuntos diferentes de matemáticas y se realizan dos "viajes" diferentes para calcularlos.
+
+Sin embargo, decides que quieres una forma más rápida de hacerlo. Es demasiado tiempo perdido. Seguro que hacerlo una o dos veces no te va a robar la vida, pero tener que hacerlo una y otra vez, las horas comienzan a acumularse. Empiezas a preguntarte si puedes hacer un viaje en su lugar. Desde su casa, a la tienda de comestibles, a la ferretería y de vuelta a casa. No puedes simplemente ir y tirar todo en tu auto al azar. No es seguro. En su lugar, designe diferentes lugares en su automóvil para diferentes cosas y asegúrese de que todo encaja perfectamente en su lugar. Al hacerlo, puede hacer un viaje con seguridad a ambas tiendas y mantener las cosas alejadas entre sí. Esto representa CLSAG. Ahora solo hay un conjunto de matemáticas almacenadas en esta transacción para probar estas dos cosas, y se hace de forma remota para que no interfieran entre sí. Todavía se debe hacer un viaje, pero ha reducido la cantidad de ellos de manera drástica.
+
+Todo esto suena bastante emocionante. ¿Es posible que podamos encontrar otros atajos u otras formas de ahorrar tiempo y espacio? La respuesta es sí y no. Según los investigadores actuales de MRL, es probable que no sea posible modificar aún más las construcciones de tipo SAG para un mejor tamaño o velocidad; sin embargo, otras construcciones como Arcturus, Omniring, RCT3 o Triptych producen beneficios de escalamiento y verificación de tamaño mucho mejores utilizando diferentes métodos matemáticos. Sin embargo, cada uno de estos enfoques de 'próxima generación' para los protocolos ambiguos de firmante viene con sus propias compensaciones en los detalles de implementación, y están siendo investigados e investigados activamente.
+
+Después de todo, Monero siempre está innovando.
+
+Otras lecturas
+
+  * [Cómo Monero permite de forma única las economías circulares](/knowledge/monero-circular-economies/)
+
+  * [Las firmas del anillo de Monero contra CoinJoin como en Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Por qué (y cómo) deberías tener tus propias llaves](/knowledge/hold-your-keys/)
+
+  * [Contribuyendo a Monero](/knowledge/contributing-to-monero/)
+
+  * [Cómo afectan los nodos remotos a la privacidad de Monero](/knowledge/remote-nodes-privacy/)
+
+  * [Cómo Monero utiliza las horquillas para actualizar la red](/knowledge/network-upgrades/)
+
+  * [Ver etiquetas: Cómo un byte reducirá los tiempos de sincronización de la cartera de Monero en más de un 40%](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool y su papel en la descentralización de la minería de Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Lo que hará por Monero](/knowledge/seraphis-for-monero/)
+
+  * [¿Es la conversión de Bitcoin a Monero tan privada como la compra directa de Monero?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Por qué Monero utiliza una configuración sin confianza a diferencia de Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Por qué Monero es una mejor reserva de valor que Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Cómo Monero puede superar los efectos de red de Bitcoin](/knowledge/network-effect/)
+
+  * [Por qué Monero tiene la comunidad de pensamiento más crítica](/knowledge/critical-thinking/)
+
+  * [Estafas a tener en cuenta al usar Monero](/knowledge/monero-scams/)
+
+  * [Cómo funcionarán los intercambios atómicos en Monero](/knowledge/monero-atomic-swaps/)
+
+  * [Lo que todo usuario de Monero necesita saber cuando se trata de redes](/knowledge/monero-networking/)
+
+  * [Cómo RingCT oculta los importes de las transacciones de Monero](/knowledge/monero-ringct/)
+
+  * [Cómo las direcciones de Monero Stealth protegen su identidad](/knowledge/monero-stealth-addresses/)
+
+  * [Cómo las subdirecciones de Monero previenen la vinculación de identidades](/knowledge/monero-subaddresses/)
+
+  * [Explicación de las salidas de Monero](/knowledge/monero-outputs/)
+
+  * [Mejores prácticas de Monero para principiantes](/knowledge/monero-best-practices/)
+
+  * [Cómo las firmas de anillo oscurecen los resultados de Monero](/knowledge/ring-signatures/)
+
+  * [Cómo Monero resolvió el problema del tamaño del bloque que afecta a Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Por qué Monero tiene una emisión de cola](/knowledge/monero-tail-emission/)
+
+  * [La historia de monero](/knowledge/monero-history/)
+
+  * [Wired Magazine está equivocado sobre Monero, aquí está el por qué](/knowledge/wired-article-debunked/)
+
+  * [Los 15 principales mitos y preocupaciones de Monero desacreditados](/knowledge/monero-myths-debunked/)
+
+  * [Cómo Dandelion ++ mantiene los orígenes de las transacciones de Monero en privado](/knowledge/monero-dandelion/)
+
+  * [Por qué Monero es de código abierto y descentralizado](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: lo que hace que RandomX sea tan especial](/knowledge/monero-mining-randomx/)
+
+  * [Por qué Monero es mejor que Dash, Zcash, Zcoin (incluso con Lelantus), Grin y Bitcoin Mixers como Wasabi (Actualizado en mayo de 2020)](/knowledge/why-monero-is-better/)

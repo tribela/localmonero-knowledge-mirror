@@ -1,0 +1,93 @@
+---
+title: "What Every Monero User Needs to Know When It Comes to Networking"
+slug: "monero-networking"
+date: "2020-11-11"
+image: "/images/networking.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+It shouldn't come as a surprise to anyone that Monero, and indeed all cryptocurrency, runs on the internet. And yet, even though this statement seems basic and obvious, many do not consider the implications of what this means in regards to their privacy. In other words, there are some things Monero can and can't protect against, just by nature of running on the internet. Some of these considerations are mere inconveniences, while others are much more serious in a scenario where absolute privacy is required. Let's take the time to get familiar with how Monero users interact with each other on the network, and what this means for their privacy.
+
+Starting on the trivial side of things, if a user does not have access to the internet, they cannot download new blocks, propagate transactions on behalf of others, or send transactions of their own. An interesting thing to note is, a user with a full node, without internet access can construct a transaction offline that can be sent later. This is because a ring signature only needs outputs from the blockchain to hide with. A brief reminder on [how ring signatures work](/knowledge/ring-signatures), it hides the real output that a user is sending among a collection of unaffiliated outputs chosen from the past. If the user has access to these outputs in the form of a fully downloaded blockchain (full node) then they can create the ring signature from the past outputs, and once internet connectivity resumes, propagate the transaction to the network.
+
+A user that is using a remote node cannot do this, as when they construct their ring signature, they contact the remote full node for outputs to include in the ring signature. No internet means they can't reach this node, so they do not have offline transaction construction capabilities.
+
+Before we continue into some of the privacy considerations, let's have a brief primer on how the internet works as a whole. The entire internet is nothing more than computers connecting to other computers. That's it. The blog you like to read? Just some files hosted on someone else's computer. This website you're reading this article on (LocalMonero)? Files and code hosted on a computer somewhere. Even big crazy sites work this way. Take YouTube for example. Just video files hosted on Google's gigantic computer systems, and you connect to them to download the video to your own computer so you can watch it.
+
+These computers can tell each other apart because each and every computer connected to the internet is given a unique identification number called an IP address. These typically are four sets of numbers separated by periods, for example: 172.66.35.7. It's important to keep this in mind when we consider how Monero information is moved around the internet. Monero is a peer-to-peer network (P2P), meaning computers connect directly to each other rather than using an intermediary. So when a user's full node is downloading a newly discovered block, they aren't downloading it from a central server, but from their peers. The downside to this is, since users are connecting to each other directly, they know each other’s IP addresses.
+
+Well? What's the big deal? It's just a number, right? Not exactly. IP addresses themselves contain information about the user, such as the originating country, and network provider, but, even worse, internet service providers (ISPs) know the IP address of each person using their services. This means these ISPs and those that they work with can watch a user's internet traffic and, using some clever tactics, discover that they are using Monero. Now before you get scared, note the wording there. All these snoopers can do is see that a person is connecting to other nodes on the Monero network. Because of Monero's privacy technology, nothing else is leaked about the individual. Not whether or not they are running a node, or if/when they send transactions, and if a transaction is sent, none of its information is known. All these ISPs can see is that one of their users is connecting to the Monero network.
+
+Now, for some people, in some locations, this information alone may be enough to cause damage to reputation or freedom. Or perhaps the idea of anyone invading your privacy and what you do on the internet, for any reason, is not acceptable to you. These individuals are encouraged to only connect to the Monero network using VPNs, Tor, or I2P, all of which are services that hide a user's IP address from others as well as hide what a user is doing from their ISP. The differences between these services is beyond the scope of this article, but there are plenty of high quality articles written on the topic, so concerned users are encouraged to study up!
+
+For the rest of us, we may think that having others know we are connected to the Monero network isn’t that big of a deal. After all, the actual contents of our transactions, or if we’re sending any at all, are hidden to the public, so what's the harm? While this may be true, users are encouraged to consider the fact that the main draw of cryptocurrencies is being their own bank. When you hold your private key, and if something happens to it, nobody can help you recover your lost funds.
+
+Being your own bank means considering, not just your digital security, but your physical security as well. It could very well be that the knowledge of an individual connecting to the Monero network may bring unwanted attention, not necessarily from large scale actors like nation states, but smaller ones with selfish interest, like hackers looking to make an easy buck. There are indeed countless stories all over the crypto space of such scenarios actually taking place.
+
+This article is not intended to fearmonger or frighten, but rather encourage users to do some research on what methods of web surfing protection are right for them. The good news is, that these skills will transfer to general internet usage as well, not just Monero usage, and as such, in our increasingly internet connected world, a savvy user can’t go wrong accumulating the proper knowledge and skills to stay safe and truly be their own bank.
+
+Further reading
+
+  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies/)
+
+  * [Monero’s Ring Signatures vs CoinJoin Like in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Why (And How!) You Should Hold Your Own Keys](/knowledge/hold-your-keys/)
+
+  * [Contributing Back to Monero](/knowledge/contributing-to-monero/)
+
+  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy/)
+
+  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades/)
+
+  * [View Tags: How One Byte Will Reduce Monero Wallet Sync Times by 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool and Its Role in Decentralizing Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero/)
+
+  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect/)
+
+  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking/)
+
+  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams/)
+
+  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps/)
+
+  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct/)
+
+  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses/)
+
+  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses/)
+
+  * [Monero Outputs Explained](/knowledge/monero-outputs/)
+
+  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices/)
+
+  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures/)
+
+  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag/)
+
+  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission/)
+
+  * [A Brief History of Monero](/knowledge/monero-history/)
+
+  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked/)
+
+  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+
+  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion/)
+
+  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx/)
+
+  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better/)

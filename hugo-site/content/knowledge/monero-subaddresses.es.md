@@ -1,0 +1,101 @@
+---
+title: "Cómo las subdirecciones de Monero previenen la vinculación de identidades"
+slug: "monero-subaddresses"
+date: "2020-10-13"
+image: "/images/subaddresses.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Monero siempre ha encontrado formas innovadoras de resolver problemas difíciles de privacidad. A menudo, estas innovaciones conducen a otras innovaciones y, a veces, estas tecnologías resultantes pueden incluso utilizarse para casos de uso no considerados anteriormente. En ninguna parte esto se ejemplifica más que en el caso de la tecnología de subdirección de Monero.
+
+Considere un problema de privacidad hipotético, en el que el uso de una dirección en múltiples plataformas de personas aparentemente no relacionadas puede conducir a la vinculación y desanonimización de dichas personas. En pocas palabras, si fuera una persona llamada Billy Joe Bob y vendiera manzanas por Bitcoin, podría publicar su dirección de Bitcoin en un lugar público para que los clientes le paguen. Digamos que la dirección comienza con la cadena alfanumérica 7XybV3 ... Pero dejando de lado el obvio riesgo de privacidad de que cualquiera pueda verificar su saldo de Bitcoin y ver cuánto ha vendido, hay un segundo, que no se habla a menudo sobre el riesgo de privacidad. Digamos que también eras un hacker clandestino que se llamaba l33tz0r. Haces un trabajo de denuncia de irregularidades, diciéndole a una población desprevenida sobre la corrupción del gobierno, y es imperativo que mantengas tu identidad en secreto. Aceptas donaciones de Bitcoin por tu trabajo y publicas la dirección en un foro público. Es la misma dirección en la que acepta dinero de sus clientes de Apple. El 7XybV3 ... uno.
+
+Un ataque de desanonimización simple pero devastador sería utilizar un motor de búsqueda de Internet para buscar su dirección de Bitcoin. Al poner la dirección de 7XybV3 ... en el motor aparecen dos resultados diferentes. El negocio de la manzana y l33tz0r. Esto es suficiente para vincular las dos identidades y desanonimizar a l33tz0r, con consecuencias potencialmente aterradoras por parte de los poderes fácticos.
+
+Es importante tener en cuenta que este ataque TAMBIÉN es posible con Monero. Aunque Monero oculta la mayoría de los datos en cadena, este ataque no usa ninguno. Solo utiliza la dirección, que debe compartirse para recibir el pago. Públicamente en el caso de donaciones anónimas. Esta es una forma potencial en la que los usuarios de Monero pueden dañar su privacidad sin saberlo, y también es un ejemplo de cómo, aunque Monero es de primer nivel en lo que respecta a la retención de privacidad, no es a prueba de balas.
+
+La forma habitual de solucionar este problema era poseer varias carteras. Con diferentes direcciones publicadas para cada identidad (o caso de uso), no se pueden vincular. Pero esta privacidad solo se mantiene si el usuario nunca los mezcla. Publicar accidentalmente la dirección incorrecta tendría los mismos efectos de vinculación. Además, la semilla de cada dirección debe mantenerse segura, aumentando el trabajo de seguridad de información necesario con cada nueva billetera realizada.
+
+La solución de Monero fueron subdirecciones. La capacidad de crear una cantidad absolutamente masiva de direcciones debajo de la dirección principal, usándola como una especie de semilla. Cada subdirección generada puede aceptar Monero y todo va a la misma billetera. Con este método, la cantidad de identidades que se pueden operar bajo una dirección es enorme, mientras se mantiene el trabajo de seguridad al mínimo. Estas direcciones tampoco se pueden vincular matemáticamente, por lo que a menos que el usuario grite su conexión con el mundo, un observador externo tendrá grandes dificultades para vincularlas.
+
+Pero otro caso de uso interesante surgió de las subdirecciones; como una opción de reemplazo de los identificadores de pago odiados universalmente.
+
+Los ID de pago eran una forma de que los comerciantes identificaran qué cliente envió qué pago. Dado que la información de Monero está oculta en la cadena, el receptor de una transacción no puede ver qué dirección la envió. Esto significa que si hay artículos con precios similares y varios pedidos, puede resultar imposible identificar quién envió qué. Los ID de pago son una cadena aleatoria única generada por el comerciante y entregada al cliente. El cliente agrega esto como un campo separado al enviar la transacción. Esta cadena aleatoria se coloca en la cadena de bloques como parte de la transacción y, de esta manera, el comerciante puede identificar y clasificar las transacciones entrantes.
+
+Este método tenía varios defectos. En primer lugar, resta valor a la uniformidad de los datos en cadena. Los metadatos adicionales y únicos pueden hacer que algunas transacciones se destaquen entre la multitud, lo que permite el análisis heurístico. Esto es especialmente cierto cuando estos metadatos no son obligatorios para todos. Sin embargo, hacer esto obligatorio para todos agregaría espacio innecesario a la cadena de bloques, y no se persiguió. Además, si alguna vez se reutilizara un ID de pago por cualquier motivo, sería trivial vincular dos transacciones como conectadas. Esto generalmente ocurría con los depósitos de intercambio, y cualquiera podía vincular fácilmente las transacciones como un depósito en un intercambio y de un individuo en particular.
+
+En segundo lugar, desde una perspectiva de UX, los ID de pago crean un segundo paso al que los usuarios de criptomonedas que provienen de otras monedas no están acostumbrados, y si se olvidan, causan un gran dolor de cabeza al comerciante que debe identificar estas transacciones por otros medios. . Por lo general, esto se hacía hablando directamente con cada cliente que olvidó poner el ID de pago y confirmando otra información de identificación que solo ellos podían conocer, como una combinación del monto, la fecha de envío y el ID de la transacción.
+
+Muchos pasaron por alto este paso adicional y llegó al punto en que algunos intercambios comenzaron a cobrar dinero a los clientes si su dinero tenía que ser recuperado manualmente debido a que olvidó una identificación de pago. Otros aprietan los dientes y se comen los costos de apoyo adicionales, pero nadie estaba contento con eso.
+
+Había una solución para esto, direcciones integradas, que fusionaban la dirección y el ID de pago en una sola cadena, por lo que no se podía olvidar, pero la adopción fue bastante débil, a pesar de los beneficios que los comerciantes habrían recibido al incluirla.
+
+En un interesante giro de los acontecimientos, las subdirecciones entraron para salvar el día. La capacidad de generar grandes cantidades de subdirecciones por dirección principal e identificar qué transacciones entraban en qué subdirecciones, permitió a los comerciantes deshacerse de los ID de pago de una manera elegante, mientras adoptaban la próxima generación de tecnología Monero. Desde entonces, la mayoría de los intercambios y las herramientas comerciales se han cambiado a subdirecciones como la forma principal de identificación de transacciones.
+
+Lo que comenzó como una solución para un problema de privacidad se convirtió en algo mucho más, lo que resolvió un importante problema de UX para comerciantes y clientes por igual. La innovación genera más innovación, que a menudo puede generar ganancias inesperadas para todos. Monero ha visto esto una y otra vez, y pone un gran esfuerzo en innovar lo que es posible en blockchain. ¿Quién sabe qué otras cosas podemos desbloquear juntos?
+
+Otras lecturas
+
+  * [Cómo Monero permite de forma única las economías circulares](/knowledge/monero-circular-economies/)
+
+  * [Las firmas del anillo de Monero contra CoinJoin como en Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Por qué (y cómo) deberías tener tus propias llaves](/knowledge/hold-your-keys/)
+
+  * [Contribuyendo a Monero](/knowledge/contributing-to-monero/)
+
+  * [Cómo afectan los nodos remotos a la privacidad de Monero](/knowledge/remote-nodes-privacy/)
+
+  * [Cómo Monero utiliza las horquillas para actualizar la red](/knowledge/network-upgrades/)
+
+  * [Ver etiquetas: Cómo un byte reducirá los tiempos de sincronización de la cartera de Monero en más de un 40%](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool y su papel en la descentralización de la minería de Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Lo que hará por Monero](/knowledge/seraphis-for-monero/)
+
+  * [¿Es la conversión de Bitcoin a Monero tan privada como la compra directa de Monero?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Por qué Monero utiliza una configuración sin confianza a diferencia de Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Por qué Monero es una mejor reserva de valor que Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Cómo Monero puede superar los efectos de red de Bitcoin](/knowledge/network-effect/)
+
+  * [Por qué Monero tiene la comunidad de pensamiento más crítica](/knowledge/critical-thinking/)
+
+  * [Estafas a tener en cuenta al usar Monero](/knowledge/monero-scams/)
+
+  * [Cómo funcionarán los intercambios atómicos en Monero](/knowledge/monero-atomic-swaps/)
+
+  * [Lo que todo usuario de Monero necesita saber cuando se trata de redes](/knowledge/monero-networking/)
+
+  * [Cómo RingCT oculta los importes de las transacciones de Monero](/knowledge/monero-ringct/)
+
+  * [Cómo las direcciones de Monero Stealth protegen su identidad](/knowledge/monero-stealth-addresses/)
+
+  * [Explicación de las salidas de Monero](/knowledge/monero-outputs/)
+
+  * [Mejores prácticas de Monero para principiantes](/knowledge/monero-best-practices/)
+
+  * [Cómo las firmas de anillo oscurecen los resultados de Monero](/knowledge/ring-signatures/)
+
+  * [Cómo Monero resolvió el problema del tamaño del bloque que afecta a Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Cómo CLSAG mejorará la eficiencia de Monero](/knowledge/what-is-clsag/)
+
+  * [Por qué Monero tiene una emisión de cola](/knowledge/monero-tail-emission/)
+
+  * [La historia de monero](/knowledge/monero-history/)
+
+  * [Wired Magazine está equivocado sobre Monero, aquí está el por qué](/knowledge/wired-article-debunked/)
+
+  * [Los 15 principales mitos y preocupaciones de Monero desacreditados](/knowledge/monero-myths-debunked/)
+
+  * [Cómo Dandelion ++ mantiene los orígenes de las transacciones de Monero en privado](/knowledge/monero-dandelion/)
+
+  * [Por qué Monero es de código abierto y descentralizado](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: lo que hace que RandomX sea tan especial](/knowledge/monero-mining-randomx/)
+
+  * [Por qué Monero es mejor que Dash, Zcash, Zcoin (incluso con Lelantus), Grin y Bitcoin Mixers como Wasabi (Actualizado en mayo de 2020)](/knowledge/why-monero-is-better/)

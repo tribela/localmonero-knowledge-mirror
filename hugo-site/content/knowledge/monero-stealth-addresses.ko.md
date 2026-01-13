@@ -1,0 +1,103 @@
+---
+title: "모네로 비밀주소가 신상을 보호하는 방법"
+slug: "monero-stealth-addresses"
+date: "2020-10-21"
+image: "/images/stealth.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+모네로는 보안을 위해 3가지 장치를 이용합니다. 이 장치들은 출력(송금인)을 숨기는 [링서명](/knowledge/ring-signatures), 거래량을 숨기는 RingCT, 그리고 수취인을 숨기는 비밀주소입니다. 이 글에서는 이 중 비밀주소에 대해 이야기하겠습니다.
+
+수취인을 숨기고 싶은 이유는 다양합니다. 우리가 명심해야할 것은 이 의도가 항상 불미스러운 이유가 아니라는 것입니다. 야당을 지원, 자선단체에 기부, 사회가 잘못되었다고 생각하는 단체를 지원하는 등 사회적 규탄을 피하기 위해 자신의 금융활동을 숨길 이유는 많습니다.
+
+투명한 블록체인에서는 누구나 수취인 주소를 볼 수 있습니다. 여기서 중요한 것은 만약 광부가 돈이 어떻게 쓰이는지에 대해 동의하지 않는다면 해당 거래가 포함된 블록을 채굴하지 않아 나름대로의 검열을 할 수 있다는 것입니다. 이러한 일이 일어날 가능성이 낮지만 이러한 검열을 피할 수 있는 경우는 광부가 체인 내 거래를 구분할 수 없을 때입니다. 이는 모네로의 장점 중 하나입니다.
+
+모네로는 2011년 비트코인 포럼의 Bytecoin이라는 유저(이 유저와 추후 비밀주소를 도입한 Bytecoin 가상화폐와의 연관관계는 불분명합니다)가 비트코인을 위해 개발한 비밀주소를 사용해 공개주소 이용의 문제를 해결합니다. 현재의 비밀주소는 개발단계에 비해서 많은 변화가 있었습니다. 하지만 일단 작동원리를 알기 위해 열쇠에 대해 알아봅시다.
+
+가상화폐 세계에 발을 담그면서 열쇠에 대해 모르기는 힘듭니다. '개인키를 백업하세요'같은 문구는 흔히 볼 수 있지만, 일반인이 "공개키"나 "개인키"같은 말을 들으면 너무 기술적이고 이해하기 힘들 것이라고 생각합니다. 하지만 많은 예시를 들며 천천히 설명할테니 걱정하지 않으셔도 됩니다.
+
+가상화폐에 쓰이는 두가지 열쇠는 방금 말했다시키 공개키와 개인키입니다. 이 두개는 보통 짝을 이루기에 특정 공개키는 그 짝인 특정 개인키가 있습니다. 실제로 공개키는 개인키를 기반으로 만들어기에 개인키만 알고 있으면 지갑이 계산을 통해 공개키를 유추할 수 있습니다.
+
+이름에서 유추할 수 있듯이 공개키는 아무 문제없이 공개할 수 있습니다. 보통 이는 돈을 받기 위한 가상화폐 지갑 주소의 일부입니다. 똑같은 원리로 개인키는 아무한테도 공유하면 안됩니다. 이 열쇠로 거래를 허락하고 서명하기에 만약 누군가 훔치거나 공유한다면 제3자가 당신의 돈을 사용할 수 있습니다.
+
+이해하기 쉬운 예시는 자물쇠와 열쇠입니다. 자물쇠는 누구와도 공유해도 되며 누구나 아무거나 잠글 수 있지만, 열쇠를 보유한 사람만이 이 자물쇠를 열 수 있습니다. 이 자물쇠는 복사되고 공유되지만 열쇠는 그러하지 않습니다.
+
+이 열쇠는 유저가 발견하기 어렵기 때문에 쉽게 보기 어렵습니다. 모네로에서는 이 열쇠를 긴 숫자의 나열 속에 숨기지 않습니다. 일반적인 유저도 자기 키를 자기 시드 속에서 찾을 수 있습니다. 이 시드(아직 하지 않았다면 받아 적으시는 것을 추천합니다)는 사람이 읽을 수 있는 개인키라고 생각하시면 됩니다. 
+
+보시면 알겠지만, 어려운 것이 아닙니다. 비밀주소로 다시 돌아옵시다.
+
+아까도 말했듯이, 비밀주소는 원래 모네로가 아닌 비트코인을 위해 만들어졌습니다. 하지만 많은 아이디어가 그렇듯이, 초기에는 문제가 있었습니다. 두번째 시도는 모네로의 전신([모네로의 역사와 Bytecoin에 대해서](/knowledge/monero-history))인 Nicholas van Saberhagan가 Bytecoin은 위해 CryptoNote를 만들었을 때인데, 이전 시도보다는 분명히 나아졌지만 이 때 역시 문제가 있었습니다.
+
+결국, 지금은 존재하지 않는 보안코인 개발자에 의한 세번째이자 마지막 시도에 와서야 보안이 강력한 결과물이 완성됐습니다. 이는 결국 모네로에 도입되었고 오늘날도 이용되고 있습니다.
+
+여기서 보안과 개인정보보호 문제가 해결되었지만, 비밀주소는 블록체인에 이전에 존재하지 않았던 특이점 하나를 추가했습니다. 바로 블록체인 스캔의 필요성입니다. 이 기술로 인해 수취인 주소가 블록체인에 공개되지 않았기 때문에, 수취인은 어느 거래가 자기가 원하는 거래인지 몰라 모든 거래를 자신의 개인키로 확인해야만 했습니다.
+
+투명하게 공개된 코인은 거래 수취인이 자기 주소인지만 확인하면 되는 간단한 문제였지만 비밀주소를 사용하면 모든 거래가 자신의 거래일 수도 있었기에 하나하나 자신의 개인키로 확인해야만 했습니다.
+
+이는 비트코인이나 그 파생상품들은 하지 않아도 되는 단계였으며, 지갑 생성과 지갑동기화 소요시간을 비트코인보다 훨씬 길게 만들었습니다. 하지만 이는 개인정보 보호를 보장하기 위해 감당해야할 사안이었습니다. 유의해야할 점은, 보안기술 삼신기 중 가장 취약한 링서명과 달리 비밀주소는 반복공격도 방어할 수 있다는 것입니다. 비밀주소는 인터넷 자체가 이용하는 타원곡선암호화 기술을 사용하며 이를 뚫는 것은 모네로뿐만이 아닌 모든 컴퓨터보안을 뚫는다는 것을 의미합니다.
+
+더 보기
+
+  * [Monero가 순환 경제를 가능하게 하는 방법](/knowledge/monero-circular-economies/)
+
+  * [와사비처럼 모네로의 링 시그니처 vs 코인조인](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [자신의 키를 보유해야 하는 이유(및 방법!)](/knowledge/hold-your-keys/)
+
+  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero/)
+
+  * [원격 노드가 Monero의 개인 정보에 미치는 영향](/knowledge/remote-nodes-privacy/)
+
+  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades/)
+
+  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool과 Monero Mining의 탈중앙화에서의 역할](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero/)
+
+  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup/)
+
+  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value/)
+
+  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect/)
+
+  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking/)
+
+  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams/)
+
+  * [Monero에서 원자 스왑이 작동하는 방법](/knowledge/monero-atomic-swaps/)
+
+  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking/)
+
+  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct/)
+
+  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses/)
+
+  * [모네로 출력에 대하여](/knowledge/monero-outputs/)
+
+  * [초보자를 위한 모네로 사용 습관 추천](/knowledge/monero-best-practices/)
+
+  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures/)
+
+  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size/)
+
+  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag/)
+
+  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission/)
+
+  * [모네로의 간단한 역사](/knowledge/monero-history/)
+
+  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked/)
+
+  * [모네로에 관한 15가지 미신과 우려, 그리고 그 해답](/knowledge/monero-myths-debunked/)
+
+  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion/)
+
+  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx/)
+
+  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better/)

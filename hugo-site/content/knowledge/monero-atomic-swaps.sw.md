@@ -1,0 +1,97 @@
+---
+title: "Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero"
+slug: "monero-atomic-swaps"
+date: "2020-11-18"
+image: "/images/atomic.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Katika harakati za kugatua madaraka na mfumo usio na kibali, ni mambo machache yanayotamaniwa sana katika nafasi ya sarafu-fiche kama ubadilishanaji wa madaraka na ubadilishanaji wa atomiki. Tangu kuanzishwa kwake, Monero imetatizika kutekeleza ubadilishanaji wa atomiki, kwani vipengele vya faragha vinaleta matatizo ya kipekee wakati wa kujaribu kubuni itifaki.
+
+Lakini kwanza, tuhifadhi nakala. Mabadiliko ya atomiki ni nini? Kubadilishana kwa atomiki ni itifaki ambayo fedha mbili tofauti za siri, kwenye blockchains tofauti, zinaweza kubadilishana kwa njia isiyoaminika bila mpatanishi. Hii ina maana kama mtu angetaka kubadilisha fedha za sarafu-fiche A kwa sarafu-fiche B, angeweza kuifanya bila kubadilishana, serikali kuu au kugawa madaraka. Kama mtu anavyoweza kufikiria, hii inachukua utafiti mkubwa, na maelezo kamili ya kiufundi ambapo hufanya iwezekane kuwa ngumu sana. Kwa mara nyingine tena, LocalMonero iko hapa kusaidia na kutoa maelezo rahisi kwa mtu wa kawaida.
+
+Kuanza, hebu tuzingatie njia rahisi zaidi ya kubadilishana atomiki, kama inavyotekelezwa na Bitcoin. Ikiwa mtu anataka kubadilisha Bitcoin kwa sarafu nyingine inayotumia teknolojia sawa ya mkataba wa kufunga wakati, anaweza kufanya hivyo kwa njia ifuatayo. Alice ana Bitcoin (BTC), lakini anataka Litecoin (LTC), na Bob ana LTC, lakini anataka BTC. Wanaamua kufanya ubadilishaji wa atomiki ili kila mmoja apate sarafu anayotaka. Alice hutuma BTC yake kwa anwani maalum, akitumia hati zinazofunga pesa ili hata yeye asiweze kuzifikia. Unaweza kufikiria kama vile Alice anaweka BTC yake kwenye kisanduku cha kufuli. Kisanduku cha kufunga kinapotengenezwa, anapata ufunguo, na kutuma heshi ya ufunguo huu kwa Bob. Sasa Bob hana ufunguo wenyewe, ila tu heshi, kwa hivyo bado hawezi kufikia pesa hizo.
+
+Bob hutumia heshi hii kama mbegu ambazo hutengeneza kisanduku chake cha kufuli, na kutuma LTC lake huko, ambapo pia imefungwa. Kwa kuwa heshi ya ufunguo wa Alice ilitumiwa kama mbegu ambayo kisanduku cha kufuli cha Bob kilitengenezwa, anaweza kutumia ufunguo wake kudai LTC kwenye kisanduku cha kufuli cha Bob. Ufunguo wake unafaa! Lakini, kwa kutumia uchawi wa voodoo wa hesabu, anapotumia ufunguo wake kufungua kufuli ya LTC, anafichua ufunguo kwa Bob, ambaye anaweza kuutumia kudai BTC ambayo aliweka kwenye kisanduku chake cha kufuli. Kwa njia hii, bila mpatanishi, Alice na Bob wamefaulu kubadilishana mali zao.
+
+Lakini kuna tatizo kidogo. Je, ikiwa Alice atatuma kwa kisanduku chake cha kufuli, na Bob akaamua hataki kufanya biashara tena. Sasa, kwa kuwa Alice hawezi kufikia BTC yake aliyofungia, na Bob hatakamilisha sehemu yake ya muamala, Alice atapoteza pesa zake milele. Kweli, kwa bahati nzuri, Bitcoin ina teknolojia ndogo inayoitwa shughuli za kurejesha pesa, na hivyo baada ya muda, ikiwa BTC haijadaiwa na Bob, maandiko yana kushindwa-salama iliyojengwa, ambapo BTC itarudi mmoja kwa mmoja kwa Alice. Hiki kilikuwa kikwazo cha msingi cha utekelezaji wa ubadilishaji wa atomiki wa Monero. Kwa sababu ya teknolojia ya faragha ya saini za pete za Monero [](/knowledge/ring-signatures), mtumaji wa muamala huwa hana uhakika. Itifaki inawezaje kufanya shughuli ya kurejesha pesa ikiwa hata haijui muamala ulitoka wapi?
+
+Mnamo 2017, kikundi kidogo cha watafiti walibainisha mbinu tofauti ambayo ubadilishaji wa atomiki ungefanya kazi huko Monero. Baada ya miaka kadhaa ya uboreshaji, watafiti walikamilisha mchakato ambayo Monero angeweza kubadilishana atomiki na Bitcoin, hata bila shughuli za kurejesha pesa.
+
+Kama ilivyo kwa mambo mengi ya kiwango hiki cha utata wa kiufundi, maelezo yetu yatarahisisha baadhi ya mambo kupita kiasi ili kuwasilisha wazo, lakini bado yatatoa wazo thabiti la mbinu ambazo mchakato huu ungefanya kazi.
+
+Alice (aliye na XMR na anataka BTC) na Bob (aliye na BTC na anataka XMR) lazima wapakue na kuendesha programu inayoauni ubadilishanaji wa atomiki. Hii inaweza kutekelezwa katika pochi, ubadilishanaji wa madaraka, au programu maalum, lakini lazima programu iwe inaendesha itifaki ya kubadilishana atomiki. Katika hatua ya kwanza, wateja wa Alice na Bob huungana na kufanya siri na funguo kadhaa za pamoja. Katika hatua hii, anwani mpya ya Monero inaundwa, na Alice akiwa na nusu ya ufunguo, na Bob akiwa na nyingine. Bado hakuna Monero ndani, kwa hivyo hakuna chochote cha kutumia. Jambo la mwisho kukumbuka kuhusu anwani hii, ni kwamba wote wawili wana ufunguo wa kutazama wa pochi hii, kwa hivyo wanaweza kuchungulia ndani ili kuona kama au wakati Monero atakapowasili.
+
+Katika hatua ya pili, Bob hutuma BTC yake kwa anwani maalum, sawa na itifaki ya kubadilishana atomiki ya Bitcoin ambayo tumejadili tayari. Baada ya Alice kuona BTC ikifika kwenye anwani hii kwenye blockchain, anamtuma Monero yake kwa anwani ya Monero ambayo yeye na Bob wote wana nusu moja ya ufunguo. Bob anaweza kuthibitisha kuwa Monero ilifika kwa kuwa pia ana ufunguo wa kutazama, na mara tu anapoona Monero iko salama kwenye pochi, anamtumia Alice kipande cha ufunguo ambacho kitamruhusu kutoa Bitcoin. Sawa na itifaki nyingine, mchakato wa kudai Bitcoin unaonyesha nusu yake ya ufunguo wa Monero kwa Bob. Sasa Bob ana nusu zote mbili, kwa hivyo anaweza kudai Monero, ilhali Alice ana nusu yake tu, kwa hivyo hawezi kujaribu kuipokea kabla hajaipokea.
+
+Kwa hivyo ikiwa uliangalia haya yote na bado unachanganyikiwa kidogo kuhusu jinsi Monero aliweza kutatua tatizo la shughuli za kurejesha pesa, jibu ni rahisi sana. Kwa kuwa Monero yenyewe haina shughuli za kurejesha pesa, msomaji anapaswa kutambua kwamba Bitcoin (ambayo ina miamala ya kurejesha pesa) inatumwa kwanza, na baada tu ya kuthibitishwa kuwa iko kwenye blockchain ndipo Monero inatumwa. Hii inaruhusu Monero kutumia uwezo wa Bitcoin kuandika katika shughuli za kurejesha pesa na kufaidika nazo, bila kuhitaji kuwa na uwezo huu wenyewe.
+
+Mabadilishano ya atomiki sasa yamekamilika, lakini kutoka hapa, Bob ana chaguo kadhaa kwa XMR yake mpya inayodaiwa. Anaweza kutumia pochi hii la Monero kama ilivyo, au kuhamisha XMR hadi kwenye pochi nyingine ambalo tayari anamiliki. Kuna uwezekano mkubwa kwamba Bob atahamisha Monero hadi kwenye pochi lingine, kwa sababu Alice bado ana ufunguo wa kutazama na anaweza kuona ndani.
+
+Uzuri wa itifaki hii ni kwamba bado ni mpya kabisa, na kuna nafasi nyingi ya uboreshaji. Pia ni rahisi kunyumbulika katika usanifu wake, kwa hivyo utekelezaji katika pochi nyingine au ubadilishanaji wa madaraka unapaswa kuwa rahisi na ulingane kikamilifu na usanifu wao uliopo.
+
+Kusoma zaidi
+
+  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies/)
+
+  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys/)
+
+  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero/)
+
+  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy/)
+
+  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades/)
+
+  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero/)
+
+  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect/)
+
+  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking/)
+
+  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams/)
+
+  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking/)
+
+  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct/)
+
+  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses/)
+
+  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses/)
+
+  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs/)
+
+  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices/)
+
+  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures/)
+
+  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag/)
+
+  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission/)
+
+  * [Historia fupi ya Monero](/knowledge/monero-history/)
+
+  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked/)
+
+  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked/)
+
+  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion/)
+
+  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx/)
+
+  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better/)

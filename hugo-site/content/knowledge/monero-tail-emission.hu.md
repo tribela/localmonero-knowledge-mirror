@@ -1,0 +1,97 @@
+---
+title: "Miért van a Monero hálózaton utólagos kibocsátás"
+slug: "monero-tail-emission"
+date: "2020-07-30"
+image: "/images/emission.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Legtöbben a Monero adatbiztonsági technológiáira gondolnak, amikor felmerül, hogy miben különbözik a többi kriptovalutától. Valóban, a legtöbben az adatvédelmet és az ezáltal biztositott helyettesíthetőséget tekintik a Monero meghatározó tulajdonságának, és a fő előnynek, amelyet a többi valutához képest kínál. A legtöbben nem tudják, hogy a Monero protokoll más eltéréseket is tartalmaz a Bitcoinhoz és leszármazottaihoz képest, amiről többen úgy gondolják, hogy legalább olyan fontosak, mint az adatvédelmi technológiák. Ebben a cikkben ezek egyikét vizsgáljuk: az utólagos kibocsátást.
+
+Először is definiáljuk, mit jelent ez. Az utólagos kibocsátás a blokkjutalmak megtartása az idők végezetéig, még az „utolsó” Monero kiöntése után is. Más szavakkal, a Monero blokkjutalma soha nem fog nullára csökkenni, hanem a blokkonkénti 0.6 XMR eléréséig csökken, utána örökre ott marad. A bányászok mindig jutalmat fognak kapni a bányászatért, nem kell kizárólag a díjpiacra hagyatkozniuk.
+
+Lépjünk egyet hátra, és gondoljunk a bányászatra nagyon magas szinten. A Monero bányászait a hash bányászata ösztönzi a hálózat biztosítására. Az ösztönző az új Monero megszerzésének lehetősége, amikor blokkot találnak. Ezt a Monerot két úton kaphatják meg. Először is, a bányász megkapja az összes olyan felhasználó által fizetett díjat, akinek a tranzakciója bekerült a blokkba. Ezek azok a tranzakciós díjak, amelyeket a tranzakció elküldésekor kell fizetni. Másodszor, a bányász előre meghatározott mennyiségű Monerot kap magától a protokolltól. Az esetek többségében ez a „blokkjutalom” lényegesen magasabb, mint a felhasználói tranzakciós díjak, ezzel keresik a legtöbbet a bányászok. Ez a blokkjutalom arra szolgál, hogy a bányászok pénzügyileg érdekeltek legyenek a lánc biztonságában, valamint arra is, hogy új Monero kerülhessen forgalomba.
+
+A legtöbb kriptovaluta protokolljában ez a blokkjutalom idővel csökken. A Bitcoin-származékoknak általában ún. felezése van, azaz előre meghatározott időpontokban feleződik a blokkjutalom (például 20 BTC-ről 10 BTC-re). Ezek a felezések néhány évente történnek meg, és ilyenkor mindig csökken a hálózat biztonsága. Miért? Nos, arra biztatjuk az olvasót, hogy tekintse meg [cikkünket a bányászatról és a RandomX-ről](/knowledge/monero-mining-randomx), ennek során megtanulhatja, hogy a bányászat versengés. Blokkjutalmakat csak azok kapnak, akik megtalálják a blokkot, sok szereplő van versenyben ezért. Ha magasabbak a jutalmak, többen érdeklődnek a játék iránt, míg ha a jutalmak alacsonyak, kevesebben hajlandóak arra fordítani idejüket és erőforrásaikat, hogy egy csekély jutalmat megszerezzenek.
+
+Máris kezdjük megérteni Monero utólagos kibocsátásának motivációját. A Monero blokkjutalma is csökken, de a Bitcoinnal ellentétben nincs feleződés. Ehelyett minden blokk jutalma egy kicsivel kevesebb, mint az előzőé, így a csökkenés sokkal egyenletesebb. De minden kriptovalutánál felmerül a kérdés: „Mi történik, amikor a blokkjutalom eléri a nullát?” Ez egy nehéz kérdés, amelyre egyszerre tudjuk és nem tudjuk a választ. Ami biztos, hogy nem lesz többé blokkjutalom, ami azt jelenti, hogy a bányászokat pusztán a felhasználói tranzakciós díjakkal kell ösztönözni. Azt nem tudjuk, hogy ezek az összegek elegendőek lesznek-e ahhoz, hogy biztosítsák a láncot.
+
+Ahogy korábban említettük, jelenleg a blokkjutalom jelentős mértékben meghaladja a tranzakciós díjakat, így remélhetőleg ha többen fogják használni a láncot, a díjak is megnövekednek, és a magasabb díjakkal a bányászoknak is megéri majd folytatni. Van azonban ennek a forgatókönyvnek egy másik oldala is, a felhasználók részéről. Ha a díjak megemelkednek, mindenki számára sokkal drágább lesz a kriptovalutával történő tranzakció, ami kizárhatja azokat, akik kevésbé jómódúak. Másrészt, ha a díjak alacsonyak maradnak, és a blokkjutalom nullára csökken, akkor nagyon kevés bányász fogja biztosítani a hálózatot, így az 51%-os támadásokkal és tranzakciók visszafordítotásával szemben sebezhetőbbé válik.
+
+Senkinek nincs igazán jó válasza erre, egyelőre egyik jelentős kriptovaluta sem lépett be életciklusának ebbe a szakaszába, így nincs vele valódi tapasztalatunk sem. Ez mind spekuláció, szerencsejáték. A Bitcoin arra tett, hogy a díjak elegendőek lesznek a bányászok eltartására, még úgy is, hogy ez a szegényebbek kizárását jelenti. A Monero másra fogadott. Arra, hogy a díjak önmagukban nem lesznek elegendőek a lánc biztosításához, ezért a protokoll része az utólagos kibocsátás.
+
+Emlékeztetnénk az olvasót, hogy a blokkjutalom soha nem csökken blokkonkénti 0.6 XMR alá. Ez elég lesz a bányászok ösztönzésére? Nem tudjuk, de mindenképpen kedvezőbb a 0-nál, amit szinte minden más valutánál hosszú távon várhatnak.
+
+A fő kritika ezzel a megközelítéssel szemben az, hogy eszerint a Monero kínálata elméletben végtelen, az idő múlásával inflálódik, míg a blokkjutalmat megszüntető valuták kínálata véges, szűkösségük idővel növeli az értéküket. Úgy tartjuk, ez az érv több szempontból is hiányos.
+
+Először is, mire jó egy szűkös, nagy értékű kripto, amelyet az alacsony biztonsága miatt könnyen lehet megtámadni, cenzúrázni vagy eltéríteni? Az alacsony biztonság csökkentené az értékét, ellensúlyozva a szűkösségének növekedését. Másodszor, bár a Monero kínálata elméletileg végtelen, az infláció lineáris, éves százalékban mérve nullához tart, ellentétben a fiat pénzek exponenciális romlásával.
+
+A Monero inflációja előre ismert és pontosan tervezhető, ellentétben a fiat pénzzel, amelynek mennyisége adott évben a hatalom szeszélyei alapján többet vagy kevesebbet növekedhet. Így továbbra is megőrzi a cypherpunk szellemiségét, miszerint a protokoll által kikényszerített technológia kiküszöböli az emberi korrumpálhatóságot. Azzal a további előnnyel, hogy a Monero blokkláncának biztonsága a bányászat révén mindaddig fennmarad, amíg csak a világnak szüksége van rá.
+
+Az utolsó szempont, amit érinteni akarunk, a méltányosság kérdése. A pénzt többféleképpen használják: értéktárolóként, csereeszközként, és elszámolási egységként. Egy olyan rendszerben, ahol a kínálat véges, az infláció megszűnik, azok, akik értéktárolóként használják, ingyen kapják a rendszert. A bányászok által nyújtott folyamatos biztonságban részesülnek anélkül, hogy bármit is fizetnének érte, hiszen infláció hiányában a pénzük nem veszít értékéből. Ezzel szemben mindenki, aki a valutát csereeszközként használja, büntetést kap (az esetleges magas tranzakciós díjak formájában). Ez arra ösztönzi az embereket, hogy tartsák, de ne költsék a valutát, a rendszer méltányosságát a birtokosok javára torzítva. Az utólagos kibocsátás kiegyenlíti ezt. Így a tulajdonosok az infláció révén szintén fizetnek egy kevés adót a rendszer biztonsága érdekében. Az utólagos kibocsátás mindenki számára igazságosabb.
+
+További olvasnivaló
+
+  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies/)
+
+  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys/)
+
+  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero/)
+
+  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy/)
+
+  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades/)
+
+  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero/)
+
+  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup/)
+
+  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value/)
+
+  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect/)
+
+  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking/)
+
+  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams/)
+
+  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps/)
+
+  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking/)
+
+  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct/)
+
+  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses/)
+
+  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses/)
+
+  * [Monero kimenetek magyarázata](/knowledge/monero-outputs/)
+
+  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices/)
+
+  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures/)
+
+  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size/)
+
+  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag/)
+
+  * [A Monero rövid története](/knowledge/monero-history/)
+
+  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked/)
+
+  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked/)
+
+  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion/)
+
+  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx/)
+
+  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better/)

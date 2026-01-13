@@ -1,0 +1,105 @@
+---
+title: "Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit"
+slug: "wired-article-debunked"
+date: "2020-06-24"
+image: "/images/wired.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Sa parehong privacy at cryptocurrency spheres, madalas na talamak ang maling impormasyon. Mayroon kaming [isang artikulong nagbabalangkas ng labinlimang karaniwang hindi tama o luma na mga pagpapalagay tungkol sa Monero](/knowledge/monero-myths-debunked), ngunit gusto naming maglaan ng oras upang matugunan ang isang partikular na artikulo na madalas na binabanggit at ipinapalabas ng mga may pag-aalinlangan sa Monero.
+
+Ang Wired publication ay naglabas ng [isang artikulo](https://www.wired.com/story/monero-privacy/) noong ika-27 ng Marso, 2018, na mismong isinulat bilang tugon sa isa pang fresh-off-the-press na papel na inilathala ng iba't ibang akademya na pinamagatang: "An Empirical Analysis ng Traceability sa Monero Blockchain”.
+
+Kahit na ang papel ay kapwa may akda ng mga indibidwal na may malinaw na salungatan ng interes (basahin: sila ay tagapayo sa, at may stake sa Zcash), ang papel ay katamtamang tinanggap ng komunidad ng Monero bilang pagkumpirma ng mga bagay na alam na ng komunidad at isinulat tungkol sa sarili nilang mga papeles ng Monero Research Lab ([MRL-0001](https://web.getmonero.org/resources/research-lab/pubs/MRL-0001.pdf) at [MRL-0004](https://web.getmonero.org/resources/research-lab/pubs/MRL-0004.pdf)) ang pinakaunang na-publish apat na taon bago ito. Nagkaroon din ng ilang mga pagkabigo dito gayunpaman, higit sa lahat ang salungatan ng interes, ang katotohanan na ang mga isyu ay alam na, napag-usapan at - sa ilang mga kaso - naayos, at ang matinding mischaracterization ng mga garantiya sa privacy ng Monero noong panahong iyon. Nagkomento ang komunidad sa paunang pag-print ng gawain, at marami sa kanilang mga rekomendasyon ang nakarating sa huling papel.
+
+Ngunit ano ba talaga ang na-mischaracterized? Ang katotohanan na si Monero ay hindi nagkaroon ng mga bahid na tinalakay sa papel sa loob ng mahigit isang taon. Ang mga transaksyon bago ang 2017 ay talagang mahina sa isang paraan ng pagtagas ng privacy, ngunit sa oras ng pag-publish, natugunan ni Monero ang karamihan sa mga alalahanin. Upang maging patas sa mga may-akda, tinatalakay nila ang mga remedyo ni Monero sa isang maliit na antas, ngunit hindi sapat upang maimpluwensyahan ang epekto nito sa ikot ng cryptocurrency media sa panahong iyon. Kaya ang Wired na artikulo.
+
+Bagama't maaari nating suriin ang Wired na artikulong pinag-uusapan bilang isang bahagi ng panahon, at kung gaano ito katotoo o hindi totoo noong panahong iyon, ang katotohanang ibinabahagi pa rin ito ngayon bilang pangangatwiran kung bakit mahina ang mga garantiya sa privacy ng Monero ay talagang nag-aanyaya ng pagsusuri kung paano nananatili ang piyesa sa kasalukuyan. Malugod naming tinatanggap ang imbitasyong ito.
+
+Ang isang mabilis na pagbabasa ng artikulo ay nagpapakita ng ilang nakakagulat na mga linya, tulad ng "[Ang mga natuklasan] ay hindi lamang dapat mag-alala sa sinumang sumusubok na palihim na gumastos ng Monero ngayon" at ang buong tono ng artikulo na nagpapatunay sa pananaliksik bilang 'bago', higit na nakabatay sa publikasyon. Ang akademikong papel mismo ay may mga rekomendasyon tulad ng babala sa mga gumagamit ng Monero sa potensyal na kompromiso ng kanilang hindi pagkakilala, sa kabila ng katotohanan na hindi lamang nangyari ang mga talakayang ito mula noong 2014, ngunit ang rallying sigaw ng komunidad ay para sa mga tao na huwag bumili ng Monero at na ito ay napaka-eksperimento.
+
+Ngunit paano ang mga pagpuna mismo? Ang katotohanan ay ang maraming isyu sa Monero bilang privacy coin ay maaaring hindi na totoo sa Monero, o nagbahagi ng mga alalahanin sa privacy coins bilang isang kategorya ng blockchain-based na mga cryptocurrencies. Simulan natin ang pagtugon sa mga ito.
+
+Isa sa mga madalas na binabanggit na mga kritisismo ng Monero ay dahil sa pagiging permanente at hindi nababago ng blockchain, kung ang isang teknolohiya sa hinaharap ay sisira sa privacy, ang lahat ng mga nakaraang transaksyon ng Monero ay mabubunyag. Sa madaling salita, ang iyong privacy ay may ticking clock dito.
+
+Hindi namin ito mai-stress nang sapat. Literal na ang bawat privacy coin na gumagamit ng mga on-chain na pamamaraan para sa obfuscation at privacy ay may ganitong kapintasan, gayunpaman ito ay madalas na ginagamit laban sa Monero (ironically, maraming beses sa pamamagitan ng nakikipagkumpitensyang privacy coins na may parehong problema), at ginagamit din sa artikulong ito. Ang tugon sa pagpuna na ito ay maaaring nakakagulat sa ilan, ngunit ang Monero ay maaaring hindi gaanong mahina kaysa sa iba pang mga privacy coin dito dahil sa katotohanan na mayroon itong multi-pronged approach sa privacy.
+
+Itinatago ng Monero ang mga output (mga nagpadala), mga halaga, at mga receiver sa pamamagitan ng tatlong magkakaibang teknolohiya, mga pirma ng ring, RingCT, at mga stealth na address ayon sa pagkakabanggit. Sa mga ito, ang mga pirma ng singsing ay ang pinakamahina, at pinaka-madaling kapitan sa parehong modernong heuristics at teoretikal, hinaharap, mga teknolohiyang lumalabag sa privacy. Ito ay kilala sa komunidad ng Monero sa loob ng maraming taon, at ang aktibong pagsasaliksik ay isinasagawa upang pahusayin o palitan nang buo ang ring signature scheme.
+
+Gayunpaman, kahit na ang pirma ng singsing ay ganap na nasira, ang tunay na output lang ang ipapakita. HINDI ang nagpadala (tulad ng sa indibidwal), ngunit ang output. Ang pagsasama ng isang output na may pagkakakilanlan ay hindi imposible, ngunit mangangailangan ito ng higit pang metadata at mga mapagkukunan. Kasabay ng katotohanan na ang RingCT at ang stealth address ay HINDI ihahayag ay lalong nagpapababa ng epekto.
+
+Dapat tandaan na ang Wired na artikulo ay hindi gaanong tinatalakay ang impormasyon sa itaas sa bahagi kung saan nakipag-ugnayan sila kay Riccardo 'fluffypony' Spagni para sa komento, ngunit ang oras na ibinigay dito ay maikli, at halos tila humiwalay. mahalagang impormasyon na ito. Ang kakulangan ng pag-unawa ay lalo na maliwanag kapag sinusubukang talakayin ang mga bagay na ito sa mga taong nagbabahagi ng artikulo nang walang pag-aalinlangan sa modernong panahon.
+
+Ang isa pang kritisismo na mas mahirap tugunan ay sa kung paano tinitingnan ng labas ng mundo si Monero, at kung paano ito nauugnay sa kung paano tinitingnan ng komunidad sa paligid ng Monero ang barya. Para sa isang halimbawa nito, ang mga mambabasa ay hindi kailangang tumingin nang mas malayo kaysa sa pamagat ng mismong artikulo: "Ang Paboritong Pera ng Dark Web ay Hindi Nabawasan kaysa sa Mukhang".
+
+Sinumang tao na gumugugol ng anumang makabuluhang tagal ng oras sa komunidad ng Monero ay maaaring magpatunay sa katotohanan na ang komunidad ng Monero ay nagsusumikap upang ipakita kung gaano kahirap makamit ang tunay na privacy, kahit na sa kapinsalaan ng mga pagsusumikap sa marketing o adoption. Kung ang komunidad ay nagbibigay ng sapat na mapagkukunan na tinatalakay ang coin at ang mga pagkukulang nito nang tumpak, sa ilang mga punto, ang kamangmangan ay nagiging kasalanan ng gumagamit na naniniwala na ang coin lang ang kailangan nila upang maging 100% pribado.
+
+Sa puntong ito, dapat na malinaw na ang komunidad ng Monero ay sineseryoso ang pagiging pribado nito, at ang katapatan nito tungkol sa mga kahinaan nito at mga kasunod na pagpapahusay. Ang mga artikulo, tulad ng pinag-uusapan, ay lubos na nakakaligtaan ang diwa ng pagbabagong ito sa Monero. Inihahalintulad nito ang Monero sa karamihan ng iba pang mga cryptocurrencies na gumagawa ng magagandang pag-aangkin, na may pag-iisip lamang para sa tubo at biktima ng mga hindi nakapag-aral na investor-wannabes.
+
+Ang katotohanan ay hindi maaaring maging mas iba. Alam na alam ni Monero ang mga kahinaan nito, naghahangad na ipagpatuloy ang pagbuo nito upang mapabuti ang mga ito, higpitan ang mga maluwag na dugtungan, at makamit ang tunay, ngunit napakahirap na layunin ng pagbibigay sa mundo ng pribado, magagamit na cryptocurrency na magagamit ng lahat, at gawin ang lahat sa paraang patas, desentralisado, at hinihimok ng komunidad. Marahil ay oras na upang alisin ang sensationalization at pagbabahagi ng artikulo bilang isang paraan upang mag-shill bag at magsulong ng mga kakumpitensya. Marahil ay oras na para magkwento.
+
+Karagdagang pagbabasa
+
+  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies/)
+
+  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys/)
+
+  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero/)
+
+  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy/)
+
+  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades/)
+
+  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero/)
+
+  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect/)
+
+  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking/)
+
+  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams/)
+
+  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps/)
+
+  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking/)
+
+  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct/)
+
+  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses/)
+
+  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses/)
+
+  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs/)
+
+  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices/)
+
+  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures/)
+
+  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag/)
+
+  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission/)
+
+  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history/)
+
+  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+
+  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion/)
+
+  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx/)
+
+  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better/)

@@ -1,0 +1,93 @@
+---
+title: "Paano Mapapabuti ng CLSAG ang Efficiency ng Monero"
+slug: "what-is-clsag"
+date: "2020-08-05"
+image: "/images/clsag.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Bilang isang protocol, kasalukuyang nasa patuloy na pagbabago ang Monero. Gamit ang pananaliksik sa parehong on-chain at off-chain na mga solusyon, naghahanap ang komunidad ng Monero ng mga lugar na pagbutihin upang gawing mas pribado, mas nasusukat, at mas naa-access ng lahat ang Monero. Ang isa sa mga pinakabagong inobasyon ay ang pagpapalit ng nali-link na ring signature scheme, MLSAG, na may drop-in na kapalit na CLSAG, na kumakatawan sa Concise Linkable Spontaneous Anonymous Group.
+
+Sa surface level, babawasan ng pagpapatupad ng CLSAG ang pinakakaraniwang 2 input, 2 output na transaksyon ng 25%. Makakakita rin tayo ng 10% pagbaba sa oras ng pag-verify.
+
+Ngunit ano nga ba ang CLSAG? Ano ang ginagawa nito, at paano ito naiiba sa lumang bersyon, MLSAG? Maglaan tayo ng isang minuto upang paalalahanan ang ating sarili kung bakit at paano ang mga pirma ng ring para mas maunawaan natin ang konseptong ito. Nagbibigay-daan ang mga ring signature para sa mga hindi interactive, saksi na hindi matukoy na mga input sa pamamagitan ng paggamit ng napiling signer na anonymity set ng mga nakaraang output. Sa mga tuntunin ng mga karaniwang tao, pinapayagan nito ang isang user na itago ang kanilang mga output na ginamit sa isang transaksyon kasama ng mga hindi nauugnay na output, at magagawa nila ang lahat ng ito nang hindi nangangailangan ng sinumang makilahok. Ang kailangan mo lang ay isang kopya ng blockchain. Ang bawat isa sa mga output na ito ay kadalasang lumilitaw na pare-pareho ang posibilidad ng pagiging aktwal na ipinadala, sa gayon ay nagtatago ng metadata tungkol sa nagpadala.
+
+Gayunpaman, nagdudulot ito ng kaunting problema. Paano kung ang isang gumagamit ay gagawa ng isang singsing na lagda kasama ang lahat ng mga decoy na output? Paano malalaman ng sinuman na ang hindi kilalang nagpadala ay walang awtoridad na magpadala ng anuman sa kanila? Magagawa ba ng user na ito na gumastos ng pekeng pera? Ang sagot ay hindi. Kasama sa ring signature ang isang paraan para patunayan na kahit isa sa mga output ay pagmamay-ari ng hindi kilalang nagpadala, nang hindi inilalantad kung alin ito. Sa katunayan, ang parehong CLSAG at MLSAG (mula ngayon ay kilala bilang mga SAG) ay bahagi ng pirma ng singsing na nagpapatunay nito. Kapansin-pansin, sa parehong oras, ito ay nagpapatunay na ang halaga ng transaksyon, kahit na nakatago sa likod ng mga kumpidensyal na transaksyon (RingCT), ay balanse. Na ang mga SAG ay nagpapatunay ng dalawang bagay, na ang isang output ay pagmamay-ari ng isang tao sa ring, at na ang balanse ng transaksyon, ay mahalaga, at kung saan talaga ang laki at matitipid sa pag-verify. Kung ito ay nakakalito, huwag mag-alala, makakarating tayo sa isang masaya, at madaling maunawaan na pagkakatulad sa lalong madaling panahon.
+
+Ang lumang signature scheme, MLSAG (Multilayered Linkable Spontaneous Anonymous Group) ay nagpapatunay sa nabanggit na dalawang bagay sa isang ring signature, ngunit ginagawa nito ang bawat isa nang hiwalay. Ang paggamit ng magkahiwalay na pagkalkula para sa pagpirma at mga susi ng pangako ay nangangahulugan ng mas mabagal na operasyon. Ang isang modernong computer ay maaaring gawin ang mga pagkalkula na ito sa isang bagay ng millisecond, na mukhang hindi gaanong, at sa katunayan, para sa isang transaksyon ay hindi. Ngunit kapag isasaalang-alang namin ang napakaraming mga transaksyon sa Monero blockchain, at ang isang node na nagsi-sync mula sa simula ay kailangang i-download at i-verify ang bawat isa sa kanila, ang mga byte at millisecond ay magsisimulang tumambak nang mabilis.
+
+Pinagsasama-sama ng CLSAG ang mga math na kinakailangan upang mapatunayan ang pareho sa isa, pati na rin ang pagkalkula ng pareho sa mga ito nang sabay-sabay, at ginagawa nito ito sa isang ligtas na paraan. Ano ang ibig sabihin nito sa ligtas na paraan? Well, para malinawan ito, pati na rin sana ay gawing mas makabuluhan ang buong bagay, tuklasin natin ang ipinangakong nakakatuwang analogy.
+
+Sabihin nating kailangan mong pumunta sa grocery store at hardware store, para pumili ng dalawang magkaibang bagay: pagkain at mga nakakalason na kemikal na panlinis. Hindi mo nais na maghalo sila, na parang may isang aksidente, ang mga kemikal ay magtapon sa pagkain, na ginagawa itong hindi nakakain. Nagpasya kang maging sobrang ligtas at magmaneho mula sa iyong bahay patungo sa grocery store, bumili ng pagkain, at pagkatapos ay magmaneho pabalik sa iyong bahay. Pagkatapos mong maibaba ang pagkain saka ka lang bumalik sa kotse, magmaneho sa tindahan ng hardware, at bumalik sa iyong bahay dala ang mga kemikal. Dalawang magkahiwalay na biyahe ang ginawa mo para matiyak ang kaligtasan ng lahat ng pagbili. Kahit na ito ay talagang ligtas, ito ay hindi epektibo. Ito ay kumakatawan sa MLSAG, kung saan dalawang magkaibang hanay ng matematika ang iniimbak at dalawang magkaibang 'paglalakbay' ang ginawa upang makalkula ang mga ito.
+
+Gayunpaman, magpapasya kang gusto mo ng mas mabilis na paraan para gawin ito. Ito ay masyadong maraming nasayang na oras. Tiyak na ang paggawa nito nang isang beses o dalawang beses ay hindi magnanakaw ng iyong buhay, ngunit kapag kailangan mong gawin ito nang paulit-ulit, ang mga oras ay magsisimulang dumami. Magsisimula kang magtaka kung maaari kang gumawa ng isang biyahe sa halip. Mula sa iyong bahay, sa grocery store, sa hardware store, at pauwi. Hindi ka pwedeng basta-basta pumunta at itapon ang lahat sa iyong sasakyan. Hindi ito ligtas. Sa halip, magtatalaga ka ng iba't ibang mga lugar sa iyong sasakyan para sa iba't ibang bagay, at siguraduhing magkasya ang lahat sa lugar nito. Sa paggawa nito, ligtas kang makakapaglakbay sa parehong tindahan, at maiiwasan ang mga bagay sa isa't isa. Ito ay kumakatawan sa CLSAG. Mayroon na lang ngayong isang set ng math na naka-imbak sa transaksyong ito upang patunayan ang dalawang bagay na ito, at tapos na ito na hindi sila nakikialam sa isa't isa. Kailangan pa ring maglakbay, ngunit binawasan mo ang bilang ng mga ito nang husto.
+
+Mukhang kapana-panabik ang lahat ng ito. Posible bang makahanap tayo ng iba pang mga shortcut, o iba pang paraan upang makatipid sa oras at espasyo? Ang sagot ay oo at hindi. Ayon sa kasalukuyang mga mananaliksik ng MRL, malamang na hindi posible na higit pang baguhin ang SAG-type constructions para sa mas mahusay na laki o bilis; gayunpaman, ang ibang mga konstruksyon tulad ng Arcturus, Omniring, RCT3, o Triptych ay gumagawa ng mas mahusay na mga benepisyo sa pag-scale ng laki at pag-verify gamit ang iba't ibang mga pamamaraan ng matematika. Gayunpaman, ang bawat isa sa mga 'next-gen' approach na ito sa signer-ambiguous na mga protocol ay may sarili nitong tradeoffs sa mga detalye ng pagpapatupad, at sumasailalim sa aktibong pananaliksik at pagsisiyasat.
+
+Kung tutuusin, palaging naninibago si Monero.
+
+Karagdagang pagbabasa
+
+  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies/)
+
+  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys/)
+
+  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero/)
+
+  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy/)
+
+  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades/)
+
+  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero/)
+
+  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect/)
+
+  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking/)
+
+  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams/)
+
+  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps/)
+
+  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking/)
+
+  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct/)
+
+  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses/)
+
+  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses/)
+
+  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs/)
+
+  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices/)
+
+  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures/)
+
+  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission/)
+
+  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history/)
+
+  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked/)
+
+  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+
+  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion/)
+
+  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx/)
+
+  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better/)

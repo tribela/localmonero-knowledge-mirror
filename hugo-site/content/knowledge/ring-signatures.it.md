@@ -1,0 +1,97 @@
+---
+title: "Come le firme ad anello oscurano i risultati di Monero"
+slug: "ring-signatures"
+date: "2020-09-08"
+image: "/images/rings.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Monero è noto in tutto lo spazio crittografico come il re delle monete per la privacy. Sebbene tutti sappiano che Monero offre una buona privacy, non molti capiscono come funziona la privacy.
+
+Molte altre monete per la privacy pubblicano infografiche con grafici di confronto, che elencano i nomi della tecnologia per la privacy di ciascuna moneta, e nella maggior parte dei casi etichettano la tecnologia di Monero come RingCT, ma questo è solo parzialmente vero. Monero ha in realtà un triplice approccio alla privacy. Una tecnologia per nascondere il destinatario di una transazione, una per nascondere l'importo inviato e una per nascondere l'output utilizzato, si tratta rispettivamente di indirizzi nascosti, RingCT e firme dell'anello.
+
+Questo approccio su tre fronti significa che se una delle tecnologie viene interrotta, le altre non condividono necessariamente lo stesso destino. Le firme ad anello sono l'anello più debole nello schema della privacy; la parola debole qui significa il più suscettibile agli attacchi euristici. Prendiamoci un po 'di tempo per esplorarli, vero?
+
+Come accennato in precedenza, l'obiettivo delle firme ad anello è oscurare un output utilizzato in una transazione. Se la terminologia "input / output" della criptovaluta ti confonde, non preoccuparti. In realtà non è così complicato. Quando senti "output" pensa solo a un assegno. Una di quelle cose, non più così comuni, con cui le persone pagano. Come un assegno, può essere indicato in qualsiasi importo - $ 10, $ 32,50, ecc. - e viene scambiato tra le parti che effettuano la transazione. Per le criptovalute, gli output servono a queste funzioni.
+
+Quando qualcuno ti paga 10 Monero, ricevi un output di 10 XMR. Questo output ha un valore (10), ed è ciò che viene preso dal portafoglio del mittente, allo stesso modo quando paghi un servizio, una fattura lascia il tuo portafoglio fisico e viene data alla persona da cui stai acquistando.
+
+Il modo in cui l'output viene nascosto è costruire un anello (da cui il nome) di esche. Ma queste esche non sono uscite "false". Sono veri e propri output passati dalla blockchain che non hanno nulla a che fare con la transazione attuale, ma per un osservatore esterno, ciascuno di questi output potrebbe sembrare altrettanto probabile di quello reale. La dimensione del set di uscite esca, più quella reale, è chiamata dimensione dell'anello, e attualmente quella di Monero è undici. Quindi ci sono dieci uscite esca e una vera.
+
+Perché non aumentiamo semplicemente questo numero a 100 o addirittura a 1000? Più sono e meglio è, giusto? Beh, dal punto di vista della privacy, sì, ma ci sono altre cose da considerare. Torniamo a un esempio fisico per vedere cosa intendo. Se volessi nascondere una delle tue banconote da un dollaro tra dieci esche, avresti bisogno di portare circa undici dollari nel portafoglio per ogni dollaro che volevi spendere. Un dollaro reale e dieci falsi. Questo diventa già piuttosto macchinoso se vuoi spendere anche pochi dollari. Ora immagina di aver aumentato l'importo dell'esca a 1000. Per ogni dollaro che volevi spendere, dovresti portare con te circa 1001 dollari. Dovresti portare in giro una valigetta solo per acquistare una barretta di cioccolato! È importante notare che le firme ad anello non funzionano proprio in questo modo, ad esempio, le esche stesse non fanno parte della firma, ma solo riferimenti ad esse, ma speriamo che questa analogia possa essere in qualche modo utile per rappresentare i concetti di base.
+
+Le esche sulla blockchain funzionano in modo simile. Ogni esca aggiunta aumenta il tempo e il costo di verifica della transazione. Ogni nodo deve scaricare l'intera firma dell'anello per ogni transazione e ogni firma dell'anello contiene l'output reale, così come le esche. Non solo, ma deve verificare la matematica che almeno uno di questi output sia reale e anche il tempo di verifica matematica aumenta con ogni esca. Ciò significa che dobbiamo trovare una felice via di mezzo, in cui la dimensione dell'anello è abbastanza grande da oscurare adeguatamente l'output reale, anche contro molti attacchi euristici, ma abbastanza piccola da non far aumentare la blockchain a un ritmo enorme. Non è sufficiente scegliere un numero arbitrario o semplicemente aumentare la dimensione dell'anello quando riduciamo la firma (come con CLSAG). La comunità Monero vuole prove matematiche concrete su cui la dimensione dell'anello offra i migliori compromessi. Un numero troppo piccolo e la privacy non sarà abbastanza forte contro gli attacchi euristici. Troppo grande e potremmo ottenere solo un vantaggio marginale dal lato della privacy e soffrire inutilmente per quanto riguarda il ridimensionamento.
+
+Un'ultima cosa da menzionare. Alcune pubblicazioni Monero semplificano e affermano che le firme ad anello nascondono il mittente, ma questo non è del tutto vero e la differenza non è solo pedante. La differenza tra il mittente (un essere umano) e un output (una bolletta) è grande quando si tratta di preservare la privacy. Mentre un output può avere legami con un mittente, un output in sé non è uguale a un mittente. Quindi, anche se una firma ad anello dovesse essere rotta, non si collegherà necessariamente all'identità di una persona e sia l'importo che il destinatario sono ancora nascosti, riducendo al minimo il danno arrecato alla privacy di tutte le parti.
+
+Questo non vuol dire che la firma di un anello rotto sia insignificante. Qualsiasi metadata trapelato è dannoso e ha il potenziale per rivelare più informazioni di quanto pensiamo, specialmente se usato insieme ad altri metadati. Quindi facciamo del nostro meglio per assicurarci che la dimensione dell'anello scelta abbia il rigore accademico dietro la decisione, che altre perdite di metadati siano ridotte al minimo e che l'utente utilizzi per impostazione predefinita le migliori azioni possibili.
+
+Ma se la probabilità di una firma rotta è ancora preoccupante per te, beh, ci sono alcune notizie incredibili all'orizzonte. La prossima generazione di protocolli per la privacy su cui si sta lavorando, come Triptych, Arcturus e Lelantus, ha capacità davvero precise. In questi protocolli, la dimensione scala logaritmicamente, non linearmente, all'aumentare della dimensione dell'anello. Ciò significa che possiamo montare 100 esche, ma lo spazio utilizzato è più vicino alla dimensione dell'anello 10 nella vecchia tecnologia. Questa è proprio la differenza e migliorerà notevolmente la privacy.
+
+Nel gioco del gatto e del topo che è la privacy, Monero innova continuamente per stare al passo con i tempi e garantire la migliore privacy pratica per tutti.
+
+Ulteriori letture
+
+  * [Come Monero abilita in modo unico le economie circolari](/knowledge/monero-circular-economies/)
+
+  * [Firme ad anello di Monero vs CoinJoin come in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Perché (e come!) dovresti tenere le tue chiavi](/knowledge/hold-your-keys/)
+
+  * [Contribuire a Monero](/knowledge/contributing-to-monero/)
+
+  * [Come i nodi remoti impattano sulla privacy di Monero](/knowledge/remote-nodes-privacy/)
+
+  * [Come Monero usa gli hard-forks per aggiornare la rete](/knowledge/network-upgrades/)
+
+  * [Visualizza i tag: Come un byte ridurrà i tempi di sincronizzazione del portafoglio Monero del 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool e il suo ruolo nella decentralizzazione del mining di Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Cosa farà per Monero](/knowledge/seraphis-for-monero/)
+
+  * [Convertire Bitcoin in Monero è altrettanto privato che comprare Monero direttamente?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Perché Monero usa una configurazione senza fiducia a differenza di Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Perché Monero è un migliore deposito di valore rispetto a Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Come Monero può superare gli effetti di rete di Bitcoin](/knowledge/network-effect/)
+
+  * [Perché Monero ha la comunità di pensiero più critico](/knowledge/critical-thinking/)
+
+  * [Truffe a cui prestare attenzione quando si utilizza Monero](/knowledge/monero-scams/)
+
+  * [Come funzioneranno gli Atomic Swap in Monero](/knowledge/monero-atomic-swaps/)
+
+  * [Ciò che ogni utente Monero deve sapere quando si tratta di networking](/knowledge/monero-networking/)
+
+  * [Come RingCT nasconde gli importi delle transazioni Monero](/knowledge/monero-ringct/)
+
+  * [In che modo gli indirizzi Monero Stealth proteggono la tua identità](/knowledge/monero-stealth-addresses/)
+
+  * [In che modo i sottoindirizzo Monero impediscono il collegamento di identità](/knowledge/monero-subaddresses/)
+
+  * [Spiegazione dei risultati di Monero](/knowledge/monero-outputs/)
+
+  * [Migliori pratiche Monero per principianti](/knowledge/monero-best-practices/)
+
+  * [Come Monero ha risolto il problema delle dimensioni del blocco che affligge Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [In che modo CLSAG migliorerà l'efficienza di Monero](/knowledge/what-is-clsag/)
+
+  * [Perché Monero ha un'emissione di coda](/knowledge/monero-tail-emission/)
+
+  * [La storia di Monero](/knowledge/monero-history/)
+
+  * [Wired Magazine ha sbagliato su Monero, ecco perché](/knowledge/wired-article-debunked/)
+
+  * [Top 15 Miti e preoccupazioni Monero debunked](/knowledge/monero-myths-debunked/)
+
+  * [Come Dandelion ++ mantiene private le origini delle transazioni di Monero](/knowledge/monero-dandelion/)
+
+  * [Perché Monero è open source e decentralizzato](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: cosa rende RandomX così speciale](/knowledge/monero-mining-randomx/)
+
+  * [Perché Monero è meglio di Dash, Zcash, Zcoin (anche con Lelantus), Grin e Bitcoin Mixer come Wasabi (Aggiornato a maggio 2020)](/knowledge/why-monero-is-better/)

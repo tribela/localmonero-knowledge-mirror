@@ -1,0 +1,97 @@
+---
+title: "Sida Isku-beddelka Atoomikada uu uga Shaqeeyo Monero"
+slug: "monero-atomic-swaps"
+date: "2020-11-18"
+image: "/images/atomic.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Raadinta maamul daadejinta iyo nidaam run ahaantii ogolaansho la'aan ah, waxyaabo yar ayaa loo jecel yahay booska cryptocurrency sida isweydaarsiga baahsanaanta iyo isweydaarsiga atomiga. Tan iyo markii la aasaasay, Monero waxa ay ku dhibtoonaysay hirgelinta isweydaarsiga atomiga, maaddaama sifooyinka gaarka ah ay abuuraan dhibaatooyin gaar ah marka ay isku dayayaan inay naqshadeeyaan borotokoolka.
+
+Laakiin marka hore, aynu dib u soo kabno. Waa maxay isweydaarsiga atomiga? Isku beddelka atomiga waa hab-maamuus ay laba cryptocurrencies kala duwan, on blockchains kala duwan, lagu kala beddelan karaa hab aan la aamini karin oo aan dhex dhexaadiye. Tani waxay ka dhigan tahay haddii qof doonayo inuu ku beddelo cryptocurrency A ee cryptocurrency B, waxay awoodi karaan inay ku sameeyaan iyada oo aan la beddelin, la dhexgelin ama la baahin. Sida laga yaabo in la qiyaaso, tani waxay u baahan tahay cilmi-baaris mug leh, iyo tafaasiisha farsamo ee buuxda ee suurtogalka ka dhigaysa inay aad u adag tahay. Mar labaad, LocalMonero waxay halkan u joogtaa inay caawiso oo siiso sharraxaad fudud qofka caadiga ah.
+
+Si aan u bilowno, aynu ka fikirno qaabka ugu fudud ee isku beddelka atomiga, sida ay hirgelisay Seeraar. Haddii qof doonayo inuu ku beddelo Bitcoin qadaadiic kale oo adeegsata teknoolojiyada qandaraaska qufulka ee wakhtiga xashiishka, waxay sidaas ku samayn karaan sidan soo socota. Alice waxay haysataa Bitcoin (BTC), laakiin waxay rabtaa Litecoin (LTC), Bobna wuxuu leeyahay LTC, laakiin wuxuu rabaa BTC. Waxay go'aansadeen inay sameeyaan isweydaarsiga atomiga si mid kastaa u helo qadaadiicda uu rabo. Alice waxay u dirtaa BTC ciwaan gaar ah, iyadoo adeegsanaysa qoraalo ka xira lacagaha si xitaa ayan u helin. Waxaad uga fikiri kartaa sida Alice ay BTC ugu dhejiso sanduuqa qufulka. Marka sanduuqa qufulka la sameeyo, waxay heshaa fure, waxayna u soo dirtaa xashiish furahan Bob. Hadda Bob ma haysto furaha laftiisa, kaliya xashiishka, markaa weli ma heli karo lacagaha.
+
+Bob waxa uu xashiishkan u isticmaalayaa iniin ahaan kaas oo uu ka soo saaro sanduuqa qufulkiisa, oo uu u soo diro LTC-giisa halkaas, halkaas oo uu sidoo kale ku xidhan yahay. Maadaama xashiishka furaha Alice loo isticmaalay abuurkii sanduuqa qufulka Bob lagu sameeyay, waxay u isticmaali kartaa furaheeda si ay u sheegato LTC sanduuqa qufulka Bob. Furaheeda ayaa ku habboon! Laakin, iyadoo adeegsanaysa sixirka voodoo xisaabta, markay isticmaasho furaheeda si ay u furto qufulka LTC, waxay daaha ka qaaday furaha Bob, kaas oo markaas u isticmaali kara si uu u dalbado BTC-da ay gelisay sanduuqa qufulka. Sidan, iyada oo aan lahayn dhexdhexaadiye, Alice iyo Bob waxay si guul leh u beddeleen hantidoodii.
+
+Laakiin waxaa jirta dhibaato yar. Ka waran haddii Alice ay u soo dirto sanduuqa qufulkeeda, oo Bob uu go'aansado inuusan rabin inuu ganacsi dambe sameeyo. Hadda, maadaama Alice aysan geli karin BTC-deeda oo ay iska xirtay, Bobna ma dhameystiri doono qaybtiisa wax kala iibsiga, Alice kaliya waxay lumisaa lacagteeda weligeed. Waa hagaag, nasiib wanaag, Seeraar waxay leedahay tignoolajiyad yar oo loo yaqaan macaamil lacag celin ah, sidaas darteed muddo ka dib, haddii BTC uusan sheegan Bob, qoraallada waxay leeyihiin badbaado-ammaan ah oo lagu dhisay, halkaas oo BTC ay si toos ah ugu laaban doonto Alice. Tani waxa ay ahayd xawliga ugu muhiimsan ee Monero ee hirgalinta isku beddelashada atomiga. Sababtoo ah Monero [ saxeexa tignoolajiyada gaarka ah ](/knowledge/ring-signatures), soo diraha wax kala iibsiga had iyo jeer lama hubo. Sidee buu borotokoolku u samayn karaa wax kala beddelasho lacag celin ah haddii xitaa aanu garanayn halka wax kala beddelashadu ka yimi?
+
+Sannadkii 2017, koox yar oo cilmi-baarayaal ah ayaa sharraxay hab ka duwan oo isku beddelashada atomiga ay uga shaqeyn doonto Monero. Dhawr sano oo dib-u-habayn ah ka dib, cilmi-baarayaashu waxay soo gabagabeeyeen hab ay Monero awood ugu yeelan lahayd inay ku beddelato atomiga Bitcoin, xitaa iyada oo aan la soo celin wax macaamil ah.
+
+Sida waxyaabo badan oo heerkan ah ee kakanaanta farsamada, sharraxaaddayadu waxay si xad dhaaf ah u fududayn doontaa waxyaalaha qaarkood si fikradda loo gudbiyo, laakiin waxay weli siin doontaa fikrad adag hababka uu hawshani u shaqayn doono.
+
+Labada Alice (oo leh XMR oo raba BTC) iyo Bob (oo haysta BTC oo raba XMR) waa inay soo dejiyaan oo ay wadaan barnaamij taageeraya isweydaarsiga atomiga. Tan waxaa laga yaabaa in lagu fuliyo boorsooyinka, kala beddelashada baahsanaanta, ama barnaamijyo gaar ah, oo gaar ah, laakiin software-ku waa inuu wadaa nidaamka isku beddelka atomiga. Talaabada koowaad, macaamiisha Alice iyo Bob waxay isku xiraan midba midka kale oo waxay sameeyaan dhowr sir iyo furayaal la wadaago. Tallaabadan, ciwaanka cusub ee Monero ayaa la abuuray, iyadoo Alice ay leedahay badh ka mid ah furaha, halka Bob uu leeyahay kan kale. Ma jiro Monero oo halkaas ku jira weli, marka ma jirto wax kharash ah. Mid ka mid ah sheyga ugu dambeeya ee ku saabsan ciwaanka, waa in labadooduba ay leeyihiin furaha aragga ee boorsadan, si ay labadooduba u eegaan gudaha si ay u arkaan haddii Monero yimaado iyo in kale.
+
+Talaabada labaad, Bob wuxuu u soo diraa BTC ciwaan gaar ah, oo la mid ah nidaamka isdhaafsiga atomikada ee Bitcoin ee aan horay uga wada hadalnay. Ka dib markii Alice ay aragto BTC oo ku yimid ciwaanka blockchain, waxay Monero u soo dirtaa ciwaanka Monero in iyada iyo Bob labadooduba leeyihiin nus fure ah. Bob wuxuu xaqiijin karaa in Monero uu yimid maadaama uu sidoo kale haysto furaha aragtida, oo marka uu arko Monero inuu si badbaado leh ugu jiro jeebka, wuxuu u soo diri Alice qayb ka mid ah furaha u oggolaanaya inay kala baxdo Bitcoin. Si la mid ah borotokoolka kale, habka sheegashada Seeraar wuxuu muujinayaa kala badhkeeda furaha Monero ee Bob. Hadda Bob wuxuu leeyahay labada qaybood, si uu u sheegan karo Monero, halka Alice ay haysato kala badhkeed, markaa iskuma dayi karto inay qaadato ka hor inta uusan samayn.
+
+Markaa haddii aad fiirisay waxaas oo dhan oo aad weli xoogaa ku wareersan tahay sida Monero uu u awooday inuu u xalliyo dhibaatada wax kala iibsiga lacag celinta, jawaabtu waa mid fudud. Maadaama Monero lafteedu aysan lahayn wax lacag celin ah, akhristuhu waa inuu ogaadaa in Bitcoin (kaas oo leh lacag celin) marka hore la soo diro, kaliya ka dib marka la xaqiijiyo inuu ku jiro blockchain ayaa Monero la soo diray. Tani waxay u oggolaanaysaa Monero inay ka faa'iidaysato awoodda Bitcoin si ay u qorto lacagaha dib u celinta oo ay uga faa'iideysato iyaga, iyada oo aan loo baahnayn in ay yeelato awoodahaas lafteeda.
+
+Isku beddelka atomiga hadda waa dhammaatay, laakiin halkan, Bob waxa uu haystaa dhawr doorasho oo uu dhawaan sheegtay XMR. Waxa uu u isticmaali karaa jeebka Monero sida uu yahay, ama waxa uu u rari karaa XMR-ga shandad kale oo uu hore u lahaa. Bob waxay u badan tahay inuu Monero u wareejin doono boorso kale, sababtoo ah Alice wali waxay haysataa furaha aragtida waxayna ku arki kartaa gudaha.
+
+Quruxda hab-maamuuska ayaa ah in uu wali aad u cusub yahay, waxaana jira meelo badan oo wax lagu hagaajin karo. Waxa kale oo aad u dabacsan qaab-dhismeedkeeda, markaa hirgelinta boorsooyinka kale ama is-weydaarsiga baahsanaanta waa in ay noqdaan kuwo fudud oo ku habboon qaab-dhismeedkooda jira.
+
+Akhris dheeraad ah
+
+  * [Sida Monero si gaar ah u awoodo dhaqaalaha wareegtada ah](/knowledge/monero-circular-economies/)
+
+  * [Saxeexa giraanta Monero vs CoinJoin sida Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Waa maxay sababta (iyo sidee!) Waa inaad haysataa furayaashaada](/knowledge/hold-your-keys/)
+
+  * [Wax ku biirinta dib ugu noqoshada Monero](/knowledge/contributing-to-monero/)
+
+  * [Sidee noodhka fog u saameeyaan gaarka ah ee Monero](/knowledge/remote-nodes-privacy/)
+
+  * [Sida Monero u isticmaasho fargeeto adag si ay u cusboonaysiiso shabakada](/knowledge/network-upgrades/)
+
+  * [Arag tags: Sida hal byte u dhimi doono wakhtiga isku xidhka jeebka Monero 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool iyo Doorka ay ku leedahay Daadejinta Macdanta Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Waxa ay u qaban doonto Monero](/knowledge/seraphis-for-monero/)
+
+  * [U beddelashada Bitcoin ee Monero ma tahay mid gaar loo leeyahay sida tooska ah ee Monero u iibsanayso?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Waa maxay sababta Monero u isticmaasho habayn aan la aamini karin oo ka duwan Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Waa maxay sababta Monero uu uga qiimo badan yahay Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Sidee Monero uga gudbi kartaa Saamaynta Shabakadda Bitcoin](/knowledge/network-effect/)
+
+  * [Waa maxay sababta Monero u leedahay bulshada ugu fikirka badan](/knowledge/critical-thinking/)
+
+  * [Khiyaamooyinka la Fikiro Marka la Isticmaalayo Monero](/knowledge/monero-scams/)
+
+  * [Waxa uu Isticmaale kasta oo Monero u baahan yahay inuu ogaado marka ay timaaddo isku xidhka](/knowledge/monero-networking/)
+
+  * [Sida RingCT u qariso xadiga wax kala iibsiga Monero](/knowledge/monero-ringct/)
+
+  * [Sidee Ciwaanada Monero Stealth ay u ilaaliyaan aqoonsigaaga](/knowledge/monero-stealth-addresses/)
+
+  * [Sidee Monero Dharka-hoosaadka uga hortagaan isku xidhka aqoonsiga](/knowledge/monero-subaddresses/)
+
+  * [Waxsoosaarka Monero waa la sharaxay](/knowledge/monero-outputs/)
+
+  * [Dhaqamada ugu Fiican ee Monero ee Bilowga](/knowledge/monero-best-practices/)
+
+  * [Sidee Saxiixa Garaacuhu u qariyaan wax soo saarka Monero](/knowledge/ring-signatures/)
+
+  * [Sidee Monero u xallisay Dhibaatada Cabbirka Block ee aafaysay Seeraar](/knowledge/dynamic-block-size/)
+
+  * [Sidee CLSAG u hagaajin doontaa waxtarka Monero](/knowledge/what-is-clsag/)
+
+  * [Waa maxay sababta Monero ay leedahay Dabada sii daayo](/knowledge/monero-tail-emission/)
+
+  * [Taariikhda Monero oo Kooban](/knowledge/monero-history/)
+
+  * [Majaladda Wired ayaa ku qaldan Monero, waa kan sababta](/knowledge/wired-article-debunked/)
+
+  * [15ka khuraafaad ee Monero iyo walaaca waa la beeniyey](/knowledge/monero-myths-debunked/)
+
+  * [Sida Dandelion++ uga dhigayo Monero ganacsigiisa mid gaar ah](/knowledge/monero-dandelion/)
+
+  * [Waa maxay sababta Monero Isha Furan tahay oo loo baahiyey](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: Maxaa RandomX ka dhigaya mid gaar ah](/knowledge/monero-mining-randomx/)
+
+  * [Waa maxay sababta Monero uga fiican tahay Dash, Zcash, Zcoin (Xitaa Lelantus), Grin iyo Bitcoin Mixers sida Wasabi (La cusbooneysiiyay May 2020)](/knowledge/why-monero-is-better/)

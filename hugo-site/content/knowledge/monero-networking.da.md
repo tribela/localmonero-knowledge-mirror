@@ -1,0 +1,93 @@
+---
+title: "Hvad enhver Monero-bruger har brug for at vide, når det kommer til netværk"
+slug: "monero-networking"
+date: "2020-11-11"
+image: "/images/networking.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Det burde ikke komme som en overraskelse for nogen, at Monero, og faktisk al kryptovaluta, kører på internettet. Og alligevel, selvom denne udtalelse virker grundlæggende og indlysende, overvejer mange ikke implikationerne af, hvad dette betyder i forhold til deres privatliv. Med andre ord er der nogle ting, som Monero kan og ikke kan beskytte sig imod, blot af natur at køre på internettet. Nogle af disse overvejelser er blot gener, mens andre er meget mere alvorlige i et scenarie, hvor absolut privatliv er påkrævet. Lad os tage os tid til at blive fortrolige med, hvordan Monero-brugere interagerer med hinanden på netværket, og hvad det betyder for deres privatliv.
+
+Startende på den trivielle side af tingene, hvis en bruger ikke har adgang til internettet, kan de ikke downloade nye blokke, udbrede transaktioner på vegne af andre eller sende deres egne transaktioner. En interessant ting at bemærke er, at en bruger med en fuld node uden internetadgang kan konstruere en transaktion offline, som kan sendes senere. Dette skyldes, at en ringsignatur kun har brug for output fra blockchainen at gemme sig med. En kort påmindelse om [hvordan ringesignaturer fungerer](/knowledge/ring-signatures), den skjuler det reelle output, som en bruger sender mellem en samling af ikke-tilknyttede output valgt fra fortiden. Hvis brugeren har adgang til disse udgange i form af en fuldt downloadet blockchain (fuld knude), kan de oprette ringesignaturen fra de tidligere udgange, og når internetforbindelsen genoptages, sprede transaktionen til netværket.
+
+En bruger, der bruger en fjernknude, kan ikke gøre dette, da når de konstruerer deres ringesignatur, kontakter de den fulde fjernknude for at få output til at inkludere i ringesignaturen. Intet internet betyder, at de ikke kan nå denne node, så de har ikke mulighed for offline transaktionskonstruktion.
+
+Før vi fortsætter med nogle af privatlivsovervejelserne, lad os få en kort primer om, hvordan internettet fungerer som helhed. Hele internettet er intet andet end computere, der forbinder til andre computere. Det er det. Den blog du kan lide at læse? Bare nogle filer hostet på en andens computer. Denne hjemmeside, du læser denne artikel på (LocalMonero)? Filer og kode hostet på en computer et eller andet sted. Selv store skøre sider fungerer på denne måde. Tag YouTube for eksempel. Bare videofiler hostet på Googles gigantiske computersystemer, og du opretter forbindelse til dem for at downloade videoen til din egen computer, så du kan se den.
+
+Disse computere kan kende hinanden, fordi hver eneste computer, der er tilsluttet internettet, får et unikt identifikationsnummer kaldet en IP-adresse. Disse er typisk fire sæt tal adskilt af punktum, for eksempel: 172.66.35.7. Det er vigtigt at huske på, når vi overvejer, hvordan Monero-information flyttes rundt på internettet. Monero er et peer-to-peer-netværk (P2P), hvilket betyder, at computere forbinder direkte til hinanden i stedet for at bruge en mellemmand. Så når en brugers fulde node downloader en nyopdaget blok, downloader de den ikke fra en central server, men fra deres jævnaldrende. Ulempen ved dette er, at da brugere opretter direkte forbindelse til hinanden, kender de hinandens IP-adresser.
+
+Nå? Hvad er den store sag? Det er bare et tal, ikke? Ikke nøjagtigt. IP-adresser indeholder selv oplysninger om brugeren, såsom oprindelseslandet og netværksudbyderen, men endnu værre, internetudbydere kender IP-adressen på hver person, der bruger deres tjenester. Det betyder, at disse internetudbydere og dem, de arbejder med, kan se en brugers internettrafik og ved hjælp af nogle smarte taktikker opdage, at de bruger Monero. Nu før du bliver bange, så læg mærke til ordlyden der. Det eneste, disse snoopere kan gøre, er at se, at en person opretter forbindelse til andre noder på Monero-netværket. På grund af Moneros privatlivsteknologi er der intet andet lækket om den enkelte. Ikke om de kører en node eller ej, eller om/når de sender transaktioner, og hvis en transaktion sendes, er ingen af dens information kendt. Det eneste, disse internetudbydere kan se, er, at en af deres brugere opretter forbindelse til Monero-netværket.
+
+For nogle mennesker, nogle steder, kan denne information alene være nok til at skade omdømme eller frihed. Eller måske er tanken om, at nogen invaderer dit privatliv og hvad du laver på internettet, af en eller anden grund, ikke acceptabel for dig. Disse personer opfordres til kun at oprette forbindelse til Monero-netværket ved hjælp af VPN'er, Tor eller I2P, som alle er tjenester, der skjuler en brugers IP-adresse for andre samt skjuler, hvad en bruger laver fra deres internetudbyder. Forskellene mellem disse tjenester ligger uden for rammerne af denne artikel, men der er masser af artikler af høj kvalitet skrevet om emnet, så bekymrede brugere opfordres til at studere op!
+
+For resten af os tror vi måske, at det ikke er så stor en sag at have andre ved, at vi er forbundet til Monero-netværket. Når alt kommer til alt, er det faktiske indhold af vores transaktioner, eller hvis vi overhovedet sender nogen, skjult for offentligheden, så hvad er skaden? Selvom dette kan være sandt, opfordres brugerne til at overveje det faktum, at det største træk ved kryptovalutaer er deres egen bank. Når du har din private nøgle, og hvis der sker noget med den, kan ingen hjælpe dig med at få dine tabte penge tilbage.
+
+At være din egen bank betyder, at du ikke kun skal overveje din digitale sikkerhed, men også din fysiske sikkerhed. Det kan meget vel være, at viden om en person, der forbinder til Monero-netværket, kan bringe uønsket opmærksomhed, ikke nødvendigvis fra store aktører som nationalstater, men mindre aktører med egoistisk interesse, som hackere, der ønsker at tjene en let penge. Der er faktisk utallige historier over hele kryptorummet om sådanne scenarier, der rent faktisk finder sted.
+
+Denne artikel er ikke beregnet til at fremkalde frygt eller skræmme, men snarere opfordre brugerne til at undersøge, hvilke metoder til beskyttelse af websurfing, der er rigtige for dem. Den gode nyhed er, at disse færdigheder også vil overføres til generel internetbrug, ikke kun Monero-brug, og som sådan, i vores stadig mere internetforbundne verden, kan en erfaren bruger ikke gå galt med at samle den rette viden og færdigheder for at forblive sikker og virkelig være deres egen bank.
+
+Yderligere læsning
+
+  * [Hvordan Monero unikt aktiverer cirkulær økonomier](/knowledge/monero-circular-economies/)
+
+  * [Monero's ring signaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Hvorfor (og hvordan!) skal du holde dine egne nøgler](/knowledge/hold-your-keys/)
+
+  * [Bidrager tilbage til Monero](/knowledge/contributing-to-monero/)
+
+  * [Hvordan fjern noder påvirker Monero's privatliv](/knowledge/remote-nodes-privacy/)
+
+  * [Hvordan Monero bruger hard-forks til at opgradere den netværk](/knowledge/network-upgrades/)
+
+  * [Se tags: Hvordan en byte vil reducere Monero wallet-synkroniseringstider med 40 %+](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool og Dets rolle i Decentralisering Monero Minedrift](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Hvad Det Vil Gør for Monero](/knowledge/seraphis-for-monero/)
+
+  * [Er konvertering af Bitcoin til Monero lige så privat som at købe Monero direkte?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Hvorfor Monero Brug en Tillidsløs Opsætning i modsætning til Zcash](/knowledge/monero-trustless-setup/)
+
+  * [Hvorfor Monero er en bedre butik af værdi end Bitcoin](/knowledge/monero-better-store-of-value/)
+
+  * [Hvordan Monero Kan Overvinde Bitcoin's Netværk Effekter](/knowledge/network-effect/)
+
+  * [Hvorfor Monero Har Det Mest Kritiske Tænkning Fællesskab](/knowledge/critical-thinking/)
+
+  * [Svindel til Se Ud for Når Bruger Monero](/knowledge/monero-scams/)
+
+  * [Hvordan Atomic Swaps Vil Arbejde i Monero](/knowledge/monero-atomic-swaps/)
+
+  * [Hvordan RingCT Huder Monero Transaktion Beløb](/knowledge/monero-ringct/)
+
+  * [Hvordan Monero Stealth Adresser Beskyt Din Identitet](/knowledge/monero-stealth-addresses/)
+
+  * [Hvordan Monero Underadresser Forebyg Identitet Linking](/knowledge/monero-subaddresses/)
+
+  * [Monero Outputs Forklaret](/knowledge/monero-outputs/)
+
+  * [Monero Bedste Praksis for Begyndere](/knowledge/monero-best-practices/)
+
+  * [Hvordan Ring Signaturer Obskure Monero's Outputs](/knowledge/ring-signatures/)
+
+  * [Hvordan Monero løste blokstørrelsesproblemet, der plager Bitcoin](/knowledge/dynamic-block-size/)
+
+  * [Hvordan CLSAG Vilje Forbedre Monero's Effektivitet](/knowledge/what-is-clsag/)
+
+  * [Hvorfor Monero Har en Hale Emission](/knowledge/monero-tail-emission/)
+
+  * [En kort historie om Monero](/knowledge/monero-history/)
+
+  * [Wired Magazine er Forkert Om Monero, Her er Hvorfor](/knowledge/wired-article-debunked/)
+
+  * [Top 15 Monero Myter og Bekymringer Afkræftet](/knowledge/monero-myths-debunked/)
+
+  * [Hvordan Dandelion++ Holder Monero's Transaktion Oprindelse Privat](/knowledge/monero-dandelion/)
+
+  * [Hvorfor Monero Er Open Source Og Decentraliseret](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Mining: Hvad Gør RandomX så Speciel](/knowledge/monero-mining-randomx/)
+
+  * [Hvorfor Monero er bedre end Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-mixere som Wasabi (Opdateret maj 2020)](/knowledge/why-monero-is-better/)

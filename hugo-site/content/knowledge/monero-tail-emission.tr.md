@@ -1,0 +1,97 @@
+---
+title: "Monero'nun Neden Kuyruk Emisyonu Var?"
+slug: "monero-tail-emission"
+date: "2020-07-30"
+image: "/images/emission.png"
+image_credit: "Illustration by CypherStack"
+image_credit_url: "https://cypherstack.com"
+---
+Çoğu kişi Monero'yu farklı kılan şeyin ne olduğunu düşündüğünde aklına Monero'nun gizlilik teknolojisi geliyor. Aslında çoğu kişi, Monero'nun tanımlayıcı özelliği ve diğer kripto paralarla karşılaştırıldığında ringe getirdiği ana silah olarak, kilidini açtığı gizlilik ve değiştirilebilirliği dikkate alacaktır. Çoğu insanın bilmeyebileceği şey, Monero'nun Bitcoin ve türevlerinden, bazılarının Monero'nun gizlilik teknolojileri kadar önemli olduğunu iddia edebileceği başka protokol farklılıkları içerdiğidir. Bu yazımızda bunlardan birine bakacağız: kuyruk emisyonu.
+
+Önce bu terimin ne anlama geldiğini tanımlayalım. Kuyruk emisyonu, 'son' Monero basıldıktan sonra bile blok ödüllerine verilen aralıksız bir sübvansiyondur. Başka bir deyişle, Monero'nun blok ödülü hiçbir zaman sıfıra düşmeyecek, bunun yerine blok başına 0,6 XMR'ye ulaşana kadar düşecek ve sonra sonsuza kadar orada kalacak. Madencilere Monero madenciliği için her zaman ödeme yapılacak ve hiçbir zaman yalnızca ücret piyasasına güvenmek zorunda kalmayacaklar.
+
+Ama bir anlığına geriye gidelim ve madenciliğe çok yüksek bir düzeyde bakalım. Monero madencileri, hash madenciliği yoluyla bir ağın güvenliğini sağlamaya teşvik ediliyor. Teşvik, yeni bir blok bulmaları halinde Monero yapma fırsatıdır. Bu Monero iki şekilde verilir. İlk olarak madenci, işlemlerinin bloğa dahil edilmesi için ödeme yapan her kullanıcının ödenen ücretlerini alır. Bunlar, bir işlem gönderdiğinizde ödediğiniz işlem ücretleridir. İkinci olarak madenci, protokolün kendisinden önceden belirlenmiş miktarda Monero alır. Çoğu durumda bu 'blok ödülü', kullanıcı işlem ücretlerinden önemli ölçüde daha yüksektir ve madencilerin en çok parayı kazandığı yerdir. Bu blok ödülü, madencilerin finansal olarak zincirin güvenliğine yatırım yapmalarını sağlamaya ve aynı zamanda yeni paraların dolaşıma girmesine hizmet ediyor.
+
+Çoğu kripto para protokolünde, bu blok ödülü zamanla azalacak şekilde ayarlanmıştır. Çoğu Bitcoin türevi, blok ödülünün yarıya indiği (örneğin 20 BTC'den 10 BTC'ye) zaman içinde önceden belirlenmiş noktalar olan yarılanmalara sahiptir. Bu yarılanmalar birkaç yılda bir gerçekleşir ve her gerçekleştiğinde ağdaki güvenlik azalır. Neden? Okuyucuyu Madencilik ve RandomX hakkındaki [makalemizi okumaya teşvik ediyoruz ve böylece madenciliğin bir yarış olduğunu öğrenecekler. Blok ödülleri yalnızca bloğu bulanlara verilir ve bunu yapmak için rekabet halinde olan birçok kuruluş vardır. Ödüller yüksek olduğunda, daha fazla insan bu oyunu oynamakla ilgilenirken, ödüller düşük olduğunda, daha az insan, hatta bunu yapacak donanıma sahip olanlar bile, önemsiz bir kazanma şansı için zamanlarını ve kaynaklarını kullanmaya istekli olacaklardır. ödül.](/knowledge/monero-mining-randomx)
+
+Monero'nun kuyruk emisyonunun nedeninin yüzeyini şimdiden kazmaya başladık. Monero'nun da azalan bir blok ödülü var, ancak Bitcoin'in aksine yarılanma yok. Bunun yerine, her blok ödülü bir öncekinden çok az miktarda daha azdır, dolayısıyla azalma çok daha yumuşak olur. Ancak tüm kripto para birimleri için soru şu: "Blok ödülü sıfıra ulaştığında ne olur?" Bu, cevabını hem bildiğimiz hem de bilmediğimiz garip bir durum. Bildiğimiz kısım, artık blok ödülü sübvansiyonunun olmayacağı, bu da madencilerin yalnızca kullanıcı işlem ücretleriyle teşvik edilmesi gerektiği anlamına geliyor. Bilmediğimiz şey ise bu miktarların madencilerin zinciri güvence altına almaya yetip yetmeyeceği.
+
+Daha önce de belirtildiği gibi, şu anda blok ödülü, işlem ücretlerinden önemli miktarda daha ağır basıyor; bu nedenle, zinciri daha fazla kullanıcı kullandıkça ücretlerin artacağı ve artan ücretlerle birlikte madencilerin buna değeceği umulmaktadır. madenciliğe devam etme zamanları. Ancak bu senaryonun bir de kullanıcı tarafı var. Ücretler artarsa, herkes için kripto para birimiyle işlem yapmak çok daha pahalı hale gelecek ve potansiyel olarak yeterli parasal kaynağı olmayanlara karşı bir duvar oluşturacak. Ancak diğer yandan, ücretler düşük kalırsa ve blok ödülü sıfıra düşerse, çok az sayıda madenci ağı güvence altına alacak ve ağ %51 saldırılarına ve ters işlemlere karşı savunmasız kalacaktır.
+
+Kimsenin bu senaryo için iyi bir cevabı yok ve hiçbir büyük kripto para, kripto para biriminin yaşamının bu aşamasına henüz girmedi, dolayısıyla bu konuda gerçek dünya deneyimimiz de yok. Bunların hepsi spekülasyon. Bir kumar. Bitcoin, yoksulları hariç tutmak anlamına gelse bile ücretlerin madencileri geçindirmeye yeteceğine dair iddiaya giriyor. Monero farklı bir bahis yapıyor. Monero, ücretlerin tek başına zincir güvenliği için yeterli olmayacağına bahse giriyor, bu nedenle protokolün bir parçası olarak bir kuyruk emisyonu içeriyor.
+
+Okuyucuya blok ödülünün hiçbir zaman blok başına 0,6 XMR'nin altına düşmeyeceğini hatırlatırız. Bu madencileri teşvik etmek için yeterli olacak mı? Bilmiyoruz ama kesinlikle 0'dan daha iyidir; bu da hemen hemen her para biriminin kendi protokollerinde yerleşik olan özelliğidir.
+
+Bu yaklaşıma yöneltilen ana eleştiri, bunun Monero'nun arzının teorik olarak sonsuz olduğu, zamanla enflasyona neden olduğu, blok ödülünü sınırlayan koinlerin ise sınırlı bir arza sahip olduğu ve kıtlığının zaman içinde değeri artırdığı anlamına gelmesidir. Bu argümanın çeşitli nedenlerden dolayı yetersiz olduğunu düşünüyoruz.
+
+Öncelikle, düşük güvenlik nedeniyle kolayca saldırıya uğrayan, sansürlenen ve çökertilen, az bulunan, yüksek değerli bir paranın ne faydası var? Aksine, düşük güvenlik, kıtlığın sağlayacağı artışı dengelemekten ziyade değeri azaltacaktır. İkinci olarak, Monero'nun arzı teorik olarak sonsuz olsa da enflasyon doğrusaldır ve üstel olan fiat'ın aksine yıllık yüzde olarak sıfıra doğru eğilim gösterir.
+
+Monero'nun enflasyonu, belirli bir yılda mevcut güçlerin kaprislerine göre az çok artabilen fiat'ın aksine, önceden tam olarak bilinir ve doğru bir şekilde tahmin edilebilir. Bu, protokol destekli teknoloji aracılığıyla insanın yolsuzluk olasılığını ortadan kaldırmaya yönelik şifrepunk ruhunu hâlâ koruyor. Monero'nun blok zincirinin madencilik yoluyla güvenliğinin, dünyanın buna ihtiyacı olduğu sürece var olacağı gönül rahatlığının getirdiği ek faydayla birlikte.
+
+Dokunmak istediğimiz son nokta adalettir. Para, değer saklama aracı, değişim aracı ve hesap birimi olarak çeşitli şekillerde kullanılmaktadır. Arzın sınırlı olduğu bir sistemde enflasyon duracak, yani onu değer saklama aracı olarak kullananlar sistemi ücretsiz kullanacak. Madenciler tarafından sağlanan sürekli güvenlikten hiçbir ücret ödemeden yararlanıyorlar çünkü enflasyon olmadan paraları zaman içinde yavaş yavaş değer kaybetmez. Tersine, para birimini bir değişim aracı olarak kullanan herkes cezalandırılır (potansiyel olarak yüksek işlem ücretleri yoluyla). Bu, insanları elinde tutmaya ancak harcamamaya teşvik edecek ve sistemin adaletini, sahipleri tercih edecek şekilde çarpıtacaktır. Kuyruk emisyonuna sahip olmak denklemi eşitler. Artık sistem sahipleri sistemin güvenliği için enflasyon yoluyla küçük bir vergi de ödüyorlar. Kuyruk emisyonu bunu herkes için daha adil hale getiriyor.
+
+daha fazla okuma
+
+  * [Monero döngüsel ekonomileri benzersiz bir şekilde nasıl mümkün kılıyor?](/knowledge/monero-circular-economies/)
+
+  * [Monero'nun halka imzaları Wasabi'deki gibi CoinJoin'e karşı](/knowledge/ring-signatures-vs-coinjoin/)
+
+  * [Neden (ve nasıl!) kendi anahtarlarınızı tutmalısınız?](/knowledge/hold-your-keys/)
+
+  * [Monero'ya geri katkıda bulunmak](/knowledge/contributing-to-monero/)
+
+  * [Uzak düğümler Monero'nun gizliliğini nasıl etkiler?](/knowledge/remote-nodes-privacy/)
+
+  * [Monero ağı yükseltmek için hard fork'ları nasıl kullanıyor?](/knowledge/network-upgrades/)
+
+  * [Etiketleri görüntüle: Bir bayt, Monero cüzdan senkronizasyon sürelerini nasıl %40'tan fazla azaltır?](/knowledge/view-tags-reduce-monero-sync-time/)
+
+  * [P2Pool ve Monero Madenciliğinin Merkezi Olmamasındaki Rolü](/knowledge/p2pool-decentralizing-monero-mining/)
+
+  * [Seraphis: Monero İçin Ne Yapacak?](/knowledge/seraphis-for-monero/)
+
+  * [Bitcoin'i Monero'ya Dönüştürmek Doğrudan Monero Satın Almak Kadar Özel mi?](/knowledge/most-private-way-to-buy-monero/)
+
+  * [Monero Neden Zcash'ten Farklı Olarak Güvenilir Bir Kurulum Kullanıyor?](/knowledge/monero-trustless-setup/)
+
+  * [Monero Neden Bitcoin'den Daha İyi Bir Değer Deposu?](/knowledge/monero-better-store-of-value/)
+
+  * [Monero, Bitcoin'in Ağ Etkilerinin Üstesinden Nasıl Gelebilir?](/knowledge/network-effect/)
+
+  * [Monero Neden En Eleştirel Düşünme Topluluğuna Sahip?](/knowledge/critical-thinking/)
+
+  * [Monero Kullanırken Dikkat Edilmesi Gereken Dolandırıcılıklar](/knowledge/monero-scams/)
+
+  * [Monero'da Atomik Takaslar Nasıl Çalışacak?](/knowledge/monero-atomic-swaps/)
+
+  * [Konu Ağ Oluşturmaya Geldiğinde Her Monero Kullanıcısının Bilmesi Gerekenler](/knowledge/monero-networking/)
+
+  * [RingCT Monero İşlem Tutarlarını Nasıl Gizliyor?](/knowledge/monero-ringct/)
+
+  * [Monero Gizli Adresleri Kimliğinizi Nasıl Korur?](/knowledge/monero-stealth-addresses/)
+
+  * [Monero Alt Adresleri Kimlik Bağlantısını Nasıl Önler?](/knowledge/monero-subaddresses/)
+
+  * [Monero Çıktılarının Açıklaması](/knowledge/monero-outputs/)
+
+  * [Yeni Başlayanlar İçin Monero En İyi Uygulamaları](/knowledge/monero-best-practices/)
+
+  * [Halka İmzaları Monero'nun Çıktılarını Nasıl Gizliyor?](/knowledge/ring-signatures/)
+
+  * [Monero, Bitcoin'i Saldıran Blok Boyutu Sorununu Nasıl Çözdü?](/knowledge/dynamic-block-size/)
+
+  * [CLSAG Monero'nun Verimliliğini Nasıl Artıracak?](/knowledge/what-is-clsag/)
+
+  * [Monero'nun Kısa Tarihi](/knowledge/monero-history/)
+
+  * [Wired Magazine Monero Konusunda Yanılıyor, İşte Nedeni](/knowledge/wired-article-debunked/)
+
+  * [En Önemli 15 Monero Efsanesi ve Endişesi Çürütüldü](/knowledge/monero-myths-debunked/)
+
+  * [Dandelion++ Monero'nun İşlem Kaynaklarını Nasıl Gizli Tutuyor?](/knowledge/monero-dandelion/)
+
+  * [Monero Neden Açık Kaynaklı ve Merkezi Değildir?](/knowledge/why-monero-is-open-source-and-decentralized/)
+
+  * [Monero Madenciliği: RandomX'i Bu Kadar Özel Kılan Nedir?](/knowledge/monero-mining-randomx/)
+
+  * [Monero Neden Dash, Zcash, Zcoin (Lelantus ile Bile), Grin ve Wasabi Gibi Bitcoin Karıştırıcılarından Daha İyidir (Mayıs 2020'de Güncellendi)](/knowledge/why-monero-is-better/)

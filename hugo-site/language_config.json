@@ -1,0 +1,43 @@
+{
+  "languages": {
+    "en": "English",
+    "ar": "العربية",
+    "bg": "Български",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de": "Deutsch",
+    "el": "Ελληνικά",
+    "es": "Español",
+    "fi": "Suomi",
+    "fr": "Français",
+    "ha": "Hausa",
+    "hi": "हिन्दी",
+    "hu": "Magyar",
+    "id": "Bahasa Indonesia",
+    "it": "Italiano",
+    "ja": "日本語",
+    "ko": "한국어",
+    "lt": "Lietuvių",
+    "lv": "Latviešu",
+    "nb": "Norsk Bokmål",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "pt-br": "Português (Brasil)",
+    "ro": "Română",
+    "ru": "Русский",
+    "sk": "Slovenčina",
+    "sl": "Slovenščina",
+    "so": "Soomaali",
+    "sv": "Svenska",
+    "sw": "Kiswahili",
+    "tl": "Tagalog",
+    "tr": "Türkçe",
+    "ur": "اردو",
+    "zh-cn": "简体中文",
+    "zh-tw": "繁體中文"
+  },
+  "rtl": [
+    "ar",
+    "ur"
+  ]
+}
