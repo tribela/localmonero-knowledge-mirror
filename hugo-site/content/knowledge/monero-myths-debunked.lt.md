@@ -10,21 +10,39 @@ Nė viena kriptovaliuta neapsieina be trūkumų, o Monero nėra išimtis. Tiesą
 
 Be to, yra keletas bendrų „Monero“ kritikų, kurie yra pasenę arba neteisingi, o kiti pateikia labai siaurą nagrinėjamos problemos vaizdą. Šiame straipsnyje tikimės pasiekti šios kritikos rekordą.
 
-  1. [Dėl savo įsipareigojimo užtikrinti privatumą ir anonimiškumą atliekant sandorius Monero susidurs su reguliavimo tikrinimu, kuris yra daug didesnis nei kitos kriptovaliutos.](/knowledge/monero-myths-debunked#1/)
-  2. [Monero turi mažiau piniginės galimybių.](/knowledge/monero-myths-debunked#2/)
-  3. [Monero turi prastą vartotojo patirtį.](/knowledge/monero-myths-debunked#3/)
-  4. [„Monero“ pasens, jei populiaresnė „blockchain“ pritaikys stiprią privatumo technologiją.](/knowledge/monero-myths-debunked#4/)
-  5. [Ar Monero nėra labai didelių sandorių mokesčių?](/knowledge/monero-myths-debunked#5/)
-  6. [Monero sandoris yra daug kartų didesnis nei Bitcoin sandoris.](/knowledge/monero-myths-debunked#6/)
-  7. [Monero gana dažnai turi kietas šakes. Ar tai nereiškia, kad jis centralizuotas?](/knowledge/monero-myths-debunked#7/)
-  8. [Tai asmeninė Fuffypony moneta!](/knowledge/monero-myths-debunked#8/)
-  9. [Daugumą įsipareigojimų nuo 2017 m. padarė asmuo, žinomas kaip moneromooo-monero](/knowledge/monero-myths-debunked#9/)
-  10. [Ar Monero nėra lengvai užpultas 51%?](/knowledge/monero-myths-debunked#10/)
-  11. [CPU draugiškas algoritmas? Ar „Monero“ kasybos neperims robotų tinklai?](/knowledge/monero-myths-debunked#11/)
-  12. [Monero šakės kenkia ne tik Monero ekonominiam gyvybingumui, bet ir privatumui!](/knowledge/monero-myths-debunked#12/)
-  13. [Ar Monero pradžioje nebuvo suluošinto kalnakasio, kuris buvo naudojamas praturtinti steigėjus?](/knowledge/monero-myths-debunked#13/)
-  14. [Jei „Monero“ yra toks privatus, kaip galime patikrinti tiekimą, kad įsitikintume, jog niekas nespausdina „Monero“ mums po nosimi?](/knowledge/monero-myths-debunked#14/)
-  15. [Didžioji dalis dabartinės Monero hasrato gaunama tik iš dviejų telkinių.](/knowledge/monero-myths-debunked#15/)
+  1. [Dėl savo įsipareigojimo užtikrinti privatumą ir anonimiškumą atliekant sandorius Monero susidurs su reguliavimo tikrinimu, kuris yra daug didesnis nei kitos kriptovaliutos.](/knowledge/monero-myths-debunked#1)/
+  2. [Monero turi mažiau piniginės galimybių.](/knowledge/monero-myths-debunked#2)/
+  3. [Monero turi prastą vartotojo patirtį.](/knowledge/monero-myths-debunked#3)/
+  4. [„Monero“ pasens, jei populiaresnė „blockchain“ pritaikys stiprią privatumo technologiją.](/knowledge/monero-myths-debunked#4)/
+  5. [Ar Monero nėra labai didelių sandorių mokesčių?](/knowledge/monero-myths-debunked#5)/
+  6. [Monero sandoris yra daug kartų didesnis nei Bitcoin sandoris.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero gana dažnai turi kietas šakes. Ar tai nereiškia, kad jis centralizuotas?](/knowledge/monero-myths-debunked#7)/
+  8. [Tai asmeninė Fuffypony moneta!](/knowledge/monero-myths-debunked#8)/
+  9. [Daugumą įsipareigojimų nuo 2017 m. padarė asmuo, žinomas kaip moneromooo-monero](/knowledge/monero-myths-debunked#9)/
+  10. [Ar Monero nėra lengvai užpultas 51%?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU draugiškas algoritmas? Ar „Monero“ kasybos neperims robotų tinklai?](/knowledge/monero-myths-debunked#11)/
+  12. [Monero šakės kenkia ne tik Monero ekonominiam gyvybingumui, bet ir privatumui!](/knowledge/monero-myths-debunked#12)/
+  13. [Ar Monero pradžioje nebuvo suluošinto kalnakasio, kuris buvo naudojamas praturtinti steigėjus?](/knowledge/monero-myths-debunked#13)/
+  14. [Jei „Monero“ yra toks privatus, kaip galime patikrinti tiekimą, kad įsitikintume, jog niekas nespausdina „Monero“ mums po nosimi?](/knowledge/monero-myths-debunked#14)/
+  15. [Didžioji dalis dabartinės Monero hasrato gaunama tik iš dviejų telkinių.](/knowledge/monero-myths-debunked#15)/
+
+  1. [Dėl savo įsipareigojimo užtikrinti privatumą ir anonimiškumą atliekant sandorius Monero susidurs su reguliavimo tikrinimu, kuris yra daug didesnis nei kitos kriptovaliutos.](/knowledge/monero-myths-debunked#1)/
+  2. [Monero turi mažiau piniginės galimybių.](/knowledge/monero-myths-debunked#2)/
+  3. [Monero turi prastą vartotojo patirtį.](/knowledge/monero-myths-debunked#3)/
+  4. [„Monero“ pasens, jei populiaresnė „blockchain“ pritaikys stiprią privatumo technologiją.](/knowledge/monero-myths-debunked#4)/
+  5. [Ar Monero nėra labai didelių sandorių mokesčių?](/knowledge/monero-myths-debunked#5)/
+  6. [Monero sandoris yra daug kartų didesnis nei Bitcoin sandoris.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero gana dažnai turi kietas šakes. Ar tai nereiškia, kad jis centralizuotas?](/knowledge/monero-myths-debunked#7)/
+  8. [Tai asmeninė Fuffypony moneta!](/knowledge/monero-myths-debunked#8)/
+  9. [Daugumą įsipareigojimų nuo 2017 m. padarė asmuo, žinomas kaip moneromooo-monero](/knowledge/monero-myths-debunked#9)/
+  10. [Ar Monero nėra lengvai užpultas 51%?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU draugiškas algoritmas? Ar „Monero“ kasybos neperims robotų tinklai?](/knowledge/monero-myths-debunked#11)/
+  12. [Monero šakės kenkia ne tik Monero ekonominiam gyvybingumui, bet ir privatumui!](/knowledge/monero-myths-debunked#12)/
+  13. [Ar Monero pradžioje nebuvo suluošinto kalnakasio, kuris buvo naudojamas praturtinti steigėjus?](/knowledge/monero-myths-debunked#13)/
+  14. [Jei „Monero“ yra toks privatus, kaip galime patikrinti tiekimą, kad įsitikintume, jog niekas nespausdina „Monero“ mums po nosimi?](/knowledge/monero-myths-debunked#14)/
+  15. [Didžioji dalis dabartinės Monero hasrato gaunama tik iš dviejų telkinių.](/knowledge/monero-myths-debunked#15)/
+
+## 1\. Dėl savo įsipareigojimo užtikrinti privatumą ir anonimiškumą atliekant sandorius Monero susidurs su reguliavimo tikrinimu, kuris yra daug didesnis nei kitos kriptovaliutos.
 
 ## 1\. Dėl savo įsipareigojimo užtikrinti privatumą ir anonimiškumą atliekant sandorius Monero susidurs su reguliavimo tikrinimu, kuris yra daug didesnis nei kitos kriptovaliutos.
 
@@ -48,9 +66,13 @@ Dabar galima ginčytis, kad Bitcoin reputacija pasikeitė, kai žmonės suprato,
 
 ## 2\. Monero turi mažiau piniginės galimybių.
 
+## 2\. Monero turi mažiau piniginės galimybių.
+
 Monero iš tiesų turi mažiau piniginės galimybių nei daugelis esamų monetų. Taip yra todėl, kad Monero buvo sukurtas nuo pat pradžių. Tai visiškai kitoje kodų bazėje nei Bitcoin. Tai reiškia, kad „Monero“ negali tiesiog panaudoti „Bitcoin“ pagrindinės piniginės ar kitų „Bitcoin“ piniginių, kaip tai daro dauguma monetų, ir pasinaudoti esama infrastruktūra. Be to, tai reiškia, kad Monero nėra taip lengvai įtraukiamas į trečiųjų šalių pinigines, pvz., Exodus.
 
 Ir vis dėlto, lėtai, bet užtikrintai, Monero pradeda atsirasti įvairių piniginių. Daugelį metų buvo meme, kad Monero neturėjo GUI ir mobiliosios piniginės palaikymo, tačiau dabar niekas negali būti toliau nuo tiesos. Yra piniginių, skirtų konkrečiai „Monero“, pvz., „Monerujo“, skirta „Android“, ir „Cake Wallet“, skirta „iOS“ ir „Android“, taip pat naujų, tokių kaip „Wookey“, „Exa Wallet“ ir kt. Be to, trečiųjų šalių piniginės pradeda pridėti Monero, nors ir lėčiau, įskaitant Exodus ir Guarda, ir tikimės, kad ši tendencija išliks tik laikui bėgant ir Monero kodų bazės branda.
+
+## 3\. Monero turi prastą vartotojo patirtį.
 
 ## 3\. Monero turi prastą vartotojo patirtį.
 
@@ -63,6 +85,8 @@ Kviečiame skaitytoją perskaityti straipsnius apie veiksmus, kuriuos Bitcoiners
 Naudojant Monero, šis išsamus detalių sąrašas yra visiškai pašalintas. Kiekviena Monero operacija kiekvieną kartą išlaiko aukštą privatumo lygį, vartotojui nereikia nieko daryti ar naudoti išorinės programinės įrangos. „Bitcoin“ apsunkina privatumo užtikrinimą visiems, išskyrus labiausiai patyrusius vartotojus, o „Monero“ apsunkina privatumo pažeidimą visiems ir visą laiką. Kalbant apie kompromisus, manome, kad ilgesni adresai ir sinchronizavimo laikas yra daugiau nei verti.
 
 Ir net ir aptarus viską, kas nurodyta aukščiau, išlieka faktas, kad naudotojų patirtis ilgainiui dažnai gerėja, o „Monero“ nėra išimtis. Monetos UX po kelerių metų gali būti labai patobulinta, tačiau jos pagrindus pakeisti daug sunkiau.
+
+## 4\. „Monero“ pasens, jei populiaresnė „blockchain“ pritaikys stiprią privatumo technologiją.
 
 ## 4\. „Monero“ pasens, jei populiaresnė „blockchain“ pritaikys stiprią privatumo technologiją.
 
@@ -86,6 +110,8 @@ Paskutinį kartą perjungiant pavaras šiam klausimui, rečiau šis argumentas t
 
 ## 5\. Ar Monero nėra labai didelių sandorių mokesčių?
 
+## 5\. Ar Monero nėra labai didelių sandorių mokesčių?
+
 Daugiau ne! Dėl nuostabios neperšaunamos technologijos, pridėtos 2018 m. spalį, operacijų dydžiai smarkiai sumažėja (daugiau nei 80 %), todėl panašiai sumažėja ir operacijų mokesčiai. Tiesą sakant, rašymo metu Monero už baitą yra pigesnis nei Bitcoin, o tolesnis technologijos optimizavimas dar labiau sumažina jų skaičių.
 
 Šie optimizavimai yra įvairūs ir dažni. Vienas iš pavyzdžių – sumanus pačių neperšaunamų elementų optimizavimas, sumažinantis tiek skaičiavimams, tiek tikrinimui reikalingą matematiką, kartais net iki 25 %.
@@ -93,6 +119,10 @@ Daugiau ne! Dėl nuostabios neperšaunamos technologijos, pridėtos 2018 m. spal
 Be to, kuriamos naujos įdomios žiedinio parašo schemos, pvz., CLSAG, kuri pakeis dabartinę MLSAG schemą ir dar labiau sumažins viso sandorio dydį 25–35%. Be to, yra dar naujesnių, pažangesnių technologijų su visiškai skirtingomis įrodinėjimo sistemomis, kurios gali išlaikyti esamus sandorių dydžius, bet turi daugiau nei šimtą žiedų, pvz., Triptikas, Arcturus ir Lelantus, kurie visi yra mažesni ir efektyvesnis nei dabartinės schemos.
 
 ## 6\. Monero sandoris yra daug kartų didesnis nei Bitcoin sandoris.
+
+## 6\. Monero sandoris yra daug kartų didesnis nei Bitcoin sandoris.
+
+## 7\. Monero gana dažnai turi kietas šakes. Ar tai nereiškia, kad jis centralizuotas?
 
 ## 7\. Monero gana dažnai turi kietas šakes. Ar tai nereiškia, kad jis centralizuotas?
 
@@ -106,9 +136,13 @@ Visa tai galima pasakyti, kad decentralizuoto kūrimo komandai per sunku ir varg
 
 ## 8\. Tai asmeninė Fuffypony moneta!
 
+## 8\. Tai asmeninė Fuffypony moneta!
+
 Tai nėra ir niekada nebuvo Riccardo „fluffypony“ Spagni moneta. Jam net nepavyko. Ją pradėjo pseudonimu vadinamas asmuo, žinomas kaip dėkingas_už_šiandien, ir apie tai yra labai įdomi istorija kitam kartui. Fluffypony įgijo žinomumą ir kaip pagrindinės komandos narys / pagrindinis prižiūrėtojas, nes skyrė daug laiko ir išteklių, kad padėtų monetai augti, taip pat keliaudamas ir kalbėdamas konferencijose. Sujungus šiuos du dalykus, jis tapo savotišku neoficialiu Monero veidu ir dažniausiai buvo vartai, pro kuriuos žmonės mus rasdavo. Dėl siaubingos CEO kultūros, kuri buvo paplitusi kriptovaliutų scenoje, jie manė, kad jis buvo Monero įkūrėjas ir vadovas, o tai nėra tiesa.
 
 Šiuo metu fluffypony vis dar yra pagrindinės komandos dalis, tačiau nebėra pagrindinis kodų bazės prižiūrėtojas ir grįžo prie savo asmeninių projektų. Monero tęsiasi puikiai.
+
+## 9\. Daugumą įsipareigojimų nuo 2017 m. padarė asmuo, žinomas kaip moneromooo-monero
 
 ## 9\. Daugumą įsipareigojimų nuo 2017 m. padarė asmuo, žinomas kaip moneromooo-monero
 
@@ -117,6 +151,8 @@ Tai neginčijamas faktas ir dėl to negalima ginčytis. moneromooo yra gerai ži
 Kaip galima įsivaizduoti, dirbant Monero visą darbo dieną, o ne savanoriškai, sukaupta daug darbo. Kadangi Monero neturėjo premino, ICO, ir negauna steigėjo atlygio, mes neturime visą darbo dieną dirbančių inžinierių, dirbančių su projektu, o žmonės prisideda, ką gali, kai gali, ir tiesiog neįmanoma tikėtis tokio įnašo. atsveria visą darbo dieną dirbančią darbuotoją.
 
 Vis dar dedama daug pastangų, kad būtų užtikrintas patikrinimas ir balansas. Pagrindinės komandos narys po peržiūros vis tiek sujungia kodą, todėl nėra atvejo, kai asmuo sukuria ir integruoja kodą, taip apeidamas bet kokią priežiūrą, reikalingą norint užfiksuoti žiaurią klaidą ar piktybinius ketinimus.
+
+## 10\. Ar Monero nėra lengvai užpultas 51%?
 
 ## 10\. Ar Monero nėra lengvai užpultas 51%?
 
@@ -130,6 +166,8 @@ Tiksli aparatinės įrangos kaina iki 51 % atakos Monero tinkle nebuvo apskaiči
 
 ## 11\. CPU draugiškas algoritmas? Ar „Monero“ kasybos neperims robotų tinklai?
 
+## 11\. CPU draugiškas algoritmas? Ar „Monero“ kasybos neperims robotų tinklai?
+
 Du kasybos erdvės boogeymenai yra ASIC ir robotų tinklai, o tolimas nuo vieno būtinai reiškia artėjimą prie kito. Jei norint išgauti Monero reikia procesoriaus, įsilaužėliai teoriškai gali perimti daugelio šimtų, jei ne tūkstančių pažeidžiamų kompiuterių kontrolę ir priversti juos išgauti Monero jų vardu, nieko nekainuodami ir nukonkuruodami tuos, kurių namų ūkyje yra tik pora kompiuterių. 
 
 Pirmasis šio argumento paneigimas yra apie pačius botnetų savininkus. Nors mes netoleruojame įsilaužimo į kitų kompiuterius, kliūtis patekti į robotų tinklą yra daug mažesnė nei ASIC. Reikia programinės įrangos – dažnai gana laisvai prieinamos ir atvirojo kodo – ir laiko bei sumanumo pažeidžiamiems kompiuteriams apuostyti. Kitas reikalauja neįtikėtino kapitalo ir prieigos prie gamybos. Vieną gali padaryti vaikas rūsyje, o kitą – tik itin turtingi žmonės. Tai leidžia daryti išvadą, kad jei išsipildytų blogiausios kalnakasių baimės, patys robotų tinklai būtų labiau decentralizuoti nei ASIC.
@@ -137,6 +175,8 @@ Pirmasis šio argumento paneigimas yra apie pačius botnetų savininkus. Nors me
 Tačiau Monero bendruomenė yra įsitikinusi, kad ši problema yra per daug išpūsta. „RandomX“ inžinieriai sąmoningai sukūrė protokolą, kad veiktų 2 GB RAM. Kitaip tariant, daugelis mažų, pažeidžiamų virtualių privačių serverių (VPS) tiesiog neturės pakankamai pajėgumų, o jei jie turėtų, sistemos administratorius labai pastebėtų naudojamų išteklių padidėjimą, todėl nedelsiant būtų atliktas tyrimas. Kitaip tariant, jis negali veikti tyliai fone, pavyzdžiui, pažeisti kompiuteriai, dalyvaujantys DDOS atakoje, arba tyliai uostyti slaptažodžius. Kai šachtukas įjungtas, visi tai žino.
 
 Tai sumažina kompiuterių, kuriuos robotų tinklas galėtų sėkmingai pažeisti, skaičių iki labai technologiškai netinkamų arba niekada nepatikrintų kompiuterių, o ne daugybę pažeidžiamų kompiuterių, kuriems, šio argumento šalininkų manymu, kyla pavojus. 
+
+## 12\. Monero šakės kenkia ne tik Monero ekonominiam gyvybingumui, bet ir privatumui!
 
 ## 12\. Monero šakės kenkia ne tik Monero ekonominiam gyvybingumui, bet ir privatumui!
 
@@ -154,6 +194,8 @@ Vis dėlto manome, kad naivu manyti, kad Monero niekada nebus užpulta tokiu bū
 
 ## 13\. Ar Monero pradžioje nebuvo suluošinto kalnakasio, kuris buvo naudojamas praturtinti steigėjus?
 
+## 13\. Ar Monero pradžioje nebuvo suluošinto kalnakasio, kuris buvo naudojamas praturtinti steigėjus?
+
 Monero istorija yra įdomi ir daugelį gali nustebinti, kai išgirsite, kad tai iš tikrųjų prasidėjo kaip sukčiai. Kūrėjas, dėkingas_for_today, greičiausiai buvo lygoje su kriptovaliutų grupe, kuri sukūrė CryptoNote protokolą, tačiau turėjo gudrių ketinimų išvilioti žmones iš jų pinigų naudojant jį.
 
 Jų pradinės pastangos monetomis nepavyko, todėl jie sukūrė „Monero“ kaip būdą pabandyti dar kartą. Tai vėl nepavyko, nes bendruomenė greitai suprato, kad kažkas negerai, ir paėmė monetą. Nepaisant to, apsukrūs kūrėjai turėjo paskutinę gudrybę. Jie viešai paskelbė sąmoningai deoptimizuotą kasybos programinę įrangą, optimizuotą versiją pasilikdami sau, kad pralenktų kitus ir uždirbtų daug pinigų iš bloko atlygio.
@@ -166,11 +208,15 @@ Tai kurį laiką pavyko, tačiau Monero bendruomenė jį taip pat greitai sugavo
 
 ## 14\. Jei „Monero“ yra toks privatus, kaip galime patikrinti tiekimą, kad įsitikintume, jog niekas nespausdina „Monero“ mums po nosimi?
 
+## 14\. Jei „Monero“ yra toks privatus, kaip galime patikrinti tiekimą, kad įsitikintume, jog niekas nespausdina „Monero“ mums po nosimi?
+
 Į šį klausimą sunku atsakyti. Vienas dažniausiai pateikiamas atsakymas yra toks, kad galime susumuoti monetų bazės operacijas (kai naujas Monero yra apdovanojamas kalnakasiui už bloko išsprendimą). Šie sandoriai yra skaidrūs, o juos sudėjus turėtume gauti bendrą apyvartoje esančių Monero skaičių.
 
 Tačiau svarbu pažymėti, kad jei įvyktų apgaulės, dėl kurių Monero kiekis padidėtų daugiau, nei tikimės iš monetų bazės operacijų, jos įvyktų ne pačiose monetų bazės operacijose, o atliekant įprastą operaciją tarp piniginių. Tai įvyktų tik vienu iš trijų būdų.
 
 Viena, jei kriptografija, kuri įrodo, kad per operaciją nebuvo sukurta ar sunaikinta Monero, yra iš esmės ydinga. Antra, jei kietosios kriptografijos įgyvendinimas (kodas) yra ydingas. Trečia, jei nė vienas nėra ydingas, bet kompiuteriai tampa pakankamai galingi, kad galėtų persmelkti mūsų dabartines kriptografines schemas ir sukurti klaidingus įrodymus.
+
+## 15\. Didžioji dalis dabartinės Monero hasrato gaunama tik iš dviejų telkinių.
 
 ## 15\. Didžioji dalis dabartinės Monero hasrato gaunama tik iš dviejų telkinių.
 
@@ -218,66 +264,68 @@ Tai, kad didžioji Monero hasrato dalis yra sutelkta į porą telkinių, nėra k
 
 Papildoma literatūra
 
-  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies/)
+  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies)/
 
-  * [Monero žiedo parašai prieš CoinJoin kaip Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero žiedo parašai prieš CoinJoin kaip Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys/)
+  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys)/
 
-  * [Prisideda prie Monero](/knowledge/contributing-to-monero/)
+  * [Prisideda prie Monero](/knowledge/contributing-to-monero)/
 
-  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy/)
+  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy)/
 
-  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades/)
+  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades)/
 
-  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: ką tai padarys Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: ką tai padarys Monero](/knowledge/seraphis-for-monero)/
 
-  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup/)
+  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup)/
 
-  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value/)
+  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value)/
 
-  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect/)
+  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect)/
 
-  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking/)
+  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking)/
 
-  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams/)
+  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams)/
 
-  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps/)
+  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking/)
+  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking)/
 
-  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct/)
+  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct)/
 
-  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses/)
+  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses)/
 
-  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses/)
+  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses)/
 
-  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs/)
+  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs)/
 
-  * [„Monero“ geriausia praktika pradedantiesiems](/knowledge/monero-best-practices/)
+  * [„Monero“ geriausia praktika pradedantiesiems](/knowledge/monero-best-practices)/
 
-  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures/)
+  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures)/
 
-  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag/)
+  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag)/
 
-  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission/)
+  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission)/
 
-  * [Trumpa Monero istorija](/knowledge/monero-history/)
+  * [Trumpa Monero istorija](/knowledge/monero-history)/
 
-  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked/)
+  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked)/
 
-  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion/)
+  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion)/
 
-  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx/)
+  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx)/
 
-  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better/)
+  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better)/
+
+Papildoma literatūra

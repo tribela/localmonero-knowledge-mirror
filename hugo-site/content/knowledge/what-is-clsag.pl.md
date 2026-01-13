@@ -1,93 +1,95 @@
 ---
-title: "Jak CLSAG poprawi wydajność Monero"
+title: "Hoe CLSAG de Efficiëntie van Monero Zal Verbeteren"
 slug: "what-is-clsag"
 date: "2020-08-05"
 image: "/images/clsag.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Protokół Monero jest stale ulepszany. Wykonując badania zarówno w technologiach on-chain, jak i off-chain, społeczność Monero poszukuje obszarów do poprawy, aby uczynić Monero bardziej prywatnym, bardziej skalowalnym i bardziej dostępnym dla wszystkich. Jedną z ostatnich innowacji jest zastąpienie schematu linkable ring signature, MLSAG, na CLSAG - Concise Linkable Spontaneous Anonymous Group.
+Als protocol bevindt Monero zich momenteel in een constante staat van innovatie. Gebruikmakend van onderzoek over zowel on-chain als off-chain oplossingen, zoekt de Monero-gemeenschap naar verbeterpunten om Monero meer privé, schaalbaard en toegankelijker voor iedereen te maken. Een van de meer recente innovaties is de vervanging van het koppelbare ringsignatuurschema, MLSAG, door een drop-in vervanging CLSAG, wat staat voor Concise Linkable Spontaneous Anonymous Group.
 
-Wdrożenie CLSAG zmniejszy o 25% najpopularniejsze transakcje postaci 2 wejścia i 2 wyjścia. Ponadto o 10% skróci czas weryfikacji transakcji.
+In eerste instantie zal de implementatie van CLSAG de meest voorkomende 2 input, 2 output transacties met 25% verminderen. We zullen ook een afname van 10% in de verificatietijd zien.
 
-Ale czym dokładnie jest CLSAG? Co robi i czym różni się od starej wersji MLSAG? Poświęćmy chwilę, aby przypomnieć sobie, jak korzystać z ring signatures, abyśmy mogli lepiej zrozumieć tę ideę. Ring signatures pozwalają na nieinteraktywne, nieodróżnialne wejścia za pomocą wybranych przez sygnatariusza zbiorów anonimowości poprzednich wyjść. Mówiąc wprost, pozwala to użytkownikowi ukryć swoje wyjście wśród wyjść niepowiązanych transakcji. Robi to bez konieczności udziału nikogo innego. Wszystko czego potrzebujesz to kopia blockchaina. Wydaje się, że każde z tych wyjść jest równie prawdopodobne, tym samym chowając metadane nadawcy.
+Maar wat is CLSAG precies? Wat doet het en hoe verschilt het van de oude versie, MLSAG? Laten we even de tijd nemen om onszelf te herinneren aan het waarom en hoe van ringhandtekeningen, zodat we dit concept beter kunnen begrijpen. Ring-handtekeningen maken niet-interactieve, niet-onderscheidbare getuige invoer mogelijk door gebruik te maken van door de ondertekenaar geselecteerde anonimiteit sets van eerdere outputs. In de termen van laymen, stelt het een gebruiker in staat om zijn outputs die in een transactie worden gebruikt te verbergen naast niet-gerelateerde outputs, en kunnen ze dit allemaal doen zonder dat iemand anders hoeft deel te nemen. Het enige wat u nodig heeft is een kopie van de blockchain. Elk van deze outputs lijken even waarschijnlijk als de daadwerkelijke output te zijn die wordt verzonden, waardoor metagegevens over de afzender worden verborgen. 
 
-Stwarza to jednak pewien problem. Co by było, gdyby użytkownik skonstruował ring signature z wyłącznie wyjściami wabika? Skąd ktoś miałby wiedzieć, że nieznany nadawca nie ma uprawnień do wysłania żadnego z nich? Czy ten użytkownik będzie mógł wydawać fałszywe pieniądze? Odpowiedź brzmi nie. W ring signatures można udowodnić, że ​​przynajmniej jedno z wyjść jest własnością nieznanego nadawcy, bez ujawniania, które to jest. W rzeczywistości zarówno CLSAG, jak i MLSAG (odtąd znane jako SAG) są częścią ring signatures, w których można to udowodnić. Co ciekawe, operacja jednocześnie dowodzi, że kwota transakcji, choć ukryta za confidential transactions (RingCT), jest poprawna. To, że w SAG można udowodnić dwie rzeczy - że jedno wyjście jest własnością kogoś z ringu i że salda transakcji są prawidłowe jest ważne, i właśnie stąd oszczędności w zakresie wielkości transkacji i czasu jej weryfikacji. Jeśli robi się to zagmatwane, nie martw się, wkrótce dojdziemy do zabawnej i łatwej do zrozumienia analogii.
+Dit veroorzaakt echter een klein probleem. Wat als een gebruiker een ringhandtekening zou maken met alle lokaas outputs? Hoe kan iemand weten dat de onbekende afzender niet bevoegd is om ze te verzenden? Zou deze gebruiker nepgeld kunnen uitgeven? Het antwoord is nee. De ringhandtekening bevat een methode om te bewijzen dat ten minste één van de outputs eigendom is van de onbekende afzender, zonder te onthullen welke het is. In feite zijn zowel CLSAG als MLSAG (hierna bekend als de SAG's) het deel van de ringsignatuur dat dit bewijst. Interessant genoeg bewijst het tegelijkertijd dat het bedrag van de transactie, hoewel verborgen achter vertrouwelijke transacties (RingCT), in evenwicht is. Dat de SAG's twee dingen bewijzen, dat één output eigendom is van iemand in de ring, en dat de transactie in evenwicht is, is belangrijk, en eigenlijk waar de omvang en verificatiebesparingen liggen. Als dit verwarrend wordt, maakt u geen zorgen, we komen binnenkort bij een leuke en gemakkelijk te begrijpen analogie. 
 
-Stary schemat sygnatur, MLSAG (Multilayered Linkable Spontaneous Anonymous Group) pozwala udownić te same dwie rzeczy co ring signatures, ale dowodzi każdą z osobna. Użycie oddzielnych obliczeń dla kluczy signing i commitment oznacza wolniejsze operacje. Współczesny komputer może wykonać te obliczenia w ciągu milisekund, co nie wydaje się dużo, i rzeczywiście, w przypadku jednej transakcji tak nie jest. Ale gdy weźmiemy pod uwagę samą liczbę transakcji w blockchainie Monero i to, że węzeł synchronizujący się od zera będzie musiał pobrać i zweryfikować każdą z nich, bajty i milisekundy zaczynają się szybko nawarstwiać.
+Het oude handtekeningschema, MLSAG (Multilayered Linkable Spontaneous Anonymous Group) bewijst de bovengenoemde twee dingen in een ringhandtekening, maar het doet het elk afzonderlijk. Het gebruik van afzonderlijke berekeningen voor ondertekenings- en toezeggingssleutels betekent tragere bewerkingen. Een moderne computer kan deze berekeningen in een kwestie van milliseconden doen, wat niet veel lijkt, en dat is het inderdaad voor één transactie ook niet. Maar als we kijken naar het enorm grote aantal transacties op de Monero-blockchain, en dat een vanaf nul gesynchroniseerd knooppunt ze allemaal moet downloaden en verifiëren, beginnen de bytes en milliseconden zich snel op te stapelen.
 
-CLSAG łączy obliczenia niezbędne do udowodnienia obu własności w jedne obliczenia, które wykonuje bezpiecznie. Co to oznacza? Cóż, aby to wyjaśnić, a także, miejmy nadzieję, nadać całości sens, przyjrzyjmy się tej zapowiadanej zabawnej analogii.
+CLSAG combineert de wiskunde die nodig is om twee in één te bewijzen, en berekent beide dus tegelijkertijd, op een veilige manier. Wat betekent op een veilige manier? Nou, om dit op te helderen en hopelijk de hele zaak logischer te maken, laten we die beloofde leuke analogie onderzoeken. 
 
-Powiedzmy, że musisz iść zarówno do sklepu spożywczego, jak i do sklepu z narzędziami, aby kupić dwie różne rzeczy: żywność i toksyczne środki czyszczące. Nie chcesz, aby się zmieszały, ponieważ w razie wypadku chemikalia rozleją się na żywność, czyniąc ją niejadalną. Postanawiasz być super bezpieczny i jedziesz z domu do sklepu spożywczego, kupujesz jedzenie, a następnie wracasz do domu. Dopiero po wyładowaniu jedzenia wracasz do samochodu, jedziesz do sklepu z narzędziami i wracasz do domu z chemikaliami. Odbyłeś dwie oddzielne podróże, aby zapewnić bezpieczeństwo zakupom. Chociaż jest to rzeczywiście bezpieczny sposób, jest nieefektywny. Reprezentuje to MLSAG, w którym przechowywane są dwa różne zestawy danych matematycznych i wykonywane są dwie różne „podróże”, aby je obliczyć.
+Stel dat u zowel naar de supermarkt als naar de bouwmarkt moet om twee verschillende dingen op te halen: voedsel en giftige schoonmaakmiddelen. U wilt niet dat ze zich vermengen, want als er een ongeluk gebeurt, zullen de chemicaliën op het voedsel morsen, waardoor ze oneetbaar worden. U besluit extra veilig te zijn en rijdt van uw huis naar de supermarkt, koopt het eten en rijdt dan weer terug naar huis. Pas nadat u het eten heeft uitgeladen, stapt u weer in de auto, rijdt u naar de bouwmarkt en weer terug naar huis met de chemicaliën. U heeft twee afzonderlijke reizen gemaakt om de veiligheid van alle aankopen te garanderen. Hoewel het inderdaad veilig is, is het ook inefficiënt. Dit vertegenwoordigt MLSAG, waar twee verschillende reeksen wiskunde worden opgeslagen en twee verschillende 'trips' worden gemaakt om ze te berekenen. 
 
-Zdecydowałeś jednak, że potrzebujesz szybszego sposobu, żeby tak robić. To za dużo straconego czasu. Jasne, zrobienie tego raz lub dwa razy nie zabierze Ci za dużo czasu, ale przy konieczności robienia tego w kółko godziny zaczynają się dodawać. Zaczynasz się zastanawiać, czy zamiast tego możesz odbyć jedną podróż. Z domu, do sklepu spożywczego, do sklepu z narzędziami i z powrotem do domu. Nie możesz tak po prostu wrzucić wszystkiego do samochodu na chybił trafił. To nie jest bezpieczne. Zamiast tego wyznaczasz różne miejsca w samochodzie na różne rzeczy i upewniasz się, że wszystko pasuje na swoje miejsce. W ten sposób możesz bezpiecznie odbyć jedną podróż do obu sklepów i trzymać rzeczy z dala od siebie. To reprezentuje CLSAG. Obecnie w tej transakcji przechowywany jest tylko jeden zestaw danych matematycznych, aby udowodnić te dwie rzeczy i jest to robione z dala od siebie, aby nie przeszkadzały sobie nawzajem. Wciąż trzeba odbyć podróże, ale drastycznie zmniejszyłeś ich liczbę.
+U besluit echter dat u een snellere manier wilt om dit te doen. Het is een te grote tijdverspilling. Natuurlijk zal het een of twee keer doen uw leven niet wegnemen, maar als u dit keer op keer moet doen, beginnen de uren op te tellen. U begint u af te vragen of u in plaats daarvan één reis kunt maken. Van uw huis, naar de supermarkt, naar de bouwmarkt en weer terug naar huis. U kunt dan niet zomaar alles lukraak in uw auto gooien. Dat is niet veilig. In plaats daarvan kiest u verschillende plekken in uw auto voor verschillende dingen en zorgt u ervoor dat alles netjes op zijn plaats past. Door dit te doen, kunt u veilig één reis naar beide winkels maken en dingen uit elkaar houden. Dit vertegenwoordigt CLSAG. Er is nu slechts één set wiskunde opgeslagen in deze transactie om deze twee dingen te bewijzen, en het is zo gedaan dat ze elkaar niet hinderen. Er moet alsnog een reis worden gemaakt, maar u heeft het aantal drastisch geminimaliseerd.
 
-Wszystko to brzmi całkiem ekscytująco. Ale czy uda nam się znaleźć inne skróty lub inne sposoby na zaoszczędzenie czasu i miejsca? Odpowiedź brzmi tak i nie. Według obecnych badaczy MRL, prawdopodobnie nie jest możliwe dalsze modyfikowanie konstrukcji typu SAG w celu uzyskania mniejszego rozmiaru lub wyższej prędkości; jednak inne konstrukcje, takie jak Arcturus, Omniring, RCT3 lub Triptych zapewniają znacznie lepsze skalowanie i korzyści weryfikacyjne przy użyciu różnych metod matematycznych. Jednak każde z tych podejść „następnej generacji” do protokołów z nieznanym sygnatariuszem wiąże się z kompromisami w szczegółach implementacji i musi być poddane dogłębnym badaniom.
+Dit klinkt allemaal best spannend. Is het mogelijk dat we andere snelkoppelingen kunnen vinden, of dat er andere manieren zijn om tijd en ruimte te besparen? Het antwoord is ja en nee. Volgens de huidige MRL-onderzoekers is het waarschijnlijk niet mogelijk om de constructies van het SAG-type verder aan te passen voor een betere afmeting of snelheid; andere constructies zoals Arcturus, Omniring, RCT3 of Triptych produceren echter veel betere schaalvergroting en verificatievoordelen met behulp van verschillende wiskundige methoden. Elk van deze 'next-gen'-benaderingen van ondertekenaar-dubbelzinnige protocollen heeft echter zijn eigen compromissen in implementatiedetails en wordt actief onderzocht en onderzocht. 
 
-Koniec końców Monero zawsze się usprawnia.
+Monero is tenslotte altijd aan het innoveren.
 
-Więcej do przeczytania
+Verder lezen
 
-  * [Jak Monero jednoznacznie umożliwia circular economies](/knowledge/monero-circular-economies/)
+  * [Hoe Monero op unieke wijze circulaire economieën mogelijk maakt](/knowledge/monero-circular-economies)/
 
-  * [Ring signatures w Monero vs CoinJoin jak w Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero's ringhandtekeningen versus CoinJoin zoals in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Dlaczego (i jak!) powinieneś trzymać własne klucze ](/knowledge/hold-your-keys/)
+  * [Waarom (en hoe!) u uw eigen sleutels moet bezitten](/knowledge/hold-your-keys)/
 
-  * [Wspieranie Monero](/knowledge/contributing-to-monero/)
+  * [Bijdragen aan Monero](/knowledge/contributing-to-monero)/
 
-  * [Jak zdalne węzły wpływają na prywatność Monero](/knowledge/remote-nodes-privacy/)
+  * [Hoe externe knooppunten de privacy van Monero beïnvloeden](/knowledge/remote-nodes-privacy)/
 
-  * [Jak Monero używa hard forków do aktualizacji sieci](/knowledge/network-upgrades/)
+  * [Hoe Monero hard forks gebruikt om het netwerk te upgraden](/knowledge/network-upgrades)/
 
-  * [View tags: Jak jeden bajt skróci czas synchronizacji portfela Monero o 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Weergave tags: Hoe één byte de synchronisatietijden van de Monero portefeuille met meer dan 40% vermindert](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool i jego rola w decentralizacji kopania Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool en Zijn Rol bij het Decentraliseren van Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis - Co zrobi dla Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Wat Het Zal Doen voor Monero](/knowledge/seraphis-for-monero)/
 
-  * [Czy sprzedaż Bitcoinów za Monero jest tak samo prywatna jak kupno Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Is het Omzetten van Bitcoin naar Monero Net Zo Privé als het Rechtstreeks Kopen van Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Dlaczego Monero nie wykorzystuje specjalnej konfiguracji w przeciwieństwie do Zcasha](/knowledge/monero-trustless-setup/)
+  * [Waarom Monero een Trustless Setup Gebruikt in Tegenstelling tot Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Dlaczego Monero lepiej przechowuje wartości niż Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Waarom Monero een Betere Waardeopslag Is Dan Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Jak Monero może pokonać efekt sieciowy Bitcoina](/knowledge/network-effect/)
+  * [Hoe Monero de Netwerkeffecten van Bitcoin Kan Overwinnen](/knowledge/network-effect)/
 
-  * [Dlaczego Monero ma najbardziej krytycznie myślącą społeczność](/knowledge/critical-thinking/)
+  * [Waarom Monero de Meest Kritische Denkgemeenschap Heeft](/knowledge/critical-thinking)/
 
-  * [Oszustwa, na które należy uważać korzystając z Monero](/knowledge/monero-scams/)
+  * [Oplichtingen Om Voor Uit Te Kijken Bij Gebruik van Monero](/knowledge/monero-scams)/
 
-  * [Jak wymiany atomiczne będą działały w Monero](/knowledge/monero-atomic-swaps/)
+  * [Hoe Atomic Swaps Zullen Werken in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Co każdy użytkownik Monero musi wiedzieć o jego sieci](/knowledge/monero-networking/)
+  * [Wat Elke Monero Gebruiker Moet Weten Als het om Netwerken Gaat](/knowledge/monero-networking)/
 
-  * [Jak RingCT ukrywa ilości w transakcjach Monero](/knowledge/monero-ringct/)
+  * [Hoe RingCT Monero's Transactiebedragen verbergt](/knowledge/monero-ringct)/
 
-  * [Jak stealth addresses chronią Twoją tożsamość](/knowledge/monero-stealth-addresses/)
+  * [Hoe Monero Stealth Adressen Uw Identiteit Beschermen](/knowledge/monero-stealth-addresses)/
 
-  * [Jak subadresy zapobiegają łączeniu tożsamości](/knowledge/monero-subaddresses/)
+  * [Hoe Monero's Subadressen Identiteitskoppeling Voorkomen](/knowledge/monero-subaddresses)/
 
-  * [Wyjścia Monero wyjaśnione](/knowledge/monero-outputs/)
+  * [Monero-Outputs uitgelegd](/knowledge/monero-outputs)/
 
-  * [Dobre praktyki Monero dla początkujących](/knowledge/monero-best-practices/)
+  * [Praktische Tips van Monero voor Beginners](/knowledge/monero-best-practices)/
 
-  * [Jak ring signatures chowają wyjścia Monero](/knowledge/ring-signatures/)
+  * [Hoe Ring-handtekeningen de Resultaten van Monero Verdoezelen](/knowledge/ring-signatures)/
 
-  * [Jak Monero rozwiązało problem rozmiaru bloku nękający Bitcoina](/knowledge/dynamic-block-size/)
+  * [Hoe Monero het Probleem met de Blokgrootte Dat Bitcoin Plaagt Heeft Opgelost](/knowledge/dynamic-block-size)/
 
-  * [Dlaczego Monero ma Tail Emission](/knowledge/monero-tail-emission/)
+  * [Waarom Monero een Staartemissie Heeft](/knowledge/monero-tail-emission)/
 
-  * [Krótka historia Monero](/knowledge/monero-history/)
+  * [Een Korte Geschiedenis van Monero](/knowledge/monero-history)/
 
-  * [Oto dlaczego magazyn Wired myli się co do Monero](/knowledge/wired-article-debunked/)
+  * [Wired Magazine heeft Ongelijk over Monero, Dit is Waarom](/knowledge/wired-article-debunked)/
 
-  * [15 najczęstszych obalonych mitów i obaw o Monero](/knowledge/monero-myths-debunked/)
+  * [Top 15 Monero Mythen en Zorgen Ontkracht](/knowledge/monero-myths-debunked)/
 
-  * [Jak Dandelion++ prywatyzuje źródło transakcji Monero](/knowledge/monero-dandelion/)
+  * [Hoe Dandelion++ de Oorsprong van de Transacties van Monero Privé Houdt](/knowledge/monero-dandelion)/
 
-  * [Dlaczego Monero jest open source i zdecentralizowane](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Waarom Monero Open Source en Dedecentraliseerd Is](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Kopanie Monero: Co sprawia, że RandomX jest wyjątkowy](/knowledge/monero-mining-randomx/)
+  * [Monero-Mining: Wat RandomX zo Speciaal Maakt](/knowledge/monero-mining-randomx)/
 
-  * [Dlaczego Monero jest lepsze niż Dash, Zcash, Zcoin (nawet z Lelantus), Grin oraz od mikserów Bitcoina takich jak Wasabi (Zaktualizowano w maju 2020 r.)](/knowledge/why-monero-is-better/)
+  * [Waarom Monero beter is dan Dash, Zcash, Zcoin (zelfs met Lelantus), Grin en Bitcoin Mixers zoals Wasabi (bijgewerkt mei 2020)](/knowledge/why-monero-is-better)/
+
+Verder lezen

@@ -14,6 +14,8 @@ Neste breve post vamos mergulhar no motivo pelo qual você deve segurar suas pr�
 
 ## Por que segurar suas próprias chaves é importante?
 
+## Por que segurar suas próprias chaves é importante?
+
 Um dos aspectos mais comumente incompreendidos da auto-custódia em Monero é que se você não tiver suas próprias chaves, você ganha pouco ou nenhum se beneficiar da privacidade que o Monero oferece. Como remetente de uma transação tem visibilidade total do gasto real, valor e endereço do destinatário, se não for você que está enviando a transação e, em vez disso, deixar isso para uma bolsa ou custodiante, eles têm _visibilidade total_ do maneiras de gastar seu Monero.
 
 Felizmente, depois que eles enviam os fundos, a privacidade do Monero garante entrar em ação e fornecer um forte “segredo para a frente”, mas ficará claro para a bolsa ou custodiante para onde você enviou os fundos e quanto você enviou inicialmente.
@@ -38,6 +40,8 @@ Esse comportamento também pode levar a crises de liquidez em que os usuários q
 
 ##  Como eu seguro minhas próprias chaves com Monero?
 
+## Como eu seguro minhas próprias chaves com Monero?
+
 Quando você começa a segurar suas próprias chaves, a coisa mais importante para lembrar é _salvar e manter sua frase de semente segura_! Este é o conjunto de 14 ou 25 palavras aleatórias que qualquer carteira Monero lhe dará quando criar uma carteira, e é tudo o que você precisará para obter seus fundos de volta se você perde seu telefone, seu desktop, seu laptop, ou você esquece um senha.
 
 Trate esta frase de semente como se valesse todo o Monero em seu carteira, pois quem a receber terá acesso completo aos fundos em sua carteira. É ideal para mantê-la em um local seguro ou secreto, preservar múltiplas cópias em caso de incêndio ou desastre natural, e nunca mostrá-lo a qualquer pessoa.
@@ -47,9 +51,11 @@ Para saber mais sobre frases de sementes, veja [. Mnemonic Semente | Moneropedia
 Se você é principalmente um usuário desktop e não gasta/recebe Monero em movimento com muita freqüência, há algumas escolhas sólidas para manter sua própria chaves sem a necessidade de contar com terceiros.
 
   * [O Monero oficial carteira](https://getmonero.org/downloads)
-    * Este é o software oficial de carteira Monero, e tem visto constante melhorias e acréscimos. Inclui um daemon Monero integrado (se você quer), é muito fácil de usar, e em breve apoiará a mineração [. via p2pool diretamente de sua carteira](/knowledge/p2pool-decentralizing-monero-mining/).
+    * Este é o software oficial de carteira Monero, e tem visto constante melhorias e acréscimos. Inclui um daemon Monero integrado (se você quer), é muito fácil de usar, e em breve apoiará a mineração [. via p2pool diretamente de sua carteira](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
   * [Carteira de penas](https://featherwallet.org/)
     * Esta é uma excelente carteira na veia de [Elétrico para Bitcoin](https://electrum.org/)e fornece ambos usabilidade simples e características extremamente poderosas em um único carteira.
+
+  * Este é o software oficial de carteira Monero, e tem visto constante melhorias e acréscimos. Inclui um daemon Monero integrado (se você quer), é muito fácil de usar, e em breve apoiará a mineração [. via p2pool diretamente de sua carteira](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
 
   * Esta é uma excelente carteira na veia de [Elétrico para Bitcoin](https://electrum.org/)e fornece ambos usabilidade simples e características extremamente poderosas em um único carteira.
 
@@ -66,6 +72,8 @@ Para aqueles de nós que gostam de poder usar nosso Monero em viagem ou gastar f
 
 ## Conclusão
 
+## Conclusão
+
 Espero que este posto tenha ajudado a cimentar a necessidade de manter seu chaves próprias, assim como apontou para algumas das excelentes carteiras do espaço.
 
 Quanto mais você tomar Monero em suas próprias mãos e realmente usá-lo, o mais benefícios você pode obter tanto agora como no futuro. Monero não é apenas um ativo especulativo - é uma ferramenta poderosa para a liberdade e financeira privacidade que é muito necessária no mundo de hoje e no futuro de nós.
@@ -74,66 +82,68 @@ Agora vá tirar essas moedas de uma troca e mergulhe no que Monero era construí
 
 Leitura adicional
 
-  * [Como Monero permite de forma única economias circulares](/knowledge/monero-circular-economies/)
+  * [Como Monero permite de forma única economias circulares](/knowledge/monero-circular-economies)/
 
-  * [Assinaturas do anel de Monero vs CoinJoin como em Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Assinaturas do anel de Monero vs CoinJoin como em Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Contribuindo de volta para Monero](/knowledge/contributing-to-monero/)
+  * [Contribuindo de volta para Monero](/knowledge/contributing-to-monero)/
 
-  * [Como os nós remotos impactam a privacidade de Monero](/knowledge/remote-nodes-privacy/)
+  * [Como os nós remotos impactam a privacidade de Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Como Monero usa o hard-forks para atualizar a rede](/knowledge/network-upgrades/)
+  * [Como Monero usa o hard-forks para atualizar a rede](/knowledge/network-upgrades)/
 
-  * [Ver tags: Como um byte reduzirá o tempo de sincronização da carteira Monero em mais de 40%.](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Ver tags: Como um byte reduzirá o tempo de sincronização da carteira Monero em mais de 40%.](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool e seu papel na descentralização da mineração Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool e seu papel na descentralização da mineração Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: O que fará por Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: O que fará por Monero](/knowledge/seraphis-for-monero)/
 
-  * [Converter Bitcoin em Monero é tão privado quanto comprar Monero diretamente?](/knowledge/most-private-way-to-buy-monero/)
+  * [Converter Bitcoin em Monero é tão privado quanto comprar Monero diretamente?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Por que Monero usa uma configuração sem confiança ao contrário de Zcash](/knowledge/monero-trustless-setup/)
+  * [Por que Monero usa uma configuração sem confiança ao contrário de Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Por que Monero é uma reserva de valor melhor do que Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Por que Monero é uma reserva de valor melhor do que Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Como Monero pode superar os efeitos de rede do Bitcoin](/knowledge/network-effect/)
+  * [Como Monero pode superar os efeitos de rede do Bitcoin](/knowledge/network-effect)/
 
-  * [Por que Monero tem a comunidade de pensamento mais crítico](/knowledge/critical-thinking/)
+  * [Por que Monero tem a comunidade de pensamento mais crítico](/knowledge/critical-thinking)/
 
-  * [Golpes a serem observados ao usar o Monero](/knowledge/monero-scams/)
+  * [Golpes a serem observados ao usar o Monero](/knowledge/monero-scams)/
 
-  * [Como as trocas atômicas funcionarão no Monero](/knowledge/monero-atomic-swaps/)
+  * [Como as trocas atômicas funcionarão no Monero](/knowledge/monero-atomic-swaps)/
 
-  * [O que todo usuário Monero precisa saber quando se trata de rede](/knowledge/monero-networking/)
+  * [O que todo usuário Monero precisa saber quando se trata de rede](/knowledge/monero-networking)/
 
-  * [Como RingCT esconde valores de transação Monero](/knowledge/monero-ringct/)
+  * [Como RingCT esconde valores de transação Monero](/knowledge/monero-ringct)/
 
-  * [Como os endereços Monero Stealth protegem sua identidade](/knowledge/monero-stealth-addresses/)
+  * [Como os endereços Monero Stealth protegem sua identidade](/knowledge/monero-stealth-addresses)/
 
-  * [Como os subendereços do Monero evitam o vínculo de identidade](/knowledge/monero-subaddresses/)
+  * [Como os subendereços do Monero evitam o vínculo de identidade](/knowledge/monero-subaddresses)/
 
-  * [Saídas Monero explicadas](/knowledge/monero-outputs/)
+  * [Saídas Monero explicadas](/knowledge/monero-outputs)/
 
-  * [Práticas recomendadas Monero para iniciantes](/knowledge/monero-best-practices/)
+  * [Práticas recomendadas Monero para iniciantes](/knowledge/monero-best-practices)/
 
-  * [Como as assinaturas de toque obscurecem as saídas do Monero](/knowledge/ring-signatures/)
+  * [Como as assinaturas de toque obscurecem as saídas do Monero](/knowledge/ring-signatures)/
 
-  * [Como Monero resolveu o problema do tamanho do bloco que assola o Bitcoin](/knowledge/dynamic-block-size/)
+  * [Como Monero resolveu o problema do tamanho do bloco que assola o Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Como o CLSAG melhorará a eficiência da Monero](/knowledge/what-is-clsag/)
+  * [Como o CLSAG melhorará a eficiência da Monero](/knowledge/what-is-clsag)/
 
-  * [Por que Monero tem uma emissão de cauda](/knowledge/monero-tail-emission/)
+  * [Por que Monero tem uma emissão de cauda](/knowledge/monero-tail-emission)/
 
-  * [A história de Monero](/knowledge/monero-history/)
+  * [A história de Monero](/knowledge/monero-history)/
 
-  * [Revista Wired está errada sobre Monero, aqui está o porquê](/knowledge/wired-article-debunked/)
+  * [Revista Wired está errada sobre Monero, aqui está o porquê](/knowledge/wired-article-debunked)/
 
-  * [Os 15 principais mitos e preocupações de Monero desmascarados](/knowledge/monero-myths-debunked/)
+  * [Os 15 principais mitos e preocupações de Monero desmascarados](/knowledge/monero-myths-debunked)/
 
-  * [Como o Dandelion ++ mantém as origens da transação de Monero em sigilo](/knowledge/monero-dandelion/)
+  * [Como o Dandelion ++ mantém as origens da transação de Monero em sigilo](/knowledge/monero-dandelion)/
 
-  * [Por que o Monero é de código aberto e descentralizado](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Por que o Monero é de código aberto e descentralizado](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: O que torna o RandomX tão especial](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: O que torna o RandomX tão especial](/knowledge/monero-mining-randomx)/
 
-  * [Por que Monero é melhor que Dash, Zcash, Zcoin (Even with Lelantus), Grin e Bitcoin Mixers como Wasabi (Atualizado em maio de 2020)](/knowledge/why-monero-is-better/)
+  * [Por que Monero é melhor que Dash, Zcash, Zcoin (Even with Lelantus), Grin e Bitcoin Mixers como Wasabi (Atualizado em maio de 2020)](/knowledge/why-monero-is-better)/
+
+Leitura adicional

@@ -14,6 +14,8 @@ Utilizarea tranzacțiilor CoinJoin pentru a ascunde sursa fondurilor în Bitcoin
 
 ## Ce este o tranzacție CoinJoin?
 
+## Ce este o tranzacție CoinJoin?
+
 Deoarece toate tranzacțiile sunt complet transparente în Bitcoin - dezvăluind expeditorul, destinatarul și sumele - utilizatorii trebuie să ia măsuri suplimentare pentru a-și păstra confidențialitatea față de expeditorii anteriori și viitorii destinatari ai fondurilor lor sau riscă cenzura, supravegherea sau furtul fondurilor prin violență fizică.
 
 Cea mai bună soluție de astăzi pentru confidențialitate pe Bitcoin este un instrument numit [„CoinJoin”](https://bitcoiner.guide/qna/coinjoin/), unde 2 sau mai mulți utilizatori lucrează împreună (de obicei prin intermediul unui coordonator centralizat) pentru a crea o tranzacție specială care face dificilă pentru observatorii externi conectarea intrărilor cu ieșirile. Fiecare participant comunică pentru a construi împreună tranzacția fără a ceda custodia fondurilor sale și primește la final un rezultat al cărui istoric anterior este acum neclar (sau obscur) pentru observatorii externi.
@@ -25,6 +27,8 @@ Aceasta rupe istoricul UTXO-urilor specifice, permițând utilizatorilor Bitcoin
   * Utilizatorii cu sume mari de fonduri pentru CoinJoin pot fi nevoiți să aștepte ore (sau chiar zile!) pentru a găsi suficienți participanți cu care să facă CoinJoin, ceea ce duce la întârzieri mari de la momentul în care un utilizator primește fonduri până când le poate cheltui în mod privat.
   * Confidențialitatea oferită de o tranzacție CoinJoin se degradează în timp, pe măsură ce alți participanți cheltuiesc fonduri sau leagă ieșirile lor de identitatea lor prin intermediul schimburilor KYC, al comercianților care solicită ID-uri etc. Acest lucru înseamnă că, în mod ideal, utilizatorii ar trebui să își mențină fondurile în mod constant în tranzacții CoinJoin pentru a-și păstra setul de anonimat ("mulțimea în care să se ascundă") cât mai proaspăt posibil.
   * În majoritatea abordărilor CoinJoin, participanții trebuie să utilizeze un UTXO de mărime fixă (de exemplu, 0,1 BTC) pentru a îngreuna conectarea intrărilor și ieșirilor tranzacțiilor CoinJoin. Acest lucru duce la comisioane mai mari (mai multe tranzacții separate necesare pentru fiecare intrare mare), mai mult "mărunțiș toxic" (fonduri care nu pot fi cheltuite fără riscuri serioase pentru confidențialitate) și poate împiedica utilizatorii mai mici să se poată amesteca deloc dacă nu au soldul minim necesar.
+
+## Cum rezolvă semnăturile inelare aceste probleme?
 
 ## Cum rezolvă semnăturile inelare aceste probleme?
 
@@ -64,6 +68,8 @@ Deoarece sumele sunt ascunse în fiecare tranzacție folosind [“Tranzacții co
 
 ## Cum pot afla mai multe?
 
+## Cum pot afla mai multe?
+
 Dacă sunteți curioși și doriți să înțelegeți mai bine semnăturile inelare sau tranzacțiile CoinJoin, consultați linkurile de mai jos pentru a începe:
 
   * [Modul în care semnăturile inelare ascund ieșirile Monero](/knowledge/ring-signatures)
@@ -73,66 +79,68 @@ Dacă sunteți curioși și doriți să înțelegeți mai bine semnăturile inel
 
 Lecturi suplimentare
 
-  * [Cum permite Monero în mod unic economiile circulare](/knowledge/monero-circular-economies/)
+  * [Cum permite Monero în mod unic economiile circulare](/knowledge/monero-circular-economies)/
 
-  * [De ce (și cum!) ar trebui să vă păstrați propriile chei](/knowledge/hold-your-keys/)
+  * [De ce (și cum!) ar trebui să vă păstrați propriile chei](/knowledge/hold-your-keys)/
 
-  * [Contribuind înapoi la Monero](/knowledge/contributing-to-monero/)
+  * [Contribuind înapoi la Monero](/knowledge/contributing-to-monero)/
 
-  * [Cum afectează nodurile de la distanță confidențialitatea Monero](/knowledge/remote-nodes-privacy/)
+  * [Cum afectează nodurile de la distanță confidențialitatea Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Cum folosește Monero hard-fork-urile pentru a moderniza rețeaua](/knowledge/network-upgrades/)
+  * [Cum folosește Monero hard-fork-urile pentru a moderniza rețeaua](/knowledge/network-upgrades)/
 
-  * [Vezi etichete: Cum un singur octet va reduce timpii de sincronizare a portofelului Monero cu 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Vezi etichete: Cum un singur octet va reduce timpii de sincronizare a portofelului Monero cu 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool și rolul său în descentralizarea mineritului Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool și rolul său în descentralizarea mineritului Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Ce va face pentru Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Ce va face pentru Monero](/knowledge/seraphis-for-monero)/
 
-  * [Este convertirea Bitcoin în Monero la fel de privată ca și cumpărarea directă de Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Este convertirea Bitcoin în Monero la fel de privată ca și cumpărarea directă de Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [De ce Monero folosește o configurație fără încredere, spre deosebire de Zcash](/knowledge/monero-trustless-setup/)
+  * [De ce Monero folosește o configurație fără încredere, spre deosebire de Zcash](/knowledge/monero-trustless-setup)/
 
-  * [De ce Monero este un depozit de valoare mai bun decât Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [De ce Monero este un depozit de valoare mai bun decât Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Cum poate Monero să depășească efectele de rețea ale Bitcoin](/knowledge/network-effect/)
+  * [Cum poate Monero să depășească efectele de rețea ale Bitcoin](/knowledge/network-effect)/
 
-  * [De ce Monero are cea mai mare comunitate cu gândire critică](/knowledge/critical-thinking/)
+  * [De ce Monero are cea mai mare comunitate cu gândire critică](/knowledge/critical-thinking)/
 
-  * [Escrocherii la care să fii atent când folosești Monero](/knowledge/monero-scams/)
+  * [Escrocherii la care să fii atent când folosești Monero](/knowledge/monero-scams)/
 
-  * [Cum vor funcționa schimburile atomice în Monero](/knowledge/monero-atomic-swaps/)
+  * [Cum vor funcționa schimburile atomice în Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ce trebuie să știe fiecare utilizator Monero atunci când vine vorba de rețea](/knowledge/monero-networking/)
+  * [Ce trebuie să știe fiecare utilizator Monero atunci când vine vorba de rețea](/knowledge/monero-networking)/
 
-  * [Cum ascunde RingCT sumele tranzacțiilor Monero](/knowledge/monero-ringct/)
+  * [Cum ascunde RingCT sumele tranzacțiilor Monero](/knowledge/monero-ringct)/
 
-  * [Cum îți protejează identitatea adresele Monero invizibile](/knowledge/monero-stealth-addresses/)
+  * [Cum îți protejează identitatea adresele Monero invizibile](/knowledge/monero-stealth-addresses)/
 
-  * [Cum previn subadresele Monero legătura de identitate](/knowledge/monero-subaddresses/)
+  * [Cum previn subadresele Monero legătura de identitate](/knowledge/monero-subaddresses)/
 
-  * [Explicații despre ieșirile Monero](/knowledge/monero-outputs/)
+  * [Explicații despre ieșirile Monero](/knowledge/monero-outputs)/
 
-  * [Cele mai bune practici Monero pentru începători](/knowledge/monero-best-practices/)
+  * [Cele mai bune practici Monero pentru începători](/knowledge/monero-best-practices)/
 
-  * [Modul în care semnăturile inelare ascund ieșirile Monero](/knowledge/ring-signatures/)
+  * [Modul în care semnăturile inelare ascund ieșirile Monero](/knowledge/ring-signatures)/
 
-  * [Cum a rezolvat Monero problema dimensiunii blocurilor care afectează Bitcoin](/knowledge/dynamic-block-size/)
+  * [Cum a rezolvat Monero problema dimensiunii blocurilor care afectează Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Cum va îmbunătăți CLSAG eficiența Monero](/knowledge/what-is-clsag/)
+  * [Cum va îmbunătăți CLSAG eficiența Monero](/knowledge/what-is-clsag)/
 
-  * [De ce Monero are o emisie de coadă](/knowledge/monero-tail-emission/)
+  * [De ce Monero are o emisie de coadă](/knowledge/monero-tail-emission)/
 
-  * [O scurtă istorie a Monero](/knowledge/monero-history/)
+  * [O scurtă istorie a Monero](/knowledge/monero-history)/
 
-  * [Revista Wired se înșeală în legătură cu Monero, iată de ce](/knowledge/wired-article-debunked/)
+  * [Revista Wired se înșeală în legătură cu Monero, iată de ce](/knowledge/wired-article-debunked)/
 
-  * [Top 15 mituri și îngrijorări legate de Monero dezmințite](/knowledge/monero-myths-debunked/)
+  * [Top 15 mituri și îngrijorări legate de Monero dezmințite](/knowledge/monero-myths-debunked)/
 
-  * [Cum păstrează Dandelion++ confidențialitatea originilor tranzacțiilor Monero](/knowledge/monero-dandelion/)
+  * [Cum păstrează Dandelion++ confidențialitatea originilor tranzacțiilor Monero](/knowledge/monero-dandelion)/
 
-  * [De ce Monero este Open Source și descentralizat](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [De ce Monero este Open Source și descentralizat](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Mineritul Monero: Ce face ca RandomX să fie atât de special](/knowledge/monero-mining-randomx/)
+  * [Mineritul Monero: Ce face ca RandomX să fie atât de special](/knowledge/monero-mining-randomx)/
 
-  * [De ce Monero este mai bun decât Dash, Zcash, Zcoin (chiar și cu Lelantus), Grin și Bitcoin Mixers ca Wasabi (actualizat în mai 2020)](/knowledge/why-monero-is-better/)
+  * [De ce Monero este mai bun decât Dash, Zcash, Zcoin (chiar și cu Lelantus), Grin și Bitcoin Mixers ca Wasabi (actualizat în mai 2020)](/knowledge/why-monero-is-better)/
+
+Lecturi suplimentare

@@ -14,6 +14,8 @@ Ma prima ancora di iniziare a parlare del lancio di Monero nel 2014, dobbiamo to
 
 ## Bytecoin
 
+## Bytecoin
+
 Nel settembre 2013 un gruppo precedentemente sconosciuto, Cryptonote, pubblicò un white paper su un nuovo protocollo con lo stesso nome. Questo protocollo ha cercato di creare una criptovaluta simile a Bitcoin, sebbene utilizzando firme ad anello opzionali e indirizzi invisibili per rafforzare la privacy. Non molto tempo dopo, nel novembre del 2013, il codice iniziale è stato inviato a GitHub per una nuova moneta chiamata Bytecoin. Questa moneta ha implementato il protocollo descritto nel documento, su una nuovissima base di codice (cioè non biforcuta da Bitcoin come la maggior parte delle altre monete all'epoca).
 
 Il team di Bytecoin ha impiegato molto tempo a mettere il resto del codice nel proprio repository, ma sembrava essere stato realizzato entro marzo 2014, quando il progetto è stato successivamente "scoperto" da una persona "casuale" sui forum BitcoinTalk, anche se è ormai ampiamente sospettato che si trattasse di un impianto per generare interesse. Dopo che il sockpuppet è riuscito a raccogliere i bulbi oculari, quelle nuove persone interessate hanno scoperto qualcosa di strano: oltre l'80% delle monete era già stato estratto.
@@ -26,11 +28,15 @@ A quel punto, è stata una gara per vedere chi poteva biforcare Bytecoin, ripuli
 
 ## Bitmonero
 
+## Bitmonero
+
 Il 9 aprile 2014, un'altra entità inaudita chiamata thankful_for_today pubblicata sui forum BitcoinTalk, che annunciava il lancio del primo fork Bytecoin, chiamato Bitmonero. Dal momento che era il primo fork, Bitmonero ha rapidamente attirato l'attenzione e una piccola comunità si è formata intorno a esso quando è stata lanciata il 18 aprile, desiderosa di continuare da dove era stata interrotta Bytecoin, ma non ci è voluto molto perché qualcosa emanasse un sospetto di Bitmonero.
 
 Il fondatore, thankful_for_today, si è rivelato difficile lavorare con. Sparendo spesso per giorni alla volta (molto strano per una moneta nuova nei primi giorni di sviluppo), e andrebbe spesso contro la comunità cercando di fondere il mio Monero con Bytecoin, regolare il programma di emissione e in generale rifiutarsi di collaborare con il gruppo principale coerente che aveva costruito attorno alla moneta, arrivando al punto di avere il proprio sito Web, post BitcoinTalk e repository.
 
 Presto divenne chiaro che il gruppo principale che si era formato attorno a Monero era molto più attivo e competente di thankful_for_today e, nonostante fosse stato invitato a prendere parte più volte, alla fine scomparve e divenne una nota a piè di pagina nella storia di Monero. Molti anni dopo, si sospetta che facesse anche segretamente parte del team Bytecoin. Perché? Bene, durante tutto questo, Bytecoin non era rimasto seduto pigramente.
+
+## Terra bruciata
 
 ## Terra bruciata
 
@@ -44,72 +50,76 @@ Ma anche ancora, le truffe non si fermarono qui. Bytecoin aveva un ultimo asso n
 
 ## conclusione
 
+## conclusione
+
 Non molte monete possono vantarsi di avere un fondatore che non è più con loro. In effetti, Bitcoin e Monero sono probabilmente i due più grandi esempi. Mentre un confronto può mostrare Bitcoin sotto una luce più caritatevole, ci sono lezioni da trarre anche dagli inizi della truffa di Monero.
 
 Bitcoin ha mostrato cosa può succedere quando una persona è stanca del sistema attuale e osa intensificare l'innovazione per sfidare lo status quo. Monero mostra il potere di una comunità che rifiuta di essere nutrita con bugie, trova la verità per se stessa e riprende gli strumenti con cui può costruire la propria libertà. Monero potrebbe essere iniziato come una truffa, ma si è davvero evoluto in un'arma potente per riprenderci la nostra privacy finanziaria.
 
 Ulteriori letture
 
-  * [Come Monero abilita in modo unico le economie circolari](/knowledge/monero-circular-economies/)
+  * [Come Monero abilita in modo unico le economie circolari](/knowledge/monero-circular-economies)/
 
-  * [Firme ad anello di Monero vs CoinJoin come in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Firme ad anello di Monero vs CoinJoin come in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Perché (e come!) dovresti tenere le tue chiavi](/knowledge/hold-your-keys/)
+  * [Perché (e come!) dovresti tenere le tue chiavi](/knowledge/hold-your-keys)/
 
-  * [Contribuire a Monero](/knowledge/contributing-to-monero/)
+  * [Contribuire a Monero](/knowledge/contributing-to-monero)/
 
-  * [Come i nodi remoti impattano sulla privacy di Monero](/knowledge/remote-nodes-privacy/)
+  * [Come i nodi remoti impattano sulla privacy di Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Come Monero usa gli hard-forks per aggiornare la rete](/knowledge/network-upgrades/)
+  * [Come Monero usa gli hard-forks per aggiornare la rete](/knowledge/network-upgrades)/
 
-  * [Visualizza i tag: Come un byte ridurrà i tempi di sincronizzazione del portafoglio Monero del 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Visualizza i tag: Come un byte ridurrà i tempi di sincronizzazione del portafoglio Monero del 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool e il suo ruolo nella decentralizzazione del mining di Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool e il suo ruolo nella decentralizzazione del mining di Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Cosa farà per Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Cosa farà per Monero](/knowledge/seraphis-for-monero)/
 
-  * [Convertire Bitcoin in Monero è altrettanto privato che comprare Monero direttamente?](/knowledge/most-private-way-to-buy-monero/)
+  * [Convertire Bitcoin in Monero è altrettanto privato che comprare Monero direttamente?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Perché Monero usa una configurazione senza fiducia a differenza di Zcash](/knowledge/monero-trustless-setup/)
+  * [Perché Monero usa una configurazione senza fiducia a differenza di Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Perché Monero è un migliore deposito di valore rispetto a Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Perché Monero è un migliore deposito di valore rispetto a Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Come Monero può superare gli effetti di rete di Bitcoin](/knowledge/network-effect/)
+  * [Come Monero può superare gli effetti di rete di Bitcoin](/knowledge/network-effect)/
 
-  * [Perché Monero ha la comunità di pensiero più critico](/knowledge/critical-thinking/)
+  * [Perché Monero ha la comunità di pensiero più critico](/knowledge/critical-thinking)/
 
-  * [Truffe a cui prestare attenzione quando si utilizza Monero](/knowledge/monero-scams/)
+  * [Truffe a cui prestare attenzione quando si utilizza Monero](/knowledge/monero-scams)/
 
-  * [Come funzioneranno gli Atomic Swap in Monero](/knowledge/monero-atomic-swaps/)
+  * [Come funzioneranno gli Atomic Swap in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ciò che ogni utente Monero deve sapere quando si tratta di networking](/knowledge/monero-networking/)
+  * [Ciò che ogni utente Monero deve sapere quando si tratta di networking](/knowledge/monero-networking)/
 
-  * [Come RingCT nasconde gli importi delle transazioni Monero](/knowledge/monero-ringct/)
+  * [Come RingCT nasconde gli importi delle transazioni Monero](/knowledge/monero-ringct)/
 
-  * [In che modo gli indirizzi Monero Stealth proteggono la tua identità](/knowledge/monero-stealth-addresses/)
+  * [In che modo gli indirizzi Monero Stealth proteggono la tua identità](/knowledge/monero-stealth-addresses)/
 
-  * [In che modo i sottoindirizzo Monero impediscono il collegamento di identità](/knowledge/monero-subaddresses/)
+  * [In che modo i sottoindirizzo Monero impediscono il collegamento di identità](/knowledge/monero-subaddresses)/
 
-  * [Spiegazione dei risultati di Monero](/knowledge/monero-outputs/)
+  * [Spiegazione dei risultati di Monero](/knowledge/monero-outputs)/
 
-  * [Migliori pratiche Monero per principianti](/knowledge/monero-best-practices/)
+  * [Migliori pratiche Monero per principianti](/knowledge/monero-best-practices)/
 
-  * [Come le firme ad anello oscurano i risultati di Monero](/knowledge/ring-signatures/)
+  * [Come le firme ad anello oscurano i risultati di Monero](/knowledge/ring-signatures)/
 
-  * [Come Monero ha risolto il problema delle dimensioni del blocco che affligge Bitcoin](/knowledge/dynamic-block-size/)
+  * [Come Monero ha risolto il problema delle dimensioni del blocco che affligge Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [In che modo CLSAG migliorerà l'efficienza di Monero](/knowledge/what-is-clsag/)
+  * [In che modo CLSAG migliorerà l'efficienza di Monero](/knowledge/what-is-clsag)/
 
-  * [Perché Monero ha un'emissione di coda](/knowledge/monero-tail-emission/)
+  * [Perché Monero ha un'emissione di coda](/knowledge/monero-tail-emission)/
 
-  * [Wired Magazine ha sbagliato su Monero, ecco perché](/knowledge/wired-article-debunked/)
+  * [Wired Magazine ha sbagliato su Monero, ecco perché](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Miti e preoccupazioni Monero debunked](/knowledge/monero-myths-debunked/)
+  * [Top 15 Miti e preoccupazioni Monero debunked](/knowledge/monero-myths-debunked)/
 
-  * [Come Dandelion ++ mantiene private le origini delle transazioni di Monero](/knowledge/monero-dandelion/)
+  * [Come Dandelion ++ mantiene private le origini delle transazioni di Monero](/knowledge/monero-dandelion)/
 
-  * [Perché Monero è open source e decentralizzato](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Perché Monero è open source e decentralizzato](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: cosa rende RandomX così speciale](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: cosa rende RandomX così speciale](/knowledge/monero-mining-randomx)/
 
-  * [Perché Monero è meglio di Dash, Zcash, Zcoin (anche con Lelantus), Grin e Bitcoin Mixer come Wasabi (Aggiornato a maggio 2020)](/knowledge/why-monero-is-better/)
+  * [Perché Monero è meglio di Dash, Zcash, Zcoin (anche con Lelantus), Grin e Bitcoin Mixer come Wasabi (Aggiornato a maggio 2020)](/knowledge/why-monero-is-better)/
+
+Ulteriori letture

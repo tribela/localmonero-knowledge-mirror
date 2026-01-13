@@ -14,6 +14,8 @@ Dalam posting blog ini kami akan secara singkat membahas perbandingan CoinJoin d
 
 ## Apa itu transaksi CoinJoin?
 
+## Apa itu transaksi CoinJoin?
+
 Karena semua transaksi benar-benar transparan dalam Bitcoin - mengungkapkan pengirim, penerima, dan jumlah - pengguna harus mengambil langkah ekstra untuk menjaga privasi mereka dari pengirim sebelumnya dan penerima dana mereka di masa mendatang atau merisikokan penyensoran, pengawasan, atau pencurian dana melalui kekerasan fisik.
 
 Solusi terbaik saat ini untuk privasi pada Bitcoin adalah alat yang disebut [“CoinJoin”](https://bitcoiner.guide/qna/coinjoin/), di mana 2 atau lebih pengguna bekerja sama (biasanya melalui koordinator terpusat) untuk membuat transaksi khusus yang menyulitkan observer dari luar untuk menghubungkan input dengan output. Setiap partisipan berkomunikasi untuk bersama-sama membangun transaksi tanpa menyerahkan penahanan atas dana mereka, dan menerima luaran pada akhirnya yang sejarah sebelumnya sekarang jadi tidak jelas (atau dikaburkan) bagi pengamat dari luar.
@@ -25,6 +27,8 @@ Ini memecahkan sejarah UTXO tertentu, memungkinkan pengguna Bitcoin untuk mendap
   * Pengguna dengan jumlah dana yang besar untuk CoinJoin dapat seringkali harus menunggu berjam-jam (atau bahkan berhari-hari!) untuk menemukan cukup banyak peserta untuk CoinJoin dengan mereka, yang menyebabkan penundaan besar sejak pengguna menerima dana hingga saat mereka dapat membelanjakannya secara pribadi. 
   * Privasi yang disediakan oleh transaksi CoinJoin menurun dari waktu ke waktu karena peserta lain membelanjakan dana atau menautkan output mereka ke identitas mereka melalui pertukaran KYC, pedagang yang membutuhkan ID, dll. Hal ini berarti pengguna idealnya menjaga dana mereka agar tetap berputar di transaksi CoinJoin untuk menjaga set anonimitas mereka (“kerumunan untuk bersembunyi”) sesegar mungkin.
   * Di sebagian besar pendekatan CoinJoin, peserta harus menggunakan UTXO dalam ukuran tetap (yaitu 0,1 BTC) untuk mempersulit koneksi input dan output transaksi CoinJoin. Hal ini menyebabkan biaya yang lebih tinggi (lebih banyak transaksi terpisah diperlukan untuk setiap input besar), lebih banyak “perubahan beracun” (dana yang tidak dapat digunakan tanpa risiko serius terhadap privasi), dan dapat menghalangi pengguna yang lebih kecil untuk dapat berbaur sama sekali jika mereka tidak memiliki saldo minimum yang diperlukan.
+
+## Bagaimana ring signature memecahkan masalah ini?
 
 ## Bagaimana ring signature memecahkan masalah ini?
 
@@ -64,6 +68,8 @@ Karena jumlah disembunyikan dalam setiap transaksi menggunakan [“Transaksi Rah
 
 ## Bagaimana saya bisa belajar lebih banyak?
 
+## Bagaimana saya bisa belajar lebih banyak?
+
 Jika Anda penasaran dan ingin lebih memahami ring signature atau transaksi CoinJoin, lihat tautan di bawah untuk mendapatkan tempat yang bagus dalam memulai:
 
   * [Bagaimana Ring Signature Mengaburkan Luaran Monero](/knowledge/ring-signatures)
@@ -73,66 +79,68 @@ Jika Anda penasaran dan ingin lebih memahami ring signature atau transaksi CoinJ
 
 Bacaan lebih lanjut
 
-  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies/)
+  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies)/
 
-  * [Mengapa (dan bagaimana!) Anda harus memegang kunci Anda sendiri](/knowledge/hold-your-keys/)
+  * [Mengapa (dan bagaimana!) Anda harus memegang kunci Anda sendiri](/knowledge/hold-your-keys)/
 
-  * [Berkontribusi kembali ke Monero](/knowledge/contributing-to-monero/)
+  * [Berkontribusi kembali ke Monero](/knowledge/contributing-to-monero)/
 
-  * [Bagaimana node jarak jauh memengaruhi privasi Monero](/knowledge/remote-nodes-privacy/)
+  * [Bagaimana node jarak jauh memengaruhi privasi Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Bagaimana Monero menggunakan hard-fork untuk memutakhirkan jaringan](/knowledge/network-upgrades/)
+  * [Bagaimana Monero menggunakan hard-fork untuk memutakhirkan jaringan](/knowledge/network-upgrades)/
 
-  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Apa yang Akan Dilakukannya untuk Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Apa yang Akan Dilakukannya untuk Monero](/knowledge/seraphis-for-monero)/
 
-  * [Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?](/knowledge/most-private-way-to-buy-monero/)
+  * [Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup/)
+  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect/)
+  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect)/
 
-  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking/)
+  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking)/
 
-  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams/)
+  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams)/
 
-  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps/)
+  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking/)
+  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking)/
 
-  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct/)
+  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct)/
 
-  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses/)
+  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses)/
 
-  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses/)
+  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses)/
 
-  * [Output Monero Dijelaskan](/knowledge/monero-outputs/)
+  * [Output Monero Dijelaskan](/knowledge/monero-outputs)/
 
-  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices/)
+  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices)/
 
-  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures/)
+  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures)/
 
-  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size/)
+  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag/)
+  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag)/
 
-  * [Mengapa Monero Memiliki Tail Emission](/knowledge/monero-tail-emission/)
+  * [Mengapa Monero Memiliki Tail Emission](/knowledge/monero-tail-emission)/
 
-  * [Sejarah Singkat Monero](/knowledge/monero-history/)
+  * [Sejarah Singkat Monero](/knowledge/monero-history)/
 
-  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked/)
+  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Mitos dan Kekhawatiran Monero Terbantahkan](/knowledge/monero-myths-debunked/)
+  * [Top 15 Mitos dan Kekhawatiran Monero Terbantahkan](/knowledge/monero-myths-debunked)/
 
-  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion/)
+  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion)/
 
-  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx/)
+  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx)/
 
-  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better/)
+  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better)/
+
+Bacaan lebih lanjut

@@ -10,11 +10,15 @@ Yksi tärkeimmistä näkökulmista kryptovaluuttojen selviytymisessä ja kasvuss
 
 ## Mitä kiertotaloudet ovat?
 
+## Mitä kiertotaloudet ovat?
+
 Vaikka olen varma, että te kaikki tunnette talouden laajana aiheena, ajatus "kiertotaloudesta" on sellainen, josta keskustellaan harvoin kryptovaluuttamaailman ulkopuolella. Kiertotaloudet tekee niin tärkeiksi ja erityisiksi se, että ne luovat todella vapaita markkinoita jotka mahdollistavat palveluiden, tuotteiden ja tavaroiden kaupankäynnin _suoraan Monerolla_.
 
 Osallistujien ei tarvitse jatkuvasti liikkua sisään ja ulos fiatista, vaan he voivat pitää Moneronsa järjestelmässä, ansaita, säästää ja kuluttaa suoraan Monerossa ilman normaalin talouden kitkaa, valvontaa tai rajoituksia. 
 
 Kiertotaloudet ovat yleensä täysin "ylivoimaisia" ja laillisia, mutta toimivat enemmän "harmaina markkinoina" verrattuna normaaleihin "valkoisiin markkinoihin" fiat-maailmassa.
+
+## Miksi meidän pitää rakentaa kiertotalouksia?
 
 ## Miksi meidän pitää rakentaa kiertotalouksia?
 
@@ -32,6 +36,8 @@ Voimme tehdä tämän myös kieltäytymällä käyttämästä keskitettyjä KYC-
 
 ## Kuinka Monero mahdollistaa ainutlaatuisesti nämä kiertotaloudet?
 
+## Kuinka Monero mahdollistaa ainutlaatuisesti nämä kiertotaloudet?
+
 Vaikka Monero jakaa joitakin Bitcoinin ydinominaisuuksia, jotka mahdollistavat kiertotaloudet uudella tavalla (sensuurin kestävät maksut, p2p-tapahtumat jne.), se tuo täysin ainutlaatuisen voiman niille, jotka haluavat rakentaa kiertotalouksia ja osallistua niihin. 
 
 Moneron käyttäjien ei tarvitse huolehtia transaktioidensa massavalvonnasta tai edes kohdistetusta sensuurista, mikä mahdollistaa ainutlaatuisen mielenrauhan ja estää kaupankäynnin rasittumisen. Voit asioida kenen tahansa kanssa maailmassa milloin tahansa ilman valvontaa valitsemallasi Monero-lompakolla.
@@ -40,13 +46,17 @@ Koska Monero on korvattavissa (1 XMR vastaa 1 XMR, riippumatta siitä mitä valu
 
 Nykyinen luottamus Bitcoiniin vaihtomenetelmänä johtaa siihen, että se menettää nopeasti vetonsa kiertotalouksissa, joissa Monero on läsnä. Ihmiset eivät halua joutua tarkistamaan varojen saastumista, huolehtimaan siitä, voivatko he käyttää niitä vapaasti, tai kokea tarvetta käyttää mitä tahansa ketjuanalyysityökalua suojautuakseen oikeudellisilta tai sääntelyllisiltä ongelmilta.
 
-Yksi Monero-tapahtumien yksinkertaisimmista asioista on se, että transaktiomaksut ovat uskomattoman alhaiset ja pysyvät kohtuullisina pitkällä aikavälillä ["Tail emission"](/knowledge/monero-tail-emission/) ja [dynaamisen lohkokoon](/knowledge/dynamic-block-size/) ansiosta. 
+Yksi Monero-tapahtumien yksinkertaisimmista asioista on se, että transaktiomaksut ovat uskomattoman alhaiset ja pysyvät kohtuullisina pitkällä aikavälillä ["Tail emission"](https://localmonero.co/knowledge/monero-tail-emission) ja [dynaamisen lohkokoon](https://localmonero.co/knowledge/dynamic-block-size) ansiosta. 
 
 Nämä alhaiset maksut varmistavat, että kauppa voi virrata vapaasti lohkoketjun ruuhkasta riippumatta, mikä vähentää entisestään osallistujien henkistä taakkaa ja stressiä yrittää ajoittaa tapahtumiaan tai odottaa tunteja/päiviä varmistaakseen alhaiset maksut. Nykyisin maksut ovat noin 1 senttiä, joten voit suorittaa vapaasti minkä tahansa kokoisia tapahtumia ilman, että sinun tarvitsee huolehtia kuluista.
 
 ## Johtopäätös
 
+## Johtopäätös
+
 Loppujen lopuksi Monero on digitaalista käteistä niin kuin sen pitääkin. Mielenrauha, vaihdettavuus ja yksityisyys kuten käteisellä, mutta kaikki digitaalisten, maailmanlaajuisten ja p2p-tapahtumien edut irrotetaan valtion hallinnasta tai valvonnasta. Tämä kyky toimia digitaalisena käteisenä mahdollistaa ainutlaatuisella tavalla kiertotaloudet nykyään ja auttaa niitä kasvamaan ja kukoistamaan ajan myötä tavalla, jota muut kryptovaluutat, kuten Bitcoin, eivät yksinkertaisesti pysty tekemään.
+
+## Miten voin oppia lisää?
 
 ## Miten voin oppia lisää?
 
@@ -59,66 +69,68 @@ Jos olet utelias ja haluat ymmärtää paremmin kiertotalouksia tai aloittaa osa
 
 Lue lisää
 
-  * [Moneron sormusallekirjoitukset vs CoinJoin kuten Wasabissa](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Moneron sormusallekirjoitukset vs CoinJoin kuten Wasabissa](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Miksi (ja miten!) sinun pitäisi hallita omia avaimiasi](/knowledge/hold-your-keys/)
+  * [Miksi (ja miten!) sinun pitäisi hallita omia avaimiasi](/knowledge/hold-your-keys)/
 
-  * [Osallistuminen Moneroon](/knowledge/contributing-to-monero/)
+  * [Osallistuminen Moneroon](/knowledge/contributing-to-monero)/
 
-  * [Kuinka etäsolmut vaikuttavat Moneron yksityisyyteen](/knowledge/remote-nodes-privacy/)
+  * [Kuinka etäsolmut vaikuttavat Moneron yksityisyyteen](/knowledge/remote-nodes-privacy)/
 
-  * [Kuinka Monero käyttää hard forkkeja verkon päivittämiseen](/knowledge/network-upgrades/)
+  * [Kuinka Monero käyttää hard forkkeja verkon päivittämiseen](/knowledge/network-upgrades)/
 
-  * [Katselutunnisteet: Kuinka yksi tavu vähentää Moneron lompakon synkronointiaikoja yli 40%](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Katselutunnisteet: Kuinka yksi tavu vähentää Moneron lompakon synkronointiaikoja yli 40%](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ja sen rooli Monero-louhinnan hajauttamisessa](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ja sen rooli Monero-louhinnan hajauttamisessa](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Mitä se tekee Monerolle](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Mitä se tekee Monerolle](/knowledge/seraphis-for-monero)/
 
-  * [Onko Bitcoinin muuntaminen Moneroksi yhtä yksityistä kuin Moneron ostaminen suoraan?](/knowledge/most-private-way-to-buy-monero/)
+  * [Onko Bitcoinin muuntaminen Moneroksi yhtä yksityistä kuin Moneron ostaminen suoraan?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Miksi Monero käyttää "Trustless" -asetusta toisin kuin Zcash](/knowledge/monero-trustless-setup/)
+  * [Miksi Monero käyttää "Trustless" -asetusta toisin kuin Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Miksi Monero on parempi arvon säilyttäjä kuin Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Miksi Monero on parempi arvon säilyttäjä kuin Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kuinka Monero voi voittaa Bitcoinin verkkovaikutukset](/knowledge/network-effect/)
+  * [Kuinka Monero voi voittaa Bitcoinin verkkovaikutukset](/knowledge/network-effect)/
 
-  * [Miksi Monerolla on kriittisin ajatteluyhteisö](/knowledge/critical-thinking/)
+  * [Miksi Monerolla on kriittisin ajatteluyhteisö](/knowledge/critical-thinking)/
 
-  * [Huijaukset, joita kannattaa huomioida Moneroa käytettäessä](/knowledge/monero-scams/)
+  * [Huijaukset, joita kannattaa huomioida Moneroa käytettäessä](/knowledge/monero-scams)/
 
-  * [Kuinka Atomic Swapit toimivat Monerossa](/knowledge/monero-atomic-swaps/)
+  * [Kuinka Atomic Swapit toimivat Monerossa](/knowledge/monero-atomic-swaps)/
 
-  * [Mitä jokaisen Moneron käyttäjän on tiedettävä verkostoitumisesta](/knowledge/monero-networking/)
+  * [Mitä jokaisen Moneron käyttäjän on tiedettävä verkostoitumisesta](/knowledge/monero-networking)/
 
-  * [Kuinka RingCT piilottaa Monero-transaktiosummat](/knowledge/monero-ringct/)
+  * [Kuinka RingCT piilottaa Monero-transaktiosummat](/knowledge/monero-ringct)/
 
-  * [Kuinka Monero Stealth -osoitteet suojaa identiteettiäsi](/knowledge/monero-stealth-addresses/)
+  * [Kuinka Monero Stealth -osoitteet suojaa identiteettiäsi](/knowledge/monero-stealth-addresses)/
 
-  * [Kuinka Monero-aliosoitteet estävät identiteetin yhdistämisen](/knowledge/monero-subaddresses/)
+  * [Kuinka Monero-aliosoitteet estävät identiteetin yhdistämisen](/knowledge/monero-subaddresses)/
 
-  * [Moneron Outputit selitettynä](/knowledge/monero-outputs/)
+  * [Moneron Outputit selitettynä](/knowledge/monero-outputs)/
 
-  * [Moneron parhaat käytännöt aloittelijoille](/knowledge/monero-best-practices/)
+  * [Moneron parhaat käytännöt aloittelijoille](/knowledge/monero-best-practices)/
 
-  * [Kuinka sormusallekirjoitukset sekoittavat Moneron outputit](/knowledge/ring-signatures/)
+  * [Kuinka sormusallekirjoitukset sekoittavat Moneron outputit](/knowledge/ring-signatures)/
 
-  * [Kuinka Monero ratkaisi Bitcoinia vaivaavan lohkokoko-ongelman](/knowledge/dynamic-block-size/)
+  * [Kuinka Monero ratkaisi Bitcoinia vaivaavan lohkokoko-ongelman](/knowledge/dynamic-block-size)/
 
-  * [Kuinka CLSAG parantaa Moneron tehokkuutta](/knowledge/what-is-clsag/)
+  * [Kuinka CLSAG parantaa Moneron tehokkuutta](/knowledge/what-is-clsag)/
 
-  * [Miksi Monerolla on "Tail Emission"](/knowledge/monero-tail-emission/)
+  * [Miksi Monerolla on "Tail Emission"](/knowledge/monero-tail-emission)/
 
-  * [Moneron lyhyt historia](/knowledge/monero-history/)
+  * [Moneron lyhyt historia](/knowledge/monero-history)/
 
-  * [Wired Magazine on väärässä Monerosta, tässä miksi](/knowledge/wired-article-debunked/)
+  * [Wired Magazine on väärässä Monerosta, tässä miksi](/knowledge/wired-article-debunked)/
 
-  * [15 parasta Monero-myyttiä ja -huolia, jotka on kumottu](/knowledge/monero-myths-debunked/)
+  * [15 parasta Monero-myyttiä ja -huolia, jotka on kumottu](/knowledge/monero-myths-debunked)/
 
-  * [Kuinka Dandelion++ pitää Moneron tapahtuman alkuperän yksityisenä](/knowledge/monero-dandelion/)
+  * [Kuinka Dandelion++ pitää Moneron tapahtuman alkuperän yksityisenä](/knowledge/monero-dandelion)/
 
-  * [Miksi Monero on avoimen lähdekoodin ja hajautettu](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Miksi Monero on avoimen lähdekoodin ja hajautettu](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Moneron louhinta: Mikä tekee RandomX:stä niin erityisen?](/knowledge/monero-mining-randomx/)
+  * [Moneron louhinta: Mikä tekee RandomX:stä niin erityisen?](/knowledge/monero-mining-randomx)/
 
-  * [Miksi Monero on parempi kuin Dash, Zcash, Zcoin (jopa Lelantuksen kanssa), Grin ja Bitcoin-mikserit kuten Wasabi (päivitetty toukokuussa 2020)](/knowledge/why-monero-is-better/)
+  * [Miksi Monero on parempi kuin Dash, Zcash, Zcoin (jopa Lelantuksen kanssa), Grin ja Bitcoin-mikserit kuten Wasabi (päivitetty toukokuussa 2020)](/knowledge/why-monero-is-better)/
+
+Lue lisää

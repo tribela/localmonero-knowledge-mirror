@@ -8,8 +8,12 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: un aggiornamento del design modulare per le transazioni di Monero
 
+## Seraphis: un aggiornamento del design modulare per le transazioni di Monero
+
 Questo post descrive [Seraphis](https://github.com/UkoeHB/Seraphis), un insieme di strutture e astrazioni del protocollo delle transazioni sviluppato da un collaboratore di ricerca pseudonimo [`koe`](https://github.com/UkoeHB) per l'ecosistema Monero, e con un'analisi di sicurezza in corso da parte dello pseudonimo [`coinstudent2048`](https://github.com/coinstudent2048).  
 Facciamo alcune semplificazioni e omettiamo alcuni dettagli tecnici per motivi di chiarezza; per questo motivo, e perché la progettazione di Seraphis è ancora in corso, i lettori interessati dovrebbero fare riferimento alla documentazione di Seraphis per le informazioni più aggiornate.
+
+## Transazioni in Monero
 
 ## Transazioni in Monero
 
@@ -41,8 +45,12 @@ Un processo simile è stato subito con il blocco di costruzione della firma ad a
 
 ## Seraphis
 
+## Seraphis
+
 Seraphis fa un ulteriore passo avanti con questa idea.  
 Anziché aggiornare i singoli elementi costitutivi del protocollo di transazione RingCT esistente, introduce un protocollo diverso che può trarre vantaggio da diversi elementi costitutivi e offrire funzionalità migliorate.
+
+## Blocchi di costruzione
 
 ## Blocchi di costruzione
 
@@ -61,6 +69,8 @@ Poiché RingCT inserisce il tag di collegamento nella firma ambigua, le operazio
 Fortunatamente, alcuni dei blocchi di costruzione richiesti da Seraphis esistono già altrove, e non hanno bisogno di essere progettati da zero. Sia le costruzioni Bulletproofs che Bulletproofs+ possono essere usate come prove di range. Le modifiche ai sistemi di prova di tipo Schnorr possono essere usate per autorizzare le prove. E un efficiente sistema dimostrativo [](https://eprint.iacr.org/2015/643) usato già come base per Triptych, [Lelantus](https://eprint.iacr.org/2019/373)e [Spark](https://eprint.iacr.org/2021/1173)* può essere modificato per le prove di appartenenza.
 
 * Cypher Stack riceve finanziamenti per lo sviluppo di Spark.
+
+## Affrontare
 
 ## Affrontare
 
@@ -84,70 +94,74 @@ Come titolare dell'indirizzo, puoi decidere quanta autorità delegare ad altri d
 
 ## Il quadro generale
 
+## Il quadro generale
+
 Seraphis è un cambiamento importante per l'ecosistema Monero. Anche se comporta modifiche agli indirizzi e ai blocchi di costruzione delle transazioni, il suo design offre flessibilità e funzionalità utili che non sono possibili con l'attuale protocollo RingCT. Mentre gran parte del design è stato finalizzato e sviluppato in [un'implementazione](https://github.com/UkoeHB/monero/tree/seraphis_lib), il design degli indirizzi e l'analisi della sicurezza sono in corso. Seraphis offre un'eccellente opportunità per spingere in avanti l'ecosistema Monero!
 
 Ulteriori letture
 
-  * [Come Monero abilita in modo unico le economie circolari](/knowledge/monero-circular-economies/)
+  * [Come Monero abilita in modo unico le economie circolari](/knowledge/monero-circular-economies)/
 
-  * [Firme ad anello di Monero vs CoinJoin come in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Firme ad anello di Monero vs CoinJoin come in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Perché (e come!) dovresti tenere le tue chiavi](/knowledge/hold-your-keys/)
+  * [Perché (e come!) dovresti tenere le tue chiavi](/knowledge/hold-your-keys)/
 
-  * [Contribuire a Monero](/knowledge/contributing-to-monero/)
+  * [Contribuire a Monero](/knowledge/contributing-to-monero)/
 
-  * [Come i nodi remoti impattano sulla privacy di Monero](/knowledge/remote-nodes-privacy/)
+  * [Come i nodi remoti impattano sulla privacy di Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Come Monero usa gli hard-forks per aggiornare la rete](/knowledge/network-upgrades/)
+  * [Come Monero usa gli hard-forks per aggiornare la rete](/knowledge/network-upgrades)/
 
-  * [Visualizza i tag: Come un byte ridurrà i tempi di sincronizzazione del portafoglio Monero del 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Visualizza i tag: Come un byte ridurrà i tempi di sincronizzazione del portafoglio Monero del 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool e il suo ruolo nella decentralizzazione del mining di Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool e il suo ruolo nella decentralizzazione del mining di Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Convertire Bitcoin in Monero è altrettanto privato che comprare Monero direttamente?](/knowledge/most-private-way-to-buy-monero/)
+  * [Convertire Bitcoin in Monero è altrettanto privato che comprare Monero direttamente?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Perché Monero usa una configurazione senza fiducia a differenza di Zcash](/knowledge/monero-trustless-setup/)
+  * [Perché Monero usa una configurazione senza fiducia a differenza di Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Perché Monero è un migliore deposito di valore rispetto a Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Perché Monero è un migliore deposito di valore rispetto a Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Come Monero può superare gli effetti di rete di Bitcoin](/knowledge/network-effect/)
+  * [Come Monero può superare gli effetti di rete di Bitcoin](/knowledge/network-effect)/
 
-  * [Perché Monero ha la comunità di pensiero più critico](/knowledge/critical-thinking/)
+  * [Perché Monero ha la comunità di pensiero più critico](/knowledge/critical-thinking)/
 
-  * [Truffe a cui prestare attenzione quando si utilizza Monero](/knowledge/monero-scams/)
+  * [Truffe a cui prestare attenzione quando si utilizza Monero](/knowledge/monero-scams)/
 
-  * [Come funzioneranno gli Atomic Swap in Monero](/knowledge/monero-atomic-swaps/)
+  * [Come funzioneranno gli Atomic Swap in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ciò che ogni utente Monero deve sapere quando si tratta di networking](/knowledge/monero-networking/)
+  * [Ciò che ogni utente Monero deve sapere quando si tratta di networking](/knowledge/monero-networking)/
 
-  * [Come RingCT nasconde gli importi delle transazioni Monero](/knowledge/monero-ringct/)
+  * [Come RingCT nasconde gli importi delle transazioni Monero](/knowledge/monero-ringct)/
 
-  * [In che modo gli indirizzi Monero Stealth proteggono la tua identità](/knowledge/monero-stealth-addresses/)
+  * [In che modo gli indirizzi Monero Stealth proteggono la tua identità](/knowledge/monero-stealth-addresses)/
 
-  * [In che modo i sottoindirizzo Monero impediscono il collegamento di identità](/knowledge/monero-subaddresses/)
+  * [In che modo i sottoindirizzo Monero impediscono il collegamento di identità](/knowledge/monero-subaddresses)/
 
-  * [Spiegazione dei risultati di Monero](/knowledge/monero-outputs/)
+  * [Spiegazione dei risultati di Monero](/knowledge/monero-outputs)/
 
-  * [Migliori pratiche Monero per principianti](/knowledge/monero-best-practices/)
+  * [Migliori pratiche Monero per principianti](/knowledge/monero-best-practices)/
 
-  * [Come le firme ad anello oscurano i risultati di Monero](/knowledge/ring-signatures/)
+  * [Come le firme ad anello oscurano i risultati di Monero](/knowledge/ring-signatures)/
 
-  * [Come Monero ha risolto il problema delle dimensioni del blocco che affligge Bitcoin](/knowledge/dynamic-block-size/)
+  * [Come Monero ha risolto il problema delle dimensioni del blocco che affligge Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [In che modo CLSAG migliorerà l'efficienza di Monero](/knowledge/what-is-clsag/)
+  * [In che modo CLSAG migliorerà l'efficienza di Monero](/knowledge/what-is-clsag)/
 
-  * [Perché Monero ha un'emissione di coda](/knowledge/monero-tail-emission/)
+  * [Perché Monero ha un'emissione di coda](/knowledge/monero-tail-emission)/
 
-  * [La storia di Monero](/knowledge/monero-history/)
+  * [La storia di Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine ha sbagliato su Monero, ecco perché](/knowledge/wired-article-debunked/)
+  * [Wired Magazine ha sbagliato su Monero, ecco perché](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Miti e preoccupazioni Monero debunked](/knowledge/monero-myths-debunked/)
+  * [Top 15 Miti e preoccupazioni Monero debunked](/knowledge/monero-myths-debunked)/
 
-  * [Come Dandelion ++ mantiene private le origini delle transazioni di Monero](/knowledge/monero-dandelion/)
+  * [Come Dandelion ++ mantiene private le origini delle transazioni di Monero](/knowledge/monero-dandelion)/
 
-  * [Perché Monero è open source e decentralizzato](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Perché Monero è open source e decentralizzato](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: cosa rende RandomX così speciale](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: cosa rende RandomX così speciale](/knowledge/monero-mining-randomx)/
 
-  * [Perché Monero è meglio di Dash, Zcash, Zcoin (anche con Lelantus), Grin e Bitcoin Mixer come Wasabi (Aggiornato a maggio 2020)](/knowledge/why-monero-is-better/)
+  * [Perché Monero è meglio di Dash, Zcash, Zcoin (anche con Lelantus), Grin e Bitcoin Mixer come Wasabi (Aggiornato a maggio 2020)](/knowledge/why-monero-is-better)/
+
+Ulteriori letture

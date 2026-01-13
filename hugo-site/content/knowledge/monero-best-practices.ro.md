@@ -10,7 +10,11 @@ Mulți utilizatori ar putea fi șocați să afle că experții cred că este pos
 
 ## SCRIEȚI-VĂ SEMINȚELE!
 
+## SCRIEȚI-VĂ SEMINȚELE!
+
 Primul și cel mai important mod de a vă păstra criptomoneda în siguranță este să vă notați sămânța mnemonică Monero, care este o listă scurtă de cuvinte afișată atunci când vă creați pentru prima dată portofelul. Dacă aveți această sămânță, dar calculatorul/telefonul dumneavoastră moare, atunci vă puteți recupera Monero. Dacă nu aveți această sămânță și vă pierdeți portofelul, atunci Monero este pierdut și nimeni nu vă poate ajuta să îl recuperați. În același mod, nu împărtășiți această sămânță cu nimeni. Dacă aceștia au această listă de cuvinte, au acces deplin și drepturi de cheltuire a Monero-ului dumneavoastră. Mulți au fost neglijenți în ceea ce privește securizarea sămânței lor și au ajuns la realitatea terifiantă a fondurilor pierdute pentru că cineva le-a luat. Vă recomandăm să o scrieți. Fizic. Să nu o stocați în format digital și să vă asigurați că aveți mai multe copii în diverse locuri. Acesta este lucrul numărul unu pe care îl puteți face pentru a vă securiza Monero. SCRIEȚI-VĂ SEMINȚELE!
+
+## Verificați-vă adresele
 
 ## Verificați-vă adresele
 
@@ -18,11 +22,17 @@ Unele escrocherii folosesc programe malware pe computerul dumneavoastră care mo
 
 ## Aflați care este diferența dintre portofelele calde și cele reci
 
+## Aflați care este diferența dintre portofelele calde și cele reci
+
 Portofelele "calde" și "reci" sunt o terminologie comună în domeniul criptomonedelor, iar conceptul este foarte simplu. Un portofel fierbinte este cel pe care îl scoateți și îl folosiți des. Este "fierbinte" pentru că se află în buzunarul din spate. Portofelele reci sunt cele care nu sunt atinse foarte des, asemănător cu banii dintr-o bancă. La fel cum nu este recomandabil să ai sute de dolari în portofelul tău fizic, dar este în general acceptabil să faci acest lucru într-un cont bancar, utilizatorii ar trebui să se gândească la cât de mult Monero este prudent să aibă în portofelele lor mobile, fierbinți, și cât de mult este mai bine să lase acasă, într-un al doilea portofel, rece. În acest fel, pierderea unui telefon, furtul sau alte incidente nu vor cauza pierderea totală a fondurilor.
 
 ## Sunt portofelele hardware potrivite pentru dumneavoastră?
 
+## Sunt portofelele hardware potrivite pentru dumneavoastră?
+
 Dacă vă sperie ideea de a păstra mediul digital complet liber de viruși și programe malware pentru a vă proteja Monero, atunci ați putea lua în considerare un portofel hardware. Practic, portofelul hardware vă păstrează cheile private pe dispozitiv, departe de computerul dumneavoastră. Astfel, chiar dacă computerul tău este compromis, hackerii nu vor avea acces la semințele tale. Veți putea cheltui fondurile doar dacă portofelul hardware este conectat la computer și semnează tranzacția. În acest fel, securitatea cheilor se mută de la computerul dumneavoastră, care este folosit pentru multe lucruri și are o suprafață de atac mare, la portofelul hardware, care este folosit doar pentru un singur lucru și are o suprafață de atac mult mai mică. Pentru o persoană obișnuită care nu cunoaște detaliile securității informatice, este o opțiune viabilă pentru a vă păstra fondurile în siguranță.
+
+## În caz de îndoială, folosiți valorile implicite (cu Monero)
 
 ## În caz de îndoială, folosiți valorile implicite (cu Monero)
 
@@ -34,66 +44,68 @@ Acest lucru poate părea un lucru ciudat de discutat. Cei mai mulți utilizatori
 
 Lecturi suplimentare
 
-  * [Cum permite Monero în mod unic economiile circulare](/knowledge/monero-circular-economies/)
+  * [Cum permite Monero în mod unic economiile circulare](/knowledge/monero-circular-economies)/
 
-  * [Semnături inelare Monero vs CoinJoin ca în Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Semnături inelare Monero vs CoinJoin ca în Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [De ce (și cum!) ar trebui să vă păstrați propriile chei](/knowledge/hold-your-keys/)
+  * [De ce (și cum!) ar trebui să vă păstrați propriile chei](/knowledge/hold-your-keys)/
 
-  * [Contribuind înapoi la Monero](/knowledge/contributing-to-monero/)
+  * [Contribuind înapoi la Monero](/knowledge/contributing-to-monero)/
 
-  * [Cum afectează nodurile de la distanță confidențialitatea Monero](/knowledge/remote-nodes-privacy/)
+  * [Cum afectează nodurile de la distanță confidențialitatea Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Cum folosește Monero hard-fork-urile pentru a moderniza rețeaua](/knowledge/network-upgrades/)
+  * [Cum folosește Monero hard-fork-urile pentru a moderniza rețeaua](/knowledge/network-upgrades)/
 
-  * [Vezi etichete: Cum un singur octet va reduce timpii de sincronizare a portofelului Monero cu 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Vezi etichete: Cum un singur octet va reduce timpii de sincronizare a portofelului Monero cu 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool și rolul său în descentralizarea mineritului Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool și rolul său în descentralizarea mineritului Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Ce va face pentru Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Ce va face pentru Monero](/knowledge/seraphis-for-monero)/
 
-  * [Este convertirea Bitcoin în Monero la fel de privată ca și cumpărarea directă de Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Este convertirea Bitcoin în Monero la fel de privată ca și cumpărarea directă de Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [De ce Monero folosește o configurație fără încredere, spre deosebire de Zcash](/knowledge/monero-trustless-setup/)
+  * [De ce Monero folosește o configurație fără încredere, spre deosebire de Zcash](/knowledge/monero-trustless-setup)/
 
-  * [De ce Monero este un depozit de valoare mai bun decât Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [De ce Monero este un depozit de valoare mai bun decât Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Cum poate Monero să depășească efectele de rețea ale Bitcoin](/knowledge/network-effect/)
+  * [Cum poate Monero să depășească efectele de rețea ale Bitcoin](/knowledge/network-effect)/
 
-  * [De ce Monero are cea mai mare comunitate cu gândire critică](/knowledge/critical-thinking/)
+  * [De ce Monero are cea mai mare comunitate cu gândire critică](/knowledge/critical-thinking)/
 
-  * [Escrocherii la care să fii atent când folosești Monero](/knowledge/monero-scams/)
+  * [Escrocherii la care să fii atent când folosești Monero](/knowledge/monero-scams)/
 
-  * [Cum vor funcționa schimburile atomice în Monero](/knowledge/monero-atomic-swaps/)
+  * [Cum vor funcționa schimburile atomice în Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ce trebuie să știe fiecare utilizator Monero atunci când vine vorba de rețea](/knowledge/monero-networking/)
+  * [Ce trebuie să știe fiecare utilizator Monero atunci când vine vorba de rețea](/knowledge/monero-networking)/
 
-  * [Cum ascunde RingCT sumele tranzacțiilor Monero](/knowledge/monero-ringct/)
+  * [Cum ascunde RingCT sumele tranzacțiilor Monero](/knowledge/monero-ringct)/
 
-  * [Cum îți protejează identitatea adresele Monero invizibile](/knowledge/monero-stealth-addresses/)
+  * [Cum îți protejează identitatea adresele Monero invizibile](/knowledge/monero-stealth-addresses)/
 
-  * [Cum previn subadresele Monero legătura de identitate](/knowledge/monero-subaddresses/)
+  * [Cum previn subadresele Monero legătura de identitate](/knowledge/monero-subaddresses)/
 
-  * [Explicații despre ieșirile Monero](/knowledge/monero-outputs/)
+  * [Explicații despre ieșirile Monero](/knowledge/monero-outputs)/
 
-  * [Modul în care semnăturile inelare ascund ieșirile Monero](/knowledge/ring-signatures/)
+  * [Modul în care semnăturile inelare ascund ieșirile Monero](/knowledge/ring-signatures)/
 
-  * [Cum a rezolvat Monero problema dimensiunii blocurilor care afectează Bitcoin](/knowledge/dynamic-block-size/)
+  * [Cum a rezolvat Monero problema dimensiunii blocurilor care afectează Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Cum va îmbunătăți CLSAG eficiența Monero](/knowledge/what-is-clsag/)
+  * [Cum va îmbunătăți CLSAG eficiența Monero](/knowledge/what-is-clsag)/
 
-  * [De ce Monero are o emisie de coadă](/knowledge/monero-tail-emission/)
+  * [De ce Monero are o emisie de coadă](/knowledge/monero-tail-emission)/
 
-  * [O scurtă istorie a Monero](/knowledge/monero-history/)
+  * [O scurtă istorie a Monero](/knowledge/monero-history)/
 
-  * [Revista Wired se înșeală în legătură cu Monero, iată de ce](/knowledge/wired-article-debunked/)
+  * [Revista Wired se înșeală în legătură cu Monero, iată de ce](/knowledge/wired-article-debunked)/
 
-  * [Top 15 mituri și îngrijorări legate de Monero dezmințite](/knowledge/monero-myths-debunked/)
+  * [Top 15 mituri și îngrijorări legate de Monero dezmințite](/knowledge/monero-myths-debunked)/
 
-  * [Cum păstrează Dandelion++ confidențialitatea originilor tranzacțiilor Monero](/knowledge/monero-dandelion/)
+  * [Cum păstrează Dandelion++ confidențialitatea originilor tranzacțiilor Monero](/knowledge/monero-dandelion)/
 
-  * [De ce Monero este Open Source și descentralizat](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [De ce Monero este Open Source și descentralizat](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Mineritul Monero: Ce face ca RandomX să fie atât de special](/knowledge/monero-mining-randomx/)
+  * [Mineritul Monero: Ce face ca RandomX să fie atât de special](/knowledge/monero-mining-randomx)/
 
-  * [De ce Monero este mai bun decât Dash, Zcash, Zcoin (chiar și cu Lelantus), Grin și Bitcoin Mixers ca Wasabi (actualizat în mai 2020)](/knowledge/why-monero-is-better/)
+  * [De ce Monero este mai bun decât Dash, Zcash, Zcoin (chiar și cu Lelantus), Grin și Bitcoin Mixers ca Wasabi (actualizat în mai 2020)](/knowledge/why-monero-is-better)/
+
+Lecturi suplimentare

@@ -14,6 +14,8 @@ Bitcoin의 자금 출처를 난독화하기 위해 CoinJoin 거래를 사용하�
 
 ## CoinJoin 거래란 무엇입니까?
 
+## CoinJoin 거래란 무엇입니까?
+
 Bitcoin에서는 모든 거래가 완전히 투명하여 발신인, 수취인, 금액이 공개되므로 사용자는 이전 발신인과 향후 자금 수취인으로부터 개인 정보를 보호하기 위해 추가 조치를 취해야 하며 물리적 폭력.
 
 오늘날 Bitcoin의 개인 정보 보호를 위한 최상의 솔루션은 ["CoinJoin"](https://bitcoiner.guide/qna/coinjoin/)이라는 도구로, 2명 이상의 사용자가 함께 작업하여(보통 중앙 조정자를 통해) 특별한 거래를 생성합니다. 외부 관찰자가 입력과 출력을 연결하기 어렵습니다. 각 참가자는 자금 관리를 포기하지 않고 거래를 공동으로 구축하기 위해 통신하고 외부 관찰자에게 이전 기록이 현재 명확하지 않은(또는 난독화된) 마지막 출력을 받습니다.
@@ -25,6 +27,8 @@ Bitcoin에서는 모든 거래가 완전히 투명하여 발신인, 수취인, �
   * CoinJoin에 대한 많은 자금이 있는 사용자는 CoinJoin에 참여할 충분한 참가자를 찾기 위해 몇 시간(또는 심지어 며칠!)을 기다려야 할 수 있으므로 사용자가 자금을 수령한 시점부터 지출할 수 있는 시점까지 큰 지연이 발생합니다. 그들을 개인적으로.
   * CoinJoin 거래에 의해 제공되는 개인 정보는 다른 참가자가 KYC 교환, ID가 필요한 판매자 등을 통해 자금을 사용하거나 출력을 자신의 ID에 연결함에 따라 시간이 지남에 따라 저하됩니다. 이는 사용자가 이상적으로 CoinJoin에서 자금을 지속적으로 휘젓는 것을 의미합니다. 익명성 세트(“숨기려는 군중”)를 가능한 한 최신 상태로 유지하기 위한 거래.
   * 대부분의 CoinJoin 접근 방식에서 참가자는 CoinJoin 트랜잭션의 입력과 출력을 연결하기 어렵게 만들기 위해 고정 크기 UTXO(즉, 0.1 BTC)를 사용해야 합니다. 이는 더 높은 수수료(큰 입력당 더 많은 별도의 거래가 필요함), 더 많은 "유해한 변경"(프라이버시에 대한 심각한 위험 없이 사용할 수 없는 자금)으로 이어지며, 더 작은 사용자가 자산을 가지고 있지 않은 경우 전혀 혼합할 수 없도록 할 수 있습니다. 필요한 최소 잔액.
+
+## 링 서명은 이러한 문제를 어떻게 해결합니까?
 
 ## 링 서명은 이러한 문제를 어떻게 해결합니까?
 
@@ -64,6 +68,8 @@ CoinJoin은 일반적으로 고정 크기 입력이 필요합니다.
 
 ## 자세히 알아보려면 어떻게 해야 하나요?
 
+## 자세히 알아보려면 어떻게 해야 하나요?
+
 당신이 호기심과 더 나은 링 서명 또는 CoinJoin 거래를 이해하려는 경우, 시작하는 좋은 장소에 대한 아래링크를 참조하십시오 :
 
   * [링 시그니처 모호한 모네로의 출력](/knowledge/ring-signatures)
@@ -73,66 +79,68 @@ CoinJoin은 일반적으로 고정 크기 입력이 필요합니다.
 
 더 보기
 
-  * [Monero가 순환 경제를 가능하게 하는 방법](/knowledge/monero-circular-economies/)
+  * [Monero가 순환 경제를 가능하게 하는 방법](/knowledge/monero-circular-economies)/
 
-  * [자신의 키를 보유해야 하는 이유(및 방법!)](/knowledge/hold-your-keys/)
+  * [자신의 키를 보유해야 하는 이유(및 방법!)](/knowledge/hold-your-keys)/
 
-  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero/)
+  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero)/
 
-  * [원격 노드가 Monero의 개인 정보에 미치는 영향](/knowledge/remote-nodes-privacy/)
+  * [원격 노드가 Monero의 개인 정보에 미치는 영향](/knowledge/remote-nodes-privacy)/
 
-  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades/)
+  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades)/
 
-  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool과 Monero Mining의 탈중앙화에서의 역할](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool과 Monero Mining의 탈중앙화에서의 역할](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero/)
+  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero)/
 
-  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero/)
+  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup/)
+  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup)/
 
-  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value/)
+  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value)/
 
-  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect/)
+  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect)/
 
-  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking/)
+  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking)/
 
-  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams/)
+  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams)/
 
-  * [Monero에서 원자 스왑이 작동하는 방법](/knowledge/monero-atomic-swaps/)
+  * [Monero에서 원자 스왑이 작동하는 방법](/knowledge/monero-atomic-swaps)/
 
-  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking/)
+  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking)/
 
-  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct/)
+  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct)/
 
-  * [모네로 비밀주소가 신상을 보호하는 방법](/knowledge/monero-stealth-addresses/)
+  * [모네로 비밀주소가 신상을 보호하는 방법](/knowledge/monero-stealth-addresses)/
 
-  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses/)
+  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses)/
 
-  * [모네로 출력에 대하여](/knowledge/monero-outputs/)
+  * [모네로 출력에 대하여](/knowledge/monero-outputs)/
 
-  * [초보자를 위한 모네로 사용 습관 추천](/knowledge/monero-best-practices/)
+  * [초보자를 위한 모네로 사용 습관 추천](/knowledge/monero-best-practices)/
 
-  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures/)
+  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures)/
 
-  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size/)
+  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size)/
 
-  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag/)
+  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag)/
 
-  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission/)
+  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission)/
 
-  * [모네로의 간단한 역사](/knowledge/monero-history/)
+  * [모네로의 간단한 역사](/knowledge/monero-history)/
 
-  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked/)
+  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked)/
 
-  * [모네로에 관한 15가지 미신과 우려, 그리고 그 해답](/knowledge/monero-myths-debunked/)
+  * [모네로에 관한 15가지 미신과 우려, 그리고 그 해답](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion/)
+  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion)/
 
-  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx/)
+  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx)/
 
-  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better/)
+  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better)/
+
+더 보기

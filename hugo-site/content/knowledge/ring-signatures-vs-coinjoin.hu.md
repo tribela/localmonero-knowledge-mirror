@@ -14,6 +14,8 @@ Ebben a blogbejegyzésben röviden összehasonlítjuk a CoinJoint és a gyűrűs
 
 ## Mi az a CoinJoin tranzakció?
 
+## Mi az a CoinJoin tranzakció?
+
 Mivel a Bitcoin protokollon minden tranzakció teljesen nyilvános – megmutatva a feladót, a címzettet és az összeget – a felhasználóknak további lépéseket kell tenniük, hogy megőrizzék magánszférájukat a korábbi feladókkal és jövőbeni címzettekkel szemben, vagy kénytelenek a cenzúrát, megfigyelés vagy fizikai erőszak kockázatát vállalni.
 
 A bitcoin adatvédelemre a ma elérhető legjobb megoldás az ún. ['CoinJoin'](https://bitcoiner.guide/qna/coinjoin/), ahol 2 vagy több felhasználó együttesen (általában egy központi koordinátoron keresztül), hoz létre egy speciális tranzakciót, amely megnehezíti a külső szemlélők számára, hogy összekapcsolják a kimeneteket a bemenetekkel. A tranzakció létrehozásához a résztvevők olyan módon dolgoznak össze, hogy eközben a forrásaikat ne kelljen megőrzésre átadni harmadik félnek. A tranzakció lebonyolítása után a kimenetek története külső szemlélők számára átláthatatlanná (vagy legalábbis zavarosabbá) válik-
@@ -25,6 +27,8 @@ Ezzel megszakad az egyes UTXO-k követhetősége, lehetővé téve a Bitcoin-fel
   * Azoknak a felhasználóknak, akiknek nagy összegű pénzük van a CoinJoinhoz, gyakran órákat (vagy akár napokat!) kell várniuk, hogy elegendő résztvevőt találjanak egy CoinJoinhoz, ami nagy késésekhez vezet attól az időponttól kezdve, amikor a felhasználó pénzt kap, egészen addig, amíg el tudja azokat költeni privát módon . 
   * A CoinJoin-tranzakciók által biztosított védelem idővel leromlik, ahogy a többi résztvevő pénzt költ, vagy kimeneteket személyazonosságukhoz kötik KYC-tőzsdéken, azonosítást igénylő kereskedőknél, stb. Ez azt jelenti, hogy a felhasználóknak folyamosan forgatni kell a forrásaikat, hogy anonimitásukat a lehető legfrissebben tartsák (meglegyen a szükséges „tömeg, amiben el lehet bújni”).
   * A legtöbb esetben a CoinJoin résztvevőinek fix méretű UTXO-kat (pl. 0,1 BTC-t) kell használniuk, hogy megnehezítsék a tranzakció be- és kimeneteinek összekapcsolását. Ez magasabb díjakhoz vezet (több külön tranzakció szükséges egy nagy bemenethez), több „mérgező apró”-hoz (a diszkráció komoly kockáztatása nélkül elkölthetetlen források), és megakadályozhatja, hogy a kisebb felhasználók vegyíthessenek, ha nincs meg a szükséges minimális egyenlegük.
+
+## Hogyan oldják meg ezeket a problémákat a gyűrűs aláírások?
 
 ## Hogyan oldják meg ezeket a problémákat a gyűrűs aláírások?
 
@@ -64,6 +68,8 @@ Mivel a [„Bizalmas tranzakciók”](/knowledge/monero-ringct) (a „RingCT” 
 
 ## Hogyan tudhatok meg többet?
 
+## Hogyan tudhatok meg többet?
+
 Ha kíváncsi, és szeretné jobban megérteni a gyűrűs aláírásokat vagy a CoinJoin tranzakciókat, tekintse meg az alábbi linkeket, nagyszerű helyek a kezdéshez:
 
   * [Hogyan rejtik el a gyűrűs aláírások Monero kimeneteit](/knowledge/ring-signatures)
@@ -73,66 +79,68 @@ Ha kíváncsi, és szeretné jobban megérteni a gyűrűs aláírásokat vagy a 
 
 További olvasnivaló
 
-  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies/)
+  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies)/
 
-  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys/)
+  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys)/
 
-  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero/)
+  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero)/
 
-  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy/)
+  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy)/
 
-  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades/)
+  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades)/
 
-  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero)/
 
-  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero/)
+  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup/)
+  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup)/
 
-  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value/)
+  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value)/
 
-  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect/)
+  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect)/
 
-  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking/)
+  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking)/
 
-  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams/)
+  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams)/
 
-  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps/)
+  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps)/
 
-  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking/)
+  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking)/
 
-  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct/)
+  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct)/
 
-  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses/)
+  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses)/
 
-  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses/)
+  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses)/
 
-  * [Monero kimenetek magyarázata](/knowledge/monero-outputs/)
+  * [Monero kimenetek magyarázata](/knowledge/monero-outputs)/
 
-  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices/)
+  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices)/
 
-  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures/)
+  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures)/
 
-  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size/)
+  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size)/
 
-  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag/)
+  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag)/
 
-  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission/)
+  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission)/
 
-  * [A Monero rövid története](/knowledge/monero-history/)
+  * [A Monero rövid története](/knowledge/monero-history)/
 
-  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked/)
+  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked)/
 
-  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked/)
+  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked)/
 
-  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion/)
+  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion)/
 
-  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx/)
+  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx)/
 
-  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better/)
+  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better)/
+
+További olvasnivaló

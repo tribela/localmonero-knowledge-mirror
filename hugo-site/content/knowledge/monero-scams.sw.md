@@ -10,7 +10,11 @@ Kwa muda mrefu ambapo kumekuwa na pesa, kumekuwa na ulaghai ili kuwafanya watu w
 
 ## Ulaghai wa Walaghai
 
+## Ulaghai wa Walaghai
+
 Mmojawapo ya ulaghai wa zamani zaidi katika kitabu, na ambao unaweza kufanyika kwenye jukwaa lolote la majadiliano lililopo. Katika ulaghai huu, mlaghai atajifanya kuwa mtu anayeaminika katika jumuiya au afisa wa cheo cha juu wa biashara inayohusiana. Mara tu imani ya mwathiriwa inapopatikana kupitia sifa hii iliyoidhinishwa, mlaghai anaweza kutuma mtumiaji kwenye tovuti hasidi, kuwaamuru kupakua programu iliyoundwa ili kuiba pesa zao, au hata kumfanya mtumiaji amtumie pesa mmoja-kwa-mmoja. Kila mara hakikisha kwamba mtu unayezungumza naye ndiye mtu sahihi. Biashara zitakuwa na barua pepe za kuwasiliana nao ili (Kama."Kwani Mkubwa wa kampuni alinipigia kupitia Telegram?")kuthibitisha utambulisho. Thibitisha kabla ya kuchukua hatua yoyote. HASA kama walianzisha mazungumzo na wewe badala ya wewe na wewe.
+
+## Biashara Inafanana Kashfa
 
 ## Biashara Inafanana Kashfa
 
@@ -22,7 +26,11 @@ Suluhisho la aina hizi za ulaghai ni umakini. Angalia mara mbili kila mara kabla
 
 ## Ulaghai wa Moja kwa Moja
 
+## Ulaghai wa Moja kwa Moja
+
 Wakati mwingine walaghai hata hawajaribu kuwa wajanja. Wanafanya madai makubwa,la mustajab na wanajua daima kutakuwa na wapumbavu ambao watawaamini kutokana na kukata tamaa, uchoyo, au ujinga. Ulaghai huu huchukua aina nyingi, kutoka kwa miradi ya sarafu inayoahidi mapato ya ajabu kwenye uwekezaji ambapo kwanza unawapa pesa (kama Bitconnect), hadi vikundi maalum vya kisiri ambavyo vinaahidi kukuambia harakati zote za soko mapema ili upate pesa...kwa ada. Kumbuka. Ikiwa kitu kinasikika kuwa nzuri sana kuwa kweli, labda ni. Ushauri huu ni wa kweli hasa katika nafasi ya sarafu-fiche, kwani kupeleka sarafu au kandarasi mahiri ni jambo dogo siku hizi, na kutuma madai yako yasiyofaa mtandaoni ni bure. Kumbuka, ikiwa mtu kweli alipata njia ya kupanga soko au kugundua njia ya kutengeneza tani nyingi za pesa, basi kwa nini akuambie? Wangetumia tu wenyewe kupata utajiri. Kwa nini waishiriki kupeana? Kuwa nadhifu. Tumia ubongo wako. Usimwamini mtu yeyote.
+
+## Jukumu la Mbegu Yako ya Monero katika Ulaghai
 
 ## Jukumu la Mbegu Yako ya Monero katika Ulaghai
 
@@ -34,66 +42,68 @@ WAKATI WOWOTE, tovuti, programu, au pochi ina chaguo la 'rejesha na mbegu', kuwa
 
 Kusoma zaidi
 
-  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies/)
+  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies)/
 
-  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys/)
+  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys)/
 
-  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero/)
+  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero)/
 
-  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy/)
+  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades/)
+  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades)/
 
-  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero)/
 
-  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero/)
+  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup/)
+  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect/)
+  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect)/
 
-  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking/)
+  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking)/
 
-  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps/)
+  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking/)
+  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking)/
 
-  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct/)
+  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct)/
 
-  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses/)
+  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses)/
 
-  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses/)
+  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses)/
 
-  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs/)
+  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs)/
 
-  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices/)
+  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices)/
 
-  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures/)
+  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures)/
 
-  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size/)
+  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag/)
+  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag)/
 
-  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission/)
+  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission)/
 
-  * [Historia fupi ya Monero](/knowledge/monero-history/)
+  * [Historia fupi ya Monero](/knowledge/monero-history)/
 
-  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked/)
+  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked)/
 
-  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked/)
+  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked)/
 
-  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion/)
+  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion)/
 
-  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx/)
+  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx)/
 
-  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better/)
+  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better)/
+
+Kusoma zaidi

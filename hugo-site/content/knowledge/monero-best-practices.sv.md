@@ -10,7 +10,11 @@ Många användare kan bli chockade när de får veta att experter tror att det �
 
 ## SKRIV NED DITT FRÖ!
 
+## SKRIV NED DITT FRÖ!
+
 Det första och största sättet att hålla din kryptovaluta säker och säker är att skriva ner ditt Monero-mnemonikfrö, vilket är en kort ordlista som visas när du först skapar din plånbok. Om du har detta frö, men din dator/telefon dör, kan du återställa din Monero. Om du inte har detta frö, och du tappar din plånbok, är din Monero förlorad och ingen kan hjälpa dig att återställa den. På samma sätt, dela inte detta frö med någon. Om de har den här ordlistan har de full åtkomst och utgiftsrätt till din Monero. Många har slarvat med att säkra sitt frö och kommit till den skrämmande verkligheten med förlorade pengar eftersom någon har tagit dem. Vi rekommenderar att du skriver ner det. Fysiskt. Att inte lagra det digitalt, och se till att du har flera kopior på olika ställen. Det här är det viktigaste du kan göra för att säkra din Monero. SKRIV NED DITT FRÖ!
+
+## Dubbelkolla dina adresser
 
 ## Dubbelkolla dina adresser
 
@@ -18,11 +22,17 @@ Vissa bedrägerier använder skadlig programvara på din dator som ändrar funkt
 
 ## Lär dig skillnaden mellan varma och kalla plånböcker
 
+## Lär dig skillnaden mellan varma och kalla plånböcker
+
 Varma och kalla plånböcker är vanlig terminologi inom kryptovaluta, och konceptet är egentligen ganska enkelt. En het plånbok är en som du tar fram och använder ofta. Det är "hett" av att vara i bakfickan. Kalla plånböcker är sådana som inte rörs särskilt ofta, liknar pengar på en bank. Precis som det inte är tillrådligt att ha hundratals dollar i din fysiska plånbok, men det är allmänt acceptabelt att göra det på ett bankkonto, bör användarna överväga hur mycket Monero är klokt att ha i sina heta, mobila plånböcker och hur mycket som är bäst att ha kvar. hemma på en andra, kall en. På det här sättet kommer det inte att leda till total förlust av pengar om du förlorar en telefon, stöld eller andra missöden.
 
 ## Är hårdvaruplånböcker rätt för dig?
 
+## Är hårdvaruplånböcker rätt för dig?
+
 Om tanken på att hålla din digitala miljö helt fri från virus och skadlig kod för att skydda din Monero är skrämmande för dig, kan du överväga en hårdvaruplånbok. I grund och botten håller hårdvaruplånboken dina privata nycklar på enheten, borta från din dator. Så även om din dator äventyras kommer hackarna inte ha tillgång till ditt frö. Du kommer bara att kunna spendera pengarna om hårdvaruplånboken är ansluten till datorn och undertecknar transaktionen. Detta flyttar nycklarnas säkerhet från din dator, som används till många saker, och har en stor attackyta, till hårdvaruplånboken, som bara används till en sak, och har en mycket mindre attackyta. För den vanliga personen som inte känner till detaljerna i datorsäkerhet är det ett lönsamt alternativ att hålla dina pengar säkra.
+
+## När du är osäker, använd standardvärdena (med Monero)
 
 ## När du är osäker, använd standardvärdena (med Monero)
 
@@ -34,66 +44,68 @@ Det här kan tyckas vara en konstig sak att prata om. De flesta användare kan f
 
 Vidare läsning
 
-  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies/)
+  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies)/
 
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Varför (och hur!) du ska hålla i dina egna nycklar](/knowledge/hold-your-keys/)
+  * [Varför (och hur!) du ska hålla i dina egna nycklar](/knowledge/hold-your-keys)/
 
-  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero/)
+  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero)/
 
-  * [Hur fjärrnoder påverkar Moneros integritet](/knowledge/remote-nodes-privacy/)
+  * [Hur fjärrnoder påverkar Moneros integritet](/knowledge/remote-nodes-privacy)/
 
-  * [Hur Monero använder hard-forks för att uppgradera nätverket](/knowledge/network-upgrades/)
+  * [Hur Monero använder hard-forks för att uppgradera nätverket](/knowledge/network-upgrades)/
 
-  * [Visa taggar: Hur en byte kommer att minska Monero plånbokssynkroniseringstider med 40% +](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Visa taggar: Hur en byte kommer att minska Monero plånbokssynkroniseringstider med 40% +](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Vad det kommer att göra för Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Vad det kommer att göra för Monero](/knowledge/seraphis-for-monero)/
 
-  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero/)
+  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup/)
+  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Varför Monero är en bättre värdebevarare än Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Varför Monero är en bättre värdebevarare än Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect/)
+  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect)/
 
-  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking/)
+  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking)/
 
-  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams/)
+  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams)/
 
-  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps/)
+  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking/)
+  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking)/
 
-  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct/)
+  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct)/
 
-  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses/)
+  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses)/
 
-  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses/)
+  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses)/
 
-  * [Monero Utgångar Förklaras](/knowledge/monero-outputs/)
+  * [Monero Utgångar Förklaras](/knowledge/monero-outputs)/
 
-  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures/)
+  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures)/
 
-  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size/)
+  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag/)
+  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag)/
 
-  * [Varför Monero har en svans emission](/knowledge/monero-tail-emission/)
+  * [Varför Monero har en svans emission](/knowledge/monero-tail-emission)/
 
-  * [En kort historia om Monero](/knowledge/monero-history/)
+  * [En kort historia om Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked/)
+  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked)/
 
-  * [Topp 15 Monero myter och bekymmer debunked](/knowledge/monero-myths-debunked/)
+  * [Topp 15 Monero myter och bekymmer debunked](/knowledge/monero-myths-debunked)/
 
-  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion/)
+  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion)/
 
-  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx)/
 
-  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better/)
+  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better)/
+
+Vidare läsning

@@ -14,6 +14,8 @@ In deze blogpost gaan we kort in op een vergelijking van CoinJoin- en ringhandte
 
 ## Wat is een CoinJoin-transactie?
 
+## Wat is een CoinJoin-transactie?
+
 Aangezien alle transacties in Bitcoin volledig transparant zijn - waarbij de afzender, ontvanger en bedragen worden onthuld - moeten gebruikers extra maatregelen nemen om hun privacy te beschermen tegen eerdere afzenders en toekomstige ontvangers van hun geld, anders riskeren ze censuur, toezicht of diefstal van geld via fysiek geweld.
 
 De beste oplossing voor privacy op Bitcoin is tegenwoordig een tool genaamd [“CoinJoin”](https://bitcoiner.guide/qna/coinjoin/), waar 2 of meer gebruikers samenwerken (meestal via een gecentraliseerde coördinator) om een speciale transactie te creëren die het moeilijk maakt voor externe waarnemers om de inputs met de outputs te verbinden. Elke deelnemer communiceert om gezamenlijk de transactie op te bouwen zonder hun geld uit handen te geven, en ontvangt aan het einde een output waarvan de voorgeschiedenis nu onduidelijk (of versluierd) is voor externe waarnemers. 
@@ -25,6 +27,8 @@ Dit doorbreekt de geschiedenis van specifieke UTXO's, waardoor Bitcoin-gebruiker
   * Gebruikers met grote bedragen of fondsen aan CoinJoin kunnen vaak uren (of zelfs dagen!) wachten om genoeg deelnemers te vinden om mee te doen aan CoinJoin, wat leidt tot grote vertragingen vanaf het moment dat een gebruiker geld ontvangt tot wanneer ze deze privé kunnen uitgeven. 
   * De privacy die wordt geboden door een CoinJoin-transactie neemt in de loop van de tijd af naarmate andere deelnemers geld uitgeven of hun output koppelen aan hun identiteit via KYC-uitwisselingen, handelaars die een ID vereisen, enz. Dit betekent dat gebruikers beter hun geld constant in CoinJoin-transacties kunnen laten draaien om hun anonimiteit set zo 'vers' als mogelijk te houden (oftewel een "menigte om zich in te verstoppen"). 
   * Bij de meeste benaderingen van CoinJoin moeten deelnemers een UTXO van vaste grootte (d.w.z. 0,1 BTC) gebruiken om het moeilijker te maken om inputs en outputs van CoinJoin-transacties met elkaar te verbinden. Dit leidt tot hogere vergoedingen (meer afzonderlijke transacties nodig per grote invoer), meer "toxische verandering" (fondsen die niet kunnen worden besteed zonder ernstige risico's voor de privacy), en kan voorkomen dat kleinere gebruikers zich kunnen mengen in de mix als ze niet het minimaal vereiste saldo hebben. 
+
+## Hoe lossen ringhandtekeningen deze problemen op?
 
 ## Hoe lossen ringhandtekeningen deze problemen op?
 
@@ -64,6 +68,8 @@ Aangezien bedragen in elke transactie worden verborgen met behulp van ["Vertrouw
 
 ## Hoe kan ik meer leren?
 
+## Hoe kan ik meer leren?
+
 Als u nieuwsgierig bent en ringhandtekeningen of CoinJoin-transacties beter wilt begrijpen, bekijk dan de onderstaande links voor goede plekken om van start te gaan:
 
   * [Hoe beltonen de output van Monero verdoezelen](/knowledge/ring-signatures)
@@ -73,66 +79,68 @@ Als u nieuwsgierig bent en ringhandtekeningen of CoinJoin-transacties beter wilt
 
 Verder lezen
 
-  * [Hoe Monero op unieke wijze circulaire economieën mogelijk maakt](/knowledge/monero-circular-economies/)
+  * [Hoe Monero op unieke wijze circulaire economieën mogelijk maakt](/knowledge/monero-circular-economies)/
 
-  * [Waarom (en hoe!) u uw eigen sleutels moet bezitten](/knowledge/hold-your-keys/)
+  * [Waarom (en hoe!) u uw eigen sleutels moet bezitten](/knowledge/hold-your-keys)/
 
-  * [Bijdragen aan Monero](/knowledge/contributing-to-monero/)
+  * [Bijdragen aan Monero](/knowledge/contributing-to-monero)/
 
-  * [Hoe externe knooppunten de privacy van Monero beïnvloeden](/knowledge/remote-nodes-privacy/)
+  * [Hoe externe knooppunten de privacy van Monero beïnvloeden](/knowledge/remote-nodes-privacy)/
 
-  * [Hoe Monero hard forks gebruikt om het netwerk te upgraden](/knowledge/network-upgrades/)
+  * [Hoe Monero hard forks gebruikt om het netwerk te upgraden](/knowledge/network-upgrades)/
 
-  * [Weergave tags: Hoe één byte de synchronisatietijden van de Monero portefeuille met meer dan 40% vermindert](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Weergave tags: Hoe één byte de synchronisatietijden van de Monero portefeuille met meer dan 40% vermindert](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool en Zijn Rol bij het Decentraliseren van Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool en Zijn Rol bij het Decentraliseren van Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Wat Het Zal Doen voor Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Wat Het Zal Doen voor Monero](/knowledge/seraphis-for-monero)/
 
-  * [Is het Omzetten van Bitcoin naar Monero Net Zo Privé als het Rechtstreeks Kopen van Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Is het Omzetten van Bitcoin naar Monero Net Zo Privé als het Rechtstreeks Kopen van Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Waarom Monero een Trustless Setup Gebruikt in Tegenstelling tot Zcash](/knowledge/monero-trustless-setup/)
+  * [Waarom Monero een Trustless Setup Gebruikt in Tegenstelling tot Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Waarom Monero een Betere Waardeopslag Is Dan Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Waarom Monero een Betere Waardeopslag Is Dan Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hoe Monero de Netwerkeffecten van Bitcoin Kan Overwinnen](/knowledge/network-effect/)
+  * [Hoe Monero de Netwerkeffecten van Bitcoin Kan Overwinnen](/knowledge/network-effect)/
 
-  * [Waarom Monero de Meest Kritische Denkgemeenschap Heeft](/knowledge/critical-thinking/)
+  * [Waarom Monero de Meest Kritische Denkgemeenschap Heeft](/knowledge/critical-thinking)/
 
-  * [Oplichtingen Om Voor Uit Te Kijken Bij Gebruik van Monero](/knowledge/monero-scams/)
+  * [Oplichtingen Om Voor Uit Te Kijken Bij Gebruik van Monero](/knowledge/monero-scams)/
 
-  * [Hoe Atomic Swaps Zullen Werken in Monero](/knowledge/monero-atomic-swaps/)
+  * [Hoe Atomic Swaps Zullen Werken in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Wat Elke Monero Gebruiker Moet Weten Als het om Netwerken Gaat](/knowledge/monero-networking/)
+  * [Wat Elke Monero Gebruiker Moet Weten Als het om Netwerken Gaat](/knowledge/monero-networking)/
 
-  * [Hoe RingCT Monero's Transactiebedragen verbergt](/knowledge/monero-ringct/)
+  * [Hoe RingCT Monero's Transactiebedragen verbergt](/knowledge/monero-ringct)/
 
-  * [Hoe Monero Stealth Adressen Uw Identiteit Beschermen](/knowledge/monero-stealth-addresses/)
+  * [Hoe Monero Stealth Adressen Uw Identiteit Beschermen](/knowledge/monero-stealth-addresses)/
 
-  * [Hoe Monero's Subadressen Identiteitskoppeling Voorkomen](/knowledge/monero-subaddresses/)
+  * [Hoe Monero's Subadressen Identiteitskoppeling Voorkomen](/knowledge/monero-subaddresses)/
 
-  * [Monero-Outputs uitgelegd](/knowledge/monero-outputs/)
+  * [Monero-Outputs uitgelegd](/knowledge/monero-outputs)/
 
-  * [Praktische Tips van Monero voor Beginners](/knowledge/monero-best-practices/)
+  * [Praktische Tips van Monero voor Beginners](/knowledge/monero-best-practices)/
 
-  * [Hoe Ring-handtekeningen de Resultaten van Monero Verdoezelen](/knowledge/ring-signatures/)
+  * [Hoe Ring-handtekeningen de Resultaten van Monero Verdoezelen](/knowledge/ring-signatures)/
 
-  * [Hoe Monero het Probleem met de Blokgrootte Dat Bitcoin Plaagt Heeft Opgelost](/knowledge/dynamic-block-size/)
+  * [Hoe Monero het Probleem met de Blokgrootte Dat Bitcoin Plaagt Heeft Opgelost](/knowledge/dynamic-block-size)/
 
-  * [Hoe CLSAG de Efficiëntie van Monero Zal Verbeteren](/knowledge/what-is-clsag/)
+  * [Hoe CLSAG de Efficiëntie van Monero Zal Verbeteren](/knowledge/what-is-clsag)/
 
-  * [Waarom Monero een Staartemissie Heeft](/knowledge/monero-tail-emission/)
+  * [Waarom Monero een Staartemissie Heeft](/knowledge/monero-tail-emission)/
 
-  * [Een Korte Geschiedenis van Monero](/knowledge/monero-history/)
+  * [Een Korte Geschiedenis van Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine heeft Ongelijk over Monero, Dit is Waarom](/knowledge/wired-article-debunked/)
+  * [Wired Magazine heeft Ongelijk over Monero, Dit is Waarom](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Monero Mythen en Zorgen Ontkracht](/knowledge/monero-myths-debunked/)
+  * [Top 15 Monero Mythen en Zorgen Ontkracht](/knowledge/monero-myths-debunked)/
 
-  * [Hoe Dandelion++ de Oorsprong van de Transacties van Monero Privé Houdt](/knowledge/monero-dandelion/)
+  * [Hoe Dandelion++ de Oorsprong van de Transacties van Monero Privé Houdt](/knowledge/monero-dandelion)/
 
-  * [Waarom Monero Open Source en Dedecentraliseerd Is](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Waarom Monero Open Source en Dedecentraliseerd Is](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero-Mining: Wat RandomX zo Speciaal Maakt](/knowledge/monero-mining-randomx/)
+  * [Monero-Mining: Wat RandomX zo Speciaal Maakt](/knowledge/monero-mining-randomx)/
 
-  * [Waarom Monero beter is dan Dash, Zcash, Zcoin (zelfs met Lelantus), Grin en Bitcoin Mixers zoals Wasabi (bijgewerkt mei 2020)](/knowledge/why-monero-is-better/)
+  * [Waarom Monero beter is dan Dash, Zcash, Zcoin (zelfs met Lelantus), Grin en Bitcoin Mixers zoals Wasabi (bijgewerkt mei 2020)](/knowledge/why-monero-is-better)/
+
+Verder lezen

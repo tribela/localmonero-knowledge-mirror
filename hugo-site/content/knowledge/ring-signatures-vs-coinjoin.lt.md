@@ -14,6 +14,8 @@ CoinJoin operacijų naudojimas siekiant paslėpti Bitcoin lėšų šaltinį jau 
 
 ## Kas yra CoinJoin sandoris?
 
+## Kas yra CoinJoin sandoris?
+
 Kadangi visi Bitcoin sandoriai yra visiškai skaidrūs – atskleidžiamas siuntėjas, gavėjas ir sumos, vartotojai turi imtis papildomų veiksmų, kad apsaugotų savo privatumą nuo ankstesnių siuntėjų ir būsimų lėšų gavėjų arba rizikuotų cenzūra, priežiūra ar lėšų vagystė per fizinis smurtas.
 
 Geriausias šiandieninis Bitcoin privatumo sprendimas yra įrankis, vadinamas [„CoinJoin“](https://bitcoiner.guide/qna/coinjoin/), kuriame 2 ar daugiau vartotojų dirba kartu (paprastai per centralizuotą koordinatorių), kad sukurtų specialią operaciją, kuri apsunkina pašalinius veiksmus. stebėtojai sujungti įėjimus su išėjimais. Kiekvienas dalyvis praneša, kad bendrai sudarys sandorį, neperduodamas savo lėšų saugojimo, ir pabaigoje gauna išvestį, kurios ankstesnė istorija dabar yra neaiški (arba užtemdyta) išorės stebėtojams.
@@ -25,6 +27,8 @@ Tai sulaužo konkrečių UTXO istoriją, todėl Bitcoin naudotojai gali įgyti �
   * Naudotojams, turintiems daug lėšų CoinJoin, dažnai gali tekti laukti valandų (ar net dienų!), kad surastų pakankamai dalyvių, su kuriais galėtų prisijungti, ir dėl to labai vėluojama nuo to momento, kai vartotojas gauna lėšų, iki tada, kai gali jas išleisti privačiai. 
   * Privatumas, suteikiamas atliekant CoinJoin operaciją, laikui bėgant blogėja, nes kiti dalyviai išleidžia lėšas arba susieja savo išvesties duomenis su savo tapatybe per KYC mainus, prekybininkus, kuriems reikalingas ID ir kt. Tai reiškia, kad naudotojai idealiai palaiko savo lėšas nuolat mažėjančias atliekant CoinJoin operacijas. jų anonimiškumas („minia, kurioje reikia pasislėpti“) nustatytas kuo naujesnesnis.
   * Daugumoje „CoinJoin“ metodų dalyviai turi naudoti fiksuoto dydžio UTXO (t. y. 0,1 BTC), kad būtų sunkiau sujungti „CoinJoin“ operacijų įvestis ir išvestis. Tai lemia didesnius mokesčius (reikalingi daugiau atskirų operacijų vienam dideliam įvesties kiekiui), daugiau „toksiškų pokyčių“ (lėšos, kurių negalima išleisti be rimtos rizikos privatumui), ir gali būti, kad mažesni vartotojai apskritai negalės derinti, jei neturi minimalus reikalingas likutis.
+
+## Kaip žiediniai parašai išsprendžia šias problemas?
 
 ## Kaip žiediniai parašai išsprendžia šias problemas?
 
@@ -64,6 +68,8 @@ Kadangi sumos yra paslėptos kiekvienoje operacijoje naudojant [„Confidential 
 
 ## Kaip galiu sužinoti daugiau?
 
+## Kaip galiu sužinoti daugiau?
+
 Jei jums įdomu ir norite geriau suprasti skambučio parašus ar CoinJoin operacijas, žr. toliau pateiktas nuorodas, kur rasite puikių vietų pradėti:
 
   * [Kaip skambėjimo parašai uždengia Monero išvestis](/knowledge/ring-signatures)
@@ -73,66 +79,68 @@ Jei jums įdomu ir norite geriau suprasti skambučio parašus ar CoinJoin operac
 
 Papildoma literatūra
 
-  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies/)
+  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies)/
 
-  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys/)
+  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys)/
 
-  * [Prisideda prie Monero](/knowledge/contributing-to-monero/)
+  * [Prisideda prie Monero](/knowledge/contributing-to-monero)/
 
-  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy/)
+  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy)/
 
-  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades/)
+  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades)/
 
-  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: ką tai padarys Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: ką tai padarys Monero](/knowledge/seraphis-for-monero)/
 
-  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup/)
+  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup)/
 
-  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value/)
+  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value)/
 
-  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect/)
+  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect)/
 
-  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking/)
+  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking)/
 
-  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams/)
+  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams)/
 
-  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps/)
+  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking/)
+  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking)/
 
-  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct/)
+  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct)/
 
-  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses/)
+  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses)/
 
-  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses/)
+  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses)/
 
-  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs/)
+  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs)/
 
-  * [„Monero“ geriausia praktika pradedantiesiems](/knowledge/monero-best-practices/)
+  * [„Monero“ geriausia praktika pradedantiesiems](/knowledge/monero-best-practices)/
 
-  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures/)
+  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures)/
 
-  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag/)
+  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag)/
 
-  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission/)
+  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission)/
 
-  * [Trumpa Monero istorija](/knowledge/monero-history/)
+  * [Trumpa Monero istorija](/knowledge/monero-history)/
 
-  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked/)
+  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked)/
 
-  * [15 populiariausių Monero mitų ir rūpesčių, kurie buvo paneigti](/knowledge/monero-myths-debunked/)
+  * [15 populiariausių Monero mitų ir rūpesčių, kurie buvo paneigti](/knowledge/monero-myths-debunked)/
 
-  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion/)
+  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion)/
 
-  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx/)
+  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx)/
 
-  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better/)
+  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better)/
+
+Papildoma literatūra

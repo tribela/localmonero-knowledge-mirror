@@ -14,6 +14,8 @@ I dette blogginnlegget skal vi kort dykke ned i en sammenligning av CoinJoin og 
 
 ## Hva er en CoinJoin-transaksjon?
 
+## Hva er en CoinJoin-transaksjon?
+
 Ettersom alle transaksjoner er helt gjennomsiktige i Bitcoin – som avslører avsender, mottaker og beløp – må brukere ta ekstra skritt for å bevare personvernet sitt fra tidligere avsendere og fremtidige mottakere av deres midler eller risikere sensur, overvåking eller tyveri av midler via fysisk vold.
 
 Den beste løsningen i dag for personvern på Bitcoin er et verktøy kalt [“CoinJoin”](https://bitcoiner.guide/qna/coinjoin/), der 2 eller flere brukere jobber sammen (vanligvis via en sentralisert koordinator) for å lage en spesiell transaksjon som gjør det vanskelig for utenforstående. observatører for å koble inngangene til utgangene. Hver deltaker kommuniserer for å bygge transaksjonen i fellesskap uten å gi fra seg forvaring av sine midler, og mottar et utdata på slutten hvis tidligere historie nå er uklar (eller tilslørt) for observatører utenfor.
@@ -25,6 +27,8 @@ Dette bryter historien til spesifikke UTXO-er, og lar Bitcoin-brukere få en vis
   * Brukere med store mengder midler til CoinJoin kan ofte måtte vente timer (eller til og med dager!) for å finne nok deltakere å CoinJoin med, noe som fører til store forsinkelser fra det tidspunktet en bruker mottar midler til de kan bruke dem privat. 
   * Personvernet som tilbys av en CoinJoin-transaksjon forringes over tid ettersom andre deltakere bruker midler eller kobler utdataene deres til identiteten deres gjennom KYC-utvekslinger, ID-krevende selgere osv. Dette betyr at brukerne ideelt sett holder pengene sine konstant i CoinJoin-transaksjoner for å beholde anonymitetssettet deres («publikum å gjemme seg i») så ferskt som mulig.
   * I de fleste tilnærminger til CoinJoin må deltakerne bruke en fast størrelse UTXO (dvs. 0,1 BTC) for å gjøre det vanskeligere å koble til innganger og utganger for CoinJoin-transaksjoner. Dette fører til høyere gebyrer (flere separate transaksjoner nødvendig per stor innsats), mer "giftig endring" (midler som ikke kan brukes uten alvorlig risiko for personvernet), og kan hindre mindre brukere fra å kunne blande seg i det hele tatt hvis de ikke har minimumssaldoen som kreves.
+
+## Hvordan løser ringsignaturer disse problemene?
 
 ## Hvordan løser ringsignaturer disse problemene?
 
@@ -64,6 +68,8 @@ Ettersom beløp er skjult i hver transaksjon som bruker [«Konfidensielle transa
 
 ## Hvordan kan jeg lære mer?
 
+## Hvordan kan jeg lære mer?
+
 Hvis du er nysgjerrig og ønsker å bedre forstå ringsignaturer eller CoinJoin-transaksjoner, se lenkene nedenfor for gode steder å komme i gang:
 
   * [Hvordan ringesignaturer obskurer Moneros utganger](/knowledge/ring-signatures)
@@ -73,66 +79,68 @@ Hvis du er nysgjerrig og ønsker å bedre forstå ringsignaturer eller CoinJoin-
 
 Videre lesning
 
-  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies/)
+  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies)/
 
-  * [Hvorfor (og hvordan!) du bør holde dine egne nøkler](/knowledge/hold-your-keys/)
+  * [Hvorfor (og hvordan!) du bør holde dine egne nøkler](/knowledge/hold-your-keys)/
 
-  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero/)
+  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero)/
 
-  * [Hvordan eksterne noder påvirker Moneros personvern](/knowledge/remote-nodes-privacy/)
+  * [Hvordan eksterne noder påvirker Moneros personvern](/knowledge/remote-nodes-privacy)/
 
-  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades/)
+  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades)/
 
-  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero)/
 
-  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero/)
+  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup/)
+  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect/)
+  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect)/
 
-  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking/)
+  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking)/
 
-  * [Svindel å se etter når du bruker Monero](/knowledge/monero-scams/)
+  * [Svindel å se etter når du bruker Monero](/knowledge/monero-scams)/
 
-  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps/)
+  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking/)
+  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking)/
 
-  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct/)
+  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct)/
 
-  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses/)
+  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses)/
 
-  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses/)
+  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses)/
 
-  * [Monero-utganger forklart](/knowledge/monero-outputs/)
+  * [Monero-utganger forklart](/knowledge/monero-outputs)/
 
-  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices/)
+  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices)/
 
-  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures/)
+  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures)/
 
-  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size/)
+  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag/)
+  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag)/
 
-  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission/)
+  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission)/
 
-  * [En kort historie om Monero](/knowledge/monero-history/)
+  * [En kort historie om Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked/)
+  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked)/
 
-  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked/)
+  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked)/
 
-  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion/)
+  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion)/
 
-  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx)/
 
-  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better/)
+  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better)/
+
+Videre lesning

@@ -10,21 +10,39 @@ Minden kriptovalutának vannak hiányosságai, és ez alól a Monero sem kivéte
 
 Ezzel együtt gyakran előfordul, hogy a Monerot olyan kritikák érik, amelyek elavultak, nem állják meg a helyüket, míg mások nagyon korlátozott módon mutatják be a kérdéses problémát. Ebben a cikkben reméljük, hogy sikerül tisztázni ezeket a kritikákat.
 
-  1. [A Monero a többi kriptovalután messze túlmutató szabályozói ellenőrzéssel fog szembesülni, mivel elkötelezett a magánélet és az anonim tranzakciók mellett.](/knowledge/monero-myths-debunked#1/)
-  2. [A Monerohoz kevesebb pénztárca elérhető.](/knowledge/monero-myths-debunked#2/)
-  3. [A Monero felhasználói élménye csapnivaló.](/knowledge/monero-myths-debunked#3/)
-  4. [Ha egy elterjedtebb blokklánc erős adatvédelmet vezet be, a Monero azonnal elavulttá válik.](/knowledge/monero-myths-debunked#4/)
-  5. [A Moneronak nem túl magasak a tranzakciós díjai?](/knowledge/monero-myths-debunked#5/)
-  6. [A Monero-tranzakció mérete sokszoros egy Bitcoin-tranzakcióhoz képest.](/knowledge/monero-myths-debunked#6/)
-  7. [Monero elég gyakran hard forkol. Ez nem azt jelenti, hogy központosított?](/knowledge/monero-myths-debunked#7/)
-  8. [Ez fluffypony személyes kriptopénze!](/knowledge/monero-myths-debunked#8/)
-  9. [2017 óta a legtöbb commit egy moneromooo-monero felhasználónevű személytől származik](/knowledge/monero-myths-debunked#9/)
-  10. [Nem könnyen sebezhető a Monero 51%-os támadással?](/knowledge/monero-myths-debunked#10/)
-  11. [CPU-barát algoritmus? Nem fogják botnetek uralni a Monero bányászatát?](/knowledge/monero-myths-debunked#11/)
-  12. [A Monero forkok nemcsak a Monero gazdasági életképességét rontják, hanem az adatbiztonságát is!](/knowledge/monero-myths-debunked#12/)
-  13. [Nem volt egy csökkentett hatékonyságú Monero bányászprogram induláskor, amit az alapítók nyerészkedésre használtak?](/knowledge/monero-myths-debunked#13/)
-  14. [Ha a Monero ennyire privát, hogyan ellenőrizhető a kínálat, hogyan bizonyosodhatunk meg, hogy senki sem nyomtat ingyen Monerot a hátunk mögött?](/knowledge/monero-myths-debunked#14/)
-  15. [A jelenlegi Monero hashrate nagy része mindössze két szereplőtől származik.](/knowledge/monero-myths-debunked#15/)
+  1. [A Monero a többi kriptovalután messze túlmutató szabályozói ellenőrzéssel fog szembesülni, mivel elkötelezett a magánélet és az anonim tranzakciók mellett.](/knowledge/monero-myths-debunked#1)/
+  2. [A Monerohoz kevesebb pénztárca elérhető.](/knowledge/monero-myths-debunked#2)/
+  3. [A Monero felhasználói élménye csapnivaló.](/knowledge/monero-myths-debunked#3)/
+  4. [Ha egy elterjedtebb blokklánc erős adatvédelmet vezet be, a Monero azonnal elavulttá válik.](/knowledge/monero-myths-debunked#4)/
+  5. [A Moneronak nem túl magasak a tranzakciós díjai?](/knowledge/monero-myths-debunked#5)/
+  6. [A Monero-tranzakció mérete sokszoros egy Bitcoin-tranzakcióhoz képest.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero elég gyakran hard forkol. Ez nem azt jelenti, hogy központosított?](/knowledge/monero-myths-debunked#7)/
+  8. [Ez fluffypony személyes kriptopénze!](/knowledge/monero-myths-debunked#8)/
+  9. [2017 óta a legtöbb commit egy moneromooo-monero felhasználónevű személytől származik](/knowledge/monero-myths-debunked#9)/
+  10. [Nem könnyen sebezhető a Monero 51%-os támadással?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU-barát algoritmus? Nem fogják botnetek uralni a Monero bányászatát?](/knowledge/monero-myths-debunked#11)/
+  12. [A Monero forkok nemcsak a Monero gazdasági életképességét rontják, hanem az adatbiztonságát is!](/knowledge/monero-myths-debunked#12)/
+  13. [Nem volt egy csökkentett hatékonyságú Monero bányászprogram induláskor, amit az alapítók nyerészkedésre használtak?](/knowledge/monero-myths-debunked#13)/
+  14. [Ha a Monero ennyire privát, hogyan ellenőrizhető a kínálat, hogyan bizonyosodhatunk meg, hogy senki sem nyomtat ingyen Monerot a hátunk mögött?](/knowledge/monero-myths-debunked#14)/
+  15. [A jelenlegi Monero hashrate nagy része mindössze két szereplőtől származik.](/knowledge/monero-myths-debunked#15)/
+
+  1. [A Monero a többi kriptovalután messze túlmutató szabályozói ellenőrzéssel fog szembesülni, mivel elkötelezett a magánélet és az anonim tranzakciók mellett.](/knowledge/monero-myths-debunked#1)/
+  2. [A Monerohoz kevesebb pénztárca elérhető.](/knowledge/monero-myths-debunked#2)/
+  3. [A Monero felhasználói élménye csapnivaló.](/knowledge/monero-myths-debunked#3)/
+  4. [Ha egy elterjedtebb blokklánc erős adatvédelmet vezet be, a Monero azonnal elavulttá válik.](/knowledge/monero-myths-debunked#4)/
+  5. [A Moneronak nem túl magasak a tranzakciós díjai?](/knowledge/monero-myths-debunked#5)/
+  6. [A Monero-tranzakció mérete sokszoros egy Bitcoin-tranzakcióhoz képest.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero elég gyakran hard forkol. Ez nem azt jelenti, hogy központosított?](/knowledge/monero-myths-debunked#7)/
+  8. [Ez fluffypony személyes kriptopénze!](/knowledge/monero-myths-debunked#8)/
+  9. [2017 óta a legtöbb commit egy moneromooo-monero felhasználónevű személytől származik](/knowledge/monero-myths-debunked#9)/
+  10. [Nem könnyen sebezhető a Monero 51%-os támadással?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU-barát algoritmus? Nem fogják botnetek uralni a Monero bányászatát?](/knowledge/monero-myths-debunked#11)/
+  12. [A Monero forkok nemcsak a Monero gazdasági életképességét rontják, hanem az adatbiztonságát is!](/knowledge/monero-myths-debunked#12)/
+  13. [Nem volt egy csökkentett hatékonyságú Monero bányászprogram induláskor, amit az alapítók nyerészkedésre használtak?](/knowledge/monero-myths-debunked#13)/
+  14. [Ha a Monero ennyire privát, hogyan ellenőrizhető a kínálat, hogyan bizonyosodhatunk meg, hogy senki sem nyomtat ingyen Monerot a hátunk mögött?](/knowledge/monero-myths-debunked#14)/
+  15. [A jelenlegi Monero hashrate nagy része mindössze két szereplőtől származik.](/knowledge/monero-myths-debunked#15)/
+
+## 1\. A Monero a többi kriptovalután messze túlmutató szabályozói ellenőrzéssel fog szembesülni, mivel elkötelezett a magánélet és az anonim tranzakciók mellett.
 
 ## 1\. A Monero a többi kriptovalután messze túlmutató szabályozói ellenőrzéssel fog szembesülni, mivel elkötelezett a magánélet és az anonim tranzakciók mellett.
 
@@ -40,9 +58,13 @@ Persze lehet érvelni azzal, hogy a Bitcoin hírneve megváltozott, ahogy az emb
 
 ## 2\. A Monerohoz kevesebb pénztárca elérhető.
 
+## 2\. A Monerohoz kevesebb pénztárca elérhető.
+
 A Monero esetében valóban kevesebb pénztárcamegoldás létezik, mint sok más kriptopénz. Ennek az az oka, hogy a Monerot az alapoktól kezdve építették fel. Teljesen más a kódbázis, mint a Bitcoiné. Ez azt jelenti, hogy a Monerohoz nem lehet csak úgy elővenni a Bitcoin alaptárcáját vagy bármely más, a Bitcoinnal működő pénztárcát, mint a legtöbb leszármazott esetében, és kihasználni a meglévő infrastruktúrát. Ez azt is jelenti, hogy a Monero nem adható hozzá könnyen harmadik féltől származó pénztárcákhoz, amilyen például az Exodus.
 
 Ennek ellenére, lassan, de biztosan egyre több Monero pénztárca kezd megjelenni. Éveken át mém volt, hogy a Monerohoz nincsen grafikus felületű vagy mobiltárca támogatás, de ma már semmi sem állhat távolabb az igazságtól. Léteznek kifejezetten a Monerohoz fejlesztett pénztárcák, mint a Monerujo Androidra vagy a Cake Wallet iOS-re és Androidra, vagy még újabbak, mint a Wookey, Exa Wallet, stb. Emellett a harmadik féltől származó pénztárcák is kezdik integrálni a Monerot, bár lassabb ütemben, ideértve az Exodust és Guardát, mi pedig arra számítunk, hogy ez a tendencia csak az idő múlásával és a Monero kódbázisának érettségével csak erősödni fog.
+
+## 3\. A Monero felhasználói élménye csapnivaló.
 
 ## 3\. A Monero felhasználói élménye csapnivaló.
 
@@ -55,6 +77,8 @@ Arra kérjük az olvasót, hogy olvasson végig pár cikket, ami Bitcoin láncon
 A Monero esetében ez a lista teljesen megszűnt. Minden Monero-tranzakció megőrzi a magas szintű adatvédelmet minden használatnál, anélkül, hogy a felhasználónak bármit tennie kellene vagy külső szoftvert kellene használnia. Míg a Bitcoin megnehezíti a személyes adatok megvédését mindenki számára, a legtapasztaltabb felhasználókat kivéve, addig a Monero mindenki számára folyamatosan megnehezíti, hogy elrontsák. Ami a kompromisszumos megoldásokat illeti, mi úgy gondoljuk, hogy a hosszabb címek és hosszabb szinkronizálási idő bőven megéri.
 
 A fentieket szem előtt tartva is, a felhasználói élmény gyakran fejlődik az idő múlásával, ez alól a Monero sem kivétel. A felhasználói élmény néhány év alatt drasztikusan javítható, de az alapokat sokkal nehezebb megváltoztatni.
+
+## 4\. Ha egy elterjedtebb blokklánc erős adatvédelmet vezet be, a Monero azonnal elavulttá válik.
 
 ## 4\. Ha egy elterjedtebb blokklánc erős adatvédelmet vezet be, a Monero azonnal elavulttá válik.
 
@@ -78,6 +102,8 @@ Utoljára témát váltva, ezt az érvet ritkábban értik olyan technológiákr
 
 ## 5\. A Moneronak nem túl magasak a tranzakciós díjai?
 
+## 5\. A Moneronak nem túl magasak a tranzakciós díjai?
+
 Már nem! A 2018 októberében bevezetett csodálatos bulletproofs technológiának köszönhetően a tranzakciók mérete drasztikusan (több mint 80%-kal) csökkent, ami a tranzakciós díjak hasonló eséséhez vezetett. A cikk írásakor a Monero byte-onként olcsóbb, mint a Bitcoin, és a technológia további optimalizálása ezt tovább fogja csökkenteni.
 
 Ezek az optimalizálások változatosak és gyakoriak. Az egyik példa erre maga a bulletproofs, amely a számításhoz és az ellenőrzéshez szükséges matematika méretét csökkenti, esetenként akár 25%-kal is.
@@ -85,6 +111,10 @@ Ezek az optimalizálások változatosak és gyakoriak. Az egyik példa erre maga
 Emellett új, izgalmas gyűrűs aláírási rendszerek is készülnek, mint a CLSAG, amely felváltja a jelenlegi MLSAG sémát, és tovább csökkenti a teljes tranzakció méretét 25-35%-kal. Ezen túlmenően léteznek még ennél is újabb technológiák, teljesen eltérő bizonyítási mődszerelleé, amelyek képesek lehetnek megtartani a jelenlegi tranzakcióméreteket, de a gyűrűméretük száznál is nagyobb, mint például a Triptych, Arcturus és Lelantus, amelyek mindegyike kisebb és hatékonyabb, mint a jelenlegi megoldások.
 
 ## 6\. A Monero-tranzakció mérete sokszoros egy Bitcoin-tranzakcióhoz képest.
+
+## 6\. A Monero-tranzakció mérete sokszoros egy Bitcoin-tranzakcióhoz képest.
+
+## 7\. Monero elég gyakran hard forkol. Ez nem azt jelenti, hogy központosított?
 
 ## 7\. Monero elég gyakran hard forkol. Ez nem azt jelenti, hogy központosított?
 
@@ -98,9 +128,13 @@ Ezzel együtt az elosztott fejlesztőcsapat túl nehéznek és fárasztónak tal
 
 ## 8\. Ez fluffypony személyes kriptopénze!
 
+## 8\. Ez fluffypony személyes kriptopénze!
+
 Ez nem Riccardo „fluffypony” Spagni projektje, soha nem is volt az. Még csak nem is ő készítette. Egy thankful_for_today álnevű személy indította el, ami egy nagyon érdekes történet egy másik alkalomra. Fluffypony a fejlesztőcsapat tagjaként és vezető karbantartóként vált ismertté, mivel sok időt és erőforrást áldozott a növekedés elősegítésére, valamint konferenciákon is előadásokat tartott. Emiatt a Monero egyfajta nem hivatalos arca lett, és általában rajta keresztül találtak meg minket az emberek. A borzasztó vezérigazgató-kultúra miatt, amely a kriptovaluták világában túlságosan elterjedt, sokan feltételezték, hogy ő a Monero alapítója és vezetője, pedig ez nem állja meg a helyét.
 
 Napjainkban fluffypony még mindig a fejlesztőcsapat tagja, de már nem ő a kódbázis vezető karbantartója, és visszavonult, hogy a saját projektjein dolgozzon. A Monero remekül működik tovább.
+
+## 9\. 2017 óta a legtöbb commit egy moneromooo-monero felhasználónevű személytől származik
 
 ## 9\. 2017 óta a legtöbb commit egy moneromooo-monero felhasználónevű személytől származik
 
@@ -109,6 +143,8 @@ Ez kétségtelen tény, amiről nem érdemes vitatkozni. moneromooo a Monero kö
 Ahogy az várható, ha valaki a Monero teljes munkaidőben, nem pedig önkéntes alapon dolgozik, nagy mennyiségű munkája halmozódik fel. Mivel a Monero nem volt előbányászata, vagy ICO-ja, és nincs alapítói jutalék, ezen kívül nem dolgoznak teljes munkaidős mérnökök a projekten, az emberek annyival járulnak hozzá, amennyivel tudnak, amikor tudnak, nem várható el, hogy ezek meghaladják egy teljes munkaidőben dolgozóét.
 
 Ennek ellenére még komoly erőfeszítéseket kell tenni a fékek és ellensúlyok kialakítása érdekében. A fejlesztőcsapat egy további tagja mindig felülvizsgálja a kódot, tehát nem fordulhat elő, hogy ugyanaz a személy írja és integrálja is a kódot, ezáltal megkerülve minden ellenőrzést, amely a kirívó hibákat vagy rosszindulatú változtatásokat hivatott megelőzni.
+
+## 10\. Nem könnyen sebezhető a Monero 51%-os támadással?
 
 ## 10\. Nem könnyen sebezhető a Monero 51%-os támadással?
 
@@ -122,6 +158,8 @@ A Monero hálózat 51%-os megtámadásához szükséges hardver pontos költség
 
 ## 11\. CPU-barát algoritmus? Nem fogják botnetek uralni a Monero bányászatát?
 
+## 11\. CPU-barát algoritmus? Nem fogják botnetek uralni a Monero bányászatát?
+
 A bányászat két mumusa az ASIC és a botnetek, és az egyiktől való távolodás szükségszerűen azt jelenti, hogy közelebb kerülünk a másikhoz. Ha CPU-ra van szükség a Monero bányászatához, akkor elméletileg lehetséges átvenni az irányítást több száz, ha nem több ezer sebezhető számítógép felett, és arra kényszeríteni őket, hogy Monerot bányásszanak, ami a tettesnek semmibe nem kerül, és túlszárnyalja azokat, akiknek csak néhány számítógépük van a háztartásukban.
 
 Az első ellenérv a botnetek tulajdonosaira vonatkozik. Noha nem támogtatjuk mások számítógépeinek feltörését, egy botnet birtoklásának és működtetésének belépési korlátja sokkal alacsonyabb, mint az ASIC-ek birtoklásaé. Az egyikhez szoftver kell – gyakran szabadon hozzáférhető és nyílt forráskódú –, valamint idő és hozzáértés a sebezhetőségek kiszagolásához. A másikhoz hihetetlen mennyiségű tőke és a gyártáshoz való hozzáférés szükséges. Az egyiket egy kölyök megteheti a pincéjében, a másikat csak a rendkívül gazdagok. Ebből arra következtethetünk, hogy ha a bányászok legrosszabb félelmei be is teljesülnének, a botnetek így is decentralizáltabbak, mint az ASIC-ek.
@@ -129,6 +167,8 @@ Az első ellenérv a botnetek tulajdonosaira vonatkozik. Noha nem támogtatjuk m
 A Monero közösségnek egyébként meggyőződése, hogy ezt a probléma túl van lihegve. A RandomX megalkotói szándékosan úgy tervezték meg a protokollt, hogy a működéséhez 2 GB RAM szükséges. Más szavakkal, a legtöbb kicsi, sebezhető személyi virtuális kiszolgáló (VPS) egyszerűen nem rendelkezik elegendő kapacitással, és ha mégis, akkor a felhasznált erőforrások megnövekedése rögtön szembetűnő lenne a rendszergazdák számára, ami azonnali kivizsgáláshoz vezetne. Más szóval, nem tud csendben elfutni a háttérben, mint a DDOS-támadásra használt feltört számítógépek, vagy a jelszavakat titokban gyűjtögető kártevők esetén. Amikor a bányász működésben van, mindenki tud róla.
 
 Ez korlátozza azoknak a számítógépeknek a számát, amelyeket egy botnet képes lehet sikeresen megfertőzni a technológiailag alkalmatlanokra, és azokra, amelyeket soha nem ellenőriznek, ellentétben a rengeteg sebezhető számítógéppel, amelyeket ez az érvelés feltételez, hogy veszélyben lennének.
+
+## 12\. A Monero forkok nemcsak a Monero gazdasági életképességét rontják, hanem az adatbiztonságát is!
 
 ## 12\. A Monero forkok nemcsak a Monero gazdasági életképességét rontják, hanem az adatbiztonságát is!
 
@@ -146,6 +186,8 @@ Ezzel együtt naivitásnak tartjuk azt gondolni, hogy soha nem lesz ilyen támad
 
 ## 13\. Nem volt egy csökkentett hatékonyságú Monero bányászprogram induláskor, amit az alapítók nyerészkedésre használtak?
 
+## 13\. Nem volt egy csökkentett hatékonyságú Monero bányászprogram induláskor, amit az alapítók nyerészkedésre használtak?
+
 A Monero története érdekfeszítő, sokakat meglep, amikor azt hallják, hogy tényleg átverésként indult. Az alkotó, thankful_for_today, valószínűleg kapcsolatban állt azokkal, akik létrehozták a CryptoNote protokollt, de hátsó szándéka volt, hogy pénzt csaljon ki a felhasználóktól.
 
 A kezdeti kísérletek kudarcot vallottak, ezért hozta létre a Monerot, hogy újra próbálkozzon. Ez ismét csak meghiúsult, mivel a közösség gyorsan észrevette, hogy valami nincs rendben, és átvette az irányítást. Ennek ellenére az alkotónak volt egy utolsó trükk a tarsolyában. Szándékosan deoptimalizált bányászszoftvert hozott nyilvánosságra, megtartva az optimalizált verziót magának, hogy kihasználja a többieket, és a blokkjutalmakból megszedje magát.
@@ -158,11 +200,15 @@ A történtek ismeretében, egyesek kifogásolhatják a döntést, hogy nem ind�
 
 ## 14\. Ha a Monero ennyire privát, hogyan ellenőrizhető a kínálat, hogyan bizonyosodhatunk meg, hogy senki sem nyomtat ingyen Monerot a hátunk mögött?
 
+## 14\. Ha a Monero ennyire privát, hogyan ellenőrizhető a kínálat, hogyan bizonyosodhatunk meg, hogy senki sem nyomtat ingyen Monerot a hátunk mögött?
+
 Erre nehéz választ adni. Az egyik gyakori reakció az, hogy összeadhatjuk a coinbase tranzakciókat (amikor új Monerot kap a bányász egy blokk megoldásáért). Ezek a tranzakciók nyíltak, és ha összeadjuk őket, akkor megkaphatjuk a forgalomban lévő Monero teljes összegét.
 
 Fontos azonban megjegyezni, hogy ha zavarosban halászás történne, ami tovább növeli a Monero mennyiségét annál, amit az coinbase tranzakciók alapján várunk, akkor ezek nem ezekben a tranzakciókon keresztül történnének, hanem a pénztárcák közötti szokásos mozgás során. Ez háromféleképpen történhet.
 
 Először, ha a matematika, amely azt bizonyítja, hogy nem jött létre vagy semmisült meg Monero a tranzakció során, alapvetően hibás. Másodszor, ha a kriptográfia megvalósítása (kódja) hibás. Harmadszor, ha egyik sem hibás, de a számítási teljesítmény odáig nő, hogy feltörhetővé válnak a jelenlegi kriptográfiai sémáink, és hamis bizonyítékokat lehet létrehozni.
+
+## 15\. A jelenlegi Monero hashrate nagy része mindössze két szereplőtől származik.
 
 ## 15\. A jelenlegi Monero hashrate nagy része mindössze két szereplőtől származik.
 
@@ -210,66 +256,68 @@ Tehát az, hogy Monero hashrate-jének nagy része néhány helyen összpontosul
 
 További olvasnivaló
 
-  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies/)
+  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies)/
 
-  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin/)
+  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys/)
+  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys)/
 
-  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero/)
+  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero)/
 
-  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy/)
+  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy)/
 
-  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades/)
+  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades)/
 
-  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero)/
 
-  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero/)
+  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup/)
+  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup)/
 
-  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value/)
+  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value)/
 
-  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect/)
+  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect)/
 
-  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking/)
+  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking)/
 
-  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams/)
+  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams)/
 
-  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps/)
+  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps)/
 
-  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking/)
+  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking)/
 
-  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct/)
+  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct)/
 
-  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses/)
+  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses)/
 
-  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses/)
+  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses)/
 
-  * [Monero kimenetek magyarázata](/knowledge/monero-outputs/)
+  * [Monero kimenetek magyarázata](/knowledge/monero-outputs)/
 
-  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices/)
+  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices)/
 
-  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures/)
+  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures)/
 
-  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size/)
+  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size)/
 
-  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag/)
+  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag)/
 
-  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission/)
+  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission)/
 
-  * [A Monero rövid története](/knowledge/monero-history/)
+  * [A Monero rövid története](/knowledge/monero-history)/
 
-  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked/)
+  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked)/
 
-  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion/)
+  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion)/
 
-  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx/)
+  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx)/
 
-  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better/)
+  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better)/
+
+További olvasnivaló

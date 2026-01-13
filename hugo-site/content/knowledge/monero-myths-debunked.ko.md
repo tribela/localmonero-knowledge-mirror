@@ -10,21 +10,39 @@ image_credit_url: "https://cypherstack.com"
 
 하지만 모네로를 향한 잘못되거나 이미 해결책이 제시된 취약점에 대한 지적도 있고, 모네로에 대한 편협된 시각도 있습니다. 여기서 우린 그런 잘못된 지적을 바로잡고자 합니다.
 
-  1. [모네로는 특유의 익명성과 개인정보보호로 인해 다른 가상화폐보다 더 심한 검열의 대상이 될 것이다.](/knowledge/monero-myths-debunked#1/)
-  2. [모네로는 사용 가능한 지갑이 몇 없다.](/knowledge/monero-myths-debunked#2/)
-  3. [모네로는 유저가 이용하기에 불편하다.](/knowledge/monero-myths-debunked#3/)
-  4. [비트코인이 보안을 강화하면 모네로를 쓸 이유가 없어진다.](/knowledge/monero-myths-debunked#4/)
-  5. [모네로 거래 수수료는 엄청나게 높지 않나?](/knowledge/monero-myths-debunked#5/)
-  6. [모네로 거래는 비트코인에 비해 데이터량이 몇배나 더 크다.](/knowledge/monero-myths-debunked#6/)
-  7. [모네로는 너무 자주 하드포크하는데, 이러면 모네로는 중앙에서 통제되고 있는거 아닌가?](/knowledge/monero-myths-debunked#7/)
-  8. [모네로는 그저 fluffypony 개인의 가상화폐일 뿐이다!](/knowledge/monero-myths-debunked#8/)
-  9. [2017년 이후부터 생성된 대부분의 commit은 moneromooo-monero가 만들었다](/knowledge/monero-myths-debunked#9/)
-  10. [모네로는 체인 51% 점령 공격에 취약하지 않은가?](/knowledge/monero-myths-debunked#10/)
-  11. [CPU 친화 알고리즘? 그럼 모네로 채굴은 채굴봇이 지배하지 않을까?](/knowledge/monero-myths-debunked#11/)
-  12. [모네로 하드포크는 모네로의 경제적 생활력만 위협할 뿐만이 아니라 보안도 위협한다!](/knowledge/monero-myths-debunked#12/)
-  13. [모네로 초기에 개발자들을 배불리기 위한 악성 광부들이 있지 않았나?](/knowledge/monero-myths-debunked#13/)
-  14. [모네로가 그렇게 보안에 강력하면, 감사 시 어떻게 누가 모네로를 몰래 훔쳐가고 있는지 확인할까?](/knowledge/monero-myths-debunked#14/)
-  15. [모네로의 해시는 2개의 단체가 대부분 담당하고 있다.](/knowledge/monero-myths-debunked#15/)
+  1. [모네로는 특유의 익명성과 개인정보보호로 인해 다른 가상화폐보다 더 심한 검열의 대상이 될 것이다.](/knowledge/monero-myths-debunked#1)/
+  2. [모네로는 사용 가능한 지갑이 몇 없다.](/knowledge/monero-myths-debunked#2)/
+  3. [모네로는 유저가 이용하기에 불편하다.](/knowledge/monero-myths-debunked#3)/
+  4. [비트코인이 보안을 강화하면 모네로를 쓸 이유가 없어진다.](/knowledge/monero-myths-debunked#4)/
+  5. [모네로 거래 수수료는 엄청나게 높지 않나?](/knowledge/monero-myths-debunked#5)/
+  6. [모네로 거래는 비트코인에 비해 데이터량이 몇배나 더 크다.](/knowledge/monero-myths-debunked#6)/
+  7. [모네로는 너무 자주 하드포크하는데, 이러면 모네로는 중앙에서 통제되고 있는거 아닌가?](/knowledge/monero-myths-debunked#7)/
+  8. [모네로는 그저 fluffypony 개인의 가상화폐일 뿐이다!](/knowledge/monero-myths-debunked#8)/
+  9. [2017년 이후부터 생성된 대부분의 commit은 moneromooo-monero가 만들었다](/knowledge/monero-myths-debunked#9)/
+  10. [모네로는 체인 51% 점령 공격에 취약하지 않은가?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU 친화 알고리즘? 그럼 모네로 채굴은 채굴봇이 지배하지 않을까?](/knowledge/monero-myths-debunked#11)/
+  12. [모네로 하드포크는 모네로의 경제적 생활력만 위협할 뿐만이 아니라 보안도 위협한다!](/knowledge/monero-myths-debunked#12)/
+  13. [모네로 초기에 개발자들을 배불리기 위한 악성 광부들이 있지 않았나?](/knowledge/monero-myths-debunked#13)/
+  14. [모네로가 그렇게 보안에 강력하면, 감사 시 어떻게 누가 모네로를 몰래 훔쳐가고 있는지 확인할까?](/knowledge/monero-myths-debunked#14)/
+  15. [모네로의 해시는 2개의 단체가 대부분 담당하고 있다.](/knowledge/monero-myths-debunked#15)/
+
+  1. [모네로는 특유의 익명성과 개인정보보호로 인해 다른 가상화폐보다 더 심한 검열의 대상이 될 것이다.](/knowledge/monero-myths-debunked#1)/
+  2. [모네로는 사용 가능한 지갑이 몇 없다.](/knowledge/monero-myths-debunked#2)/
+  3. [모네로는 유저가 이용하기에 불편하다.](/knowledge/monero-myths-debunked#3)/
+  4. [비트코인이 보안을 강화하면 모네로를 쓸 이유가 없어진다.](/knowledge/monero-myths-debunked#4)/
+  5. [모네로 거래 수수료는 엄청나게 높지 않나?](/knowledge/monero-myths-debunked#5)/
+  6. [모네로 거래는 비트코인에 비해 데이터량이 몇배나 더 크다.](/knowledge/monero-myths-debunked#6)/
+  7. [모네로는 너무 자주 하드포크하는데, 이러면 모네로는 중앙에서 통제되고 있는거 아닌가?](/knowledge/monero-myths-debunked#7)/
+  8. [모네로는 그저 fluffypony 개인의 가상화폐일 뿐이다!](/knowledge/monero-myths-debunked#8)/
+  9. [2017년 이후부터 생성된 대부분의 commit은 moneromooo-monero가 만들었다](/knowledge/monero-myths-debunked#9)/
+  10. [모네로는 체인 51% 점령 공격에 취약하지 않은가?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU 친화 알고리즘? 그럼 모네로 채굴은 채굴봇이 지배하지 않을까?](/knowledge/monero-myths-debunked#11)/
+  12. [모네로 하드포크는 모네로의 경제적 생활력만 위협할 뿐만이 아니라 보안도 위협한다!](/knowledge/monero-myths-debunked#12)/
+  13. [모네로 초기에 개발자들을 배불리기 위한 악성 광부들이 있지 않았나?](/knowledge/monero-myths-debunked#13)/
+  14. [모네로가 그렇게 보안에 강력하면, 감사 시 어떻게 누가 모네로를 몰래 훔쳐가고 있는지 확인할까?](/knowledge/monero-myths-debunked#14)/
+  15. [모네로의 해시는 2개의 단체가 대부분 담당하고 있다.](/knowledge/monero-myths-debunked#15)/
+
+## 1\. 모네로는 특유의 익명성과 개인정보보호로 인해 다른 가상화폐보다 더 심한 검열의 대상이 될 것이다.
 
 ## 1\. 모네로는 특유의 익명성과 개인정보보호로 인해 다른 가상화폐보다 더 심한 검열의 대상이 될 것이다.
 
@@ -40,9 +58,13 @@ image_credit_url: "https://cypherstack.com"
 
 ## 2\. 모네로는 사용 가능한 지갑이 몇 없다.
 
+## 2\. 모네로는 사용 가능한 지갑이 몇 없다.
+
 모네로가 다른 가상화폐에 비해 사용할 수 있는 지갑이 적은 것은 사실입니다. 이는 모네로가 비트코인 기반의 코드를 가지지 않고 처음부터 개발되었기 때문입니다. 이 때문에 대부분의 비트코인 기반 코인과 달리 모네로는 비트코인 기반의 지갑이나 비트코인을 이용하는 지갑을 포크하여 사용할 수 없다는 뜻입니다. 이는 또한 Exodus같은 서드파티 지갑들이 쉽게 모네로를 지원하지 못한다는 뜻입니다.
 
 하지만 그럼에도 불구하고 모네로를 지원하는 지갑이 조금씩 추가되고 있습니다. 몇년동안 모네로는 GUI나 모바일지갑이 없다고 놀림 받았지만, 이제는 아닙니다. 안드로이드의 Monerujo나 안드로이드/iOS의 Cake Wallet같은 모네로를 위해 최적화한 지갑들도 있고 Wookey이나 Exa Wallet같은 새로 출시된 지급들도 많이 있습니다. 그리고 천천히 Exodus나 Guarda같은 서드파티 지갑들도 모네로를 추가하기 시작하고 있고 모네로 코드에 대한 이해가 증가하면서 점점 더 많은 지갑들이 추가될 것이라고 예상하고 있습니다.
+
+## 3\. 모네로는 유저가 이용하기에 불편하다.
 
 ## 3\. 모네로는 유저가 이용하기에 불편하다.
 
@@ -55,6 +77,8 @@ image_credit_url: "https://cypherstack.com"
 모네로를 이용하면 이런 복잡한 단계를 거칠 필요가 없습니다. 모든 모네로 거래는 유저의 추가적인 노력이나 외부 소프트웨어를 이용할 필요 없이 강력한 보안이 보장됩니다. 비트코인은 경험이 많은 소수의 유저들을 제외하고 개인정보를 보호하기 어렵게 하지만, 모네로는 모든 사람이 언제나 개인정보를 쉽게 보호할 수 있게 합니다. 이걸 감안했을 때 더 긴 주소와 오랜 동기화 시간은 충분히 감당할 수 있다고 생각합니다.
 
 위의 여러가지 설명을 했지만 실상은 유저경험은 언제나 시간이 지나면 향상된다는 것이며 모네로도 예외는 아닙니다. 코인의 UX는 시간이 지나면서 나아지지만 코인자체의 기반을 바꾸기는 매우 어렵습니다.
+
+## 4\. 비트코인이 보안을 강화하면 모네로를 쓸 이유가 없어진다.
 
 ## 4\. 비트코인이 보안을 강화하면 모네로를 쓸 이유가 없어진다.
 
@@ -78,6 +102,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 5\. 모네로 거래 수수료는 엄청나게 높지 않나?
 
+## 5\. 모네로 거래 수수료는 엄청나게 높지 않나?
+
 이제는 아닙니다! 2018년 10월 bulletproof 기술의 도입 이후 거래 데이터가 급격히 줄어들었고 (약 80%) 덕분에 비슷한 수준의 거래수수료 감소가 있었습니다. 지금 이 글을 작성하는 순간을 기준으로 모네로의 수루료는 1 byte를 기준으로 비트코인보다 저렴하고, 점점 더 최적화가면서 수수료가 더 낮아지고 있습니다./p>
 
 최적화는 다양한 방면에서 자주 일어나고 있습니다. 기발한 최적화의 한가지 예시는 계산과 검증을 최대 25%까지 줄인 bulletproof입니다.
@@ -89,6 +115,10 @@ image_credit_url: "https://cypherstack.com"
 추가적으로, 현재 이용중인 MLSAG를 대체할 CLSAG라는 새 링서명 기술을 개발중이며, 이는 전체 거래사이즈를 25-35% 정도 감소시킬 것입니다. 이외에도 Triptych, Arcturus, 그리고 Lelantus같은 완전히 새로운 증명시스템을 동반한 새 최첨단 기술들이 있습니다. 이들은 링사이즈를 100 이상으로 유지하면서 현재보다 거래사이즈를 줄이는 등 지금보다 훨씬 더 작고 효율적인 거래를 가능하게 할 것입니다.
 
 ## 6\. 모네로 거래는 비트코인에 비해 데이터량이 몇배나 더 크다.
+
+## 6\. 모네로 거래는 비트코인에 비해 데이터량이 몇배나 더 크다.
+
+## 7\. 모네로는 너무 자주 하드포크하는데, 이러면 모네로는 중앙에서 통제되고 있는거 아닌가?
 
 ## 7\. 모네로는 너무 자주 하드포크하는데, 이러면 모네로는 중앙에서 통제되고 있는거 아닌가?
 
@@ -102,9 +132,13 @@ image_credit_url: "https://cypherstack.com"
 
 ## 8\. 모네로는 그저 fluffypony 개인의 가상화폐일 뿐이다!
 
+## 8\. 모네로는 그저 fluffypony 개인의 가상화폐일 뿐이다!
+
 모네로는 Riccardo ‘fluffypony’ Spagni 개인의 코인이었던 적도 없고 그럴 일도 없습니다. 심지어 그는 개발자도 아닙니다. 이 루머는 thankful_for_today라는 가명을 쓰는 인물이 시작했으며, 이에 관한 흥미로운 배경이 있지만 이 글의 요지가 아니니 다음에 다루겠습니다. Fluffypony는 주요 관리자 중 한명이며 개발팀의 중요 멤버로, 많은 시간과 자원을 투자해 모네로의 성장을 돕고 여러 학회에 참석해 발표를 하는 등 명성을 얻었습니다. 이로 인해 그는 모네로의 비공식적 대표가 되었으며, 사람들이 모네로에 대해 알게 되는 주요 원인이었습니다. 당시 가상화폐 세계에 있던 'CEO 문화'때문에 사람들은 그가 모네로의 개발자이자 리더라과 믿었지만, 이는 사실이 아닙니다.
 
 오늘 날 fluffypony는 아직도 중요 인물 중 한명이지만, 코드 관리자는 아니며, 개인적 업무로 인해 모네로에서 한발짝 물러났습니다. 모네로는 그 없이도 잘 나아가고 있습니다.
+
+## 9\. 2017년 이후부터 생성된 대부분의 commit은 moneromooo-monero가 만들었다
 
 ## 9\. 2017년 이후부터 생성된 대부분의 commit은 moneromooo-monero가 만들었다
 
@@ -113,6 +147,8 @@ image_credit_url: "https://cypherstack.com"
 예상할 수 있다시피, 모네로에 자원봉사가 아닌 고용되어 풀타임으로 일하기 시작하면 업무량이 많아집니다. 모네로는 사전채굴, ICO, 개발자 보상 등이 없기에 프로젝트에 풀타임으로 일하는 개발자들이 따로 없으며 개인 유저들이 자기가 가능한만큼 기여하는 것이기에 풀타임 직원만큼의 효용을 기대하는건 비상식적입니다.
 
 그걸 감안해도, 모네로가 잘 작동할 수 있도록 유지보수에 많은 노력이 들어가고 있습니다. 주요 개발자 중 한명이 코드를 검수한 후 적용하고 있어, 개인 한명이 혼자 개발하고 도입할 수는 없습니다. 이는 치명적인 오류나 악의 등을 방지할 수 있습니다.
+
+## 10\. 모네로는 체인 51% 점령 공격에 취약하지 않은가?
 
 ## 10\. 모네로는 체인 51% 점령 공격에 취약하지 않은가?
 
@@ -126,6 +162,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 11\. CPU 친화 알고리즘? 그럼 모네로 채굴은 채굴봇이 지배하지 않을까?
 
+## 11\. CPU 친화 알고리즘? 그럼 모네로 채굴은 채굴봇이 지배하지 않을까?
+
 가상화폐 채굴을 위협하는 대표적인 요소들은 ASICs와 채굴봇이고, 하나를 피하면 다른 하나에 더 취약하게 됩니다. 모네로 채굴에 CPU만 있으면 된다면, 해커는 이론적으로 돈 한 푼 들이지 않고 수백 수천대의 컴퓨터를 해킹해 그들을 위해 모네로를 채굴하게 해 혼자 채굴하는 개인을 경쟁에서 밀어낼 수 있습니다.
 
 이에 대한 반박은 첫째로 채굴봇을 사용하는 해커에 대한 것입니다. 해킹을 옹호하는 건 아니지만, 채굴봇을 이용하는 것이 ASICs를 보유하는 것보다 훨씬 간단하고 시작하기 쉽습니다. 온라인에서 쉽게 찾을 수 있는 무료 오픈소스 소프트웨어를 이용하고 보안이 취약한 컴퓨터를 찾을 시간과 감각만 있다면 누구나 할 수 있습니다. 이에 비해 ASICs를 이용하는 것은 자본이 많이 필요하며 이러한 장비를 제조할 능력도 있어야 합니다. 첫번째 방법은 중고등학생도 할 수 있지만 후자는 엄청나게 부유한 인물만 가능합니다. 이는 만약 실제로 채굴봇 사태가 발생한다 해도 한 개인에게 점령되는 것에 비해 여러명의 채굴봇 해커들 사이에 네트워크가 분산된다는 것입니다.
@@ -133,6 +171,8 @@ image_credit_url: "https://cypherstack.com"
 하지만 모네로 커뮤니티는 이러한 취약점이 실제보다 더 과장되었다고 생각합니다. RandomX의 개발자들은 프로토콜이 2GB의 램을 필요하도록 설계하였습니다. 한마디로, 취약한 컴퓨터의 가상 개인 서버 (VPS)는 공격을 감행할 수 없으며 감행할 수 있다 해도 급격한 램 사용의 증가가 시스템관리자에게 바로 들통날 것이고 관리자가 바로 조사에 들어갈 것입니다. 한마디로, 컴퓨터가 DDOS마냥 사용자의 눈을 피해 조용히 공격을 감행할 수 없다는 뜻입니다. 채굴이 시작되면 누구나 알 수 있게 됩니다.
 
 이는 채굴봇에 당할 취약한 컴퓨터는 정말 컴퓨터를 모르는 문외한이나 시스템을 잘 확인하지 않는 소수이지, 이 공격을 걱정하는 사람들이 주장하는 것처럼 수많은 컴퓨터가 아닙니다.
+
+## 12\. 모네로 하드포크는 모네로의 경제적 생활력만 위협할 뿐만이 아니라 보안도 위협한다!
 
 ## 12\. 모네로 하드포크는 모네로의 경제적 생활력만 위협할 뿐만이 아니라 보안도 위협한다!
 
@@ -150,6 +190,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 13\. 모네로 초기에 개발자들을 배불리기 위한 악성 광부들이 있지 않았나?
 
+## 13\. 모네로 초기에 개발자들을 배불리기 위한 악성 광부들이 있지 않았나?
+
 모네로의 역사는 특이하며 많은 사람들이 모네로는 실제로 사기로 시작했다는 것을 듣고 놀랍니다. 개발자인 thankful_for_today는 Cryptonote 프로토콜의 개발그룹과 친분이 있었다고 의심되며 이를 이용해 사람들을 사기칠 의도가 있었습니다.
 
 그들의 초기 사기시도는 실패했기에 모네로로 다시 시도했습니다. 하지만 빠르게 커뮤니티에서 뭔가 이상한걸 인지하고 이 코인을 사기꾼들의 손에서 빼앗았습니다. 하지만 사기꾼들은 마지막 카드를 숨겨두고 있었습니다. 의도적으로 최적화되지 않은 채굴프로그램을 같이 내놨습니다. 그들은 최적화되지 않은 채굴소프트웨어를 출시하고 최적화된 버전을 자기들만 갖고 블록보상을 통해 큰 돈을 벌 생각을 하고 있었습니다.
@@ -162,11 +204,15 @@ image_credit_url: "https://cypherstack.com"
 
 ## 14\. 모네로가 그렇게 보안에 강력하면, 감사 시 어떻게 누가 모네로를 몰래 훔쳐가고 있는지 확인할까?
 
+## 14\. 모네로가 그렇게 보안에 강력하면, 감사 시 어떻게 누가 모네로를 몰래 훔쳐가고 있는지 확인할까?
+
 이는 간단히 답할 수 있는 문제가 아닙니다. 한 방법을 (블록을 풀었을 때 광부에게 보상으로 주어지는 새 모네로가 표기된) 코인베이스 거래를 합산해보는 것입니다. 이 거래들은 공개되어 있으며, 합산하면 현재 유통중인 모네로의 총량을 알 수 있습니다.
 
 여기서 알아야 하는 것이 누군가 몰래 체인에서 모네로를 빼가고 있어 모네로 총량이 코인베이스 거래 합산보다 많다면, 이는 코인베이스 거래로 나타나지 않고 개인간의 지갑과 지갑 사이의 거래로 나타날 것입니다. 이러한 일이 일어날 수 있는 방법은 3가지가 있습니다.
 
 첫 번째는 모네로가 거래에서 생성되거나 파괴되었다는 것을 증명하는 암호화기술 자체에 오류가 있을 경우입니다. 두 번째는 암호화기술의 도입에 문제가 있을 경우입니다. 세 번째는 둘 다 문제가 없지만 강력한 컴퓨터를 사용하여 저희 암호화기술을 뚫어내고 가짜 증명을 생성할 경우입니다.
+
+## 15\. 모네로의 해시는 2개의 단체가 대부분 담당하고 있다.
 
 ## 15\. 모네로의 해시는 2개의 단체가 대부분 담당하고 있다.
 
@@ -214,66 +260,68 @@ But we digress.
 
 더 보기
 
-  * [Monero가 순환 경제를 가능하게 하는 방법](/knowledge/monero-circular-economies/)
+  * [Monero가 순환 경제를 가능하게 하는 방법](/knowledge/monero-circular-economies)/
 
-  * [와사비처럼 모네로의 링 시그니처 vs 코인조인](/knowledge/ring-signatures-vs-coinjoin/)
+  * [와사비처럼 모네로의 링 시그니처 vs 코인조인](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [자신의 키를 보유해야 하는 이유(및 방법!)](/knowledge/hold-your-keys/)
+  * [자신의 키를 보유해야 하는 이유(및 방법!)](/knowledge/hold-your-keys)/
 
-  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero/)
+  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero)/
 
-  * [원격 노드가 Monero의 개인 정보에 미치는 영향](/knowledge/remote-nodes-privacy/)
+  * [원격 노드가 Monero의 개인 정보에 미치는 영향](/knowledge/remote-nodes-privacy)/
 
-  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades/)
+  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades)/
 
-  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool과 Monero Mining의 탈중앙화에서의 역할](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool과 Monero Mining의 탈중앙화에서의 역할](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero/)
+  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero)/
 
-  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero/)
+  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup/)
+  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup)/
 
-  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value/)
+  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value)/
 
-  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect/)
+  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect)/
 
-  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking/)
+  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking)/
 
-  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams/)
+  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams)/
 
-  * [Monero에서 원자 스왑이 작동하는 방법](/knowledge/monero-atomic-swaps/)
+  * [Monero에서 원자 스왑이 작동하는 방법](/knowledge/monero-atomic-swaps)/
 
-  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking/)
+  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking)/
 
-  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct/)
+  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct)/
 
-  * [모네로 비밀주소가 신상을 보호하는 방법](/knowledge/monero-stealth-addresses/)
+  * [모네로 비밀주소가 신상을 보호하는 방법](/knowledge/monero-stealth-addresses)/
 
-  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses/)
+  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses)/
 
-  * [모네로 출력에 대하여](/knowledge/monero-outputs/)
+  * [모네로 출력에 대하여](/knowledge/monero-outputs)/
 
-  * [초보자를 위한 모네로 사용 습관 추천](/knowledge/monero-best-practices/)
+  * [초보자를 위한 모네로 사용 습관 추천](/knowledge/monero-best-practices)/
 
-  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures/)
+  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures)/
 
-  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size/)
+  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size)/
 
-  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag/)
+  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag)/
 
-  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission/)
+  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission)/
 
-  * [모네로의 간단한 역사](/knowledge/monero-history/)
+  * [모네로의 간단한 역사](/knowledge/monero-history)/
 
-  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked/)
+  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked)/
 
-  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion/)
+  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion)/
 
-  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx/)
+  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx)/
 
-  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better/)
+  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better)/
+
+더 보기

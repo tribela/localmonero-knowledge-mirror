@@ -1,91 +1,93 @@
 ---
-title: "新的CLSAG環簽名技術將如何提高門羅幣的效率"
+title: "新的CLSAG环签名技术将如何提高门罗币的效率"
 slug: "what-is-clsag"
 date: "2020-08-05"
 image: "/images/clsag.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-關於門羅幣的協議層，目前仍處於持續創新的狀態. 門羅幣社區通過對鏈上和鏈下各種方案的研究，不斷探索可改進的領域，從而使門羅幣更加保護隱私，更具可擴展性，對普通用戶更友好和便於使用，門羅幣最新的創新之一是關於用CLSAG技術來替代MLSAG環簽名技術，CLSAG全稱是Concise Linkable Spontaneous Anonymous Group，它更簡潔的實現MLSAG技術方案.
+关于门罗币的协议层，目前仍处于持续创新的状态. 门罗币社区通过对链上和链下各种方案的研究，不断探索可改进的领域，从而使门罗币更加保护隐私，更具可扩展性，对普通用户更友好和便于使用，门罗币最新的创新之一是关于用CLSAG技术来替代MLSAG环签名技术，CLSAG全称是Concise Linkable Spontaneous Anonymous Group，它更简洁的实现MLSAG技术方案.
 
-從目前來看，CLSAG的實施將使最常見的門羅交易，也就是通常包含2個輸入和2個輸出的區塊體積減少25％.同時還將減少10％的驗證時間.
+从目前来看，CLSAG的实施将使最常见的门罗交易，也就是通常包含2个输入和2个输出的区块体积减少25％.同时还将减少10％的验证时间.
 
-但是CLSAG到底是什麼？ 它有什麼作用？與舊版本的MLSAG有何不同？ 那麼讓我們先花點時間回顧一下，門羅幣為什麼和如何進行環簽名，以便幫助我們更好地理解這一概念. 在一個交易中，發送者需要用自己的私密金鑰進行簽名，目前門羅幣的一個輸出中，包含11個簽名，只有一個是發送者本身的，剩餘的簽名是從整個門羅幣歷史匿名集中抓取其它人的簽名，通過這樣可以實現非交互的，包括見證者都無法區分的真實輸入. 用外行的話來說，環簽名技術，只需要搭配區塊鏈本身，在預設情況下，不需要額外操作和其它任何人參與，自動利用自身輸出以及完全不相關的輸出，就可以隱藏交易發起人.節點和任何協力廠商也沒有辦法分辨. 這些輸出中的每一個簽名者都有可能是實際發送的輸出，從而隱藏了有關發送者的中繼資料.
+但是CLSAG到底是什么？ 它有什么作用？与旧版本的MLSAG有何不同？ 那么让我们先花点时间回顾一下，门罗币为什么和如何进行环签名，以便帮助我们更好地理解这一概念. 在一个交易中，发送者需要用自己的私钥进行签名，目前门罗币的一个输出中，包含11个签名，只有一个是发送者本身的，剩余的签名是从整个门罗币历史匿名集中抓取其它人的签名，通过这样可以实现非交互的，包括见证者都无法区分的真实输入. 用外行的话来说，环签名技术，只需要搭配区块链本身，在默认情况下，不需要额外操作和其它任何人参与，自动利用自身输出以及完全不相关的输出，就可以隐藏交易发起人.节点和任何第三方也没有办法分辨. 这些输出中的每一个签名者都有可能是实际发送的输出，从而隐藏了有关发送者的元数据.
 
-但是，這就會讓人會產生一系列的疑問. 如果用戶要從所有的門羅幣歷史簽名裡構造一個假的環形簽名怎麼辦？ 發送者是匿名的，他到底有沒有足夠的許可權和足夠的資金？ 該用戶可以花假錢嗎？ 答案是肯定不可以.環形簽名包括一種方法，用於證明簽名中至少有一個輸出，是由一個真實的發送人擁有，而無需透露它是哪一個. 實際上，CLSAG和MLSAG都是證明這一點的一部分. 以下我們統稱它們為SAGs. 與此同時，它也能在匿名的情況下證明，隱藏在機密交易RingCT後面的交易金額仍能平衡，沒有人能雙花和憑空花費. 總的來說SAGs證明了兩件事，一個是輸出中11個簽名中其中有一個是真實的，歸屬於某人，同樣很重要的是，第二點，交易帳戶不會被超額花費，轉帳前後帳目平衡. 實際上這部分就是壓縮大小和節省驗證時間的地方. 如果聽到這裡，令人困惑，請放心，我們將為你帶來一個有趣且易於理解的比喻.
+但是，这就会让人会产生一系列的疑问. 如果用户要从所有的门罗币历史签名里构造一个假的环形签名怎么办？ 发送者是匿名的，他到底有没有足够的权限和足够的资金？ 该用户可以花假钱吗？ 答案是肯定不可以.环形签名包括一种方法，用于证明签名中至少有一个输出，是由一个真实的发送人拥有，而无需透露它是哪一个. 实际上，CLSAG和MLSAG都是证明这一点的一部分. 以下我们统称它们为SAGs. 与此同时，它也能在匿名的情况下证明，隐藏在机密交易RingCT后面的交易金额仍能平衡，没有人能双花和凭空花费. 总的来说SAGs证明了两件事，一个是输出中11个签名中其中有一个是真实的，归属于某人，同样很重要的是，第二点，交易账户不会被超额花费，转账前后账目平衡. 实际上这部分就是压缩大小和节省验证时间的地方. 如果听到这里，令人困惑，请放心，我们将为你带来一个有趣且易于理解的比喻.
 
-舊的簽名方案MLSAG，全稱是Multilayered Linkable Spontaneous Anonymous Group，在環簽名中證明了上述兩件事，但它們是分別進行的.對簽名和承諾金鑰使用單獨的計算意味著速度較慢. 雖然現代電腦可以在幾毫秒內完成這些計算，這看起來速度很快，對於一次交易和區塊掃描而言，也確實很快. 但是當我們考慮到門羅幣Monero區塊鏈上的大量交易，並且從頭開始同步的節點必須下載並驗證每個交易時，位元組大小和毫秒時間的微小差異最後會堆積如山.
+旧的签名方案MLSAG，全称是Multilayered Linkable Spontaneous Anonymous Group，在环签名中证明了上述两件事，但它们是分别进行的.对签名和承诺密钥使用单独的计算意味着速度较慢. 虽然现代计算机可以在几毫秒内完成这些计算，这看起来速度很快，对于一次交易和区块扫描而言，也确实很快. 但是当我们考虑到门罗币Monero区块链上的大量交易，并且从头开始同步的节点必须下载并验证每个交易时，字节大小和毫秒时间的微小差异最后会堆积如山.
 
-CLSAG將證明兩者所需的數學結合在一起，並同時計算兩者，並且以一種安全的方式進行. 什麼是安全的方式計算呢？ 好吧，為澄清這一點，並希望使整個事情變得更好理解，讓我們來看一個關於驗證承諾的有趣比喻.
+CLSAG将证明两者所需的数学结合在一起，并同时计算两者，并且以一种安全的方式进行. 什么是安全的方式计算呢？ 好吧，为澄清这一点，并希望使整个事情变得更好理解，让我们来看一个关于验证承诺的有趣比喻.
 
-假設你需要同時前往雜貨店和五金店，購買兩種不同的東西，分別為食物和有毒的清潔劑. 你不希望它們混和在一起，如果不小心發生意外，化學物質會濺到食物上，使它們變得不可食用. 你決定安全第一，所以從家中先開車去雜貨店購買食物，然後回到家中. 接著卸下食物後，才又回到車裡，開車去五金店，然後帶著化學品回到家中. 你進行了兩次單獨的行動，來確保所有購物的安全. 儘管確實安全，但效率低下. 這很像MLSAG環形簽名，它其中存儲了兩組不同的數學運算，並分別進行了兩次不同的運算.
+假设你需要同时前往杂货店和五金店，购买两种不同的东西，分别为食物和有毒的清洁剂. 你不希望它们混和在一起，如果不小心发生意外，化学物质会溅到食物上，使它们变得不可食用. 你决定安全第一，所以从家中先开车去杂货店购买食物，然后回到家中. 接着卸下食物后，才又回到车里，开车去五金店，然后带着化学品回到家中. 你进行了两次单独的行动，来确保所有购物的安全. 尽管确实安全，但效率低下. 这很像MLSAG环形签名，它其中存储了两组不同的数学运算，并分别进行了两次不同的运算.
 
-但是這種方式實在太慢了,並且太浪費時間了.當然偶爾做一次是沒有什麼問題，但是如果一遍又一遍的重複往復，時間開始累加起來就會很可怕. 你需要一種更快的方法. 是否可以試著這樣改變呢， 先從你的房子到雜貨店，再到五金店，再開車回家. 當然這樣你不能隨便把所有東西扔在車上. 這不安全，不過可以在汽車中設置不同的位置，並確保所有物品都整齊地放置在其位置上. 這樣一來，就可以安全地前往兩家商店，並且讓食物和化學品保持安全遠離. 這個新的變化就是CLSAG簽名. 現在，在一個交易中僅存儲了一組數學運算即可證明這兩件事，並且確保它們不會互相干擾.仍然需要運算，但是已經大大減少了運算時間，就像仍然需要開車去不同的商店，可路程大大減少.
+但是这种方式实在太慢了,并且太浪费时间了.当然偶尔做一次是没有什么问题，但是如果一遍又一遍的重复往复，时间开始累加起来就会很可怕. 你需要一种更快的方法. 是否可以试着这样改变呢， 先从你的房子到杂货店，再到五金店，再开车回家. 当然这样你不能随便把所有东西扔在车上. 这不安全，不过可以在汽车中设置不同的位置，并确保所有物品都整齐地放置在其位置上. 这样一来，就可以安全地前往两家商店，并且让食物和化学品保持安全远离. 这个新的变化就是CLSAG签名. 现在，在一个交易中仅存储了一组数学运算即可证明这两件事，并且确保它们不会互相干扰.仍然需要运算，但是已经大大减少了运算时间，就像仍然需要开车去不同的商店，可路程大大减少.
 
-所有這些進步聽起來很令人興奮. 那麼是否可以找到其它更快捷得方式或更節省時間和空間的方法進一步升級呢？ 答案是肯定的. 目前門羅MRL組研究人員表示，雖然當前可能無法進一步修改SAGs這一型結構以獲得更小的尺寸或速度. 但是，其他環簽名結構例如Arcturus，Omniring，RCT3或Triptych，它們使用了不同的數學方法，這樣會產生更小的資料大小和更快得驗證速度. 但是，每種下一代環形簽名技術協議的實現細節上都有其自身的取捨，門羅社區正在積極研究和調查各種方案的優缺點.
+所有这些进步听起来很令人兴奋. 那么是否可以找到其它更快捷得方式或更节省时间和空间的方法进一步升级呢？ 答案是肯定的. 目前门罗MRL组研究人员表示，虽然当前可能无法进一步修改SAGs这一型结构以获得更小的尺寸或速度. 但是，其他环签名结构例如Arcturus，Omniring，RCT3或Triptych，它们使用了不同的数学方法，这样会产生更小的数据大小和更快得验证速度. 但是，每种下一代环形签名技术协议的实现细节上都有其自身的取舍，门罗社区正在积极研究和调查各种方案的优缺点.
 
-進一步閱讀
+进一步阅读
 
-  * [門羅幣如何獨特地實現循環經濟](/knowledge/monero-circular-economies/)
+  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies)/
 
-  * [門羅幣環形簽名與CoinJoin像在Wasabi比較](/knowledge/ring-signatures-vs-coinjoin/)
+  * [门罗币环形签名与CoinJoin像在Wasabi比较](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [為什麼（以及如何！）你應該持有你自己的鑰匙](/knowledge/hold-your-keys/)
+  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys)/
 
-  * [貢獻為門羅幣](/knowledge/contributing-to-monero/)
+  * [贡献为门罗币](/knowledge/contributing-to-monero)/
 
-  * [遠程節點如何影響門羅幣的隱私](/knowledge/remote-nodes-privacy/)
+  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy)/
 
-  * [門羅幣是如何使用硬分叉為升級網絡](/knowledge/network-upgrades/)
+  * [门罗币是如何使用硬分叉为升级网络](/knowledge/network-upgrades)/
 
-  * [查看標籤：一個字節如何將門羅幣錢包的同步時間減少40%以上](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool和它在去Monero採礦中心化的作用](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis：它將為門羅幣做什麼](/knowledge/seraphis-for-monero/)
+  * [Seraphis：它将为门罗币做什么](/knowledge/seraphis-for-monero)/
 
-  * [把比特幣兌換成門羅幣，就可以高枕無憂了嗎?](/knowledge/most-private-way-to-buy-monero/)
+  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [為什麼門羅幣不像大零幣那樣需要初始信任來實現隱私](/knowledge/monero-trustless-setup/)
+  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup)/
 
-  * [為什麼門羅幣才是電子黃金，相對於比特幣更有儲存價值的屬性](/knowledge/monero-better-store-of-value/)
+  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value)/
 
-  * [門羅幣是如何蠶食比特幣的份額和先發優勢](/knowledge/network-effect/)
+  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect)/
 
-  * [為什麼說門羅幣社區最具批判性精神](/knowledge/critical-thinking/)
+  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking)/
 
-  * [門羅幣防詐騙指南](/knowledge/monero-scams/)
+  * [门罗币防诈骗指南](/knowledge/monero-scams)/
 
-  * [原子互換技術將如何在門羅幣上實現](/knowledge/monero-atomic-swaps/)
+  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps)/
 
-  * [門羅幣與當代互聯網，隱私達人的須知](/knowledge/monero-networking/)
+  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking)/
 
-  * [ RingCT環形機密技術是如何隱藏門羅幣交易的金額](/knowledge/monero-ringct/)
+  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct)/
 
-  * [門羅幣隱身地址如何保護你的身份](/knowledge/monero-stealth-addresses/)
+  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses)/
 
-  * [門羅幣子位址是如何防止使用者資訊被關聯](/knowledge/monero-subaddresses/)
+  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses)/
 
-  * [加密貨幣裡面的output，中文譯作輸出，這個概念到底什麼意思,又為什麼門羅幣轉帳後餘額顯示錯誤要等待二十分鐘](/knowledge/monero-outputs/)
+  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs)/
 
-  * [門羅幣最佳入門指南](/knowledge/monero-best-practices/)
+  * [门罗币最佳入门指南](/knowledge/monero-best-practices)/
 
-  * [環形簽名如何保護門羅幣發送者的輸出](/knowledge/ring-signatures/)
+  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures)/
 
-  * [門羅幣是如何解決困擾比特幣的區塊大小的擴容問題](/knowledge/dynamic-block-size/)
+  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size)/
 
-  * [為什麼門羅幣擁有尾部增發的特性](/knowledge/monero-tail-emission/)
+  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission)/
 
-  * [門羅幣的前世今生](/knowledge/monero-history/)
+  * [门罗币的前世今生](/knowledge/monero-history)/
 
-  * [Wired雜誌是如何誤解了門羅](/knowledge/wired-article-debunked/)
+  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked)/
 
-  * [流言終結者：關於門羅幣的15大傳言和疑慮](/knowledge/monero-myths-debunked/)
+  * [流言终结者：关于门罗币的15大传言和疑虑](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion ++蒲公英改進協議如何使Monero從源頭得到更強防護](/knowledge/monero-dandelion/)
+  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion)/
 
-  * [為什麼門羅幣是開源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [为什么门罗币是开源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [門羅幣挖礦: 什麼使 RandomX 算法如此特別](/knowledge/monero-mining-randomx/)
+  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx)/
 
-  * [為什麼門羅幣優於達世幣, 大零幣, 小零幣 , 古靈幣以及經過Wasabi級別混幣器混淆後的比特幣 (更新於2020年五月)](/knowledge/why-monero-is-better/)
+  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better)/
+
+进一步阅读

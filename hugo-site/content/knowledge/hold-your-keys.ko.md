@@ -14,6 +14,8 @@ image_credit_url: "https://cypherstack.com"
 
 ##  자신의 키를 보유하는 것이 왜 중요한가요?
 
+## 자신의 키를 보유하는 것이 왜 중요한가요?
+
 자기 관리에 대해 가장 일반적으로 오해되는 측면 중 하나는 모네로는 자신의 열쇠를 가지고 있지 않으면 얻는 것이 거의 또는 전혀 없다는 것입니다. Monero가 제공하는 개인 정보 보호 혜택을 누리십시오. 거래를 보낸 사람으로서 실제 지출, 금액 및 수취인 주소에 대한 완전한 가시성 확보, 거래를 보내는 사람이 아닌 경우 대신 교환 또는 관리인은 _완전한_ 가시성을 가집니다. 모네로를 사용하는 방법.
 
 고맙게도 자금을 보낸 후 Monero의 개인 정보 보호는 시작하고 강력한 "순방향 비밀"을 제공하지만 귀하가 자금을 송금한 거래소 또는 관리인 및 귀하가 송금한 금액 처음에는.
@@ -38,6 +40,8 @@ Monero의 기본 측면 중 하나는 검열 방지 거래 – 거래 가능 그
 
 ## Monero에서 내 키를 어떻게 보관합니까?
 
+## Monero에서 내 키를 어떻게 보관합니까?
+
 자신의 키를 보유하기 시작할 때 가장 중요한 것은 _시드 구문을 안전하게 저장하고 유지하는 것을 기억하십시오_! 이것이 모든 Monero 지갑에서 제공할 14개 또는 25개의 임의 단어 세트 지갑을 만들고 다음과 같은 경우 자금을 회수하는 데 필요한 모든 것입니다. 휴대전화, 데스크톱, 노트북을 분실하거나 잊어버린 경우 비밀번호.
 
 이 시드 문구를 모든 Monero의 가치가 있는 것처럼 취급하십시오. 지갑을 얻는 사람은 누구나 지갑에 있는 자금에 완전히 접근할 수 있습니다. 당신의 지갑. 안전한 장소나 비밀 장소에 보관하는 것이 가장 좋습니다. 화재나 천재지변에 대비하여 여러 장의 사본을 보존하고 절대 누구에게나 보여주세요.
@@ -47,9 +51,11 @@ Monero의 기본 측면 중 하나는 검열 방지 거래 – 거래 가능 그
 주로 데스크톱 사용자이고 Monero를 사용하거나 받지 않는 경우 매우 자주 이동 중이며 자신의 소유를 위한 몇 가지 확실한 선택이 있습니다. 타사에 의존할 필요 없이 키.
 
   * [공식 모네로 지갑](https://getmonero.org/downloads)
-    * 이것은 공식 Monero 지갑 소프트웨어이며 지속적으로 개선 및 추가. 여기에는 통합 Monero 데몬이 포함되어 있습니다(만약 원함) 매우 사용자 친화적이며 곧 [마이닝을 지원할 것입니다. 지갑에서 직접 p2pool을 통해](/knowledge/p2pool-decentralizing-monero-mining/).
+    * 이것은 공식 Monero 지갑 소프트웨어이며 지속적으로 개선 및 추가. 여기에는 통합 Monero 데몬이 포함되어 있습니다(만약 원함) 매우 사용자 친화적이며 곧 [마이닝을 지원할 것입니다. 지갑에서 직접 p2pool을 통해](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
   * [Feather Wallet](https://featherwallet.org/)
     * 이것은 [Electrum for Bitcoin](https://electrum.org/)의 맥락에서 우수한 지갑이며 두 가지를 모두 제공합니다. 간단한 사용성과 매우 강력한 기능을 단일 지갑.
+
+  * 이것은 공식 Monero 지갑 소프트웨어이며 지속적으로 개선 및 추가. 여기에는 통합 Monero 데몬이 포함되어 있습니다(만약 원함) 매우 사용자 친화적이며 곧 [마이닝을 지원할 것입니다. 지갑에서 직접 p2pool을 통해](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
 
   * 이것은 [Electrum for Bitcoin](https://electrum.org/)의 맥락에서 우수한 지갑이며 두 가지를 모두 제공합니다. 간단한 사용성과 매우 강력한 기능을 단일 지갑.
 
@@ -66,6 +72,8 @@ Monero의 기본 측면 중 하나는 검열 방지 거래 – 거래 가능 그
 
 ## 결론
 
+## 결론
+
 이 게시물이 자신의 키뿐만 아니라 공간.
 
 Monero를 직접 손에 들고 실제로 사용하면 할수록 현재와 미래에 더 많은 혜택을 누릴 수 있습니다. 모네로는 그냥 투기 자산 – 자유와 재정을 위한 강력한 도구입니다. 오늘날과 미래의 세상에서 가장 필요한 프라이버시 우리의.
@@ -74,66 +82,68 @@ Monero를 직접 손에 들고 실제로 사용하면 할수록 현재와 미래
 
 더 보기
 
-  * [Monero가 순환 경제를 가능하게 하는 방법](/knowledge/monero-circular-economies/)
+  * [Monero가 순환 경제를 가능하게 하는 방법](/knowledge/monero-circular-economies)/
 
-  * [와사비처럼 모네로의 링 시그니처 vs 코인조인](/knowledge/ring-signatures-vs-coinjoin/)
+  * [와사비처럼 모네로의 링 시그니처 vs 코인조인](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero/)
+  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero)/
 
-  * [원격 노드가 Monero의 개인 정보에 미치는 영향](/knowledge/remote-nodes-privacy/)
+  * [원격 노드가 Monero의 개인 정보에 미치는 영향](/knowledge/remote-nodes-privacy)/
 
-  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades/)
+  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades)/
 
-  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool과 Monero Mining의 탈중앙화에서의 역할](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool과 Monero Mining의 탈중앙화에서의 역할](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero/)
+  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero)/
 
-  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero/)
+  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup/)
+  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup)/
 
-  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value/)
+  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value)/
 
-  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect/)
+  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect)/
 
-  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking/)
+  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking)/
 
-  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams/)
+  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams)/
 
-  * [Monero에서 원자 스왑이 작동하는 방법](/knowledge/monero-atomic-swaps/)
+  * [Monero에서 원자 스왑이 작동하는 방법](/knowledge/monero-atomic-swaps)/
 
-  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking/)
+  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking)/
 
-  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct/)
+  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct)/
 
-  * [모네로 비밀주소가 신상을 보호하는 방법](/knowledge/monero-stealth-addresses/)
+  * [모네로 비밀주소가 신상을 보호하는 방법](/knowledge/monero-stealth-addresses)/
 
-  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses/)
+  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses)/
 
-  * [모네로 출력에 대하여](/knowledge/monero-outputs/)
+  * [모네로 출력에 대하여](/knowledge/monero-outputs)/
 
-  * [초보자를 위한 모네로 사용 습관 추천](/knowledge/monero-best-practices/)
+  * [초보자를 위한 모네로 사용 습관 추천](/knowledge/monero-best-practices)/
 
-  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures/)
+  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures)/
 
-  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size/)
+  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size)/
 
-  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag/)
+  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag)/
 
-  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission/)
+  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission)/
 
-  * [모네로의 간단한 역사](/knowledge/monero-history/)
+  * [모네로의 간단한 역사](/knowledge/monero-history)/
 
-  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked/)
+  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked)/
 
-  * [모네로에 관한 15가지 미신과 우려, 그리고 그 해답](/knowledge/monero-myths-debunked/)
+  * [모네로에 관한 15가지 미신과 우려, 그리고 그 해답](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion/)
+  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion)/
 
-  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx/)
+  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx)/
 
-  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better/)
+  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better)/
+
+더 보기

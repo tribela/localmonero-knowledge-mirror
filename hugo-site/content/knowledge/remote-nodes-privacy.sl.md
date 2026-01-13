@@ -12,6 +12,8 @@ V tej objavi se bomo poglobili v nekatere podrobnosti o tem, kako Monero zagotav
 
 ## Kakšno funkcijo opravljajo vozlišča (nodes) v Monero?
 
+## Kakšno funkcijo opravljajo vozlišča (nodes) v Monero?
+
 Za tiste, ki niso tako dobro seznanjeni z delovanjem Monera, lahko vozlišča (ali strežnike) v omrežju Monero upravlja kdor koli in lastniku vozlišča - ali drugim, ki se odločijo, da ga bodo delili z njim! - sinhronizirati kopijo blockchaina in to kopijo posredovati drugim v omrežju. Ta vozlišča tudi preverjajo vse transakcije, ki se izvajajo v omrežju, in vse objavljene bloke ter zagotavljajo, da vsi sledijo pravilom, določenim s konsenzom.
 
 Druga funkcija vozlišč v Moneru je zagotavljanje vseh podatkov, ki jih vaša priljubljena Monero denarnica potrebuje za pravilno preverjanje transakcij, ki vam pripadajo in izvajanje novih transakcij. Te podatke vozlišča zagotavljajo na dva načina: 
@@ -20,6 +22,12 @@ Druga funkcija vozlišč v Moneru je zagotavljanje vseh podatkov, ki jih vaša p
     * Ta korak bo kmalu drastično izboljšan zahvaljujoč [oglednim oznakam](/knowledge/view-tags-reduce-monero-sync-time).
   * Pri pošiljanju transakcij vozlišče, ki ga uporabljate, ponudi seznam možnih vab (ali lažnih vnosov), ki jih lahko uporabite pri ustvarjanju transakcije, kar zagotavlja, da imate dobro množico, v katero se lahko skrijete vsakič, ko porabite Monero. 
     * Te vabe so del [Ring podpisov](/knowledge/ring-signatures), pomembnega dela Monerovega pristopa k on-chain zasebnosti.
+
+  * Ta korak bo kmalu drastično izboljšan zahvaljujoč [oglednim oznakam](/knowledge/view-tags-reduce-monero-sync-time).
+
+  * Te vabe so del [Ring podpisov](/knowledge/ring-signatures), pomembnega dela Monerovega pristopa k on-chain zasebnosti.
+
+## Kateri je najbolj zaseben in varen način uporabe Monera?
 
 ## Kateri je najbolj zaseben in varen način uporabe Monera?
 
@@ -31,6 +39,8 @@ Kot rečeno, Monero še vedno zagotavlja odlično zasebnost pri uporabi oddaljen
 
 ## Kaj lahko oddaljeno vozlišče (node) izve o meni?
 
+## Kaj lahko oddaljeno vozlišče (node) izve o meni?
+
 Pri uporabi oddaljenega vozlišča je nekaj ključnih informacij, ki so izpostavljene oddaljenemu vozlišču, in nekaj ključnih načinov, kako vas lahko vozlišče napade, prepreči transakcijo in drugo.
 
 Prva stvar, ki jo lahko oddaljeno vozlišče izve o vas, je vaš javni naslov IP. Čeprav bo to, upajmo, prikrito prek VPN ali Tor, bi lahko oddaljeno vozlišče vaš javni naslov IP povezalo s transakcijo, kar bi jim pomagalo zožiti, od koder opravljate transakcije. Oddaljeno vozlišče se lahko nauči tudi zadnjega bloka, ki je bil sinhroniziran z vašo denarnico, in to uporabi, da poskusi in utemeljeno ugiba o vas, na primer, kdaj običajno uporabljate Monero in kdaj ste nazadnje porabili Monero. To še posebej velja, če vedno prihajate z istega naslova IP (kot je vaš dom). Zadnja ključna stvar, ki jo lahko oddaljeno vozlišče izve o vas, so osnovne informacije o transakcijah, ki jih pošiljate prek njega. Čeprav so to morda najočitnejši podatki, ki jih operater oddaljenega vozlišča dobi o vas, je pomembno razumeti, da bi jih lahko uporabili za pomoč pri izsleditvi pošiljatelja transakcije pri združevanju teh informacij z drugimi podatki izven verige. To je lahko še posebej nevarno, če oddaljeno vozlišče upravlja zlonamerna entiteta, podjetje za analizo verige blokov ali represivna nacionalna država.
@@ -39,9 +49,13 @@ Oddaljeno vozlišče vam lahko tudi poskuša povzročiti težave tako, da pred v
 
 ## Kakšna jamstva za zasebnost še obstajajo pri uporabi oddaljenega vozlišča?
 
+## Kakšna jamstva za zasebnost še obstajajo pri uporabi oddaljenega vozlišča?
+
 Čeprav vas je ta članek morda nekoliko prestrašil, se je pomembno zavedati, da je zasebnost, ki jo zagotavlja Monero, odlična tudi pri uporabi oddaljenega vozlišča in daleč presega katero koli drugo kriptovaluto, če se uporablja na ta način. Še vedno pridobite močno zasebnost v verigi, ki jo zagotavlja Monero, saj oddaljeno vozlišče nikoli ne ve pravega vnosa (katere kovance porabite), zneska Monera, porabljenega v transakciji, ali naslova prejemnika transakcije. Zunanji opazovalci prav tako ne morejo videti pravega vnosa, zneska ali vključenih naslovov (ne glede na vrsto vozlišča, ki ga izberete!), kar zagotavlja, da imajo zunaj oddaljenega vozlišča celo vaš naslov IP, informacije o sinhronizaciji denarnice in transakcije močno zagotovljeno zasebnost 
 
 Oddaljeno vozlišče tudi nikoli nima dostopa do prejšnjih transakcij, ki ste jih poslali ali prejeli, ali količine Monera, ki je trenutno v vaši denarnici, in izgubi vso vidljivost v vaših transakcijah v trenutku, ko začnete uporabljati drugo vozlišče. Oddaljenemu vozlišču nikoli niso posredovani nobeni zasebni ključi (bodisi ključi za porabo ali ogled), tako da vaša denarnica ostane zasebna, varna in uporabna. Ne glede na oddaljeno vozlišče prav tako nikoli niste v nevarnosti, da bi Monero izgubili ali vam ga ukradli, saj vozlišče ne more urejati naslova prejemnika, nikoli nima dostopa do zasebnih ključev vaših denarnic in vam na noben način ne more zapleniti vašega Monera.
+
+## Kaj pa "lahke denarnice", kot je MyMonero?
 
 ## Kaj pa "lahke denarnice", kot je MyMonero?
 
@@ -57,6 +71,8 @@ Za več informacij o strežniku lahke denarnice po meri glejte spodnji repozitor
 
 ## Kako lahko izvem več?
 
+## Kako lahko izvem več?
+
 Če ste radovedni in bi radi bolje razumeli vozlišča v Monero ter razmislili o uporabi oddaljenega vozlišča ali izvajanju lastnega, si oglejte spodnje povezave za odlična mesta za začetek:
 
   * [Monero World, seznam oddaljenih vozlišč, ki jih vodi skupnost, se lahko uporablja](https://moneroworld.com/#nodes)
@@ -67,66 +83,68 @@ Za več informacij o strežniku lahke denarnice po meri glejte spodnji repozitor
 
 Nadaljnje branje
 
-  * [Kako Monero edinstveno omogoča krožna gospodarstva](/knowledge/monero-circular-economies/)
+  * [Kako Monero edinstveno omogoča krožna gospodarstva](/knowledge/monero-circular-economies)/
 
-  * [Obročni ring podpisi Monero vs CoinJoin kot v Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Obročni ring podpisi Monero vs CoinJoin kot v Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Zakaj (in kako!) bi morali imeti svoje ključe](/knowledge/hold-your-keys/)
+  * [Zakaj (in kako!) bi morali imeti svoje ključe](/knowledge/hold-your-keys)/
 
-  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero/)
+  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero)/
 
-  * [Kako Monero uporablja hard-forke za nadgradnjo omrežja](/knowledge/network-upgrades/)
+  * [Kako Monero uporablja hard-forke za nadgradnjo omrežja](/knowledge/network-upgrades)/
 
-  * [Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Kaj bo Naredil za Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Kaj bo Naredil za Monero](/knowledge/seraphis-for-monero)/
 
-  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup/)
+  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup)/
 
-  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect/)
+  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect)/
 
-  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking/)
+  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking)/
 
-  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams/)
+  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams)/
 
-  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps/)
+  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps)/
 
-  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking/)
+  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking)/
 
-  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct/)
+  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct)/
 
-  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses/)
+  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses)/
 
-  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses/)
+  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses)/
 
-  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs/)
+  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs)/
 
-  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices/)
+  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices)/
 
-  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures/)
+  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures)/
 
-  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag/)
+  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag)/
 
-  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission/)
+  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission)/
 
-  * [Kratka zgodovina Monera](/knowledge/monero-history/)
+  * [Kratka zgodovina Monera](/knowledge/monero-history)/
 
-  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked/)
+  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked)/
 
-  * [Razbijamo 15 glavnih mitov in pomislekov o Monero](/knowledge/monero-myths-debunked/)
+  * [Razbijamo 15 glavnih mitov in pomislekov o Monero](/knowledge/monero-myths-debunked)/
 
-  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion/)
+  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion)/
 
-  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx/)
+  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx)/
 
-  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better/)
+  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better)/
+
+Nadaljnje branje

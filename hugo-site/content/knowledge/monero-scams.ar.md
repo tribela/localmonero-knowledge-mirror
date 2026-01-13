@@ -10,7 +10,11 @@ image_credit_url: "https://cypherstack.com"
 
 ## احتيال المحتالين
 
+## احتيال المحتالين
+
 واحدة من أقدم عمليات الاحتيال في الكتاب ، ويمكن أن تحدث على أي منصة مناقشة موجودة. في عملية الاحتيال هذه ، سيتظاهر المحتال بأنه فرد موثوق به في المجتمع أو مسؤول رفيع المستوى في شركة ذات صلة. بمجرد كسب ثقة الضحية من خلال هذه السمعة الراسخة ، قد يرسل المحتال مستخدمًا إلى موقع ضار ، أو يطلب منه تنزيل برنامج مصمم لسرقة أمواله ، أو حتى مجرد جعل المستخدم يرسل الأموال إليه مباشرة. تحقق دائمًا من أن الشخص الذي تتحدث إليه هو بالفعل الشخص الصحيح. سيكون لدى الشركات رسائل بريد إلكتروني للاتصال بها للتحقق من الهويات (على سبيل المثال ، "هل اتصل الرئيس التنفيذي لشركتك بي للتو على Telegram؟") وسيتمكن عادةً قادة المجتمع الآخرون من الاتصال بهم من خلال وسائل أخرى. تحقق قبل اتخاذ أي إجراء. خاصة إذا بدأوا المحادثة معك بدلاً منك معهم. 
+
+## عملية الاحتيال التي تبدو مثل الاعمال التجارية
 
 ## عملية الاحتيال التي تبدو مثل الاعمال التجارية
 
@@ -22,7 +26,11 @@ image_credit_url: "https://cypherstack.com"
 
 ## الغش الواضح
 
+## الغش الواضح
+
 في بعض الأحيان لا يحاول المحتالون حتى أن يكونوا حذرين. إنهم يقدمون ادعاءات ضخمة وعظيمة ويعرفون أنه سيكون هناك دائمًا حمقى سيصدقونهم بسبب اليأس أو الجشع أو الجهل. تتخذ هذه الحيل عدة أشكال ، من مشاريع العملات التي تعد بعوائد سخيفة على الاستثمارات حيث تمنحهم المال أولاً (مثل Bitconnect) ، إلى مجموعات خاصة وسرية تتعهد بإخبارك بكل تحركات السوق مقدمًا حتى تتمكن من جني الأموال .. .مقابل رسوم. تذكر. إذا كان هناك شيء يبدو جيدًا لدرجة يصعب تصديقه ، فمن المحتمل أن يكون كذلك. هذه النصيحة صحيحة بشكل خاص في مجال العملات المشفرة ، لأن نشر عملة معدنية أو عقد ذكي أمر تافه هذه الأيام ، ونشر مطالباتك المشبوهة عبر الإنترنت مجاني. تذكر ، إذا وجد شخص ما حقًا طريقة لتوقيت السوق أو اكتشف طريقة لكسب الكثير من الأموال غير المحدودة ، فلماذا يخبرك بذلك؟ كانوا سيستخدمونها بأنفسهم ليصبحوا أثرياء. لماذا يشاركونها؟ كن ذكيا. استخدم عقلك. لا تثق بأحد.
+
+## دور بذرة مونيرو في عمليات الاحتيال
 
 ## دور بذرة مونيرو في عمليات الاحتيال
 
@@ -34,66 +42,68 @@ image_credit_url: "https://cypherstack.com"
 
 المزيد من القراءة
 
-  * [كيف مونيرو تمكن الاقتصادات الدائرية بشكل فريد](/knowledge/monero-circular-economies/)
+  * [كيف مونيرو تمكن الاقتصادات الدائرية بشكل فريد](/knowledge/monero-circular-economies)/
 
-  * [توقيعات حلقة مونيرو مقابل CoinJoin كما هو الحال في Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [توقيعات حلقة مونيرو مقابل CoinJoin كما هو الحال في Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [لماذا (وكيف!) يجب أن تحتفظ بمفاتيحك الخاصة](/knowledge/hold-your-keys/)
+  * [لماذا (وكيف!) يجب أن تحتفظ بمفاتيحك الخاصة](/knowledge/hold-your-keys)/
 
-  * [المساهمة مرة أخرى في مونيرو](/knowledge/contributing-to-monero/)
+  * [المساهمة مرة أخرى في مونيرو](/knowledge/contributing-to-monero)/
 
-  * [كيف تؤثر العقد البعيدة على خصوصية مونيرو](/knowledge/remote-nodes-privacy/)
+  * [كيف تؤثر العقد البعيدة على خصوصية مونيرو](/knowledge/remote-nodes-privacy)/
 
-  * [كيف تستخدم مونيرو الهارد فورك لترقية الشبكة](/knowledge/network-upgrades/)
+  * [كيف تستخدم مونيرو الهارد فورك لترقية الشبكة](/knowledge/network-upgrades)/
 
-  * [عرض العلامات: كيف سيؤدي البايت الواحد إلى تقليل أوقات مزامنة محفظة مونيرو بنسبة 40٪ +](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [عرض العلامات: كيف سيؤدي البايت الواحد إلى تقليل أوقات مزامنة محفظة مونيرو بنسبة 40٪ +](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ودوره في تحقيق اللامركزية في تعدين مونيرو](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ودوره في تحقيق اللامركزية في تعدين مونيرو](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [سيرافيز: ماذا ستفعل لمونيرو](/knowledge/seraphis-for-monero/)
+  * [سيرافيز: ماذا ستفعل لمونيرو](/knowledge/seraphis-for-monero)/
 
-  * [هل يعد تحويل Bitcoin إلى مونيرو أمرًا خاصًا مثل شراء مونيرو مباشرةً؟](/knowledge/most-private-way-to-buy-monero/)
+  * [هل يعد تحويل Bitcoin إلى مونيرو أمرًا خاصًا مثل شراء مونيرو مباشرةً؟](/knowledge/most-private-way-to-buy-monero)/
 
-  * [لماذا تستخدم مونيرو إعدادًا غير موثوق به على عكس Zcash](/knowledge/monero-trustless-setup/)
+  * [لماذا تستخدم مونيرو إعدادًا غير موثوق به على عكس Zcash](/knowledge/monero-trustless-setup)/
 
-  * [لماذا تعد مونيرو مخزنًا أفضل للقيمة من Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [لماذا تعد مونيرو مخزنًا أفضل للقيمة من Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [كيف يمكن لـمونيرو التغلب على تأثيرات شبكة Bitcoin](/knowledge/network-effect/)
+  * [كيف يمكن لـمونيرو التغلب على تأثيرات شبكة Bitcoin](/knowledge/network-effect)/
 
-  * [لماذا تمتلك مونيرو مجتمع التفكير الأكثر أهمية](/knowledge/critical-thinking/)
+  * [لماذا تمتلك مونيرو مجتمع التفكير الأكثر أهمية](/knowledge/critical-thinking)/
 
-  * [كيف ستعمل المقايضات الذرية في مونيرو](/knowledge/monero-atomic-swaps/)
+  * [كيف ستعمل المقايضات الذرية في مونيرو](/knowledge/monero-atomic-swaps)/
 
-  * [ما يحتاج كل مستخدم مونيرو إلى معرفته عندما يتعلق الأمر بالشبكات](/knowledge/monero-networking/)
+  * [ما يحتاج كل مستخدم مونيرو إلى معرفته عندما يتعلق الأمر بالشبكات](/knowledge/monero-networking)/
 
-  * [كيف يخفي RingCT مبالغ معاملة مونيرو](/knowledge/monero-ringct/)
+  * [كيف يخفي RingCT مبالغ معاملة مونيرو](/knowledge/monero-ringct)/
 
-  * [كيف تحمي عناوين Monero Stealth هويتك](/knowledge/monero-stealth-addresses/)
+  * [كيف تحمي عناوين Monero Stealth هويتك](/knowledge/monero-stealth-addresses)/
 
-  * [كيف عناوين مونيرو الفرعية تمنع ربط الهوية](/knowledge/monero-subaddresses/)
+  * [كيف عناوين مونيرو الفرعية تمنع ربط الهوية](/knowledge/monero-subaddresses)/
 
-  * [تمتوضيح مخرجات مونيرو](/knowledge/monero-outputs/)
+  * [تمتوضيح مخرجات مونيرو](/knowledge/monero-outputs)/
 
-  * [أفضل ممارسات مونيرو للمبتدئين](/knowledge/monero-best-practices/)
+  * [أفضل ممارسات مونيرو للمبتدئين](/knowledge/monero-best-practices)/
 
-  * [كيف تحجب تواقيع الحلقة مخرجات مونيرو](/knowledge/ring-signatures/)
+  * [كيف تحجب تواقيع الحلقة مخرجات مونيرو](/knowledge/ring-signatures)/
 
-  * [كيف حلت مونيرو مشكلة حجم الكتلة التي ابتليت بها Bitcoin](/knowledge/dynamic-block-size/)
+  * [كيف حلت مونيرو مشكلة حجم الكتلة التي ابتليت بها Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [كيف سيحسن CLSAG كفاءة مونيرو](/knowledge/what-is-clsag/)
+  * [كيف سيحسن CLSAG كفاءة مونيرو](/knowledge/what-is-clsag)/
 
-  * [لماذا مونيرو لها انبعاث الذيل](/knowledge/monero-tail-emission/)
+  * [لماذا مونيرو لها انبعاث الذيل](/knowledge/monero-tail-emission)/
 
-  * [تاريخ موجز لمونيرو](/knowledge/monero-history/)
+  * [تاريخ موجز لمونيرو](/knowledge/monero-history)/
 
-  * [مجلة وايرد خاطئة بشأن مونيرو ، إليكم السبب](/knowledge/wired-article-debunked/)
+  * [مجلة وايرد خاطئة بشأن مونيرو ، إليكم السبب](/knowledge/wired-article-debunked)/
 
-  * [تم فضح أفضل 15 خرافة ومخاوف لـ Monero](/knowledge/monero-myths-debunked/)
+  * [تم فضح أفضل 15 خرافة ومخاوف لـ Monero](/knowledge/monero-myths-debunked)/
 
-  * [كيف تحافظ Dandelion ++ على خصوصية أصول معاملات مونيرو](/knowledge/monero-dandelion/)
+  * [كيف تحافظ Dandelion ++ على خصوصية أصول معاملات مونيرو](/knowledge/monero-dandelion)/
 
-  * [لماذا مونيرو مفتوح المصدر ولامركزي](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [لماذا مونيرو مفتوح المصدر ولامركزي](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [تعدين مونيرو: ما الذي يجعل RandomX مميزًا جدًا](/knowledge/monero-mining-randomx/)
+  * [تعدين مونيرو: ما الذي يجعل RandomX مميزًا جدًا](/knowledge/monero-mining-randomx)/
 
-  * [لماذا Monero أفضل من Dash و Zcash و Zcoin (حتى مع Lelantus) وخلاطات Grin و Bitcoin مثل Wasabi (تم التحديث في مايو 2020)](/knowledge/why-monero-is-better/)
+  * [لماذا Monero أفضل من Dash و Zcash و Zcoin (حتى مع Lelantus) وخلاطات Grin و Bitcoin مثل Wasabi (تم التحديث في مايو 2020)](/knowledge/why-monero-is-better)/
+
+المزيد من القراءة

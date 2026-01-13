@@ -1,97 +1,99 @@
 ---
-title: "Output Monero Dijelaskan"
+title: "Monero kimenetek magyarázata"
 slug: "monero-outputs"
 date: "2020-09-30"
 image: "/images/outputs.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Monero, seperti mata uang kripto lainnya, menggunakan output sebagai alat untuk menghitung dana. Banyak pengguna kripto yang mengerti mungkin pernah mendengar istilah ini sebelumnya, tetapi tidak semua orang mengerti apa artinya dan bagaimana cara kerjanya. Seperti yang dieksplorasi dalam artikel ring signature [ kami ](/knowledge/ring-signatures), output adalah unit aktual yang dipertukarkan di blockchain antara pihak yang bertransaksi. Mirip dengan uang dolar, tetapi jumlahnya tidak dalam denominasi tetap.
+A Monero más kriptovalutákhoz hasonlóan kimeneteket használ a pénzeszközök elszámolására. Sok kriptoban jártas felhasználó valószínűleg hallotta már ezt a kifejezést, de nem mindenki érti, mit jelent és hogyan működik. A [gyűrűs aláírásokról szóló cikkünkben](/knowledge/ring-signatures) leírtaknak megfelelően, a kimenetek a blokkláncon lévő tényleges egységek, amik a tranzakcióban részt vevő felek között gazdát cserélnek. Hasonlít az egydolláros bankjegyekhez, de itt a címlet nem fix összeg .
 
-Jika Anda dibayar $16 untuk suatu pekerjaan, Anda mungkin menerima uang satu dolar, uang lima dolar, dan uang sepuluh dolar. Anda memiliki $16, tetapi Anda juga memiliki tiga tagihan berbeda di dompet Anda. Jika Anda ingin membayar seseorang 6 dolar, Anda dapat menggunakan tagihan 5 dan 1, tetapi jika Anda ingin membayar seseorang $8, Anda hanya dapat menggunakan $10 dan menerima kembali $2 sebagai kembaliannya. Terakhir, jika Anda ingin membayar seseorang $14, Anda harus menggunakan ketiga lembar uang tersebut, dan akan menerima kembali $2 sebagai kembalian, tetapi untuk sesaat, saat Anda menyerahkan ketiga lembar uang tersebut, Anda tidak memiliki uang di dompet Anda sampai Anda mendapatkan uang kembaliannya.
+Ha 16 dollárt kap munkájáért, kaphat például egy egydollárost, egy ötdollárost és egy tízdollárost. 16 dollárja van, és három különböző bankjegy is van a pénztárcájában. Ha valakinek 6 dollárt fizetne, használhatja az 5-ös és az 1-es bankjegyet, de ha valakinek 8 dollárt akar fizetni, akkor csak a 10 dollárost tudja használni, és 2 dollárt kap vissza váltópénzként. Végül, ha 14 dollárt szeretne fizetni valakinek, mindhárom bankjegyet fel kell használnia, és 2 dollárt kap vissza, de egy pillanatig, amikor mindhárom bankjegyet átadta, nincs pénz a tárcájában, amíg meg nem kapja a visszajárót.
 
-Monero bekerja dengan cara yang sama. Misalkan Anda menjalankan toko dan menghasilkan tiga penjualan untuk tiga item berbeda. Anda mungkin menerima 1,5 XMR, 2,25 XMR, dan 5,25 XMR dengan total 9 XMR, tetapi Anda juga memiliki tiga output berbeda di dompet Anda dari denominasi yang disebutkan sebelumnya. Sama seperti dengan dolar, Anda mungkin ingin membayar seseorang 3 XMR. Anda dapat menggunakan hanya keluaran 5,25 XMR, dan menerima uang kembalian 2,25 XMR, atau Anda dapat menggabungkan output XMR 1,5 dan 2,25 dan mendapatkan kembali 0,75 XMR dalam perubahan.
+A Monero hasonlóan működik. Tegyük fel, hogy egy boltot üzemeltet, és három különböző terméket adott el. Kapott értük 1.5 XMR-t, 2.25 XMR-t és 5.25 XMR-t összesen 9 XMR értékben, de három másik kimenet is van a pénztárcájában a korábban említett címletekből. Csakúgy, mint a dollárnál, valakinek tervezhet 3 XMR-t fizetni. Használhatja csak az 5.25 XMR kimenetet, és 2.25 XMR-t kap vissza, vagy kombinálhatja az 1.5 és 2.25 XMR kimeneteket, így 0.75 XMR-t kapva vissza.
 
-Namun, segera setelah Anda mengirim transaksi, output yang Anda gunakan dimasukkan ke dalam status "terkunci", artinya tidak dapat diakses sampai Anda menerima kembaliannya. Protokol membuka kunci dana (yaitu memberi Anda kembalian) setelah 10 konfirmasi, atau sekitar 20 menit. Sama seperti ketika Anda menyerahkan uang dolar dari dompet Anda, Anda tidak dapat menggunakan uang itu lagi sampai Anda menerima kembalian dari kasir, Monero Anda tidak dapat diakses sampai Anda menerima kembalian tersebut.
+De amint elküldi a tranzakciót, a használt kimenetek „zárolt” állapotba kerülnek, ami azt jelenti, hogy nem érhetők el, amíg nem kapja meg a visszajárót. A protokoll 10 megerősítés után, azaz körülbelül 20 perc múlva oldja fel a pénzeszközöket (folyósítja a visszajárót). Csakúgy, mint amikor átadja a dolláros bankjegyeket a pénztárcájából, addig nem használhatja fel újra őket, amíg vissza nem kapja a különbözetet a pénztárostól, ugyanígy a Monerojához addig nem tud hozzáférni, amíg vissza nem kapja a váltópénzt.
 
-Mari kita kembali ke contoh mengirim 3 XMR ke seseorang, dan Anda menggunakan output 5,25 XMR. Sekarang, sementara Anda menunggu 1,75 XMR Anda kembali, Anda tidak dapat menggunakannya. 1,75 XMR ini tidak dapat Anda akses. Tetapi Anda masih dapat menggunakan output 1,5 XMR dan 2,25 XMR, karena ini tidak digunakan. Kembali ke contoh dolar, jika Anda membayar seseorang $8, seperti pada contoh sebelumnya, Anda tidak akan dapat menggunakan kembalian $2 yang Anda harapkan sampai diberikan kepada Anda, tetapi dalam contoh ini, Anda masih memiliki uang $10 yang tidak terpakai di dompet Anda. Ini masih dapat digunakan untuk membeli apa pun yang Anda inginkan sambil menunggu kembalian. Sama dengan Monero.
+Térjünk vissza ahhoz a példához, amikor 3 XMR-t küldünk valakinek, és az 5.25 XMR kimenetet használjuk. Most, amíg várja az 1.75 XMR váltópénzt, nem tudja azt használni. 1.75 XMR nem érhető el az Ön számára. De továbbra is használhatja az 1.5 XMR és 2.25 XMR kimeneteit, mivel ezek nincsenek elköltve. Visszatérve a dolláros példához, ha fizet valakinek 8 dollárt, mint az előző példában, akkor nem használhatja fel azt a 2 dollárt, amelyet váltásként vár vissza, amíg azt nem kapja meg, de még mindig van egy kihasználatlan 5 dolláros bankjegy a pénztárcájában. Ezzel továbbra is megvásárolhat bármit, amit csak szeretne, amíg a visszajárót várja. Ugyanígy működik a Monero is.
 
-Ini sering menjadi titik kebingungan bagi pengguna baru Monero. Seringkali, pengguna mungkin hanya memiliki satu output di dompetnya, yang diterima dari exchange atau teman. Katakanlah output ini adalah 20 XMR. Mereka tidak memiliki output lain di dompet mereka. Mereka sekarang ingin memberikan sumbangan ke dua badan amal favorit mereka. Mereka mengirimkan 5 XMR ke badan amal pertama dan kemudian bingung karena, meskipun seharusnya sisa 15 XMR, mereka tidak dapat langsung mengirimkan sumbangan berikutnya ke badan amal kedua. Seperti yang mungkin sudah Anda duga, ini karena 15 XMR terkunci. Itu tidak dapat dihabiskan sampai dikembalikan sebagai kembalian (10 konfirmasi atau sekitar 20 menit). Setelah dana mereka dibuka, mereka dapat mengirimkan donasi kedua.
+Ez gyakran összezavarja az új Monero-felhasználókat. Előfordul, hogy a felhasználónak csak egy kimenete van a pénztárcájában, amelyet egy tőzsdéről vagy egy barátjától kapott. Tegyük fel, hogy ez a kimenet 20 XMR értékű. Más kimenet nincs a pénztárcában. Szeretne a két kedvenc jótékonysági szervezetének adományozni. 5 XMR-t küld az első szervezetnek, majd értetlenül áll, mert hiába kellett volna 15 XMR-nek megmaradnia, nem tudja azonnal elküldeni a következő adományt a második jótékonysági szervezetnek. Amint azt sejtheti, ez azért van, mert a 15 XMR még zárolva van. Nem költhető el mindaddig, amíg a visszajáró meg nem érkezik (10 megerősítés vagyis körülbelül 20 perc múlva). A pénzeszközök feloldása után el tudja küldeni a második adományt.
 
-Hanya untuk menegaskan kembali intinya, mereka tidak akan mengalami masalah ini jika mereka memiliki beberapa output, seperti dua output 10 XMR atau serupa. Mereka dapat mengirimkan kedua donasi satu per satu, karena donasi pertama akan menggunakan salah satu dari 10 output XMR (dan menunggu 10 konfirmasi untuk menerima kembali 5 XMR sebagai kembaliannya), dan donasi kedua akan menggunakan output 10 XMR lainnya.
+Megismételve a lényeget: ez nem lett volna probléma, ha több kimenettel is rendelkezett volna, például két 10 XMR értékűvel, vagy hasonlóval. Mindkét adományt el tudta volna küldeni, mert az első adomány a 10 XMR-es kimenetek egyikét használja fel (és vár 10 megerősítést, hogy 5 XMR-t visszakapjon), a második adomány pedig a másik 10-es kimenetet használná.
 
-Beberapa dompet mata uang kripto memiliki fitur yang disebut 'manajemen keluaran', yang hanya menunjukkan kepada pengguna output mana yang mereka miliki saat ini (selain jumlah totalnya), serta memungkinkan mereka untuk memilih mana yang ingin mereka gunakan saat berbelanja mata uang kripto mereka.
+Egyes kriptovaluta tárcák rendelkeznek egy „kimenetkezelés” nevű funkcióval, amely megmutatja a felhasználónak, hogy jelenleg milyen kimenetekkel rendelkeznek (a teljes összegen felül), valamint lehetővé teszi számukra, hogy megválasszák, melyiket kívánják használni, amikor költenek.
 
-Sampai sekarang, GUI Monero melakukan pemilihan output untuk pengguna secara otomatis, karena pengguna memilih output mereka sendiri sering menyebabkan kebingungan atau, dalam beberapa kasus, membahayakan privasi. Namun ada dompet yang sedang dibangun, seperti proyek Feather Wallet baru, yang akan berisi fitur manajemen output ini.
+Jelenleg a Monero grafikus felület automatikusan választja ki a kimenetet a felhasználók számára, mivel a saját kimeneteik megválasztása gyakran problémát okoz, vagy egyes esetekben ronthatja a magánéletet. Vannak azonban olyan fejlesztés alatt álló pénztárcák, például a Feather projekt, amelyek támogatni fogják ezeket a kimenetkezelési funkciókat.
 
-Kami telah berbicara banyak tentang bagian pengiriman, tetapi sesuatu yang menarik terjadi di pihak penerima. Kembali ke contoh kami mengirim 3 XMR ke seseorang, dan menggunakan output 1,5 XMR dan 2,25 XMR Anda dalam transaksi (sambil mengharapkan 0,75 XMR sebagai kembalian), penerima TIDAK menerima dua output 1,5 XMR dan 2,25 XMR. Mereka malah menerima output SATU 3 XMR.
+Sokat beszéltünk a küldő részéről, de valami lenyűgöző történik a fogadó oldalon is. Visszatérve a példánkra, amikor 3 XMR-t küld valakinek, az 1.5 XMR és 2.25 XMR kimeneteit használva a tranzakcióban (miközben 0.75 XMR visszajáróra számít), a fogadó NEM két kimenetet kap 1.5 XMR értékben. Helyette EGY 3 XMR értékű kimenetet fogad.
 
-Di latar belakang, protokol menggabungkan semua output yang digunakan untuk pengeluaran, dan memberikan penerima satu output dari jumlah yang dibayarkan, dan mengirimkan satu keluaran perubahan kembali ke pengirim. Jadi pengirim juga akan menerima satu keluaran kembali sebagai perubahan, terlepas dari apakah mereka menggunakan dua, tiga, atau sepuluh output untuk mengirim transaksi.
+A háttérben a protokoll egyesíti a kiadáshoz használt összes kimenetet, és a fogadónak egy kimenetet ad a befizetett összegből, és egy váltókimenetet küld vissza a feladónak. Így a feladó is egy kimenetet kap visszajáróként, függetlenül attól, hogy kettő, három, vagy tíz kimenetet használt a tranzakció elküldéséhez.
 
-Kami harap ini telah menjernihkan beberapa kebingungan tentang output dan cara kerja akuntansi internal protokol, serta pengguna umum yang menghadapi masalah kebingungan saat menghadapi dana terkunci. Di artikel lain, kami akan mengeksplorasi pengelolaan output Anda untuk meminimalkan kemungkinan harus menunggu dana tidak terkunci sebelum mengirim transaksi di masa mendatang.
+Reméljük, hogy ezzel sikerült tisztáznunk néhány félreértést a kimenetekkel és a protokoll belső elszámolásának működésével kapcsolatban, valamint megmagyarázni azt a gyakori problémát, amikor a felhasználók zárolt pénzeszközökkel találkoznak. Egy másik cikkben megvizsgáljuk azt is, hogyan érdemes a kimeneteket kezelni annak érdekében, hogy minimálisra csökkentsük annak esélyét, hogy a jövőbeni tranzakciók elküldése előtt várni kelljen a feloldott pénzeszközökre.
 
-Bacaan lebih lanjut
+További olvasnivaló
 
-  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies/)
+  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies)/
 
-  * [Ring signature Monero vs CoinJoin seperti di Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Mengapa (dan bagaimana!) Anda harus memegang kunci Anda sendiri](/knowledge/hold-your-keys/)
+  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys)/
 
-  * [Berkontribusi kembali ke Monero](/knowledge/contributing-to-monero/)
+  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero)/
 
-  * [Bagaimana node jarak jauh memengaruhi privasi Monero](/knowledge/remote-nodes-privacy/)
+  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy)/
 
-  * [Bagaimana Monero menggunakan hard-fork untuk memutakhirkan jaringan](/knowledge/network-upgrades/)
+  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades)/
 
-  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Apa yang Akan Dilakukannya untuk Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero)/
 
-  * [Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?](/knowledge/most-private-way-to-buy-monero/)
+  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup/)
+  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup)/
 
-  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value)/
 
-  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect/)
+  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect)/
 
-  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking/)
+  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking)/
 
-  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams/)
+  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams)/
 
-  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps/)
+  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps)/
 
-  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking/)
+  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking)/
 
-  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct/)
+  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct)/
 
-  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses/)
+  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses)/
 
-  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses/)
+  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses)/
 
-  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices/)
+  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices)/
 
-  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures/)
+  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures)/
 
-  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size/)
+  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size)/
 
-  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag/)
+  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag)/
 
-  * [Mengapa Monero Memiliki Tail Emission](/knowledge/monero-tail-emission/)
+  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission)/
 
-  * [Sejarah Singkat Monero](/knowledge/monero-history/)
+  * [A Monero rövid története](/knowledge/monero-history)/
 
-  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked/)
+  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Mitos dan Kekhawatiran Monero Terbantahkan](/knowledge/monero-myths-debunked/)
+  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked)/
 
-  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion/)
+  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion)/
 
-  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx/)
+  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx)/
 
-  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better/)
+  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better)/
+
+További olvasnivaló

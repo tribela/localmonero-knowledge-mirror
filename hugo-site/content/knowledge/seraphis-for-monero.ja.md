@@ -8,8 +8,12 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: Monero トランザクションのモジュール設計のアップグレード
 
+## Seraphis: Monero トランザクションのモジュール設計のアップグレード
+
 この投稿では、[Seraphis](https://github.com/UkoeHB/Seraphis) について説明します。[Seraphis](https://github.com/UkoeHB/Seraphis) は、匿名の研究貢献者 [`koe`](https://github.com/UkoeHB) によって Monero エコシステムのために開発された一連のトランザクション プロトコル構造と抽象化であり、進行中のセキュリティ分析も含まれています。匿名の寄稿者 [`coinstudent2048`](https://github.com/coinstudent2048).  
 わかりやすくするために、いくつかの簡略化を行い、特定の技術的な詳細を省略しています。この理由と、Seraphis の設計はまだ進行中であるため、関心のある読者は最新情報について Seraphis のドキュメントを参照する必要があります。
+
+## モネロでの取引
 
 ## モネロでの取引
 
@@ -49,8 +53,12 @@ RingCT プロトコルの有用な特性は、一部のビルディング ブロ
 
 ## セラフィス
 
+## セラフィス
+
 Seraphis はこのアイデアをさらに一歩進めます。  
 既存の RingCT トランザクション プロトコルの個々のビルディング ブロックを更新するのではなく、さまざまなビルディング ブロックを利用して機能を改善できる別のプロトコルを導入します。
+
+## ビルディングブロック
 
 ## ビルディングブロック
 
@@ -69,6 +77,8 @@ RingCT はリンク タグをあいまいな署名に焼き付けるため、署
 幸いなことに、Seraphis に必要なビルディング ブロックの一部は既に別の場所に存在しており、ゼロから設計する必要はありません。 Bulletproofs と Bulletproofs+ の両方の構造を範囲証明として使用できます。 Schnorr タイプの証明システムへの変更は、証明の承認に使用できます。 また、効率的な[証明システム](https://eprint.iacr.org/2015/643)は、トリプティク、[レランタス](https://eprint.iacr.org/2019/373)、および[スパーク](https://eprint.iacr.org/2021/1173)*の基礎としてすでに使用されており、メンバーシップ証明のために変更できます。
 
 * Cypher Stack は Spark 開発のための資金を受け取ります。
+
+## アドレッシング
 
 ## アドレッシング
 
@@ -92,70 +102,74 @@ Seraphis アドレス指定構造はこれを解決できます。 Seraphis で�
 
 ## 大きな絵
 
+## 大きな絵
+
 Seraphis は Monero エコシステムの大きな変化です。 アドレスとトランザクション ビルディング ブロックの変更が必要ですが、その設計は、今日の RingCT プロトコルでは不可能な柔軟性と便利な機能を提供します。 設計の大部分が最終化され、[実装](https://github.com/UkoeHB/monero/tree/seraphis_lib)に発展している間、アドレス設計とセキュリティ分析が進行中です。 Seraphis は、Monero エコシステムを前進させる絶好の機会を提供します!
 
 参考文献
 
-  * [Monero が独自に循環型経済を実現する方法](/knowledge/monero-circular-economies/)
+  * [Monero が独自に循環型経済を実現する方法](/knowledge/monero-circular-economies)/
 
-  * [モネロのリング署名とWasabiのような CoinJoin の比較](/knowledge/ring-signatures-vs-coinjoin/)
+  * [モネロのリング署名とWasabiのような CoinJoin の比較](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [なぜ (そしてどのように!) 自分の鍵を保持する必要があるのか](/knowledge/hold-your-keys/)
+  * [なぜ (そしてどのように!) 自分の鍵を保持する必要があるのか](/knowledge/hold-your-keys)/
 
-  * [モネロへの寄付](/knowledge/contributing-to-monero/)
+  * [モネロへの寄付](/knowledge/contributing-to-monero)/
 
-  * [リモートノードが Monero のプライバシーに与える影響](/knowledge/remote-nodes-privacy/)
+  * [リモートノードが Monero のプライバシーに与える影響](/knowledge/remote-nodes-privacy)/
 
-  * [Monero がハードフォークを使用してネットワークをアップグレードする方法](/knowledge/network-upgrades/)
+  * [Monero がハードフォークを使用してネットワークをアップグレードする方法](/knowledge/network-upgrades)/
 
-  * [タグを表示: 1 バイトで Monero ウォレットの同期時間を 40% 以上短縮する方法](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [タグを表示: 1 バイトで Monero ウォレットの同期時間を 40% 以上短縮する方法](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool と Monero マイニングの分散化におけるその役割](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool と Monero マイニングの分散化におけるその役割](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [ビットコインをモネロに変換することは、モネロを直接購入することと同じくらいプライベートですか?](/knowledge/most-private-way-to-buy-monero/)
+  * [ビットコインをモネロに変換することは、モネロを直接購入することと同じくらいプライベートですか?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Monero が Zcash とは異なりトラストレス設定を使用する理由](/knowledge/monero-trustless-setup/)
+  * [Monero が Zcash とは異なりトラストレス設定を使用する理由](/knowledge/monero-trustless-setup)/
 
-  * [モネロがビットコインより優れた価値の保存手段である理由](/knowledge/monero-better-store-of-value/)
+  * [モネロがビットコインより優れた価値の保存手段である理由](/knowledge/monero-better-store-of-value)/
 
-  * [モネロがビットコインのネットワーク効果を克服する方法](/knowledge/network-effect/)
+  * [モネロがビットコインのネットワーク効果を克服する方法](/knowledge/network-effect)/
 
-  * [モネロが最も批判的思考のコミュニティを持っている理由](/knowledge/critical-thinking/)
+  * [モネロが最も批判的思考のコミュニティを持っている理由](/knowledge/critical-thinking)/
 
-  * [モネロを使用する際に注意すべき詐欺](/knowledge/monero-scams/)
+  * [モネロを使用する際に注意すべき詐欺](/knowledge/monero-scams)/
 
-  * [モネロでアトミックスワップがどのように機能するか](/knowledge/monero-atomic-swaps/)
+  * [モネロでアトミックスワップがどのように機能するか](/knowledge/monero-atomic-swaps)/
 
-  * [ネットワーキングに関してすべての Monero ユーザーが知っておくべきこと](/knowledge/monero-networking/)
+  * [ネットワーキングに関してすべての Monero ユーザーが知っておくべきこと](/knowledge/monero-networking)/
 
-  * [RingCT がモネロの取引金額を隠す方法](/knowledge/monero-ringct/)
+  * [RingCT がモネロの取引金額を隠す方法](/knowledge/monero-ringct)/
 
-  * [Monero ステルス アドレスが個人情報を保護する方法](/knowledge/monero-stealth-addresses/)
+  * [Monero ステルス アドレスが個人情報を保護する方法](/knowledge/monero-stealth-addresses)/
 
-  * [Monero のサブアドレスが ID リンクを防止するしくみ](/knowledge/monero-subaddresses/)
+  * [Monero のサブアドレスが ID リンクを防止するしくみ](/knowledge/monero-subaddresses)/
 
-  * [モネロのアウトプットの説明](/knowledge/monero-outputs/)
+  * [モネロのアウトプットの説明](/knowledge/monero-outputs)/
 
-  * [初心者のためのモネロのベストプラクティス](/knowledge/monero-best-practices/)
+  * [初心者のためのモネロのベストプラクティス](/knowledge/monero-best-practices)/
 
-  * [リング署名がMoneroの出力を覆い隠す方法](/knowledge/ring-signatures/)
+  * [リング署名がMoneroの出力を覆い隠す方法](/knowledge/ring-signatures)/
 
-  * [Monero がビットコインを悩ませているブロックサイズの問題をどのように解決したか](/knowledge/dynamic-block-size/)
+  * [Monero がビットコインを悩ませているブロックサイズの問題をどのように解決したか](/knowledge/dynamic-block-size)/
 
-  * [CLSAG がモネロの効率を改善する方法](/knowledge/what-is-clsag/)
+  * [CLSAG がモネロの効率を改善する方法](/knowledge/what-is-clsag)/
 
-  * [モネロにテールエミッションがある理由](/knowledge/monero-tail-emission/)
+  * [モネロにテールエミッションがある理由](/knowledge/monero-tail-emission)/
 
-  * [モネロの簡単な歴史](/knowledge/monero-history/)
+  * [モネロの簡単な歴史](/knowledge/monero-history)/
 
-  * [ワイアード・マガジンはモネロについて間違っている、その理由はここにある](/knowledge/wired-article-debunked/)
+  * [ワイアード・マガジンはモネロについて間違っている、その理由はここにある](/knowledge/wired-article-debunked)/
 
-  * [トップ15のモネロの神話と懸念が暴かれる](/knowledge/monero-myths-debunked/)
+  * [トップ15のモネロの神話と懸念が暴かれる](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion++ が Monero のトランザクションの起点を非公開にする方法](/knowledge/monero-dandelion/)
+  * [Dandelion++ が Monero のトランザクションの起点を非公開にする方法](/knowledge/monero-dandelion)/
 
-  * [モネロがオープンソースで分散化されている理由](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [モネロがオープンソースで分散化されている理由](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero マイニング: RandomX が特別な理由](/knowledge/monero-mining-randomx/)
+  * [Monero マイニング: RandomX が特別な理由](/knowledge/monero-mining-randomx)/
 
-  * [Monero が Dash、Zcash、Zcoin (Lelantus を使用しても)、Grin、およびWasabi のような Bitcoin ミキサーよりも優れている理由 (2020 年 5 月更新)](/knowledge/why-monero-is-better/)
+  * [Monero が Dash、Zcash、Zcoin (Lelantus を使用しても)、Grin、およびWasabi のような Bitcoin ミキサーよりも優れている理由 (2020 年 5 月更新)](/knowledge/why-monero-is-better)/
+
+参考文献

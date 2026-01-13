@@ -10,21 +10,39 @@ image_credit_url: "https://cypherstack.com"
 
 とはいえ、モネロに対しては、時代遅れまたは不正確な一般的な批判がいくつかありますが、問題となっている問題について非常に狭い見方を示している人もいます。この記事では、これらの批判の記録を正したいと考えています。
 
-  1. [モネロは、取引におけるプライバシーと匿名性への取り組みにより、他の暗号通貨をはるかに超えて規制当局の精査に直面することになります。](/knowledge/monero-myths-debunked#1/)
-  2. [モネロはウォレットの選択肢が少ない。](/knowledge/monero-myths-debunked#2/)
-  3. [Monero のユーザー エクスペリエンスは貧弱です。](/knowledge/monero-myths-debunked#3/)
-  4. [より人気のあるブロックチェーンが強力なプライバシー技術を採用した場合、Monero は時代遅れになります。](/knowledge/monero-myths-debunked#4/)
-  5. [モネロの取引手数料は高くないですか？](/knowledge/monero-myths-debunked#5/)
-  6. [Monero のトランザクションは、Bitcoin のトランザクションよりも何倍も大きくなります。](/knowledge/monero-myths-debunked#6/)
-  7. [モネロは頻繁にハードフォークします。これは中央集権化されているという意味ではありませんか？](/knowledge/monero-myths-debunked#7/)
-  8. [fluffypony専用コインです！](/knowledge/monero-myths-debunked#8/)
-  9. [2017 年以降のコミットの大部分は、moneromooo-monero として知られる個人によるものです](/knowledge/monero-myths-debunked#9/)
-  10. [モネロは簡単に 51% 攻撃されませんか?](/knowledge/monero-myths-debunked#10/)
-  11. [CPUフレンドリーなアルゴリズム？モネロのマイニングがボットネットに乗っ取られてしまうのではないか?](/knowledge/monero-myths-debunked#11/)
-  12. [Monero のフォークは、Monero の経済的実行可能性を損なうだけでなく、そのプライバシーを損ないます!](/knowledge/monero-myths-debunked#12/)
-  13. [モネロには、創設者を豊かにするために使用された初期の不自由なマイナーがいなかったのですか?](/knowledge/monero-myths-debunked#13/)
-  14. [Monero が非常にプライベートである場合、無料の Monero が私たちの目の前で印刷されていないことを確認するために、どうすれば供給を監査できるでしょうか?](/knowledge/monero-myths-debunked#14/)
-  15. [Monero の現在のハッシュレートのほとんどは、わずか 2 つのプールからのものです。](/knowledge/monero-myths-debunked#15/)
+  1. [モネロは、取引におけるプライバシーと匿名性への取り組みにより、他の暗号通貨をはるかに超えて規制当局の精査に直面することになります。](/knowledge/monero-myths-debunked#1)/
+  2. [モネロはウォレットの選択肢が少ない。](/knowledge/monero-myths-debunked#2)/
+  3. [Monero のユーザー エクスペリエンスは貧弱です。](/knowledge/monero-myths-debunked#3)/
+  4. [より人気のあるブロックチェーンが強力なプライバシー技術を採用した場合、Monero は時代遅れになります。](/knowledge/monero-myths-debunked#4)/
+  5. [モネロの取引手数料は高くないですか？](/knowledge/monero-myths-debunked#5)/
+  6. [Monero のトランザクションは、Bitcoin のトランザクションよりも何倍も大きくなります。](/knowledge/monero-myths-debunked#6)/
+  7. [モネロは頻繁にハードフォークします。これは中央集権化されているという意味ではありませんか？](/knowledge/monero-myths-debunked#7)/
+  8. [fluffypony専用コインです！](/knowledge/monero-myths-debunked#8)/
+  9. [2017 年以降のコミットの大部分は、moneromooo-monero として知られる個人によるものです](/knowledge/monero-myths-debunked#9)/
+  10. [モネロは簡単に 51% 攻撃されませんか?](/knowledge/monero-myths-debunked#10)/
+  11. [CPUフレンドリーなアルゴリズム？モネロのマイニングがボットネットに乗っ取られてしまうのではないか?](/knowledge/monero-myths-debunked#11)/
+  12. [Monero のフォークは、Monero の経済的実行可能性を損なうだけでなく、そのプライバシーを損ないます!](/knowledge/monero-myths-debunked#12)/
+  13. [モネロには、創設者を豊かにするために使用された初期の不自由なマイナーがいなかったのですか?](/knowledge/monero-myths-debunked#13)/
+  14. [Monero が非常にプライベートである場合、無料の Monero が私たちの目の前で印刷されていないことを確認するために、どうすれば供給を監査できるでしょうか?](/knowledge/monero-myths-debunked#14)/
+  15. [Monero の現在のハッシュレートのほとんどは、わずか 2 つのプールからのものです。](/knowledge/monero-myths-debunked#15)/
+
+  1. [モネロは、取引におけるプライバシーと匿名性への取り組みにより、他の暗号通貨をはるかに超えて規制当局の精査に直面することになります。](/knowledge/monero-myths-debunked#1)/
+  2. [モネロはウォレットの選択肢が少ない。](/knowledge/monero-myths-debunked#2)/
+  3. [Monero のユーザー エクスペリエンスは貧弱です。](/knowledge/monero-myths-debunked#3)/
+  4. [より人気のあるブロックチェーンが強力なプライバシー技術を採用した場合、Monero は時代遅れになります。](/knowledge/monero-myths-debunked#4)/
+  5. [モネロの取引手数料は高くないですか？](/knowledge/monero-myths-debunked#5)/
+  6. [Monero のトランザクションは、Bitcoin のトランザクションよりも何倍も大きくなります。](/knowledge/monero-myths-debunked#6)/
+  7. [モネロは頻繁にハードフォークします。これは中央集権化されているという意味ではありませんか？](/knowledge/monero-myths-debunked#7)/
+  8. [fluffypony専用コインです！](/knowledge/monero-myths-debunked#8)/
+  9. [2017 年以降のコミットの大部分は、moneromooo-monero として知られる個人によるものです](/knowledge/monero-myths-debunked#9)/
+  10. [モネロは簡単に 51% 攻撃されませんか?](/knowledge/monero-myths-debunked#10)/
+  11. [CPUフレンドリーなアルゴリズム？モネロのマイニングがボットネットに乗っ取られてしまうのではないか?](/knowledge/monero-myths-debunked#11)/
+  12. [Monero のフォークは、Monero の経済的実行可能性を損なうだけでなく、そのプライバシーを損ないます!](/knowledge/monero-myths-debunked#12)/
+  13. [モネロには、創設者を豊かにするために使用された初期の不自由なマイナーがいなかったのですか?](/knowledge/monero-myths-debunked#13)/
+  14. [Monero が非常にプライベートである場合、無料の Monero が私たちの目の前で印刷されていないことを確認するために、どうすれば供給を監査できるでしょうか?](/knowledge/monero-myths-debunked#14)/
+  15. [Monero の現在のハッシュレートのほとんどは、わずか 2 つのプールからのものです。](/knowledge/monero-myths-debunked#15)/
+
+## 1\. モネロは、取引におけるプライバシーと匿名性への取り組みにより、他の暗号通貨をはるかに超えて規制当局の精査に直面することになります。
 
 ## 1\. モネロは、取引におけるプライバシーと匿名性への取り組みにより、他の暗号通貨をはるかに超えて規制当局の精査に直面することになります。
 
@@ -40,9 +58,13 @@ Bitcoin の評判が変わったのは、Bitcoin が非公開でも匿名でも�
 
 ## 2\. モネロはウォレットの選択肢が少ない。
 
+## 2\. モネロはウォレットの選択肢が少ない。
+
 Monero は実際、多くの既存のコインよりもウォレットのオプションが少なくなっています。これは、Monero がゼロから開発されたためです。ビットコインとはまったく異なるコードベースです。これは、Monero がビットコインのコア ウォレットや、ほとんどのコインのようにビットコイン用に存在する他のウォレットをフォークして、既存のインフラストラクチャを利用することができないことを意味します。同様に、Monero が Exodus などのサードパーティのウォレットに簡単に追加されないことも意味します
 
 それでも、ゆっくりと、しかし確実に、あらゆる種類のウォレットがモネロに登場し始めています. Monero が GUI を持たず、モバイル ウォレットをサポートしていないことは、何年もの間、噂の的でした。 Android 向けの Monerujo、iOS と Android 向けの Cake Wallet など、Monero に特化したウォレットのほか、Wookey、Exa Wallet などの新しいウォレットもあります。さらに、Exodus や Guarda など、サード パーティのウォレットが Monero を追加し始めています
+
+## 3\. Monero のユーザー エクスペリエンスは貧弱です。
 
 ## 3\. Monero のユーザー エクスペリエンスは貧弱です。
 
@@ -59,6 +81,8 @@ Monero を使用すると、この複雑な詳細リストはすべてほぼ完�
 Monero を使用すると、この複雑な詳細リストはすべてほぼ完全に取り除かれます。すべての Monero トランザクションは、ユーザーが何かをしたり、外部ソフトウェアを使用したりする必要なく、常に高レベルのプライバシーを保持します。ビットコインは、最も経験豊富なユーザーを除いて、すべての人がプライバシーを正しく理解することを困難にしますが、モネロは常に、すべての人にとってプライバシーを正しく理解することを困難にします。トレードオフに関する限り、より長いアドレスと同期時間はそれだけの価値があると考えています。
 
 そして、上記のすべてを議論した後でも、ユーザー エクスペリエンスは時間の経過とともに向上することが多いという事実が残っており、Monero も例外ではありません。コインのUXは数年後に劇的に改善されるかもしれませんが、その基盤を変えるのははるかに困難です。
+
+## 4\. より人気のあるブロックチェーンが強力なプライバシー技術を採用した場合、Monero は時代遅れになります。
 
 ## 4\. より人気のあるブロックチェーンが強力なプライバシー技術を採用した場合、Monero は時代遅れになります。
 
@@ -82,6 +106,8 @@ Monero を使用すると、この複雑な詳細リストはすべてほぼ完�
 
 ## 5\. モネロの取引手数料は高くないですか？
 
+## 5\. モネロの取引手数料は高くないですか？
+
 もうそうではありません！ 2018 年 10 月に追加された防弾の驚異的な技術のおかげで、トランザクション サイズが大幅に縮小され (80% 以上)、トランザクション手数料も同様に低下しました。実際、この記事の執筆時点では、Monero はビットコインよりも 1 バイトあたりの価格が安く、テクノロジーのさらなる最適化により、これらの価格はさらに低くなっています。
 
 これらの最適化はさまざまで頻繁に行われます。 1 つの例は、防弾自体の巧妙な最適化であり、計算と検証の両方に必要な計算を、場合によっては最大 25% 縮小します。
@@ -89,6 +115,10 @@ Monero を使用すると、この複雑な詳細リストはすべてほぼ完�
 さらに、現在の MLSAG スキームを置き換え、トランザクション全体のサイズをさらに 25 ～ 35% 縮小する CLSAG など、新しいエキサイティングなリング署名スキームが進行中です。これを超えて、現在のトランザクションサイズを維持する可能性を秘めた、完全に異なる証明システムを備えたさらに新しく、より最先端のテクノロジーがありますが、Triptych、Arcturus、および Lelantus など、リングサイズは 100 を超えています。現在のスキームよりも効率的です。
 
 ## 6\. Monero のトランザクションは、Bitcoin のトランザクションよりも何倍も大きくなります。
+
+## 6\. Monero のトランザクションは、Bitcoin のトランザクションよりも何倍も大きくなります。
+
+## 7\. モネロは頻繁にハードフォークします。これは中央集権化されているという意味ではありませんか？
 
 ## 7\. モネロは頻繁にハードフォークします。これは中央集権化されているという意味ではありませんか？
 
@@ -102,9 +132,13 @@ PoW 変更前のハード フォークの主な例は、2017 年の RingCT の�
 
 ## 8\. fluffypony専用コインです！
 
+## 8\. fluffypony専用コインです！
+
 これは、Riccardo 'fluffypony' Spagni のコインではありません。彼はそれさえしませんでした。これは、Thanks_for_today として知られる仮名の個人によって始められたもので、それについては別の機会に非常に興味深い話があります。 Fluffypony は、コインの成長を支援するために多くの時間とリソースを提供し、旅行やカンファレンスでの講演を通じて、コア チーム メンバー/リード メンテナーの両方として悪名を馳せました。これらの 2 つの要素が組み合わさって、彼は一種の Monero の非公式の顔になり、人々が私たちを見つけるための入り口になりました。暗号通貨のシーンに蔓延していたひどい CEO 文化のために、彼らは彼が Monero の創設者でありリーダーであると想定していましたが、どちらも真実ではありません。
 
 現在、flushpony は依然としてコア チームの一員ですが、コードベースのリード メンテナーではなく、自分の個人的なプロジェクトに取り組むために退きました。モネロは順調に進んでいます。
+
+## 9\. 2017 年以降のコミットの大部分は、moneromooo-monero として知られる個人によるものです
 
 ## 9\. 2017 年以降のコミットの大部分は、moneromooo-monero として知られる個人によるものです
 
@@ -113,6 +147,8 @@ PoW 変更前のハード フォークの主な例は、2017 年の RingCT の�
 ご想像のとおり、ボランティア ベースではなくフルタイムで Monero に取り組むと、大量の作業が蓄積されます。 Monero にはプレマインや ICO がなく、創業者の報酬も受けていないため、プロジェクトに専任のエンジニアをフルタイムの労働者を上回る配置することはできません。
 
 とはいえ、抑制と均衡を維持するための多大な努力がまだあります。コア チームのメンバーはレビュー後にコードをマージします。そのため、個人がコードの作成と統合の両方を行うことはありません。これにより、重大なエラーや悪意を検出するために必要な監視が回避されます。
+
+## 10\. モネロは簡単に 51% 攻撃されませんか?
 
 ## 10\. モネロは簡単に 51% 攻撃されませんか?
 
@@ -126,6 +162,8 @@ Monero ネットワークを 51% 攻撃するためのハードウェアの正�
 
 ## 11\. CPUフレンドリーなアルゴリズム？モネロのマイニングがボットネットに乗っ取られてしまうのではないか?
 
+## 11\. CPUフレンドリーなアルゴリズム？モネロのマイニングがボットネットに乗っ取られてしまうのではないか?
+
 マイニングの世界では、ASICとボットネットという2つのブギーマンがあり、一方から離れるということは、必然的にもう一方に近づくことを意味します。Monero をマイニングするために CPU が必要な場合、ハッカーは理論的には数千とは言わないまでも数百の脆弱なコンピューターを制御し、彼らに代わって Monero をマイニングするように強制することができます。 
 
 この議論に対する最初の反論は、ボットネット自体の所有者に関するものです。他人のコンピューターをハッキングすることは容認しませんが、ボットネットを所有して運用することへの参入障壁は、ASIC を所有する場合よりもはるかに低くなります。ソフトウェア (多くの場合、非常に自由に入手できるオープン ソース) と、脆弱なコンピューターを探知するための時間と洞察力が必要です。もう1つは、信じられないほどの資本と製造へのアクセスを必要とします。 1つは地下室の子供ができることで、もう1つは非常に裕福な人だけができることです。これにより、マイナーの最悪の懸念が現実のものとなった場合、ボットネット自体は ASIC よりも分散化されていると結論付けられます。
@@ -133,6 +171,8 @@ Monero ネットワークを 51% 攻撃するためのハードウェアの正�
 とはいえ、Monero コミュニティは、この問題が誇張されていると確信しています。 RandomX のエンジニアは、動作に 2GB の RAM メモリを必要とするプロトコルを意図的に設計しました。言い換えれば、小規模で脆弱な仮想プライベート サーバー (VPS) の多くは容量が不足しており、容量が不足している場合、使用されるリソースの増加はシステム管理者にとって非常に重要であり、すぐに調査が必要になります。つまり、侵入されたコンピューターが DDOS 攻撃に参加したり、パスワードを静かに盗聴したりするように、バックグラウンドで静かに実行することはできません。マイナーがオンになっているときは、誰もがそれを知っています。
 
 これにより、この議論の支持者が危険にさらされていると想定している脆弱なコンピューターの過多ではなく、ボットネットが侵害に成功できるコンピューターの数が、技術的に非常に無能なコンピューター、またはチェックされていないコンピューターの数に減少します。 
+
+## 12\. Monero のフォークは、Monero の経済的実行可能性を損なうだけでなく、そのプライバシーを損ないます!
 
 ## 12\. Monero のフォークは、Monero の経済的実行可能性を損なうだけでなく、そのプライバシーを損ないます!
 
@@ -162,6 +202,8 @@ Monero のプライバシーに対する攻撃も同じように機能します�
 
 ## 13\. モネロには、創設者を豊かにするために使用された初期の不自由なマイナーがいなかったのですか?
 
+## 13\. モネロには、創設者を豊かにするために使用された初期の不自由なマイナーがいなかったのですか?
+
 Monero の歴史は興味深いものであり、実際に詐欺として始まったと聞いて多くの人が驚くかもしれません。作成者、Thanks_for_today は、CryptoNote プロトコルを作成した暗号通貨グループと同盟を結んでいた可能性がありますが、それを使用して人々からお金をだまし取る悪意を持っていました。
 
 彼らの最初のコインの試みは失敗したため、彼らは再試行する方法として Monero を作成しました。コミュニティが何かがおかしいことにすぐに気づき、コインを手に入れたため、これも失敗しました。それでも、悪意のある作成者は、最後のトリックを 1 つ隠していました。彼らは意図的に非最適化されたマイニング ソフトウェアを一般に公開し、最適化されたバージョンを自分たちのために維持して、他者を打ち負かし、ブロックの報酬から多くのお金を稼ぎました。
@@ -174,11 +216,15 @@ Monero の歴史は興味深いものであり、実際に詐欺として始ま�
 
 ## 14\. Monero が非常にプライベートである場合、無料の Monero が私たちの目の前で印刷されていないことを確認するために、どうすれば供給を監査できるでしょうか?
 
+## 14\. Monero が非常にプライベートである場合、無料の Monero が私たちの目の前で印刷されていないことを確認するために、どうすれば供給を監査できるでしょうか?
+
 これは答えるのが難しい質問です。よくある答えの 1 つは、コインベースのトランザクションを足し合わせることができるというものです (新しいモネロが、ブロックを解決したマイナーに報酬を与える場合)。これらのトランザクションは透過的であり、それらを合計すると、流通しているモネロの総数が得られるはずです.
 
 ただし、コインベースのトランザクションから予想される以上にモネロの量を増やすような悪ふざけが発生した場合、それらはコインベースのトランザクション自体ではなく、ウォレット間の通常のトランザクションで発生することに注意してください。これは、3 つの方法のいずれかでのみ発生します。
 
 トランザクションで Monero が作成または破棄されなかったことを証明する暗号化に根本的な欠陥がある場合。 2 つ目は、堅実な暗号化の実装 (コード) に欠陥がある場合です。 3 つ目は、どちらにも欠陥がない場合ですが、コンピューターは現在の暗号スキームを突き破り、偽の証拠を作成するのに十分なほど強力になります。
+
+## 15\. Monero の現在のハッシュレートのほとんどは、わずか 2 つのプールからのものです。
 
 ## 15\. Monero の現在のハッシュレートのほとんどは、わずか 2 つのプールからのものです。
 
@@ -226,66 +272,68 @@ Monero の歴史は興味深いものであり、実際に詐欺として始ま�
 
 参考文献
 
-  * [Monero が独自に循環型経済を実現する方法](/knowledge/monero-circular-economies/)
+  * [Monero が独自に循環型経済を実現する方法](/knowledge/monero-circular-economies)/
 
-  * [モネロのリング署名とWasabiのような CoinJoin の比較](/knowledge/ring-signatures-vs-coinjoin/)
+  * [モネロのリング署名とWasabiのような CoinJoin の比較](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [なぜ (そしてどのように!) 自分の鍵を保持する必要があるのか](/knowledge/hold-your-keys/)
+  * [なぜ (そしてどのように!) 自分の鍵を保持する必要があるのか](/knowledge/hold-your-keys)/
 
-  * [モネロへの寄付](/knowledge/contributing-to-monero/)
+  * [モネロへの寄付](/knowledge/contributing-to-monero)/
 
-  * [リモートノードが Monero のプライバシーに与える影響](/knowledge/remote-nodes-privacy/)
+  * [リモートノードが Monero のプライバシーに与える影響](/knowledge/remote-nodes-privacy)/
 
-  * [Monero がハードフォークを使用してネットワークをアップグレードする方法](/knowledge/network-upgrades/)
+  * [Monero がハードフォークを使用してネットワークをアップグレードする方法](/knowledge/network-upgrades)/
 
-  * [タグを表示: 1 バイトで Monero ウォレットの同期時間を 40% 以上短縮する方法](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [タグを表示: 1 バイトで Monero ウォレットの同期時間を 40% 以上短縮する方法](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool と Monero マイニングの分散化におけるその役割](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool と Monero マイニングの分散化におけるその役割](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [セラフィス: モネロに何をもたらすか](/knowledge/seraphis-for-monero/)
+  * [セラフィス: モネロに何をもたらすか](/knowledge/seraphis-for-monero)/
 
-  * [ビットコインをモネロに変換することは、モネロを直接購入することと同じくらいプライベートですか?](/knowledge/most-private-way-to-buy-monero/)
+  * [ビットコインをモネロに変換することは、モネロを直接購入することと同じくらいプライベートですか?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Monero が Zcash とは異なりトラストレス設定を使用する理由](/knowledge/monero-trustless-setup/)
+  * [Monero が Zcash とは異なりトラストレス設定を使用する理由](/knowledge/monero-trustless-setup)/
 
-  * [モネロがビットコインより優れた価値の保存手段である理由](/knowledge/monero-better-store-of-value/)
+  * [モネロがビットコインより優れた価値の保存手段である理由](/knowledge/monero-better-store-of-value)/
 
-  * [モネロがビットコインのネットワーク効果を克服する方法](/knowledge/network-effect/)
+  * [モネロがビットコインのネットワーク効果を克服する方法](/knowledge/network-effect)/
 
-  * [モネロが最も批判的思考のコミュニティを持っている理由](/knowledge/critical-thinking/)
+  * [モネロが最も批判的思考のコミュニティを持っている理由](/knowledge/critical-thinking)/
 
-  * [モネロを使用する際に注意すべき詐欺](/knowledge/monero-scams/)
+  * [モネロを使用する際に注意すべき詐欺](/knowledge/monero-scams)/
 
-  * [モネロでアトミックスワップがどのように機能するか](/knowledge/monero-atomic-swaps/)
+  * [モネロでアトミックスワップがどのように機能するか](/knowledge/monero-atomic-swaps)/
 
-  * [ネットワーキングに関してすべての Monero ユーザーが知っておくべきこと](/knowledge/monero-networking/)
+  * [ネットワーキングに関してすべての Monero ユーザーが知っておくべきこと](/knowledge/monero-networking)/
 
-  * [RingCT がモネロの取引金額を隠す方法](/knowledge/monero-ringct/)
+  * [RingCT がモネロの取引金額を隠す方法](/knowledge/monero-ringct)/
 
-  * [Monero ステルス アドレスが個人情報を保護する方法](/knowledge/monero-stealth-addresses/)
+  * [Monero ステルス アドレスが個人情報を保護する方法](/knowledge/monero-stealth-addresses)/
 
-  * [Monero のサブアドレスが ID リンクを防止するしくみ](/knowledge/monero-subaddresses/)
+  * [Monero のサブアドレスが ID リンクを防止するしくみ](/knowledge/monero-subaddresses)/
 
-  * [モネロのアウトプットの説明](/knowledge/monero-outputs/)
+  * [モネロのアウトプットの説明](/knowledge/monero-outputs)/
 
-  * [初心者のためのモネロのベストプラクティス](/knowledge/monero-best-practices/)
+  * [初心者のためのモネロのベストプラクティス](/knowledge/monero-best-practices)/
 
-  * [リング署名がMoneroの出力を覆い隠す方法](/knowledge/ring-signatures/)
+  * [リング署名がMoneroの出力を覆い隠す方法](/knowledge/ring-signatures)/
 
-  * [Monero がビットコインを悩ませているブロックサイズの問題をどのように解決したか](/knowledge/dynamic-block-size/)
+  * [Monero がビットコインを悩ませているブロックサイズの問題をどのように解決したか](/knowledge/dynamic-block-size)/
 
-  * [CLSAG がモネロの効率を改善する方法](/knowledge/what-is-clsag/)
+  * [CLSAG がモネロの効率を改善する方法](/knowledge/what-is-clsag)/
 
-  * [モネロにテールエミッションがある理由](/knowledge/monero-tail-emission/)
+  * [モネロにテールエミッションがある理由](/knowledge/monero-tail-emission)/
 
-  * [モネロの簡単な歴史](/knowledge/monero-history/)
+  * [モネロの簡単な歴史](/knowledge/monero-history)/
 
-  * [ワイアード・マガジンはモネロについて間違っている、その理由はここにある](/knowledge/wired-article-debunked/)
+  * [ワイアード・マガジンはモネロについて間違っている、その理由はここにある](/knowledge/wired-article-debunked)/
 
-  * [Dandelion++ が Monero のトランザクションの起点を非公開にする方法](/knowledge/monero-dandelion/)
+  * [Dandelion++ が Monero のトランザクションの起点を非公開にする方法](/knowledge/monero-dandelion)/
 
-  * [モネロがオープンソースで分散化されている理由](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [モネロがオープンソースで分散化されている理由](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero マイニング: RandomX が特別な理由](/knowledge/monero-mining-randomx/)
+  * [Monero マイニング: RandomX が特別な理由](/knowledge/monero-mining-randomx)/
 
-  * [Monero が Dash、Zcash、Zcoin (Lelantus を使用しても)、Grin、およびWasabi のような Bitcoin ミキサーよりも優れている理由 (2020 年 5 月更新)](/knowledge/why-monero-is-better/)
+  * [Monero が Dash、Zcash、Zcoin (Lelantus を使用しても)、Grin、およびWasabi のような Bitcoin ミキサーよりも優れている理由 (2020 年 5 月更新)](/knowledge/why-monero-is-better)/
+
+参考文献

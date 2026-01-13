@@ -10,21 +10,39 @@ image_credit_url: "https://cypherstack.com"
 
 也就是说，其实许多常见对门罗币的批评社区早就知道并进行了相应技术升级，其批评要么已经过时，要么是杞人忧天，又或者是狭隘地对问题进行断章取义. 在本文中，我们希望为这些传言进行阐释.
 
-  1. [由于门罗币在交易中对隐私保护和匿名的属性，它将面临远超其他加密货币的监管和审查.](/knowledge/monero-myths-debunked#1/)
-  2. [门罗币的钱包比较少.](/knowledge/monero-myths-debunked#2/)
-  3. [门罗币的用户体验不好.](/knowledge/monero-myths-debunked#3/)
-  4. [如果XX币也采用强大的隐私技术，门罗币将过时和毫无用处.](/knowledge/monero-myths-debunked#4/)
-  5. [门罗币的交易费用不是很高吗？](/knowledge/monero-myths-debunked#5/)
-  6. [ 门罗币的交易数据比比特币交易大很多，不利于扩展性.](/knowledge/monero-myths-debunked#6/)
-  7. [门罗币经常硬分叉，这不是说明它是中心化的吗？](/knowledge/monero-myths-debunked#7/)
-  8. [门罗币是fluffypony开发的币，Riccardo是门罗币的CEO，门罗币有中本聪，莱特李，以太V那种灵魂人物!](/knowledge/monero-myths-debunked#8/)
-  9. [从2017年以来，代码库大多数提交都来moneromooo-monero ](/knowledge/monero-myths-debunked#9/)
-  10. [门罗币容易受到51%算力攻击](/knowledge/monero-myths-debunked#10/)
-  11. [ CPU友好算法？ 难道门罗币采矿不会被黑客僵尸网络控制吗？](/knowledge/monero-myths-debunked#11/)
-  12. [门罗币频繁分叉不仅会损害门罗币的价格，而且会损害其隐私性!](/knowledge/monero-myths-debunked#12/)
-  13. [早期挖门罗币的创始人们都暴富了吧？](/knowledge/monero-myths-debunked#13/)
-  14. [如果门罗币如此隐私，我们如何审计供应总量，以确保没有人在我们的眼皮子底下，利用未知的黑客漏洞免费印刷门罗币？](/knowledge/monero-myths-debunked#14/)
-  15. [ 门罗币当前的大多数挖矿的哈希值仅来自两个矿池.](/knowledge/monero-myths-debunked#15/)
+  1. [由于门罗币在交易中对隐私保护和匿名的属性，它将面临远超其他加密货币的监管和审查.](/knowledge/monero-myths-debunked#1)/
+  2. [门罗币的钱包比较少.](/knowledge/monero-myths-debunked#2)/
+  3. [门罗币的用户体验不好.](/knowledge/monero-myths-debunked#3)/
+  4. [如果XX币也采用强大的隐私技术，门罗币将过时和毫无用处.](/knowledge/monero-myths-debunked#4)/
+  5. [门罗币的交易费用不是很高吗？](/knowledge/monero-myths-debunked#5)/
+  6. [ 门罗币的交易数据比比特币交易大很多，不利于扩展性.](/knowledge/monero-myths-debunked#6)/
+  7. [门罗币经常硬分叉，这不是说明它是中心化的吗？](/knowledge/monero-myths-debunked#7)/
+  8. [门罗币是fluffypony开发的币，Riccardo是门罗币的CEO，门罗币有中本聪，莱特李，以太V那种灵魂人物!](/knowledge/monero-myths-debunked#8)/
+  9. [从2017年以来，代码库大多数提交都来moneromooo-monero ](/knowledge/monero-myths-debunked#9)/
+  10. [门罗币容易受到51%算力攻击](/knowledge/monero-myths-debunked#10)/
+  11. [ CPU友好算法？ 难道门罗币采矿不会被黑客僵尸网络控制吗？](/knowledge/monero-myths-debunked#11)/
+  12. [门罗币频繁分叉不仅会损害门罗币的价格，而且会损害其隐私性!](/knowledge/monero-myths-debunked#12)/
+  13. [早期挖门罗币的创始人们都暴富了吧？](/knowledge/monero-myths-debunked#13)/
+  14. [如果门罗币如此隐私，我们如何审计供应总量，以确保没有人在我们的眼皮子底下，利用未知的黑客漏洞免费印刷门罗币？](/knowledge/monero-myths-debunked#14)/
+  15. [ 门罗币当前的大多数挖矿的哈希值仅来自两个矿池.](/knowledge/monero-myths-debunked#15)/
+
+  1. [由于门罗币在交易中对隐私保护和匿名的属性，它将面临远超其他加密货币的监管和审查.](/knowledge/monero-myths-debunked#1)/
+  2. [门罗币的钱包比较少.](/knowledge/monero-myths-debunked#2)/
+  3. [门罗币的用户体验不好.](/knowledge/monero-myths-debunked#3)/
+  4. [如果XX币也采用强大的隐私技术，门罗币将过时和毫无用处.](/knowledge/monero-myths-debunked#4)/
+  5. [门罗币的交易费用不是很高吗？](/knowledge/monero-myths-debunked#5)/
+  6. [ 门罗币的交易数据比比特币交易大很多，不利于扩展性.](/knowledge/monero-myths-debunked#6)/
+  7. [门罗币经常硬分叉，这不是说明它是中心化的吗？](/knowledge/monero-myths-debunked#7)/
+  8. [门罗币是fluffypony开发的币，Riccardo是门罗币的CEO，门罗币有中本聪，莱特李，以太V那种灵魂人物!](/knowledge/monero-myths-debunked#8)/
+  9. [从2017年以来，代码库大多数提交都来moneromooo-monero ](/knowledge/monero-myths-debunked#9)/
+  10. [门罗币容易受到51%算力攻击](/knowledge/monero-myths-debunked#10)/
+  11. [ CPU友好算法？ 难道门罗币采矿不会被黑客僵尸网络控制吗？](/knowledge/monero-myths-debunked#11)/
+  12. [门罗币频繁分叉不仅会损害门罗币的价格，而且会损害其隐私性!](/knowledge/monero-myths-debunked#12)/
+  13. [早期挖门罗币的创始人们都暴富了吧？](/knowledge/monero-myths-debunked#13)/
+  14. [如果门罗币如此隐私，我们如何审计供应总量，以确保没有人在我们的眼皮子底下，利用未知的黑客漏洞免费印刷门罗币？](/knowledge/monero-myths-debunked#14)/
+  15. [ 门罗币当前的大多数挖矿的哈希值仅来自两个矿池.](/knowledge/monero-myths-debunked#15)/
+
+## 1\. 由于门罗币在交易中对隐私保护和匿名的属性，它将面临远超其他加密货币的监管和审查.
 
 ## 1\. 由于门罗币在交易中对隐私保护和匿名的属性，它将面临远超其他加密货币的监管和审查.
 
@@ -40,9 +58,13 @@ image_credit_url: "https://cypherstack.com"
 
 ## 2\. 门罗币的钱包比较少.
 
+## 2\. 门罗币的钱包比较少.
+
 的确，支持门罗币的钱包种类少于许多加密货币.这是因为门罗币是从零开始开发的.它的代码库与比特币完全不同.这意味着门罗币不能像大多数代币那样，随便分叉比特币核心钱包或其他任何已经存在的钱包，并加以利用现成的基础设施. 同样，这意味着门罗币不太容易添加到第三方钱包里，例如Exodus中.
 
 但是，慢慢地，门罗币开始出现各种钱包.几年前，门罗币没有GUI电脑钱包，有个著名的表情包就是调侃门罗币没有GUI钱包，当然那时候更没有手机移动端钱包支持门罗，但是现在，有一系列的钱包，例如Android安卓的Monerujo，iOS和Android双系统的Cake Wallet，以及Wookey钱包，Exa Wallet等十几个新钱包.此外，尽管速度较慢，但包括Exodus和Guarda在内的第三方钱包开始增加对门罗币的支持，而且我们预计这种趋势会随着时间的流逝和门罗币代码库的成熟而持续下去.
+
+## 3\. 门罗币的用户体验不好.
 
 ## 3\. 门罗币的用户体验不好.
 
@@ -55,6 +77,8 @@ image_credit_url: "https://cypherstack.com"
 使用门罗币，这个洗币和混币清单可以全部被淘汰.门罗币的交易总是高度隐私的，而用户无需执行任何操作或使用外部软件.比特币很难让所有人都享有隐私并且不出错，而门罗却很难出错，想不为所有人一直带来隐私保护都不行.所以权衡而言，我们认为更长的收款地址和更久的同步时间是值得的.
 
 虽然我们讨论了以上所有内容，事实上门罗币的用户体验会像其它币一样随着技术进步而变得更好.技术层的用户体验，像扫描速度大概率会在几年内得到显着改善，但比特币不隐私这种问题属于加密货币的基础架构，协议层很难改变.
+
+## 4\. 如果XX币也采用强大的隐私技术，门罗币将过时和毫无用处.
 
 ## 4\. 如果XX币也采用强大的隐私技术，门罗币将过时和毫无用处.
 
@@ -78,6 +102,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 5\. 门罗币的交易费用不是很高吗？
 
+## 5\. 门罗币的交易费用不是很高吗？
+
 门罗矿工费并不高，并且事实上便宜的离谱，比特币矿工费动则几十人民币，门罗只要几分钱!这一切得益于2018年10月添加的防弹协议技术，该技术是门罗币三大隐私技术环形机密的改进版，神奇地将区块链体积大大降低，比改进前减少了80％以上，所以从那时开始，门罗币交易费用也下降了95%，实际上，截至撰写本文时，门罗币的每字节价格比比特币便宜，并且新技术正在进一步优化，将使费用更低.
 
 门罗币的优化是多种多样且频繁的，开源社区每个人都可以献计献策，多方案同时进行.社区的一种新方案已经巧妙的优化防弹协议本身，将计算和验证所需的数学运算缩减多达25％.
@@ -85,6 +111,10 @@ image_credit_url: "https://cypherstack.com"
 此外，正在开发中的其它新的，令人兴奋的环签名方案至少还有两个，例如CLSAG，它将取代当前的MLSAG方案，并将整个交易的规模进一步缩小25-35％.除此之外，还有更新颖，更前沿的技术，它们具有完全不同的验证系统，可以保持当前的交易效率，但环形签名数量可超过一百个，目前是11个，环形签名和环形机密是不同的，分别保护发送人和交易金额，新技术例如有Triptych，Arcturus和Lelantus，它们都体积更小，并比当前方案更有效.
 
 ## 6\.  门罗币的交易数据比比特币交易大很多，不利于扩展性.
+
+## 6\.  门罗币的交易数据比比特币交易大很多，不利于扩展性.
+
+## 7\. 门罗币经常硬分叉，这不是说明它是中心化的吗？
 
 ## 7\. 门罗币经常硬分叉，这不是说明它是中心化的吗？
 
@@ -98,9 +128,13 @@ image_credit_url: "https://cypherstack.com"
 
 ## 8\. 门罗币是fluffypony开发的币，Riccardo是门罗币的CEO，门罗币有中本聪，莱特李，以太V那种灵魂人物!
 
+## 8\. 门罗币是fluffypony开发的币，Riccardo是门罗币的CEO，门罗币有中本聪，莱特李，以太V那种灵魂人物!
+
 这又是一个彻彻底底的谣言, 门罗币从来没有公司，领袖, 门罗也从来不是 Riccardo ‘fluffypony’ Spagni的币. 他甚至都不是门罗币的发起人. 门罗币是由一个用户名叫thankful_for_today化名个人发起的，这个门罗币发起人后来也跟社区分开了，这是另一段有趣的故事.而fluffypony作为门罗币的核心成员/首席维护者而著名，因为他花了很多时间和资源来帮助门罗币成长，并且他四处旅行，在各种会议上演讲.结合这两件事，导致他成为门罗币的一种非官方代言人，通常人们通过他而找到门罗币.由于在加密货币领域普遍存在的糟糕的CEO文化，所以人们想当然认为他是门罗币的创始人和领导者，但这两者都不是正确的.
 
 如今，fluffypony仍是核心团队的一部分，但不再是代码库的主要维护者，并且从两年前就开始退居二线的步骤，现在从事自己的个人项目.门罗币在这个过程里继续前进，感兴趣的人还是应该去看一下，门罗币六年来有大约700名程序员为代码库贡献过代码，很多人离去也很多人加入，门罗币的核心团队也并不负责技术开发，只是一个守门人的职责，所以什么是开源且去中心化，门罗就是那个唯一的社区.
+
+## 9\. 从2017年以来，代码库大多数提交都来moneromooo-monero 
 
 ## 9\. 从2017年以来，代码库大多数提交都来moneromooo-monero 
 
@@ -109,6 +143,8 @@ image_credit_url: "https://cypherstack.com"
 可以想象一下，如果没有人全职工作而全靠志愿者将导致大量的工作待完成.由于门罗币没有代币ICO发行，也没有创始人的酬劳，因此我们没有像别的币拥有专职工程师从事该项目开发，每个人都在可能的范围内尽其所能，有钱出钱，有力出力，有的会想要一些酬劳，有的人愿意给与一些帮助.
 
 话虽如此，社区仍旧付出巨大努力来制衡和检查.核心团队的成员在审核后才会合并代码到门罗系统里，因此，不存在个人既制作又整合代码的情况，也不可能存在递交严重错误信息，甚至恶意代码而不受任何监督的可能性. 
+
+## 10\. 门罗币容易受到51%算力攻击
 
 ## 10\. 门罗币容易受到51%算力攻击
 
@@ -122,6 +158,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 11\.  CPU友好算法？ 难道门罗币采矿不会被黑客僵尸网络控制吗？
 
+## 11\.  CPU友好算法？ 难道门罗币采矿不会被黑客僵尸网络控制吗？
+
 相信这种说法的人认为在挖矿世界里的两个对象是ASIC矿机和僵尸网络，远离一个必然意味着向另一个靠近.如果个人使用CPU来挖掘门罗币，那么从理论上讲，黑客可以控制成百上千台计算机，并强迫他们代表黑客挖掘门罗币，并不花任何代价，并凭借其优势吊打只拥有几台计算机的普通人.
 
 关于这一论点，第一个跳出来反驳僵尸网络的就是黑客，尽管我们不鼓励黑客入侵他人的计算机，但拥有并运营僵尸网络的门槛远低于开发和制造ASIC的门槛.人们只需要下载免费的开源软件，然后去寻找那些易受攻击的计算机.而制造和研发矿机则需要大量的资本和制造渠道.一起黑客攻击可能是由一个躲在地下室里的孩子来完成，而矿机只能由非常有钱的人来开发制造，现实里矿机制造商一家垄断了市场百分之80以上的份额，黑客怎么可能垄断.这使我们得出结论，即便是僵尸网络威胁论成立，那么僵尸网络本身也将比ASIC更加分散且去中心化.
@@ -129,6 +167,8 @@ image_credit_url: "https://cypherstack.com"
 话虽如此，可门罗币社区对此问题充满信心.RandomX算法的工程师故意设计该协议要求2GB RAM内存才能工作.换句话说，许多小型，易受攻击的虚拟专用服务器VPS，将根本没有足够的内存容量进行挖掘门罗币，也就是说很多服务器被劫持了也不能挖门罗，而即便那些可以挖门罗的服务器，则系统管理员会非常明显注意到，异常计算机工作量的增加，从而导致立即进行调查.换句话说，僵尸网络它不能像感染的计算机参与DDOS攻击那样，在后台静默运行，也不能像破解密码工作时保持静默.当你的电脑或者服务器开始挖门罗，用户和所有人不可能察觉不到异常.
 
 这大大减少了僵尸网络能够成功攻破且不被发现被劫持的计算机数量，而不是很多人偏见里认为存在大量高风险易被攻击的计算机.
+
+## 12\. 门罗币频繁分叉不仅会损害门罗币的价格，而且会损害其隐私性!
 
 ## 12\. 门罗币频繁分叉不仅会损害门罗币的价格，而且会损害其隐私性!
 
@@ -146,6 +186,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 13\. 早期挖门罗币的创始人们都暴富了吧？
 
+## 13\. 早期挖门罗币的创始人们都暴富了吧？
+
 门罗币的历史很有趣, 说出来你肯定会大吃一惊，它起源于一个骗局. 它的创始人名为thankful_for_today, 曾与CryptoNote协议的发明团队保持一定的关系, 但此人心怀不轨, 试图从中谋取不正当的利益.
 
 他们在首次诈骗尝试失败了, 于是创立了门罗币作为第二次尝试. 好在社区很快就发现了他们的企图并阻止了行动. 即使如此，创始人还是不死心. 他们向公众发布了一个经过刻意劣化的挖矿软件, 而自己保留了优化的版本, 这样一来他们就可以获得巨大的挖矿优势，挖走大部分的区块奖励.
@@ -158,11 +200,15 @@ image_credit_url: "https://cypherstack.com"
 
 ## 14\. 如果门罗币如此隐私，我们如何审计供应总量，以确保没有人在我们的眼皮子底下，利用未知的黑客漏洞免费印刷门罗币？
 
+## 14\. 如果门罗币如此隐私，我们如何审计供应总量，以确保没有人在我们的眼皮子底下，利用未知的黑客漏洞免费印刷门罗币？
+
 这是一个很难回答的问题.通常给出的一个答案是，我们可以叠加所有的币基coinbase，因为当新的门罗币奖励给矿工时，这些交易是透明的，如果将它们加起来，我们应该得到流通的门罗币总数,而门罗币转账有交易镜像可以验证一笔币到底有没有被花费过.
 
 所以必须注意的是，如果发生某种恶性增发，使门罗币的总数超出我们期望，也不会在挖矿过程中发生，而是在钱包之间的常规交易中发生.并且只会以如下三种方式之一发生.
 
 第一，加密技术理论存在根本缺陷，比如私钥公钥，账本，节点，去中心化，这种理论是错的. 第二,固态加密代码有缺陷，就是理论没问题可在实现这个理论过程中代码写错了. 第三, 理论也没问题，实现也没问题,但是有超级计算机出现，比如传说中的量子计算机，直接攻破现在科学认知，提供我们不能识别的虚假证据.
+
+## 15\.  门罗币当前的大多数挖矿的哈希值仅来自两个矿池.
 
 ## 15\.  门罗币当前的大多数挖矿的哈希值仅来自两个矿池.
 
@@ -210,66 +256,68 @@ image_credit_url: "https://cypherstack.com"
 
 进一步阅读
 
-  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies/)
+  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies)/
 
-  * [门罗币环形签名与CoinJoin像在Wasabi比较](/knowledge/ring-signatures-vs-coinjoin/)
+  * [门罗币环形签名与CoinJoin像在Wasabi比较](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys/)
+  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys)/
 
-  * [贡献为门罗币](/knowledge/contributing-to-monero/)
+  * [贡献为门罗币](/knowledge/contributing-to-monero)/
 
-  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy/)
+  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy)/
 
-  * [门罗币是如何使用硬分叉为升级网络](/knowledge/network-upgrades/)
+  * [门罗币是如何使用硬分叉为升级网络](/knowledge/network-upgrades)/
 
-  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis：它将为门罗币做什么](/knowledge/seraphis-for-monero/)
+  * [Seraphis：它将为门罗币做什么](/knowledge/seraphis-for-monero)/
 
-  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero/)
+  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup/)
+  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup)/
 
-  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value/)
+  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value)/
 
-  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect/)
+  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect)/
 
-  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking/)
+  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking)/
 
-  * [门罗币防诈骗指南](/knowledge/monero-scams/)
+  * [门罗币防诈骗指南](/knowledge/monero-scams)/
 
-  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps/)
+  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps)/
 
-  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking/)
+  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking)/
 
-  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct/)
+  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct)/
 
-  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses/)
+  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses)/
 
-  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses/)
+  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses)/
 
-  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs/)
+  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs)/
 
-  * [门罗币最佳入门指南](/knowledge/monero-best-practices/)
+  * [门罗币最佳入门指南](/knowledge/monero-best-practices)/
 
-  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures/)
+  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures)/
 
-  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size/)
+  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size)/
 
-  * [ 新的CLSAG环签名技术将如何提高门罗币的效率](/knowledge/what-is-clsag/)
+  * [ 新的CLSAG环签名技术将如何提高门罗币的效率](/knowledge/what-is-clsag)/
 
-  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission/)
+  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission)/
 
-  * [门罗币的前世今生](/knowledge/monero-history/)
+  * [门罗币的前世今生](/knowledge/monero-history)/
 
-  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked/)
+  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked)/
 
-  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion/)
+  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion)/
 
-  * [为什么门罗币是开源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [为什么门罗币是开源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx/)
+  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx)/
 
-  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better/)
+  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better)/
+
+进一步阅读

@@ -1,97 +1,99 @@
 ---
-title: "Monero में Atomic Swap कैसे काम करेगा"
+title: "Comment les échanges atomiques fonctionneront avec Monero"
 slug: "monero-atomic-swaps"
 date: "2020-11-18"
 image: "/images/atomic.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-विकेन्द्रीकरण और वास्तव में अनुमति रहित प्रणाली की खोज में, कुछ चीजें Cryptocurrency समाज में विकेंद्रीकृत बाज़ारों और Atomic Swap के रूप में प्रतिष्ठित हैं। अपनी स्थापना के बाद से, Monero ने Atomic Swap को लागू करने के लिए संघर्ष किया है, क्योंकि गोपनीयता सुविधाएँ एक protocol को अभिकल्पन करने की कोशिश करते समय अद्वितीय समस्याएँ पैदा करती हैं। 
+Dans la quête de la décentralisation et d'un système véritablement sans permission, peu de choses sont aussi convoitées dans le domaine des crypto-monnaies que les échanges décentralisés et les échanges atomiques. Depuis sa création, Monero a eu du mal à mettre en œuvre des « swaps atomiques », car les fonctionnalités de confidentialité créent des problèmes particuliers lors de la conception d'un protocole.
 
-लेकिन पहले, आइए पीछे जाते हैं। Atomic Swap क्या हैं? Atomic Swap एक ऐसा protocol है जिसके द्वारा दो अलग-अलग cryptocurrency, अलग-अलग blockchain पर, बिना किसी मध्यस्थ के एक भरोसेमंद तरीके से लेनदेन किया जा सकता है। इसका मतलब यह है कि अगर कोई crypocurrnecy B के लिए cryptocurrency A का आदान-प्रदान करना चाहता है, तो वे बिना बाज़ार(exchange), केंद्रीकृत या विकेंद्रीकृत के ऐसा करने में सक्षम होंगे। जैसा कि कोई कल्पना कर सकता है, इसके लिए काफी शोध करना पड़ता है, और इसे संभव बनाने वाले पूर्ण तकनीकी विवरण काफी जटिल हो जाते हैं। एक बार फिर, LocalMonero यहाँ आम लोगों की मदद करने और सरल व्याख्या देने के लिए है। 
+Mais d'abord, revenons en arrière. Que sont les « swaps atomiques » ? Un swap atomique est un protocole par lequel deux crypto-monnaies différentes, sur des blockchains différentes, peuvent être échangées sans confiance et sans intermédiaire. Cela signifie que si quelqu'un voulait échanger la crypto-monnaie A contre la crypto-monnaie B, il pourrait le faire sans service d'échange, centralisé ou décentralisé. Comme on peut l'imaginer, cela demande des recherches considérables, et tous les détails techniques qui rendent cela possible deviennent assez compliqués. Une fois de plus, LocalMonero est là pour vous aider et donner une explication simple au commun des mortels.
 
-शुरू करने के लिए, Atomic Swap के सबसे सरल रूप पर विचार करें, जैसा कि Bitcoin द्वारा लागू किया गया है। यदि कोई Bitcoin को दूसरे सिक्के के लिए बदल करना चाहता है जो उसी hash time lock contract तकनीक का उपयोग करता है, तो वे निम्नलिखित तरीके से ऐसा कर सकते हैं। Alice के पास Bitcoin (BTC) है, लेकिन Litecoin (LTC) चाहता है, और Bob के पास LTC है, लेकिन BTC चाहता है। वे एक Atomic Swap करने का निर्णय लेते हैं ताकि प्रत्येक को वह सिक्का मिले जो वे चाहते हैं। Alice अपने BTC को एक विशेष पते पर भेजती है, script का उपयोग करती है जो पैसों को बन्ध कर देती है ताकि वह इसे ले न सके। आप इसे ऐसे सोच सकते हैं जैसे Alice अपने BTC को एक तिजोरी में रखती है। जब तिजोरी बन जाती है, तो उसे एक चाबी मिलती है, और इस चाबी का एक hash Bob को भेजती है। अब Bob के पास स्वयं कुंजी नहीं है, केवल hash है, इसलिए वह अभी तक निधियों तक नहीं पहुँच सकता है। 
+Pour commencer, considérons la forme la plus simple de swap atomique, telle qu'implémentée par Bitcoin. Si quelqu'un veut échanger du Bitcoin contre une autre crypto-monnqie qui utilise la même technologie de contrat de verrouillage de temps de hachage, il peut le faire de la manière suivante. Alice a du Bitcoin (BTC), et veut du Litecoin (LTC), et Bob a du LTC, et veut du BTC. Ils décident de faire un swap atomique afin que chacun obtienne la crypto-monnaie qu'il veut. Alice envoie son BTC à une adresse spéciale, en utilisant des scripts qui verrouillent les fonds afin que même elle ne puisse pas y accéder. Vous pouvez imaginer qu'Alice mette son BTC dans un coffre-fort. Lorsque le coffre-fort est créé, elle obtient une clé et envoie un hachage de cette clé à Bob. Maintenant, Bob n'a pas la clé elle-même, seulement le hachage, donc il ne peut pas encore accéder aux fonds.
 
-Bob इस hash को एक बीज के रूप में उपयोग करता है जिससे वह अपना खुद की तिजोरी बनाता है, और वहाँ अपना LTC भेजता है, जहाँ यह बंध भी होता है। क्योंकि Alice की कुंजी के हैश का उपयोग बीज के रूप में किया गया था जिसके द्वारा Bob की तिजोरी बनाई गई थी, वह Bob की तिजोरी में LTC का दावा करने के लिए अपनी कुंजी का उपयोग कर सकती है। उसकी चाबी ठीक बैठती है! लेकिन, गणित के जादू का उपयोग करते हुए, जब वह LTC पर का ताला खोलने के लिए अपनी चाबी का उपयोग करती है, तो वह Bob को चाबी बताती है, जो तब BTC का दावा करने के लिए इसका इस्तेमाल कर सकता है जिसे उसने अपनी तिजोरी में रखा था। इस तरह, बिना किसी मध्यस्थ के, Alice और Bob ने सफलतापूर्वक अपनी संपत्ति का आदान-प्रदान किया है। 
+Bob utilise ce hachage comme graine à partir de laquelle il génère son propre « coffre-fort », et y envoie son LTC, où il est également verrouillé. Étant donné que le hachage de la clé d'Alice a été utilisé comme graine par laquelle le coffre-fort de Bob a été créé, elle peut utiliser sa clé pour réclamer le LTC dans le coffre-fort de Bob. Sa clé convient ! Mais, en utilisant la magie mathématique vaudou, lorsqu'elle utilise sa clé pour ouvrir la serrure LTC, elle révèle la clé à Bob, qui peut ensuite l'utiliser pour réclamer le BTC qu'elle a mis dans son coffre-fort à elle. De cette façon, sans intermédiaire, Alice et Bob ont réussi à échanger leurs avoirs.
 
-लेकिन थोड़ी समस्या है। क्या होगा अगर Alice अपनी तिजोरी में भेजती है, और Bob फैसला करता है कि वह अब और व्यापार नहीं करना चाहता। अब, क्योंकि Alice अपने BTC तक नहीं पहुँच सकती है जिसे उसने बंद कर दिया है, और Bob लेन-देन का अपना हिस्सा पूरा नहीं करेगा, ऐलिस हमेशा के लिए अपना पैसा खो देती है। खैर, सौभाग्य से, Bitcoin में refund transaction नामक एक छोटी सी तकनीक है, और इसलिए समय की अवधि के बाद, यदि Bob द्वारा BTC का दावा नहीं किया जाता है, तो script में एक fail-safe अंतर्निहित है, जहाँ BTC स्वचालित रूप से Alice के पास वापस चली जाएगी। यह Monero के Atomic Swap कार्यान्वयन के लिए प्राथमिक गतिरोध था। Monero की [ Ring Signature गोपनीयता तकनीक ](/knowledge/ring-signatures) के कारण, लेन-देन भेजने वाला हमेशा अनिश्चित रहता है। Protocol धनवापसी लेन-देन कैसे कर सकता है, जब की उसे पता न हो कि लेन-देन कहाँ से आया है? 
+Mais il y a un léger problème. Et si Alice envoie dans son coffre-fort et que Bob décide qu'il ne veut plus échanger. Maintenant, puisqu'Alice ne peut pas accéder à son BTC qu'elle a enfermé et que Bob ne terminera pas sa part de la transaction, Alice perd son argent pour toujours. Eh bien, heureusement, Bitcoin a une petite technologie appelée transactions de remboursement, et donc après un certain temps, si le BTC n'est pas réclamé par Bob, les scripts ont une sécurité intégrée, où le BTC reviendra automatiquement à Alice. C'était le principal ralentisseur pour la mise en œuvre des swaps atomiques de Monero. En raison de la technologie de confidentialité [des signatures de cercle de Monero ](/knowledge/ring-signatures), l'expéditeur d'une transaction est toujours incertain. Comment le protocole peut-il effectuer une transaction de remboursement s'il ne sait même pas d'où provient la transaction ?
 
-२०१७ में, शोधकर्ताओं के एक छोटे समूह ने एक अलग विधि की रूपरेखा तैयार की जिसके द्वारा Monero में Atomic Swap काम करेगा। कई वर्षों के शोधन के बाद, शोधकर्ताओं ने एक प्रक्रिया को अंतिम रूप दिया, जिसके द्वारा Moenro refund transaction के बिना भी Bitcoin के साथ Atomic Swap करने में सक्षम होगा। 
+En 2017, un petit groupe de chercheurs a décrit une méthode différente par laquelle les swaps atomiques fonctionneraient dans Monero. Après plusieurs années de raffinement, les chercheurs ont finalisé un processus par lequel Monero serait capable de faire des échanges atomiques avec Bitcoin, même sans transactions de remboursement.
 
-तकनीकी जटिलता के इस स्तर की कई चीज़ों के साथ, हमारी व्याख्या विचार व्यक्त करने के लिए कुछ चीज़ों को अत्यधिक सरल कर देगी, लेकिन यह अभी भी तंत्र का एक ठोस विचार देगी जिसके द्वारा यह प्रक्रिया काम करेगी। 
+Comme pour beaucoup de choses de ce niveau de complexité technique, notre explication simplifiera excessivement certaines choses afin de transmettre l'idée, mais elle donnera toujours une idée solide des mécanismes par lesquels ce processus fonctionnerait.
 
-Alice (जिसके पास XMR है और BTC चाहता है) और Bob (जिसके पास BTC है और XMR चाहता है) दोनों को Atomic Swap का समर्थन करने वाले program को downlaod करना और चलाना चाहिए। यह बटुए, विकेन्द्रीकृत बाज़ारों, या विशेष, विशिष्ट कार्यक्रमों में लागू किया जा सकता है, लेकिन software को Atomic Swap Protocol चलाना चाहिए। पहले चरण में, Alice और Bob के ग्राहक एक-दूसरे से जुड़ते हैं और कई साझा रहस्य और कुंजियाँ (shared secrets, keys) बनाते हैं। इस चरण में, एक नया Monero पता बनाया गया है, जिसमें Alice के पास आधी चाबी है, और Bob के पास दूसरी। हालांकि अभी तक कोई Monero नहीं आया है, इसलिए खर्च करने के लिए कुछ भी नहीं है। इस पते के बारे में ध्यान देने वाली एक आखिरी बात यह है कि उन दोनों के पास इस बटुए की दृश्य कुंजी है, इसलिए वे दोनों यह देखने के लिए अंदर झाँक सकते हैं कि Monero आता है या नहीं। 
+Alice (qui a du XMR et veut du BTC) et Bob (qui a du BTC et veut du XMR) doivent télécharger et exécuter un programme qui prend en charge le swap atomique. Cela peut être implémenté dans des portefeuilles, des services d'échange décentralisés ou des programmes spéciaux et spécifiques, mais le logiciel doit exécuter le protocole de swap atomique. Dans la première étape, les clients d'Alice et de Bob se connectent et créent plusieurs secrets et clés partagés. Dans cette étape, une nouvelle adresse Monero est créée, Alice ayant une moitié de la clé et Bob ayant l'autre. Il n'y a pas encore de Monero sur cette adresse, donc il n'y a rien à dépenser. Une dernière chose à noter à propos de cette adresse, c'est qu'ils ont tous les deux la clé de vue de ce portefeuille, ils peuvent donc tous les deux jeter un coup d'œil à l'intérieur pour voir si ou et quand du Monero arrive.
 
-दूसरे चरण में, Bob अपने BTC को एक विशेष पते पर भेजता है, Bitcoin Atomic Swap Protocol के समान जिसकी हम पहले ही चर्चा कर चुके हैं। जब Alice देखती है कि BTC blockchain पर इस पते पर पहुँच गया है, तो वह अपने Monero को Monero के पते पर भेजती है जिसकी उसके और Bob दोनों के पास आधी चाबी है। Bob यह सत्यापित कर सकता है कि Monero आ गया है क्योंकि उसके पास दृश्य कुंजी भी है, और एक बार जब वह Monero को बटुए में सुरक्षित रूप से देखता है, तो वह Alice को एक कुंजी का एक टुकड़ा भेजता है जो उसे Bitcoin वापस लेने की अनुमति देगा। अन्य protocol के समान, Bitcoin को लेने की प्रक्रिया से Bob को उसकी आधी Monero कुंजी का पता चलता है। अब Bob के पास दोनों हिस्से हैं, इसलिए वह Monero ले सकता है, जबकि Alice के पास केवल उसका आधा हिस्सा है, इसलिए वह उसे लेने से पहले इसे लेने की कोशिश नहीं कर सकती। 
+Dans la deuxième étape, Bob envoie son BTC à une adresse spéciale, similaire au protocole de swap atomique Bitcoin dont nous avons déjà parlé. Après qu'Alice ait vu le BTC arriver à cette adresse sur la blockchain, elle envoie son Monero à l'adresse Monero pour laquelle elle et Bob ont tous deux la moitié d'une clé. Bob peut vérifier que le Monero est arrivé puisqu'il a également la clé de vue, et une fois qu'il voit que le Monero est en sécurité dans le portefeuille, il envoie à Alice un morceau de clé qui lui permettra de retirer le Bitcoin. Semblable à l'autre protocole, le processus de réclamation du Bitcoin révèle sa moitié de la clé Monero à Bob. Maintenant, Bob a les deux moitiés, donc il peut réclamer le Monero, tandis qu'Alice n'a que sa moitié, donc elle ne peut pas essayer de le prendre avant lui.
 
-तो अगर आपने यह सब देखा और अभी भी इस बारे में थोड़ा भ्रमित हैं कि Monero refund transaction की समस्या को कैसे दूर करने में सक्षम था, तो इसका उत्तर काफी सरल है। क्योंकि Monero के पास refund transaction नहीं है, इसलिए पाठक को ध्यान देना चाहिए कि Bitcoin (जिसमें refund transaction होता है) पहले भेजा जाता है, और blockchain पर होने के रूप में सत्यापित होने के बाद ही Monero भेजा जाता है। यह Monero को Bitcoin की refund transaction में script की क्षमता का उपयोग करने और इन क्षमताओं की आवश्यकता के बिना उनका लाभ उठाने की अनुमति देता है। 
+Donc, si vous avez lu tout cela et que vous êtes encore un peu confus quant à la façon dont Monero a pu contourner le problème des transactions de remboursement, la réponse est assez simple. Étant donné que Monero lui-même n'a pas de transactions de remboursement, le lecteur doit remarquer que le Bitcoin (qui a des transactions de remboursement) est envoyé en premier, et seulement après avoir été vérifié comme étant sur la blockchain, le Monero est envoyé. Cela permet à Monero d'utiliser la capacité de Bitcoin à écrire des scripts dans les transactions de remboursement et d'en tirer parti, sans avoir besoin de ces capacités lui-même.
 
-Aomic Swap अब पूरा हो गया है, लेकिन यहाँ से, Bob के पास अपने नए लिए गए XMR के लिए कुछ विकल्प हैं। वह इस Monero बटुए का उपयोग कर सकता है, या XMR को दूसरे बटुए में ले जा सकता है जो पहले से ही उसका है। सबसे अधिक संभावना है कि Bob Monero को दूसरे बटुए में ले जाएगा, क्योंकि Alice के पास अभी भी देखने की कुंजी है और अंदर देख सकती है। 
+Le swap atomique est maintenant terminé, mais à partir de là, Bob a quelques options pour son XMR nouvellement réclamé. Il peut utiliser ce portefeuille Monero tel quel ou déplacer le XMR vers un autre portefeuille qu'il possède déjà. Bob déplacera très probablement le Monero vers un autre portefeuille, car Alice a toujours la clé de vue et peut voir à l'intérieur.
 
-इस protocol की सुंदरता यह है कि यह अभी भी काफी नया है, और अनुकूलन के लिए बहुत जगह है। यह अपने बनावट में भी काफी लचीला है, इसलिए अन्य बटुए या विकेंद्रीकृत बाज़ारों में कार्यान्वयन सरल होना चाहिए और उनके मौजूदा बनावट के साथ आसानी से चलना चाहिए। 
+La beauté de ce protocole est qu'il est encore assez nouveau et qu'il y a beaucoup de marge pour des optimisations. Il est également assez flexible dans son architecture, donc la mise en œuvre dans d'autres portefeuilles ou services d'échange décentralisés devrait être simple et s'adapter parfaitement à leur architecture existante.
 
-अग्रिम पठन
+Ressources complémentaires
 
-  * [कैसे Monero विशिष्ट रूप से परिपत्र अर्थव्यवस्थाओं को सक्षम बनाता है](/knowledge/monero-circular-economies/)
+  * [Comment Monero favorise de manière unique les économies circulaires](/knowledge/monero-circular-economies)/
 
-  * [Wasabi की तरह Monero के Ring Signature बनाम CoinJoin](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Les signatures de cercle de Monero face à CoinJoin comme dans Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [क्यों (और कैसे!) आपको अपनी चाबियां खुद रखनी चाहिए](/knowledge/hold-your-keys/)
+  * [Pourquoi (et comment !) vous devriez détenir vos propres clés](/knowledge/hold-your-keys)/
 
-  * [Monero में वापस योगदान करना](/knowledge/contributing-to-monero/)
+  * [Contribuer à Monero](/knowledge/contributing-to-monero)/
 
-  * [Remote nodes कैसे Monero की गोपनीयता को प्रभावित करते हैं](/knowledge/remote-nodes-privacy/)
+  * [Comment les nœuds distants affectent la confidentialité de Monero](/knowledge/remote-nodes-privacy)/
 
-  * [नेटवर्क को अपग्रेड करने के लिए Monero hard-forks का उपयोग कैसे करता है](/knowledge/network-upgrades/)
+  * [Comment Monero utilise les « hard -forks » pour mettre à jour le réseau](/knowledge/network-upgrades)/
 
-  * [view tags: कैसे एक byte Monero wallet sync के समय को ४०%+ तक कम कर देगा](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Les balises de vue : comment un octet réduira les temps de synchronisation du portefeuille Monero de plus de 40%](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool और Monero खनन के विकेंद्रीकरण में इसकी भूमिका](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool et son rôle dans la décentralisation du minage sur Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Monero के लिए यह क्या करेगा](/knowledge/seraphis-for-monero/)
+  * [Seraphis : ce qu'il apportera à Monero](/knowledge/seraphis-for-monero)/
 
-  * [क्या Bitcoin को Monero में बदलना उतना ही निजी है जितना कि सीधे मोनेरो को खरीदना?](/knowledge/most-private-way-to-buy-monero/)
+  * [La conversion de Bitcoin en Monero est-elle aussi privée que l'achat direct de Monero ?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Monero ZCash के विपरीत एक भरोसा न लगने वाले(Trustless) प्रणाली का उपयोग क्यों करता है](/knowledge/monero-trustless-setup/)
+  * [Pourquoi Monero utilise une configuration sans confiance contrairement à Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Bitcoin की तुलना में Monero मूल्य का एक बेहतर भण्डार क्यों है](/knowledge/monero-better-store-of-value/)
+  * [Pourquoi Monero est une meilleure réserve de valeur que Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Monero Bitcoin के नेटवर्क प्रभाव(network effect) से कैसे जीत सकता है](/knowledge/network-effect/)
+  * [Comment Monero peut surmonter les effets de réseau de Bitcoin](/knowledge/network-effect)/
 
-  * [Monero के पास सबसे गंभीर सोच वाला समुदाय क्यों है](/knowledge/critical-thinking/)
+  * [Pourquoi Monero a la communauté qui a la pensée la plus critique](/knowledge/critical-thinking)/
 
-  * [Monero का उपयोग करते समय इन घोटालों से बचें](/knowledge/monero-scams/)
+  * [Escroqueries à surveiller lors de l'utilisation de Monero](/knowledge/monero-scams)/
 
-  * [जब networking की बात आती है तो हर Monero उपयोगकर्ता को क्या पता होना चाहिए](/knowledge/monero-networking/)
+  * [Ce que chaque utilisateur de Monero doit savoir concernant le réseau](/knowledge/monero-networking)/
 
-  * [कैसे RingCT Monero लेनदेन राशि को छुपाता है](/knowledge/monero-ringct/)
+  * [Comment RingCT masque les montants des transactions Monero](/knowledge/monero-ringct)/
 
-  * [Monero Stealth Address आपकी पहचान को कैसे सुरक्षित रखता है](/knowledge/monero-stealth-addresses/)
+  * [Comment les adresses furtives de Monero protègent votre identité](/knowledge/monero-stealth-addresses)/
 
-  * [कैसे Monero Subaddress पहचान संयोजन को रोकते हैं](/knowledge/monero-subaddresses/)
+  * [Comment les sous-adresses Monero empêchent la mise en correspondance d'identités](/knowledge/monero-subaddresses)/
 
-  * [Monero Outputs समझाया गया](/knowledge/monero-outputs/)
+  * [Explication des sorties Monero](/knowledge/monero-outputs)/
 
-  * [प्रारंभी लोगों के लिए Monero सर्वोत्तम प्रणाली](/knowledge/monero-best-practices/)
+  * [Les meilleures pratiques d'utilisation de Monero pour les débutants](/knowledge/monero-best-practices)/
 
-  * [Ring Signature कैसे Monero के उत्पादन को अस्पष्ट करते हैं](/knowledge/ring-signatures/)
+  * [Comment les signatures de cercle masquent les sorties de Monero](/knowledge/ring-signatures)/
 
-  * [Monero ने Bitcoin को प्रभावित करने वाली block size की समस्या को कैसे हल किया](/knowledge/dynamic-block-size/)
+  * [Comment Monero a résolu le problème de taille des blocs dont souffre Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [CLSAG कैसे Monero की दक्षता में सुधार करेगा](/knowledge/what-is-clsag/)
+  * [Comment CLSAG améliorera l'efficacité de Monero](/knowledge/what-is-clsag)/
 
-  * [Monero में Tail Emission क्यों है](/knowledge/monero-tail-emission/)
+  * [Pourquoi Monero a une émission résiduelle](/knowledge/monero-tail-emission)/
 
-  * [Monero का एक संक्षिप्त इतिहास](/knowledge/monero-history/)
+  * [Une brève histoire de Monero](/knowledge/monero-history)/
 
-  * [Wired पत्रिका Monero के बारे में गलत है, जाने क्यों](/knowledge/wired-article-debunked/)
+  * [Wired Magazine se trompe sur Monero, voici pourquoi](/knowledge/wired-article-debunked)/
 
-  * [शीर्ष 15 Monero मिथकों और चिंताओं को खारिज किया गया](/knowledge/monero-myths-debunked/)
+  * [Démystification des 15 principaux mythes et inquiétudes au sujet de Monero](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion++ कैसे Monero के लेन-देन की उत्पत्ति को निजी रखता है](/knowledge/monero-dandelion/)
+  * [Comment Dandelion++ garde les origines des transactions de Monero privées](/knowledge/monero-dandelion)/
 
-  * [Monero खुला स्रोत(open source) और विकेंद्रीकृत क्यों है](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Pourquoi Monero est Open Source et décentralisé](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [मोनेरो खनन: क्या RandomX को इतना खास बनाता है](/knowledge/monero-mining-randomx/)
+  * [Le minage de Monero : ce qui rend RandomX si spécial](/knowledge/monero-mining-randomx)/
 
-  * [Monero क्यों Dash, Zcash, Zcoin (यहाँ तक कि Lelantus के साथ भी), Grin and Bitcoin Mixers जैसे Wasabi से बेहतर है (संपादित मई २०२०)](/knowledge/why-monero-is-better/)
+  * [Pourquoi Monero est meilleur que Dash, Zcash, Zcoin (même avec Lelantus), Grin et les mélangeurs Bitcoin comme Wasabi (mis à jour en mai 2020)](/knowledge/why-monero-is-better)/
+
+Ressources complémentaires

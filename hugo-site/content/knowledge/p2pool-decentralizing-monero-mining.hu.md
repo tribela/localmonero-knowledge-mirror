@@ -12,15 +12,21 @@ Bár a különleges bányászati algoritmus [, mint a RandomX](/knowledge/monero
 
 ## Mit jelent a pool mining?
 
+## Mit jelent a pool mining?
+
 A pool mining egy megoldás arra, hogy a bányászok megosszák a feladatot, ami egy blokk megoldásához kell a hálózaton, egyenlően megosztva a jutalmat a megtalált blokkok után. Noha ez rendkívül sokat segít a bányászok fizetési gyakoriságának kiegyenlítésében az egyedi bányászatához képest, komoly központosítási problémákat vet fel.
 
 Amikor a bányász hozzájárul a poolhoz, feladja az általa végzett munka és megtalált blokkok irányítását a poolnak, megbízva abban, hogy a bányászok között őszintén és méltányosan osztja meg a jutalmakat a bányászott mennyiség alapján. Ha minden jól megy, a pool üzemeltetője begyűjti a munkát minden bányásztól, elküldi a hálózatra, és egyenlő arányban osztja el a jutalmakat.
 
 ## Mi a probléma a pool mininggal?
 
+## Mi a probléma a pool mininggal?
+
 Sajnos ez teljes mértékben a bizalomra épül, és lehetővé teszi a pool üzemeltetője számára, hogy aljasságokat tegyen a bányászok által elvégzett munkával. Az üzemeltető felhasználhatja az elvégzett munkát a hálózat megtámadására, megkísérelheti források kétszeres elköltését (ha a pool elég nagy), vagy egyszerűen csak felhasználhatja a bányászok által végzett munkát a saját hasznára, nem jutalmazva megfelelően a bányászokat a munkájukért.
 
 A hálózatot fenyegető legnagyobb kockázatot az jelenti, ha egy pool (vagy több együttműködésben) a hálózati hashrate több mint 51%-át irányítása alá vonja, mivel ezt csalásra és többszörös pénzköltésre használhatják fel, vagy megpróbálhatják megváltoztatni a hálózat szabályait.
+
+## Mi az a p2pool?
 
 ## Mi az a p2pool?
 
@@ -32,11 +38,15 @@ Ez egy saját blokklánc (ún. "oldallánc") segítségével történik, amely n
 
 ## Hogyan oldja meg a p2pool a pool mining problémáját?
 
+## Hogyan oldja meg a p2pool a pool mining problémáját?
+
 A p2pool esetében nincs központosított pool, központi üzemeltető, vagy egyetlen személy, aki pénzeszközöket kezeli és a kifizetéseket kiosztja. A p2poolon keresztül bányászók által közösen végzett munkát a p2pool blokklánc és a többi csomópont-operátor ellenőrzi, hogy megbizonyosodjanak arról, hogy az érvényes, és amikor blokkot találnak minden bányász azonnali kifizetést kap az elvégzett munkájának megfelelően, közvetlenül a blokkért járó jutalmakból.
 
 Amikor a bányászok a p2pool használatát választják a központosított megoldások helyett, megvonnak minden hatalmat és bizalmat a pool-üzemeltetőktől, és biztosítják, hogy a munkájuk hozzájáruljon a hálózat működéséhez, a jutalmukat biztosan megkapják, csökkentve a hálózati támadások és a munkájukkal visszaélés, vagy a nekik járó jutalom ellopásának kockázatát.
 
 Ez nemcsak a saját érdekük, hanem csökkenti annak kockázatát is, amelyet a központosított bányászkészletek jelenthetnek a Monero hálózat egészére nézve. A p2pool használata szintén nagyban segít csökkenteni a kockázatot, amelyet a nemzetállamok vagy a szabályozó hatóságok jelenthetnek a hálózatra nézve, mivel nincsenek központosított entitások, nincs földrajzi koncentrációja a pooloknak, amelyekre nyomást gyakorolhatnak, vagy bármilyen más egyértelmű célpont amit a Monero ellen kihasználhatnak.
+
+## Mik a hátrányai?
 
 ## Mik a hátrányai?
 
@@ -46,10 +56,14 @@ A másik lényeges különbség a központosított bányászathoz képest az, ho
 
 ## Hogyan kezdjem el?
 
+## Hogyan kezdjem el?
+
 Szerencsére, a Monero p2pool implementációjának kiváló tervezése és a közösség tagjainak erőfeszítései miatt, akik időt fordítottak a p2poolon történő bányászat egyszerűsítésére, az elindulás egyre könnyebb lesz az idő múlásával. Számos módja van a p2pool bányászat megkezdésének, de mivel a technikai részletek túlmutatnak a cikk keretein, az operációs rendszerétől függően nyissa meg a megfelelő hivatkozást (angol):
 
   * [Windows](https://www.youtube.com/watch?v=yfbvTksF9ic)
   * [Linux](https://sethforprivacy.com/guides/run-a-p2pool-node/)
+
+## Hogyan tudhatok meg többet?
 
 ## Hogyan tudhatok meg többet?
 
@@ -64,66 +78,68 @@ Ha ez felkeltette a kíváncsiságát a p2pool bányászattal kapcsolatban, néz
 
 További olvasnivaló
 
-  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies/)
+  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies)/
 
-  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin/)
+  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys/)
+  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys)/
 
-  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero/)
+  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero)/
 
-  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy/)
+  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy)/
 
-  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades/)
+  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades)/
 
-  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero)/
 
-  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero/)
+  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup/)
+  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup)/
 
-  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value/)
+  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value)/
 
-  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect/)
+  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect)/
 
-  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking/)
+  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking)/
 
-  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams/)
+  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams)/
 
-  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps/)
+  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps)/
 
-  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking/)
+  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking)/
 
-  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct/)
+  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct)/
 
-  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses/)
+  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses)/
 
-  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses/)
+  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses)/
 
-  * [Monero kimenetek magyarázata](/knowledge/monero-outputs/)
+  * [Monero kimenetek magyarázata](/knowledge/monero-outputs)/
 
-  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices/)
+  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices)/
 
-  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures/)
+  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures)/
 
-  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size/)
+  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size)/
 
-  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag/)
+  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag)/
 
-  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission/)
+  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission)/
 
-  * [A Monero rövid története](/knowledge/monero-history/)
+  * [A Monero rövid története](/knowledge/monero-history)/
 
-  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked/)
+  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked)/
 
-  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked/)
+  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked)/
 
-  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion/)
+  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion)/
 
-  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx/)
+  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx)/
 
-  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better/)
+  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better)/
+
+További olvasnivaló

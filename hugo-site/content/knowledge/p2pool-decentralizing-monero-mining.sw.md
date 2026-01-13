@@ -12,15 +12,21 @@ Ingawa kanuni ya kipekee ya uchimbaji madini [kama RandomX](/knowledge/monero-mi
 
 ## Uchimbaji wa bwawa ni nini?
 
+## Uchimbaji wa bwawa ni nini?
+
 Uchimbaji wa bwawa ni njia ya wachimbaji kushiriki jukumu la kujaribu kutatua kizuizi kwenye mtandao na kisha kushiriki zawadi kwa usawa kwa vitalu vyote ambavyo bwawa hupata. Ingawa hii inasaidia kwa kiasi kikubwa kusawazisha mara-kwa-mara wachimbaji hulipwa dhidi ya uchimbaji madini wa Monero pekee, si bila matatizo makubwa ya uwekaji kati.
 
 Kila mchimbaji anapochangia kazi kwenye bwawa, yeye huacha udhibiti wa kazi yoyote anayofanya na kuzuia anayopata kwenye bwawa lenyewe, akiamini kwamba bwawa litashiriki zawadi kwa uaminifu na kwa haki kati ya wachimbaji wote kulingana na kiasi cha kila mmoja amefanya kazi. Mambo yakienda sawa, opereta wa bwawa hukusanya kazi kutoka kwa wachimbaji wote, kuiwasilisha kwa mtandao, na kushiriki zawadi kwa usawa.
 
 ## Je, kuna tatizo gani la uchimbaji wa bwawa?
 
+## Je, kuna tatizo gani la uchimbaji wa bwawa?
+
 Kwa bahati mbaya, hii inategemea uaminifu kabisa na inaruhusu opereta wa pool kufanya mambo machafu na kazi inayofanywa na wachimbaji. Opareta wa bwawa anaweza kutumia kazi inayofanywa kushambulia mtandao, kujaribu kutumia pesa mara mbili (ikiwa bwawa ni kubwa ya kutosha), au kutumia tu kazi inayofanywa na wachimbaji kujilipa wenyewe na kamwe kutowazawadia wachimbaji ipasavyo kwa kazi yao. .
 
 Hatari kubwa zaidi kwa mtandao ni ile ya bwawa (au vidimbwi vingi vinavyofanya kazi pamoja) kuwa na zaidi ya 51% ya kasi ya mitandao chini ya udhibiti wao, kwani wanaweza kutumia hii kudanganya na kutumia pesa mara mbili (matumizi maradufu. kushambulia) au kujaribu kubadilisha sheria za mtandao.
+
+## P2pool ni nini?
 
 ## P2pool ni nini?
 
@@ -32,11 +38,15 @@ Hii inafanywa kwa kutumia blockchain mapya ("side-chain") ambazo huweka rekodi z
 
 ## Je, p2pool hutatua vipi matatizo ya uchimbaji madini ya bwawa?
 
+## Je, p2pool hutatua vipi matatizo ya uchimbaji madini ya bwawa?
+
 Katika p2pool, hakuna bwawa kuu, opereta wa bwawa kuu, au mtu mmoja anayeshikilia pesa na kusambaza malipo. Kazi zote zinazofanywa kwa pamoja na wachimbaji hao kupitia p2pool huangaliwa na blockchain ya p2pool na waendeshaji wa nodi wengine ili kuhakikisha kuwa ni halali, na wachimbaji wote wanalipwa kulingana na kazi waliyofanya mara mmoja wakati kizuizi inapatikana mmoja-kwa-mmoja kutoka zawadi katika kizuizi hicho kilichopatikana.
 
 Wachimbaji madini wanapochagua kutumia p2pool badala ya bwawa kuu, wao huondoa nguvu zote na uaminifu kutoka kwa waendeshaji bwawa na kuhakikisha kuwa kazi yao inachangia manufaa ya mtandao na kwa zawadi zao wenyewe, kupunguza hatari za mashambulizi za mtandao, matumizi mabaya ya kazi zao, au wizi wa thawabu wanazodaiwa.
 
 Hii haiwasaidii tu kulinda maslahi yao binafsi, lakini pia inapunguza hatari ambayo mabwawa ya kuogelea kati yanaweza kuleta mtandao wa Monero kwa ujumla. matumizi ya p2pool pia husaidia kwa kiasi kikubwa kupunguza hatari ambalo mataifa au wasimamizi wanaweza kuleta kwa afya ya mtandao, kwani hakuna waendeshaji wa bwawa kuu la kushinikiza, hakuna mkusanyiko wa kijiografia wa madimbwi ya kuegemea, au hatua nyingine yoyote rahisi ya shinikizo. ili watumie dhidi ya Monero.
+
+## Kuna mapungufu gani?
 
 ## Kuna mapungufu gani?
 
@@ -46,10 +56,14 @@ Tofauti nyingine kuu kutoka kwa uchimbaji wa madini ya kati ni kwamba wachimbaji
 
 ## Ninawezaje kuanza?
 
+## Ninawezaje kuanza?
+
 Tunashukuru, kutokana na muundo wa kubuni bora wa utekelezaji wa p2pool wa Monero' na watu wengi katika jumuiya ambalo wameweka wakati ili kusaidia kurahisisha mchakato wa uchimbaji madini kupitia p2pool, kuanza kunakuwa rahisi kadri muda unavyopita. Kuna njia kadhaa za kuanza kuchimba madini ukitumia p2pool, lakini kwa vile maelezo ya kiufundi hayako upeo wa makala haya, jisikie huru kuruka kwenye kiungo kilicho hapa chini kulingana na mfumo wako wa uendeshaji:
 
   * [Windows](https://www.youtube.com/watch?v=yfbvTksF9ic)
   * [Linux](https://sethforprivacy.com/guides/run-a-p2pool-node/)
+
+## Ninawezaje kujifunza zaidi?
 
 ## Ninawezaje kujifunza zaidi?
 
@@ -64,66 +78,68 @@ Ikiwa hili limekuza udadisi wako kuhusu uchimbaji madini wa p2pool, angalia hapa
 
 Kusoma zaidi
 
-  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies/)
+  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies)/
 
-  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys/)
+  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys)/
 
-  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero/)
+  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero)/
 
-  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy/)
+  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades/)
+  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades)/
 
-  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero)/
 
-  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero/)
+  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup/)
+  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect/)
+  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect)/
 
-  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking/)
+  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking)/
 
-  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams/)
+  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams)/
 
-  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps/)
+  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking/)
+  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking)/
 
-  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct/)
+  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct)/
 
-  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses/)
+  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses)/
 
-  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses/)
+  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses)/
 
-  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs/)
+  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs)/
 
-  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices/)
+  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices)/
 
-  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures/)
+  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures)/
 
-  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size/)
+  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag/)
+  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag)/
 
-  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission/)
+  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission)/
 
-  * [Historia fupi ya Monero](/knowledge/monero-history/)
+  * [Historia fupi ya Monero](/knowledge/monero-history)/
 
-  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked/)
+  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked)/
 
-  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked/)
+  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked)/
 
-  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion/)
+  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion)/
 
-  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx/)
+  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx)/
 
-  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better/)
+  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better)/
+
+Kusoma zaidi

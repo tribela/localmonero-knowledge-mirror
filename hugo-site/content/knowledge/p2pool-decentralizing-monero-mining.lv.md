@@ -12,15 +12,21 @@ Lai gan unikāls mainošanas algoritms [, piemēram, RandomX](/knowledge/monero-
 
 ## Kas ir baseinu mainošana?
 
+## Kas ir baseinu mainošana?
+
 Baseinu mainošana ir veids, kā maineri var kopīgi mēģināt atrisināt bloku tīklā un pēc tam vienmērīgi sadalīt atlīdzību par visiem blokiem, ko kopums atrod. Lai gan tas ļoti palīdz izlīdzināt maineru darba samaksas biežumu salīdzinājumā ar Monero mainošnu vienatnē, tas nav bez nopietnām centralizācijas problēmām.
 
 Tā kā katrs maineris iegulda darbu baseinā, viņi nodod baseinam kontroli pār jebkuru darbu, ko viņi dara, un blokiem, ko atrod, paļaujoties, ka baseins godīgi sadalīs atlīdzību starp visiem maineriem, pamatojoties uz darba apjomu, ko katrs paveicis. Ja viss norit labi, baseina operators savāc darbu no visiem maineriem, iesniedz to tīklam un vienādi sadala atlīdzību.
 
 ## Kāda ir problēma ar baseinu mainošanu?
 
+## Kāda ir problēma ar baseinu mainošanu?
+
 Diemžēl tas pilnībā balstās uz uzticēšanos un ļauj baseina operatoram veikt nelāgas lietas ar maineru veikto darbu. Baseina operators varētu izmantot paveikto darbu, lai uzbruktu tīklam, mēģinātu divreiz tērēt līdzekļus (ja kopums ir pietiekami liels) vai vienkārši izmantot maineru paveikto darbu, lai samaksātu sev un nekad pienācīgi neatalgotu mainerus par viņu darbu. 
 
 Lielākais risks tīklam ir tas, ka baseins (vai vairāki baseini, kas strādā kopā), kas kontrolē ir vairāk nekā 51% tīkla, to var izmantot, lai krāptos un iztērētu līdzekļus divreiz (dubultā tēriņa uzbrukums) vai mēģināt mainīt tīkla noteikumus.
+
+## Kas ir p2pool?
 
 ## Kas ir p2pool?
 
@@ -32,11 +38,15 @@ Tas tiek darīts, izmantojot jaunu blokķēdi (“sānu ķēdi”), kas reģistr
 
 ## Kā p2pool atrisina baseinu mainošanas problēmas?
 
+## Kā p2pool atrisina baseinu mainošanas problēmas?
+
 p2pool nav centralizēta baseina, centralizēta operatora vai vienas personas, kas glabā līdzekļus un sadala izmaksas. Visu darbu, ko kolektīvi veic tie, kas izmanto p2pool, pārbauda p2pool blokķēde un citi mezglu operatori, lai pārliecinātos, ka tas ir likumīgs. Visiem maineriem tiek izmaksāta atlīdzība saskaņā ar paveikto darbu, līdz ko bloks tiek atrasts - tieši no atlīdzības šajā atrastajā blokā.
 
 Kad maineri izvēlas izmantot p2pool, nevis centralizētu baseinu, viņi ņem atpakaļ visas operatoru pilnvaras un uzticību un nodrošina, ka viņu darbs dod tīklam labumu un pelna pašiem atlīdzību. Tas arī samazina riskus kā tīkla uzbrukums, ļaunprātīga izmantošana, atlīdzības zādzība.
 
 Tas ne tikai palīdz viņiem aizsargāt savas intereses, bet arī samazina risku, ko centralizētie baseini var radīt Monero tīklam kopumā. p2pool izmantošana arī palīdz ievērojami samazināt risku, ko valstis vai regulatori var radīt tīkla veselībai, jo nav centralizētu baseinu operatoru, ko pakļaut spiedienam, nav baseinu ģeogrāfiskas koncentrācijas, uz ko balstīties, vai citu vieglu spiediena punktu, ko varētu izmantot pret Monero.
+
+## Kādi ir trūkumi?
 
 ## Kādi ir trūkumi?
 
@@ -46,10 +56,14 @@ Otra galvenā atšķirība no centralizētās ieguves ir tā, ka mazajiem mainer
 
 ## Kā es varu sākt?
 
+## Kā es varu sākt?
+
 Par laimi, pateicoties lieliskajam Monero' p2pool izveidojumam un daudzajiem cilvēkiem kopienā, kuri ir veltījuši laiku, lai palīdzētu vienkāršot mainošanas procesu, izmantojot p2pool, laika gaitā darba sākšana kļūst vienkāršāka. Ir vairāki veidi, kā sākt mainošanu, izmantojot p2pool, taču, tā kā tehniskā informācija ir ārpus šī raksta jomas, varat atvērt tālāk norādīto saiti atkarībā no jūsu operētājsistēmas: 
 
   * [Windows](https://www.youtube.com/watch?v=yfbvTksF9ic)
   * [Linux](https://sethforprivacy.com/guides/run-a-p2pool-node/)
+
+## Kā es varu uzzināt vairāk?
 
 ## Kā es varu uzzināt vairāk?
 
@@ -64,66 +78,68 @@ Ja tas ir izraisījis jūsu interesi par p2pool ieguvi, tālāk skatiet dažas p
 
 Lasīt tālāk
 
-  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies/)
+  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies)/
 
-  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys/)
+  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys)/
 
-  * [Iesaiste Monero](/knowledge/contributing-to-monero/)
+  * [Iesaiste Monero](/knowledge/contributing-to-monero)/
 
-  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy/)
+  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy)/
 
-  * [Kā Monero izmanto hard-forks tīkla uzlabošanai](/knowledge/network-upgrades/)
+  * [Kā Monero izmanto hard-forks tīkla uzlabošanai](/knowledge/network-upgrades)/
 
-  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero)/
 
-  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero/)
+  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup/)
+  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup)/
 
-  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect/)
+  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect)/
 
-  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking/)
+  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking)/
 
-  * [Krāpniecība, kam jāpievērš uzmanība, lietojot Monero](/knowledge/monero-scams/)
+  * [Krāpniecība, kam jāpievērš uzmanība, lietojot Monero](/knowledge/monero-scams)/
 
-  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps/)
+  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps)/
 
-  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking/)
+  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking)/
 
-  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct/)
+  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct)/
 
-  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses/)
+  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses)/
 
-  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses/)
+  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses)/
 
-  * [Monero izvades tuvplānā](/knowledge/monero-outputs/)
+  * [Monero izvades tuvplānā](/knowledge/monero-outputs)/
 
-  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices/)
+  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices)/
 
-  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures/)
+  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures)/
 
-  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag/)
+  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag)/
 
-  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission/)
+  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission)/
 
-  * [Īsa Monero vēsture](/knowledge/monero-history/)
+  * [Īsa Monero vēsture](/knowledge/monero-history)/
 
-  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked/)
+  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked)/
 
-  * [15 populārākie Monero mīti un bažas atspēkotas](/knowledge/monero-myths-debunked/)
+  * [15 populārākie Monero mīti un bažas atspēkotas](/knowledge/monero-myths-debunked)/
 
-  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion/)
+  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion)/
 
-  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx/)
+  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx)/
 
-  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better/)
+  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better)/
+
+Lasīt tālāk

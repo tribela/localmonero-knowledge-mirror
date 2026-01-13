@@ -12,6 +12,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 为什么门罗币需要不断的升级网络？
 
+## 为什么门罗币需要不断的升级网络？
+
 门罗币社区已经承诺随着时间的推移迭代和改进该项目，而这种承诺似乎可以归结为社区精神的两个关键方面：
 
   1. 门罗币项目最终是由人类编写的软件代码。这可能导致需要修复错误，添加随着时间推移发现或发明的改进，实施协议的现代化，或简单地维护该项目。这在很多方面类似于你使用的其他软件（比如你正在浏览的浏览器！），它们需要不断地更新，以增加新功能和修复错误。
@@ -24,6 +26,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 硬分叉是什么？
 
+## 硬分叉是什么？
+
 一旦你理解了升级加密货币与简单地将软件更新推送到浏览器等软件上有什么不同，升级门罗币的复杂性就会显现出来。
 
 在加密货币中，网络的规则（如交易的外观，采矿的工作方式，以及如何验证每个区块）必须得到网络的同意，这被称为 “共识”。当这些规则需要改变或升级时，网络必须就新的规则达成一致，导致 “硬分叉”——在这种情况下，网络实际上分裂成两条区块链，一条使用旧规则，另一条使用新规则。
@@ -31,6 +35,8 @@ image_credit_url: "https://cypherstack.com"
 当社区中的每个人都同意规则的改变时，这被称为 “无争议的硬分叉”，而仍有旧规则的区块链则会消亡，在硬分叉后不会被开采。几乎每一次门罗币硬分叉都是这种情况，唯一继续使用旧规则的是试图从硬分叉中获利的项目。
 
 虽然无争议的硬分叉是正确升级门罗币网络重要方面的唯一途径，但它们也有一个令人沮丧的副作用——在硬分叉计划之前发布的旧软件无法理解网络的新规则，因此在硬分叉之后无法运行！这可能导致用户认为资金丢失，认为门罗币区块链停止了，在他们升级钱包之前无法移动资金。
+
+## 谁来决定门罗币网络何时升级以及包括哪些内容？
 
 ## 谁来决定门罗币网络何时升级以及包括哪些内容？
 
@@ -50,6 +56,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 我怎样能在网络升级方面提供帮助？
 
+## 我怎样能在网络升级方面提供帮助？
+
 由于门罗币网络的升级需要社区的协调和批准以及软件的更新，尽可能多的人参与到网络升级的计划、测试和沟通过程中是极其重要的。
 
 这里有几个简单的方法可以帮助你在网络升级时顺利进行：
@@ -61,14 +69,18 @@ image_credit_url: "https://cypherstack.com"
 
 ## 在下一次门罗币网络升级中我可以期待什么？
 
+## 在下一次门罗币网络升级中我可以期待什么？
+
 虽然目前还没有确定的日期，但很快会有一次网络升级，以实现门罗币的一些关键升级和功能：
 
   1. 戒指大小从11个增加到16个，增加了网络上每笔交易的基础匿名集（读作：合理的推诿，或基础隐私）。
-  2. [查看标签，这是一种将钱包同步时间减少为30-40%的出色方式](/knowledge/view-tags-reduce-monero-sync-time/)
+  2. [查看标签，这是一种将钱包同步时间减少为30-40%的出色方式](https://localmonero.co/knowledge/view-tags-reduce-monero-sync-time)
   3. 费用变化，提高网络的安全性和弹性，以应对费用市场的快速变化或恶意实体的攻击
   4. [Bulletproofs+，进一步提高门罗币交易的效率](https://www.getmonero.org/2020/12/24/Bulletproofs+-in-Monero.html)
 
-这些变化将大大增加网络的隐私性、效率和安全性，同时为 [Seraphis](/knowledge/seraphis-for-monero/) —— 门罗币的下一代交易协议铺平道路。
+这些变化将大大增加网络的隐私性、效率和安全性，同时为 [Seraphis](https://localmonero.co/knowledge/seraphis-for-monero) —— 门罗币的下一代交易协议铺平道路。
+
+## 我怎样能了解更多？
 
 ## 我怎样能了解更多？
 
@@ -80,66 +92,68 @@ image_credit_url: "https://cypherstack.com"
 
 进一步阅读
 
-  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies/)
+  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies)/
 
-  * [门罗币环形签名与CoinJoin像在Wasabi比较](/knowledge/ring-signatures-vs-coinjoin/)
+  * [门罗币环形签名与CoinJoin像在Wasabi比较](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys/)
+  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys)/
 
-  * [贡献为门罗币](/knowledge/contributing-to-monero/)
+  * [贡献为门罗币](/knowledge/contributing-to-monero)/
 
-  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy/)
+  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy)/
 
-  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis：它将为门罗币做什么](/knowledge/seraphis-for-monero/)
+  * [Seraphis：它将为门罗币做什么](/knowledge/seraphis-for-monero)/
 
-  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero/)
+  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup/)
+  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup)/
 
-  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value/)
+  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value)/
 
-  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect/)
+  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect)/
 
-  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking/)
+  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking)/
 
-  * [门罗币防诈骗指南](/knowledge/monero-scams/)
+  * [门罗币防诈骗指南](/knowledge/monero-scams)/
 
-  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps/)
+  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps)/
 
-  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking/)
+  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking)/
 
-  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct/)
+  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct)/
 
-  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses/)
+  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses)/
 
-  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses/)
+  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses)/
 
-  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs/)
+  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs)/
 
-  * [门罗币最佳入门指南](/knowledge/monero-best-practices/)
+  * [门罗币最佳入门指南](/knowledge/monero-best-practices)/
 
-  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures/)
+  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures)/
 
-  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size/)
+  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size)/
 
-  * [ 新的CLSAG环签名技术将如何提高门罗币的效率](/knowledge/what-is-clsag/)
+  * [ 新的CLSAG环签名技术将如何提高门罗币的效率](/knowledge/what-is-clsag)/
 
-  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission/)
+  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission)/
 
-  * [门罗币的前世今生](/knowledge/monero-history/)
+  * [门罗币的前世今生](/knowledge/monero-history)/
 
-  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked/)
+  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked)/
 
-  * [流言终结者：关于门罗币的15大传言和疑虑](/knowledge/monero-myths-debunked/)
+  * [流言终结者：关于门罗币的15大传言和疑虑](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion/)
+  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion)/
 
-  * [为什么门罗币是开源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [为什么门罗币是开源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx/)
+  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx)/
 
-  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better/)
+  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better)/
+
+进一步阅读

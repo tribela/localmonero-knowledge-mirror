@@ -10,7 +10,11 @@ Så lenge det har vært penger, har det vært svindel for å få folk til å ski
 
 ## Bedrageren svindel
 
+## Bedrageren svindel
+
 En av de eldste svindelene i boken, og en som kan finne sted på enhver diskusjonsplattform som eksisterer. I denne svindelen vil svindleren utgi seg for å være en pålitelig person i fellesskapet eller en høyt rangert tjenestemann i en relatert virksomhet. Når offerets tillit er opptjent gjennom dette etablerte ryktet, kan svindleren sende en bruker til et ondsinnet nettsted, få dem til å laste ned et program designet for å stjele pengene deres, eller til og med bare få brukeren til å sende dem direkte. Trippelsjekk alltid at personen du snakker med faktisk er den riktige personen. Bedrifter vil ha e-poster å kontakte for å bekrefte identiteter (dvs. "Kontaktet administrerende direktør for bedriften din nettopp meg på Telegram?") og andre samfunnsledere vil vanligvis kunne kontaktes på andre måter. Bekreft før du gjør noe. SPESIELT hvis de startet samtalen med deg i stedet for deg med dem.
+
+## Business Look Alike-svindel
 
 ## Business Look Alike-svindel
 
@@ -22,7 +26,11 @@ Løsningen på denne typen svindel er årvåkenhet. Dobbeltsjekk alltid før du 
 
 ## Den direkte svindelen
 
+## Den direkte svindelen
+
 Noen ganger prøver ikke svindlere å være subtile. De kommer med store, grandiose påstander og vet at det alltid vil være idioter som vil tro dem av desperasjon, grådighet eller uvitenhet. Disse svindelene har mange former, fra myntprosjekter som lover latterlig avkastning på investeringer der du først gir dem penger (som Bitconnect), til spesielle, hemmelige grupper som lover å fortelle deg alle markedsbevegelsene på forhånd slik at du kan tjene penger. .mot et gebyr. Huske. Hvis noe høres for godt ut til å være sant, er det sannsynligvis det. Dette rådet er spesielt sant i kryptovaluta-området, ettersom å distribuere en mynt eller smart kontrakt er trivielt i disse dager, og det er gratis å legge ut lyssky påstander på nettet. Husk, hvis noen virkelig fant en måte å time markedet på eller oppdage en måte å tjene tonnevis med uendelige penger på, hvorfor skulle de fortelle deg det? De ville bare bruke det selv for å bli rike. Hvorfor skulle de dele det? Vær smart. Bruk hjernen din. Stol på ingen.
+
+## Rollen til Monero-frøet ditt i svindel
 
 ## Rollen til Monero-frøet ditt i svindel
 
@@ -34,66 +42,68 @@ NÅR som helst et nettsted, et program eller en lommebok har et «gjenoppretting
 
 Videre lesning
 
-  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies/)
+  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies)/
 
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Hvorfor (og hvordan!) du bør holde dine egne nøkler](/knowledge/hold-your-keys/)
+  * [Hvorfor (og hvordan!) du bør holde dine egne nøkler](/knowledge/hold-your-keys)/
 
-  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero/)
+  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero)/
 
-  * [Hvordan eksterne noder påvirker Moneros personvern](/knowledge/remote-nodes-privacy/)
+  * [Hvordan eksterne noder påvirker Moneros personvern](/knowledge/remote-nodes-privacy)/
 
-  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades/)
+  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades)/
 
-  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero)/
 
-  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero/)
+  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup/)
+  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect/)
+  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect)/
 
-  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking/)
+  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking)/
 
-  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps/)
+  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking/)
+  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking)/
 
-  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct/)
+  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct)/
 
-  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses/)
+  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses)/
 
-  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses/)
+  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses)/
 
-  * [Monero-utganger forklart](/knowledge/monero-outputs/)
+  * [Monero-utganger forklart](/knowledge/monero-outputs)/
 
-  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices/)
+  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices)/
 
-  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures/)
+  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures)/
 
-  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size/)
+  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag/)
+  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag)/
 
-  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission/)
+  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission)/
 
-  * [En kort historie om Monero](/knowledge/monero-history/)
+  * [En kort historie om Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked/)
+  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked)/
 
-  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked/)
+  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked)/
 
-  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion/)
+  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion)/
 
-  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx)/
 
-  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better/)
+  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better)/
+
+Videre lesning

@@ -12,6 +12,8 @@ Marea majoritate a oamenilor din comunitatea Monero nu vor fi neapărat dezvolta
 
 ## Sistemul de crowdfunding al comunității Monero
 
+## Sistemul de crowdfunding al comunității Monero
+
 Monero folosește un sistem unic de finanțare a activității numit [Community Crowdfunding System](https://ccs.getmonero.org/) (sau “CCS”) care permite oricărei persoane din comunitate să prezinte o idee pentru finanțare. Dacă sunt aprobate de comunitate, aceste propuneri sunt apoi deschise pentru finanțare de către comunitate.
 
 Există două etape ale sistemului, fiecare dintre acestea beneficiind de o mai mare implicare a persoanelor din toate mediile.
@@ -30,6 +32,8 @@ _Puteți vedea toate propunerile care se află în etapa "Finanțare necesară" 
 
 ## Educație
 
+## Educație
+
 O altă modalitate excelentă prin care vă puteți implica în proiectul Monero este de a ajuta la educarea și responsabilizarea membrilor noi și a celor existenți ai comunității. Acest lucru poate lua mai multe forme, dar poate fi la fel de simplu ca și împărtășirea a ceea ce învățați despre Monero pe rețelele de socializare, pe un blog, etc.
 
 Iată câteva modalități concrete prin care puteți contribui la educație:
@@ -37,6 +41,8 @@ Iată câteva modalități concrete prin care puteți contribui la educație:
   * Începeți un blog propriu
   * Scrieți discuții pe Twitter sau postări pe Reddit despre lucrurile pe care le-ați învățat sau ați învățat să le faceți cu Monero.
   * Realizează videoclipuri cu "cum să faci" lucrurile de zi cu zi pe care le faci cu Monero, cum ar fi trimiterea de Monero, utilizarea unui portofel hardware, cumpărarea și vânzarea de Monero pe [LocalMonero.co](https://localmonero.co), etc.
+
+## Conștientizare și implicare
 
 ## Conștientizare și implicare
 
@@ -91,9 +97,13 @@ De asemenea, poate fi util să comparați o tranzacție între ceva precum Bitco
 
 ## r/monerosupport
 
+## r/monerosupport
+
 Dacă sunteți în preajma Monero de ceva timp sau aveți o bună înțelegere a modului de utilizare și de rezolvare a problemelor, o modalitate excelentă de a vă implica ar fi să participați la [r/monerosupport](https://www.reddit.com/r/monerosupport/) subreddit și să oferiți sprijin utilizatorilor care postează acolo.
 
 Există în mod constant utilizatori care au nevoie de ajutor cu probleme (în mod normal) de bază și suntem doar câțiva dintre noi care suntem activi în subreddit pentru a-i ajuta. Ar fi grozav să vedem mai multe persoane care să se implice și să contribuie pentru a ajuta utilizatorii noi și cei existenți să rezolve problemele lor!
+
+## Întâlniri comunitare
 
 ## Întâlniri comunitare
 
@@ -105,9 +115,13 @@ Dacă alegeți să veniți și să participați, vă rugăm să respectați ordi
 
 ## Traduceri
 
+## Traduceri
+
 Pentru cei care sunt bilingvi sau mai mult, un mod foarte important de a contribui este de a ajuta la traducerea din engleză în alte limbi. Întotdeauna este nevoie de traducerea de noi limbi și de actualizarea limbilor existente în întregul ecosistem, iar cu cât mai multe limbi vom sprijini în mod activ, cu atât Monero va deveni mai incluziv și mai accesibil.
 
 Puteți găsi nevoi de traducere și informații la [translate.getmonero.org](https://translate.getmonero.org/) sau [pe Github](https://github.com/monero-ecosystem/monero-translations).
+
+## Depunerea problemelor
 
 ## Depunerea problemelor
 
@@ -148,70 +162,74 @@ Cu cât puteți furniza mai multe informații despre problemă, cu atât mai bin
 
 ## Concluzie
 
+## Concluzie
+
 Sperăm că acest ghid a stârnit câteva idei despre cum puteți contribui la Monero folosind setul dvs. unic de abilități, pregătire și experiență. Cu cât mai mulți membri ai comunității vor da înapoi în moduri ca acestea, cu atât Monero va fi mai mare și mai matur și cu atât mai ușor vom putea îndeplini obiectivele de a avea bani privați, fungibili, autosuverani și rezistenți la cenzură.
 
 Lecturi suplimentare
 
-  * [Cum permite Monero în mod unic economiile circulare](/knowledge/monero-circular-economies/)
+  * [Cum permite Monero în mod unic economiile circulare](/knowledge/monero-circular-economies)/
 
-  * [Semnături inelare Monero vs CoinJoin ca în Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Semnături inelare Monero vs CoinJoin ca în Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [De ce (și cum!) ar trebui să vă păstrați propriile chei](/knowledge/hold-your-keys/)
+  * [De ce (și cum!) ar trebui să vă păstrați propriile chei](/knowledge/hold-your-keys)/
 
-  * [Cum afectează nodurile de la distanță confidențialitatea Monero](/knowledge/remote-nodes-privacy/)
+  * [Cum afectează nodurile de la distanță confidențialitatea Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Cum folosește Monero hard-fork-urile pentru a moderniza rețeaua](/knowledge/network-upgrades/)
+  * [Cum folosește Monero hard-fork-urile pentru a moderniza rețeaua](/knowledge/network-upgrades)/
 
-  * [Vezi etichete: Cum un singur octet va reduce timpii de sincronizare a portofelului Monero cu 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Vezi etichete: Cum un singur octet va reduce timpii de sincronizare a portofelului Monero cu 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool și rolul său în descentralizarea mineritului Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool și rolul său în descentralizarea mineritului Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Ce va face pentru Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Ce va face pentru Monero](/knowledge/seraphis-for-monero)/
 
-  * [Este convertirea Bitcoin în Monero la fel de privată ca și cumpărarea directă de Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Este convertirea Bitcoin în Monero la fel de privată ca și cumpărarea directă de Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [De ce Monero folosește o configurație fără încredere, spre deosebire de Zcash](/knowledge/monero-trustless-setup/)
+  * [De ce Monero folosește o configurație fără încredere, spre deosebire de Zcash](/knowledge/monero-trustless-setup)/
 
-  * [De ce Monero este un depozit de valoare mai bun decât Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [De ce Monero este un depozit de valoare mai bun decât Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Cum poate Monero să depășească efectele de rețea ale Bitcoin](/knowledge/network-effect/)
+  * [Cum poate Monero să depășească efectele de rețea ale Bitcoin](/knowledge/network-effect)/
 
-  * [De ce Monero are cea mai mare comunitate cu gândire critică](/knowledge/critical-thinking/)
+  * [De ce Monero are cea mai mare comunitate cu gândire critică](/knowledge/critical-thinking)/
 
-  * [Escrocherii la care să fii atent când folosești Monero](/knowledge/monero-scams/)
+  * [Escrocherii la care să fii atent când folosești Monero](/knowledge/monero-scams)/
 
-  * [Cum vor funcționa schimburile atomice în Monero](/knowledge/monero-atomic-swaps/)
+  * [Cum vor funcționa schimburile atomice în Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ce trebuie să știe fiecare utilizator Monero atunci când vine vorba de rețea](/knowledge/monero-networking/)
+  * [Ce trebuie să știe fiecare utilizator Monero atunci când vine vorba de rețea](/knowledge/monero-networking)/
 
-  * [Cum ascunde RingCT sumele tranzacțiilor Monero](/knowledge/monero-ringct/)
+  * [Cum ascunde RingCT sumele tranzacțiilor Monero](/knowledge/monero-ringct)/
 
-  * [Cum îți protejează identitatea adresele Monero invizibile](/knowledge/monero-stealth-addresses/)
+  * [Cum îți protejează identitatea adresele Monero invizibile](/knowledge/monero-stealth-addresses)/
 
-  * [Cum previn subadresele Monero legătura de identitate](/knowledge/monero-subaddresses/)
+  * [Cum previn subadresele Monero legătura de identitate](/knowledge/monero-subaddresses)/
 
-  * [Explicații despre ieșirile Monero](/knowledge/monero-outputs/)
+  * [Explicații despre ieșirile Monero](/knowledge/monero-outputs)/
 
-  * [Cele mai bune practici Monero pentru începători](/knowledge/monero-best-practices/)
+  * [Cele mai bune practici Monero pentru începători](/knowledge/monero-best-practices)/
 
-  * [Modul în care semnăturile inelare ascund ieșirile Monero](/knowledge/ring-signatures/)
+  * [Modul în care semnăturile inelare ascund ieșirile Monero](/knowledge/ring-signatures)/
 
-  * [Cum a rezolvat Monero problema dimensiunii blocurilor care afectează Bitcoin](/knowledge/dynamic-block-size/)
+  * [Cum a rezolvat Monero problema dimensiunii blocurilor care afectează Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Cum va îmbunătăți CLSAG eficiența Monero](/knowledge/what-is-clsag/)
+  * [Cum va îmbunătăți CLSAG eficiența Monero](/knowledge/what-is-clsag)/
 
-  * [De ce Monero are o emisie de coadă](/knowledge/monero-tail-emission/)
+  * [De ce Monero are o emisie de coadă](/knowledge/monero-tail-emission)/
 
-  * [O scurtă istorie a Monero](/knowledge/monero-history/)
+  * [O scurtă istorie a Monero](/knowledge/monero-history)/
 
-  * [Revista Wired se înșeală în legătură cu Monero, iată de ce](/knowledge/wired-article-debunked/)
+  * [Revista Wired se înșeală în legătură cu Monero, iată de ce](/knowledge/wired-article-debunked)/
 
-  * [Top 15 mituri și îngrijorări legate de Monero dezmințite](/knowledge/monero-myths-debunked/)
+  * [Top 15 mituri și îngrijorări legate de Monero dezmințite](/knowledge/monero-myths-debunked)/
 
-  * [Cum păstrează Dandelion++ confidențialitatea originilor tranzacțiilor Monero](/knowledge/monero-dandelion/)
+  * [Cum păstrează Dandelion++ confidențialitatea originilor tranzacțiilor Monero](/knowledge/monero-dandelion)/
 
-  * [De ce Monero este Open Source și descentralizat](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [De ce Monero este Open Source și descentralizat](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Mineritul Monero: Ce face ca RandomX să fie atât de special](/knowledge/monero-mining-randomx/)
+  * [Mineritul Monero: Ce face ca RandomX să fie atât de special](/knowledge/monero-mining-randomx)/
 
-  * [De ce Monero este mai bun decât Dash, Zcash, Zcoin (chiar și cu Lelantus), Grin și Bitcoin Mixers ca Wasabi (actualizat în mai 2020)](/knowledge/why-monero-is-better/)
+  * [De ce Monero este mai bun decât Dash, Zcash, Zcoin (chiar și cu Lelantus), Grin și Bitcoin Mixers ca Wasabi (actualizat în mai 2020)](/knowledge/why-monero-is-better)/
+
+Lecturi suplimentare

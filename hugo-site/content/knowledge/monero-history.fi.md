@@ -14,6 +14,8 @@ Mutta ennen kuin alamme edes puhua Moneron julkaisusta vuonna 2014, meidän on p
 
 ## Bytecoin
 
+## Bytecoin
+
 Syyskuussa 2013 aiemmin tuntematon ryhmä, Cryptonote, julkaisi tiedotteen uudesta protokollasta samalla nimellä. Tällä protokollalla pyrittiin luomaan Bitcoinin kaltainen kryptovaluutta, vaikka se käytti valinnaisia sormusallekirjoituksia ja piilotettuja osoitteita yksityisyyden vahvistamiseksi. Pian tämän jälkeen, marraskuussa 2013, ensimmäinen koodi puskettiin GitHubiin uudelle kolikolle nimeltä Bytecoin. Tämä kolikko toteutti paperissa kuvatun protokollan aivan uudella koodipohjalla (eli sitä ei ollut forkattu Bitcoinista kuten useimmat muut kolikot tuolloin).
 
 Bytecoin-tiimi otti aikansa puskiessaan loput koodista GitHubiin, mutta se näytti valmistuvan maaliskuussa 2014, jolloin projektin "löysi" myöhemmin "satunnainen" henkilö BitcoinTalk-foorumeilta. Vaikkakin nyt epäillään laajalti, että tämä oli ennalta suunniteltu temppu joka herätti kiinnostusta. Sen jälkeen kun satunnainen henkilö onnistui keräämään kiinnostuneita silmäpareja projektille, kiinnostuneet huomasivat jotain outoa: yli 80 % kolikoista oli jo louhittu.
@@ -26,11 +28,15 @@ Siihen aikaan kilpailtiin siitä, kuka voisi forkata Bytecoinin, puhdistaa koodi
 
 ## Bitmonero
 
+## Bitmonero
+
 9\. huhtikuuta 2014 toinen ennenkuulumaton taho nimeltä "thankful_for_today" julkaisi BitcoinTalk-foorumille ja lanseerasi ensimmäisen Bytecoin-forkin, nimeltään Bitmonero. Koska se oli ensimmäinen forkki, Bitmonero sai nopeasti huomiota ja sen ympärille muodostui 18. huhtikuuta ilmestyessään pieni yhteisö, joka halusi jatkaa siitä mihin Bytecoin oli jäänyt, mutta ei kestänyt kauan, kun Bitmonerostakin löytyi jotain hämärää. 
 
 Perustaja "thankful_for_today" osoittautui vaikeaksi työkaveriksi. Hän saattoi kadota usein päiviksi kerrallaan (erittäin outoa upouuden kolikon kohdalla kehitystyön ensimmäisinä päivinä), yritti usein yhteisön vastusteluista huolimatta yhdistää Moneron louhintaa Bytecoiniin, muuttaa julkistusaikataulua ja yleensäkin kieltäytyä yhteistyöstä johdonmukaiseen ydinryhmän kanssa, joka oli mennyt niin pitkälle että oli rakentanut kolikon ympärille omat verkkosivustot, BitcoinTalk-postaukset ja arkistot.
 
 Pian kävi selväksi, että Moneron ympärille muodostunut ydinryhmä oli paljon aktiivisempi ja pätevämpi kuin "thankful_for_todayn", ja vaikka hänet kutsuttiin osallistumaan useita kertoja, hän lopulta katosi ja hänestä tuli alaviite Moneron historiassa. Monia vuosia myöhemmin epäillään, että hän oli myös salaa osa Bytecoin-tiimiä. Miksi? Kaiken tämän aikana Bytecoin ei itse ollut istunut toimettomana.
+
+## Poltettu maa
 
 ## Poltettu maa
 
@@ -44,72 +50,76 @@ Mutta silti huijaukset eivät loppuneet tähän. Bytecoinilla oli viimeinen äss
 
 ## Johtopäätös
 
+## Johtopäätös
+
 Kovin monet kolikot eivät voi ylpeillä sillä, että niillä on perustaja, joka ei ole enää heidän kanssaan. Itse asiassa Bitcoin ja Monero ovat luultavasti kaksi suurinta esimerkkiä. Vaikka vertailu saattaa näyttää Bitcoinin paremmassa valossa, on myös Moneron huijauksien täyteisessä alussa opittavaa.
 
 Bitcoin osoitti mitä voi tapahtua, kun yksi henkilö on kyllästynyt nykyiseen järjestelmään ja uskaltaa vauhdittaa innovaatioita haastaakseen totuttuja toimintatapoja. Monero näyttää yhteisön voiman, joka kieltäytyy ruokkimasta valheita, löytää itse totuuden ja ottaa takaisin työkalut, joilla rakentaa vapautta. Monero on saattanut alkaa huijauksena, mutta se on todella kehittynyt tehokkaaksi aseeksi taloudellisen yksityisyytemme palauttamiseksi.
 
 Lue lisää
 
-  * [Kuinka Monero ainutlaatuisesti mahdollistaa kiertotaloudet](/knowledge/monero-circular-economies/)
+  * [Kuinka Monero ainutlaatuisesti mahdollistaa kiertotaloudet](/knowledge/monero-circular-economies)/
 
-  * [Moneron sormusallekirjoitukset vs CoinJoin kuten Wasabissa](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Moneron sormusallekirjoitukset vs CoinJoin kuten Wasabissa](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Miksi (ja miten!) sinun pitäisi hallita omia avaimiasi](/knowledge/hold-your-keys/)
+  * [Miksi (ja miten!) sinun pitäisi hallita omia avaimiasi](/knowledge/hold-your-keys)/
 
-  * [Osallistuminen Moneroon](/knowledge/contributing-to-monero/)
+  * [Osallistuminen Moneroon](/knowledge/contributing-to-monero)/
 
-  * [Kuinka etäsolmut vaikuttavat Moneron yksityisyyteen](/knowledge/remote-nodes-privacy/)
+  * [Kuinka etäsolmut vaikuttavat Moneron yksityisyyteen](/knowledge/remote-nodes-privacy)/
 
-  * [Kuinka Monero käyttää hard forkkeja verkon päivittämiseen](/knowledge/network-upgrades/)
+  * [Kuinka Monero käyttää hard forkkeja verkon päivittämiseen](/knowledge/network-upgrades)/
 
-  * [Katselutunnisteet: Kuinka yksi tavu vähentää Moneron lompakon synkronointiaikoja yli 40%](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Katselutunnisteet: Kuinka yksi tavu vähentää Moneron lompakon synkronointiaikoja yli 40%](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ja sen rooli Monero-louhinnan hajauttamisessa](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ja sen rooli Monero-louhinnan hajauttamisessa](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Mitä se tekee Monerolle](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Mitä se tekee Monerolle](/knowledge/seraphis-for-monero)/
 
-  * [Onko Bitcoinin muuntaminen Moneroksi yhtä yksityistä kuin Moneron ostaminen suoraan?](/knowledge/most-private-way-to-buy-monero/)
+  * [Onko Bitcoinin muuntaminen Moneroksi yhtä yksityistä kuin Moneron ostaminen suoraan?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Miksi Monero käyttää "Trustless" -asetusta toisin kuin Zcash](/knowledge/monero-trustless-setup/)
+  * [Miksi Monero käyttää "Trustless" -asetusta toisin kuin Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Miksi Monero on parempi arvon säilyttäjä kuin Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Miksi Monero on parempi arvon säilyttäjä kuin Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kuinka Monero voi voittaa Bitcoinin verkkovaikutukset](/knowledge/network-effect/)
+  * [Kuinka Monero voi voittaa Bitcoinin verkkovaikutukset](/knowledge/network-effect)/
 
-  * [Miksi Monerolla on kriittisin ajatteluyhteisö](/knowledge/critical-thinking/)
+  * [Miksi Monerolla on kriittisin ajatteluyhteisö](/knowledge/critical-thinking)/
 
-  * [Huijaukset, joita kannattaa huomioida Moneroa käytettäessä](/knowledge/monero-scams/)
+  * [Huijaukset, joita kannattaa huomioida Moneroa käytettäessä](/knowledge/monero-scams)/
 
-  * [Kuinka Atomic Swapit toimivat Monerossa](/knowledge/monero-atomic-swaps/)
+  * [Kuinka Atomic Swapit toimivat Monerossa](/knowledge/monero-atomic-swaps)/
 
-  * [Mitä jokaisen Moneron käyttäjän on tiedettävä verkostoitumisesta](/knowledge/monero-networking/)
+  * [Mitä jokaisen Moneron käyttäjän on tiedettävä verkostoitumisesta](/knowledge/monero-networking)/
 
-  * [Kuinka RingCT piilottaa Monero-transaktiosummat](/knowledge/monero-ringct/)
+  * [Kuinka RingCT piilottaa Monero-transaktiosummat](/knowledge/monero-ringct)/
 
-  * [Kuinka Monero Stealth -osoitteet suojaa identiteettiäsi](/knowledge/monero-stealth-addresses/)
+  * [Kuinka Monero Stealth -osoitteet suojaa identiteettiäsi](/knowledge/monero-stealth-addresses)/
 
-  * [Kuinka Monero-aliosoitteet estävät identiteetin yhdistämisen](/knowledge/monero-subaddresses/)
+  * [Kuinka Monero-aliosoitteet estävät identiteetin yhdistämisen](/knowledge/monero-subaddresses)/
 
-  * [Moneron Outputit selitettynä](/knowledge/monero-outputs/)
+  * [Moneron Outputit selitettynä](/knowledge/monero-outputs)/
 
-  * [Moneron parhaat käytännöt aloittelijoille](/knowledge/monero-best-practices/)
+  * [Moneron parhaat käytännöt aloittelijoille](/knowledge/monero-best-practices)/
 
-  * [Kuinka sormusallekirjoitukset sekoittavat Moneron outputit](/knowledge/ring-signatures/)
+  * [Kuinka sormusallekirjoitukset sekoittavat Moneron outputit](/knowledge/ring-signatures)/
 
-  * [Kuinka Monero ratkaisi Bitcoinia vaivaavan lohkokoko-ongelman](/knowledge/dynamic-block-size/)
+  * [Kuinka Monero ratkaisi Bitcoinia vaivaavan lohkokoko-ongelman](/knowledge/dynamic-block-size)/
 
-  * [Kuinka CLSAG parantaa Moneron tehokkuutta](/knowledge/what-is-clsag/)
+  * [Kuinka CLSAG parantaa Moneron tehokkuutta](/knowledge/what-is-clsag)/
 
-  * [Miksi Monerolla on "Tail Emission"](/knowledge/monero-tail-emission/)
+  * [Miksi Monerolla on "Tail Emission"](/knowledge/monero-tail-emission)/
 
-  * [Wired Magazine on väärässä Monerosta, tässä miksi](/knowledge/wired-article-debunked/)
+  * [Wired Magazine on väärässä Monerosta, tässä miksi](/knowledge/wired-article-debunked)/
 
-  * [15 parasta Monero-myyttiä ja -huolia, jotka on kumottu](/knowledge/monero-myths-debunked/)
+  * [15 parasta Monero-myyttiä ja -huolia, jotka on kumottu](/knowledge/monero-myths-debunked)/
 
-  * [Kuinka Dandelion++ pitää Moneron tapahtuman alkuperän yksityisenä](/knowledge/monero-dandelion/)
+  * [Kuinka Dandelion++ pitää Moneron tapahtuman alkuperän yksityisenä](/knowledge/monero-dandelion)/
 
-  * [Miksi Monero on avoimen lähdekoodin ja hajautettu](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Miksi Monero on avoimen lähdekoodin ja hajautettu](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Moneron louhinta: Mikä tekee RandomX:stä niin erityisen?](/knowledge/monero-mining-randomx/)
+  * [Moneron louhinta: Mikä tekee RandomX:stä niin erityisen?](/knowledge/monero-mining-randomx)/
 
-  * [Miksi Monero on parempi kuin Dash, Zcash, Zcoin (jopa Lelantuksen kanssa), Grin ja Bitcoin-mikserit kuten Wasabi (päivitetty toukokuussa 2020)](/knowledge/why-monero-is-better/)
+  * [Miksi Monero on parempi kuin Dash, Zcash, Zcoin (jopa Lelantuksen kanssa), Grin ja Bitcoin-mikserit kuten Wasabi (päivitetty toukokuussa 2020)](/knowledge/why-monero-is-better)/
+
+Lue lisää

@@ -10,21 +10,39 @@ image_credit_url: "https://cypherstack.com"
 
 也就是說，其實許多常見對門羅幣的批評社區早就知道並進行了相應技術升級，其批評要麼已經過時，要麼是杞人憂天，又或者是狹隘地對問題進行斷章取義. 在本文中，我們希望為這些傳言進行闡釋.
 
-  1. [由於門羅幣在交易中對隱私保護和匿名的屬性，它將面臨遠超其他加密貨幣的監管和審查.](/knowledge/monero-myths-debunked#1/)
-  2. [門羅幣的錢包比較少.](/knowledge/monero-myths-debunked#2/)
-  3. [門羅幣的用戶體驗不好.](/knowledge/monero-myths-debunked#3/)
-  4. [如果XX幣也採用強大的隱私技術，門羅幣將過時和毫無用處.](/knowledge/monero-myths-debunked#4/)
-  5. [門羅幣的交易費用不是很高嗎？](/knowledge/monero-myths-debunked#5/)
-  6. [ 門羅幣的交易資料比比特幣交易大很多，不利於擴展性.](/knowledge/monero-myths-debunked#6/)
-  7. [門羅幣經常硬分叉，這不是說明它是中心化的嗎？](/knowledge/monero-myths-debunked#7/)
-  8. [門羅幣是fluffypony開發的幣，Riccardo是門羅幣的CEO，門羅幣有中本聰，萊特李，乙太V那種靈魂人物!](/knowledge/monero-myths-debunked#8/)
-  9. [從2017年以來，代碼庫大多數提交都來moneromooo-monero ](/knowledge/monero-myths-debunked#9/)
-  10. [門羅幣容易受到51%算力攻擊](/knowledge/monero-myths-debunked#10/)
-  11. [ CPU友好演算法？ 難道門羅幣採礦不會被駭客僵屍網路控制嗎？](/knowledge/monero-myths-debunked#11/)
-  12. [門羅幣頻繁分叉不僅會損害門羅幣的價格，而且會損害其隱私性!](/knowledge/monero-myths-debunked#12/)
-  13. [早期挖門羅幣的創始人們都暴富了吧？](/knowledge/monero-myths-debunked#13/)
-  14. [如果門羅幣如此隱私，我們如何審計供應總量，以確保沒有人在我們的眼皮子底下，利用未知的駭客漏洞免費印刷門羅幣？](/knowledge/monero-myths-debunked#14/)
-  15. [ 門羅幣當前的大多數挖礦的雜湊值僅來自兩個礦池.](/knowledge/monero-myths-debunked#15/)
+  1. [由於門羅幣在交易中對隱私保護和匿名的屬性，它將面臨遠超其他加密貨幣的監管和審查.](/knowledge/monero-myths-debunked#1)/
+  2. [門羅幣的錢包比較少.](/knowledge/monero-myths-debunked#2)/
+  3. [門羅幣的用戶體驗不好.](/knowledge/monero-myths-debunked#3)/
+  4. [如果XX幣也採用強大的隱私技術，門羅幣將過時和毫無用處.](/knowledge/monero-myths-debunked#4)/
+  5. [門羅幣的交易費用不是很高嗎？](/knowledge/monero-myths-debunked#5)/
+  6. [ 門羅幣的交易資料比比特幣交易大很多，不利於擴展性.](/knowledge/monero-myths-debunked#6)/
+  7. [門羅幣經常硬分叉，這不是說明它是中心化的嗎？](/knowledge/monero-myths-debunked#7)/
+  8. [門羅幣是fluffypony開發的幣，Riccardo是門羅幣的CEO，門羅幣有中本聰，萊特李，乙太V那種靈魂人物!](/knowledge/monero-myths-debunked#8)/
+  9. [從2017年以來，代碼庫大多數提交都來moneromooo-monero ](/knowledge/monero-myths-debunked#9)/
+  10. [門羅幣容易受到51%算力攻擊](/knowledge/monero-myths-debunked#10)/
+  11. [ CPU友好演算法？ 難道門羅幣採礦不會被駭客僵屍網路控制嗎？](/knowledge/monero-myths-debunked#11)/
+  12. [門羅幣頻繁分叉不僅會損害門羅幣的價格，而且會損害其隱私性!](/knowledge/monero-myths-debunked#12)/
+  13. [早期挖門羅幣的創始人們都暴富了吧？](/knowledge/monero-myths-debunked#13)/
+  14. [如果門羅幣如此隱私，我們如何審計供應總量，以確保沒有人在我們的眼皮子底下，利用未知的駭客漏洞免費印刷門羅幣？](/knowledge/monero-myths-debunked#14)/
+  15. [ 門羅幣當前的大多數挖礦的雜湊值僅來自兩個礦池.](/knowledge/monero-myths-debunked#15)/
+
+  1. [由於門羅幣在交易中對隱私保護和匿名的屬性，它將面臨遠超其他加密貨幣的監管和審查.](/knowledge/monero-myths-debunked#1)/
+  2. [門羅幣的錢包比較少.](/knowledge/monero-myths-debunked#2)/
+  3. [門羅幣的用戶體驗不好.](/knowledge/monero-myths-debunked#3)/
+  4. [如果XX幣也採用強大的隱私技術，門羅幣將過時和毫無用處.](/knowledge/monero-myths-debunked#4)/
+  5. [門羅幣的交易費用不是很高嗎？](/knowledge/monero-myths-debunked#5)/
+  6. [ 門羅幣的交易資料比比特幣交易大很多，不利於擴展性.](/knowledge/monero-myths-debunked#6)/
+  7. [門羅幣經常硬分叉，這不是說明它是中心化的嗎？](/knowledge/monero-myths-debunked#7)/
+  8. [門羅幣是fluffypony開發的幣，Riccardo是門羅幣的CEO，門羅幣有中本聰，萊特李，乙太V那種靈魂人物!](/knowledge/monero-myths-debunked#8)/
+  9. [從2017年以來，代碼庫大多數提交都來moneromooo-monero ](/knowledge/monero-myths-debunked#9)/
+  10. [門羅幣容易受到51%算力攻擊](/knowledge/monero-myths-debunked#10)/
+  11. [ CPU友好演算法？ 難道門羅幣採礦不會被駭客僵屍網路控制嗎？](/knowledge/monero-myths-debunked#11)/
+  12. [門羅幣頻繁分叉不僅會損害門羅幣的價格，而且會損害其隱私性!](/knowledge/monero-myths-debunked#12)/
+  13. [早期挖門羅幣的創始人們都暴富了吧？](/knowledge/monero-myths-debunked#13)/
+  14. [如果門羅幣如此隱私，我們如何審計供應總量，以確保沒有人在我們的眼皮子底下，利用未知的駭客漏洞免費印刷門羅幣？](/knowledge/monero-myths-debunked#14)/
+  15. [ 門羅幣當前的大多數挖礦的雜湊值僅來自兩個礦池.](/knowledge/monero-myths-debunked#15)/
+
+## 1\. 由於門羅幣在交易中對隱私保護和匿名的屬性，它將面臨遠超其他加密貨幣的監管和審查.
 
 ## 1\. 由於門羅幣在交易中對隱私保護和匿名的屬性，它將面臨遠超其他加密貨幣的監管和審查.
 
@@ -40,9 +58,13 @@ image_credit_url: "https://cypherstack.com"
 
 ## 2\. 門羅幣的錢包比較少.
 
+## 2\. 門羅幣的錢包比較少.
+
 的確，支持門羅幣的錢包種類少於許多加密貨幣.這是因為門羅幣是從零開始開發的.它的代碼庫與比特幣完全不同.這意味著門羅幣不能像大多數代幣那樣，隨便分叉比特幣核心錢包或其他任何已經存在的錢包，並加以利用現成的基礎設施. 同樣，這意味著門羅幣不太容易添加到協力廠商錢包裡，例如Exodus中.
 
 但是，慢慢地，門羅幣開始出現各種錢包.幾年前，門羅幣沒有GUI電腦錢包，有個著名的表情包就是調侃門羅幣沒有GUI錢包，當然那時候更沒有手機移動端錢包支持門羅，但是現在，有一系列的錢包，例如Android安卓的Monerujo，iOS和Android雙系統的Cake Wallet，以及Wookey錢包，Exa Wallet等十幾個新錢包.此外，儘管速度較慢，但包括Exodus和Guarda在內的協力廠商錢包開始增加對門羅幣的支援，而且我們預計這種趨勢會隨著時間的流逝和門羅幣代碼庫的成熟而持續下去.
+
+## 3\. 門羅幣的用戶體驗不好.
 
 ## 3\. 門羅幣的用戶體驗不好.
 
@@ -55,6 +77,8 @@ image_credit_url: "https://cypherstack.com"
 使用門羅幣，這個洗幣和混幣清單可以全部被淘汰.門羅幣的交易總是高度隱私的，而用戶無需執行任何操作或使用外部軟體.比特幣很難讓所有人都享有隱私並且不出錯，而門羅卻很難出錯，想不為所有人一直帶來隱私保護都不行.所以權衡而言，我們認為更長的收款位址和更久的同步時間是值得的.
 
 雖然我們討論了以上所有內容，事實上門羅幣的用戶體驗會像其它幣一樣隨著技術進步而變得更好.技術層的使用者體驗，像掃描速度大概率會在幾年內得到顯著改善，但比特幣不隱私這種問題屬於加密貨幣的基礎架構，協議層很難改變.
+
+## 4\. 如果XX幣也採用強大的隱私技術，門羅幣將過時和毫無用處.
 
 ## 4\. 如果XX幣也採用強大的隱私技術，門羅幣將過時和毫無用處.
 
@@ -78,6 +102,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 5\. 門羅幣的交易費用不是很高嗎？
 
+## 5\. 門羅幣的交易費用不是很高嗎？
+
 門羅礦工費並不高，並且事實上便宜的離譜，比特幣礦工費動則幾十人民幣，門羅只要幾分錢!這一切得益於2018年10月添加的防彈協議技術，該技術是門羅幣三大隱私技術環形機密的改進版，神奇地將區塊鏈體積大大降低，比改進前減少了80％以上，所以從那時開始，門羅幣交易費用也下降了95%，實際上，截至撰寫本文時，門羅幣的每位元組價格比比特幣便宜，並且新技術正在進一步優化，將使費用更低.
 
 門羅幣的優化是多種多樣且頻繁的，開源社區每個人都可以獻計獻策，多方案同時進行.社區的一種新方案已經巧妙的優化防彈協議本身，將計算和驗證所需的數學運算縮減多達25％.
@@ -85,6 +111,10 @@ image_credit_url: "https://cypherstack.com"
 此外，正在開發中的其它新的，令人興奮的環簽名方案至少還有兩個，例如CLSAG，它將取代當前的MLSAG方案，並將整個交易的規模進一步縮小25-35％.除此之外，還有更新穎，更前沿的技術，它們具有完全不同的驗證系統，可以保持當前的交易效率，但環形簽名數量可超過一百個，目前是11個，環形簽名和環形機密是不同的，分別保護發送人和交易金額，新技術例如有Triptych，Arcturus和Lelantus，它們都體積更小，並比當前方案更有效.
 
 ## 6\.  門羅幣的交易資料比比特幣交易大很多，不利於擴展性.
+
+## 6\.  門羅幣的交易資料比比特幣交易大很多，不利於擴展性.
+
+## 7\. 門羅幣經常硬分叉，這不是說明它是中心化的嗎？
 
 ## 7\. 門羅幣經常硬分叉，這不是說明它是中心化的嗎？
 
@@ -98,9 +128,13 @@ image_credit_url: "https://cypherstack.com"
 
 ## 8\. 門羅幣是fluffypony開發的幣，Riccardo是門羅幣的CEO，門羅幣有中本聰，萊特李，乙太V那種靈魂人物!
 
+## 8\. 門羅幣是fluffypony開發的幣，Riccardo是門羅幣的CEO，門羅幣有中本聰，萊特李，乙太V那種靈魂人物!
+
 這又是一個徹徹底底的謠言, 門羅幣從來沒有公司，領袖, 門羅也從來不是 Riccardo ‘fluffypony’ Spagni的幣. 他甚至都不是門羅幣的發起人. 門羅幣是由一個用戶名叫thankful_for_today化名個人發起的，這個門羅幣發起人後來也跟社區分開了，這是另一段有趣的故事.而fluffypony作為門羅幣的核心成員/首席維護者而著名，因為他花了很多時間和資源來幫助門羅幣成長，並且他四處旅行，在各種會議上演講.結合這兩件事，導致他成為門羅幣的一種非官方代言人，通常人們通過他而找到門羅幣.由於在加密貨幣領域普遍存在的糟糕的CEO文化，所以人們想當然認為他是門羅幣的創始人和領導者，但這兩者都不是正確的.
 
 如今，fluffypony仍是核心團隊的一部分，但不再是代碼庫的主要維護者，並且從兩年前就開始退居二線的步驟，現在從事自己的個人項目.門羅幣在這個過程裡繼續前進，感興趣的人還是應該去看一下，門羅幣六年來有大約700名程式師為代碼庫貢獻過代碼，很多人離去也很多人加入，門羅幣的核心團隊也並不負責技術開發，只是一個守門人的職責，所以什麼是開源且去中心化，門羅就是那個唯一的社區.
+
+## 9\. 從2017年以來，代碼庫大多數提交都來moneromooo-monero 
 
 ## 9\. 從2017年以來，代碼庫大多數提交都來moneromooo-monero 
 
@@ -109,6 +143,8 @@ image_credit_url: "https://cypherstack.com"
 可以想像一下，如果沒有人全職工作而全靠志願者將導致大量的工作待完成.由於門羅幣沒有代幣ICO發行，也沒有創始人的酬勞，因此我們沒有像別的幣擁有專職工程師從事該專案開發，每個人都在可能的範圍內盡其所能，有錢出錢，有力出力，有的會想要一些酬勞，有的人願意給與一些幫助.
 
 話雖如此，社區仍舊付出巨大努力來制衡和檢查.核心團隊的成員在審核後才會合並代碼到門羅系統裡，因此，不存在個人既製作又整合代碼的情況，也不可能存在遞交嚴重錯誤資訊，甚至惡意程式碼而不受任何監督的可能性. 
+
+## 10\. 門羅幣容易受到51%算力攻擊
 
 ## 10\. 門羅幣容易受到51%算力攻擊
 
@@ -122,6 +158,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 11\.  CPU友好演算法？ 難道門羅幣採礦不會被駭客僵屍網路控制嗎？
 
+## 11\.  CPU友好演算法？ 難道門羅幣採礦不會被駭客僵屍網路控制嗎？
+
 相信這種說法的人認為在挖礦世界裡的兩個物件是ASIC礦機和僵屍網路，遠離一個必然意味著向另一個靠近.如果個人使用CPU來挖掘門羅幣，那麼從理論上講，駭客可以控制成百上千台電腦，並強迫他們代表駭客挖掘門羅幣，並不花任何代價，並憑藉其優勢吊打只擁有幾台電腦的普通人.
 
 關於這一論點，第一個跳出來反駁僵屍網路的就是駭客，儘管我們不鼓勵駭客入侵他人的電腦，但擁有並運營僵屍網路的門檻遠低於開發和製造ASIC的門檻.人們只需要下載免費的開源軟體，然後去尋找那些易受攻擊的電腦.而製造和研發礦機則需要大量的資本和製造管道.一起駭客攻擊可能是由一個躲在地下室裡的孩子來完成，而礦機只能由非常有錢的人來開發製造，現實裡礦機製造商一家壟斷了市場百分之80以上的份額，駭客怎麼可能壟斷.這使我們得出結論，即便是僵屍網路威脅論成立，那麼僵屍網路本身也將比ASIC更加分散且去中心化.
@@ -129,6 +167,8 @@ image_credit_url: "https://cypherstack.com"
 話雖如此，可門羅幣社區對此問題充滿信心.RandomX演算法的工程師故意設計該協定要求2GB RAM記憶體才能工作.換句話說，許多小型，易受攻擊的虛擬專用伺服器VPS，將根本沒有足夠的記憶體容量進行挖掘門羅幣，也就是說很多伺服器被劫持了也不能挖門羅，而即便那些可以挖門羅的伺服器，則系統管理員會非常明顯注意到，異常電腦工作量的增加，從而導致立即進行調查.換句話說，僵屍網路它不能像感染的電腦參與DDOS攻擊那樣，在後臺靜默運行，也不能像破解密碼工作時保持靜默.當你的電腦或者伺服器開始挖門羅，用戶和所有人不可能察覺不到異常.
 
 這大大減少了僵屍網路能夠成功攻破且不被發現被劫持的電腦數量，而不是很多人偏見裡認為存在大量高風險易被攻擊的電腦.
+
+## 12\. 門羅幣頻繁分叉不僅會損害門羅幣的價格，而且會損害其隱私性!
 
 ## 12\. 門羅幣頻繁分叉不僅會損害門羅幣的價格，而且會損害其隱私性!
 
@@ -146,6 +186,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## 13\. 早期挖門羅幣的創始人們都暴富了吧？
 
+## 13\. 早期挖門羅幣的創始人們都暴富了吧？
+
 門羅幣的歷史很有趣, 說出來你肯定會大吃一驚，它起源於一個騙局. 它的創始人名為thankful_for_today, 曾與CryptoNote協議的發明團隊保持一定的關係, 但此人心懷不軌, 試圖從中謀取不正當的利益.
 
 他們在首次詐騙嘗試失敗了, 於是創立了門羅幣作為第二次嘗試. 好在社區很快就發現了他們的企圖並阻止了行動. 即使如此，創始人還是不死心. 他們向公眾發佈了一個經過刻意劣化的挖礦軟體, 而自己保留了優化的版本, 這樣一來他們就可以獲得巨大的挖礦優勢，挖走大部分的區塊獎勵.
@@ -158,11 +200,15 @@ image_credit_url: "https://cypherstack.com"
 
 ## 14\. 如果門羅幣如此隱私，我們如何審計供應總量，以確保沒有人在我們的眼皮子底下，利用未知的駭客漏洞免費印刷門羅幣？
 
+## 14\. 如果門羅幣如此隱私，我們如何審計供應總量，以確保沒有人在我們的眼皮子底下，利用未知的駭客漏洞免費印刷門羅幣？
+
 這是一個很難回答的問題.通常給出的一個答案是，我們可以疊加所有的幣基coinbase，因為當新的門羅幣獎勵給礦工時，這些交易是透明的，如果將它們加起來，我們應該得到流通的門羅幣總數,而門羅幣轉帳有交易鏡像可以驗證一筆幣到底有沒有被花費過.
 
 所以必須注意的是，如果發生某種惡性增發，使門羅幣的總數超出我們期望，也不會在挖礦過程中發生，而是在錢包之間的常規交易中發生.並且只會以如下三種方式之一發生.
 
 第一，加密技術理論存在根本缺陷，比如私密金鑰公開金鑰，帳本，節點，去中心化，這種理論是錯的. 第二,固態加密代碼有缺陷，就是理論沒問題可在實現這個理論過程中代碼寫錯了. 第三, 理論也沒問題，實現也沒問題,但是有超級電腦出現，比如傳說中的量子電腦，直接攻破現在科學認知，提供我們不能識別的虛假證據.
+
+## 15\.  門羅幣當前的大多數挖礦的雜湊值僅來自兩個礦池.
 
 ## 15\.  門羅幣當前的大多數挖礦的雜湊值僅來自兩個礦池.
 
@@ -210,66 +256,68 @@ image_credit_url: "https://cypherstack.com"
 
 進一步閱讀
 
-  * [門羅幣如何獨特地實現循環經濟](/knowledge/monero-circular-economies/)
+  * [門羅幣如何獨特地實現循環經濟](/knowledge/monero-circular-economies)/
 
-  * [門羅幣環形簽名與CoinJoin像在Wasabi比較](/knowledge/ring-signatures-vs-coinjoin/)
+  * [門羅幣環形簽名與CoinJoin像在Wasabi比較](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [為什麼（以及如何！）你應該持有你自己的鑰匙](/knowledge/hold-your-keys/)
+  * [為什麼（以及如何！）你應該持有你自己的鑰匙](/knowledge/hold-your-keys)/
 
-  * [貢獻為門羅幣](/knowledge/contributing-to-monero/)
+  * [貢獻為門羅幣](/knowledge/contributing-to-monero)/
 
-  * [遠程節點如何影響門羅幣的隱私](/knowledge/remote-nodes-privacy/)
+  * [遠程節點如何影響門羅幣的隱私](/knowledge/remote-nodes-privacy)/
 
-  * [門羅幣是如何使用硬分叉為升級網絡](/knowledge/network-upgrades/)
+  * [門羅幣是如何使用硬分叉為升級網絡](/knowledge/network-upgrades)/
 
-  * [查看標籤：一個字節如何將門羅幣錢包的同步時間減少40%以上](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [查看標籤：一個字節如何將門羅幣錢包的同步時間減少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool和它在去Monero採礦中心化的作用](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool和它在去Monero採礦中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis：它將為門羅幣做什麼](/knowledge/seraphis-for-monero/)
+  * [Seraphis：它將為門羅幣做什麼](/knowledge/seraphis-for-monero)/
 
-  * [把比特幣兌換成門羅幣，就可以高枕無憂了嗎?](/knowledge/most-private-way-to-buy-monero/)
+  * [把比特幣兌換成門羅幣，就可以高枕無憂了嗎?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [為什麼門羅幣不像大零幣那樣需要初始信任來實現隱私](/knowledge/monero-trustless-setup/)
+  * [為什麼門羅幣不像大零幣那樣需要初始信任來實現隱私](/knowledge/monero-trustless-setup)/
 
-  * [為什麼門羅幣才是電子黃金，相對於比特幣更有儲存價值的屬性](/knowledge/monero-better-store-of-value/)
+  * [為什麼門羅幣才是電子黃金，相對於比特幣更有儲存價值的屬性](/knowledge/monero-better-store-of-value)/
 
-  * [門羅幣是如何蠶食比特幣的份額和先發優勢](/knowledge/network-effect/)
+  * [門羅幣是如何蠶食比特幣的份額和先發優勢](/knowledge/network-effect)/
 
-  * [為什麼說門羅幣社區最具批判性精神](/knowledge/critical-thinking/)
+  * [為什麼說門羅幣社區最具批判性精神](/knowledge/critical-thinking)/
 
-  * [門羅幣防詐騙指南](/knowledge/monero-scams/)
+  * [門羅幣防詐騙指南](/knowledge/monero-scams)/
 
-  * [原子互換技術將如何在門羅幣上實現](/knowledge/monero-atomic-swaps/)
+  * [原子互換技術將如何在門羅幣上實現](/knowledge/monero-atomic-swaps)/
 
-  * [門羅幣與當代互聯網，隱私達人的須知](/knowledge/monero-networking/)
+  * [門羅幣與當代互聯網，隱私達人的須知](/knowledge/monero-networking)/
 
-  * [ RingCT環形機密技術是如何隱藏門羅幣交易的金額](/knowledge/monero-ringct/)
+  * [ RingCT環形機密技術是如何隱藏門羅幣交易的金額](/knowledge/monero-ringct)/
 
-  * [門羅幣隱身地址如何保護你的身份](/knowledge/monero-stealth-addresses/)
+  * [門羅幣隱身地址如何保護你的身份](/knowledge/monero-stealth-addresses)/
 
-  * [門羅幣子位址是如何防止使用者資訊被關聯](/knowledge/monero-subaddresses/)
+  * [門羅幣子位址是如何防止使用者資訊被關聯](/knowledge/monero-subaddresses)/
 
-  * [加密貨幣裡面的output，中文譯作輸出，這個概念到底什麼意思,又為什麼門羅幣轉帳後餘額顯示錯誤要等待二十分鐘](/knowledge/monero-outputs/)
+  * [加密貨幣裡面的output，中文譯作輸出，這個概念到底什麼意思,又為什麼門羅幣轉帳後餘額顯示錯誤要等待二十分鐘](/knowledge/monero-outputs)/
 
-  * [門羅幣最佳入門指南](/knowledge/monero-best-practices/)
+  * [門羅幣最佳入門指南](/knowledge/monero-best-practices)/
 
-  * [環形簽名如何保護門羅幣發送者的輸出](/knowledge/ring-signatures/)
+  * [環形簽名如何保護門羅幣發送者的輸出](/knowledge/ring-signatures)/
 
-  * [門羅幣是如何解決困擾比特幣的區塊大小的擴容問題](/knowledge/dynamic-block-size/)
+  * [門羅幣是如何解決困擾比特幣的區塊大小的擴容問題](/knowledge/dynamic-block-size)/
 
-  * [ 新的CLSAG環簽名技術將如何提高門羅幣的效率](/knowledge/what-is-clsag/)
+  * [ 新的CLSAG環簽名技術將如何提高門羅幣的效率](/knowledge/what-is-clsag)/
 
-  * [為什麼門羅幣擁有尾部增發的特性](/knowledge/monero-tail-emission/)
+  * [為什麼門羅幣擁有尾部增發的特性](/knowledge/monero-tail-emission)/
 
-  * [門羅幣的前世今生](/knowledge/monero-history/)
+  * [門羅幣的前世今生](/knowledge/monero-history)/
 
-  * [Wired雜誌是如何誤解了門羅](/knowledge/wired-article-debunked/)
+  * [Wired雜誌是如何誤解了門羅](/knowledge/wired-article-debunked)/
 
-  * [Dandelion ++蒲公英改進協議如何使Monero從源頭得到更強防護](/knowledge/monero-dandelion/)
+  * [Dandelion ++蒲公英改進協議如何使Monero從源頭得到更強防護](/knowledge/monero-dandelion)/
 
-  * [為什麼門羅幣是開源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [為什麼門羅幣是開源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [門羅幣挖礦: 什麼使 RandomX 算法如此特別](/knowledge/monero-mining-randomx/)
+  * [門羅幣挖礦: 什麼使 RandomX 算法如此特別](/knowledge/monero-mining-randomx)/
 
-  * [為什麼門羅幣優於達世幣, 大零幣, 小零幣 , 古靈幣以及經過Wasabi級別混幣器混淆後的比特幣 (更新於2020年五月)](/knowledge/why-monero-is-better/)
+  * [為什麼門羅幣優於達世幣, 大零幣, 小零幣 , 古靈幣以及經過Wasabi級別混幣器混淆後的比特幣 (更新於2020年五月)](/knowledge/why-monero-is-better)/
+
+進一步閱讀

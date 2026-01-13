@@ -10,7 +10,11 @@ image_credit_url: "https://cypherstack.com"
 
 ## 大灰狼VS小红帽的奶奶，冒名顶替诈骗
 
+## 大灰狼VS小红帽的奶奶，冒名顶替诈骗
+
 文字记载以来最古老的骗局之一，并且依旧可以在现有的各种平台和互联网上行骗. 在此骗局中，骗子通常伪装成社区中备受信任的个人或相关组织的高级成员. 一旦与受害人之间建立了信任，骗子就诱导受害者访问恶意站点，下载能窃取其资金的木马程序，甚至让用户直接向他们打钱. 所以破解这种骗局的方法是要再三核实与你交谈的人，他的真实身份是不是如他们所说. 如果对方的组织是某个实体企业，我们可以通过官方认证的电子邮件联系他们以验证身份，例如发信息给某宝问，贵公司的首席执行官马先生，是否刚才通过Telegram与我联系过，并且这类验证通常可以通过其他方式与其他社区负责人核实. 总之采取任行动之前，请先验证身份. 特别是如果他们是主动与你联系的，而不是你主动与他们发起对话的时候.
+
+## 李逵VS李鬼，钓鱼网站和钓鱼程序
 
 ## 李逵VS李鬼，钓鱼网站和钓鱼程序
 
@@ -22,7 +26,11 @@ image_credit_url: "https://cypherstack.com"
 
 ## 我，秦始皇，打钱
 
+## 我，秦始皇，打钱
+
 有时，诈骗者的套路反而不是谨小慎微. 恰恰相反，他们许诺了巨大回报和宏大的主张，并且他们知道总会有傻瓜相信他们，不论是是出于绝望，贪婪还是无知. 这些骗局有多种形式，从许诺投资给他们，便可获得可观的回报的各种项目，比如知名的Bitconnect和plustoken，到承诺提供市场内幕交易，和庄家动向以便赚钱的收费群，喊单群. 请记得一个常识，如果某事听起来好得令人难以置信，那它就是假的. 该建议在加密货币领域尤其灵验，因为如今发行代币或智能合约变得非常简单和没有成本，而网上声明自己受骗又没有办法追索. 记住一个常识，如果有人确实找到了计算市场的公式或发现了赚取无穷金钱的方法，那么他们为什么会告诉你？ 他们只会自己发财致富. 没有人会傻到分享. 放聪明点, 动动脑子,不要信任任何人带你赚钱的承诺.
+
+## 丢失了种子和助记词，就失去了全部
 
 ## 丢失了种子和助记词，就失去了全部
 
@@ -34,66 +42,68 @@ image_credit_url: "https://cypherstack.com"
 
 进一步阅读
 
-  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies/)
+  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies)/
 
-  * [门罗币环形签名与CoinJoin像在Wasabi比较](/knowledge/ring-signatures-vs-coinjoin/)
+  * [门罗币环形签名与CoinJoin像在Wasabi比较](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys/)
+  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys)/
 
-  * [贡献为门罗币](/knowledge/contributing-to-monero/)
+  * [贡献为门罗币](/knowledge/contributing-to-monero)/
 
-  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy/)
+  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy)/
 
-  * [门罗币是如何使用硬分叉为升级网络](/knowledge/network-upgrades/)
+  * [门罗币是如何使用硬分叉为升级网络](/knowledge/network-upgrades)/
 
-  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis：它将为门罗币做什么](/knowledge/seraphis-for-monero/)
+  * [Seraphis：它将为门罗币做什么](/knowledge/seraphis-for-monero)/
 
-  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero/)
+  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup/)
+  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup)/
 
-  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value/)
+  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value)/
 
-  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect/)
+  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect)/
 
-  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking/)
+  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking)/
 
-  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps/)
+  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps)/
 
-  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking/)
+  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking)/
 
-  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct/)
+  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct)/
 
-  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses/)
+  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses)/
 
-  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses/)
+  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses)/
 
-  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs/)
+  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs)/
 
-  * [门罗币最佳入门指南](/knowledge/monero-best-practices/)
+  * [门罗币最佳入门指南](/knowledge/monero-best-practices)/
 
-  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures/)
+  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures)/
 
-  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size/)
+  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size)/
 
-  * [ 新的CLSAG环签名技术将如何提高门罗币的效率](/knowledge/what-is-clsag/)
+  * [ 新的CLSAG环签名技术将如何提高门罗币的效率](/knowledge/what-is-clsag)/
 
-  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission/)
+  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission)/
 
-  * [门罗币的前世今生](/knowledge/monero-history/)
+  * [门罗币的前世今生](/knowledge/monero-history)/
 
-  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked/)
+  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked)/
 
-  * [流言终结者：关于门罗币的15大传言和疑虑](/knowledge/monero-myths-debunked/)
+  * [流言终结者：关于门罗币的15大传言和疑虑](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion/)
+  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion)/
 
-  * [为什么门罗币是开源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [为什么门罗币是开源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx/)
+  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx)/
 
-  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better/)
+  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better)/
+
+进一步阅读

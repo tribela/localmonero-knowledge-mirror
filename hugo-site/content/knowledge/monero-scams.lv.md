@@ -10,7 +10,11 @@ Kamēr ir bijusi nauda, ir bijušas krāpniecības, lai panāktu, ka cilvēki no
 
 ## Viltvārža triks
 
+## Viltvārža triks
+
 Viens no vecākajiem trikiem, un tā var notikt jebkurā diskusiju platformā. Šeit krāpnieks uzdosies par uzticamu kopienas personu vai augsta ranga amatpersonu saistītā uzņēmumā. Kad upura uzticība ir nopelnīta ar šo iedibināto reputāciju, krāpnieks var nosūtīt lietotāju uz ļaunprātīgu vietni, likt viņam lejupielādēt programmu, kas izstrādāta, lai nozagtu viņu līdzekļus, vai pat vienkārši likt lietotājam tieši nosūtīt viņiem līdzekļus. Vienmēr trīs reizes pārbaudiet, vai persona, ar kuru runājat, patiešām ir īstā persona. Uzņēmumiem būs e-pasta adreses, ar kurām sazināties, lai pārbaudītu identitāti (t.i., "Vai jūsu uzņēmuma izpilddirektors tikko sazinājās ar mani Telegram?"), un ar citiem kopienas vadītājiem parasti varēs sazināties, izmantojot citus līdzekļus. Pirms jebkādu darbību veikšanas pārbaudiet to! ĪPAŠI, ja viņi uzsāka sarunu ar jums, nevis jūs ar viņiem.
+
+## Biznesa līdzinieka triks
 
 ## Biznesa līdzinieka triks
 
@@ -22,7 +26,11 @@ Taču, kā teikts šīs sadaļas sākumā, tas attiecas ne tikai uz vietnēm. Ir
 
 ## Tieša krāpniecība
 
+## Tieša krāpniecība
+
 Dažreiz krāpnieki pat nemēģina būt smalki. Viņi izsaka milzīgas, grandiozas prasības un zina, ka vienmēr būs muļķi, kas viņiem noticēs izmisuma, alkatības vai neziņas dēļ. Šai krāpniecībai ir dažādi veidi, sākot no monētu projektiem, kas sola smieklīgu atdevi no ieguldījumiem, kad jūs vispirms iedodat naudu (piemēram, Bitconnect), līdz īpašām, slepenām grupām, kas sola jums pastāstīt par visām tirgus kustībām, lai jūs varētu pelnīt naudu...par maksu. Atcerieties. Ja kaut kas izklausās pārāk labi, lai būtu patiesība, tā visdrīzāk arī ir. Šis padoms ir īpaši aktuāls kriptovalūtas jomā, jo mūsdienās monētas vai viedā līguma izvietošana ir ikdienišķa, un savu šaubīgo apgalvojumu publicēšana tiešsaistē ir bez maksas. Atcerieties, ja kāds patiešām atrada veidu, kā paredzēt tirgu vai nopelnīt bezgalīgas naudas tonnas, tad kāpēc viņš jums to teiktu? Viņi paši to vienkārši izmantotu, lai kļūtu bagāti. Kāpēc viņi ar to dalītos? Esi gudrs. Izmanto savas smadzenes. Neuzticieties nevienam.
+
+## Jūsu Monero sēklas loma krāpniecībā
 
 ## Jūsu Monero sēklas loma krāpniecībā
 
@@ -34,66 +42,68 @@ JEBKURĀ KAD vietnei, lietojumprogrammai vai makam ir opcija “Atjaunot ar sēk
 
 Lasīt tālāk
 
-  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies/)
+  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies)/
 
-  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys/)
+  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys)/
 
-  * [Iesaiste Monero](/knowledge/contributing-to-monero/)
+  * [Iesaiste Monero](/knowledge/contributing-to-monero)/
 
-  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy/)
+  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy)/
 
-  * [Kā Monero izmanto hard-forks tīkla uzlabošanai](/knowledge/network-upgrades/)
+  * [Kā Monero izmanto hard-forks tīkla uzlabošanai](/knowledge/network-upgrades)/
 
-  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool un tā loma Monero mainošanas decentralizācijā](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool un tā loma Monero mainošanas decentralizācijā](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero)/
 
-  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero/)
+  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup/)
+  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup)/
 
-  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect/)
+  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect)/
 
-  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking/)
+  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking)/
 
-  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps/)
+  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps)/
 
-  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking/)
+  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking)/
 
-  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct/)
+  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct)/
 
-  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses/)
+  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses)/
 
-  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses/)
+  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses)/
 
-  * [Monero izvades tuvplānā](/knowledge/monero-outputs/)
+  * [Monero izvades tuvplānā](/knowledge/monero-outputs)/
 
-  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices/)
+  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices)/
 
-  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures/)
+  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures)/
 
-  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag/)
+  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag)/
 
-  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission/)
+  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission)/
 
-  * [Īsa Monero vēsture](/knowledge/monero-history/)
+  * [Īsa Monero vēsture](/knowledge/monero-history)/
 
-  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked/)
+  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked)/
 
-  * [15 populārākie Monero mīti un bažas atspēkotas](/knowledge/monero-myths-debunked/)
+  * [15 populārākie Monero mīti un bažas atspēkotas](/knowledge/monero-myths-debunked)/
 
-  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion/)
+  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion)/
 
-  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx/)
+  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx)/
 
-  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better/)
+  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better)/
+
+Lasīt tālāk

@@ -14,6 +14,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## لماذا يعتبر الاحتفاظ بالمفاتيح الخاصة بك مهمًا؟
 
+## لماذا يعتبر الاحتفاظ بالمفاتيح الخاصة بك مهمًا؟
+
 من أكثر جوانب الحبس الذاتي التي يساء فهمها شيوعًا في مونيرو هو أنه إذا كنت لا تملك مفاتيحك الخاصة ، فإنك تكسب القليل أو لا تكسب الاستفادة من خصوصية عروض Monero. كمرسل الصفقة لديه رؤية كاملة للإنفاق الحقيقي والمبلغ وعنوان المستلم ، إذا لم تكن أنت من يرسل المعاملة واتركها بدلاً من ذلك بورصة أو أمين حفظ ، لديهم رؤية _كاملة_ في طرق قضاء مونيرو الخاص بك.
 
 لحسن الحظ ، بعد إرسال الأموال ، تضمن Monero الخصوصية التدخل وتوفير "السرية الأمامية" القوية ، ولكن سيكون من الواضح الصرف أو أمين الحفظ حيث أرسلت الأموال والمبلغ الذي أرسلته بدءًا.
@@ -38,6 +40,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## كيف أحمل مفاتيحي الخاص مع مونيرو؟
 
+## كيف أحمل مفاتيحي الخاص مع مونيرو؟
+
 عندما تبدأ في الاحتفاظ بمفاتيحك الخاصة ، فإن أهم شيء بالنسبة لك تذكر أن _تحفظ وتحافظ على أمان العبارة الأولية_! هذا ال مجموعة من 14 أو 25 كلمة عشوائية ستعطيك أي محفظة مونيرو متى تقوم بإنشاء محفظة ، وهذا كل ما تحتاجه لاستعادة أموالك إذا تفقد هاتفك أو سطح المكتب أو الكمبيوتر المحمول أو نسيت ملف كلمة المرور. 
 
 تعامل مع هذه العبارة الأولية كما لو أنها تستحق كل عبارات Monero في المحفظة ، حيث سيتمكن أي شخص يحصل عليها من الوصول الكامل إلى الأموال الموجودة في محفظتك. من المثالي الاحتفاظ بها في مكان آمن أو سري ، الاحتفاظ بنسخ متعددة في حالة نشوب حريق أو كارثة طبيعية ، وأبدًا أظهرها لأي شخص. 
@@ -47,9 +51,11 @@ image_credit_url: "https://cypherstack.com"
 إذا كنت من مستخدمي أجهزة سطح المكتب بشكل أساسي ولا تنفق / تستلم Monero أثناء التنقل في كثير من الأحيان ، هناك عدد قليل من الخيارات القوية لحمل خياراتك الخاصة مفاتيح دون الحاجة إلى الاعتماد على أي طرف ثالث. 
 
   * [ لعبة Monero الرسمية المحفظة ](https://getmonero.org/downloads)
-    * هذا هو برنامج محفظة Monero الرسمي ، وقد شهد ثباتًا تحسينات وإضافات. يتضمن برنامج Monero daemon متكامل (if الذي تريده) ، سهل الاستخدام للغاية ، وسيدعم قريبًا [ التعدين عبر p2pool مباشرة من محفظتك ](/knowledge/p2pool-decentralizing-monero-mining/). 
+    * هذا هو برنامج محفظة Monero الرسمي ، وقد شهد ثباتًا تحسينات وإضافات. يتضمن برنامج Monero daemon متكامل (if الذي تريده) ، سهل الاستخدام للغاية ، وسيدعم قريبًا [ التعدين عبر p2pool مباشرة من محفظتك ](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining). 
   * [ محفظة الريشة ](https://featherwallet.org/)
     * هذه محفظة ممتازة في سياق [ Electrum for Bitcoin ](https://electrum.org/) ، ويوفر كليهما سهولة الاستخدام وميزات قوية للغاية في ملف واحد المحفظة. 
+
+  * هذا هو برنامج محفظة Monero الرسمي ، وقد شهد ثباتًا تحسينات وإضافات. يتضمن برنامج Monero daemon متكامل (if الذي تريده) ، سهل الاستخدام للغاية ، وسيدعم قريبًا [ التعدين عبر p2pool مباشرة من محفظتك ](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining). 
 
   * هذه محفظة ممتازة في سياق [ Electrum for Bitcoin ](https://electrum.org/) ، ويوفر كليهما سهولة الاستخدام وميزات قوية للغاية في ملف واحد المحفظة. 
 
@@ -66,6 +72,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## استنتاج
 
+## استنتاج
+
 نأمل أن يكون هذا المنشور قد ساعد في تعزيز الحاجة إلى الاحتفاظ بملف المفاتيح الخاصة ، بالإضافة إلى توجيهك إلى بعض المحافظ الممتازة في الفضاء. 
 
 كلما أخذت Monero بين يديك واستخدمتها بالفعل ، فإن المزيد من الفوائد التي يمكنك الحصول عليها الآن وفي المستقبل. مونيرو ليس عادلاً أصل المضاربة - إنها أداة قوية للحرية والتمويل الخصوصية التي تمس الحاجة إليها في عالم اليوم والمستقبل منا. 
@@ -74,66 +82,68 @@ image_credit_url: "https://cypherstack.com"
 
 المزيد من القراءة
 
-  * [كيف مونيرو تمكن الاقتصادات الدائرية بشكل فريد](/knowledge/monero-circular-economies/)
+  * [كيف مونيرو تمكن الاقتصادات الدائرية بشكل فريد](/knowledge/monero-circular-economies)/
 
-  * [توقيعات حلقة مونيرو مقابل CoinJoin كما هو الحال في Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [توقيعات حلقة مونيرو مقابل CoinJoin كما هو الحال في Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [المساهمة مرة أخرى في مونيرو](/knowledge/contributing-to-monero/)
+  * [المساهمة مرة أخرى في مونيرو](/knowledge/contributing-to-monero)/
 
-  * [كيف تؤثر العقد البعيدة على خصوصية مونيرو](/knowledge/remote-nodes-privacy/)
+  * [كيف تؤثر العقد البعيدة على خصوصية مونيرو](/knowledge/remote-nodes-privacy)/
 
-  * [كيف تستخدم مونيرو الهارد فورك لترقية الشبكة](/knowledge/network-upgrades/)
+  * [كيف تستخدم مونيرو الهارد فورك لترقية الشبكة](/knowledge/network-upgrades)/
 
-  * [عرض العلامات: كيف سيؤدي البايت الواحد إلى تقليل أوقات مزامنة محفظة مونيرو بنسبة 40٪ +](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [عرض العلامات: كيف سيؤدي البايت الواحد إلى تقليل أوقات مزامنة محفظة مونيرو بنسبة 40٪ +](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ودوره في تحقيق اللامركزية في تعدين مونيرو](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ودوره في تحقيق اللامركزية في تعدين مونيرو](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [سيرافيز: ماذا ستفعل لمونيرو](/knowledge/seraphis-for-monero/)
+  * [سيرافيز: ماذا ستفعل لمونيرو](/knowledge/seraphis-for-monero)/
 
-  * [هل يعد تحويل Bitcoin إلى مونيرو أمرًا خاصًا مثل شراء مونيرو مباشرةً؟](/knowledge/most-private-way-to-buy-monero/)
+  * [هل يعد تحويل Bitcoin إلى مونيرو أمرًا خاصًا مثل شراء مونيرو مباشرةً؟](/knowledge/most-private-way-to-buy-monero)/
 
-  * [لماذا تستخدم مونيرو إعدادًا غير موثوق به على عكس Zcash](/knowledge/monero-trustless-setup/)
+  * [لماذا تستخدم مونيرو إعدادًا غير موثوق به على عكس Zcash](/knowledge/monero-trustless-setup)/
 
-  * [لماذا تعد مونيرو مخزنًا أفضل للقيمة من Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [لماذا تعد مونيرو مخزنًا أفضل للقيمة من Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [كيف يمكن لـمونيرو التغلب على تأثيرات شبكة Bitcoin](/knowledge/network-effect/)
+  * [كيف يمكن لـمونيرو التغلب على تأثيرات شبكة Bitcoin](/knowledge/network-effect)/
 
-  * [لماذا تمتلك مونيرو مجتمع التفكير الأكثر أهمية](/knowledge/critical-thinking/)
+  * [لماذا تمتلك مونيرو مجتمع التفكير الأكثر أهمية](/knowledge/critical-thinking)/
 
-  * [عمليات الاحتيال التي يجب الانتباه إليها عند استخدام مونيرو](/knowledge/monero-scams/)
+  * [عمليات الاحتيال التي يجب الانتباه إليها عند استخدام مونيرو](/knowledge/monero-scams)/
 
-  * [كيف ستعمل المقايضات الذرية في مونيرو](/knowledge/monero-atomic-swaps/)
+  * [كيف ستعمل المقايضات الذرية في مونيرو](/knowledge/monero-atomic-swaps)/
 
-  * [ما يحتاج كل مستخدم مونيرو إلى معرفته عندما يتعلق الأمر بالشبكات](/knowledge/monero-networking/)
+  * [ما يحتاج كل مستخدم مونيرو إلى معرفته عندما يتعلق الأمر بالشبكات](/knowledge/monero-networking)/
 
-  * [كيف يخفي RingCT مبالغ معاملة مونيرو](/knowledge/monero-ringct/)
+  * [كيف يخفي RingCT مبالغ معاملة مونيرو](/knowledge/monero-ringct)/
 
-  * [كيف تحمي عناوين Monero Stealth هويتك](/knowledge/monero-stealth-addresses/)
+  * [كيف تحمي عناوين Monero Stealth هويتك](/knowledge/monero-stealth-addresses)/
 
-  * [كيف عناوين مونيرو الفرعية تمنع ربط الهوية](/knowledge/monero-subaddresses/)
+  * [كيف عناوين مونيرو الفرعية تمنع ربط الهوية](/knowledge/monero-subaddresses)/
 
-  * [تمتوضيح مخرجات مونيرو](/knowledge/monero-outputs/)
+  * [تمتوضيح مخرجات مونيرو](/knowledge/monero-outputs)/
 
-  * [أفضل ممارسات مونيرو للمبتدئين](/knowledge/monero-best-practices/)
+  * [أفضل ممارسات مونيرو للمبتدئين](/knowledge/monero-best-practices)/
 
-  * [كيف تحجب تواقيع الحلقة مخرجات مونيرو](/knowledge/ring-signatures/)
+  * [كيف تحجب تواقيع الحلقة مخرجات مونيرو](/knowledge/ring-signatures)/
 
-  * [كيف حلت مونيرو مشكلة حجم الكتلة التي ابتليت بها Bitcoin](/knowledge/dynamic-block-size/)
+  * [كيف حلت مونيرو مشكلة حجم الكتلة التي ابتليت بها Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [كيف سيحسن CLSAG كفاءة مونيرو](/knowledge/what-is-clsag/)
+  * [كيف سيحسن CLSAG كفاءة مونيرو](/knowledge/what-is-clsag)/
 
-  * [لماذا مونيرو لها انبعاث الذيل](/knowledge/monero-tail-emission/)
+  * [لماذا مونيرو لها انبعاث الذيل](/knowledge/monero-tail-emission)/
 
-  * [تاريخ موجز لمونيرو](/knowledge/monero-history/)
+  * [تاريخ موجز لمونيرو](/knowledge/monero-history)/
 
-  * [مجلة وايرد خاطئة بشأن مونيرو ، إليكم السبب](/knowledge/wired-article-debunked/)
+  * [مجلة وايرد خاطئة بشأن مونيرو ، إليكم السبب](/knowledge/wired-article-debunked)/
 
-  * [تم فضح أفضل 15 خرافة ومخاوف لـ Monero](/knowledge/monero-myths-debunked/)
+  * [تم فضح أفضل 15 خرافة ومخاوف لـ Monero](/knowledge/monero-myths-debunked)/
 
-  * [كيف تحافظ Dandelion ++ على خصوصية أصول معاملات مونيرو](/knowledge/monero-dandelion/)
+  * [كيف تحافظ Dandelion ++ على خصوصية أصول معاملات مونيرو](/knowledge/monero-dandelion)/
 
-  * [لماذا مونيرو مفتوح المصدر ولامركزي](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [لماذا مونيرو مفتوح المصدر ولامركزي](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [تعدين مونيرو: ما الذي يجعل RandomX مميزًا جدًا](/knowledge/monero-mining-randomx/)
+  * [تعدين مونيرو: ما الذي يجعل RandomX مميزًا جدًا](/knowledge/monero-mining-randomx)/
 
-  * [لماذا Monero أفضل من Dash و Zcash و Zcoin (حتى مع Lelantus) وخلاطات Grin و Bitcoin مثل Wasabi (تم التحديث في مايو 2020)](/knowledge/why-monero-is-better/)
+  * [لماذا Monero أفضل من Dash و Zcash و Zcoin (حتى مع Lelantus) وخلاطات Grin و Bitcoin مثل Wasabi (تم التحديث في مايو 2020)](/knowledge/why-monero-is-better)/
+
+المزيد من القراءة

@@ -10,21 +10,39 @@ Ninguna criptomoneda está exenta de defectos, y Monero no es una excepción. De
 
 Dicho esto, hay algunas críticas comunes a Monero que están desactualizadas o son incorrectas, mientras que otras presentan una visión muy limitada del problema en cuestión. En este artículo esperamos dejar las cosas claras sobre estas críticas.
 
-  1. [Monero enfrentará un escrutinio regulatorio mucho más allá de otras criptomonedas debido a su compromiso con la privacidad y el anonimato en sus transacciones.](/knowledge/monero-myths-debunked#1/)
-  2. [Monero tiene menos opciones de billetera.](/knowledge/monero-myths-debunked#2/)
-  3. [Monero tiene una mala experiencia de usuario.](/knowledge/monero-myths-debunked#3/)
-  4. [Monero se volverá obsoleto si una cadena de bloques más popular adopta una tecnología de privacidad sólida.](/knowledge/monero-myths-debunked#4/)
-  5. [¿Monero no tiene tarifas de transacción muy altas?](/knowledge/monero-myths-debunked#5/)
-  6. [Una transacción de Monero es muchas veces más grande que una transacción de Bitcoin.](/knowledge/monero-myths-debunked#6/)
-  7. [Monero tiene tenedores duros con bastante frecuencia. ¿No significa esto que está centralizado?](/knowledge/monero-myths-debunked#7/)
-  8. [¡Esta es la moneda personal de esponjoso!](/knowledge/monero-myths-debunked#8/)
-  9. [La mayoría de los compromisos desde 2017 provienen de un individuo conocido como moneromooo-monero](/knowledge/monero-myths-debunked#9/)
-  10. [¿No es Monero fácilmente atacado en un 51%?](/knowledge/monero-myths-debunked#10/)
-  11. [Algoritmo amigable con la CPU? ¿La minería de Monero no será tomada por botnets?](/knowledge/monero-myths-debunked#11/)
-  12. [Los tenedores de Monero no solo perjudican la viabilidad económica de Monero, ¡sino su privacidad!](/knowledge/monero-myths-debunked#12/)
-  13. [¿No tenía Monero un minero lisiado en los primeros días que se utilizó para enriquecer a los fundadores?](/knowledge/monero-myths-debunked#13/)
-  14. [Si Monero es tan privado, ¿cómo podemos auditar el suministro para garantizar que nadie imprima Monero gratis bajo nuestras narices?](/knowledge/monero-myths-debunked#14/)
-  15. [La mayor parte del hashrate actual de Monero proviene de solo dos grupos.](/knowledge/monero-myths-debunked#15/)
+  1. [Monero enfrentará un escrutinio regulatorio mucho más allá de otras criptomonedas debido a su compromiso con la privacidad y el anonimato en sus transacciones.](/knowledge/monero-myths-debunked#1)/
+  2. [Monero tiene menos opciones de billetera.](/knowledge/monero-myths-debunked#2)/
+  3. [Monero tiene una mala experiencia de usuario.](/knowledge/monero-myths-debunked#3)/
+  4. [Monero se volverá obsoleto si una cadena de bloques más popular adopta una tecnología de privacidad sólida.](/knowledge/monero-myths-debunked#4)/
+  5. [¿Monero no tiene tarifas de transacción muy altas?](/knowledge/monero-myths-debunked#5)/
+  6. [Una transacción de Monero es muchas veces más grande que una transacción de Bitcoin.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero tiene tenedores duros con bastante frecuencia. ¿No significa esto que está centralizado?](/knowledge/monero-myths-debunked#7)/
+  8. [¡Esta es la moneda personal de esponjoso!](/knowledge/monero-myths-debunked#8)/
+  9. [La mayoría de los compromisos desde 2017 provienen de un individuo conocido como moneromooo-monero](/knowledge/monero-myths-debunked#9)/
+  10. [¿No es Monero fácilmente atacado en un 51%?](/knowledge/monero-myths-debunked#10)/
+  11. [Algoritmo amigable con la CPU? ¿La minería de Monero no será tomada por botnets?](/knowledge/monero-myths-debunked#11)/
+  12. [Los tenedores de Monero no solo perjudican la viabilidad económica de Monero, ¡sino su privacidad!](/knowledge/monero-myths-debunked#12)/
+  13. [¿No tenía Monero un minero lisiado en los primeros días que se utilizó para enriquecer a los fundadores?](/knowledge/monero-myths-debunked#13)/
+  14. [Si Monero es tan privado, ¿cómo podemos auditar el suministro para garantizar que nadie imprima Monero gratis bajo nuestras narices?](/knowledge/monero-myths-debunked#14)/
+  15. [La mayor parte del hashrate actual de Monero proviene de solo dos grupos.](/knowledge/monero-myths-debunked#15)/
+
+  1. [Monero enfrentará un escrutinio regulatorio mucho más allá de otras criptomonedas debido a su compromiso con la privacidad y el anonimato en sus transacciones.](/knowledge/monero-myths-debunked#1)/
+  2. [Monero tiene menos opciones de billetera.](/knowledge/monero-myths-debunked#2)/
+  3. [Monero tiene una mala experiencia de usuario.](/knowledge/monero-myths-debunked#3)/
+  4. [Monero se volverá obsoleto si una cadena de bloques más popular adopta una tecnología de privacidad sólida.](/knowledge/monero-myths-debunked#4)/
+  5. [¿Monero no tiene tarifas de transacción muy altas?](/knowledge/monero-myths-debunked#5)/
+  6. [Una transacción de Monero es muchas veces más grande que una transacción de Bitcoin.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero tiene tenedores duros con bastante frecuencia. ¿No significa esto que está centralizado?](/knowledge/monero-myths-debunked#7)/
+  8. [¡Esta es la moneda personal de esponjoso!](/knowledge/monero-myths-debunked#8)/
+  9. [La mayoría de los compromisos desde 2017 provienen de un individuo conocido como moneromooo-monero](/knowledge/monero-myths-debunked#9)/
+  10. [¿No es Monero fácilmente atacado en un 51%?](/knowledge/monero-myths-debunked#10)/
+  11. [Algoritmo amigable con la CPU? ¿La minería de Monero no será tomada por botnets?](/knowledge/monero-myths-debunked#11)/
+  12. [Los tenedores de Monero no solo perjudican la viabilidad económica de Monero, ¡sino su privacidad!](/knowledge/monero-myths-debunked#12)/
+  13. [¿No tenía Monero un minero lisiado en los primeros días que se utilizó para enriquecer a los fundadores?](/knowledge/monero-myths-debunked#13)/
+  14. [Si Monero es tan privado, ¿cómo podemos auditar el suministro para garantizar que nadie imprima Monero gratis bajo nuestras narices?](/knowledge/monero-myths-debunked#14)/
+  15. [La mayor parte del hashrate actual de Monero proviene de solo dos grupos.](/knowledge/monero-myths-debunked#15)/
+
+## 1\. Monero enfrentará un escrutinio regulatorio mucho más allá de otras criptomonedas debido a su compromiso con la privacidad y el anonimato en sus transacciones.
 
 ## 1\. Monero enfrentará un escrutinio regulatorio mucho más allá de otras criptomonedas debido a su compromiso con la privacidad y el anonimato en sus transacciones.
 
@@ -40,9 +58,13 @@ Ahora se podría argumentar que la reputación de Bitcoin cambió cuando la gent
 
 ## 2\. Monero tiene menos opciones de billetera.
 
+## 2\. Monero tiene menos opciones de billetera.
+
 Monero tiene menos opciones de billetera que muchas monedas existentes. Esto se debe a que Monero se desarrolló desde cero. Está en una base de código completamente diferente a Bitcoin. Esto significa que Monero no puede simplemente bifurcar la billetera central de Bitcoin, o cualquier otra billetera que exista para Bitcoin como la mayoría de las monedas, y aprovechar la infraestructura existente. Además, significa que Monero no se agrega tan fácilmente a las billeteras de terceros, como Exodus.
 
 Y, sin embargo, lenta pero segura, comienzan a aparecer billeteras de todo tipo para Monero. Fue un meme durante muchos años que Monero no tenía una GUI y no tenía soporte de billetera móvil, pero ahora, nada podría estar más lejos de la realidad. Hay billeteras que se adaptan específicamente a Monero, como Monerujo para Android y Cake Wallet para iOS y Android, así como otras nuevas como Wookey, Exa Wallet y más. Además, las billeteras de terceros están comenzando a agregar Monero, aunque a un ritmo más lento, incluidos Exodus y Guarda, y esperamos que esta tendencia continúe solo a medida que pasa el tiempo y la base de código de Monero madura.
+
+## 3\. Monero tiene una mala experiencia de usuario.
 
 ## 3\. Monero tiene una mala experiencia de usuario.
 
@@ -55,6 +77,8 @@ Invitamos al lector a leer artículos sobre los pasos recomendados por Bitcoiner
 Con Monero, esta lista detallada de detalles se ha eliminado por completo. Cada transacción de Monero conserva un alto nivel de privacidad cada vez, sin que el usuario tenga que hacer nada o usar software externo. Si bien Bitcoin hace que sea difícil obtener la privacidad adecuada para todos, excepto para el usuario más experimentado, Monero hace que sea incorrecto, para todos, todo el tiempo. En cuanto a las compensaciones, creemos que las direcciones más largas y el tiempo de sincronización valen más que la pena.
 
 E incluso después de discutir todo lo anterior, el hecho es que la experiencia del usuario a menudo mejora con el tiempo, y Monero no es una excepción. El UX de una moneda puede mejorarse drásticamente después de unos años, pero sus fundamentos son mucho más difíciles de cambiar.
+
+## 4\. Monero se volverá obsoleto si una cadena de bloques más popular adopta una tecnología de privacidad sólida.
 
 ## 4\. Monero se volverá obsoleto si una cadena de bloques más popular adopta una tecnología de privacidad sólida.
 
@@ -76,6 +100,8 @@ Con menos frecuencia, este argumento se aplica a la tecnología como un contrato
 
 ## 5\. ¿Monero no tiene tarifas de transacción muy altas?
 
+## 5\. ¿Monero no tiene tarifas de transacción muy altas?
+
 ¡Ya no más! Gracias a la maravillosa tecnología de antibalas, agregada en octubre de 2018, los tamaños de transacción se reducen drásticamente (en más del 80%), lo que lleva a una caída similar en las tarifas de transacción. De hecho, al momento de escribir esto, Monero es más barato por byte que Bitcoin, y las optimizaciones adicionales de la tecnología los están reduciendo aún más.
 
 Estas optimizaciones son variadas y frecuentes. Un ejemplo son las optimizaciones inteligentes en las pruebas a prueba de balas, reduciendo las matemáticas necesarias tanto para el cálculo como para la verificación, a veces hasta en un 25%.
@@ -83,6 +109,10 @@ Estas optimizaciones son variadas y frecuentes. Un ejemplo son las optimizacione
 Además, hay nuevos y emocionantes esquemas de firma de anillo en proceso, como CLSAG, que reemplazará el esquema MLSAG actual y reducirá aún más el tamaño de toda la transacción en un 25-35%. Más allá de esto, hay tecnologías aún más nuevas y más innovadoras con sistemas de prueba completamente diferentes que tienen el potencial de mantener los tamaños de transacción actuales, pero tienen tamaños de anillo de más de cien, como Triptych, Arcturus y Lelantus, todos los cuales son más pequeños y más eficiente que los esquemas actuales.
 
 ## 6\. Una transacción de Monero es muchas veces más grande que una transacción de Bitcoin.
+
+## 6\. Una transacción de Monero es muchas veces más grande que una transacción de Bitcoin.
+
+## 7\. Monero tiene tenedores duros con bastante frecuencia. ¿No significa esto que está centralizado?
 
 ## 7\. Monero tiene tenedores duros con bastante frecuencia. ¿No significa esto que está centralizado?
 
@@ -94,9 +124,13 @@ Finalmente, al equipo de desarrollo descentralizado le resultó demasiado difíc
 
 ## 8\. ¡Esta es la moneda personal de esponjoso!
 
+## 8\. ¡Esta es la moneda personal de esponjoso!
+
 Esta no es, y nunca fue, la moneda de Riccardo ‘fluffypony’ Spagni. Ni siquiera lo logró. Fue iniciado por una persona seudónima conocida como thankful_for_today, y hay una historia muy interesante sobre eso para otro momento. Fluffypony ganó notoriedad como miembro del equipo central / mantenedor principal, ya que dio mucho tiempo y recursos para ayudar al crecimiento de la moneda, así como a través de sus viajes y conferencias en conferencias. Con estas dos cosas combinadas, se convirtió en una especie de cara no oficial para Monero, y generalmente era la puerta de entrada a través de la cual la gente nos encontraba. Debido a la horrible cultura del CEO que era generalizada en la escena de las criptomonedas, asumieron que él era el fundador y líder de Monero, los cuales no son ciertos.
 
 En la actualidad, fluffypony sigue siendo parte del equipo central, pero ya no es el principal mantenedor de la base de código, y ha retrocedido para trabajar en sus propios proyectos personales. Monero continúa muy bien.
+
+## 9\. La mayoría de los compromisos desde 2017 provienen de un individuo conocido como moneromooo-monero
 
 ## 9\. La mayoría de los compromisos desde 2017 provienen de un individuo conocido como moneromooo-monero
 
@@ -105,6 +139,8 @@ Este es un hecho indiscutible, y no es algo para discutir. moneromooo es un miem
 Como uno puede imaginar, trabajar en Monero a tiempo completo en lugar de ser voluntario resultará en grandes cantidades de trabajo acumulado. Dado que Monero no tenía un preminente, ICO, y no recibe la recompensa del fundador, de lo contrario no tenemos ingenieros a tiempo completo trabajando en el proyecto, y las personas contribuyen con lo que pueden, cuando pueden, y simplemente no es factible esperar estas contribuciones para Superar a un trabajador a tiempo completo.
 
 Dicho esto, todavía hay un gran esfuerzo para tener controles y equilibrios. Un miembro del equipo central aún fusiona el código después de la revisión, por lo que no es un caso en el que una persona cree e integre el código, evitando cualquier supervisión necesaria para detectar un error atroz o una intención maliciosa.
+
+## 10\. ¿No es Monero fácilmente atacado en un 51%?
 
 ## 10\. ¿No es Monero fácilmente atacado en un 51%?
 
@@ -118,6 +154,8 @@ El costo exacto del hardware para atacar el 51% de la red Monero no se ha calcul
 
 ## 11\. Algoritmo amigable con la CPU? ¿La minería de Monero no será tomada por botnets?
 
+## 11\. Algoritmo amigable con la CPU? ¿La minería de Monero no será tomada por botnets?
+
 Los dos mocos del espacio minero son ASIC y botnets, y alejarse de uno necesariamente significa acercarse a otro. Si uno necesita una CPU para extraer Monero, entonces los piratas teóricos pueden tomar el control teóricamente de muchos cientos, si no miles de computadoras vulnerables y obligarlos a extraer Monero en su nombre, sin costarles nada y superando a aquellos que solo tienen un par de computadoras en sus hogares. .
 
 La primera refutación a este argumento es sobre los propios propietarios de botnets. Si bien no toleramos el pirateo de las computadoras de otros, la barrera de entrada para poseer y operar una botnet es mucho menor que la de poseer ASIC. Uno requiere software, a menudo de libre acceso y de código abierto, y el tiempo y la perspicacia para detectar computadoras vulnerables. El otro requiere cantidades increíbles de capital y acceso a la fabricación. Una puede ser hecha por un niño en un sótano, y la otra solo por los extremadamente ricos. Esto nos lleva a concluir que, si los peores temores de los mineros se hicieran realidad, las propias redes de bots estarían más descentralizadas que los ASIC.
@@ -125,6 +163,8 @@ La primera refutación a este argumento es sobre los propios propietarios de bot
 Dicho esto, la comunidad de Monero confía en que este problema se exagere. Los ingenieros de RandomX diseñaron deliberadamente el protocolo para requerir 2 GB de memoria RAM para funcionar. En otras palabras, muchos servidores privados virtuales (VPS) pequeños y vulnerables simplemente no tendrán la capacidad, y si lo tuvieran, el aumento en los recursos utilizados sería muy notable para un administrador del sistema, lo que llevaría a una investigación inmediata. En otras palabras, no puede ejecutarse silenciosamente en segundo plano, como las computadoras comprometidas que participan en un ataque DDOS, o que detectan contraseñas silenciosamente. Cuando el minero está encendido, todos lo saben.
 
 Esto reduce la cantidad de computadoras que una botnet podría comprometer con éxito a las de los tecnológicamente ineptos, o aquellas que nunca se verifican, en lugar de la gran cantidad de computadoras vulnerables que los defensores de este argumento suponen que están en riesgo .
+
+## 12\. Los tenedores de Monero no solo perjudican la viabilidad económica de Monero, ¡sino su privacidad!
 
 ## 12\. Los tenedores de Monero no solo perjudican la viabilidad económica de Monero, ¡sino su privacidad!
 
@@ -142,6 +182,8 @@ Dicho esto, consideramos ingenuo pensar que nunca habrá un ataque contra Monero
 
 ## 13\. ¿No tenía Monero un minero lisiado en los primeros días que se utilizó para enriquecer a los fundadores?
 
+## 13\. ¿No tenía Monero un minero lisiado en los primeros días que se utilizó para enriquecer a los fundadores?
+
 La historia de Monero es interesante, y puede sorprender a muchos escuchar que realmente comenzó como una estafa. El creador, thanksful_for_today, probablemente estaba en alianza con un grupo de criptomonedas que creó el protocolo CryptoNote, pero tenía intenciones tortuosas de estafar a las personas con su dinero. 
 
 Sus esfuerzos iniciales con monedas fallaron, por lo que crearon Monero como una forma de intentarlo nuevamente. Esto nuevamente falló cuando la comunidad rápidamente se dio cuenta de que algo andaba mal y se apoderó de la moneda. Aun así, los creadores tortuosos tenían un último truco bajo la manga. Lanzaron al público software de minería deliberadamente desoptimizado, conservando la versión optimizada para ellos mismos para minar a otros y ganar mucho dinero con las recompensas de bloque.
@@ -152,11 +194,15 @@ Con el beneficio de la retrospectiva, algunos podrían criticar esta decisión, 
 
 ## 14\. Si Monero es tan privado, ¿cómo podemos auditar el suministro para garantizar que nadie imprima Monero gratis bajo nuestras narices?
 
+## 14\. Si Monero es tan privado, ¿cómo podemos auditar el suministro para garantizar que nadie imprima Monero gratis bajo nuestras narices?
+
 Esta es una pregunta difícil de responder. Una respuesta comúnmente dada es que podemos sumar las transacciones de coinbase (cuando el nuevo Monero es recompensado a un minero por resolver un bloque). Estas transacciones son transparentes y, si las sumamos, deberíamos obtener el número total de Monero en circulación.
 
 Sin embargo, es importante tener en cuenta que si ocurrieran travesuras que aumentan la cantidad de Monero más allá de lo que esperamos ver en las transacciones de la base de monedas, no sucederían en las transacciones de la base de monedas en sí, sino en una transacción regular entre billeteras. Esto solo sucedería de una de tres maneras.
 
 Uno, si la criptografía que prueba que no se creó o destruyó Monero en una transacción es fundamentalmente defectuosa. Dos, si la implementación (código) de la criptografía sólida es defectuosa. Tres, si ninguno tiene fallas, pero las computadoras se vuelven lo suficientemente potentes como para atravesar nuestros esquemas criptográficos actuales y crear pruebas falsas.
+
+## 15\. La mayor parte del hashrate actual de Monero proviene de solo dos grupos.
 
 ## 15\. La mayor parte del hashrate actual de Monero proviene de solo dos grupos.
 
@@ -204,66 +250,68 @@ De modo que el hecho de que la mayor parte del hashrate de Monero se concentre e
 
 Otras lecturas
 
-  * [Cómo Monero permite de forma única las economías circulares](/knowledge/monero-circular-economies/)
+  * [Cómo Monero permite de forma única las economías circulares](/knowledge/monero-circular-economies)/
 
-  * [Las firmas del anillo de Monero contra CoinJoin como en Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Las firmas del anillo de Monero contra CoinJoin como en Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Por qué (y cómo) deberías tener tus propias llaves](/knowledge/hold-your-keys/)
+  * [Por qué (y cómo) deberías tener tus propias llaves](/knowledge/hold-your-keys)/
 
-  * [Contribuyendo a Monero](/knowledge/contributing-to-monero/)
+  * [Contribuyendo a Monero](/knowledge/contributing-to-monero)/
 
-  * [Cómo afectan los nodos remotos a la privacidad de Monero](/knowledge/remote-nodes-privacy/)
+  * [Cómo afectan los nodos remotos a la privacidad de Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Cómo Monero utiliza las horquillas para actualizar la red](/knowledge/network-upgrades/)
+  * [Cómo Monero utiliza las horquillas para actualizar la red](/knowledge/network-upgrades)/
 
-  * [Ver etiquetas: Cómo un byte reducirá los tiempos de sincronización de la cartera de Monero en más de un 40%](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Ver etiquetas: Cómo un byte reducirá los tiempos de sincronización de la cartera de Monero en más de un 40%](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool y su papel en la descentralización de la minería de Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool y su papel en la descentralización de la minería de Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Lo que hará por Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Lo que hará por Monero](/knowledge/seraphis-for-monero)/
 
-  * [¿Es la conversión de Bitcoin a Monero tan privada como la compra directa de Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [¿Es la conversión de Bitcoin a Monero tan privada como la compra directa de Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Por qué Monero utiliza una configuración sin confianza a diferencia de Zcash](/knowledge/monero-trustless-setup/)
+  * [Por qué Monero utiliza una configuración sin confianza a diferencia de Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Por qué Monero es una mejor reserva de valor que Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Por qué Monero es una mejor reserva de valor que Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Cómo Monero puede superar los efectos de red de Bitcoin](/knowledge/network-effect/)
+  * [Cómo Monero puede superar los efectos de red de Bitcoin](/knowledge/network-effect)/
 
-  * [Por qué Monero tiene la comunidad de pensamiento más crítica](/knowledge/critical-thinking/)
+  * [Por qué Monero tiene la comunidad de pensamiento más crítica](/knowledge/critical-thinking)/
 
-  * [Estafas a tener en cuenta al usar Monero](/knowledge/monero-scams/)
+  * [Estafas a tener en cuenta al usar Monero](/knowledge/monero-scams)/
 
-  * [Cómo funcionarán los intercambios atómicos en Monero](/knowledge/monero-atomic-swaps/)
+  * [Cómo funcionarán los intercambios atómicos en Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Lo que todo usuario de Monero necesita saber cuando se trata de redes](/knowledge/monero-networking/)
+  * [Lo que todo usuario de Monero necesita saber cuando se trata de redes](/knowledge/monero-networking)/
 
-  * [Cómo RingCT oculta los importes de las transacciones de Monero](/knowledge/monero-ringct/)
+  * [Cómo RingCT oculta los importes de las transacciones de Monero](/knowledge/monero-ringct)/
 
-  * [Cómo las direcciones de Monero Stealth protegen su identidad](/knowledge/monero-stealth-addresses/)
+  * [Cómo las direcciones de Monero Stealth protegen su identidad](/knowledge/monero-stealth-addresses)/
 
-  * [Cómo las subdirecciones de Monero previenen la vinculación de identidades](/knowledge/monero-subaddresses/)
+  * [Cómo las subdirecciones de Monero previenen la vinculación de identidades](/knowledge/monero-subaddresses)/
 
-  * [Explicación de las salidas de Monero](/knowledge/monero-outputs/)
+  * [Explicación de las salidas de Monero](/knowledge/monero-outputs)/
 
-  * [Mejores prácticas de Monero para principiantes](/knowledge/monero-best-practices/)
+  * [Mejores prácticas de Monero para principiantes](/knowledge/monero-best-practices)/
 
-  * [Cómo las firmas de anillo oscurecen los resultados de Monero](/knowledge/ring-signatures/)
+  * [Cómo las firmas de anillo oscurecen los resultados de Monero](/knowledge/ring-signatures)/
 
-  * [Cómo Monero resolvió el problema del tamaño del bloque que afecta a Bitcoin](/knowledge/dynamic-block-size/)
+  * [Cómo Monero resolvió el problema del tamaño del bloque que afecta a Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Cómo CLSAG mejorará la eficiencia de Monero](/knowledge/what-is-clsag/)
+  * [Cómo CLSAG mejorará la eficiencia de Monero](/knowledge/what-is-clsag)/
 
-  * [Por qué Monero tiene una emisión de cola](/knowledge/monero-tail-emission/)
+  * [Por qué Monero tiene una emisión de cola](/knowledge/monero-tail-emission)/
 
-  * [La historia de monero](/knowledge/monero-history/)
+  * [La historia de monero](/knowledge/monero-history)/
 
-  * [Wired Magazine está equivocado sobre Monero, aquí está el por qué](/knowledge/wired-article-debunked/)
+  * [Wired Magazine está equivocado sobre Monero, aquí está el por qué](/knowledge/wired-article-debunked)/
 
-  * [Cómo Dandelion ++ mantiene los orígenes de las transacciones de Monero en privado](/knowledge/monero-dandelion/)
+  * [Cómo Dandelion ++ mantiene los orígenes de las transacciones de Monero en privado](/knowledge/monero-dandelion)/
 
-  * [Por qué Monero es de código abierto y descentralizado](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Por qué Monero es de código abierto y descentralizado](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: lo que hace que RandomX sea tan especial](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: lo que hace que RandomX sea tan especial](/knowledge/monero-mining-randomx)/
 
-  * [Por qué Monero es mejor que Dash, Zcash, Zcoin (incluso con Lelantus), Grin y Bitcoin Mixers como Wasabi (Actualizado en mayo de 2020)](/knowledge/why-monero-is-better/)
+  * [Por qué Monero es mejor que Dash, Zcash, Zcoin (incluso con Lelantus), Grin y Bitcoin Mixers como Wasabi (Actualizado en mayo de 2020)](/knowledge/why-monero-is-better)/
+
+Otras lecturas

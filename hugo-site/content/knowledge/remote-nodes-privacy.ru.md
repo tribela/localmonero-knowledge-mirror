@@ -1,132 +1,150 @@
 ---
-title: "Как удаленные ноды влияют на конфиденциальность Монеро"
+title: "Cum afectează nodurile de la distanță confidențialitatea Monero"
 slug: "remote-nodes-privacy"
 date: "2022-02-16"
 image: "/images/nodes.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Одним из самых больших преимуществ Монеро перед другими криптовалютами является конфиденциальность на блокчейне, но задумывались ли вы когда-нибудь, как конфиденциальность Монеро сохраняется при использовании удаленного нода? Как насчет того, если вы используете сервер "легкого кошелька", такой как MyMonero?
+Unul dintre cele mai mari avantaje pe care Monero le are față de alte criptomonede este confidențialitatea pe lanț, dar v-ați întrebat vreodată cum rezistă confidențialitatea lui Monero atunci când folosiți un nod la distanță? Dar dacă folosiți un server "portofel ușor" precum MyMonero?
 
-В этой статье мы подробно рассмотрим, как Монеро обеспечивает исключительную конфиденциальность на блокчейне даже при использовании удаленного нода, а также на что следует обратить внимание при использовании удаленных узлов.
+În această postare vom analiza unele dintre detaliile din spatele modului în care Monero oferă o confidențialitate excepțională pe lanț, chiar și atunci când se utilizează un nod la distanță, precum și la ce trebuie să fim atenți atunci când folosim noduri la distanță.
 
-## Какую функцию выполняют ноды в Монеро?
+## Ce funcție au nodurile în Monero?
 
-Для тех, кто менее знаком с принципами работы Монеро, ноды (или серверы) в сети Монеро могут управляться кем угодно и позволяют владельцу нода - или другим людям, с которыми они решили его разделить! - синхронизировать копию блокчейна и предоставлять эту копию другим пользователям сети. Эти ноды также проверяют все транзакции, происходящие в сети, а также все публикуемые блоки и следят за тем, чтобы все они соответствовали правилам, установленным консенсусом.
+## Ce funcție au nodurile în Monero?
 
-Другая функция, которую выполняют ноды в Монеро, - это предоставление всех данных, необходимых вашему любимому кошельку Монеро для правильной проверки принадлежащих вам транзакций и проведения новых транзакций. Эти данные предоставляются узлами двумя способами:
+Pentru cei mai puțin familiarizați cu modul în care funcționează Monero, nodurile (sau serverele) din rețeaua Monero pot fi administrate de oricine și permit proprietarului nodului - sau altor persoane cu care acesta alege să îl împartă! - să sincronizeze o copie a lanțului de blocuri și să furnizeze această copie celorlalți din rețea. Aceste noduri verifică, de asemenea, toate tranzacțiile care au loc în rețea, precum și toate blocurile care sunt publicate și se asigură că toate acestea respectă regulile stabilite prin consens.
 
-  * Данные из каждого блока блокчейна запрашиваются кошельком, сканируются на предмет транзакций, принадлежащих вам, а затем отбрасываются после проверки кошельком. 
-    * Этот шаг вскоре будет радикально улучшен благодаря [тегам просмотра](/knowledge/view-tags-reduce-monero-sync-time).
-  * При отправке транзакций используемая вами нода предоставляет список возможных приманок (или поддельных вводов) для использования при построении транзакции, гарантируя, что у вас есть хорошая толпа, в которой можно спрятаться каждый раз, когда вы тратите Монеро. 
-    * Эти приманки являются частью [кольцевых подписей](/knowledge/ring-signatures), важной составляющей подхода Монеро к обеспечению конфиденциальности на блокчейне.
+Cealaltă funcție pe care o îndeplinesc nodurile în Monero este aceea de a furniza toate datele de care are nevoie portofelul Monero preferat pentru a verifica în mod corespunzător tranzacțiile care vă aparțin și pentru a face tranzacții noi. Aceste date sunt furnizate de noduri în două moduri:
 
-## Какой наиболее приватный и безопасный способ использования Монеро?
+  * Datele din fiecare bloc de pe blockchain sunt solicitate de către portofel, scanate în căutarea tranzacțiilor care vă aparțin și apoi aruncate după ce sunt verificate de către portofel. 
+    * Această etapă va fi în curând îmbunătățită drastic, datorită [vezi etichete](/knowledge/view-tags-reduce-monero-sync-time).
+  * Atunci când trimiteți tranzacții, nodul pe care îl utilizați oferă o listă de posibile momeli (sau intrări false) pe care să le folosiți atunci când construiți tranzacția, asigurându-vă că aveți o mulțime bună în care să vă ascundeți de fiecare dată când cheltuiți Monero. 
+    * Aceste momeli fac parte din [semnăturile inelare](/knowledge/ring-signatures), o piesă importantă a abordării Monero în ceea ce privește confidențialitatea pe lanț.
 
-Даже с учетом высокой степени конфиденциальности сети, обеспечиваемой Монеро при использовании удаленных нодов, лучше всего запустить свой собственный нод Монеро, чтобы убедиться, что у вас под рукой нетронутая копия блокчейна Монеро и что ваш IP-адрес хорошо защищен. Другим преимуществом запуска собственного нода является то, что вы можете внести свой вклад в сеть, позволяя другим нодам синхронизироваться с вашим нодом или даже позволяя другим пользователям подключаться к вашему ноду со своими кошельками.
+  * Această etapă va fi în curând îmbunătățită drastic, datorită [vezi etichete](/knowledge/view-tags-reduce-monero-sync-time).
 
-Тем не менее, Монеро по-прежнему обеспечивает отличную конфиденциальность при использовании удаленного нода. Если вы хотите запустить свой собственный нод Монеро, вот простое и понятное руководство по его созданию:
+  * Aceste momeli fac parte din [semnăturile inelare](/knowledge/ring-signatures), o piesă importantă a abordării Monero în ceea ce privește confidențialitatea pe lanț.
 
-  * [Запуск нода Монеро](https://sethforprivacy.com/guides/run-a-monero-node/)
+## Care este cel mai privat și sigur mod de a utiliza Monero?
 
-## Что удаленный узел может узнать обо мне?
+## Care este cel mai privat și sigur mod de a utiliza Monero?
 
-При использовании удаленного нода есть несколько ключевых частей информации, которые становятся известны удаленному ноду, и несколько ключевых способов, с помощью которых этот нод может атаковать вас, помешать вам совершать транзакции и т.д.
+The best thing to do, even with the strong on-chain privacy provided by Monero when using remote nodes, is to run your own Monero node to ensure that you have a pristine copy of the Monero blockchain handy and that your IP address is well protected. The other benefit when running your own node is that you can contribute back to the network, letting other nodes synchronize from your node or even letting other users connect to your node with their wallets.
 
-Первое, что удаленный нод может узнать о вас, - это ваш публичный IP-адрес. Хотя он, как мы надеемся, будет скрыт через VPN или Tor, удаленный нод может связать ваш публичный IP-адрес с транзакцией, что поможет ему определить, откуда вы совершаете транзакцию. Удаленный нод также может узнать последний блок синхронизации вашего кошелька и использовать его, чтобы попытаться сделать обоснованные предположения о вас, например, когда вы обычно используете Монеро и когда вы в последний раз тратили Монеро. Это особенно актуально, если вы всегда заходите с одного и того же IP-адреса (например, с домашнего). Последнее, что может узнать о вас удаленный нод, - это базовая информация о транзакциях, которые вы отправляете через него. Хотя это, возможно, самые очевидные данные, которые оператор удаленного нода получает о вас, важно понимать, что они могут быть использованы для отслеживания отправителя транзакции при объединении этой информации с другими данными вне сети. Это может быть особенно опасно, если удаленным нодом управляет злоумышленник, компания, занимающаяся анализом блокчейна, или деспотичное государство.
+Acestea fiind spuse, Monero oferă în continuare o confidențialitate excelentă atunci când se utilizează un nod la distanță. Dacă sunteți interesat să vă rulați propriul nod Monero, iată un ghid ușor de urmat pentru a face acest lucru:
 
-Удаленный нод также может попытаться доставить вам неприятности, скрывая от вас блоки, и заставляя ваш кошелек думать, что он был синхронизирован, когда это не так. Это может заставить вас думать, что средства потеряны, или помешать вам потратить средства, пока вы не подключитесь к другому ноду. Последняя ключевая вещь, которую может сделать удаленный нод - передать вашему кошельку список приманок. Это может привести к тому, что ваш кошелек либо полностью откажется создавать транзакции (из-за чего вы не сможете потратить средства), либо удаленный нод может попытаться предоставить известные ему приманки, чтобы уменьшить анонимность, которую вы получаете в каждой транзакции.
+  * [Rulați un nod Monero](https://sethforprivacy.com/guides/run-a-monero-node/)
 
-## Какие гарантии конфиденциальности все еще существуют при использовании удаленного нода?
+## Ce poate afla un nod la distanță despre mine?
 
-Хотя эта статья, возможно, немного напугала вас, важно понимать, что конфиденциальность, обеспечиваемая Монеро, превосходна даже при использовании удаленного нода и намного превосходит любую другую криптовалюту при использовании таким образом. Вы по-прежнему получаете сильную внутрицепочечную конфиденциальность, обеспечиваемую Монеро, поскольку удаленный нод никогда не узнает истинный ввод (какие монеты вы тратите), количество Монеро, потраченное на транзакцию, или адрес получателя транзакции. Сторонние наблюдатели также не могут видеть истинный ввод, сумму или адреса участников (независимо от того, какой тип нода вы выберете!), гарантируя, что за пределами удаленного нода даже ваш IP-адрес, информация о синхронизации кошелька и транзакции имеют надежные гарантии конфиденциальности.
+## Ce poate afla un nod la distanță despre mine?
 
-Удаленный нод также никогда не имеет доступа к предыдущим транзакциям, которые вы отправили или получили, или к сумме Монеро, находящейся в вашем кошельке, и теряет всю видимость ваших транзакций в тот момент, когда вы начинаете использовать другой нод. Удаленному ноду никогда не предоставляются закрытые ключи (ключи траты или просмотра), поэтому ваш кошелек остается приватным, безопасным и пригодным для использования. Независимо от удаленного нода, вы также никогда не рискуете потерять Монеро или подвергнуть краже, поскольку нод не может редактировать адрес получателя, никогда не имеет доступа к закрытым ключам вашего кошелька и не может конфисковать ваш Монеро каким-либо образом.
+Atunci când folosiți un nod la distanță, există câteva informații cheie care sunt expuse unui nod la distanță și câteva moduri cheie prin care acel nod vă poate ataca, vă poate împiedica să efectuați tranzacții și multe altele.
 
-## Как насчет "легких кошельков", таких как MyMonero?
+Primul lucru pe care un nod la distanță îl poate afla despre dvs. este adresa IP publică. Deși sperăm că aceasta va fi ascunsă prin intermediul unui VPN sau Tor, nodul de la distanță ar putea asocia adresa IP publică a dvs. cu tranzacția, ajutându-l să afle de unde efectuați tranzacția. Nodul de la distanță poate afla, de asemenea, ultimul bloc pe care l-ați sincronizat în portofelul dvs. și poate folosi acest lucru pentru a încerca să facă presupuneri despre dvs., cum ar fi momentul în care utilizați Monero în mod normal și când ați cheltuit Monero ultima dată. Acest lucru este valabil mai ales dacă veniți mereu de la aceeași adresă IP (cum ar fi cea de acasă). Ultimul lucru cheie pe care un nod la distanță îl poate afla despre dvs. sunt informațiile de bază despre tranzacțiile pe care le trimiteți prin intermediul său. Deși acestea pot fi cele mai evidente date pe care operatorul nodului la distanță le obține despre dumneavoastră, este important să înțelegeți că acestea ar putea fi folosite pentru a ajuta la depistarea expeditorului tranzacției atunci când se combină aceste informații cu alte date din afara lanțului. Acest lucru poate fi deosebit de periculos dacă nodul de la distanță este condus de o entitate rău intenționată, de o companie de analiză a lanțului de blocuri sau de un stat-națiune opresiv.
 
-Хотя эта тема немного выходит за рамки данной статьи, я хотел бы затронуть уникальный тип кошелька в Монеро - легкие кошельки. Название "легкий кошелек" происходит от того, что вашему кошельку (на вашем телефоне или компьютере) не нужно выполнять синхронизацию блокчейна, что делает работу с ним более быстрой и плавной.
+Un nod la distanță poate încerca, de asemenea, să vă creeze probleme ascunzând blocuri de dvs., făcându-vă să credeți că portofelul dvs. a fost sincronizat când nu a fost așa. Acest lucru vă poate face să credeți că fondurile sunt pierdute sau vă poate împiedica să cheltuiți fonduri până când vă conectați la un alt nod. Ultimul lucru cheie pe care îl poate face un nod de la distanță este să vă furnizeze portofelului dvs. o listă manipulată de momeli. Acest lucru ar putea face ca portofelul dvs. să nu reușească complet să creeze tranzacții (ceea ce vă împiedică să cheltuiți fonduri) sau ar putea permite nodului de la distanță să încerce să furnizeze momeli despre care știe că sunt cheltuite pentru a reduce anonimatul pe care îl primiți în fiecare tranzacție.
 
-Тем не менее, подобные кошельки пока что идут на серьезный компромисс с конфиденциальностью - ваш кошелек отправляет закрытый ключ просмотра на удаленный сервер, который вы используете (как по умолчанию в MyMonero), предоставляя удаленному серверу полную видимость всех полученных средств с момента создания вашего кошелька (и до тех пор, пока вы не прекратите использовать этот кошелек или сид). Это значительно снижает степень конфиденциальности, которую вы получаете от оператора нода, и к этому следует подходить с осторожностью.
+## Ce garanții de confidențialitate mai există atunci când se utilizează un nod la distanță?
 
-К счастью, сообщество Монеро работает над улучшением программного обеспечения, которое можно использовать для размещения собственного сервера легкого кошелька (LWS), что позволит вам иметь быструю синхронизацию, не доверяя третьим лицам свои закрытые ключи просмотра - ведь вы будете запускать программное обеспечение, в котором ваш кошелек отправляет закрытые ключи просмотра!
+## Ce garanții de confidențialitate mai există atunci când se utilizează un nod la distanță?
 
-Более подробную информацию о пользовательском сервере легких кошельков смотрите в приведенном ниже репозитории Github:
+Deși acest articol poate că v-a speriat puțin, este important să realizați că intimitatea oferită de Monero este excelentă chiar și atunci când se utilizează un nod la distanță și depășește cu mult orice altă criptomonedă atunci când este utilizată în acest mod. Obțineți în continuare confidențialitatea puternică pe lanț oferită de Monero, deoarece nodul de la distanță nu cunoaște niciodată adevărata intrare (ce monede cheltuiți), suma de Monero cheltuită în tranzacție sau adresa destinatarului tranzacției. De asemenea, observatorii externi nu pot vedea adevărata intrare, suma sau adresele implicate (indiferent de tipul de nod pe care alegeți să îl utilizați!), asigurând că, în afara nodului la distanță, chiar și adresa IP, informațiile de sincronizare a portofelului și tranzacțiile au garanții puternice de confidențialitate.
+
+De asemenea, nodul de la distanță nu are niciodată acces la tranzacțiile anterioare pe care le-ați trimis sau primit sau la suma de Monero aflată în portofelul dvs. și își pierde orice vizibilitate asupra tranzacțiilor dvs. în momentul în care începeți să utilizați un alt nod. Nicio cheie privată (fie că este vorba de chei de cheltuieli sau de vizualizare) nu este furnizată vreodată nodului la distanță, astfel încât portofelul dumneavoastră rămâne privat, sigur și utilizabil. Indiferent de nodul de la distanță, de asemenea, nu riscați niciodată să pierdeți Monero sau să vi se fure, deoarece nodul nu poate modifica adresa destinatarului, nu are niciodată acces la cheile private ale portofelului dumneavoastră și nu vă poate confisca Monero în niciun fel.
+
+## Ce zici de "portofele ușoare" precum MyMonero?
+
+## Ce zici de "portofele ușoare" precum MyMonero?
+
+Deși subiectul este puțin în afara scopului acestui articol, am vrut să abordez un tip unic de portofel în Monero - portofelele ușoare. Denumirea de portofel ușor vine de la faptul că portofelul tău (de pe telefon sau calculator) nu trebuie să efectueze niciuna dintre sincronizările blockchain, ceea ce face ca experiența să fie mai rapidă și mai fluidă.
+
+Cu toate acestea, portofelele de acest tip vin cu un compromis sever în ceea ce privește confidențialitatea, deocamdată - portofelul dvs. trimite cheia privată de vizualizare către serverul la distanță pe care îl utilizați (cum este cel implicit din MyMonero), oferind serverului la distanță vizibilitate totală asupra tuturor fondurilor primite de la crearea portofelului dvs. (și până când încetați să mai utilizați acel portofel sau sămânță). Acest lucru reduce drastic confidențialitatea pe care o primiți de la operatorul de nod și trebuie abordat cu prudență.
+
+Din fericire, comunitatea Monero lucrează la îmbunătățirea software-ului pe care îl puteți utiliza pentru a vă găzdui propriul server de portofel ușor (LWS), care vă va permite să aveți o sincronizare rapidă fără a avea încredere într-o terță parte cu cheile de vizualizare privată - deoarece veți rula software-ul în care portofelul dvs. trimite cheile de vizualizare privată!
+
+Pentru mai multe informații despre serverul personalizat de portofel ușor, consultați depozitul Github de mai jos:
 
   * [monero-lws](https://github.com/vtnerd/monero-lws)
 
-## Где я могу узнать больше?
+## Cum pot afla mai multe?
 
-Если вам любопытно и вы хотели бы лучше понять ноды в Монеро и рассмотреть возможность использования удаленного нода или запуска собственного, смотрите ссылки ниже, чтобы узнать, с чего начать:
+## Cum pot afla mai multe?
 
-  * [Monero World, список удаленных нодов, управляемых сообществом, которые можно использовать](https://moneroworld.com/#nodes)
-  * [Ноды Монеро под управлением Seth For Privacy, автора этой статьи](https://sethforprivacy.com/about/#high-performance-monero-nodes)
-  * [monero.fail, список удаленных нодов с часто проверяемым статусом](https://monero.fail/)
-  * [Как подключиться к удаленному ноду в кошельке GUI](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
-  * [Монеропедия - Удаленный нод](https://www.getmonero.org/resources/moneropedia/remote-node.html)
+Dacă sunteți curioși și doriți să înțelegeți mai bine nodurile din Monero și să încercați să folosiți un nod de la distanță sau să vă rulați propriul nod, consultați linkurile de mai jos pentru a găsi locuri excelente pentru a începe:
 
-Читайте также
+  * [Monero World, a list of community-run remote nodes that can be used](https://moneroworld.com/#nodes)
+  * [Monero nodes run by Seth For Privacy, the author of this article](https://sethforprivacy.com/about/#high-performance-monero-nodes)
+  * [monero.fail, a list of remote nodes with frequently checked status](https://monero.fail/)
+  * [How to connect to a remote node within GUI wallet](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
+  * [Moneropedia - Remote Node](https://www.getmonero.org/resources/moneropedia/remote-node.html)
 
-  * [Как Monero уникальным образом обеспечивает циркулярную экономику](/knowledge/monero-circular-economies/)
+Lecturi suplimentare
 
-  * [Кольцевые подписи Monero против CoinJoin как в Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Cum permite Monero în mod unic economiile circulare](/knowledge/monero-circular-economies)/
 
-  * [Почему (и как!) вы должны хранить собственные ключи](/knowledge/hold-your-keys/)
+  * [Semnături inelare Monero vs CoinJoin ca în Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Как внести свою лепту в успех Monero](/knowledge/contributing-to-monero/)
+  * [De ce (și cum!) ar trebui să vă păstrați propriile chei](/knowledge/hold-your-keys)/
 
-  * [Как Монеро использует хард-форки для модернизации сети](/knowledge/network-upgrades/)
+  * [Contribuind înapoi la Monero](/knowledge/contributing-to-monero)/
 
-  * [Теги просмотра: Как один байт сократит время синхронизации кошелька Монеро более чем на 40%](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Cum folosește Monero hard-fork-urile pentru a moderniza rețeaua](/knowledge/network-upgrades)/
 
-  * [P2Pool и его роль в децентрализации майнинга Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [Vezi etichete: Cum un singur octet va reduce timpii de sincronizare a portofelului Monero cu 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Серафис: Как это повлияет на Monero](/knowledge/seraphis-for-monero/)
+  * [P2Pool și rolul său în descentralizarea mineritului Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Обмен Bitcoin на Monero настолько же анонимен, как и покупка Monero напрямую. Так ли это?](/knowledge/most-private-way-to-buy-monero/)
+  * [Seraphis: Ce va face pentru Monero](/knowledge/seraphis-for-monero)/
 
-  * [Почему Monero, в отличие от Zcash, использует настройки, не требующие доверия](/knowledge/monero-trustless-setup/)
+  * [Este convertirea Bitcoin în Monero la fel de privată ca și cumpărarea directă de Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [О том, почему Monero является более эффективным средством сбережения, чем Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [De ce Monero folosește o configurație fără încredere, spre deosebire de Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Как Monero избежать сетевых эффектов Bitcoin](/knowledge/network-effect/)
+  * [De ce Monero este un depozit de valoare mai bun decât Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Почему представители сообщества Monero отличаются масштабом своего критического мышления](/knowledge/critical-thinking/)
+  * [Cum poate Monero să depășească efectele de rețea ale Bitcoin](/knowledge/network-effect)/
 
-  * [Возможные случаи мошенничества при использовании Monero](/knowledge/monero-scams/)
+  * [De ce Monero are cea mai mare comunitate cu gândire critică](/knowledge/critical-thinking)/
 
-  * [Как атомные свопы будут работать в Monero](/knowledge/monero-atomic-swaps/)
+  * [Escrocherii la care să fii atent când folosești Monero](/knowledge/monero-scams)/
 
-  * [Что должен знать каждый пользователь Monero, когда дело доходит до взаимодействия с сетью](/knowledge/monero-networking/)
+  * [Cum vor funcționa schimburile atomice în Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Как протокол RingCT скрывает суммы при проведении транзакций Monero](/knowledge/monero-ringct/)
+  * [Ce trebuie să știe fiecare utilizator Monero atunci când vine vorba de rețea](/knowledge/monero-networking)/
 
-  * [Как скрытые адреса Monero помогают защитить вашу личность](/knowledge/monero-stealth-addresses/)
+  * [Cum ascunde RingCT sumele tranzacțiilor Monero](/knowledge/monero-ringct)/
 
-  * [Как подадреса Monero не позволяют устанавливать связь с личностью пользователя](/knowledge/monero-subaddresses/)
+  * [Cum îți protejează identitatea adresele Monero invizibile](/knowledge/monero-stealth-addresses)/
 
-  * [Что такое выходы Monero](/knowledge/monero-outputs/)
+  * [Cum previn subadresele Monero legătura de identitate](/knowledge/monero-subaddresses)/
 
-  * [Оптимальные способы использования Monero для начинающих](/knowledge/monero-best-practices/)
+  * [Explicații despre ieșirile Monero](/knowledge/monero-outputs)/
 
-  * [Как кольцевые подписи скрывают выходы Monero](/knowledge/ring-signatures/)
+  * [Cele mai bune practici Monero pentru începători](/knowledge/monero-best-practices)/
 
-  * [Как в Monero победили болезнь размера блоков, поразившую Bitcoin](/knowledge/dynamic-block-size/)
+  * [Modul în care semnăturile inelare ascund ieșirile Monero](/knowledge/ring-signatures)/
 
-  * [Как реализация схемы CLSAG повысит эффективность Monero](/knowledge/what-is-clsag/)
+  * [Cum a rezolvat Monero problema dimensiunii blocurilor care afectează Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Зачем Monero хвостовая эмиссия](/knowledge/monero-tail-emission/)
+  * [Cum va îmbunătăți CLSAG eficiența Monero](/knowledge/what-is-clsag)/
 
-  * [Краткая История Monero](/knowledge/monero-history/)
+  * [De ce Monero are o emisie de coadă](/knowledge/monero-tail-emission)/
 
-  * [Wired Magazine заблуждается в отношении Monero, и вот почему](/knowledge/wired-article-debunked/)
+  * [O scurtă istorie a Monero](/knowledge/monero-history)/
 
-  * [Развенчиваем 15 самых популярных мифов о Monero](/knowledge/monero-myths-debunked/)
+  * [Revista Wired se înșeală în legătură cu Monero, iată de ce](/knowledge/wired-article-debunked)/
 
-  * [Как Dandelion++ помогает сохранить приватность источников транзакций Monero](/knowledge/monero-dandelion/)
+  * [Top 15 mituri și îngrijorări legate de Monero dezmințite](/knowledge/monero-myths-debunked)/
 
-  * [Почему Monero децентрализовано и имеет открытый исходный код](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Cum păstrează Dandelion++ confidențialitatea originilor tranzacțiilor Monero](/knowledge/monero-dandelion)/
 
-  * [Майнинг Monero: что делает RandomX таким особенным](/knowledge/monero-mining-randomx/)
+  * [De ce Monero este Open Source și descentralizat](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Почему Monero лучше, чем Dash, Zcash, Zcoin (даже с Lelantus), Grin и биткойн-миксеры вроде Wasabi (Обновлено в мае 2020 г.)](/knowledge/why-monero-is-better/)
+  * [Mineritul Monero: Ce face ca RandomX să fie atât de special](/knowledge/monero-mining-randomx)/
+
+  * [De ce Monero este mai bun decât Dash, Zcash, Zcoin (chiar și cu Lelantus), Grin și Bitcoin Mixers ca Wasabi (actualizat în mai 2020)](/knowledge/why-monero-is-better)/
+
+Lecturi suplimentare

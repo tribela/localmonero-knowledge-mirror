@@ -10,7 +10,11 @@ Zolang er geld is geweest, zijn er oplichtingen geweest om mensen ertoe te breng
 
 ## De Bedriegerzwendel
 
+## De Bedriegerzwendel
+
 Een van de oudste scams in het boek, en een die kan plaatsvinden op elk bestaand discussieplatform. Bij deze zwendel doet de oplichter zich voor als een vertrouwd persoon van de gemeenschap of een hooggeplaatste functionaris van een gerelateerd bedrijf. Zodra het vertrouwen van het slachtoffer is verdiend door deze gevestigde reputatie, kan de oplichter een gebruiker naar een kwaadwillende site sturen, hem een programma laten downloaden dat is ontworpen om zijn geld te stelen, of de gebruiker zelfs zover krijgen dat hij hem rechtstreeks geld stuurt. Controleer altijd drie keer of de persoon met wie u praat inderdaad de juiste persoon is. Bedrijven hebben e-mails om contact mee op te nemen om hun identiteit te verifiëren (d.w.z. "Heeft de CEO van uw bedrijf zojuist contact met mij opgenomen via Telegram?") En andere gemeenschapsleiders kunnen meestal op andere manieren worden gecontacteerd. Controleer voordat u actie onderneemt. VOORAL als ze het gesprek met u begonnen zijn in plaats van u met hen. 
+
+## De Business Look Alike Zwendel
 
 ## De Business Look Alike Zwendel
 
@@ -22,7 +26,11 @@ De oplossing voor dit soort oplichting is waakzaamheid. Controleer altijd voorda
 
 ## De Regelrechte Zwendel
 
+## De Regelrechte Zwendel
+
 Soms proberen oplichters niet eens subtiel te zijn. Ze maken enorme, grootse beweringen en weten dat er altijd dwazen zullen zijn die ze zullen geloven uit wanhoop, hebzucht of onwetendheid. Deze oplichting kan vele vormen aannemen, van muntprojecten die belachelijke rendementen op investeringen beloven waarbij u ze eerst geld geeft (zoals Bitconnect), tot speciale, geheime groepen die beloven u alle marktbewegingen van tevoren te vertellen, zodat u geld kunt verdienen...voor een prijs. Onthoud. Als iets te mooi klinkt om waar te zijn, dan is dat waarschijnlijk ook zo. Dit advies geldt vooral in de cryptocurrency-ruimte, aangezien het inzetten van een munt of een slim contract tegenwoordig triviaal is en het online plaatsen van uw duistere claims gratis is. Onthoud, als iemand echt een manier heeft gevonden om de markt te timen of een manier ontdekt om oneindig veel geld te verdienen, waarom zouden ze het u dan vertellen? Ze zouden het gewoon zelf gebruiken om rijk te worden. Waarom zouden ze het delen? Wees slim. Gebruik uw hersens. Vertrouw niemand.
+
+## De Rol van Uw Monero Seed bij Oplichting
 
 ## De Rol van Uw Monero Seed bij Oplichting
 
@@ -34,66 +42,68 @@ ALS een site, applicatie of portefeuille een 'restore with seed'-optie heeft, mo
 
 Verder lezen
 
-  * [Hoe Monero op unieke wijze circulaire economieën mogelijk maakt](/knowledge/monero-circular-economies/)
+  * [Hoe Monero op unieke wijze circulaire economieën mogelijk maakt](/knowledge/monero-circular-economies)/
 
-  * [Monero's ringhandtekeningen versus CoinJoin zoals in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero's ringhandtekeningen versus CoinJoin zoals in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Waarom (en hoe!) u uw eigen sleutels moet bezitten](/knowledge/hold-your-keys/)
+  * [Waarom (en hoe!) u uw eigen sleutels moet bezitten](/knowledge/hold-your-keys)/
 
-  * [Bijdragen aan Monero](/knowledge/contributing-to-monero/)
+  * [Bijdragen aan Monero](/knowledge/contributing-to-monero)/
 
-  * [Hoe externe knooppunten de privacy van Monero beïnvloeden](/knowledge/remote-nodes-privacy/)
+  * [Hoe externe knooppunten de privacy van Monero beïnvloeden](/knowledge/remote-nodes-privacy)/
 
-  * [Hoe Monero hard forks gebruikt om het netwerk te upgraden](/knowledge/network-upgrades/)
+  * [Hoe Monero hard forks gebruikt om het netwerk te upgraden](/knowledge/network-upgrades)/
 
-  * [Weergave tags: Hoe één byte de synchronisatietijden van de Monero portefeuille met meer dan 40% vermindert](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Weergave tags: Hoe één byte de synchronisatietijden van de Monero portefeuille met meer dan 40% vermindert](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool en Zijn Rol bij het Decentraliseren van Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool en Zijn Rol bij het Decentraliseren van Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Wat Het Zal Doen voor Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Wat Het Zal Doen voor Monero](/knowledge/seraphis-for-monero)/
 
-  * [Is het Omzetten van Bitcoin naar Monero Net Zo Privé als het Rechtstreeks Kopen van Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Is het Omzetten van Bitcoin naar Monero Net Zo Privé als het Rechtstreeks Kopen van Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Waarom Monero een Trustless Setup Gebruikt in Tegenstelling tot Zcash](/knowledge/monero-trustless-setup/)
+  * [Waarom Monero een Trustless Setup Gebruikt in Tegenstelling tot Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Waarom Monero een Betere Waardeopslag Is Dan Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Waarom Monero een Betere Waardeopslag Is Dan Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hoe Monero de Netwerkeffecten van Bitcoin Kan Overwinnen](/knowledge/network-effect/)
+  * [Hoe Monero de Netwerkeffecten van Bitcoin Kan Overwinnen](/knowledge/network-effect)/
 
-  * [Waarom Monero de Meest Kritische Denkgemeenschap Heeft](/knowledge/critical-thinking/)
+  * [Waarom Monero de Meest Kritische Denkgemeenschap Heeft](/knowledge/critical-thinking)/
 
-  * [Hoe Atomic Swaps Zullen Werken in Monero](/knowledge/monero-atomic-swaps/)
+  * [Hoe Atomic Swaps Zullen Werken in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Wat Elke Monero Gebruiker Moet Weten Als het om Netwerken Gaat](/knowledge/monero-networking/)
+  * [Wat Elke Monero Gebruiker Moet Weten Als het om Netwerken Gaat](/knowledge/monero-networking)/
 
-  * [Hoe RingCT Monero's Transactiebedragen verbergt](/knowledge/monero-ringct/)
+  * [Hoe RingCT Monero's Transactiebedragen verbergt](/knowledge/monero-ringct)/
 
-  * [Hoe Monero Stealth Adressen Uw Identiteit Beschermen](/knowledge/monero-stealth-addresses/)
+  * [Hoe Monero Stealth Adressen Uw Identiteit Beschermen](/knowledge/monero-stealth-addresses)/
 
-  * [Hoe Monero's Subadressen Identiteitskoppeling Voorkomen](/knowledge/monero-subaddresses/)
+  * [Hoe Monero's Subadressen Identiteitskoppeling Voorkomen](/knowledge/monero-subaddresses)/
 
-  * [Monero-Outputs uitgelegd](/knowledge/monero-outputs/)
+  * [Monero-Outputs uitgelegd](/knowledge/monero-outputs)/
 
-  * [Praktische Tips van Monero voor Beginners](/knowledge/monero-best-practices/)
+  * [Praktische Tips van Monero voor Beginners](/knowledge/monero-best-practices)/
 
-  * [Hoe Ring-handtekeningen de Resultaten van Monero Verdoezelen](/knowledge/ring-signatures/)
+  * [Hoe Ring-handtekeningen de Resultaten van Monero Verdoezelen](/knowledge/ring-signatures)/
 
-  * [Hoe Monero het Probleem met de Blokgrootte Dat Bitcoin Plaagt Heeft Opgelost](/knowledge/dynamic-block-size/)
+  * [Hoe Monero het Probleem met de Blokgrootte Dat Bitcoin Plaagt Heeft Opgelost](/knowledge/dynamic-block-size)/
 
-  * [Hoe CLSAG de Efficiëntie van Monero Zal Verbeteren](/knowledge/what-is-clsag/)
+  * [Hoe CLSAG de Efficiëntie van Monero Zal Verbeteren](/knowledge/what-is-clsag)/
 
-  * [Waarom Monero een Staartemissie Heeft](/knowledge/monero-tail-emission/)
+  * [Waarom Monero een Staartemissie Heeft](/knowledge/monero-tail-emission)/
 
-  * [Een Korte Geschiedenis van Monero](/knowledge/monero-history/)
+  * [Een Korte Geschiedenis van Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine heeft Ongelijk over Monero, Dit is Waarom](/knowledge/wired-article-debunked/)
+  * [Wired Magazine heeft Ongelijk over Monero, Dit is Waarom](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Monero Mythen en Zorgen Ontkracht](/knowledge/monero-myths-debunked/)
+  * [Top 15 Monero Mythen en Zorgen Ontkracht](/knowledge/monero-myths-debunked)/
 
-  * [Hoe Dandelion++ de Oorsprong van de Transacties van Monero Privé Houdt](/knowledge/monero-dandelion/)
+  * [Hoe Dandelion++ de Oorsprong van de Transacties van Monero Privé Houdt](/knowledge/monero-dandelion)/
 
-  * [Waarom Monero Open Source en Dedecentraliseerd Is](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Waarom Monero Open Source en Dedecentraliseerd Is](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero-Mining: Wat RandomX zo Speciaal Maakt](/knowledge/monero-mining-randomx/)
+  * [Monero-Mining: Wat RandomX zo Speciaal Maakt](/knowledge/monero-mining-randomx)/
 
-  * [Waarom Monero beter is dan Dash, Zcash, Zcoin (zelfs met Lelantus), Grin en Bitcoin Mixers zoals Wasabi (bijgewerkt mei 2020)](/knowledge/why-monero-is-better/)
+  * [Waarom Monero beter is dan Dash, Zcash, Zcoin (zelfs met Lelantus), Grin en Bitcoin Mixers zoals Wasabi (bijgewerkt mei 2020)](/knowledge/why-monero-is-better)/
+
+Verder lezen

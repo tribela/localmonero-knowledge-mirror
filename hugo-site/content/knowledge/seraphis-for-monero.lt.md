@@ -8,8 +8,12 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: modulinis dizaino atnaujinimas Monero sandoriams
 
+## Seraphis: modulinis dizaino atnaujinimas Monero sandoriams
+
 Šiame įraše aprašomas [Seraphis](https://github.com/UkoeHB/Seraphis) – operacijų protokolų struktūrų ir abstrakcijų rinkinys, kurį sukūrė pseudoniminis tyrimo bendradarbis [`koe`](https://github.com/UkoeHB), skirtas Monero ekosistemai ir atliekama saugumo analizė. pseudoniminis bendradarbis [`coinstudent2048`](https://github.com/coinstudent2048).  
 Siekdami aiškumo, šiek tiek supaprastiname ir praleidžiame tam tikras technines detales; Dėl šios priežasties ir dėl to, kad Seraphis dizainas vis dar vyksta, suinteresuoti skaitytojai turėtų ieškoti naujausios informacijos Seraphis dokumentacijoje.
+
+## Sandoriai Monero
 
 ## Sandoriai Monero
 
@@ -41,8 +45,12 @@ Panašus procesas buvo atliktas su susiejamu žiedo parašo kūrimo bloku. Pradi
 
 ## Serafis
 
+## Serafis
+
 Seraphis šią idėją žengia dar žingsnį.  
 Užuot atnaujinę atskirus esamo RingCT operacijų protokolo blokus, jame pristatomas kitoks protokolas, kuris gali pasinaudoti skirtingų kūrimo blokų pranašumais ir pasiūlyti patobulintą funkcionalumą.
+
+## Statybiniai blokai
 
 ## Statybiniai blokai
 
@@ -66,6 +74,8 @@ Laimei, kai kurie „Seraphis“ reikalingi elementai jau yra kitur ir jų nerei
 
 ## Kreipimasis
 
+## Kreipimasis
+
 Deja, šiuo metu naudojami Monero adresai nesuderinami su Seraphis. Jei Seraphis būtų įdiegtas, vartotojai turės sugeneruoti naujus adresus iš savo piniginės raktų, kad gautų Monero. Tačiau šios ekosistemos išlaidos turi daug privalumų.
 
 Be aukščiau aptartų struktūrinių pranašumų, Seraphis dizainas yra pritaikytas daugeliui skirtingų adresų kūrimo galimybių, kurių kiekviena turi kompromisų. Nors galutinė Seraphis adreso konstrukcija [ vis dar sprendžiama](https://github.com/monero-project/research-lab/issues/92) (viena schema, kuriai skiriama daug dėmesio, vadinama [JAMTIS](https://gist.github.com/tevador/50160d160d24cfc6c52ae02eb3d17024)), galime apibūdinti kai kurias įprastas ir naudingas funkcijas.
@@ -86,70 +96,74 @@ Kaip adreso savininkas, turite nuspręsti, kiek įgaliojimų perduoti kitiems į
 
 ## Didelė nuotrauka
 
+## Didelė nuotrauka
+
 Seraphis yra esminis Monero ekosistemos pokytis. Nors tai susiję su adresų ir operacijų kūrimo blokų pakeitimais, jo dizainas siūlo lankstumą ir naudingas funkcijas, kurios neįmanomos naudojant šiandieninį RingCT protokolą. Nors didžioji dalis dizaino yra baigta ir kuriama iki [diegimo](https://github.com/UkoeHB/monero/tree/seraphis_lib), adresų projektavimas ir saugos analizė tebevyksta. Seraphis siūlo puikią galimybę stumti Monero ekosistemą į priekį!
 
 Papildoma literatūra
 
-  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies/)
+  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies)/
 
-  * [Monero žiedo parašai prieš CoinJoin kaip Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero žiedo parašai prieš CoinJoin kaip Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys/)
+  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys)/
 
-  * [Prisideda prie Monero](/knowledge/contributing-to-monero/)
+  * [Prisideda prie Monero](/knowledge/contributing-to-monero)/
 
-  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy/)
+  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy)/
 
-  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades/)
+  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades)/
 
-  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup/)
+  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup)/
 
-  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value/)
+  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value)/
 
-  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect/)
+  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect)/
 
-  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking/)
+  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking)/
 
-  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams/)
+  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams)/
 
-  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps/)
+  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking/)
+  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking)/
 
-  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct/)
+  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct)/
 
-  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses/)
+  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses)/
 
-  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses/)
+  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses)/
 
-  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs/)
+  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs)/
 
-  * [„Monero“ geriausia praktika pradedantiesiems](/knowledge/monero-best-practices/)
+  * [„Monero“ geriausia praktika pradedantiesiems](/knowledge/monero-best-practices)/
 
-  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures/)
+  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures)/
 
-  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag/)
+  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag)/
 
-  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission/)
+  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission)/
 
-  * [Trumpa Monero istorija](/knowledge/monero-history/)
+  * [Trumpa Monero istorija](/knowledge/monero-history)/
 
-  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked/)
+  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked)/
 
-  * [15 populiariausių Monero mitų ir rūpesčių, kurie buvo paneigti](/knowledge/monero-myths-debunked/)
+  * [15 populiariausių Monero mitų ir rūpesčių, kurie buvo paneigti](/knowledge/monero-myths-debunked)/
 
-  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion/)
+  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion)/
 
-  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx/)
+  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx)/
 
-  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better/)
+  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better)/
+
+Papildoma literatūra

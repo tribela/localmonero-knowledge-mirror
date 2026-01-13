@@ -1,101 +1,103 @@
 ---
-title: "Ako môže Monero prekonať sieťové efekty bitcoinu"
+title: "Как Monero избежать сетевых эффектов Bitcoin"
 slug: "network-effect"
 date: "2020-12-16"
 image: "/images/networkEffect.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Blockchain je nespočetné množstvo disciplín, ktoré sú všetky vtesnané do jednej. Do svojich bezpečnostných modelov prináša prvky technológie, ekonomiky a teórie hier. To znamená, že je to jeden z najzaujímavejších a najzložitejších kúskov technológie k dnešnému dňu, ale tiež to znamená, že hlboké a dôkladné pochopenie nie je možné bez toho, aby ste sa naučili základy každého dielika skladačky, ktorý ho formuje.
+Блокчейн представляет собой мириады дисциплин, слившихся в одну. Элементы технологии, экономики и теории игр сочетается в этой модели безопасности. Это означает, что сегодня блокчейн является не только одной из самых сложных и замысловатых технологий, но и что его глубокое и полное понимание невозможно без изучения основ каждой из составных частей данной головоломки.
 
-Jednou časťou blockchainu, o ktorej sa často nehovorí, je konkurencia. Každá kryptomena je často hodnotená podľa svojich vlastných zásluh a dokonca aj voči kryptomenám, ktoré sa jej páčia, ale len málo z nich je hodnotených na základe toho, čo ponúkajú trhu ako celku a koľko ľudí to používa. Keď to vezmeme ďalej, kryptomena musí analyzovať, koľko ľudí ju používa, vie o nej alebo sa s ňou akýmkoľvek spôsobom spája. Tento koncept je známy ako sieťový efekt.
+Одним из аспектов блокчейна, обсуждаемых не так часто, является конкуренция. Каждая криптовалюта, как правило, оценивается исходя из её достоинств и даже путём сравнения с другими наиболее близкими к ней криптовалютами. Но мало кто производит такую оценку на основе того, что криптовалюта даёт рынку в целом и сколько людей пользуется ею. Если развивать эту мысль, криптовалютный проект должен анализировать, сколько людей пользуется им, знает о нём или иным образом взаимодействует с ним. Эта концепция известна как «сетевой эффект».
 
-Neblockchainovým príkladom sieťového efektu sú sociálne médiá. Ak sú všetci vaši priatelia na Facebooku, potom keď si vyberáte, na ktorých sociálnych médiách sa chcete výrazne podieľať, pri rozhodovaní zohľadňujú aj výber vašich priateľov. Skutočnosť, že väčšina z nich je na Facebooku, môže ovplyvniť aj vás, aby ste sa k nemu pridali. A keď sa rozhodujete, či chcete alebo nechcete opustiť platformu, skutočnosť, že môžete stratiť kontakt s niektorými z týchto priateľov, tiež ovplyvní toto rozhodnutie. Toto je sieťový efekt v akcii. Keď adopcia dosiahne kritické množstvo, ďalšie osvojenie sa zjednoduší a často je podporované súčasnými účastníkmi siete.
+Примером сетевого эффекта, не связанным с блокчейном, могут служить социальные сети. Если все ваши друзья зарегистрированы на Facebook, то и у вас при выборе социальной сети, в которой вам бы хотелось активно общаться, предпочтения ваших друзей также станут важным фактором при принятии решения. Тот факт, что большинство из них использует Facebook, может повлиять на то, что вы выберете именно эту сеть. И когда вы решаете, покинуть платформу или нет, тот факт, что вы можете потерять контакт с некоторыми из друзей, также повлияет на ваше решение. Это и есть сетевой эффект в действии. После того как уровень принятия достигает критической точки, дальнейшее распространение становится проще и часто подпитывается уже существующими участниками сети.
 
-Keď sa na to pozrieme v kontexte blockchainu a vlastne aj obchodu vo všeobecnosti, rýchlo sa ukáže sila sieťových efektov. Ak je bitcoin kryptomena, o ktorej väčšina ľudí vie, a je to tá, ktorú väčšina ľudí nakupuje, potom ju prijme viac obchodníkov. Ak ho prijme viac obchodníkov, bude viac miest na jeho použitie, takže si ho kúpi viac ľudí a viac ľudí o ňom bude vedieť. Stáva sa z toho veľká pozitívna spätná väzba, ktorá sa bude valiť ako snehové gule. V tomto bode môže byť obchodník oslovený ohľadom používania inej kryptomeny, ale bude sa pýtať, prečo je to potrebné, pretože už akceptujú bitcoiny a každý ich používa a akceptuje. 
+Если взглянуть на это в контексте блокчейна, да и коммерции в целом, сила сетевых эффектов становится очевидной. И если Bitcoin является криптовалютой, о которой знает большинство людей и которую большинство людей покупает, то и большинство предпринимателей будет принимать её. И чем больше предпринимателей станет принимать её, тем появится больше мест, где её можно будет использовать, тем больше людей станет покупать её и тем больше людей будет знать о ней. Так образуется положительный контур обратной связи, который растёт, как снежный ком. И на этом этапе, если обратиться к торговцу с вопросом относительно использования другой криптовалюты, то он засомневается, нужно ли ему это, так как он уже принимает Bitcoin, а это именно та криптовалюта, которую все используют и принимают.
 
-Aj keď je nesporné, že bitcoin je zďaleka najväčšia kryptomena, existujú aj iné, ktoré sú považované za top vo svojom výklenku. Monero je jednou z takýchto mincí, mnohí ju považujú za premiérovú mincu na ochranu osobných údajov, hoci rôzni ľudia majú rôzne názory na to, či Monero vôbec súťaží v rovnakom priestore ako Bitcoin. Je to preto, že Bitcoin umiestnil všetky svoje karty na svoju transparentnosť kvôli overeniu celkovej sumy (hoci to je možné aj v Monero, aj keď oveľa viac kruhovým objazdom).
+Но, несмотря на то, что Bitcoin, бесспорно, является крупнейшей криптовалютой, есть другие, которые считаются лучшими в своей нише. Monero является одной из таких монет, и, по мнению многих, это главная приватная монета. При этом мнения о том, является ли Monero конкурентоспособной в том же пространстве, что и Bitcoin, разнятся. Это связано с тем, что Bitcoin поставил всё на прозрачность ради обеспечения возможности верификации общей суммы (хотя это можно сделать и в случае Monero, правда, окольными путями).
 
-Aké je teda momentálne Monero v tejto hre sieťových efektov? Kde sme začali? Čo prinesie budúcnosť? No, začnime od začiatku.
+Так какова же позиция Monero в этой игре сетевых эффектов на сегодняшний день? С чего мы начали? Что предстоит нам в будущем? Итак, начнём с самого начала.
 
-Je zaujímavé poznamenať, že v začiatkoch [Monero](/knowledge/monero-history) to bol jeden z troch spôsobov ochrany súkromia. Coinjoin, CryptoNote a Dashov hybrid masternode/coinjoin. Možnosti boli obmedzené a rozhodne neboli recenzované, ale to ľuďom nebránilo vo výbere strany. V tejto staršej dobe to bola hra pre kohokoľvek a niektorí sa rozhodli sadnúť si a nechať krém vystúpiť na vrchol. Čas sa nakoniec ukázal byť na strane [Monera](/knowledge/why-monero-is-better), keďže prichádzali a odchádzali ďalšie kryptomeny na ochranu súkromia.
+Интересно отметить, что в [первые дни Monero](/knowledge/monero-history), стала одним из трёх способов обеспечить приватность: Coinjoin, CryptoNote и Dash, гибрида masternode/coinjoin. Варианты были ограничены и, безусловно, не подвергались независимому анализу, но это не остановило людей от выбора близкой им стороны. В ту прошедшую эпоху любой мог делать всё, что захочет, и некоторые решили просто сидеть и ждать, пока не определится безусловный лидер. В конце концов время оказалось на [стороне Monero](/knowledge/why-monero-is-better), так как другие приватные криптовалюты как появлялись, так и исчезали.
 
-To vytvorilo sieťový efekt Monero ako minca, ktorá dláždi cestu ostatným v súkromí. Aj keď sa objavili novšie technológie, ako napríklad Zcash's zk-SNARKs a MimbleWimble, masy hľadali vedenie a rozumnú diskusiu o týchto nových protokoloch od Monera.
+Это создало сетевой эффект Monero как монеты, прокладывающей путь к приватности для всех остальных. И даже несмотря на то, что появились новые технологии, такие как zk-SNARKs у ZCash и MimbleWimble, большинство выбирало Monero за руководящую роль и здравое осмысление этих новых протоколов.
 
-V súčasnosti je Monero jedným z mála všeobecne uznávaných projektov vo vesmíre. Od krypto noobov až po bitcoinových maximalistov, všetci vnímajú Monero s prinajmenšom s nevôľou, hoci častejšie s vyšším uznaním. Keď veteráni z vesmíru hovoria o minciach, ktoré majú najväčšiu šancu urobiť rozdiel na svete a vydržia cez skúšky a súženie, Monero je vždy prítomné.
+В настоящее время Monero является одним из немногих всеми уважаемых проектов в криптовалютном пространстве. Начиная с новичков и заканчивая максималистами Bitcoin — все смотрят на Monero, по крайней мере, с завистливым уважением, хотя чаще всего с выражением признания. Когда ветераны криптопространства говорят о монетах, которые имеют самые высокие шансы изменить мир и которым придётся столкнуться со всеми возможными испытаниями и невзгодами, Monero всегда упоминается в ходе обсуждения.
 
-Týchto pár posledných odsekov nie je len samochválou, ale úprimným pohľadom na to, aká je kryptomena v čase písania tohto článku. Sieťové efekty Monera sú každým dňom čoraz zreteľnejšie a objavujú sa na neočakávaných miestach.
+В настоящее время Monero является одним из немногих всеми уважаемых проектов в криптовалютном пространстве. Начиная с новичков и заканчивая максималистами Bitcoin — все смотрят на Monero, по крайней мере, с завистливым уважением, хотя чаще всего с выражением признания. Когда ветераны криптопространства говорят о монетах, которые имеют самые высокие шансы изменить мир и которым придётся столкнуться со всеми возможными испытаниями и невзгодами, Monero всегда упоминается в ходе обсуждения.
 
-Ľudia sú dosť rozdelení, pokiaľ ide o budúcnosť Monera, ale všetky názory poukazujú na to, že Monero robí svoju prácu dobre. Najväčším príkladom sú regulačné obavy. Niektorí sa obávajú, že Monero je príliš súkromné, čo spôsobí nevyhnutný konflikt s vládami sveta, zatiaľ čo iní sú nadšení z toho, ako toto súkromie vracia slobodu bežnému človeku. Základom oboch týchto názorov je myšlienka, že Monero v plnej miere plní svoj prísľub súkromia a zameniteľnosti a často je to jediná minca v takýchto rozhovoroch, ktorú väčšina ostatných „mincí na ochranu súkromia“ nerobí.
+Мнения в отношении будущего Monero расходятся, но все согласны в одном — проект Monero всё делает правильно. Самым ярким примером этого являются проблемы с регуляторами. Некоторые опасаются, что Monero слишком приватна и это приведёт к неизбежному столкновению с мировыми правительствами, в то время как других приводит в восторг то, что такая приватность возвращает свободу обычным людям. В основе обеих точек зрения лежит тот факт, что Monero полностью выполняет свои обязательства по обеспечению приватности и взаимозаменяемости, и часто это единственная монета, которая упоминается в этом контексте в отличие от большинства других «приватных монет».
 
-Nakoľko sa komunita Monera veľmi snaží byť [racionálna a skeptická](/knowledge/critical-thinking), nebojí sa nových technológií. Iné mince, ktoré sa viac zaujímajú o konkurenčnú stránku, neustále hovoria o „zosadení“ Monera z trónu a o tom, ako by sa Monero malo báť ich novej technológie, ktorá prevezme svet súkromia. Inými slovami, myslia si, že ich nová technológia prekoná zavedené sieťové efekty Monero v kruhoch ochrany súkromia.
+Поскольку сообщество Monero всеми силами старается оставаться [рациональным и скептически настроенным](/knowledge/critical-thinking), оно не боится новых технологий. Представители других криптовалютных проектов, которых больше заботит конкурентоспособность их монет, постоянно говорят о «свержении Monero с трона» и о том, как Monero следует опасаться их новых технологий, которые перевернут мир приватности. Другими словами, они думают, что их новая технология переборет существующие сетевые эффекты Monero с точки зрения обеспечения приватности.
 
-Na rozdiel od bitcoinu, ktorý sa primárne spolieha na svoje sieťové efekty, aby zostal relevantný bez veľkých základných inovácií, Monero sa rozhodlo prijať oboje. Pridáva sa nová preverená technológia, aby sa Monero stalo súkromnejším a bezpečnejším, čím sa zaisťuje, že sieťové efekty Monero nikdy nebudú jediným účelom jeho statusu, ale skôr výsledkom inovácie a tvrdej práce.
+В отличие от Bitcoin, который в первую очередь полагается на свои сетевые эффекты, чтобы сохранить свои позиции без каких-либо инноваций, Monero использует и то и другое. Реализуются новые проверенные технологии, которые позволяют сделать Monero более приватной и безопасной монетой, гарантируя при этом, что сетевые эффекты Monero никогда не станут единственным средством поддержания её статуса, а будут, скорее, результатом инноваций и упорного труда.
 
-V tomto zmysle si treba klásť otázku, ako dlho sa môže technológia ako bitcoin spoliehať výlučne na svoje existujúce sieťové efekty, aby zostala relevantná. Prípad je v súčasnosti silný, žiadna minca sa ani len nepribližuje uznaniu značky Bitcoinu a kolektívnemu mozgovému priestoru, ale musíme si uvedomiť, že mnohí ďalší giganti v iných odvetviach sa považovali za nedotknuteľných, len aby čelili vlastnému pádu kvôli nedostatku inovácií.
+В этом смысле следует задаться вопросом: как долго такая технология, как Bitcoin, сможет полагаться исключительно на имеющиеся у неё сетевые эффекты, чтобы сохранить свою актуальность. В настоящее время, действительно, ни одна монета ещё не приблизилась к уровню узнаваемости бренда Bitcoin и не стоит с ним рядом с точки зрения задействования коллективного разума, но следует помнить о том, что многие гиганты в иных отраслях считали себя «неприкасаемыми», но в итоге рухнули из-за отсутствия каких-либо инноваций.
 
-Ďalšie čítanie
+Читайте также
 
-  * [Ako Monero jedinečne umožňuje obehové ekonomiky](/knowledge/monero-circular-economies/)
+  * [Как Monero уникальным образом обеспечивает циркулярную экономику](/knowledge/monero-circular-economies)/
 
-  * [Moneroove prstenové podpisy vs CoinJoin ako vo Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Кольцевые подписи Monero против CoinJoin как в Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Prečo (a ako!) by ste mali držať svoje vlastné kľúče](/knowledge/hold-your-keys/)
+  * [Почему (и как!) вы должны хранить собственные ключи](/knowledge/hold-your-keys)/
 
-  * [Prispievame späť do Monero](/knowledge/contributing-to-monero/)
+  * [Как внести свою лепту в успех Monero](/knowledge/contributing-to-monero)/
 
-  * [Ako vzdialené uzly ovplyvňujú súkromie spoločnosti Monero](/knowledge/remote-nodes-privacy/)
+  * [Как удаленные ноды влияют на конфиденциальность Монеро](/knowledge/remote-nodes-privacy)/
 
-  * [Ako Monero používa hard-forky na aktualizáciu siete](/knowledge/network-upgrades/)
+  * [Как Монеро использует хард-форки для модернизации сети](/knowledge/network-upgrades)/
 
-  * [Zobraziť značky: Ako jeden bajt zníži časy synchronizácie peňaženky Monero o 40 % a viac](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Теги просмотра: Как один байт сократит время синхронизации кошелька Монеро более чем на 40%](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool a jeho úloha pri decentralizácii ťažby Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool и его роль в децентрализации майнинга Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Čo to urobí pre Monero](/knowledge/seraphis-for-monero/)
+  * [Серафис: Как это повлияет на Monero](/knowledge/seraphis-for-monero)/
 
-  * [Je prevod bitcoinu na monero rovnako súkromný ako priamy nákup monera?](/knowledge/most-private-way-to-buy-monero/)
+  * [Обмен Bitcoin на Monero настолько же анонимен, как и покупка Monero напрямую. Так ли это?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Prečo Monero používa Trustless Setup na rozdiel od Zcash](/knowledge/monero-trustless-setup/)
+  * [Почему Monero, в отличие от Zcash, использует настройки, не требующие доверия](/knowledge/monero-trustless-setup)/
 
-  * [Prečo je Monero lepším uchovávateľom hodnoty ako Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [О том, почему Monero является более эффективным средством сбережения, чем Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Prečo má Monero komunitu najkritickejšieho myslenia](/knowledge/critical-thinking/)
+  * [Почему представители сообщества Monero отличаются масштабом своего критического мышления](/knowledge/critical-thinking)/
 
-  * [Podvody na ktoré si treba dať pozor pri používaní Monero](/knowledge/monero-scams/)
+  * [Возможные случаи мошенничества при использовании Monero](/knowledge/monero-scams)/
 
-  * [Ako budú fungovať atómové swapy v Monero](/knowledge/monero-atomic-swaps/)
+  * [Как атомные свопы будут работать в Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Čo potrebuje vedieť každý používateľ Monero, pokiaľ ide o vytváranie sietí](/knowledge/monero-networking/)
+  * [Что должен знать каждый пользователь Monero, когда дело доходит до взаимодействия с сетью](/knowledge/monero-networking)/
 
-  * [Ako RingCT skrýva sumy transakcií Monero](/knowledge/monero-ringct/)
+  * [Как протокол RingCT скрывает суммы при проведении транзакций Monero](/knowledge/monero-ringct)/
 
-  * [Ako Monero Stealth adresy chránia vašu identitu](/knowledge/monero-stealth-addresses/)
+  * [Как скрытые адреса Monero помогают защитить вашу личность](/knowledge/monero-stealth-addresses)/
 
-  * [Ako podadresy Monero zabraňujú prepojeniu identity](/knowledge/monero-subaddresses/)
+  * [Как подадреса Monero не позволяют устанавливать связь с личностью пользователя](/knowledge/monero-subaddresses)/
 
-  * [Vysvetlenie výstupov Monero](/knowledge/monero-outputs/)
+  * [Что такое выходы Monero](/knowledge/monero-outputs)/
 
-  * [Monero osvedčené postupy pre začiatočníkov](/knowledge/monero-best-practices/)
+  * [Оптимальные способы использования Monero для начинающих](/knowledge/monero-best-practices)/
 
-  * [Ako prstencové podpisy zakrývajú výstupy Monera](/knowledge/ring-signatures/)
+  * [Как кольцевые подписи скрывают выходы Monero](/knowledge/ring-signatures)/
 
-  * [Ako Monero vyriešilo problém veľkosti bloku, ktorý trápi Bitcoin](/knowledge/dynamic-block-size/)
+  * [Как в Monero победили болезнь размера блоков, поразившую Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Ako CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag/)
+  * [Как реализация схемы CLSAG повысит эффективность Monero](/knowledge/what-is-clsag)/
 
-  * [Prečo má Monero chvostovú emisiu](/knowledge/monero-tail-emission/)
+  * [Зачем Monero хвостовая эмиссия](/knowledge/monero-tail-emission)/
 
-  * [Stručná história Monera](/knowledge/monero-history/)
+  * [Краткая История Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine sa o Monere mýli, tu je dôvod](/knowledge/wired-article-debunked/)
+  * [Wired Magazine заблуждается в отношении Monero, и вот почему](/knowledge/wired-article-debunked)/
 
-  * [Top 15 vyvrátených mýtov a obáv o Monero](/knowledge/monero-myths-debunked/)
+  * [Развенчиваем 15 самых популярных мифов о Monero](/knowledge/monero-myths-debunked)/
 
-  * [Ako Dandelion++ uchováva pôvod transakcií Monero v súkromí](/knowledge/monero-dandelion/)
+  * [Как Dandelion++ помогает сохранить приватность источников транзакций Monero](/knowledge/monero-dandelion)/
 
-  * [Prečo je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Почему Monero децентрализовано и имеет открытый исходный код](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Čo robí RandomX tak výnimočným](/knowledge/monero-mining-randomx/)
+  * [Майнинг Monero: что делает RandomX таким особенным](/knowledge/monero-mining-randomx)/
 
-  * [Prečo je Monero lepšie ako Dash, Zcash, Zcoin (dokonca aj s Lelantus), Grin a bitcoinové mixéry ako Wasabi (aktualizované v máji 2020)](/knowledge/why-monero-is-better/)
+  * [Почему Monero лучше, чем Dash, Zcash, Zcoin (даже с Lelantus), Grin и биткойн-миксеры вроде Wasabi (Обновлено в мае 2020 г.)](/knowledge/why-monero-is-better)/
+
+Читайте также

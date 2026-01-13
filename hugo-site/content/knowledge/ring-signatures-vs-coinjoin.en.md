@@ -14,6 +14,8 @@ In this blog post we’ll briefly dive into a comparison of CoinJoin and ring si
 
 ## What is a CoinJoin transaction?
 
+## What is a CoinJoin transaction?
+
 As all transactions are completely transparent in Bitcoin - revealing the sender, receiver, and amounts - users must take extra steps to preserve their privacy from previous senders and future recipients of their funds or risk censorship, surveillance, or theft of funds via physical violence.
 
 The best solution today for privacy on Bitcoin is a tool called [“CoinJoin”](https://bitcoiner.guide/qna/coinjoin/), where 2 or more users work together (usually via a centralized coordinator) to create a special transaction that makes it difficult for outside observers to connect the inputs with the outputs. Each participant communicates to jointly build the transaction without giving over custody of their funds, and receives an output at the end whose previous history is now unclear (or obfuscated) to outside observers.
@@ -25,6 +27,8 @@ This breaks the history of specific UTXOs, allowing Bitcoin users to gain some m
   * User’s with large amounts of funds to CoinJoin can often have to wait hours (or even days!) to find enough participants to CoinJoin with, leading to large delays from the time a user receives funds to when they can spend them privately.
   * The privacy provided by a CoinJoin transaction degrades over time as other participants spend funds or link their outputs to their identity through KYC exchanges, ID requiring merchants, etc. This means that users ideally keep their funds constantly churning in CoinJoin transactions to keep their anonymity set (“crowd to hide in”) as fresh as possible.
   * In most approaches to CoinJoin, participants must use a fixed-size UTXO (i.e. 0.1 BTC) in order to make it harder to connect inputs and outputs of CoinJoin transactions. This leads to higher fees (more separate transactions necessary per large input), more “toxic change” (funds that are unspendable without serious risks to privacy), and can proclude smaller users from being able to mix at all if they don’t have the minimum balance required.
+
+## How do ring signatures solve these issues?
 
 ## How do ring signatures solve these issues?
 
@@ -64,6 +68,8 @@ As amounts are hidden in every transaction using [“Confidential Transactions�
 
 ## How can I learn more?
 
+## How can I learn more?
+
 If you’re curious and want to better understand ring signatures or CoinJoin transactions, see the links below for great places to get started:
 
   * [How Ring Signatures Obscure Monero’s Outputs](/knowledge/ring-signatures)
@@ -73,66 +79,68 @@ If you’re curious and want to better understand ring signatures or CoinJoin tr
 
 Further reading
 
-  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies/)
+  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies)/
 
-  * [Why (And How!) You Should Hold Your Own Keys](/knowledge/hold-your-keys/)
+  * [Why (And How!) You Should Hold Your Own Keys](/knowledge/hold-your-keys)/
 
-  * [Contributing Back to Monero](/knowledge/contributing-to-monero/)
+  * [Contributing Back to Monero](/knowledge/contributing-to-monero)/
 
-  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy/)
+  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy)/
 
-  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades/)
+  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades)/
 
-  * [View Tags: How One Byte Will Reduce Monero Wallet Sync Times by 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [View Tags: How One Byte Will Reduce Monero Wallet Sync Times by 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool and Its Role in Decentralizing Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool and Its Role in Decentralizing Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero)/
 
-  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero/)
+  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup/)
+  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect/)
+  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect)/
 
-  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking/)
+  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking)/
 
-  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams/)
+  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams)/
 
-  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps/)
+  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking/)
+  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking)/
 
-  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct/)
+  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct)/
 
-  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses/)
+  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses)/
 
-  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses/)
+  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses)/
 
-  * [Monero Outputs Explained](/knowledge/monero-outputs/)
+  * [Monero Outputs Explained](/knowledge/monero-outputs)/
 
-  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices/)
+  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices)/
 
-  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures/)
+  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures)/
 
-  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size/)
+  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag/)
+  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag)/
 
-  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission/)
+  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission)/
 
-  * [A Brief History of Monero](/knowledge/monero-history/)
+  * [A Brief History of Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked/)
+  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
 
-  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion/)
+  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion)/
 
-  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx)/
 
-  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better/)
+  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better)/
+
+Further reading

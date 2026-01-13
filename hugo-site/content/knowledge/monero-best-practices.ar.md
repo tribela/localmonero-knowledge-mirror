@@ -10,7 +10,11 @@ image_credit_url: "https://cypherstack.com"
 
 ## اكتب بذرتك!
 
+## اكتب بذرتك!
+
 الطريقة الأولى والأكبر للحفاظ على عملتك المشفرة آمنة ومأمونة هي كتابة بذرة Monero mnemonic ، وهي قائمة كلمات قصيرة تظهر عند إنشاء محفظتك لأول مرة. إذا كانت لديك هذه البذرة ، ولكن انتهى ىشحن جهاز الكمبيوتر / الهاتف الخاص بك ، فيمكنك استرداد Monero. إذا لم يكن لديك هذه البذرة ، وفقدت محفظتك ، فستفقد Monero ولا يمكن لأحد مساعدتك في استعادتها. بنفس الطريقة ، لا تشارك هذه البذرة مع أي شخص. إذا كانت لديهم قائمة الكلمات هذه ، فلديهم حق الوصول الكامل وحقوق الإنفاق إلى Monero الخاص بك. لقد كان الكثيرون مهملين في تأمين بذورهم ، ووصلوا إلى الواقع المرعب للأموال المفقودة لأن شخصًا ما أخذها. نوصي بتدوينها. جسديا. عدم تخزينها رقميًا والتأكد من أن لديك عدة نسخ في أماكن مختلفة. هذا هو الشيء الأول الذي يمكنك القيام به لتأمين Monero الخاص بك. اكتب بذرتك! 
+
+## تحقق مرة أخرى من عناوينك
 
 ## تحقق مرة أخرى من عناوينك
 
@@ -18,11 +22,17 @@ image_credit_url: "https://cypherstack.com"
 
 ## تعرف على الفرق بين المحافظ الساخنة والباردة
 
+## تعرف على الفرق بين المحافظ الساخنة والباردة
+
 تعتبر المحافظ الساخنة والباردة مصطلحات شائعة في مجال العملات المشفرة ، والمفهوم بسيط للغاية حقًا. المحفظة الساخنة هي تلك التي تخرجها وتستخدمها كثيرًا. الجو "حار" من وجودك في جيبك الخلفي. المحافظ الباردة هي تلك التي لا يتم التطرق إليها كثيرًا ، على غرار المال في البنك. مثلما لا يُنصح بحمل مئات الدولارات في محفظتك الفعلية ، ولكن من المقبول عمومًا القيام بذلك في حساب مصرفي ، يجب على المستخدمين التفكير في مقدار الحكمة التي يجب أن تحملها مونيرو في محافظهم المحمولة الساخنة ، والمبلغ الأفضل المتبقي في المنزل في ثانية واحدة باردة. بهذه الطريقة ، لن يتسبب فقدان الهاتف أو السرقة أو أي حوادث مؤسفة أخرى في خسارة الأموال بالكامل. 
 
 ## هل محافظ الأجهزة مناسبة لك؟
 
+## هل محافظ الأجهزة مناسبة لك؟
+
 إذا كانت فكرة الحفاظ على بيئتك الرقمية خالية تمامًا من الفيروسات والبرامج الضارة لحماية جهاز مونيرو الخاص بك أمرًا مخيفًا بالنسبة لك ، فقد تفكر في استخدام محفظة أجهزة. في الأساس ، تحافظ محفظة الأجهزة على مفاتيحك الخاصة على الجهاز ، بعيدًا عن جهاز الكمبيوتر الخاص بك. لذلك حتى إذا تعرض جهاز الكمبيوتر الخاص بك للاختراق ، فلن يتمكن المتسللون من الوصول إلى بذرك. لن تتمكن من إنفاق الأموال إلا إذا كانت محفظة الأجهزة متصلة بالكمبيوتر وتوقع المعاملة. يؤدي هذا إلى نقل أمان المفاتيح من جهاز الكمبيوتر الخاص بك ، والذي يتم استخدامه للعديد من الأشياء ، وله سطح هجوم كبير ، إلى محفظة الأجهزة ، والتي تُستخدم فقط لشيء واحد ، ولها سطح هجوم أصغر بكثير. بالنسبة للأشخاص العاديين الذين لا يعرفون خصوصيات وعموميات أمان الكمبيوتر ، يعد هذا خيارًا قابلاً للتطبيق للحفاظ على أموالك آمنة. 
+
+## عندما تكون في شك ، استخدم الإعدادات الافتراضية (مع مونيرو)
 
 ## عندما تكون في شك ، استخدم الإعدادات الافتراضية (مع مونيرو)
 
@@ -34,66 +44,68 @@ image_credit_url: "https://cypherstack.com"
 
 المزيد من القراءة
 
-  * [كيف مونيرو تمكن الاقتصادات الدائرية بشكل فريد](/knowledge/monero-circular-economies/)
+  * [كيف مونيرو تمكن الاقتصادات الدائرية بشكل فريد](/knowledge/monero-circular-economies)/
 
-  * [توقيعات حلقة مونيرو مقابل CoinJoin كما هو الحال في Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [توقيعات حلقة مونيرو مقابل CoinJoin كما هو الحال في Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [لماذا (وكيف!) يجب أن تحتفظ بمفاتيحك الخاصة](/knowledge/hold-your-keys/)
+  * [لماذا (وكيف!) يجب أن تحتفظ بمفاتيحك الخاصة](/knowledge/hold-your-keys)/
 
-  * [المساهمة مرة أخرى في مونيرو](/knowledge/contributing-to-monero/)
+  * [المساهمة مرة أخرى في مونيرو](/knowledge/contributing-to-monero)/
 
-  * [كيف تؤثر العقد البعيدة على خصوصية مونيرو](/knowledge/remote-nodes-privacy/)
+  * [كيف تؤثر العقد البعيدة على خصوصية مونيرو](/knowledge/remote-nodes-privacy)/
 
-  * [كيف تستخدم مونيرو الهارد فورك لترقية الشبكة](/knowledge/network-upgrades/)
+  * [كيف تستخدم مونيرو الهارد فورك لترقية الشبكة](/knowledge/network-upgrades)/
 
-  * [عرض العلامات: كيف سيؤدي البايت الواحد إلى تقليل أوقات مزامنة محفظة مونيرو بنسبة 40٪ +](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [عرض العلامات: كيف سيؤدي البايت الواحد إلى تقليل أوقات مزامنة محفظة مونيرو بنسبة 40٪ +](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ودوره في تحقيق اللامركزية في تعدين مونيرو](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ودوره في تحقيق اللامركزية في تعدين مونيرو](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [سيرافيز: ماذا ستفعل لمونيرو](/knowledge/seraphis-for-monero/)
+  * [سيرافيز: ماذا ستفعل لمونيرو](/knowledge/seraphis-for-monero)/
 
-  * [هل يعد تحويل Bitcoin إلى مونيرو أمرًا خاصًا مثل شراء مونيرو مباشرةً؟](/knowledge/most-private-way-to-buy-monero/)
+  * [هل يعد تحويل Bitcoin إلى مونيرو أمرًا خاصًا مثل شراء مونيرو مباشرةً؟](/knowledge/most-private-way-to-buy-monero)/
 
-  * [لماذا تستخدم مونيرو إعدادًا غير موثوق به على عكس Zcash](/knowledge/monero-trustless-setup/)
+  * [لماذا تستخدم مونيرو إعدادًا غير موثوق به على عكس Zcash](/knowledge/monero-trustless-setup)/
 
-  * [لماذا تعد مونيرو مخزنًا أفضل للقيمة من Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [لماذا تعد مونيرو مخزنًا أفضل للقيمة من Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [كيف يمكن لـمونيرو التغلب على تأثيرات شبكة Bitcoin](/knowledge/network-effect/)
+  * [كيف يمكن لـمونيرو التغلب على تأثيرات شبكة Bitcoin](/knowledge/network-effect)/
 
-  * [لماذا تمتلك مونيرو مجتمع التفكير الأكثر أهمية](/knowledge/critical-thinking/)
+  * [لماذا تمتلك مونيرو مجتمع التفكير الأكثر أهمية](/knowledge/critical-thinking)/
 
-  * [عمليات الاحتيال التي يجب الانتباه إليها عند استخدام مونيرو](/knowledge/monero-scams/)
+  * [عمليات الاحتيال التي يجب الانتباه إليها عند استخدام مونيرو](/knowledge/monero-scams)/
 
-  * [كيف ستعمل المقايضات الذرية في مونيرو](/knowledge/monero-atomic-swaps/)
+  * [كيف ستعمل المقايضات الذرية في مونيرو](/knowledge/monero-atomic-swaps)/
 
-  * [ما يحتاج كل مستخدم مونيرو إلى معرفته عندما يتعلق الأمر بالشبكات](/knowledge/monero-networking/)
+  * [ما يحتاج كل مستخدم مونيرو إلى معرفته عندما يتعلق الأمر بالشبكات](/knowledge/monero-networking)/
 
-  * [كيف يخفي RingCT مبالغ معاملة مونيرو](/knowledge/monero-ringct/)
+  * [كيف يخفي RingCT مبالغ معاملة مونيرو](/knowledge/monero-ringct)/
 
-  * [كيف تحمي عناوين Monero Stealth هويتك](/knowledge/monero-stealth-addresses/)
+  * [كيف تحمي عناوين Monero Stealth هويتك](/knowledge/monero-stealth-addresses)/
 
-  * [كيف عناوين مونيرو الفرعية تمنع ربط الهوية](/knowledge/monero-subaddresses/)
+  * [كيف عناوين مونيرو الفرعية تمنع ربط الهوية](/knowledge/monero-subaddresses)/
 
-  * [تمتوضيح مخرجات مونيرو](/knowledge/monero-outputs/)
+  * [تمتوضيح مخرجات مونيرو](/knowledge/monero-outputs)/
 
-  * [كيف تحجب تواقيع الحلقة مخرجات مونيرو](/knowledge/ring-signatures/)
+  * [كيف تحجب تواقيع الحلقة مخرجات مونيرو](/knowledge/ring-signatures)/
 
-  * [كيف حلت مونيرو مشكلة حجم الكتلة التي ابتليت بها Bitcoin](/knowledge/dynamic-block-size/)
+  * [كيف حلت مونيرو مشكلة حجم الكتلة التي ابتليت بها Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [كيف سيحسن CLSAG كفاءة مونيرو](/knowledge/what-is-clsag/)
+  * [كيف سيحسن CLSAG كفاءة مونيرو](/knowledge/what-is-clsag)/
 
-  * [لماذا مونيرو لها انبعاث الذيل](/knowledge/monero-tail-emission/)
+  * [لماذا مونيرو لها انبعاث الذيل](/knowledge/monero-tail-emission)/
 
-  * [تاريخ موجز لمونيرو](/knowledge/monero-history/)
+  * [تاريخ موجز لمونيرو](/knowledge/monero-history)/
 
-  * [مجلة وايرد خاطئة بشأن مونيرو ، إليكم السبب](/knowledge/wired-article-debunked/)
+  * [مجلة وايرد خاطئة بشأن مونيرو ، إليكم السبب](/knowledge/wired-article-debunked)/
 
-  * [تم فضح أفضل 15 خرافة ومخاوف لـ Monero](/knowledge/monero-myths-debunked/)
+  * [تم فضح أفضل 15 خرافة ومخاوف لـ Monero](/knowledge/monero-myths-debunked)/
 
-  * [كيف تحافظ Dandelion ++ على خصوصية أصول معاملات مونيرو](/knowledge/monero-dandelion/)
+  * [كيف تحافظ Dandelion ++ على خصوصية أصول معاملات مونيرو](/knowledge/monero-dandelion)/
 
-  * [لماذا مونيرو مفتوح المصدر ولامركزي](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [لماذا مونيرو مفتوح المصدر ولامركزي](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [تعدين مونيرو: ما الذي يجعل RandomX مميزًا جدًا](/knowledge/monero-mining-randomx/)
+  * [تعدين مونيرو: ما الذي يجعل RandomX مميزًا جدًا](/knowledge/monero-mining-randomx)/
 
-  * [لماذا Monero أفضل من Dash و Zcash و Zcoin (حتى مع Lelantus) وخلاطات Grin و Bitcoin مثل Wasabi (تم التحديث في مايو 2020)](/knowledge/why-monero-is-better/)
+  * [لماذا Monero أفضل من Dash و Zcash و Zcoin (حتى مع Lelantus) وخلاطات Grin و Bitcoin مثل Wasabi (تم التحديث في مايو 2020)](/knowledge/why-monero-is-better)/
+
+المزيد من القراءة

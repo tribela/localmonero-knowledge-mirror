@@ -12,6 +12,8 @@ Viena no visbiežāk pārprastajām daļām Monero pieejā decentralizētas, pri
 
 ## Kāpēc Monero ir jāturpina tīkla uzlabošana?
 
+## Kāpēc Monero ir jāturpina tīkla uzlabošana?
+
 Monero kopiena ir apņēmusies pārskatīt un uzlabot projektu laika gaitā, un šķiet, ka apņemšanās ir saistīta ar diviem galvenajiem kopienas ētikas aspektiem: 
 
   1. Monero projekts galu galā ir programmatūra — kods, ko rakstījuši cilvēki. Tas var novest pie nepieciešamības labot kļūdas, pievienot laika gaitā atklātus vai izgudrotus uzlabojumus, ieviest protokola modernizāciju vai vienkārši uzturēt projektu. Tas daudzējādā ziņā ir līdzīgs citām jūsu izmantotajām programmatūras daļām (piemēram, pārlūkprogrammai, kurā to lasāt!), kas ir pastāvīgi jāatjaunina, lai pievienotu jaunas funkcijas un labotu kļūdas.
@@ -24,6 +26,8 @@ Monero projekts ir privātuma rīks, un privātums ir arvien progresējoša bru�
 
 ## Kas ir hard-fork?
 
+## Kas ir hard-fork?
+
 Monero uzlabošanas sarežģītība stājas spēkā, kad saprotat, cik atšķirīga ir kriptovalūtas uzlabošana salīdzinājumā ar vienkāršu programmatūras atjauninājuma nosūtīšanu, piemēram, pārlūkprogrammai.
 
 Kriptovalūtās par tīkla noteikumiem (piemēram, kā pārskaitījumiem vajadzētu izskatīties, kā notiek mainošana un kā pārbaudīt katru bloku) ir jāvienojas tīklam, un to sauc par “vienprātību”. Ja kāds no šiem noteikumiem ir jāmaina vai jāuzlabo, tīklam ir jāvienojas par jaunajiem noteikumiem, izraisot “hard-fork” jeb atzarojumu – situāciju, kad tīkls faktiski sadalās divās bloku ķēdēs – viena dzīvo pēc vecajiem noteikumiem, un viena pēc jaunajiem.
@@ -31,6 +35,8 @@ Kriptovalūtās par tīkla noteikumiem (piemēram, kā pārskaitījumiem vajadz�
 Kad visi kopienas locekļi piekrīt noteikumu izmaiņām, to sauc par “nestrīdīgu hard-fork”, un ķēde, kurai joprojām ir spēkā vecie noteikumi, nomirst un netiek mainota pēc “hard-fork”. Tas ir noticis gandrīz ar katru Monero atzarojumu, un vienīgais veco noteikumu turpinājums bija projekti, kas mēģināja gūt peļņu no hard-fork.
 
 Lai gan nestrīdīgi hard-forks ir vienīgais veids, kā pareizi uzlabot svarīgus Monero tīkla aspektus, tiem ir arī kaitinoša blakusparādība — vecā programmatūra, kas tika izdota pirms hard-fork plānošanas, nevar saprast jaunos tīkla noteikumus un tāpēc nedarbojas pēc hard-fork! Tas var novest pie tā, ka lietotāji domā, ka līdzekļi ir pazaudēti un Monero blokķēde ir apstājusies, un viņi nevar pārvietot līdzekļus, kamēr nav atjauninājuši savus makus.
+
+## Kurš izlemj, kad Monero tīkls tiks uzlabots un kas tiks iekļauts?
 
 ## Kurš izlemj, kad Monero tīkls tiks uzlabots un kas tiks iekļauts?
 
@@ -50,6 +56,8 @@ Ja jums ir svarīga ideja par tīkla jaunināšanu, jums nepatīk kāda pieeja v
 
 ## Kā es varu palīdzēt ar tīkla uzlabojumiem?
 
+## Kā es varu palīdzēt ar tīkla uzlabojumiem?
+
 Tā kā Monero tīkla uzlabojumiem ir nepieciešama kopienas koordinācija un apstiprināšana, kā arī programmatūras atjauninājumi, ir ārkārtīgi svarīgi, lai tīkla uzlabojumu plānošanā, testēšanā un saziņas procesā iesaistītos pēc iespējas vairāk cilvēku.
 
 Šeit ir daži vienkārši veidi, kā palīdzēt atrisināt problēmas saistībā ar tīkla uzlabošanu:
@@ -61,14 +69,18 @@ Tā kā Monero tīkla uzlabojumiem ir nepieciešama kopienas koordinācija un ap
 
 ## Ko varam sagaidīt nākamajā Monero tīkla atjauninājumā?
 
+## Ko varam sagaidīt nākamajā Monero tīkla atjauninājumā?
+
 Lai gan datums vēl nav akmenī kalts, drīzumā tiks veikts tīkla atjauninājums, lai ieviestu dažus svarīgus Monero uzlabojumus un funkcijas:
 
   1. Gredzena izmēra palielināšana no 11 uz 16, palielinot pamata anonimitātes kopu (lasiet: ticamu noliedzamību vai pamata konfidencialitāti) katram pārskaitījumam tīklā
-  2. [Skata atzīmes — lielisks veids, kā samazināt maka sinhronizācijas laiku par 30–40%](/knowledge/view-tags-reduce-monero-sync-time/)
+  2. [Skata atzīmes — lielisks veids, kā samazināt maka sinhronizācijas laiku par 30–40%](https://localmonero.co/knowledge/view-tags-reduce-monero-sync-time)
   3. Maksas izmaiņas, uzlabojot tīkla drošību un noturību pret straujām izmaiņām maksas tirgū vai ļaunprātīgu subjektu uzbrukumiem
   4. [Bulletproofs+ — turpmāks Monero pārskaitījumu efektivitātes uzlabojums](https://www.getmonero.org/2020/12/24/Bulletproofs+-in-Monero.html)
 
-Šīs izmaiņas ievērojami uzlabos tīkla privātumu, efektivitāti un drošību, vienlaikus paverot ceļu [Seraphis](/knowledge/seraphis-for-monero/), nākamās paaudzes pārskaitījumu protokolam Monero.
+Šīs izmaiņas ievērojami uzlabos tīkla privātumu, efektivitāti un drošību, vienlaikus paverot ceļu [Seraphis](https://localmonero.co/knowledge/seraphis-for-monero), nākamās paaudzes pārskaitījumu protokolam Monero.
+
+## Kā es varu uzzināt vairāk?
 
 ## Kā es varu uzzināt vairāk?
 
@@ -80,66 +92,68 @@ Tēma par atzarojumiem un tīkla uzlabojumiem ir plaša, un Monero tiem ir gara 
 
 Lasīt tālāk
 
-  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies/)
+  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies)/
 
-  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys/)
+  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys)/
 
-  * [Iesaiste Monero](/knowledge/contributing-to-monero/)
+  * [Iesaiste Monero](/knowledge/contributing-to-monero)/
 
-  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy/)
+  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy)/
 
-  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool un tā loma Monero mainošanas decentralizācijā](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool un tā loma Monero mainošanas decentralizācijā](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero)/
 
-  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero/)
+  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup/)
+  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup)/
 
-  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect/)
+  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect)/
 
-  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking/)
+  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking)/
 
-  * [Krāpniecība, kam jāpievērš uzmanība, lietojot Monero](/knowledge/monero-scams/)
+  * [Krāpniecība, kam jāpievērš uzmanība, lietojot Monero](/knowledge/monero-scams)/
 
-  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps/)
+  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps)/
 
-  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking/)
+  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking)/
 
-  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct/)
+  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct)/
 
-  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses/)
+  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses)/
 
-  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses/)
+  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses)/
 
-  * [Monero izvades tuvplānā](/knowledge/monero-outputs/)
+  * [Monero izvades tuvplānā](/knowledge/monero-outputs)/
 
-  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices/)
+  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices)/
 
-  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures/)
+  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures)/
 
-  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag/)
+  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag)/
 
-  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission/)
+  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission)/
 
-  * [Īsa Monero vēsture](/knowledge/monero-history/)
+  * [Īsa Monero vēsture](/knowledge/monero-history)/
 
-  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked/)
+  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked)/
 
-  * [15 populārākie Monero mīti un bažas atspēkotas](/knowledge/monero-myths-debunked/)
+  * [15 populārākie Monero mīti un bažas atspēkotas](/knowledge/monero-myths-debunked)/
 
-  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion/)
+  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion)/
 
-  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx/)
+  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx)/
 
-  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better/)
+  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better)/
+
+Lasīt tālāk

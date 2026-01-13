@@ -1,97 +1,99 @@
 ---
-title: "Kuinka Atomic Swapit toimivat Monerossa"
+title: "Πώς Θα Λειτουργήσουν τα Atomic Swaps στο Monero"
 slug: "monero-atomic-swaps"
 date: "2020-11-18"
 image: "/images/atomic.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Kryptovaluutta-maailmassa hajautetun ja valtuuttoman järjestelmän tavoittelussa harvat asiat ovat niin haluttuja kuin hajautetut pörssit ja "Atomic Swapit". Perustamisestaan lähtien Monero on kamppaillut "Atomic Swappien" toteuttamisessa, sillä yksityisyysominaisuudet luovat ainutlaatuisia ongelmia protokollaa suunniteltaessa.
+Στην επιδίωξη της αποκέντρωσης και ενός συστήματος πραγματικά χωρίς άδεια, λίγα πράγματα είναι τόσο περιζήτητα στον χώρο των κρυπτονομισμάτων όσο τα αποκεντρωμένα χρηματιστήρια και οι ανταλλαγές ατομικών. Από την ίδρυσή του, το Monero δυσκολεύτηκε να εφαρμόσει ατομικές ανταλλαγές, καθώς οι λειτουργίες απορρήτου δημιουργούν μοναδικά προβλήματα κατά την προσπάθεια σχεδίασης ενός πρωτοκόλλου.
 
-Mutta pakitetaan ensin. Mitä ovat "Atomic Swapit"? Atomic swap on operaatio, jonka avulla kahden eri lohkoketjun kryptovaluutat voidaan vaihtaa keskenään ilman kolmannen osapuolen apua. Tämä tarkoittaa, että jos joku haluaisi vaihtaa kryptovaluutan A kryptovaluuttaan B, hän voisi tehdä sen ilman keskitettyä tai hajautettua vaihtoa. Kuten voisi kuvitella, tämä vaatii huomattavasti tutkimusta ja kaikki tekniset yksityiskohdat jotka mahdollistavat sen, ovat melko monimutkaisia. Jälleen kerran LocalMonero on täällä auttamassa ja antamassa yksinkertaisen selityksen tavalliselle ihmiselle.
+Αλλά πρώτα, ας δημιουργήσουμε αντίγραφα ασφαλείας. Τι είναι τα ατομικά swaps; Η ανταλλαγή ατομικών είναι ένα πρωτόκολλο μέσω του οποίου δύο διαφορετικά κρυπτονομίσματα, σε διαφορετικές αλυσίδες μπλοκ, μπορούν να ανταλλάσσονται με τρόπο αξιόπιστο χωρίς μεσάζοντα. Αυτό σημαίνει ότι αν κάποιος ήθελε να ανταλλάξει το κρυπτονόμισμα Α με το κρυπτονόμισμα Β, θα μπορούσε να το κάνει χωρίς ανταλλαγή, κεντρικά ή αποκεντρωμένα. Όπως θα μπορούσε κανείς να φανταστεί, αυτό απαιτεί σημαντική έρευνα και οι πλήρεις τεχνικές λεπτομέρειες που το καθιστούν δυνατό γίνονται αρκετά περίπλοκες. Για άλλη μια φορά, το LocalMonero είναι εδώ για να βοηθήσει και να δώσει μια απλή εξήγηση για τον κάθε άνθρωπο.
 
-Aluksi tarkastellaan yksinkertaisinta Atomic Swapin muotoa, jonka Bitcoin on toteuttanut. Jos joku haluaa vaihtaa Bitcoinin toiseen kolikkoon, joka käyttää samaa "hash time lock contract" -tekniikkaa, hän voi tehdä sen seuraavalla tavalla. Alicella on Bitcoin (BTC), mutta hän haluaa Litecoinin (LTC) ja Bobilla on LTC, mutta hän haluaa BTC:n. He päättävät tehdä Atomic Swapin, jotta jokainen saa haluamansa kolikon. Alice lähettää BTC:nsä erityiseen osoitteeseen käyttämällä skriptejä, jotka lukitsevat varat pois niin, ettei hänkään pääse niihin käsiksi. Voit ajatella sitä kuin Alice laittaisi BTC:nsä lukittuun laatikkoon. Kun lukkolaatikko on tehty, hän saa avaimen ja lähettää tämän avaimen hashin Bobille. Nyt Bobilla ei ole itse avainta, vain hash, joten hän ei voi vielä käyttää varoja.
+Για να ξεκινήσουμε, ας εξετάσουμε την πιο απλή μορφή ατομικής ανταλλαγής, όπως εφαρμόζεται από το Bitcoin. Εάν κάποιος θέλει να ανταλλάξει Bitcoin με ένα άλλο νόμισμα που χρησιμοποιεί την ίδια τεχνολογία συμβολαίου κλειδώματος χρόνου κατακερματισμού, μπορεί να το κάνει με τον ακόλουθο τρόπο. Η Αλίκη έχει Bitcoin (BTC), αλλά θέλει Litecoin (LTC) και ο Βασίλης έχει LTC, αλλά θέλει BTC. Αποφασίζουν να κάνουν μια ανταλλαγή ατομικών, ώστε ο καθένας να πάρει το νόμισμα που θέλει. Η Αλίκη στέλνει το BTC της σε μια ειδική διεύθυνση, χρησιμοποιώντας σενάρια που κλειδώνουν τα χρήματα ώστε να μην μπορεί να έχει πρόσβαση σε αυτό. Μπορείτε να το σκεφτείτε όπως η Αλίκη βάζει το BTC της σε ένα lockbox. Όταν φτιάχνεται το lockbox, παίρνει ένα κλειδί και στέλνει έναν κατακερματισμό αυτού του κλειδιού στον Βασίλη. Τώρα ο Βασίλης δεν έχει το ίδιο το κλειδί, μόνο τον κατακερματισμό, επομένως δεν μπορεί ακόμη να έχει πρόσβαση στα χρήματα.
 
-Bob käyttää tätä hashia "seedinä", josta hän luo oman lukituslaatikon ja lähettää LTC:nsä sinne, missä se myös lukitaan. Koska Alicen avaimen hashia käytettiin seedinä, jolla Bobin lukkolaatikko luotiin, hän voi käyttää avaimensa lunastaakseen LTC:n Bobin lukkolaatikosta. Hänen avaimensa sopii! Mutta käyttämällä matemaattista voodoo-taikaa, kun hän avaa avaimellaan LTC-lukon, hän paljastaa avaimen Bobille, joka voi sitten käyttää sitä lunastaakseen BTC:n, jonka hän laittoi lukkolaatikkoonsa. Tällä tavalla, ilman välittäjää, Alice ja Bob ovat onnistuneesti vaihtaneet omaisuutensa.
+Ο Βασίλης χρησιμοποιεί αυτό το κατακερματισμό ως σπόρο από το οποίο δημιουργεί το δικό του lockbox και στέλνει τον LTC του εκεί, όπου είναι επίσης κλειδωμένο. Δεδομένου ότι ο κατακερματισμός του κλειδιού της Αλίκης χρησιμοποιήθηκε ως ο σπόρος με τον οποίο κατασκευάστηκε το lockbox του Βασίλη, μπορεί να χρησιμοποιήσει το κλειδί της για να διεκδικήσει τον LTC στο lockbox του Βασίλη. Το κλειδί της ταιριάζει! Αλλά, χρησιμοποιώντας μαθηματική μαγεία, όταν χρησιμοποιεί το κλειδί της για να ανοίξει την κλειδαριά LTC, αποκαλύπτει το κλειδί στον Βασίλη, ο οποίος μπορεί στη συνέχεια να το χρησιμοποιήσει για να διεκδικήσει το BTC που έβαλε στο lockbox της. Με αυτόν τον τρόπο, χωρίς μεσάζοντα, η Αλίκη και ο Βασίλης ανταλλάσσουν με επιτυχία τα περιουσιακά τους στοιχεία.
 
-Mutta siinä on pieni ongelma. Mitä jos Alice lähettää lukkolaatikkoonsa ja Bob päättää, ettei halua enää käydä kauppaa. Nyt koska Alice ei pääse käsiksi BTC:ään, jonka hän lukitsi ja Bob ei suorita osuuttaan kaupasta, Alice menettää rahansa ikuisesti. No, onneksi Bitcoinissa on tekniikka, jota kutsutaan palautustransaktioiksi joten tietyn ajan kuluttua, jos Bob ei ole lunastanut BTC:tä, skripteihin on sisäänrakennettu vikasieto, jossa BTC palaa automaattisesti Alicelle. Tämä oli Moneron ydinswap-toteutuksen ensisijainen tavoite. Moneron [ring allekirjoitusten tietosuojateknologian](/knowledge/ring-signatures) ansiosta tapahtuman lähettäjä on aina tuntematon. Kuinka protokolla voi suorittaa hyvitystapahtuman, jos se ei edes tiedä, mistä tapahtuma tuli?
+Αλλά υπάρχει ένα μικρό πρόβλημα. Τι γίνεται αν η Αλίκη στείλει στο lockbox της και ο Βασίλης αποφασίσει ότι δεν θέλει να κάνει πια εμπόριο. Τώρα, αφού η Αλίκη δεν μπορεί να έχει πρόσβαση στο BTC της που κλείδωσε και ο Βασίλης δεν θα ολοκληρώσει το μέρος της συναλλαγής, η Αλίκη απλώς χάνει τα χρήματά της για πάντα. Λοιπόν, ευτυχώς, το Bitcoin έχει μια μικρή τεχνολογία που ονομάζεται συναλλαγές επιστροφής χρημάτων, και έτσι μετά από ένα χρονικό διάστημα, εάν το BTC δεν διεκδικηθεί από τον Βασίλη, τα σενάρια έχουν ενσωματωμένη μια ασφάλεια για αποτυχία, όπου το BTC θα επιστρέψει αυτόματα στην Alice. Αυτό ήταν το κύριο speedbump για την εφαρμογή ατομικών ανταλλαγών της Monero. Λόγω της τεχνολογίας απορρήτου [ring signatures](/knowledge/ring-signatures) της Monero, ο αποστολέας μιας συναλλαγής είναι πάντα αβέβαιος. Πώς μπορεί το πρωτόκολλο να κάνει μια συναλλαγή επιστροφής χρημάτων αν ακόμη και δεν γνωρίζει από πού προήλθε η συναλλαγή;
 
-Vuonna 2017 pieni ryhmä tutkijoita hahmotteli erilaisen menetelmän, jolla Atomic Swap toimisi Monerossa. Useiden vuosien tutkimisen jälkeen tutkijat viimeistelivät prosessin, jolla Monero pystyisi tekemään Atomic Swappeja Bitcoinin kanssa jopa ilman palautustapahtumia.
+Το 2017, μια μικρή ομάδα ερευνητών περιέγραψε μια διαφορετική μέθοδο με την οποία θα λειτουργούσαν οι ανταλλαγές ατομικών στο Monero. Μετά από αρκετά χρόνια βελτίωσης, οι ερευνητές οριστικοποίησαν μια διαδικασία με την οποία η Monero θα μπορούσε να κάνει ατομικές ανταλλαγές με Bitcoin, ακόμη και χωρίς συναλλαγές επιστροφής χρημάτων.
 
-Kuten monien tämän tason teknisen monimutkaisten asioiden kohdalla, selityksemme yksinkertaistaa joitain asioita liikaa idean välittämiseksi, mutta se antaa silti vankan käsityksen mekanismeista, joilla tämä prosessi toimisi.
+Όπως συμβαίνει με πολλά πράγματα αυτού του επιπέδου τεχνικής πολυπλοκότητας, η εξήγησή μας θα απλοποιήσει υπερβολικά ορισμένα πράγματα για να μεταφέρει την ιδέα, αλλά θα εξακολουθεί να δίνει μια σταθερή ιδέα για τους μηχανισμούς με τους οποίους θα λειτουργούσε αυτή η διαδικασία.
 
-Sekä Alicen (jolla on XMR ja haluaa BTC:n) että Bobin (jolla on BTC ja haluaa XMR:n) on ladattava ja suoritettava ohjelma, joka tukee Atomic Swappia. Tämä voidaan toteuttaa lompakoissa, hajautetuissa vaihtokeskuksissa tai tietyissä erityisohjelmissa, mutta ohjelmiston on käytettävä Atomic Swapin protokollaa. Ensimmäisessä vaiheessa Alicen ja Bobin asiakkaat muodostavat yhteyden toisiinsa ja tekevät useita yhteisiä salauksia ja avaimia. Tässä vaiheessa luodaan uusi Monero-osoite, jossa Alicella on toinen puoli avaimesta ja Bobilla toinen. Siellä ei kuitenkaan ole vielä Moneroa, joten ei ole mitään kulutettavaa. Viimeinen asia, joka on huomioitava tästä osoitteesta, on se, että molemmilla on tämän lompakon katseluavain, joten he voivat molemmat kurkistaa sisään nähdäkseen, saapuuko Monero tai milloin se saapuu.
+Τόσο η Αλίκη (που έχει XMR και θέλει BTC) όσο και ο Βασίλης(που έχει BTC και θέλει XMR) πρέπει να κατεβάσουν και να εκτελέσουν ένα πρόγραμμα που υποστηρίζει την ανταλλαγή ατομικών. Αυτό μπορεί να εφαρμοστεί σε πορτοφόλια, αποκεντρωμένα χρηματιστήρια ή ειδικά προγράμματα, αλλά το λογισμικό πρέπει να εκτελεί το πρωτόκολλο ανταλλαγής ατομικών. Στο πρώτο βήμα, οι πελάτες της Αλίκης και του Βασίλη συνδέονται μεταξύ τους και δημιουργούν πολλά κοινά μυστικά και κλειδιά. Σε αυτό το βήμα, δημιουργείται μια νέα διεύθυνση Monero, με την Αλίκη να έχει το ένα μισό κλειδί και τον Βασίλη να έχει το άλλο. Ωστόσο, δεν υπάρχει Monero ακόμα εκεί, επομένως δεν υπάρχει τίποτα να ξοδέψετε. Ένα τελευταίο πράγμα που πρέπει να σημειώσετε σχετικά με αυτήν τη διεύθυνση, είναι ότι και οι δύο έχουν το κλειδί προβολής σε αυτό το πορτοφόλι, ώστε να μπορούν και οι δύο να κρυφοκοιτάξουν μέσα για να δουν αν ή πότε φτάνει το Monero.
 
-Toisessa vaiheessa Bob lähettää BTC:nsä erityiseen osoitteeseen, joka on samanlainen kuin Bitcoinin Atomic Swap protokolla, josta olemme jo keskustelleet. Kun Alice näkee BTC:n saapuvan tähän osoitteeseen lohkoketjussa, hän lähettää Moneronsa Monero-osoitteeseen, johon hänellä ja Bobilla on molemmilla puolikas avain. Bob voi varmistaa, että Monero saapui koska hänellä on myös katseluavain, ja kun hän näkee Moneron olevan turvallisesti lompakossa, hän lähettää Alicelle avaimenpalan, jonka avulla tämä voi nostaa Bitcoinin. Kuten toisessa protokollassa, Bitcoinin lunastusprosessi paljastaa hänen puolet Monero-avaimesta Bobille. Nyt Bobilla on molemmat puolikkaat, joten hän voi lunastaa Moneron, kun taas Alicella on vain hänen puolikas, joten hän ei voi yrittää ottaa sitä ennen Bobia.
+Στο δεύτερο βήμα, ο Βασίλης στέλνει το BTC του σε μια ειδική διεύθυνση, παρόμοια με το πρωτόκολλο ατομικής ανταλλαγής Bitcoin που έχουμε ήδη συζητήσει. Αφού η Αλίκη δει το BTC να φθάνει σε αυτήν τη διεύθυνση στο blockchain, στέλνει το Monero της στη διεύθυνση Monero στην οποία αυτή και ο Βασίλης έχουν και οι δύο το μισό κλειδί. Ο Βασίλης μπορεί να επαληθεύσει ότι το Monero έφτασε αφού έχει επίσης το κλειδί προβολής και μόλις δει ότι το Monero βρίσκεται με ασφάλεια στο πορτοφόλι, στέλνει στην Αλίκη ένα κομμάτι κλειδιού που θα της επιτρέψει να αποσύρει το Bitcoin. Παρόμοια με το άλλο πρωτόκολλο, η διαδικασία διεκδίκησης του Bitcoin αποκαλύπτει το μισό κλειδί Monero στον Βασίλη. Τώρα ο Βασίλης έχει και τα δύο μισά, έτσι μπορεί να διεκδικήσει το Monero, ενώ η Αλίκη έχει μόνο το μισό της, οπότε δεν μπορεί να προσπαθήσει να το πάρει πριν το κάνει.
 
-Jos tarkastelet tätä kaikkea ja olet edelleen hieman hämmentynyt siitä, kuinka Monero pystyi kiertämään hyvitystapahtumien ongelman, vastaus on melko yksinkertainen. Koska Monerolla itsessään ei ole hyvitystapahtumia, lukijan tulisi huomata, että Bitcoin (jolla on hyvitystapahtumia) lähetetään ensin, ja vasta sen jälkeen, kun sen on varmistettu olevan lohkoketjussa, lähetetään Monero. Tämän ansiosta Monero voi hyödyntää Bitcoinin kykyä palautustapahtumissa ja hyödyntää niitä ilman, että sillä itsellään tarvitsee olla näitä ominaisuuksia.
+Επομένως, αν κοιτάξετε όλα αυτά και εξακολουθείτε να είστε λίγο μπερδεμένοι σχετικά με το πώς ο Monero κατάφερε να ξεπεράσει το πρόβλημα των συναλλαγών επιστροφής χρημάτων, η απάντηση είναι αρκετά απλή. Δεδομένου ότι το ίδιο το Monero δεν έχει συναλλαγές επιστροφής χρημάτων, ο αναγνώστης θα πρέπει να παρατηρήσει ότι το Bitcoin (το οποίο έχει συναλλαγές επιστροφής χρημάτων) αποστέλλεται πρώτα και μόνο αφού επαληθευτεί ότι βρίσκεται στο blockchain αποστέλλεται το Monero. Αυτό επιτρέπει στο Monero να χρησιμοποιεί την ικανότητα του Bitcoin να κάνει σενάρια σε συναλλαγές επιστροφής χρημάτων και να τις εκμεταλλεύεται, χωρίς να χρειάζεται να έχει το ίδιο αυτές τις δυνατότητες.
 
-Atomic Swap on nyt valmis, mutta tästä lähtien Bobilla on pari vaihtoehtoa äskettäin hankkimaansa XMR:ään. Hän voi käyttää tätä Monero-lompakkoa sellaisenaan tai siirtää XMR:n toiseen lompakkoon, jonka hän jo omistaa. Bob todennäköisesti siirtää Moneron toiseen lompakkoon, koska Alicella on edelleen katseluavain ja hän näkee nykyiseen Monero-lompakkoon.
+Η ατομική ανταλλαγή έχει ολοκληρωθεί, αλλά από εδώ και πέρα, ο Βασίλης έχει δύο επιλογές για το νέο του XMR που διεκδίκησε. Μπορεί να χρησιμοποιήσει αυτό το πορτοφόλι Monero ως έχει ή να μεταφέρει το XMR σε ένα άλλο πορτοφόλι που ήδη έχει στη διάθεσή του. Ο Βασίλης πιθανότατα θα μετακινήσει το Monero σε άλλο πορτοφόλι, επειδή η Αλίκη εξακολουθεί να έχει το κλειδί προβολής και μπορεί να δει μέσα.
 
-Tämän protokollan kauneus on, että se on vielä melko uusi, ja siinä on runsaasti tilaa optimoinnille. Se on myös melko joustava arkkitehtuuriltaan, joten toteutus muissa lompakoissa tai hajautetuissa keskuksissa tulisi olla yksinkertaista ja sopia selkeästi niiden olemassa olevaan arkkitehtuuriin.
+Η ομορφιά αυτού του πρωτοκόλλου είναι ότι είναι ακόμα αρκετά νέο και υπάρχει μεγάλο περιθώριο για βελτιστοποιήσεις. Είναι επίσης αρκετά ευέλικτο ως προς την αρχιτεκτονική του, οπότε η εφαρμογή του σε άλλα πορτοφόλια ή αποκεντρωμένα ανταλλακτήρια θα πρέπει να είναι απλή, και να ταιριάζει σαφώς με την ήδη υπάρχουσα αρχιτεκτονική τους.
 
-Lue lisää
+Περαιτέρω ανάγνωση
 
-  * [Kuinka Monero ainutlaatuisesti mahdollistaa kiertotaloudet](/knowledge/monero-circular-economies/)
+  * [Πώς το Monero με μοναδικό τρόπο επιτρέπει τις κυκλικές οικονομίες](/knowledge/monero-circular-economies)/
 
-  * [Moneron sormusallekirjoitukset vs CoinJoin kuten Wasabissa](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Οι υπογραφές δακτυλίου του Monero εναντίον του CoinJoin όπως στο Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Miksi (ja miten!) sinun pitäisi hallita omia avaimiasi](/knowledge/hold-your-keys/)
+  * [Γιατί (και πώς!) πρέπει να κρατάτε τα δικά σας κλειδιά](/knowledge/hold-your-keys)/
 
-  * [Osallistuminen Moneroon](/knowledge/contributing-to-monero/)
+  * [Συνεισφέροντας στο Monero](/knowledge/contributing-to-monero)/
 
-  * [Kuinka etäsolmut vaikuttavat Moneron yksityisyyteen](/knowledge/remote-nodes-privacy/)
+  * [Πώς οι απομακρυσμένοι κόμβοι επηρεάζουν το απόρρητο του Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Kuinka Monero käyttää hard forkkeja verkon päivittämiseen](/knowledge/network-upgrades/)
+  * [Πώς το Monero χρησιμοποιεί hard-forks για την αναβάθμιση του δικτύου](/knowledge/network-upgrades)/
 
-  * [Katselutunnisteet: Kuinka yksi tavu vähentää Moneron lompakon synkronointiaikoja yli 40%](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Προβολή ετικετών: Πώς ένα byte θα μειώσει τους χρόνους συγχρονισμού του πορτοφολιού Monero κατά 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ja sen rooli Monero-louhinnan hajauttamisessa](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [Το P2Pool και ο Ρόλος του στην Αποκέντρωση της εξόρυξης Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Mitä se tekee Monerolle](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Τι θα κάνει για τον Monero](/knowledge/seraphis-for-monero)/
 
-  * [Onko Bitcoinin muuntaminen Moneroksi yhtä yksityistä kuin Moneron ostaminen suoraan?](/knowledge/most-private-way-to-buy-monero/)
+  * [Είναι η Μετατροπή Bitcoin σε Monero Εξίσου Ιδιωτική με την Απευθείας Αγορά Monero;](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Miksi Monero käyttää "Trustless" -asetusta toisin kuin Zcash](/knowledge/monero-trustless-setup/)
+  * [Γιατί το Monero Χρησιμοποιεί μια Αξιόπιστη Εγκατάσταση σε Αντίθεση με το Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Miksi Monero on parempi arvon säilyttäjä kuin Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Γιατί το Monero είναι η καλύτερη παρακαταθήκη αξίας από το Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kuinka Monero voi voittaa Bitcoinin verkkovaikutukset](/knowledge/network-effect/)
+  * [Πώς το Monero μπορεί να Ξεπεράσει τις Επιδράσεις Δικτύου του Bitcoin](/knowledge/network-effect)/
 
-  * [Miksi Monerolla on kriittisin ajatteluyhteisö](/knowledge/critical-thinking/)
+  * [Γιατί το Monero έχει την Kαλύτερη Kοινότητα Kριτικής Σκέψης](/knowledge/critical-thinking)/
 
-  * [Huijaukset, joita kannattaa huomioida Moneroa käytettäessä](/knowledge/monero-scams/)
+  * [Απάτες που πρέπει να προσέχετε όταν χρησιμοποιείτε το Monero](/knowledge/monero-scams)/
 
-  * [Mitä jokaisen Moneron käyttäjän on tiedettävä verkostoitumisesta](/knowledge/monero-networking/)
+  * [Τι Πρέπει να Γνωρίζει Κάθε Χρήστης του Monero όταν Πρόκειται για Δικτύωση](/knowledge/monero-networking)/
 
-  * [Kuinka RingCT piilottaa Monero-transaktiosummat](/knowledge/monero-ringct/)
+  * [Πώς το RingCT Αποκρύπτει τα Ποσά Συναλλαγών Monero](/knowledge/monero-ringct)/
 
-  * [Kuinka Monero Stealth -osoitteet suojaa identiteettiäsi](/knowledge/monero-stealth-addresses/)
+  * [Πώς οι Κρυφές Διευθύνσεις του Monero Προστατεύουν Την Ταυτότητά σας](/knowledge/monero-stealth-addresses)/
 
-  * [Kuinka Monero-aliosoitteet estävät identiteetin yhdistämisen](/knowledge/monero-subaddresses/)
+  * [Πώς οι Υποδιευθύνσεις Monero Αποτρέπουν τη Σύνδεση Ταυτότητας](/knowledge/monero-subaddresses)/
 
-  * [Moneron Outputit selitettynä](/knowledge/monero-outputs/)
+  * [Διευκρινήσεις εξόδων Monero](/knowledge/monero-outputs)/
 
-  * [Moneron parhaat käytännöt aloittelijoille](/knowledge/monero-best-practices/)
+  * [Η καλύτερες πρακτικές Monero για αρχάριους](/knowledge/monero-best-practices)/
 
-  * [Kuinka sormusallekirjoitukset sekoittavat Moneron outputit](/knowledge/ring-signatures/)
+  * [Πώς οι ψηφιακές υπογραφές τύπου ring αποκρύπτουν τα αποτελέσματα του Monero](/knowledge/ring-signatures)/
 
-  * [Kuinka Monero ratkaisi Bitcoinia vaivaavan lohkokoko-ongelman](/knowledge/dynamic-block-size/)
+  * [Πώς το Monero Ελυσε το Πρόβλημα Μεγέθους Μπλοκ που Μαστίζει το Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kuinka CLSAG parantaa Moneron tehokkuutta](/knowledge/what-is-clsag/)
+  * [Πώς το CLSAG Θα Βελτιώσει την Αποτελεσματικότητα του Monero](/knowledge/what-is-clsag)/
 
-  * [Miksi Monerolla on "Tail Emission"](/knowledge/monero-tail-emission/)
+  * [Γιατί το Monero Εχει Ελάχιστη Επιδότηση](/knowledge/monero-tail-emission)/
 
-  * [Moneron lyhyt historia](/knowledge/monero-history/)
+  * [Μια σύντομη ιστορία του Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine on väärässä Monerosta, tässä miksi](/knowledge/wired-article-debunked/)
+  * [Το Wired Magazine κάνει Λάθος Σχετικά με το Monero, Να Γιατί](/knowledge/wired-article-debunked)/
 
-  * [15 parasta Monero-myyttiä ja -huolia, jotka on kumottu](/knowledge/monero-myths-debunked/)
+  * [Κορυφαίοι 15 Μύθοι και Ανησυχίες του Monero που Καταρρίφθηκαν](/knowledge/monero-myths-debunked)/
 
-  * [Kuinka Dandelion++ pitää Moneron tapahtuman alkuperän yksityisenä](/knowledge/monero-dandelion/)
+  * [Πώς το Dandelion ++ Κρατά την Προέλευση των Συναλλαγών του Monero Ιδιωτική](/knowledge/monero-dandelion)/
 
-  * [Miksi Monero on avoimen lähdekoodin ja hajautettu](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Γιατί το Monero είναι Ανοιχτού κώδικα και Αποκεντρωμένο](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Moneron louhinta: Mikä tekee RandomX:stä niin erityisen?](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Τι Kάνει το RandomX τόσο Ξεχωριστό](/knowledge/monero-mining-randomx)/
 
-  * [Miksi Monero on parempi kuin Dash, Zcash, Zcoin (jopa Lelantuksen kanssa), Grin ja Bitcoin-mikserit kuten Wasabi (päivitetty toukokuussa 2020)](/knowledge/why-monero-is-better/)
+  * [Γιατί το Monero είναι Καλύτερο από τα Dash, Zcash, Zcoin (Ακόμη και με Lelantus), Grin και Bitcoin Mixers όπως το Wasabi (Ενημερώθηκε Μάιος 2020)](/knowledge/why-monero-is-better)/
+
+Περαιτέρω ανάγνωση

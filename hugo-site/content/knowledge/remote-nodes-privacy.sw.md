@@ -12,6 +12,8 @@ Katika chapisho hili tutazama katika baadhi ya maelezo ya jinsi Monero hutoa far
 
 ## Je, nodi hufanya kazi gani katika Monero?
 
+## Je, nodi hufanya kazi gani katika Monero?
+
 Kwa wale wasiofahamu sana jinsi Monero inavyofanya kazi, nodi (au seva) katika mtandao wa Monero linaweza kuendeshwa na mtu yeyote na kumruhusu mmiliki wa nodi - au wengine anaowachagua kuishiriki nao! - kusawazisha makala ya blockchain na kutoa makala hiyo kwa wengine kwenye mtandao. Nodi hizi pia huthibitisha shughuli zote zinazofanyika kwenye mtandao, pamoja na vizuizi vyote vinavyochapishwa na kuhakikisha kwamba zote zinafuata sheria kama zilivyowekwa kwa makubaliano.
 
 Njia nyingine ambayo nodi hutumika katika Monero ni kama njia ya kutoa deta yote unayoipenda kwa pochi ya Monero ili kuangalia vyema miamala yako na kufanya miamala mapya. Deta hii inatolewa na nodi kwa njia mbili:
@@ -20,6 +22,12 @@ Njia nyingine ambayo nodi hutumika katika Monero ni kama njia ya kutoa deta yote
     * Hatua hii itaboreshwa kwa kiasi kikubwa hivi karibuni, kutokana na [tagi za kutazama](/knowledge/view-tags-reduce-monero-sync-time).
   * Unapotuma miamala, nodi unayoyatumia hutoa orodha ya ulaghai unaowezekana (au pembejeo ghushi) za kutumia unapounda muamala, kuhakikisha kuwa una umati mzuri wa kujificha kila wakati unapotumia Monero. 
     * Udanganyifu huu ni sehemu ya [saini za pete](/knowledge/ring-signatures), sehemu muhimu ya mbinu za Monero na faragha kwenye mnyororo.
+
+  * Hatua hii itaboreshwa kwa kiasi kikubwa hivi karibuni, kutokana na [tagi za kutazama](/knowledge/view-tags-reduce-monero-sync-time).
+
+  * Udanganyifu huu ni sehemu ya [saini za pete](/knowledge/ring-signatures), sehemu muhimu ya mbinu za Monero na faragha kwenye mnyororo.
+
+## Ni ipi njia ya faragha na salama zaidi ya kutumia Monero?
 
 ## Ni ipi njia ya faragha na salama zaidi ya kutumia Monero?
 
@@ -31,6 +39,8 @@ Hilo likishasemwa, Monero bado haitoi faragha bora wakati wa kutumia nodi la mba
 
 ## Nodi ya mbali inaweza kujifunza nini kunihusu?
 
+## Nodi ya mbali inaweza kujifunza nini kunihusu?
+
 Unapotumia nodi la mbali, kuna taarifa muhimu chache zinazofichuliwa kwa nodi la mbali na njia kadhaa kuu ambazo nodi inaweza kukushambulia, kukuzuia kufanya shughuli, na zaidi.
 
 Jambo la kwanza ambalo nodi la mbali inaweza kujifunza kukuhusu ni anwani lako la IP la umma. Ingawa hii itafichwa kupitia VPN au Tor, nodi la mbali inaweza kuhusisha anwani lako la IP la umma na muamala, na kuwasaidia kupunguza mahali unapofanya miamala kutoka. Nodi ya mbali inaweza pia kujifunza kizuizi cha mwisho ambacho pochi wako ulilandanishwa na utumie hii kujaribu na kubahatisha kwa elimu kukuhusu, kama vile wakati unatumia Monero kwa kawaida na ulipotumia Monero mara ya mwisho. Hii ni kweli hasa ikiwa unatoka kwa anwani sawa ya IP kila wakati (kama vile nyumba yako). Jambo kuu la mwisho ambalo nodi za mbali zinaweza kujifunza kukuhusu ni maelezo ya msingi kuhusu miamala unayotuma kupitia hiyo. Ingawa hii inaweza kuwa deta dhahiri zaidi ambazo opereta wa nodi za mbali anapata kukuhusu, ni muhimu kuelewa kwamba hii inaweza kutumika kusaidia kufuatilia mtumaji wa muamala wakati wa kuchanganya maelezo hayo na deta nyingine za nje za mitandao. Hii inaweza kuwa hatari hasa ikiwa nodi za mbali zinaendeshwa na huluki hasidi, kampuni ya uchanganuzi ya blockchain, au taifa gandamizi.
@@ -39,9 +49,13 @@ Njia ya mbali pia inaweza kujaribu kukusababishia matatizo kwa kuficha vizuizi k
 
 ## Ni dhamana gani za faragha bado zipo wakati wa kutumia nodi ya mbali?
 
+## Ni dhamana gani za faragha bado zipo wakati wa kutumia nodi ya mbali?
+
 Ingawa makala haya yamekuogopesha kidogo, ni muhimu kutambua kwamba faragha iliyotolewa na Monero ni bora hata wakati wa kutumia nodi la mbali, na inazidi kupita kwa mbali sarafu-fiche zote inapotumiwa kwa njia hii. Bado unapata ufaragha thabiti wa mtandaoni uliotolewa na Monero, kwa kuwa nodi la mbali haijui ingizo la kweli (sarafu gani unatumia), kiasi cha Monero kilichotumiwa katika shughuli ya ununuzi, au anwani la mpokeaji wa muamala. Waangalizi wa nje pia hawawezi kuona ingizo la kweli, kiasi, au anwani zinazohusika (haijalishi ni aina gani ya nodi unayochagua kutumia!), kuhakikisha kuwa nje ya nodi ya mbali hata anwani lako la IP, maelezo ya usawazishaji wa pochi, na miamala ina hakikisho dhabiti la faragha. .
 
 Njia ya mbali pia haliwezi kamwe kufikia miamala ya awali uliyotuma au kupokea au kiasi cha Monero kilicho kwenye pochi wako, na inapoteza mwonekano wote katika miamala yako pindi unapoanza kutumia nodi nyingine. Hakuna vitufe vya faragha (vifunguo vya kutumia au vya kutazama) vinavyowahi kutolewa kwa nodi la mbali, na kwa hivyo pochi lako linabaki kuwa ya faragha, salama na inayoweza kutumika. Haijalishi nodi la mbali, pia huna hatari ya kupoteza Monero au kuibiwa, kwa kuwa nodi haiwezi kuhariri anwani la mpokeaji, haina ufikiaji wa funguo za faragha za pochi zako, na haiwezi kutaifisha Monero yako kwa njia lolote lile.
+
+## Vipi kuhusu "pochi nyepesi" kama MyMonero?
 
 ## Vipi kuhusu "pochi nyepesi" kama MyMonero?
 
@@ -57,6 +71,8 @@ Kwa mengi zaidi kuhusu seva za pochi za mwanga maalum, tazama hazina ya Github i
 
 ## Ninawezaje kujifunza zaidi?
 
+## Ninawezaje kujifunza zaidi?
+
 Ikiwa una hamu ya kujua na ungependa kuelewa vyema nodi katika Monero na uangalie jinsi ya kutumia nodi la mbali au kuendesha lako mwenyewe, angalia viungo vilivyo hapa chini ili kupata maeneo mazuri ya kuanza:
 
   * [Monero World, orodha za nodi za mbali zinazoendeshwa na jumuiya ambazo zinaweza kutumika](https://moneroworld.com/#nodes)
@@ -67,66 +83,68 @@ Ikiwa una hamu ya kujua na ungependa kuelewa vyema nodi katika Monero na uangali
 
 Kusoma zaidi
 
-  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies/)
+  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies)/
 
-  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys/)
+  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys)/
 
-  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero/)
+  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero)/
 
-  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades/)
+  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades)/
 
-  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero)/
 
-  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero/)
+  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup/)
+  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect/)
+  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect)/
 
-  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking/)
+  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking)/
 
-  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams/)
+  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams)/
 
-  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps/)
+  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking/)
+  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking)/
 
-  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct/)
+  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct)/
 
-  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses/)
+  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses)/
 
-  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses/)
+  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses)/
 
-  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs/)
+  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs)/
 
-  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices/)
+  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices)/
 
-  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures/)
+  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures)/
 
-  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size/)
+  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag/)
+  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag)/
 
-  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission/)
+  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission)/
 
-  * [Historia fupi ya Monero](/knowledge/monero-history/)
+  * [Historia fupi ya Monero](/knowledge/monero-history)/
 
-  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked/)
+  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked)/
 
-  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked/)
+  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked)/
 
-  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion/)
+  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion)/
 
-  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx/)
+  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx)/
 
-  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better/)
+  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better)/
+
+Kusoma zaidi

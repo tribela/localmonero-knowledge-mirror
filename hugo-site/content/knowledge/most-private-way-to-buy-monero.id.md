@@ -1,105 +1,107 @@
 ---
-title: "Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?"
+title: "A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?"
 slug: "most-private-way-to-buy-monero"
 date: "2021-03-10"
 image: "/images/btc.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Monero adalah mata uang kripto yang menghargai privasi di atas segalanya, tetapi yang tidak dipahami kebanyakan orang adalah bahwa privasi yang diberikan dengan cara menggunakannya tidaklah antipeluru atau mutlak dalam situasi tertentu. Jangan salah, Monero bersifat seprivat mungkin seperti yang ada di dunia tanpa kepercayaan, tetapi ada beberapa pertimbangan yang harus diambil pengguna untuk memastikan privasi mereka tetap kuat.
+A Monero egy olyan kriptovaluta, amely a magánélet védelmét tartja a legfontosabbnak, de amit sokan nem értenek, hogy a használatával garantált adatvédelem nem abszolút és nem minden helyzetben golyóálló. Tévedés ne essék, a Monero nagyjából annyira magánjellegű, amennyire a bizalommentes megoldások között lehetséges, de van néhány fontos szempont, amelyet a felhasználóknak figyelembe kell venniük pénzügyi adataik védelmében.
 
-Hal yang sama juga berlaku di bidang kehidupan lainnya, yakinlah. Sebagai contoh, Anda dapat menghindari semua media sosial dalam upaya untuk menjaga kehidupan pribadi Anda, tetapi jika Anda terus-menerus bersama teman yang berfoto selfie dengan Anda di dalamnya, katakanlah sedang mereka bersama dengan Anda di subtitle, dan menandai lokasi Anda, usaha yang Anda lakukan mungkin akan sia-sia. Konglomerat media sosial masih dapat membuat profil tentang Anda meskipun faktanya Anda secara pribadi tidak berada di platform mereka.
+Ugyanez igaz az élet más területeire is. Példaul, hiába marad távol mindenféle közösségi médiától, ha állandóan olyan barátokkal van, akik közös képeket készítenek, töltenek fel, és osztanak meg, ugyanúgy oda a magánélete, minden megtett erőfeszítés ellenére. A közösségimédia-konszern ugyanúgy profilokat épít, azokról is, akik nincsenek jelen a platformjukon.
 
-Salah satu situasi yang sering dibicarakan di mana orang tidak mempertimbangkan semua implikasi dan metadata yang berpotensi bocor adalah masalah perdagangan Bitcoin dengan Monero. Sudah menjadi anggapan umum dalam komunitas bahwa membeli Monero dengan Bitcoin akan menjadi pembersihan penuh, dan bahwa pengguna mempertahankan semua manfaat privasi begitu mereka masuk ke dalam Monero, meskipun berasal dari chain yang transparan.
+Az egyik gyakran emlegetett eset, amikor az emberek nem mindig veszik figyelembe az összes következményt és a potenciálisan kiszivárgó metaadatokat, az a Bitcoin-Monero cserék kérdése. A közösségben általánosan elterjedt az a nézet, hogy a Bitcoin Monerora történő váltása teljes megtisztulást jelent, a felhasználó megkapja a Monero összes adatbiztonsági előnyét, annak ellenére, hogy egy nyílt láncról érkezik.
 
-Dengan nada yang sama, beberapa orang menganggap mendapatkan Monero dari sumber non-KYC dan KYC sama privasinya. Pemikirannya ini mirip saat mengambil uang tunai di bank. Dalam skenario itu, bank itu sendiri mengetahui wajah dan nama Anda, dan mengetahui berapa banyak yang Anda miliki di akun Anda secara keseluruhan, dan berapa banyak Anda menarik uang tunai, tetapi tidak tahu apa yang Anda lakukan dengan uang itu setelahnya. Dengan jaminan privasi Monero, seharusnya seperti itu juga ketika mendapatkan Monero dari sumber KYC/AML, bukan?
+Hasonló módon, egyesek szerint a Monero nem-KYC és KYC forrásból való beszerzése ugyanannyira privát. Eszerint a logika szerint ez hasonló ahhoz, amikor egy bankban készpénzt veszünk fel. Ebben a forgatókönyvben a bank ismeri az arcát és nevét, és tudja, hogy összességében mennyi van a számláján, és mennyi készpénzt vett fel, de nem tudhatja, hogy utána mit csinál a készpénzzel. A Monero adatvédelmi garanciáival ennek ugyanígy kell lennie, akkor is, ha a Monerot KYC/AML forrásból szerezzük be, igaz?
 
-Well, Tidak juga. 
+Nos, nem egészen.
 
-Pertama, mari mundur selangkah dan mendefinisikan apa yang kita maksud dengan KYC/AML. Akronim ini adalah singkatan dari hukum Know Your Customer (KYC) / Anti-Money Laundering (AML), yang mewajibkan bursa dan bisnis untuk mengumpulkan informasi identitas pelanggan mereka. Semakin besar jumlah uang yang dipertukarkan, semakin banyak informasi yang dibutuhkan. Sesuai dengan namanya, ini semua dilakukan atas nama meminimalkan risiko pencucian uang.
+Először is lépjünk egyet hátra, és definiáljuk, mit értünk KYC/AML alatt. Ez a mozaikszó a Know Your Customer [Ismerd a vásárlódat] / Anti-Money Laundering [Pénzmosás ellen] rövidítése, amely törvények előírják a tőzsdéknek és más szereplőknek, hogy azonosító adatokat gyűjtsenek ügyfeleikről. Minél nagyobb a mozgatott pénzösszeg, annál több információt kérnek el. Ahogy a név is sugallja, mindezt a pénzmosás borzasztó kockázatának minimalizálása érdekében teszik.
 
-Kembali ke Monero. Yang pasti, memindahkan uang Anda ke Monero dari sumber KYC sangat jauh lebih baik untuk privasi daripada menggunakan sumber KYC untuk membeli sesuatu seperti BTC atau koin transparansi lainnya, tetapi masih ada pertimbangan yang harus dibuat tentang apa yang diungkapkan, dan apa itu informasi yang diungkapkan dapat berarti bagi privasi dan keamanan Anda.
+Térjünk vissza a Monerohoz. Az biztos, hogy KYC forrásból Monerora váltani a pénzt nagyságrendekkel jobb adatvédelem, mint nyílt lancú valutát, például BTC-t vásárolni KYC forrásból, de továbbra is szükséges megfontolni, hogy mi derül ki, és mit jelentenek a feltárt információk az Ön magánéletének és biztonságának szempontjából .
 
-Bahkan dengan tetap menggunakan skenario uang tunai dan bank, jika Anda menarik sejumlah besar dari bank, karena bank mengetahui detail Anda (termasuk alamat rumah Anda), teller dapat melihat berapa banyak yang ada di rekening Anda, dan berpotensi membuat rencana kejahatan tergantung pada kekayaan Anda. Ini jarang terjadi, dan karena uangnya ada di bank daripada di rumah Anda, apa yang dapat mereka capai dalam skenario ini relatif kecil. Hal yang sama tidak berlaku untuk Monero, yang tidak dijamin oleh pihak ketiga, melainkan oleh Anda sendiri. Menjadi bank Anda sendiri tidak selalu mudah.
+Még a banki készpénzes forgatókönyv mellett is, ha nagyobb összeget vesz fel a bankból, mivel a bank ismeri az adatait (beleértve a lakcímét is), a pénztáros láthatja, hogy mennyi van a számláján, és esetleg alávaló terveket szőhet a vagyonának méretétől függően. Ez persze ritka, mivel a pénz úgyis a bankban van, nem pedig az Ön otthonában, viszonylag csekély a lehetséges zsákmány, amit el tudnak érni. Ugyanez nincs így a Monero esetén, amelyre nem harmadik fél vigyáz, hanem Ön. Nem mindig könnyű saját bankunknak lenni.
 
-Demikian pula, berpindah dari BTC ke XMR, terlepas bagaimana cara melakukannya, akan meninggalkan jejak di blockchain Bitcoin. Meskipun hal ini memang tidak terlalu merusak dibandingkan menggunakan BTC ke BTC karena, di sisi lain dari exchange adalah privasi wajib Monero, implikasi dari meninggalkan jejak harus dipertimbangkan. Jejak ini menambah efek yang lebih besar jika ada KYC yang terlibat di mana saja dalam proses tersebut. 
+Hasonlóképpen, a BTC-ről XMR-re való áttérés, függetlenül attól, hogy hogyan történik, nyomot hagy a Bitcoin blokkláncon. Noha ez valóban kevésbé káros, mint a BTC-ről BTC-re mozogni, mivel a csere másik oldalán a Monero alapértelmezett adatbiztonsága van, figyelembe kell venni a nyomok hagyásának következményeit. Ezek a nyomok sokkal nagyobb hatást fejtenek ki, ha a folyamatban bárhol megjelent a KYC.
 
-Bayangkan sebuah skenario di mana Bitcoin yang kotor diterima untuk barang atau jasa, sesuatu yang hanya mungkin terjadi karena transparansi radikal Bitcoin. Anda tidak tahu bahwa Bitcoin ini kotor, karena Anda tidak memiliki teknologi untuk memeriksa setiap Bitcoin, jadi Anda, sebagai orang yang paham kripto, tidak nyaman dengan fakta ini, dan Anda tidak punya uang untuk membayar perusahaan analisis blockchain memeriksanya untuk Anda. Jadi, Anda memutuskan untuk menukarnya ke Monero agar aman.
+Képzeljünk el egy olyan forgatókönyvet, amelyben "piszkos" Bitcoinokat kaptak áruért vagy szolgáltatásért, ami eleve csak a Bitcoin teljes átláthatósága miatt lehetséges. Nem tudja, hogy ezek a Bitcoinok "piszkosak", mivel nincs meg a technológiája az egyes Bitcoinok ellenőrzéséhez, így Ön, kriptohoz értő ember, nem érzi magát biztonságban, és nincs pénze egy láncelemző céget megfizetni, hogy ellenőrizze ezt Önnek. Tehát úgy dönt, hogy a biztonság kedvéért Monerora váltja a pénzt.
 
-Anda menyetor Bitcoin Anda ke dalam exchange, dan menukarnya dengan Monero, yang kemudian Anda tarik ke dompet lokal Anda. Skenario ini sudah agak sulit, karena exchange mungkin menandai Bitcoin kotor Anda dan mengunci akun Anda, dan Anda mungkin bisa mendapatkannya kembali atau tidak, tetapi demi contoh ini kita akan menganggap mereka membiarkan pertukaran terjadi.
+Beteszi a Bitcoinját egy tőzsdére, majd Monerora váltja, amit aztán kivesz a saját pénztárcájába. Ez a forgatókönyv már most is kicsit valószínűtlen, mert a csere során megjelölhetnék a "piszkos" bitcoinjait, és lezárhatnák a számláját, aztán vagy visszakapja a pénzét, vagy nem, de a példa kedvéért tegyük fel, hogy engedték a cserét megtörténni.
 
-Pada titik ini, jika pemerintah tertarik untuk mengikuti jejak Bitcoin ini, mereka akan mengikutinya ke dalam exchange, meminta informasi KYC tentang depositor, melihat bahwa bitcoin tersebut ditukar ke Monero (mencurigakan), dan datang mengetuk di pintu Anda.
+Ezen a ponton, ha a kormány érdeklődni kezdene ezeknek a Bitcoinoknak a hollétéről, követni fogja őket a tőzsdéig, bekéri a KYC-információkat a betétesről, majd láthatják, hogy Monerot vett érte (önmagában gyanús), és máris megjelenik a Nemzetbiztonság az ajtaján kopogtatni.
 
-Harap dipahami, hal ini tidak berarti bahwa Anda harus menghindari menukar Bitcoin ke Monero agar tidak terlihat mencurigakan. Anda sudah mencurigakan karena Anda menerima Bitcoin kotor, dan jika Anda tidak menukarnya, mereka masih akan menggunakan analisis blockchain, dan masih akan datang kepada Anda. Sebaliknya, contoh ini hanya menyoroti bahwa ada risiko yang signifikan dalam menggunakan koin transparansi sama sekali, dan menukar ke koin pribadi yang dapat dipertukarkan seperti Monero tidak menghapus jejak yang tertinggal di blockchain transparan.
+Persze ez nem azt jelenti, hogy kerülnie kell a Bitcoin Monerora cserélését, nehogy gyanúsnak tűnjön. Már akkor gyanúba keveredett, amikor elfogadta a "piszkos" Bitcoint, és ha nem cserélné le, akkor is megtalálnák blokklánc-elemzéssel, és ugyanúgy kopogtatnának. Ez a példa inkább arra világít rá, hogy az nyílt láncú kriptok használata jelentős kockázattal jár, és a privát, helyettesíthető Monero használata nem törli el visszamenőleg az átlátszó láncon maradt lábnyomokat.
 
-Untuk individu yang tertarik dengan privasinya sendiri, penggunaan blockchain transparan harus dijaga seminimal mungkin, dan dengan sangat hati-hati. KYC harus dihindari sebisa mungkin, karena metadata ini masih dapat digunakan untuk membuat kasus dan mengajukan pertanyaan, dan tuhan melarang info KYC ini (bersama informasi perdagangan) bocor dari pertukaran karena ketidak kompetenan. Bahkan jika Anda hanya membeli dan menarik Monero dari exchange, informasi yang bocor ini masih akan mengungkapkan berapa banyak Monero yang Anda miliki dan di mana Anda berada. Semua informasi yang kita semua sepakati tak seorang pun ingin begitu saja beredar di dunia maya.
+A magánéletét fontosnak tartó egyén számára a nyílt blokkláncok használatát legjobb minimálisra csökkenteni, és rendkívül óvatosan kell eljárni a kivételes esetekben. A KYC-t lehetőség szerint kerülni kell, mivel a metaadatok továbbra is felhasználhatók bírósági ügyek felépítésére és kérdések feltevésére, és ne adj isten, ezek a KYC adatok (vagy akár kereskedési információk) alkalmatlanság miatt ki is szivároghatnak a tőzsdékről. Akkor is, ha csak Monerot vett és venne ki a tőzsdéről, ez a kiszivárgott információ felfedi, mennyi Moneroja volt, és hol tartózkodik. Mind olyan információ, amit senki nem szeretne, hogy a kibertér nyilvánosságában lebegjen, ebben talán mind egyértünk.
 
-Singkatnya, ketika menggunakan Monero memang meniadakan banyak, banyak serangan dan meminimalkan kebocoran metadata secara default, pengguna itu sendiri dapat melakukan banyak hal untuk menghancurkan sepenuhnya privasi mereka sendiri. Salah satu yang paling tidak dipertimbangkan adalah implikasi menggunakan baik blockchain transparan sebagai jalur menuju Monero, atau sumber KYC untuk mendapatkannya, apalagi menggunakan keduanya bersamaan.
+Összefoglalva, bár a Monero használata valóban sok-sok támadást kiküszöböl, és alapértelmezés szerint minimálisra csökkenti a metaadatok szivárgását, a felhasználó így is sokat hibát véthet, ami megsemmisíti a saját adatbiztonságát. Az egyik legritkábban figyelembe vett veszély, ha egy nyílt láncot használunk a Monero felé vezető belépésre, vagy KYC forrásből szerezzük be, arról nem is beszélve, amikor a kettő egyszerre történik.
 
-Artikel ini tidak dimaksudkan untuk menyebarkan rasa takut, melainkan untuk mendorong pengguna untuk berpikir kritis tentang keputusan mereka dan mengingatkan mereka bahwa privasi terbaik pun dapat rapuh di bawah keadaan tertentu. Pengguna harus waspada untuk melindungi privasi mereka sendiri dengan membuat keputusan cerdas tentang apa yang akan dibeli, di mana, dan dari siapa.
+Ennek a cikknek nem célja a félelemkeltés, inkább ösztönözni szeretné a felhasználókat, hogy alaposan gondolják át döntéseiket, és tartsák észben, hogy bizonyos körülmények között még a legjobb adatvédelem is törékeny lehet. A felhasználóknak ébernek kell lenniük, hogy megvédjék saját adataikat, okos döntéseket hozva, hogy mit, hol és kitől vásárolnak.
 
-Bacaan lebih lanjut
+További olvasnivaló
 
-  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies/)
+  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies)/
 
-  * [Ring signature Monero vs CoinJoin seperti di Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Mengapa (dan bagaimana!) Anda harus memegang kunci Anda sendiri](/knowledge/hold-your-keys/)
+  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys)/
 
-  * [Berkontribusi kembali ke Monero](/knowledge/contributing-to-monero/)
+  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero)/
 
-  * [Bagaimana node jarak jauh memengaruhi privasi Monero](/knowledge/remote-nodes-privacy/)
+  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy)/
 
-  * [Bagaimana Monero menggunakan hard-fork untuk memutakhirkan jaringan](/knowledge/network-upgrades/)
+  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades)/
 
-  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Apa yang Akan Dilakukannya untuk Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero)/
 
-  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup/)
+  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup)/
 
-  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value)/
 
-  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect/)
+  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect)/
 
-  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking/)
+  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking)/
 
-  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams/)
+  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams)/
 
-  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps/)
+  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps)/
 
-  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking/)
+  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking)/
 
-  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct/)
+  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct)/
 
-  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses/)
+  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses)/
 
-  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses/)
+  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses)/
 
-  * [Output Monero Dijelaskan](/knowledge/monero-outputs/)
+  * [Monero kimenetek magyarázata](/knowledge/monero-outputs)/
 
-  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices/)
+  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices)/
 
-  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures/)
+  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures)/
 
-  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size/)
+  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size)/
 
-  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag/)
+  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag)/
 
-  * [Mengapa Monero Memiliki Tail Emission](/knowledge/monero-tail-emission/)
+  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission)/
 
-  * [Sejarah Singkat Monero](/knowledge/monero-history/)
+  * [A Monero rövid története](/knowledge/monero-history)/
 
-  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked/)
+  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Mitos dan Kekhawatiran Monero Terbantahkan](/knowledge/monero-myths-debunked/)
+  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked)/
 
-  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion/)
+  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion)/
 
-  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx/)
+  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx)/
 
-  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better/)
+  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better)/
+
+További olvasnivaló

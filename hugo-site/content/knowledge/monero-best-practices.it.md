@@ -10,7 +10,11 @@ Molti utenti potrebbero rimanere scioccati nell'apprendere che gli esperti pensa
 
 ## SCRIVI IL TUO SEME!
 
+## SCRIVI IL TUO SEME!
+
 Il primo e il più grande modo per mantenere la tua criptovaluta sicura e protetta è scrivere il tuo seme mnemonico Monero, che è un breve elenco di parole mostrato quando crei per la prima volta il tuo portafoglio. Se hai questo seme, ma il tuo computer / telefono muore, puoi recuperare il tuo Monero. Se non hai questo seme e perdi il portafoglio, il tuo Monero è perso e nessuno può aiutarti a recuperarlo. Allo stesso modo, non condividere questo seme con nessuno. Se hanno questo elenco di parole, hanno pieno accesso e diritti di spesa sul tuo Monero. Molti sono stati incuranti nell'assicurarsi il seme e sono giunti alla terrificante realtà dei fondi persi perché qualcuno li ha presi. Ti consigliamo di scriverlo. Fisicamente. Non archiviarlo digitalmente e assicurarti di avere diverse copie in vari luoghi. Questa è la cosa numero uno che puoi fare per proteggere il tuo Monero. SCRIVI IL TUO SEME!
+
+## Controlla i tuoi indirizzi
 
 ## Controlla i tuoi indirizzi
 
@@ -18,11 +22,17 @@ Alcune truffe utilizzano malware sul tuo computer che modifica la funzionalità 
 
 ## Scopri la differenza tra portafogli caldi e freddi
 
+## Scopri la differenza tra portafogli caldi e freddi
+
 I portafogli caldi e freddi sono terminologia comune nello spazio delle criptovalute e il concetto è davvero molto semplice. Un portafoglio caldo è quello che tiri fuori e usi spesso. Fa 'caldo' quando sei nella tasca posteriore dei pantaloni. I cold wallet sono quelli che non vengono toccati molto spesso, simili ai soldi in una banca. Proprio come non è consigliabile portare centinaia di dollari nel tuo portafoglio fisico, ma è generalmente accettabile farlo in un conto bancario, gli utenti dovrebbero considerare quanto Monero è prudente portare nei loro portafogli mobili e caldi e quanto è meglio lasciare a casa in un secondo, freddo. In questo modo, la perdita di un telefono, il furto o altri incidenti non causerà la perdita totale di fondi.
 
 ## I portafogli hardware sono adatti a te?
 
+## I portafogli hardware sono adatti a te?
+
 Se l'idea di mantenere il tuo ambiente digitale completamente libero da virus e malware per proteggere il tuo Monero ti spaventa, potresti prendere in considerazione un portafoglio hardware. Fondamentalmente il portafoglio hardware mantiene le tue chiavi private sul dispositivo, lontano dal tuo computer. Quindi, anche se il tuo computer viene compromesso, gli hacker non avranno accesso al tuo seed. Sarai in grado di spendere i fondi solo se il portafoglio hardware è collegato al computer e firma la transazione. Questo sposta la sicurezza delle chiavi dal tuo computer, che viene utilizzato per molte cose e ha un'ampia superficie di attacco, al portafoglio hardware, che viene utilizzato solo per una cosa e ha una superficie di attacco molto più piccola. Per la persona comune che non conosce i dettagli della sicurezza informatica, è un'opzione praticabile per mantenere i tuoi fondi al sicuro.
+
+## In caso di dubbio, usa le impostazioni predefinite (con Monero)
 
 ## In caso di dubbio, usa le impostazioni predefinite (con Monero)
 
@@ -34,66 +44,68 @@ Può sembrare una cosa strana di cui parlare. La maggior parte degli utenti potr
 
 Ulteriori letture
 
-  * [Come Monero abilita in modo unico le economie circolari](/knowledge/monero-circular-economies/)
+  * [Come Monero abilita in modo unico le economie circolari](/knowledge/monero-circular-economies)/
 
-  * [Firme ad anello di Monero vs CoinJoin come in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Firme ad anello di Monero vs CoinJoin come in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Perché (e come!) dovresti tenere le tue chiavi](/knowledge/hold-your-keys/)
+  * [Perché (e come!) dovresti tenere le tue chiavi](/knowledge/hold-your-keys)/
 
-  * [Contribuire a Monero](/knowledge/contributing-to-monero/)
+  * [Contribuire a Monero](/knowledge/contributing-to-monero)/
 
-  * [Come i nodi remoti impattano sulla privacy di Monero](/knowledge/remote-nodes-privacy/)
+  * [Come i nodi remoti impattano sulla privacy di Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Come Monero usa gli hard-forks per aggiornare la rete](/knowledge/network-upgrades/)
+  * [Come Monero usa gli hard-forks per aggiornare la rete](/knowledge/network-upgrades)/
 
-  * [Visualizza i tag: Come un byte ridurrà i tempi di sincronizzazione del portafoglio Monero del 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Visualizza i tag: Come un byte ridurrà i tempi di sincronizzazione del portafoglio Monero del 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool e il suo ruolo nella decentralizzazione del mining di Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool e il suo ruolo nella decentralizzazione del mining di Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Cosa farà per Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Cosa farà per Monero](/knowledge/seraphis-for-monero)/
 
-  * [Convertire Bitcoin in Monero è altrettanto privato che comprare Monero direttamente?](/knowledge/most-private-way-to-buy-monero/)
+  * [Convertire Bitcoin in Monero è altrettanto privato che comprare Monero direttamente?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Perché Monero usa una configurazione senza fiducia a differenza di Zcash](/knowledge/monero-trustless-setup/)
+  * [Perché Monero usa una configurazione senza fiducia a differenza di Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Perché Monero è un migliore deposito di valore rispetto a Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Perché Monero è un migliore deposito di valore rispetto a Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Come Monero può superare gli effetti di rete di Bitcoin](/knowledge/network-effect/)
+  * [Come Monero può superare gli effetti di rete di Bitcoin](/knowledge/network-effect)/
 
-  * [Perché Monero ha la comunità di pensiero più critico](/knowledge/critical-thinking/)
+  * [Perché Monero ha la comunità di pensiero più critico](/knowledge/critical-thinking)/
 
-  * [Truffe a cui prestare attenzione quando si utilizza Monero](/knowledge/monero-scams/)
+  * [Truffe a cui prestare attenzione quando si utilizza Monero](/knowledge/monero-scams)/
 
-  * [Come funzioneranno gli Atomic Swap in Monero](/knowledge/monero-atomic-swaps/)
+  * [Come funzioneranno gli Atomic Swap in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ciò che ogni utente Monero deve sapere quando si tratta di networking](/knowledge/monero-networking/)
+  * [Ciò che ogni utente Monero deve sapere quando si tratta di networking](/knowledge/monero-networking)/
 
-  * [Come RingCT nasconde gli importi delle transazioni Monero](/knowledge/monero-ringct/)
+  * [Come RingCT nasconde gli importi delle transazioni Monero](/knowledge/monero-ringct)/
 
-  * [In che modo gli indirizzi Monero Stealth proteggono la tua identità](/knowledge/monero-stealth-addresses/)
+  * [In che modo gli indirizzi Monero Stealth proteggono la tua identità](/knowledge/monero-stealth-addresses)/
 
-  * [In che modo i sottoindirizzo Monero impediscono il collegamento di identità](/knowledge/monero-subaddresses/)
+  * [In che modo i sottoindirizzo Monero impediscono il collegamento di identità](/knowledge/monero-subaddresses)/
 
-  * [Spiegazione dei risultati di Monero](/knowledge/monero-outputs/)
+  * [Spiegazione dei risultati di Monero](/knowledge/monero-outputs)/
 
-  * [Come le firme ad anello oscurano i risultati di Monero](/knowledge/ring-signatures/)
+  * [Come le firme ad anello oscurano i risultati di Monero](/knowledge/ring-signatures)/
 
-  * [Come Monero ha risolto il problema delle dimensioni del blocco che affligge Bitcoin](/knowledge/dynamic-block-size/)
+  * [Come Monero ha risolto il problema delle dimensioni del blocco che affligge Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [In che modo CLSAG migliorerà l'efficienza di Monero](/knowledge/what-is-clsag/)
+  * [In che modo CLSAG migliorerà l'efficienza di Monero](/knowledge/what-is-clsag)/
 
-  * [Perché Monero ha un'emissione di coda](/knowledge/monero-tail-emission/)
+  * [Perché Monero ha un'emissione di coda](/knowledge/monero-tail-emission)/
 
-  * [La storia di Monero](/knowledge/monero-history/)
+  * [La storia di Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine ha sbagliato su Monero, ecco perché](/knowledge/wired-article-debunked/)
+  * [Wired Magazine ha sbagliato su Monero, ecco perché](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Miti e preoccupazioni Monero debunked](/knowledge/monero-myths-debunked/)
+  * [Top 15 Miti e preoccupazioni Monero debunked](/knowledge/monero-myths-debunked)/
 
-  * [Come Dandelion ++ mantiene private le origini delle transazioni di Monero](/knowledge/monero-dandelion/)
+  * [Come Dandelion ++ mantiene private le origini delle transazioni di Monero](/knowledge/monero-dandelion)/
 
-  * [Perché Monero è open source e decentralizzato](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Perché Monero è open source e decentralizzato](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: cosa rende RandomX così speciale](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: cosa rende RandomX così speciale](/knowledge/monero-mining-randomx)/
 
-  * [Perché Monero è meglio di Dash, Zcash, Zcoin (anche con Lelantus), Grin e Bitcoin Mixer come Wasabi (Aggiornato a maggio 2020)](/knowledge/why-monero-is-better/)
+  * [Perché Monero è meglio di Dash, Zcash, Zcoin (anche con Lelantus), Grin e Bitcoin Mixer come Wasabi (Aggiornato a maggio 2020)](/knowledge/why-monero-is-better)/
+
+Ulteriori letture

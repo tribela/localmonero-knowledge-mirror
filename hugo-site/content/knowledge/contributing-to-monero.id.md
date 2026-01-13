@@ -12,6 +12,8 @@ Sebagian besar orang di komunitas Monero tidak akan menjadi pengembang, jadi kam
 
 ## Sistem Crowdfunding Komunitas Monero
 
+## Sistem Crowdfunding Komunitas Monero
+
 Monero menggunakan sistem unik untuk pekerjaan pendanaan yang disebut [Community Crowdfunding System](https://ccs.getmonero.org/) (atau “CCS”) yang memungkinkan siapa pun di komunitas untuk mempresentasikan sebuah ide pendanaan. Jika disetujui oleh komunitas, proposal ini kemudian dibuka untuk pendanaan oleh komunitas.
 
 Terdapat dua tahap dalam sistem, yang masing-masing mendapatkan manfaat dari keterlibatan lebih banyak orang dari semua latar belakang.
@@ -30,6 +32,8 @@ _Anda dapat melihat semua proposal yang berada dalam tahap “Perlu Pendanaan”
 
 ## Edukasi
 
+## Edukasi
+
 Cara hebat lainnya untuk terlibat dalam proyek Monero adalah dengan membantu mengedukasi dan memberdayakan anggota komunitas yang baru dan yang sudah ada. Hal ini bisa datang dalam berbagai bentuk, tetapi dapat juga sesederhana membagikan apa yang Anda pelajari tentang Monero di media sosial, blog, dll. 
 
 Berikut adalah beberapa cara konkret yang Anda dapat bantu dalam edukasi:
@@ -37,6 +41,8 @@ Berikut adalah beberapa cara konkret yang Anda dapat bantu dalam edukasi:
   * Mulai blog Anda sendiri
   * Tulis utas di postingan Twitter atau Reddit tentang hal-hal yang telah Anda pelajari tentang atau yang anda lakukan dengan Monero 
   * Buat video "how-to" tentang hal-hal sehari-hari yang Anda lakukan dengan Monero, seperti mengirim Monero, menggunakan dompet perangkat keras, membeli dan menjual Monero di [LocalMonero.co](https://localmonero.co), dll.
+
+## Kesadaran dan keterlibatan
 
 ## Kesadaran dan keterlibatan
 
@@ -91,9 +97,13 @@ Membandingkan transaksi antara sesuatu seperti Bitcoin dan Monero dalam penjelaj
 
 ## r/monerosupport
 
+## r/monerosupport
+
 Jika Anda sudah lama berada di sekitar Monero atau memiliki pemahaman yang baik tentang cara menggunakannya dan memecahkan masalah menggunakannya, cara terbaik untuk terlibat adalah dengan masuk ke subreddit [r/monerosupport](https://www.reddit.com/r/monerosupport/) dan memberikan dukungan kepada pengguna yang memposting di sana.
 
 Selalu ada pengguna yang membutuhkan bantuan (biasanya) tentang masalah dasar, dan hanya sedikit dari kami yang aktif di subreddit untuk membantu mereka. Akan sangat menyenangkan melihat lebih banyak orang terjun dan berkontribusi untuk membantu pengguna baru dan yang sudah ada mengatasi masalah mereka!
+
+## Pertemuan komunitas
 
 ## Pertemuan komunitas
 
@@ -105,9 +115,13 @@ Jika Anda memilih untuk datang dan berpartisipasi, hormati urutan topik, tetap p
 
 ## Terjemahan
 
+## Terjemahan
+
 Bagi mereka yang bilingual atau lebih, cara yang sangat penting untuk berkontribusi adalah membantu menerjemahkan dari bahasa Inggris ke bahasa lain. Selalu ada kebutuhan bagi bahasa baru untuk diterjemahkan dan bahasa yang ada untuk diperbarui di seluruh ekosistem, dan semakin banyak bahasa yang kami dukung secara aktif, Monero akan menjadi semakin inklusif dan mudah didekati.
 
 Anda dapat menemukan kebutuhan dan informasi terjemahan di [translate.getmonero.org](https://translate.getmonero.org/) atau [di Github](https://github.com/monero-ecosystem/monero-translations).
+
+## Mengajukan masalah
 
 ## Mengajukan masalah
 
@@ -148,70 +162,74 @@ Semakin banyak informasi yang Anda berikan mengenai masalah, semakin baik!
 
 ## Kesimpulan
 
+## Kesimpulan
+
 Semoga panduan ini memicu beberapa ide tentang bagaimana Anda dapat memberikan sumbangsih kembali kepada Monero menggunakan keahlian, latar belakang, dan pengalaman unik Anda. Semakin banyak komunitas yang memberikan sumbangsih kembali dengan cara seperti ini, Monero akan menjadi semakin besar dan semakin matang dan semakin mudah kita dapat memenuhi tujuan uang yang privat, dapat dipertukarkan, berdaulat sendiri, dan tahan sensor.
 
 Bacaan lebih lanjut
 
-  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies/)
+  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies)/
 
-  * [Ring signature Monero vs CoinJoin seperti di Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Ring signature Monero vs CoinJoin seperti di Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Mengapa (dan bagaimana!) Anda harus memegang kunci Anda sendiri](/knowledge/hold-your-keys/)
+  * [Mengapa (dan bagaimana!) Anda harus memegang kunci Anda sendiri](/knowledge/hold-your-keys)/
 
-  * [Bagaimana node jarak jauh memengaruhi privasi Monero](/knowledge/remote-nodes-privacy/)
+  * [Bagaimana node jarak jauh memengaruhi privasi Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Bagaimana Monero menggunakan hard-fork untuk memutakhirkan jaringan](/knowledge/network-upgrades/)
+  * [Bagaimana Monero menggunakan hard-fork untuk memutakhirkan jaringan](/knowledge/network-upgrades)/
 
-  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Apa yang Akan Dilakukannya untuk Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Apa yang Akan Dilakukannya untuk Monero](/knowledge/seraphis-for-monero)/
 
-  * [Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?](/knowledge/most-private-way-to-buy-monero/)
+  * [Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup/)
+  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect/)
+  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect)/
 
-  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking/)
+  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking)/
 
-  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams/)
+  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams)/
 
-  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps/)
+  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking/)
+  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking)/
 
-  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct/)
+  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct)/
 
-  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses/)
+  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses)/
 
-  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses/)
+  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses)/
 
-  * [Output Monero Dijelaskan](/knowledge/monero-outputs/)
+  * [Output Monero Dijelaskan](/knowledge/monero-outputs)/
 
-  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices/)
+  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices)/
 
-  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures/)
+  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures)/
 
-  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size/)
+  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag/)
+  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag)/
 
-  * [Mengapa Monero Memiliki Tail Emission](/knowledge/monero-tail-emission/)
+  * [Mengapa Monero Memiliki Tail Emission](/knowledge/monero-tail-emission)/
 
-  * [Sejarah Singkat Monero](/knowledge/monero-history/)
+  * [Sejarah Singkat Monero](/knowledge/monero-history)/
 
-  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked/)
+  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Mitos dan Kekhawatiran Monero Terbantahkan](/knowledge/monero-myths-debunked/)
+  * [Top 15 Mitos dan Kekhawatiran Monero Terbantahkan](/knowledge/monero-myths-debunked)/
 
-  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion/)
+  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion)/
 
-  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx/)
+  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx)/
 
-  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better/)
+  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better)/
+
+Bacaan lebih lanjut

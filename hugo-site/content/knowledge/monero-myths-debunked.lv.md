@@ -10,21 +10,39 @@ Neviena kriptovalūta nav bez trūkumiem, un Monero nav izņēmums. Kopiena pat 
 
 Tomēr pret Monero ir izplatīta arī kritika, kas ir vai nu novecojusi, vai nepareiza, savukārt citi sniedz ļoti šauru skatījumu uz attiecīgo problēmu. Šajā rakstā mēs ceram noskaidrot patiesību par izteikto kritiku.
 
-  1. [Monero saskarsies ar regulatīvo pārbaudi, kas ir daudz plašāka kā citām kriptovalūtām, jo tas apņemas ievērot privātumu un anonimitāti savos pārskaitījumos.](/knowledge/monero-myths-debunked#1/)
-  2. [Monero ir mazāk maka iespēju.](/knowledge/monero-myths-debunked#2/)
-  3. [Monero ir slikta lietotāja pieredze.](/knowledge/monero-myths-debunked#3/)
-  4. [Monero kļūs lieks, ja populārāka blokķēde izmantos spēcīgu privātuma tehnoloģiju.](/knowledge/monero-myths-debunked#4/)
-  5. [Vai Monero nav ļoti augstas pārskaitījumu maksas?](/knowledge/monero-myths-debunked#5/)
-  6. [Monero pārskaitījums ir daudzkārt lielāks nekā Bitcoin pārskaitījums.](/knowledge/monero-myths-debunked#6/)
-  7. [Monero diezgan bieži ir atzarojumi. Vai tas nenozīmē, ka tas ir centralizēts?](/knowledge/monero-myths-debunked#7/)
-  8. [Šī ir fluffypony personīgā monēta!](/knowledge/monero-myths-debunked#8/)
-  9. [Lielāko daļu ieguldījuma kopš 2017. gada ir veikusi persona, kas pazīstama kā moneromooo-monero](/knowledge/monero-myths-debunked#9/)
-  10. [Vai Monero nav viegli veikt 51% uzbrukumu?](/knowledge/monero-myths-debunked#10/)
-  11. [CPU draudzīgs algoritms? Vai Monero ieguvi nepārņems bottīkli?](/knowledge/monero-myths-debunked#11/)
-  12. [Monero atzari kaitē ne tikai Monero ekonomiskajai dzīvotspējai, bet arī privātumam!](/knowledge/monero-myths-debunked#12/)
-  13. [Vai Monero sākumā nebija sagrozīta mainošana, ko dibinātāji izmantoja, lai kļūtu bagāti?](/knowledge/monero-myths-debunked#13/)
-  14. [Ja Monero ir tik privāts, kā mēs varam pārbaudīt kopējo daudzumu, lai nodrošinātu, ka neviens mums zem deguna nedrukā bezmaksas Monero?](/knowledge/monero-myths-debunked#14/)
-  15. [Lielākā daļa Monero pašreizējā hashrate nāk tikai no diviem baseiniem.](/knowledge/monero-myths-debunked#15/)
+  1. [Monero saskarsies ar regulatīvo pārbaudi, kas ir daudz plašāka kā citām kriptovalūtām, jo tas apņemas ievērot privātumu un anonimitāti savos pārskaitījumos.](/knowledge/monero-myths-debunked#1)/
+  2. [Monero ir mazāk maka iespēju.](/knowledge/monero-myths-debunked#2)/
+  3. [Monero ir slikta lietotāja pieredze.](/knowledge/monero-myths-debunked#3)/
+  4. [Monero kļūs lieks, ja populārāka blokķēde izmantos spēcīgu privātuma tehnoloģiju.](/knowledge/monero-myths-debunked#4)/
+  5. [Vai Monero nav ļoti augstas pārskaitījumu maksas?](/knowledge/monero-myths-debunked#5)/
+  6. [Monero pārskaitījums ir daudzkārt lielāks nekā Bitcoin pārskaitījums.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero diezgan bieži ir atzarojumi. Vai tas nenozīmē, ka tas ir centralizēts?](/knowledge/monero-myths-debunked#7)/
+  8. [Šī ir fluffypony personīgā monēta!](/knowledge/monero-myths-debunked#8)/
+  9. [Lielāko daļu ieguldījuma kopš 2017. gada ir veikusi persona, kas pazīstama kā moneromooo-monero](/knowledge/monero-myths-debunked#9)/
+  10. [Vai Monero nav viegli veikt 51% uzbrukumu?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU draudzīgs algoritms? Vai Monero ieguvi nepārņems bottīkli?](/knowledge/monero-myths-debunked#11)/
+  12. [Monero atzari kaitē ne tikai Monero ekonomiskajai dzīvotspējai, bet arī privātumam!](/knowledge/monero-myths-debunked#12)/
+  13. [Vai Monero sākumā nebija sagrozīta mainošana, ko dibinātāji izmantoja, lai kļūtu bagāti?](/knowledge/monero-myths-debunked#13)/
+  14. [Ja Monero ir tik privāts, kā mēs varam pārbaudīt kopējo daudzumu, lai nodrošinātu, ka neviens mums zem deguna nedrukā bezmaksas Monero?](/knowledge/monero-myths-debunked#14)/
+  15. [Lielākā daļa Monero pašreizējā hashrate nāk tikai no diviem baseiniem.](/knowledge/monero-myths-debunked#15)/
+
+  1. [Monero saskarsies ar regulatīvo pārbaudi, kas ir daudz plašāka kā citām kriptovalūtām, jo tas apņemas ievērot privātumu un anonimitāti savos pārskaitījumos.](/knowledge/monero-myths-debunked#1)/
+  2. [Monero ir mazāk maka iespēju.](/knowledge/monero-myths-debunked#2)/
+  3. [Monero ir slikta lietotāja pieredze.](/knowledge/monero-myths-debunked#3)/
+  4. [Monero kļūs lieks, ja populārāka blokķēde izmantos spēcīgu privātuma tehnoloģiju.](/knowledge/monero-myths-debunked#4)/
+  5. [Vai Monero nav ļoti augstas pārskaitījumu maksas?](/knowledge/monero-myths-debunked#5)/
+  6. [Monero pārskaitījums ir daudzkārt lielāks nekā Bitcoin pārskaitījums.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero diezgan bieži ir atzarojumi. Vai tas nenozīmē, ka tas ir centralizēts?](/knowledge/monero-myths-debunked#7)/
+  8. [Šī ir fluffypony personīgā monēta!](/knowledge/monero-myths-debunked#8)/
+  9. [Lielāko daļu ieguldījuma kopš 2017. gada ir veikusi persona, kas pazīstama kā moneromooo-monero](/knowledge/monero-myths-debunked#9)/
+  10. [Vai Monero nav viegli veikt 51% uzbrukumu?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU draudzīgs algoritms? Vai Monero ieguvi nepārņems bottīkli?](/knowledge/monero-myths-debunked#11)/
+  12. [Monero atzari kaitē ne tikai Monero ekonomiskajai dzīvotspējai, bet arī privātumam!](/knowledge/monero-myths-debunked#12)/
+  13. [Vai Monero sākumā nebija sagrozīta mainošana, ko dibinātāji izmantoja, lai kļūtu bagāti?](/knowledge/monero-myths-debunked#13)/
+  14. [Ja Monero ir tik privāts, kā mēs varam pārbaudīt kopējo daudzumu, lai nodrošinātu, ka neviens mums zem deguna nedrukā bezmaksas Monero?](/knowledge/monero-myths-debunked#14)/
+  15. [Lielākā daļa Monero pašreizējā hashrate nāk tikai no diviem baseiniem.](/knowledge/monero-myths-debunked#15)/
+
+## 1\. Monero saskarsies ar regulatīvo pārbaudi, kas ir daudz plašāka kā citām kriptovalūtām, jo tas apņemas ievērot privātumu un anonimitāti savos pārskaitījumos.
 
 ## 1\. Monero saskarsies ar regulatīvo pārbaudi, kas ir daudz plašāka kā citām kriptovalūtām, jo tas apņemas ievērot privātumu un anonimitāti savos pārskaitījumos.
 
@@ -40,9 +58,13 @@ Tagad varētu iebilst, ka Bitcoin reputācija mainījās, jo cilvēki saprata, k
 
 ## 2\. Monero ir mazāk maka iespēju.
 
+## 2\. Monero ir mazāk maka iespēju.
+
 Monero patiešām ir mazāk maka iespēju nekā daudzām citām monētām. Tas ir tāpēc, ka Monero tika izstrādāts no paša sākuma. Tas atrodas pavisam citā kodu bāzē nekā Bitcoin. Tas nozīmē, ka Monero nevar vienkārši izmantot Bitcoin pamata maku vai citus Bitcoin makus, kā to dara lielākā daļa monētu, un izmantot esošās infrastruktūras priekšrocības. Kā arī tas nozīmē, ka Monero nav tik vienkārši pievienojams trešo pušu makiem, piemēram, Exodus.
 
 Un tomēr lēnām, bet noteikti Monero sāk parādīties visu veidu maki. Daudzus gadus bija meme, ka Monero nav GUI un mobilā maka atbalsta, taču tagad nekas nevar būt tālāk no patiesības. Ir maki, kas īpaši paredzēti Monero, piemēram, Monerujo operētājsistēmai Android un Cake Wallet gan iOS, gan Android, kā arī jauni maki, piemēram, Wookey, Exa Wallet un citi. Turklāt trešo pušu maki sāk pievienot Monero, lai gan lēnāk, tostarp Exodus un Guarda, un mēs sagaidām, ka šī tendence turpināsies, laikam ejot un Monero kodu bāzei nobriestot.
+
+## 3\. Monero ir slikta lietotāja pieredze.
 
 ## 3\. Monero ir slikta lietotāja pieredze.
 
@@ -55,6 +77,8 @@ Mēs aicinām lasīt rakstus par darbībām, ko Bitcoineri iesaka privātuma sag
 Izmantojot Monero, šis detalizētais saraksts ir pilnībā izzudis. Katrs Monero pārskaitījums katru reizi saglabā augstu privātuma līmeni, lietotājam neko nedarot un arī neizmantojot ārēju programmatūru. Kamēr Bitcoin apgrūtina privātuma nodrošināšanu visiem, izņemot vispieredzējušāko lietotāju, Monero apgrūtina tā nenodrošināšanu ikvienam un vienmēr. Runājot par kompromisiem, mēs domājam, ka garākas adreses un sinhronizācijas laiks ir vairāk nekā tā vērts.
 
 Un pat pēc tam, kad apspriests viss iepriekš minētais, fakts paliek fakts, ka lietotāja pieredze laika gaitā bieži kļūst labāka, un Monero nav izņēmums. Valūtas UX pēc dažiem gadiem var ievērojami uzlaboties, taču tās pamatus ir daudz grūtāk mainīt.
+
+## 4\. Monero kļūs lieks, ja populārāka blokķēde izmantos spēcīgu privātuma tehnoloģiju.
 
 ## 4\. Monero kļūs lieks, ja populārāka blokķēde izmantos spēcīgu privātuma tehnoloģiju.
 
@@ -78,6 +102,8 @@ Pēdējo reizi pārslēdzot pārnesumus šim jautājumam, retāk šis arguments 
 
 ## 5\. Vai Monero nav ļoti augstas pārskaitījumu maksas?
 
+## 5\. Vai Monero nav ļoti augstas pārskaitījumu maksas?
+
 Vairs ne! Pateicoties brīnišķīgajai Bulletproofs tehnoloģijai, kas tika pievienota 2018. gada oktobrī, pārskaitījumu apmēri ir krasi samazināti (par vairāk nekā 80%), kas izraisa pārskaitījumu maksu samazināšanos līdzīgā apmērā. Raksta tapšanas laikā Monero apstrādes izmaksas par vienu baitu ir zemākas nekā Bitcoin, un turpmāka tehnoloģijas optimizācija tās vēl vairāk samazina.
 
 Šīs optimizācijas ir dažādas un biežas. Viens piemērs ir gudra optimizācija pašās Bulletproofs sistēmās, samazinot gan aprēķiniem, gan verifikācijai nepieciešamo matemātiku, dažkārt pat par 25%.
@@ -85,6 +111,10 @@ Vairs ne! Pateicoties brīnišķīgajai Bulletproofs tehnoloģijai, kas tika pie
 Turklāt tiek izstrādātas jaunas, aizraujošas gredzenveida parakstu shēmas, piemēram, CLSAG, kas aizstās pašreizējo MLSAG shēmu un vēl vairāk samazinās visa darījuma apjomu par 25-35%. Papildus tam ir vēl jaunākas, progresīvākas tehnoloģijas ar pilnīgi atšķirīgām pierādīšanas sistēmām, kurām ir potenciāls saglabāt pašreizējos pārskaitījumu izmērus, bet kur gredzenu izmērs pārsniedz simtu. Piemēri ir Triptich, Arcturus un Lelantus, kas visas ir mazākas un efektīvākas par pašreizējām shēmām.
 
 ## 6\. Monero pārskaitījums ir daudzkārt lielāks nekā Bitcoin pārskaitījums.
+
+## 6\. Monero pārskaitījums ir daudzkārt lielāks nekā Bitcoin pārskaitījums.
+
+## 7\. Monero diezgan bieži ir atzarojumi. Vai tas nenozīmē, ka tas ir centralizēts?
 
 ## 7\. Monero diezgan bieži ir atzarojumi. Vai tas nenozīmē, ka tas ir centralizēts?
 
@@ -98,9 +128,13 @@ Svarīgs piemērs pirms-PoW maiņas atzariem ir RingCT iekļaušana 2017. gadā,
 
 ## 8\. Šī ir fluffypony personīgā monēta!
 
+## 8\. Šī ir fluffypony personīgā monēta!
+
 Šī nav un nekad nav bijusi Riccardo “fluffypony” Spagni monēta. Viņam pat neizdevās. To sāka pseidonīms, kas pazīstams kā thankful_for_today, un par to ir ļoti interesants stāsts citai reizei. Fluffypony ieguva atpazīstamību gan kā galvenās komandas loceklis/vadošais uzturētājs, jo viņš veltīja daudz laika un resursu, lai palīdzētu monētai augt, gan ceļojot un uzstājoties konferencēs. Apvienojot šīs divas lietas, viņš kļuva par sava veida neoficiālu Monero seju un parasti bija vārti, caur kuriem cilvēki mūs atrada. Sakarā ar šausmīgo CEO kultūru, kas bija plaši izplatīta kriptovalūtu jomā, viņi pieņēma, ka viņš ir Monero dibinātājs un vadītājs, un nekas no tā nav patiesi.
 
 Mūsdienās fluffypony joprojām ir galvenās komandas daļa, taču vairs nav galvenais kodu bāzes uzturētājs un ir atsācis strādāt pie saviem personīgajiem projektiem. Monero turpina attīstīties bez problēmām.
+
+## 9\. Lielāko daļu ieguldījuma kopš 2017. gada ir veikusi persona, kas pazīstama kā moneromooo-monero
 
 ## 9\. Lielāko daļu ieguldījuma kopš 2017. gada ir veikusi persona, kas pazīstama kā moneromooo-monero
 
@@ -109,6 +143,8 @@ Tas ir neapstrīdams fakts, un par to nevar diskutēt. moneromooo ir labi zinām
 Kā var iedomāties, strādājot Monero pilnā slodzē, nevis brīvprātīgā darba rezultātā, tiks uzkrāts liels darba apjoms. Tā kā Monero nebija iepriekšējas mainošanas, ICO, un tas nesaņem dibinātāja atlīdzību, mums nav pilnas slodzes inženieru, kas strādātu pie projekta. Cilvēki dod savu ieguldījumu, kad vien var, un vienkārši nav iespējams sagaidīt, ka šis ieguldījums atsver pilna laika strādnieku.
 
 Tomēr joprojām ir jāpieliek lielas pūles, lai nodrošinātu pārbaudes un līdzsvaru. Galvenās komandas loceklis joprojām apvieno kodu pēc pārskatīšanas, tāpēc tas nav gadījums, kad persona gan izveido, gan integrē kodu, tādējādi apejot jebkādu pārraudzību, kas nepieciešama, lai konstatētu rupju kļūdu vai ļaunprātīgu nolūku.
+
+## 10\. Vai Monero nav viegli veikt 51% uzbrukumu?
 
 ## 10\. Vai Monero nav viegli veikt 51% uzbrukumu?
 
@@ -122,6 +158,8 @@ Nav aprēķinātas precīzas aparatūras izmaksas 51% uzbrukumam Monero tīklam,
 
 ## 11\. CPU draudzīgs algoritms? Vai Monero ieguvi nepārņems bottīkli?
 
+## 11\. CPU draudzīgs algoritms? Vai Monero ieguvi nepārņems bottīkli?
+
 Divi mainošanas nozares lielākie biedi ir ASIC un bottīkli, un attālināšanās no viena noteikti nozīmē tuvināšanos otram. Ja Monero ieguvei ir nepieciešams CPU, hakeri teorētiski var pārņemt kontroli pār daudziem simtiem, ja ne tūkstošiem ievainojamu datoru un piespiest tos iegūt Monero savā vārdā, neko nemaksājot un izkonkurējot tos, kuru mājsaimniecībās ir tikai pāris datoru. 
 
 Pirmais atspēkojums šim argumentam ir par pašiem bottīklu īpašniekiem. Lai gan mēs neatbalstām citu datoru uzlaušanu, šķēršļi piekļuvei bottīkla iegūšanai un darbībai ir daudz zemāki nekā ASIC. Nepieciešama programmatūra — bieži vien diezgan brīvi pieejama un atvērtā koda —, kā arī laiks un gudrība, lai atklātu neaizsargātus datorus. Otram ir nepieciešams neticami liels kapitāls un piekļuve ražošanai. Vienu var izdarīt puika mājas pagrabā, bet otru tikai ārkārtīgi turīgie. Tas liek mums secināt, ka, ja piepildīsies maineru ļaunākās bailes, paši bottīkli būtu decentralizētāki nekā ASIC.
@@ -129,6 +167,8 @@ Pirmais atspēkojums šim argumentam ir par pašiem bottīklu īpašniekiem. Lai
 Tomēr Monero kopiena ir pārliecināta, ka šī problēma ir pārspīlēta. RandomX inženieri apzināti izstrādāja protokolu tā, lai darbam būtu nepieciešama 2 GB RAM atmiņa. Citiem vārdiem sakot, daudziem maziem, ievainojamiem virtuālajiem privātajiem serveriem (VPS) vienkārši nebūs ietilpības, un, ja tā būtu, izmantoto resursu pieaugums būtu ļoti pamanāms sistēmas administratoram, kas novedīs pie tūlītējas izmeklēšanas. Citiem vārdiem sakot, tas nevar darboties klusi fonā kā kompromitēti datori, kas piedalās DDOS uzbrukumā, vai klusi smeļas paroles. Kad maineris ir ieslēgts, visi to zina.
 
 Tas samazina to datoru skaitu, kurus bottīkls varētu veiksmīgi kompromitēt, līdz tiem, kas ir ļoti tehnoloģiski nespējīgi vai nekad netiek pārbaudīti. Tā nav pārpilnība neaizsargātu datoru, kā šī argumenta atbalstītāji uzskata. 
+
+## 12\. Monero atzari kaitē ne tikai Monero ekonomiskajai dzīvotspējai, bet arī privātumam!
 
 ## 12\. Monero atzari kaitē ne tikai Monero ekonomiskajai dzīvotspējai, bet arī privātumam!
 
@@ -146,6 +186,8 @@ Tomēr mēs uzskatām, ka ir naivi domāt, ka Monero nekad netiks uzbrukts šād
 
 ## 13\. Vai Monero sākumā nebija sagrozīta mainošana, ko dibinātāji izmantoja, lai kļūtu bagāti?
 
+## 13\. Vai Monero sākumā nebija sagrozīta mainošana, ko dibinātāji izmantoja, lai kļūtu bagāti?
+
 Monero vēsture ir interesanta, un daudzi var būt pārsteigti, uzzinot, ka tā patiešām sākās kā krāpniecība. Autors, thankful_for_today, visticamāk, bija sadarbojies ar kriptovalūtu grupu, kas izveidoja CryptoNote protokolu, taču viņam bija viltīgi nodomi izkrāpt cilvēkiem naudu, izmantojot to.
 
 Viņu sākotnējie mēģinājumi ar monētām neizdevās, tāpēc viņi izveidoja Monero, lai mēģinātu vēlreiz. Tas atkal neizdevās, jo sabiedrība ātri saprata, ka kaut kas nav kārtībā, un pārņēma monētu. Tomēr viltīgajiem radītājiem bija vēl viens pēdējais triks. Viņi izlaida sabiedrībai apzināti deoptimizētu ieguves programmatūru, paturot optimizēto versiju sev, lai pārspētu citus un nopelnītu daudz naudas no bloka atlīdzības.
@@ -158,11 +200,15 @@ Paskatoties atpakaļ, daži varētu kritizēt lēmumu neizlaist monētu no jauna
 
 ## 14\. Ja Monero ir tik privāts, kā mēs varam pārbaudīt kopējo daudzumu, lai nodrošinātu, ka neviens mums zem deguna nedrukā bezmaksas Monero?
 
+## 14\. Ja Monero ir tik privāts, kā mēs varam pārbaudīt kopējo daudzumu, lai nodrošinātu, ka neviens mums zem deguna nedrukā bezmaksas Monero?
+
 Uz šo jautājumu ir grūti atbildēt. Viena no visbiežāk sniegtajām atbildēm ir tāda, ka mēs varam saskaitīt monētu bāzes pārskaitījumus (kad jaunais Monero tiek piešķirts maineriem par bloka atrisināšanu). Šie pārskaitījumi ir caurspīdīgi, un, tos saskaitot, mums vajadzētu iegūt kopējo apgrozībā esošo Monero skaitu.
 
 Tomēr ir svarīgi atzīmēt, ka, ja notiktu kļūdas, kas palielina Monero daudzumu, pārsniedzot to, ko mēs sagaidām no monētu bāzes pārskaitījumiem, tie notiktu nevis pašu monētu bāzes pārskaitījumos, bet gan parastā pārskaitījumā starp makiem. Tas notiktu tikai vienā no trim veidiem.
 
 Viens - ja kriptogrāfija, kas pierāda, ka pārskaitījumā nav izveidots vai iznīcināts Monero, ir fundamentāli kļūdaina. Otrs - ja stabilās kriptogrāfijas izpildījums (kods) ir kļūdains. Trešais - kļūdu nav, bet datori kļūst pietiekami jaudīgi, lai caursistu mūsu pašreizējās kriptogrāfijas shēmas un radītu viltus pierādījumus.
+
+## 15\. Lielākā daļa Monero pašreizējā hashrate nāk tikai no diviem baseiniem.
 
 ## 15\. Lielākā daļa Monero pašreizējā hashrate nāk tikai no diviem baseiniem.
 
@@ -210,66 +256,68 @@ Tātad fakts, ka lielākā daļa Monero hash rate ir koncentrēts pāris baseino
 
 Lasīt tālāk
 
-  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies/)
+  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies)/
 
-  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys/)
+  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys)/
 
-  * [Iesaiste Monero](/knowledge/contributing-to-monero/)
+  * [Iesaiste Monero](/knowledge/contributing-to-monero)/
 
-  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy/)
+  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy)/
 
-  * [Kā Monero izmanto hard-forks tīkla uzlabošanai](/knowledge/network-upgrades/)
+  * [Kā Monero izmanto hard-forks tīkla uzlabošanai](/knowledge/network-upgrades)/
 
-  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool un tā loma Monero mainošanas decentralizācijā](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool un tā loma Monero mainošanas decentralizācijā](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero)/
 
-  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero/)
+  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup/)
+  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup)/
 
-  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect/)
+  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect)/
 
-  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking/)
+  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking)/
 
-  * [Krāpniecība, kam jāpievērš uzmanība, lietojot Monero](/knowledge/monero-scams/)
+  * [Krāpniecība, kam jāpievērš uzmanība, lietojot Monero](/knowledge/monero-scams)/
 
-  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps/)
+  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps)/
 
-  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking/)
+  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking)/
 
-  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct/)
+  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct)/
 
-  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses/)
+  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses)/
 
-  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses/)
+  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses)/
 
-  * [Monero izvades tuvplānā](/knowledge/monero-outputs/)
+  * [Monero izvades tuvplānā](/knowledge/monero-outputs)/
 
-  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices/)
+  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices)/
 
-  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures/)
+  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures)/
 
-  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag/)
+  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag)/
 
-  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission/)
+  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission)/
 
-  * [Īsa Monero vēsture](/knowledge/monero-history/)
+  * [Īsa Monero vēsture](/knowledge/monero-history)/
 
-  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked/)
+  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked)/
 
-  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion/)
+  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion)/
 
-  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx/)
+  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx)/
 
-  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better/)
+  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better)/
+
+Lasīt tālāk

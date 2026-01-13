@@ -14,6 +14,8 @@ Qoraalkan kooban waxaan ku dhex milmi doonaa sababta aad u haysato furayaashaada
 
 ## Waa maxay sababta ay furahaaga u hayso muhiim?
 
+## Waa maxay sababta ay furahaaga u hayso muhiim?
+
 Mid ka mid ah dhinacyada ugu badan ee si khaldan loo fahmo ee is-haynta Monero waa haddii aadan haysan furayaashaada, waxaad helaysaa wax yar ilaa maya ka faa'iidayso sirta Monero ay bixiso. Sida soo diraha wax kala iibsiga wuxuu leeyahay muuqaal buuxa oo ku saabsan kharashka dhabta ah, qaddarka, iyo ciwaanka qaataha, haddii aadan ahayn qofka soo diraya wax kala iibsiga oo taa beddelkeeda u dhaaf beddelka ama ilaaliye, waxay leeyihiin muuqaal _buuxa_ siyaabaha aad u isticmaasho Monero.
 
 Mahadsanid, ka dib markay soo diraan lacagaha, dammaanad qaadka gaarka ah ee Monero laad oo bixi "sirta hore" xoog leh, laakiin way caddaan doontaa sarifka ama ilaaliyaha meesha aad lacagaha u dirtay iyo inta aad dirtay markii hore.
@@ -38,11 +40,15 @@ Dhaqankani waxa kale oo uu u horseedi karaa qalalaaso dareere ah oo ay isticmaal
 
 ## Sideen u haystaa furayaashayda Monero?
 
+## Sideen u haystaa furayaashayda Monero?
+
 Ula dhaqan weedhan abuurka sidii inay u qalanto dhammaan Monero-gaaga boorsada jeebka, sida qof kasta oo hela uu si buuxda u heli doono lacagaha ku jira boorsadaada. Way ku habboon tahay in lagu hayo meel ammaan ah ama sir ah, xafid nuqullo badan haddii ay dhacdo dab ama masiibo dabiici ah, marna tusi cid kasta.
 
 In badan oo ku saabsan weedhaha abuur, eeg [Mnemonic Abuurka | Moneropedia](https://web.getmonero.org/resources/moneropedia/mnemonicseed.html).
 
-  * [Moneero rasmiga ah jeebka](https://getmonero.org/downloads) Kani waa software-ka rasmiga ah ee jeebka Monero, oo si joogto ah u arkay hagaajin iyo kordhin. Waxaa ka mid ah Monero daemon isku dhafan (haddii aad rabto), waa isticmaale-saaxiibtinimo, oo dhawaan taageeri doona [macdanta iyada oo la sii marayo p2pool si toos ah boorsadaada](/knowledge/p2pool-decentralizing-monero-mining/).
+  * [Moneero rasmiga ah jeebka](https://getmonero.org/downloads) Kani waa software-ka rasmiga ah ee jeebka Monero, oo si joogto ah u arkay hagaajin iyo kordhin. Waxaa ka mid ah Monero daemon isku dhafan (haddii aad rabto), waa isticmaale-saaxiibtinimo, oo dhawaan taageeri doona [macdanta iyada oo la sii marayo p2pool si toos ah boorsadaada](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
+
+Kani waa software-ka rasmiga ah ee jeebka Monero, oo si joogto ah u arkay hagaajin iyo kordhin. Waxaa ka mid ah Monero daemon isku dhafan (haddii aad rabto), waa isticmaale-saaxiibtinimo, oo dhawaan taageeri doona [macdanta iyada oo la sii marayo p2pool si toos ah boorsadaada](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
 
   * Kani waa boorsada ugu fiican ee xididka [Electrum for Bitcoin](https://electrum.org/), waxayna siisaa labadaba isticmaalka fudud iyo sifooyin aad u awood badan oo hal mar ah jeebka.
 
@@ -55,6 +61,8 @@ Monerujo waa jeebka FOSS ee Android kaas oo lagu daray waxoogaa cajiib ah muuqaa
 
 ## Gabagabo
 
+## Gabagabo
+
 Waxaan rajeyneynaa in boostadani ay gacan ka geysatay xoojinta baahida loo qabo qabashada kaaga furayaal u gaar ah, iyo sidoo kale ku tilmaamay qaar ka mid ah boorsooyinka ugu fiican ee ku jira meel bannaan.
 
 Inta badan oo aad Monero gacmahaaga u qaadato oo aad dhab ahaantii u isticmaasho, ayaa faa'iido badan waxaad heli kartaa hadda iyo mustaqbalka labadaba. Monero kaliya maaha hanti male-awaal ah - waa qalab awood u leh xorriyadda iyo dhaqaalaha sirnimada si weyn loogu baahan yahay adduunka maanta iyo mustaqbalka soo socda annaga.
@@ -63,66 +71,68 @@ Hadda ka bax qadaadiicdaas beddelka oo u gal waxa Monero ahaa loo dhisay.
 
 Akhris dheeraad ah
 
-  * [Sida Monero si gaar ah u awoodo dhaqaalaha wareegtada ah](/knowledge/monero-circular-economies/)
+  * [Sida Monero si gaar ah u awoodo dhaqaalaha wareegtada ah](/knowledge/monero-circular-economies)/
 
-  * [Saxeexa giraanta Monero vs CoinJoin sida Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Saxeexa giraanta Monero vs CoinJoin sida Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Wax ku biirinta dib ugu noqoshada Monero](/knowledge/contributing-to-monero/)
+  * [Wax ku biirinta dib ugu noqoshada Monero](/knowledge/contributing-to-monero)/
 
-  * [Sidee noodhka fog u saameeyaan gaarka ah ee Monero](/knowledge/remote-nodes-privacy/)
+  * [Sidee noodhka fog u saameeyaan gaarka ah ee Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Sida Monero u isticmaasho fargeeto adag si ay u cusboonaysiiso shabakada](/knowledge/network-upgrades/)
+  * [Sida Monero u isticmaasho fargeeto adag si ay u cusboonaysiiso shabakada](/knowledge/network-upgrades)/
 
-  * [Arag tags: Sida hal byte u dhimi doono wakhtiga isku xidhka jeebka Monero 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Arag tags: Sida hal byte u dhimi doono wakhtiga isku xidhka jeebka Monero 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool iyo Doorka ay ku leedahay Daadejinta Macdanta Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool iyo Doorka ay ku leedahay Daadejinta Macdanta Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Waxa ay u qaban doonto Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Waxa ay u qaban doonto Monero](/knowledge/seraphis-for-monero)/
 
-  * [U beddelashada Bitcoin ee Monero ma tahay mid gaar loo leeyahay sida tooska ah ee Monero u iibsanayso?](/knowledge/most-private-way-to-buy-monero/)
+  * [U beddelashada Bitcoin ee Monero ma tahay mid gaar loo leeyahay sida tooska ah ee Monero u iibsanayso?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Waa maxay sababta Monero u isticmaasho habayn aan la aamini karin oo ka duwan Zcash](/knowledge/monero-trustless-setup/)
+  * [Waa maxay sababta Monero u isticmaasho habayn aan la aamini karin oo ka duwan Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Waa maxay sababta Monero uu uga qiimo badan yahay Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Waa maxay sababta Monero uu uga qiimo badan yahay Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Sidee Monero uga gudbi kartaa Saamaynta Shabakadda Bitcoin](/knowledge/network-effect/)
+  * [Sidee Monero uga gudbi kartaa Saamaynta Shabakadda Bitcoin](/knowledge/network-effect)/
 
-  * [Waa maxay sababta Monero u leedahay bulshada ugu fikirka badan](/knowledge/critical-thinking/)
+  * [Waa maxay sababta Monero u leedahay bulshada ugu fikirka badan](/knowledge/critical-thinking)/
 
-  * [Khiyaamooyinka la Fikiro Marka la Isticmaalayo Monero](/knowledge/monero-scams/)
+  * [Khiyaamooyinka la Fikiro Marka la Isticmaalayo Monero](/knowledge/monero-scams)/
 
-  * [Sida Isku-beddelka Atoomikada uu uga Shaqeeyo Monero](/knowledge/monero-atomic-swaps/)
+  * [Sida Isku-beddelka Atoomikada uu uga Shaqeeyo Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Waxa uu Isticmaale kasta oo Monero u baahan yahay inuu ogaado marka ay timaaddo isku xidhka](/knowledge/monero-networking/)
+  * [Waxa uu Isticmaale kasta oo Monero u baahan yahay inuu ogaado marka ay timaaddo isku xidhka](/knowledge/monero-networking)/
 
-  * [Sida RingCT u qariso xadiga wax kala iibsiga Monero](/knowledge/monero-ringct/)
+  * [Sida RingCT u qariso xadiga wax kala iibsiga Monero](/knowledge/monero-ringct)/
 
-  * [Sidee Ciwaanada Monero Stealth ay u ilaaliyaan aqoonsigaaga](/knowledge/monero-stealth-addresses/)
+  * [Sidee Ciwaanada Monero Stealth ay u ilaaliyaan aqoonsigaaga](/knowledge/monero-stealth-addresses)/
 
-  * [Sidee Monero Dharka-hoosaadka uga hortagaan isku xidhka aqoonsiga](/knowledge/monero-subaddresses/)
+  * [Sidee Monero Dharka-hoosaadka uga hortagaan isku xidhka aqoonsiga](/knowledge/monero-subaddresses)/
 
-  * [Waxsoosaarka Monero waa la sharaxay](/knowledge/monero-outputs/)
+  * [Waxsoosaarka Monero waa la sharaxay](/knowledge/monero-outputs)/
 
-  * [Dhaqamada ugu Fiican ee Monero ee Bilowga](/knowledge/monero-best-practices/)
+  * [Dhaqamada ugu Fiican ee Monero ee Bilowga](/knowledge/monero-best-practices)/
 
-  * [Sidee Saxiixa Garaacuhu u qariyaan wax soo saarka Monero](/knowledge/ring-signatures/)
+  * [Sidee Saxiixa Garaacuhu u qariyaan wax soo saarka Monero](/knowledge/ring-signatures)/
 
-  * [Sidee Monero u xallisay Dhibaatada Cabbirka Block ee aafaysay Seeraar](/knowledge/dynamic-block-size/)
+  * [Sidee Monero u xallisay Dhibaatada Cabbirka Block ee aafaysay Seeraar](/knowledge/dynamic-block-size)/
 
-  * [Sidee CLSAG u hagaajin doontaa waxtarka Monero](/knowledge/what-is-clsag/)
+  * [Sidee CLSAG u hagaajin doontaa waxtarka Monero](/knowledge/what-is-clsag)/
 
-  * [Waa maxay sababta Monero ay leedahay Dabada sii daayo](/knowledge/monero-tail-emission/)
+  * [Waa maxay sababta Monero ay leedahay Dabada sii daayo](/knowledge/monero-tail-emission)/
 
-  * [Taariikhda Monero oo Kooban](/knowledge/monero-history/)
+  * [Taariikhda Monero oo Kooban](/knowledge/monero-history)/
 
-  * [Majaladda Wired ayaa ku qaldan Monero, waa kan sababta](/knowledge/wired-article-debunked/)
+  * [Majaladda Wired ayaa ku qaldan Monero, waa kan sababta](/knowledge/wired-article-debunked)/
 
-  * [15ka khuraafaad ee Monero iyo walaaca waa la beeniyey](/knowledge/monero-myths-debunked/)
+  * [15ka khuraafaad ee Monero iyo walaaca waa la beeniyey](/knowledge/monero-myths-debunked)/
 
-  * [Sida Dandelion++ uga dhigayo Monero ganacsigiisa mid gaar ah](/knowledge/monero-dandelion/)
+  * [Sida Dandelion++ uga dhigayo Monero ganacsigiisa mid gaar ah](/knowledge/monero-dandelion)/
 
-  * [Waa maxay sababta Monero Isha Furan tahay oo loo baahiyey](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Waa maxay sababta Monero Isha Furan tahay oo loo baahiyey](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Maxaa RandomX ka dhigaya mid gaar ah](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Maxaa RandomX ka dhigaya mid gaar ah](/knowledge/monero-mining-randomx)/
 
-  * [Waa maxay sababta Monero uga fiican tahay Dash, Zcash, Zcoin (Xitaa Lelantus), Grin iyo Bitcoin Mixers sida Wasabi (La cusbooneysiiyay May 2020)](/knowledge/why-monero-is-better/)
+  * [Waa maxay sababta Monero uga fiican tahay Dash, Zcash, Zcoin (Xitaa Lelantus), Grin iyo Bitcoin Mixers sida Wasabi (La cusbooneysiiyay May 2020)](/knowledge/why-monero-is-better)/
+
+Akhris dheeraad ah

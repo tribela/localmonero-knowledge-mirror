@@ -8,8 +8,12 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: haɓaka ƙirar ƙirar ƙira don ma'amalar Monero
 
+## Seraphis: haɓaka ƙirar ƙirar ƙira don ma'amalar Monero
+
 Wannan sakon yana bayyana [ Seraphis ](https://github.com/UkoeHB/Seraphis), saitin tsarin tsarin ma'amala da abstractions wanda mai ba da gudummawar bincike na bogi [ ` koe ` ](https://github.com/UkoeHB) don yanayin yanayin Monero, kuma tare da ci gaba da binciken tsaro. ta mai ba da gudummawa mara suna [ ` coinstudent2048` ](https://github.com/coinstudent2048).  
 Muna yin wasu sauƙaƙawa kuma muna barin wasu cikakkun bayanai na fasaha don tabbatar da tsabta; saboda wannan dalili, kuma saboda ƙirar Seraphis har yanzu yana ci gaba, masu karatu masu sha'awar ya kamata su koma ga takaddun Seraphis don ƙarin sabbin bayanai.
+
+## Ma'amaloli a Monero
 
 ## Ma'amaloli a Monero
 
@@ -48,8 +52,12 @@ An gudanar da irin wannan tsari tare da haɗin ginin sa hannu na zobe. A cikin �
 
 ## Serafis
 
+## Serafis
+
 Seraphis yana ɗaukar wannan matakin gaba.  
 Maimakon sabunta tubalan ginin mutum ɗaya na ƙa'idar ciniki ta RingCT, tana gabatar da wata yarjejeniya ta daban wacce za ta iya cin gajiyar tubalan gini daban-daban da bayar da ingantattun ayyuka.
+
+## Tubalan gini
 
 ## Tubalan gini
 
@@ -73,6 +81,8 @@ Abin farin ciki, wasu tubalan ginin da Seraphis ke buƙata sun riga sun wanzu a 
 
 ## Yin jawabi
 
+## Yin jawabi
+
 Abin takaici, adiresoshin Monero a halin yanzu da ake amfani da su ba su dace da Seraphis ba. Masu amfani za su buƙaci samar da sababbin adireshi daga maɓallan walat ɗin su don karɓar Monero idan an aiwatar da Seraphis. Koyaya, wannan farashin yanayin muhalli yana zuwa tare da fa'idodi masu yawa.
 
 Baya ga fa'idodin tsarin da aka tattauna a sama, ƙirar Seraphis yana dacewa da damar ginin adireshin daban-daban, kowannensu yana zuwa tare da ciniki. Yayin da ginin adireshin ƙarshe da za a yi amfani da shi a cikin Seraphis [ har yanzu ana yanke shawarar](https://github.com/monero-project/research-lab/issues/92) (makircin da ke karɓar kulawa mai yawa ana kiransa [ JAMTIS ](https://gist.github.com/tevador/50160d160d24cfc6c52ae02eb3d17024)), zamu iya kwatanta wasu abubuwan gama gari da amfani.
@@ -93,70 +103,74 @@ A matsayin mai riƙe adreshin, za ku yanke shawarar yawan ikon da kuka ba wa was
 
 ## Babban hoto
 
+## Babban hoto
+
 Seraphis babban canji ne ga yanayin yanayin Monero. Yayin da ya ƙunshi gyare-gyare ga adireshi da tubalan ginin ma'amala, ƙirar sa tana ba da sassauci da ayyuka masu amfani waɗanda ba su yiwuwa tare da ka'idar RingCT ta yau. Yayin da aka kammala yawancin ƙira kuma ana haɓaka su zuwa [ aiwatarwa ](https://github.com/UkoeHB/monero/tree/seraphis_lib), ƙirar adireshin da bincike na tsaro suna gudana. Seraphis yana ba da kyakkyawar dama don ciyar da yanayin yanayin Monero gaba!
 
 Kara karantawa
 
-  * [Yadda Monero ke ba da damar tattalin arzikin madauwari ta musamman](/knowledge/monero-circular-economies/)
+  * [Yadda Monero ke ba da damar tattalin arzikin madauwari ta musamman](/knowledge/monero-circular-economies)/
 
-  * [Sa hannun zoben Monero vs CoinJoin kamar a cikin Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Sa hannun zoben Monero vs CoinJoin kamar a cikin Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Me yasa (kuma ta yaya!) yakamata ku riƙe maɓallan ku](/knowledge/hold-your-keys/)
+  * [Me yasa (kuma ta yaya!) yakamata ku riƙe maɓallan ku](/knowledge/hold-your-keys)/
 
-  * [Gudunmawar komawa ga Monero](/knowledge/contributing-to-monero/)
+  * [Gudunmawar komawa ga Monero](/knowledge/contributing-to-monero)/
 
-  * [Yadda nodes masu nisa ke tasiri sirrin Monero](/knowledge/remote-nodes-privacy/)
+  * [Yadda nodes masu nisa ke tasiri sirrin Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Yadda Monero ke amfani da cokali mai yatsa don haɓaka hanyar sadarwa](/knowledge/network-upgrades/)
+  * [Yadda Monero ke amfani da cokali mai yatsa don haɓaka hanyar sadarwa](/knowledge/network-upgrades)/
 
-  * [Duba tags: Yadda byte ɗaya zai rage lokutan daidaitawa na walat ɗin Monero da 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Duba tags: Yadda byte ɗaya zai rage lokutan daidaitawa na walat ɗin Monero da 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool da Matsayinsa a Rarraba Ma'adinai na Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool da Matsayinsa a Rarraba Ma'adinai na Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Shin Canza Bitcoin zuwa Monero yana da zaman kansa kamar siyan Monero kai tsaye?](/knowledge/most-private-way-to-buy-monero/)
+  * [Shin Canza Bitcoin zuwa Monero yana da zaman kansa kamar siyan Monero kai tsaye?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Me yasa Monero ke Amfani da Saitin Amintacce Ba kamar Zcash ba](/knowledge/monero-trustless-setup/)
+  * [Me yasa Monero ke Amfani da Saitin Amintacce Ba kamar Zcash ba](/knowledge/monero-trustless-setup)/
 
-  * [Me yasa Monero ya fi Bitcoin daraja](/knowledge/monero-better-store-of-value/)
+  * [Me yasa Monero ya fi Bitcoin daraja](/knowledge/monero-better-store-of-value)/
 
-  * [Ta yaya Monero zai iya shawo kan Tasirin hanyar sadarwa na Bitcoin](/knowledge/network-effect/)
+  * [Ta yaya Monero zai iya shawo kan Tasirin hanyar sadarwa na Bitcoin](/knowledge/network-effect)/
 
-  * [Me yasa Monero ke da Mafi Mahimman Tunani Al'umma](/knowledge/critical-thinking/)
+  * [Me yasa Monero ke da Mafi Mahimman Tunani Al'umma](/knowledge/critical-thinking)/
 
-  * [Zamba don Kalli Lokacin Amfani da Monero](/knowledge/monero-scams/)
+  * [Zamba don Kalli Lokacin Amfani da Monero](/knowledge/monero-scams)/
 
-  * [Yadda Atomic Swaps Zai Yi Aiki a Monero](/knowledge/monero-atomic-swaps/)
+  * [Yadda Atomic Swaps Zai Yi Aiki a Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Abin da Kowane Mai Amfani da Monero Ya Bukatar Sanin Lokacin da Ya zo kan hanyar sadarwa](/knowledge/monero-networking/)
+  * [Abin da Kowane Mai Amfani da Monero Ya Bukatar Sanin Lokacin da Ya zo kan hanyar sadarwa](/knowledge/monero-networking)/
 
-  * [Yadda RingCT ke ɓoye Adadin Kasuwancin Monero](/knowledge/monero-ringct/)
+  * [Yadda RingCT ke ɓoye Adadin Kasuwancin Monero](/knowledge/monero-ringct)/
 
-  * [Yadda Monero Stealth Adresoshin Ya Kare Imaninku](/knowledge/monero-stealth-addresses/)
+  * [Yadda Monero Stealth Adresoshin Ya Kare Imaninku](/knowledge/monero-stealth-addresses)/
 
-  * [Yadda Monero Subaddresses ke Hana Haɗin Shaida](/knowledge/monero-subaddresses/)
+  * [Yadda Monero Subaddresses ke Hana Haɗin Shaida](/knowledge/monero-subaddresses)/
 
-  * [An Bayyana Fitar Monero](/knowledge/monero-outputs/)
+  * [An Bayyana Fitar Monero](/knowledge/monero-outputs)/
 
-  * [Mafi kyawun Ayyuka na Monero don Masu farawa](/knowledge/monero-best-practices/)
+  * [Mafi kyawun Ayyuka na Monero don Masu farawa](/knowledge/monero-best-practices)/
 
-  * [Yadda Sa hannu na zobe ke ɓoye abubuwan da Monero ke bayarwa](/knowledge/ring-signatures/)
+  * [Yadda Sa hannu na zobe ke ɓoye abubuwan da Monero ke bayarwa](/knowledge/ring-signatures)/
 
-  * [Yadda Monero Ya Warware Matsalolin Girman Toshe wanda ke addabar Bitcoin](/knowledge/dynamic-block-size/)
+  * [Yadda Monero Ya Warware Matsalolin Girman Toshe wanda ke addabar Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Yadda CLSAG Zai Inganta Ingantacciyar Monero](/knowledge/what-is-clsag/)
+  * [Yadda CLSAG Zai Inganta Ingantacciyar Monero](/knowledge/what-is-clsag)/
 
-  * [Me yasa Monero ke fitar da wutsiya](/knowledge/monero-tail-emission/)
+  * [Me yasa Monero ke fitar da wutsiya](/knowledge/monero-tail-emission)/
 
-  * [Takaitaccen Tarihin Monero](/knowledge/monero-history/)
+  * [Takaitaccen Tarihin Monero](/knowledge/monero-history)/
 
-  * [Mujallar Wired ba daidai ba ce Game da Monero, Ga dalilin da ya sa](/knowledge/wired-article-debunked/)
+  * [Mujallar Wired ba daidai ba ce Game da Monero, Ga dalilin da ya sa](/knowledge/wired-article-debunked)/
 
-  * [Manyan Tatsuniyoyi 15 na Monero da Abubuwan da Aka Kashe](/knowledge/monero-myths-debunked/)
+  * [Manyan Tatsuniyoyi 15 na Monero da Abubuwan da Aka Kashe](/knowledge/monero-myths-debunked)/
 
-  * [Yadda Dandelion++ ke Keɓance Ma'amalar Monero Mai zaman kansa](/knowledge/monero-dandelion/)
+  * [Yadda Dandelion++ ke Keɓance Ma'amalar Monero Mai zaman kansa](/knowledge/monero-dandelion)/
 
-  * [Me yasa Monero Buɗaɗɗen Madogara da Rarraba](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Me yasa Monero Buɗaɗɗen Madogara da Rarraba](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Abin da ke Sa RandomX ta Musamman](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Abin da ke Sa RandomX ta Musamman](/knowledge/monero-mining-randomx)/
 
-  * [Me yasa Monero ya fi Dash, Zcash, Zcoin (Ko da Lelantus), Grin da Bitcoin Mixers Kamar Wasabi (An sabunta Mayu 2020)](/knowledge/why-monero-is-better/)
+  * [Me yasa Monero ya fi Dash, Zcash, Zcoin (Ko da Lelantus), Grin da Bitcoin Mixers Kamar Wasabi (An sabunta Mayu 2020)](/knowledge/why-monero-is-better)/
+
+Kara karantawa

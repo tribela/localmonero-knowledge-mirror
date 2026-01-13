@@ -12,6 +12,8 @@ Enter “view tags”, a one-byte addition to the data of each transaction – c
 
 ## Why is Monero’s wallet sync slower than Bitcoin’s?
 
+## Why is Monero’s wallet sync slower than Bitcoin’s?
+
 One of the first questions we have to answer to better understand the need for a solution like view tags is why Monero’s wallet sync is slower than cryptocurrencies like Bitcoin.
 
 In Bitcoin, as all transactions are not private and reveal the coins being spent, the amounts, and the addresses involved on-chain, Bitcoin wallets can simply look for any unspent transaction outputs (UTXOs) or used addresses for a given wallet, quickly scanning the blockchain for only UTXOs owned by those addresses to figure out which coins belong to your wallet and can be spent.
@@ -19,6 +21,8 @@ In Bitcoin, as all transactions are not private and reveal the coins being spent
 In Monero, however, all transactions preserve the user’s privacy by hiding the sender, receiver, and amounts involved in each transaction. This privacy, while vital to protecting the users of the network, also introduces slower wallet synchronization. In Monero, your wallet has to compare every transaction output (TXO) that exists on the network with your wallet’s private keys.
 
 This comparison involves a lot of complex math and cryptography to validate that an output is truly yours, since all amounts, addresses, and known-spent outputs (or coins) are hidden on-chain in Monero.
+
+## What are view tags?
 
 ## What are view tags?
 
@@ -32,6 +36,8 @@ This tag does not reveal any information about the transaction to outside viewer
 
 ## View tags: a simplified example
 
+## View tags: a simplified example
+
 Imagine you have 4,096 boxes in a room, of which only 5 boxes belong to you. The boxes are all entirely indistinguishable from the outside, and the only way to tell if a box is for you is to open it and solve a time consuming math problem written down inside to ensure it’s yours.
 
 Now, imagine you decide to have the person sending you those 5 boxes generate a special code using your address, and then put only the first character of that generated code on the outside of each box being sent to you. Everyone else does the same thing for their boxes (to ensure all boxes are still indistinguishable), but now you can simply look at the one character code on the outside of the box, and only open those boxes which have that character on them.
@@ -42,9 +48,13 @@ Now you open those 16 boxes, solve the math problems, and keep the 5 boxes that 
 
 ## When will view tags be available in Monero?
 
+## When will view tags be available in Monero?
+
 View tags are one of the features currently planned for inclusion in the [upcoming network upgrade](https://github.com/monero-project/meta/issues/630), and should be released some time this spring. The community [raised 23.3XMR](https://bounties.monero.social/posts/28/implement-view-tags-to-decrease-wallet-sync-times-in-monero) (at the time of writing) to incentivize the development and implementation of view tags, and as a result the vast majority of the work to include view tags in the Monero code base has already been completed by j-berman in collaboration with reviewers and researchers.
 
 Once view tags are enforced by the network, all transactions sent after the network upgrade will benefit from the drastically improved wallet sync time. You won’t need to do anything special to start using view tags, your favorite wallet for Monero will simply start using them after the network upgrade automatically!
+
+## How can I learn more?
 
 ## How can I learn more?
 
@@ -55,66 +65,68 @@ If this has piqued your curiosity around view tags, take a look below for some a
 
 Further reading
 
-  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies/)
+  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies)/
 
-  * [Monero’s Ring Signatures vs CoinJoin Like in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero’s Ring Signatures vs CoinJoin Like in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Why (And How!) You Should Hold Your Own Keys](/knowledge/hold-your-keys/)
+  * [Why (And How!) You Should Hold Your Own Keys](/knowledge/hold-your-keys)/
 
-  * [Contributing Back to Monero](/knowledge/contributing-to-monero/)
+  * [Contributing Back to Monero](/knowledge/contributing-to-monero)/
 
-  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy/)
+  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy)/
 
-  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades/)
+  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades)/
 
-  * [P2Pool and Its Role in Decentralizing Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool and Its Role in Decentralizing Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero)/
 
-  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero/)
+  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup/)
+  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect/)
+  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect)/
 
-  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking/)
+  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking)/
 
-  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams/)
+  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams)/
 
-  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps/)
+  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking/)
+  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking)/
 
-  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct/)
+  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct)/
 
-  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses/)
+  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses)/
 
-  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses/)
+  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses)/
 
-  * [Monero Outputs Explained](/knowledge/monero-outputs/)
+  * [Monero Outputs Explained](/knowledge/monero-outputs)/
 
-  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices/)
+  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices)/
 
-  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures/)
+  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures)/
 
-  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size/)
+  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag/)
+  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag)/
 
-  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission/)
+  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission)/
 
-  * [A Brief History of Monero](/knowledge/monero-history/)
+  * [A Brief History of Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked/)
+  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
 
-  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion/)
+  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion)/
 
-  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx)/
 
-  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better/)
+  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better)/
+
+Further reading

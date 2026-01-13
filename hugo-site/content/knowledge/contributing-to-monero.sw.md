@@ -12,6 +12,8 @@ Idadi kubwa ya watu katika jumuiya ya Monero si lazima wawe wasanidi, kwa hivyo 
 
 ## Mfumo wa Ufadhili wa Jamii wa Monero
 
+## Mfumo wa Ufadhili wa Jamii wa Monero
+
 Monero hutumia mfumo wa kipekee wa kufadhili kazi unaoitwa [Mfumo wa Ufadhili wa Umati wa Jamii](https://ccs.getmonero.org/) (au “CCS”) ambao huruhusu mtu yeyote katika jumuiya kuwasilisha wazo la ufadhili. Ikiidhinishwa na jumuiya, mapendekezo haya hufunguliwa kwa ufadhili wa jumuiya.
 
 Kuna hatua mbili za mfumo, ambazo kila mmoja hunufaika kutokana na kuhusika zaidi na watu kutoka asili zote.
@@ -30,6 +32,8 @@ _Unaweza kuona mapendekezo yote ambayo yako katika hatua la "Ufadhili Unaohitaji
 
 ## Elimu
 
+## Elimu
+
 Njia nyingine nzuri unayoweza kuhusika katika mradi wa Monero ni kusaidia kuelimisha na kuwawezesha wanajamii wapya na waliopo. Hili linaweza kuja kwa aina nyingi, lakini linaweza kuwa rahisi kama kushiriki kile unachojifunza kuhusu Monero kwenye mitandao ya kijamii, blogu, n.k.
 
 Zifuatazo ni njia chache madhubuti unazoweza kusaidia katika elimu:
@@ -37,6 +41,8 @@ Zifuatazo ni njia chache madhubuti unazoweza kusaidia katika elimu:
   * Anzisha blogu yako mwenyewe
   * Andika machapisho kwenye Twitter au Reddit kuhusu mambo ambazo umejifunza kuyahusu au umejifunza kufanya na Monero
   * Tengeneza video ya "jinsi la kufanya" ya mambo ya kila siku unayofanya na Monero, kama vile kutuma Monero, kutumia pochi ya maunzi, kununua na kuuza Monero kwenye [LocalMonero.co](https://localmonero.co), n.k.
+
+## Ufahamu na ushiriki
 
 ## Ufahamu na ushiriki
 
@@ -91,9 +97,13 @@ Pia inaweza kusaidia kulinganisha muamala kati ya kitu kama Bitcoin na Monero ka
 
 ## r/msaadawamonero
 
+## r/msaadawamonero
+
 Ikiwa umekuwa karibu na Monero kwa muda au unaelewa vyema jinsi ya kuitumia na kutatua matatizo, njia nzuri ya kuhusika itakuwa kuruka kwenye [r/monerosupport](https://www.reddit.com/r/monerosupport/) subreddit na kutoa usaidizi kwa watumiaji wanaochapisha hapo.
 
 Kuna watumiaji kila mara ambao wanahitaji usaidizi kuhusu (kawaida) masuala ya kimsingi, na ni wachache tu kati yetu ambao wanashiriki katika subreddit ili kuwasaidia. Itakuwa vyema kuona watu wengi zaidi wakiingia ndani na kuchangia ili kusaidia watumiaji wapya na waliopo kushughulikia masuala zao!
+
+## Mikutano ya jumuiya
 
 ## Mikutano ya jumuiya
 
@@ -105,9 +115,13 @@ Iwapo utachagua kuja na kushiriki, tafadhali heshimu mpangilio wa mada, kaa kwen
 
 ## Tafsiri
 
+## Tafsiri
+
 Kwa wale wanaojua lugha mbili au zaidi, njia muhimu sana ya kuchangia ni kusaidia katika kutafsiri kutoka Kiingereza hadi lugha nyingine. Kila mara kuna haja ya lugha mpya kutafsiriwa na lugha zilizopo kusasishwa kote katika mfumo wa mazingira, na kadiri lugha tunazotumia kikamilifu, ndivyo Monero inavyojumuisha watu wote na kufikika.
 
 Unaweza kupata mahitaji na maelezo ya tafsiri katika [translate.getmonero.org](https://translate.getmonero.org/) au [kwenye Github](https://github.com/monero-ecosystem/monero-translations).
+
+## Kufungua masuala
 
 ## Kufungua masuala
 
@@ -148,70 +162,74 @@ Kadiri unavyoweza kutoa maelezo zaidi katika suala hili, ndivyo inavyokuwa bora 
 
 ## Hitimisho
 
+## Hitimisho
+
 Tunatumaini kuwa mwongozo huu umeibua mawazo fulani kuhusu jinsi unavyoweza kumrudishia Monero kwa kutumia ujuzi wako wa kipekee, usuli na uzoefu. Kadiri jumuiya inavyojirudishia kwa njia kama hizi, ndivyo Monero itakavyokuwa kuu na kukomaa zaidi na ndivyo tunavyoweza kutimiza malengo la kibinafsi, yanayoweza kugundulika, ya kujitawala, na yanayostahimili udhibiti.
 
 Kusoma zaidi
 
-  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies/)
+  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies)/
 
-  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys/)
+  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys)/
 
-  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy/)
+  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades/)
+  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades)/
 
-  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero)/
 
-  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero/)
+  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup/)
+  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect/)
+  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect)/
 
-  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking/)
+  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking)/
 
-  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams/)
+  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams)/
 
-  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps/)
+  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking/)
+  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking)/
 
-  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct/)
+  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct)/
 
-  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses/)
+  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses)/
 
-  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses/)
+  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses)/
 
-  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs/)
+  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs)/
 
-  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices/)
+  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices)/
 
-  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures/)
+  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures)/
 
-  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size/)
+  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag/)
+  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag)/
 
-  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission/)
+  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission)/
 
-  * [Historia fupi ya Monero](/knowledge/monero-history/)
+  * [Historia fupi ya Monero](/knowledge/monero-history)/
 
-  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked/)
+  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked)/
 
-  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked/)
+  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked)/
 
-  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion/)
+  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion)/
 
-  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx/)
+  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx)/
 
-  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better/)
+  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better)/
+
+Kusoma zaidi

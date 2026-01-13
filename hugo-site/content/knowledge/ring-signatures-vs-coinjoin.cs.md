@@ -14,6 +14,8 @@ V tomto blogovém příspěvku se krátce podíváme na srovnání CoinJoinu a k
 
 ## Co je to transakce CoinJoin?
 
+## Co je to transakce CoinJoin?
+
 Jelikož jsou všechny transakce v Bitcoinu zcela transparentní - odhalují odesílatele, příjemce a částky -, musí uživatelé podniknout další kroky k ochraně svého soukromí před předchozími odesílateli a budoucími příjemci svých prostředků, jinak riskují cenzuru, sledování nebo krádež prostředků prostřednictvím fyzického násilí.
 
 Nejlepším řešením ochrany soukromí v Bitcoinu je dnes nástroj zvaný ["CoinJoin"](https://bitcoiner.guide/qna/coinjoin/), kde dva nebo více uživatelů spolupracují (obvykle prostřednictvím centralizovaného koordinátora) na vytvoření speciální transakce, která vnějším pozorovatelům ztěžuje propojení vstupů s výstupy. Každý účastník komunikuje, aby společně vytvořil transakci, aniž by předal dohled nad svými prostředky, a na konci obdrží výstup, jehož předchozí historie je nyní pro vnější pozorovatele nejasná (nebo zastřená).
@@ -26,6 +28,8 @@ Tím se přeruší historie konkrétních UTXO, což uživatelům Bitcoinu umož
   * Uživatelé s velkým množstvím finančních prostředků na CoinJoin mohou často čekat hodiny (nebo dokonce dny!), než najdou dostatek účastníků na CoinJoin, což vede k velkým prodlevám od okamžiku, kdy uživatel obdrží finanční prostředky, do okamžiku, kdy je může soukromě utratit.
   * Soukromí poskytované transakcí CoinJoin se v průběhu času zhoršuje, protože ostatní účastníci utrácejí finanční prostředky nebo spojují své výstupy se svou identitou prostřednictvím burz KYC, obchodníků vyžadujících průkaz totožnosti atd. To znamená, že uživatelé v ideálním případě udržují své prostředky v transakcích CoinJoin neustále v chodu, aby byla jejich sada anonymity ("dav, v němž se mohou skrývat") co nejčerstvější.
   * Ve většině přístupů k CoinJoinu musí účastníci používat UTXO pevné velikosti (tj. 0,1 BTC), aby bylo obtížnější propojit vstupy a výstupy transakcí CoinJoinu. To vede k vyšším poplatkům (na jeden velký vstup je potřeba více samostatných transakcí), většímu množství "toxických drobných" (prostředků, které nelze utratit bez vážného ohrožení soukromí) a může vyloučit, aby menší uživatelé vůbec mohli mixovat, pokud nemají požadovaný minimální zůstatek.
+
+## Jak kruhové podpisy řeší tyto problémy?
 
 ## Jak kruhové podpisy řeší tyto problémy?
 
@@ -65,6 +69,8 @@ Jelikož jsou částky v každé transakci skryty pomocí ["Důvěrné transakce
 
 ## Jak se mohu dozvědět více?
 
+## Jak se mohu dozvědět více?
+
 Pokud jste zvědaví a chcete lépe porozumět kruhovým podpisům nebo transakcím CoinJoin, podívejte se na níže uvedené odkazy, kde najdete skvělá místa kde začít:
 
   * [Jak prstenové podpisy zakrývají výstupy Monera](/knowledge/ring-signatures)
@@ -74,66 +80,68 @@ Pokud jste zvědaví a chcete lépe porozumět kruhovým podpisům nebo transakc
 
 Další čtení
 
-  * [Jak Monero jedinečně umožňuje cirkulární ekonomiky](/knowledge/monero-circular-economies/)
+  * [Jak Monero jedinečně umožňuje cirkulární ekonomiky](/knowledge/monero-circular-economies)/
 
-  * [Proč (a jak!) byste měli držet své vlastní klíče](/knowledge/hold-your-keys/)
+  * [Proč (a jak!) byste měli držet své vlastní klíče](/knowledge/hold-your-keys)/
 
-  * [Přispíváme zpět do Monera](/knowledge/contributing-to-monero/)
+  * [Přispíváme zpět do Monera](/knowledge/contributing-to-monero)/
 
-  * [Jak vzdálené uzly ovlivňují soukromí Monero](/knowledge/remote-nodes-privacy/)
+  * [Jak vzdálené uzly ovlivňují soukromí Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Jak Monero používá hard-forky k upgradu sítě](/knowledge/network-upgrades/)
+  * [Jak Monero používá hard-forky k upgradu sítě](/knowledge/network-upgrades)/
 
-  * [Značky zobrazení: Jak jeden bajt zkrátí dobu synchronizace peněženky Monero o více než 40 %](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Značky zobrazení: Jak jeden bajt zkrátí dobu synchronizace peněženky Monero o více než 40 %](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool a jeho role v decentralizaci těžby Monera](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool a jeho role v decentralizaci těžby Monera](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Co to udělá pro Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Co to udělá pro Monero](/knowledge/seraphis-for-monero)/
 
-  * [Je převod bitcoinu na monero stejně soukromý jako přímý nákup monera?](/knowledge/most-private-way-to-buy-monero/)
+  * [Je převod bitcoinu na monero stejně soukromý jako přímý nákup monera?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Proč Monero na rozdíl od Zcash používá bezdůvěryhodné nastavení](/knowledge/monero-trustless-setup/)
+  * [Proč Monero na rozdíl od Zcash používá bezdůvěryhodné nastavení](/knowledge/monero-trustless-setup)/
 
-  * [Proč je Monero lepší uchovatel hodnoty než bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Proč je Monero lepší uchovatel hodnoty než bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Jak může Monero překonat síťové efekty Bitcoinu](/knowledge/network-effect/)
+  * [Jak může Monero překonat síťové efekty Bitcoinu](/knowledge/network-effect)/
 
-  * [Proč má Monero komunitu nejkritičtějšího myšlení](/knowledge/critical-thinking/)
+  * [Proč má Monero komunitu nejkritičtějšího myšlení](/knowledge/critical-thinking)/
 
-  * [Podvody, na které si dát pozor při používání Monero](/knowledge/monero-scams/)
+  * [Podvody, na které si dát pozor při používání Monero](/knowledge/monero-scams)/
 
-  * [Jak budou fungovat atomové swapy na Moneru](/knowledge/monero-atomic-swaps/)
+  * [Jak budou fungovat atomové swapy na Moneru](/knowledge/monero-atomic-swaps)/
 
-  * [Co by měl každý uživatel Monero vědět, pokud jde o vytváření sítí](/knowledge/monero-networking/)
+  * [Co by měl každý uživatel Monero vědět, pokud jde o vytváření sítí](/knowledge/monero-networking)/
 
-  * [Jak RingCT skrývá částky transakcí Monero](/knowledge/monero-ringct/)
+  * [Jak RingCT skrývá částky transakcí Monero](/knowledge/monero-ringct)/
 
-  * [Jak skryté adresy Monero chrání vaši identitu](/knowledge/monero-stealth-addresses/)
+  * [Jak skryté adresy Monero chrání vaši identitu](/knowledge/monero-stealth-addresses)/
 
-  * [Jak subadresy Monero zabraňují propojení identity](/knowledge/monero-subaddresses/)
+  * [Jak subadresy Monero zabraňují propojení identity](/knowledge/monero-subaddresses)/
 
-  * [Vysvětlení výstupů Monero](/knowledge/monero-outputs/)
+  * [Vysvětlení výstupů Monero](/knowledge/monero-outputs)/
 
-  * [Osvědčené postupy pro začátečníky s Monero](/knowledge/monero-best-practices/)
+  * [Osvědčené postupy pro začátečníky s Monero](/knowledge/monero-best-practices)/
 
-  * [Jak kruhové podpisy zakrývají výstupy Monera](/knowledge/ring-signatures/)
+  * [Jak kruhové podpisy zakrývají výstupy Monera](/knowledge/ring-signatures)/
 
-  * [Jak Monero vyřešilo problém velikosti bloku, který sužuje bitcoiny](/knowledge/dynamic-block-size/)
+  * [Jak Monero vyřešilo problém velikosti bloku, který sužuje bitcoiny](/knowledge/dynamic-block-size)/
 
-  * [Jak CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag/)
+  * [Jak CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag)/
 
-  * [Proč má Monero ocasní emise](/knowledge/monero-tail-emission/)
+  * [Proč má Monero ocasní emise](/knowledge/monero-tail-emission)/
 
-  * [Stručná historie Monera](/knowledge/monero-history/)
+  * [Stručná historie Monera](/knowledge/monero-history)/
 
-  * [Wired Magazine se o Moneru mýlí, tady je důvod](/knowledge/wired-article-debunked/)
+  * [Wired Magazine se o Moneru mýlí, tady je důvod](/knowledge/wired-article-debunked)/
 
-  * [15 vyvrácených mýtů a obav o Monero](/knowledge/monero-myths-debunked/)
+  * [15 vyvrácených mýtů a obav o Monero](/knowledge/monero-myths-debunked)/
 
-  * [Jak Dandelion++ uchovává původ transakcí Monero v soukromí](/knowledge/monero-dandelion/)
+  * [Jak Dandelion++ uchovává původ transakcí Monero v soukromí](/knowledge/monero-dandelion)/
 
-  * [Proč je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Proč je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Co dělá RandomX tak výjimečným](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Co dělá RandomX tak výjimečným](/knowledge/monero-mining-randomx)/
 
-  * [Proč je Monero lepší než Dash, Zcash, Zcoin (i s Lelantusem), Grin a bitcoinové mixéry jako Wasabi (aktualizováno květen 2020)](/knowledge/why-monero-is-better/)
+  * [Proč je Monero lepší než Dash, Zcash, Zcoin (i s Lelantusem), Grin a bitcoinové mixéry jako Wasabi (aktualizováno květen 2020)](/knowledge/why-monero-is-better)/
+
+Další čtení

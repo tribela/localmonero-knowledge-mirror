@@ -14,6 +14,8 @@ Bitcoin में धन के स्रोत को अस्पष्ट क
 
 ## CoinJoin सौदा क्या है?
 
+## CoinJoin सौदा क्या है?
+
 क्योंकि Bitcoin में सभी लेन-देन पूरी तरह से पारदर्शी हैं - प्रेषक, प्राप्तकर्ता और राशियों का खुलासा करते हुए - उपयोगकर्ताओं को पिछले प्रेषकों और भविष्य के प्राप्तकर्ताओं से उनकी गोपनीयता को संरक्षित करने के लिए और प्रतिबंधन, निगरानी, या शारीरिक हिंसा द्वारा धन की चोरी के जोखिम से बचने के लिए अतिरिक्त कदम उठाने चाहिए। 
 
 Bitcoin पर गोपनीयता के लिए आज सबसे अच्छा समाधान ["CoinJoin"](https://bitcoiner.guide/qna/coinjoin/) नामक एक उपकरण है, जहाँ २ या अधिक उपयोगकर्ता एक साथ काम करते हैं (आमतौर पर एक केंद्रीकृत समन्वयक के माध्यम से) एक विशेष लेनदेन बनाने के लिए जो बाहर के देखने वाले लिए input को output से जोडना़ मुश्किल बनाता है। प्रत्येक प्रतिभागी अपने धन की हिरासत दिए बिना संयुक्त रूप से लेन-देन का निर्माण करने के लिए संचार करता है, और अंत में एक output प्राप्त करता है जिसका पिछला इतिहास अब बाहरी पर्यवेक्षकों के लिए अस्पष्ट (या धुंधलापष्ट) है। 
@@ -25,6 +27,8 @@ Bitcoin पर गोपनीयता के लिए आज सबसे अ
   * CoinJoin के लिए बड़ी मात्रा में धन वाले उपयोगकर्ता को अक्सर CoinJoin के लिए पर्याप्त प्रतिभागियों को खोजने के लिए घंटों (या यहाँ तक कि दिन!) का इंतज़ार करना पड़ सकता है, जिससे उपयोगकर्ता को धन प्राप्त करने से लेकर निजी तौर पर खर्च करने तक बड़ी देरी हो सकती है। 
   * CoinJoin लेनदेन द्वारा प्रदान की जाने वाली गोपनीयता समय के साथ कम हो जाती है क्योंकि अन्य प्रतिभागी धन खर्च करते हैं या KYC बाज़ारों, व्यापारी जिनको ID की आवश्यकता होती है, आदि के माध्यम से अपनी पहचान के लिए अपने output को जोड़ते हैं। इसका मतलब है कि उपयोगकर्ता आदर्शतः अपने गुमनामी भंडार ("छिपने के लिए भीड़ ") को जितना संभव हो उतना ताज़ा रखने के लिए अपने पैसे को निरंतर CoinJoin लेनदेन में घुमाते रहते हैं। 
   * CoinJoin के अधिकांश तरीकों में, CoinJoin लेनदेन के input और output को जोड़ने के लिए प्रतिभागियों को एक निश्चित आकार के UTXO (यानी ०.१ BTC) का उपयोग करना चाहिए। यह उच्च शुल्क (प्रति बड़े input के लिए आवश्यक अधिक अलग लेनदेन), अधिक "विषाक्त परिवर्तन" (निजता के लिए गंभीर जोखिम के बिना खर्च करने अयोग्य धन) की ओर जाता है, और छोटे उपयोगकर्ताओं को मिश्रण करने में सक्षम होने से रोक सकता है यदि उनके पास आवश्यक न्यूनतम शेष राशि नहीं है। 
+
+## Ring Signature इन मुद्दों को कैसे हल करते हैं?
 
 ## Ring Signature इन मुद्दों को कैसे हल करते हैं?
 
@@ -64,6 +68,8 @@ CoinJoin को आमतौर पर निश्चित आकार के
 
 ## मैं और अधिक कैसे सीखूं?
 
+## मैं और अधिक कैसे सीखूं?
+
 यदि आप उत्सुक हैं और ring signature या CoinJoin लेनदेन को बेहतर ढंग से समझना चाहते हैं, तो आरंभ करने के लिए शानदार स्थानों के लिए नीचे दिए गए लिंक देखें: 
 
   * [How Ring Signatures Obscure Monero’s Outputs](/knowledge/ring-signatures)
@@ -73,66 +79,68 @@ CoinJoin को आमतौर पर निश्चित आकार के
 
 अग्रिम पठन
 
-  * [कैसे Monero विशिष्ट रूप से परिपत्र अर्थव्यवस्थाओं को सक्षम बनाता है](/knowledge/monero-circular-economies/)
+  * [कैसे Monero विशिष्ट रूप से परिपत्र अर्थव्यवस्थाओं को सक्षम बनाता है](/knowledge/monero-circular-economies)/
 
-  * [क्यों (और कैसे!) आपको अपनी चाबियां खुद रखनी चाहिए](/knowledge/hold-your-keys/)
+  * [क्यों (और कैसे!) आपको अपनी चाबियां खुद रखनी चाहिए](/knowledge/hold-your-keys)/
 
-  * [Monero में वापस योगदान करना](/knowledge/contributing-to-monero/)
+  * [Monero में वापस योगदान करना](/knowledge/contributing-to-monero)/
 
-  * [Remote nodes कैसे Monero की गोपनीयता को प्रभावित करते हैं](/knowledge/remote-nodes-privacy/)
+  * [Remote nodes कैसे Monero की गोपनीयता को प्रभावित करते हैं](/knowledge/remote-nodes-privacy)/
 
-  * [नेटवर्क को अपग्रेड करने के लिए Monero hard-forks का उपयोग कैसे करता है](/knowledge/network-upgrades/)
+  * [नेटवर्क को अपग्रेड करने के लिए Monero hard-forks का उपयोग कैसे करता है](/knowledge/network-upgrades)/
 
-  * [view tags: कैसे एक byte Monero wallet sync के समय को ४०%+ तक कम कर देगा](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [view tags: कैसे एक byte Monero wallet sync के समय को ४०%+ तक कम कर देगा](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool और Monero खनन के विकेंद्रीकरण में इसकी भूमिका](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool और Monero खनन के विकेंद्रीकरण में इसकी भूमिका](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Monero के लिए यह क्या करेगा](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Monero के लिए यह क्या करेगा](/knowledge/seraphis-for-monero)/
 
-  * [क्या Bitcoin को Monero में बदलना उतना ही निजी है जितना कि सीधे मोनेरो को खरीदना?](/knowledge/most-private-way-to-buy-monero/)
+  * [क्या Bitcoin को Monero में बदलना उतना ही निजी है जितना कि सीधे मोनेरो को खरीदना?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Monero ZCash के विपरीत एक भरोसा न लगने वाले(Trustless) प्रणाली का उपयोग क्यों करता है](/knowledge/monero-trustless-setup/)
+  * [Monero ZCash के विपरीत एक भरोसा न लगने वाले(Trustless) प्रणाली का उपयोग क्यों करता है](/knowledge/monero-trustless-setup)/
 
-  * [Bitcoin की तुलना में Monero मूल्य का एक बेहतर भण्डार क्यों है](/knowledge/monero-better-store-of-value/)
+  * [Bitcoin की तुलना में Monero मूल्य का एक बेहतर भण्डार क्यों है](/knowledge/monero-better-store-of-value)/
 
-  * [Monero Bitcoin के नेटवर्क प्रभाव(network effect) से कैसे जीत सकता है](/knowledge/network-effect/)
+  * [Monero Bitcoin के नेटवर्क प्रभाव(network effect) से कैसे जीत सकता है](/knowledge/network-effect)/
 
-  * [Monero के पास सबसे गंभीर सोच वाला समुदाय क्यों है](/knowledge/critical-thinking/)
+  * [Monero के पास सबसे गंभीर सोच वाला समुदाय क्यों है](/knowledge/critical-thinking)/
 
-  * [Monero का उपयोग करते समय इन घोटालों से बचें](/knowledge/monero-scams/)
+  * [Monero का उपयोग करते समय इन घोटालों से बचें](/knowledge/monero-scams)/
 
-  * [Monero में Atomic Swap कैसे काम करेगा](/knowledge/monero-atomic-swaps/)
+  * [Monero में Atomic Swap कैसे काम करेगा](/knowledge/monero-atomic-swaps)/
 
-  * [जब networking की बात आती है तो हर Monero उपयोगकर्ता को क्या पता होना चाहिए](/knowledge/monero-networking/)
+  * [जब networking की बात आती है तो हर Monero उपयोगकर्ता को क्या पता होना चाहिए](/knowledge/monero-networking)/
 
-  * [कैसे RingCT Monero लेनदेन राशि को छुपाता है](/knowledge/monero-ringct/)
+  * [कैसे RingCT Monero लेनदेन राशि को छुपाता है](/knowledge/monero-ringct)/
 
-  * [Monero Stealth Address आपकी पहचान को कैसे सुरक्षित रखता है](/knowledge/monero-stealth-addresses/)
+  * [Monero Stealth Address आपकी पहचान को कैसे सुरक्षित रखता है](/knowledge/monero-stealth-addresses)/
 
-  * [कैसे Monero Subaddress पहचान संयोजन को रोकते हैं](/knowledge/monero-subaddresses/)
+  * [कैसे Monero Subaddress पहचान संयोजन को रोकते हैं](/knowledge/monero-subaddresses)/
 
-  * [Monero Outputs समझाया गया](/knowledge/monero-outputs/)
+  * [Monero Outputs समझाया गया](/knowledge/monero-outputs)/
 
-  * [प्रारंभी लोगों के लिए Monero सर्वोत्तम प्रणाली](/knowledge/monero-best-practices/)
+  * [प्रारंभी लोगों के लिए Monero सर्वोत्तम प्रणाली](/knowledge/monero-best-practices)/
 
-  * [Ring Signature कैसे Monero के उत्पादन को अस्पष्ट करते हैं](/knowledge/ring-signatures/)
+  * [Ring Signature कैसे Monero के उत्पादन को अस्पष्ट करते हैं](/knowledge/ring-signatures)/
 
-  * [Monero ने Bitcoin को प्रभावित करने वाली block size की समस्या को कैसे हल किया](/knowledge/dynamic-block-size/)
+  * [Monero ने Bitcoin को प्रभावित करने वाली block size की समस्या को कैसे हल किया](/knowledge/dynamic-block-size)/
 
-  * [CLSAG कैसे Monero की दक्षता में सुधार करेगा](/knowledge/what-is-clsag/)
+  * [CLSAG कैसे Monero की दक्षता में सुधार करेगा](/knowledge/what-is-clsag)/
 
-  * [Monero में Tail Emission क्यों है](/knowledge/monero-tail-emission/)
+  * [Monero में Tail Emission क्यों है](/knowledge/monero-tail-emission)/
 
-  * [Monero का एक संक्षिप्त इतिहास](/knowledge/monero-history/)
+  * [Monero का एक संक्षिप्त इतिहास](/knowledge/monero-history)/
 
-  * [Wired पत्रिका Monero के बारे में गलत है, जाने क्यों](/knowledge/wired-article-debunked/)
+  * [Wired पत्रिका Monero के बारे में गलत है, जाने क्यों](/knowledge/wired-article-debunked)/
 
-  * [शीर्ष 15 Monero मिथकों और चिंताओं को खारिज किया गया](/knowledge/monero-myths-debunked/)
+  * [शीर्ष 15 Monero मिथकों और चिंताओं को खारिज किया गया](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion++ कैसे Monero के लेन-देन की उत्पत्ति को निजी रखता है](/knowledge/monero-dandelion/)
+  * [Dandelion++ कैसे Monero के लेन-देन की उत्पत्ति को निजी रखता है](/knowledge/monero-dandelion)/
 
-  * [Monero खुला स्रोत(open source) और विकेंद्रीकृत क्यों है](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Monero खुला स्रोत(open source) और विकेंद्रीकृत क्यों है](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [मोनेरो खनन: क्या RandomX को इतना खास बनाता है](/knowledge/monero-mining-randomx/)
+  * [मोनेरो खनन: क्या RandomX को इतना खास बनाता है](/knowledge/monero-mining-randomx)/
 
-  * [Monero क्यों Dash, Zcash, Zcoin (यहाँ तक कि Lelantus के साथ भी), Grin and Bitcoin Mixers जैसे Wasabi से बेहतर है (संपादित मई २०२०)](/knowledge/why-monero-is-better/)
+  * [Monero क्यों Dash, Zcash, Zcoin (यहाँ तक कि Lelantus के साथ भी), Grin and Bitcoin Mixers जैसे Wasabi से बेहतर है (संपादित मई २०२०)](/knowledge/why-monero-is-better)/
+
+अग्रिम पठन

@@ -10,7 +10,11 @@ image_credit_url: "https://cypherstack.com"
 
 ## 寫下你的助記詞種子!
 
+## 寫下你的助記詞種子!
+
 保持加密貨幣安全的第一條規則，也是最重要的一點就是寫下你的門羅幣助記詞種子，中文對SEED的翻譯，有時候叫助記詞，也可以叫種子，它產生於首次創建錢包時，它看起來是一組單詞,它同時是另一種形式的私密金鑰，助記詞種子和私密金鑰可以互相轉化. 如果你記好了此種子，哪怕你的電腦或者手機壞了，上面的錢包沒了，那麼你還是可以在任何一台設備恢復門羅幣. 相反，如果你沒有記好助記詞種子，並且丟失了錢包，則門羅幣將會丟失，並且沒人能幫助你恢復它. 同樣，請勿與任何人共用此助記詞，任何人知道了你的助記詞，則他們擁有對你的門羅幣轉帳和消費權.許多人對助記詞，私密金鑰，種子的概念一無所知，被黑，被盜的案例大有人在. 因此我們建議將助記詞寫下來. 用物理形式，而不要以網路數位方式存儲它，並確保你在不同的地方都有多份副本.確保門羅幣安全的第一條規則，記錄下你的助記詞種子.
+
+## 再檢查一遍發送地址
 
 ## 再檢查一遍發送地址
 
@@ -18,11 +22,17 @@ image_credit_url: "https://cypherstack.com"
 
 ## 狡兔三窟，冷錢包和熱錢包
 
+## 狡兔三窟，冷錢包和熱錢包
+
 熱錢包和冷錢包是加密貨幣領域的常用術語，其實這個概念確實非常簡單. 熱錢包是你經常拿來使用和攜帶的錢包. 冷錢包是不經常碰到的錢包，類似於存在銀行裡的錢. 舉個例子，身上帶幾萬塊現金是不安全的，最好只帶需要用的零錢，大額的錢應該存進銀行或者保險櫃，需要的時候再用，同樣的道理，用戶應謹慎使用門羅幣熱錢包，當然熱錢包也包括很流行的手機錢包，記得不要存太多幣在裡面. 我們應該有一個平時不觸網的冷錢包，存放大部分幣，只有這樣，當丟手機，電腦被盜，或其他不幸事件發生時，才不會導致資金的全部損失.
 
 ## 硬體錢包
 
+## 硬體錢包
+
 如果你還是擔心無孔不入的病毒和惡意軟體攻擊，為保護門羅幣深感無力，那麼你可以考慮使用硬體錢包. 簡單的說，硬體錢包可以讓的私密金鑰和助記詞並不儲存在電腦和網路上. 因此，即使你的電腦受到威脅，駭客也將無法訪問你的助記詞. 只有當你將硬體錢包連接到電腦並簽署交易，這時候才能花費和轉帳.硬體錢包將財產的安全與否從更容易被攻擊的電腦和互聯網，轉移到較小攻擊面的硬體錢包,只要你的硬體錢包製造商靠譜，那麼就不用擔心網路駭客. 對於不瞭解電腦安全性的普通人來說，也是確保資金安全的可行選擇.
+
+## 不確定怎麼做也不必擔心，直接使用門羅錢包的默認設置就能搞定
 
 ## 不確定怎麼做也不必擔心，直接使用門羅錢包的默認設置就能搞定
 
@@ -34,66 +44,68 @@ image_credit_url: "https://cypherstack.com"
 
 進一步閱讀
 
-  * [門羅幣如何獨特地實現循環經濟](/knowledge/monero-circular-economies/)
+  * [門羅幣如何獨特地實現循環經濟](/knowledge/monero-circular-economies)/
 
-  * [門羅幣環形簽名與CoinJoin像在Wasabi比較](/knowledge/ring-signatures-vs-coinjoin/)
+  * [門羅幣環形簽名與CoinJoin像在Wasabi比較](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [為什麼（以及如何！）你應該持有你自己的鑰匙](/knowledge/hold-your-keys/)
+  * [為什麼（以及如何！）你應該持有你自己的鑰匙](/knowledge/hold-your-keys)/
 
-  * [貢獻為門羅幣](/knowledge/contributing-to-monero/)
+  * [貢獻為門羅幣](/knowledge/contributing-to-monero)/
 
-  * [遠程節點如何影響門羅幣的隱私](/knowledge/remote-nodes-privacy/)
+  * [遠程節點如何影響門羅幣的隱私](/knowledge/remote-nodes-privacy)/
 
-  * [門羅幣是如何使用硬分叉為升級網絡](/knowledge/network-upgrades/)
+  * [門羅幣是如何使用硬分叉為升級網絡](/knowledge/network-upgrades)/
 
-  * [查看標籤：一個字節如何將門羅幣錢包的同步時間減少40%以上](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [查看標籤：一個字節如何將門羅幣錢包的同步時間減少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool和它在去Monero採礦中心化的作用](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool和它在去Monero採礦中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis：它將為門羅幣做什麼](/knowledge/seraphis-for-monero/)
+  * [Seraphis：它將為門羅幣做什麼](/knowledge/seraphis-for-monero)/
 
-  * [把比特幣兌換成門羅幣，就可以高枕無憂了嗎?](/knowledge/most-private-way-to-buy-monero/)
+  * [把比特幣兌換成門羅幣，就可以高枕無憂了嗎?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [為什麼門羅幣不像大零幣那樣需要初始信任來實現隱私](/knowledge/monero-trustless-setup/)
+  * [為什麼門羅幣不像大零幣那樣需要初始信任來實現隱私](/knowledge/monero-trustless-setup)/
 
-  * [為什麼門羅幣才是電子黃金，相對於比特幣更有儲存價值的屬性](/knowledge/monero-better-store-of-value/)
+  * [為什麼門羅幣才是電子黃金，相對於比特幣更有儲存價值的屬性](/knowledge/monero-better-store-of-value)/
 
-  * [門羅幣是如何蠶食比特幣的份額和先發優勢](/knowledge/network-effect/)
+  * [門羅幣是如何蠶食比特幣的份額和先發優勢](/knowledge/network-effect)/
 
-  * [為什麼說門羅幣社區最具批判性精神](/knowledge/critical-thinking/)
+  * [為什麼說門羅幣社區最具批判性精神](/knowledge/critical-thinking)/
 
-  * [門羅幣防詐騙指南](/knowledge/monero-scams/)
+  * [門羅幣防詐騙指南](/knowledge/monero-scams)/
 
-  * [原子互換技術將如何在門羅幣上實現](/knowledge/monero-atomic-swaps/)
+  * [原子互換技術將如何在門羅幣上實現](/knowledge/monero-atomic-swaps)/
 
-  * [門羅幣與當代互聯網，隱私達人的須知](/knowledge/monero-networking/)
+  * [門羅幣與當代互聯網，隱私達人的須知](/knowledge/monero-networking)/
 
-  * [ RingCT環形機密技術是如何隱藏門羅幣交易的金額](/knowledge/monero-ringct/)
+  * [ RingCT環形機密技術是如何隱藏門羅幣交易的金額](/knowledge/monero-ringct)/
 
-  * [門羅幣隱身地址如何保護你的身份](/knowledge/monero-stealth-addresses/)
+  * [門羅幣隱身地址如何保護你的身份](/knowledge/monero-stealth-addresses)/
 
-  * [門羅幣子位址是如何防止使用者資訊被關聯](/knowledge/monero-subaddresses/)
+  * [門羅幣子位址是如何防止使用者資訊被關聯](/knowledge/monero-subaddresses)/
 
-  * [加密貨幣裡面的output，中文譯作輸出，這個概念到底什麼意思,又為什麼門羅幣轉帳後餘額顯示錯誤要等待二十分鐘](/knowledge/monero-outputs/)
+  * [加密貨幣裡面的output，中文譯作輸出，這個概念到底什麼意思,又為什麼門羅幣轉帳後餘額顯示錯誤要等待二十分鐘](/knowledge/monero-outputs)/
 
-  * [環形簽名如何保護門羅幣發送者的輸出](/knowledge/ring-signatures/)
+  * [環形簽名如何保護門羅幣發送者的輸出](/knowledge/ring-signatures)/
 
-  * [門羅幣是如何解決困擾比特幣的區塊大小的擴容問題](/knowledge/dynamic-block-size/)
+  * [門羅幣是如何解決困擾比特幣的區塊大小的擴容問題](/knowledge/dynamic-block-size)/
 
-  * [ 新的CLSAG環簽名技術將如何提高門羅幣的效率](/knowledge/what-is-clsag/)
+  * [ 新的CLSAG環簽名技術將如何提高門羅幣的效率](/knowledge/what-is-clsag)/
 
-  * [為什麼門羅幣擁有尾部增發的特性](/knowledge/monero-tail-emission/)
+  * [為什麼門羅幣擁有尾部增發的特性](/knowledge/monero-tail-emission)/
 
-  * [門羅幣的前世今生](/knowledge/monero-history/)
+  * [門羅幣的前世今生](/knowledge/monero-history)/
 
-  * [Wired雜誌是如何誤解了門羅](/knowledge/wired-article-debunked/)
+  * [Wired雜誌是如何誤解了門羅](/knowledge/wired-article-debunked)/
 
-  * [流言終結者：關於門羅幣的15大傳言和疑慮](/knowledge/monero-myths-debunked/)
+  * [流言終結者：關於門羅幣的15大傳言和疑慮](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion ++蒲公英改進協議如何使Monero從源頭得到更強防護](/knowledge/monero-dandelion/)
+  * [Dandelion ++蒲公英改進協議如何使Monero從源頭得到更強防護](/knowledge/monero-dandelion)/
 
-  * [為什麼門羅幣是開源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [為什麼門羅幣是開源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [門羅幣挖礦: 什麼使 RandomX 算法如此特別](/knowledge/monero-mining-randomx/)
+  * [門羅幣挖礦: 什麼使 RandomX 算法如此特別](/knowledge/monero-mining-randomx)/
 
-  * [為什麼門羅幣優於達世幣, 大零幣, 小零幣 , 古靈幣以及經過Wasabi級別混幣器混淆後的比特幣 (更新於2020年五月)](/knowledge/why-monero-is-better/)
+  * [為什麼門羅幣優於達世幣, 大零幣, 小零幣 , 古靈幣以及經過Wasabi級別混幣器混淆後的比特幣 (更新於2020年五月)](/knowledge/why-monero-is-better)/
+
+進一步閱讀

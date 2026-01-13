@@ -10,21 +10,39 @@ Nobena kriptovaluta ni brez pomanjkljivosti in Monero ni izjema. Pravzaprav je s
 
 Kljub temu je nekaj pogostih kritik, ki se nanašajo na Monero, zastarelih ali nepravilnih, druge pa predstavljajo zelo ozek pogled na zadevni problem. V tem članku upamo, da bomo te kritike razjasnili.
 
-  1. [Monero se bo zaradi zavezanosti k zasebnosti in anonimnosti v svojih transakcijah soočil z regulativnim nadzorom, ki bo daleč onkraj drugih kriptovalut.](/knowledge/monero-myths-debunked#1/)
-  2. [Monero ima manj razpoložljivih denarnic.](/knowledge/monero-myths-debunked#2/)
-  3. [Monero ima slabo uporabniško izkušnjo.](/knowledge/monero-myths-debunked#3/)
-  4. [Monero bo zastarel, če bolj priljubljen blockchain sprejme močno tehnologijo zasebnosti.](/knowledge/monero-myths-debunked#4/)
-  5. [Ali nima Monero zelo visokih provizij za transakcije?](/knowledge/monero-myths-debunked#5/)
-  6. [Transakcija Monero je velikokrat večja od transakcije Bitcoin.](/knowledge/monero-myths-debunked#6/)
-  7. [Monero ima pogoste hard forke. Ali to ne pomeni, da je centraliziran?](/knowledge/monero-myths-debunked#7/)
-  8. [To je fluffyponyjev osebni kovanec!](/knowledge/monero-myths-debunked#8/)
-  9. [Večino obveznosti od leta 2017 je prišla od posameznika, znanega kot moneromooo-monero](/knowledge/monero-myths-debunked#9/)
-  10. [Ali ni Monero zlahka 51 odstotno napaden?](/knowledge/monero-myths-debunked#10/)
-  11. [CPU-ju prijazen algoritem? Ali rudarjenja Monero ne bodo prevzeli botneti?](/knowledge/monero-myths-debunked#11/)
-  12. [Monero forki ne škodujejo le ekonomski uspešnosti Monera, temveč tudi njegovi zasebnosti!](/knowledge/monero-myths-debunked#12/)
-  13. [Ali ni imel Monero v zgodnjih dneh ohromljenega rudarja, ki je bil uporabljen za obogatitev ustanoviteljev?](/knowledge/monero-myths-debunked#13/)
-  14. [Če je Monero tako zasebna valuta, kako lahko preverimo dobavo in zagotovimo, da nam nihče pred nosom ne bo brezplačno tiskal Monera?](/knowledge/monero-myths-debunked#14/)
-  15. [Večina trenutnega hashrata Monera prihaja iz samo dveh bazenov.](/knowledge/monero-myths-debunked#15/)
+  1. [Monero se bo zaradi zavezanosti k zasebnosti in anonimnosti v svojih transakcijah soočil z regulativnim nadzorom, ki bo daleč onkraj drugih kriptovalut.](/knowledge/monero-myths-debunked#1)/
+  2. [Monero ima manj razpoložljivih denarnic.](/knowledge/monero-myths-debunked#2)/
+  3. [Monero ima slabo uporabniško izkušnjo.](/knowledge/monero-myths-debunked#3)/
+  4. [Monero bo zastarel, če bolj priljubljen blockchain sprejme močno tehnologijo zasebnosti.](/knowledge/monero-myths-debunked#4)/
+  5. [Ali nima Monero zelo visokih provizij za transakcije?](/knowledge/monero-myths-debunked#5)/
+  6. [Transakcija Monero je velikokrat večja od transakcije Bitcoin.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero ima pogoste hard forke. Ali to ne pomeni, da je centraliziran?](/knowledge/monero-myths-debunked#7)/
+  8. [To je fluffyponyjev osebni kovanec!](/knowledge/monero-myths-debunked#8)/
+  9. [Večino obveznosti od leta 2017 je prišla od posameznika, znanega kot moneromooo-monero](/knowledge/monero-myths-debunked#9)/
+  10. [Ali ni Monero zlahka 51 odstotno napaden?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU-ju prijazen algoritem? Ali rudarjenja Monero ne bodo prevzeli botneti?](/knowledge/monero-myths-debunked#11)/
+  12. [Monero forki ne škodujejo le ekonomski uspešnosti Monera, temveč tudi njegovi zasebnosti!](/knowledge/monero-myths-debunked#12)/
+  13. [Ali ni imel Monero v zgodnjih dneh ohromljenega rudarja, ki je bil uporabljen za obogatitev ustanoviteljev?](/knowledge/monero-myths-debunked#13)/
+  14. [Če je Monero tako zasebna valuta, kako lahko preverimo dobavo in zagotovimo, da nam nihče pred nosom ne bo brezplačno tiskal Monera?](/knowledge/monero-myths-debunked#14)/
+  15. [Večina trenutnega hashrata Monera prihaja iz samo dveh bazenov.](/knowledge/monero-myths-debunked#15)/
+
+  1. [Monero se bo zaradi zavezanosti k zasebnosti in anonimnosti v svojih transakcijah soočil z regulativnim nadzorom, ki bo daleč onkraj drugih kriptovalut.](/knowledge/monero-myths-debunked#1)/
+  2. [Monero ima manj razpoložljivih denarnic.](/knowledge/monero-myths-debunked#2)/
+  3. [Monero ima slabo uporabniško izkušnjo.](/knowledge/monero-myths-debunked#3)/
+  4. [Monero bo zastarel, če bolj priljubljen blockchain sprejme močno tehnologijo zasebnosti.](/knowledge/monero-myths-debunked#4)/
+  5. [Ali nima Monero zelo visokih provizij za transakcije?](/knowledge/monero-myths-debunked#5)/
+  6. [Transakcija Monero je velikokrat večja od transakcije Bitcoin.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero ima pogoste hard forke. Ali to ne pomeni, da je centraliziran?](/knowledge/monero-myths-debunked#7)/
+  8. [To je fluffyponyjev osebni kovanec!](/knowledge/monero-myths-debunked#8)/
+  9. [Večino obveznosti od leta 2017 je prišla od posameznika, znanega kot moneromooo-monero](/knowledge/monero-myths-debunked#9)/
+  10. [Ali ni Monero zlahka 51 odstotno napaden?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU-ju prijazen algoritem? Ali rudarjenja Monero ne bodo prevzeli botneti?](/knowledge/monero-myths-debunked#11)/
+  12. [Monero forki ne škodujejo le ekonomski uspešnosti Monera, temveč tudi njegovi zasebnosti!](/knowledge/monero-myths-debunked#12)/
+  13. [Ali ni imel Monero v zgodnjih dneh ohromljenega rudarja, ki je bil uporabljen za obogatitev ustanoviteljev?](/knowledge/monero-myths-debunked#13)/
+  14. [Če je Monero tako zasebna valuta, kako lahko preverimo dobavo in zagotovimo, da nam nihče pred nosom ne bo brezplačno tiskal Monera?](/knowledge/monero-myths-debunked#14)/
+  15. [Večina trenutnega hashrata Monera prihaja iz samo dveh bazenov.](/knowledge/monero-myths-debunked#15)/
+
+## 1\. Monero se bo zaradi zavezanosti k zasebnosti in anonimnosti v svojih transakcijah soočil z regulativnim nadzorom, ki bo daleč onkraj drugih kriptovalut.
 
 ## 1\. Monero se bo zaradi zavezanosti k zasebnosti in anonimnosti v svojih transakcijah soočil z regulativnim nadzorom, ki bo daleč onkraj drugih kriptovalut.
 
@@ -40,9 +58,13 @@ Lahko bi rekli, da se je ugled Bitcoina spremenil, ko so ljudje spoznali, da v r
 
 ## 2\. Monero ima manj razpoložljivih denarnic.
 
+## 2\. Monero ima manj razpoložljivih denarnic.
+
 Monero ima dejansko manj možnosti denarnic kot številni obstoječi kovanci. To je zato, ker je bil Monero razvit od temeljev. Njegova kodna osnova je povsem drugačna kot pri Bitcoinu. To pomeni, da Monero ne more preprosto vdreti jedra Bitcoinove denarnice ali katere koli druge denarnice, ki obstaja za Bitcoin, kot to počne večina kovancev, in izkoristiti obstoječe infrastrukture. Prav tako to pomeni, da Monero ni tako enostavno dodati v denarnice tretjih oseb, kot je Exodus.
 
 Kljub temu se počasi, a zanesljivo, za Monero pojavljajo vse vrste denarnic. Dolga leta je veljalo, da Monero nima GUI in da ne podpira mobilnih denarnic, zdaj pa temu več ni tako. Obstajajo denarnice, ki so namenjene posebej Moneru, kot sta Monerujo za Android in Cake Wallet za iOS in Android, pa tudi nove, kot so Wookey, Exa Wallet in druge. Poleg tega so denarnice tretjih oseb začele dodajati Monero, čeprav počasneje, vključno z denarnicama Exodus in Guarda, in pričakujemo, da se bo ta trend sčasoma in z dozorevanjem kodne baze Monero le še nadaljeval.
+
+## 3\. Monero ima slabo uporabniško izkušnjo.
 
 ## 3\. Monero ima slabo uporabniško izkušnjo.
 
@@ -55,6 +77,8 @@ Bralca vabimo k branju člankov o korakih, ki jih bitcoinerji priporočajo za oh
 Pri Moneru je ta seznam podrobnosti skoraj popolnoma odpravljen. Vsaka transakcija Monero vsakič ohrani visoko raven zasebnosti, pri čemer uporabniku ni treba storiti ničesar ali uporabiti zunanje programske opreme. Medtem ko je pri Bitcoinu zasebnost težko zagotoviti vsem, razen najbolj izkušenim uporabnikom, je pri Moneru težko zagotoviti napačno zasebnost vsem in ves čas. Kar zadeva kompromise, menimo, da so daljši naslovi in čas sinhronizacije več kot vredni.
 
 In tudi po razpravi o vsem zgoraj navedenem ostaja dejstvo, da se uporabniška izkušnja sčasoma pogosto izboljša, in Monero ni izjema. Uporabniška uporabniška izkušnja kovanca se lahko po nekaj letih bistveno izboljša, vendar je njegove temelje veliko težje spremeniti.
+
+## 4\. Monero bo zastarel, če bolj priljubljen blockchain sprejme močno tehnologijo zasebnosti.
 
 ## 4\. Monero bo zastarel, če bolj priljubljen blockchain sprejme močno tehnologijo zasebnosti.
 
@@ -78,6 +102,8 @@ Kljub temu Monero poleg zasebnosti ponuja veliko funkcij, ki jih Bitcoin nima. D
 
 ## 5\. Ali nima Monero zelo visokih provizij za transakcije?
 
+## 5\. Ali nima Monero zelo visokih provizij za transakcije?
+
 Ne več! Zahvaljujoč čudoviti tehnologiji bulletproofs, ki je bila dodana oktobra 2018, se velikost transakcij drastično zmanjša (za več kot 80 %), zaradi česar se podobno zmanjšajo tudi provizije za transakcije. Pravzaprav je v času pisanja tega članka Monero na bajt cenejši od Bitcoina, nadaljnje optimizacije tehnologije pa jih bodo še znižale.
 
 Te optimizacije so raznolike in pogoste. Eden od primerov so prav pametne optimizacije v bulletproofih, ki zmanjšujejo matematične podatke, potrebne za izračun in preverjanje, včasih tudi do 25 %.
@@ -85,6 +111,10 @@ Te optimizacije so raznolike in pogoste. Eden od primerov so prav pametne optimi
 Poleg tega so v pripravi nove, zanimive sheme obročnega podpisovanja, kot je CLSAG, ki bo nadomestila sedanjo shemo MLSAG in dodatno zmanjšala velikost celotne transakcije za 25-35 %. Poleg tega obstajajo še novejše, bolj krvaveče tehnologije s povsem drugačnimi sistemi dokazovanja, ki lahko ohranijo sedanje velikosti transakcij, vendar imajo velikost obroča več kot sto, kot so Triptych, Arcturus in Lelantus, ki so vse manjše in učinkovitejše od sedanjih shem.
 
 ## 6\. Transakcija Monero je velikokrat večja od transakcije Bitcoin.
+
+## 6\. Transakcija Monero je velikokrat večja od transakcije Bitcoin.
+
+## 7\. Monero ima pogoste hard forke. Ali to ne pomeni, da je centraliziran?
 
 ## 7\. Monero ima pogoste hard forke. Ali to ne pomeni, da je centraliziran?
 
@@ -98,9 +128,13 @@ Razvojna ekipa decentralizacije ugotavlja, da je takšen urnik prezahtevno in na
 
 ## 8\. To je fluffyponyjev osebni kovanec!
 
+## 8\. To je fluffyponyjev osebni kovanec!
+
 To ni in nikoli ni bil kovanec Riccarda 'fluffypony' Spagnija. Sploh mu ni uspelo. Začel ga je psevdonimni posameznik, znan kot thankful_for_today, in o tem je zelo zanimiva zgodba kdaj drugič. Fluffypony je zaslovel tako kot član osrednje ekipe/vodilni vzdrževalec, saj je dal veliko časa in sredstev za pomoč pri rasti kovanca, pa tudi s svojimi potovanji in govorjenjem na konferencah. S temi dvema stvarema v kombinaciji je postal nekakšen neuradni obraz za Monero in je bil običajno prehod, skozi katerega so nas ljudje našli. Zaradi grozne kulture CEO, ki je bila razširjena na sceni kriptovalut, so domnevali, da je bil ustanovitelj in vodja Monera, kar oboje ni res.
 
 V današnjem času je fluffypony še vedno del ožje ekipe, vendar ni več glavni vzdrževalec kodne baze in se je vrnil k delu na svojih osebnih projektih. Monero nadaljuje prav dobro.
+
+## 9\. Večino obveznosti od leta 2017 je prišla od posameznika, znanega kot moneromooo-monero
 
 ## 9\. Večino obveznosti od leta 2017 je prišla od posameznika, znanega kot moneromooo-monero
 
@@ -109,6 +143,8 @@ To je neizpodbitno dejstvo, o katerem ni treba razpravljati. Moneromooo je dobro
 Kot si lahko predstavljate, bo delo na Monero s polnim delovnim časom namesto na prostovoljni osnovi povzročilo veliko količino nakopičenega dela. Ker Monero ni imel premine, ICO in ne prejema nagrade za ustanovitelja, na projektu sicer ne delajo inženirji s polnim delovnim časom in ljudje prispevajo, kar lahko in kadar lahko, zato preprosto ni mogoče pričakovati, da bi ti prispevki odtehtali delo delavca s polnim delovnim časom..
 
 Kljub temu si še vedno zelo prizadevamo za vzpostavitev nadzora in ravnovesja. Član osnovne ekipe še vedno združuje kodo po pregledu, tako da ne gre za primer, ko posameznik hkrati ustvarja in združuje kodo, s čimer se izogne vsakršnemu nadzoru, ki je potreben za odkrivanje hudih napak ali zlonamernih namenov.
+
+## 10\. Ali ni Monero zlahka 51 odstotno napaden?
 
 ## 10\. Ali ni Monero zlahka 51 odstotno napaden?
 
@@ -122,6 +158,8 @@ Natančni stroški strojne opreme za 51-odstotni napad na omrežje Monero niso b
 
 ## 11\. CPU-ju prijazen algoritem? Ali rudarjenja Monero ne bodo prevzeli botneti?
 
+## 11\. CPU-ju prijazen algoritem? Ali rudarjenja Monero ne bodo prevzeli botneti?
+
 Dva strašila na področju rudarjenja sta ASIC in botneti, oddaljevanje od enega pa nujno pomeni približevanje drugemu. Če za rudarjenje Monera potrebujemo procesor, lahko hekerji teoretično prevzamejo nadzor nad več sto, če ne celo tisoč ranljivih računalnikov in jih prisilijo, da v njihovem imenu rudarijo Monero, kar jih nič ne stane, pri tem pa so konkurenčni tistim, ki imajo v gospodinjstvu le nekaj računalnikov. 
 
 Prvo nasprotovanje temu argumentu se nanaša na lastnike botnetov. Čeprav ne odobravamo vdiranja v računalnike drugih, je vstopna ovira za lastništvo in upravljanje botnetov veliko nižja kot za lastništvo računalnikov ASIC. Potrebna je programska oprema - pogosto prosto dostopna in odprtokodna - ter čas in spretnost za odkrivanje ranljivih računalnikov. Za drugo so potrebni neverjetni zneski kapitala in dostop do proizvodnje. Eno lahko naredi otrok v kleti, drugo pa le izjemno premožni. Iz tega lahko sklepamo, da bi bili, če bi se uresničili najhujši strahovi rudarjev, botneti sami bolj decentralizirani kot ASIC.
@@ -129,6 +167,8 @@ Prvo nasprotovanje temu argumentu se nanaša na lastnike botnetov. Čeprav ne od
 Kljub temu je skupnost Monero prepričana, da je ta težava pretirana. Inženirji RandomX so protokol namenoma zasnovali tako, da za delovanje potrebuje 2 GB pomnilnika RAM. Z drugimi besedami, številni majhni in ranljivi virtualni zasebni strežniki (VPS) preprosto ne bodo imeli te zmogljivosti, če pa bi jo imeli, bi sistemski administrator zelo opazil porast uporabljenih virov, kar bi vodilo v takojšnjo preiskavo. Z drugimi besedami, ne more delovati tiho v ozadju, tako kot kompromitirani računalniki, ki sodelujejo v napadu DDOS, ali tiho vohljati za gesli. Ko je rudar vklopljen, to vedo vsi.
 
 To zmanjšuje število računalnikov, ki bi jih botnet lahko uspešno ogrozil, na tiste, ki so zelo tehnološko nesposobni, ali na tiste, ki jih nikoli ne preverjamo, in ne na množico ranljivih računalnikov, za katere zagovorniki tega argumenta domnevajo, da so ogroženi. 
+
+## 12\. Monero forki ne škodujejo le ekonomski uspešnosti Monera, temveč tudi njegovi zasebnosti!
 
 ## 12\. Monero forki ne škodujejo le ekonomski uspešnosti Monera, temveč tudi njegovi zasebnosti!
 
@@ -146,6 +186,8 @@ Kljub temu se nam zdi naivno misliti, da nikoli ne bo prišlo do takšnega napad
 
 ## 13\. Ali ni imel Monero v zgodnjih dneh ohromljenega rudarja, ki je bil uporabljen za obogatitev ustanoviteljev?
 
+## 13\. Ali ni imel Monero v zgodnjih dneh ohromljenega rudarja, ki je bil uporabljen za obogatitev ustanoviteljev?
+
 Zgodovina Monera je zanimiva in mnoge bo morda presenetilo, ko bodo slišali, da se je res začelo kot prevara. Ustvarjalec, thankful_for_today, je bil verjetno povezan s skupino za kriptovalute, ki je izdelala protokol CryptoNote, vendar je imel zvijačne namene, da bi ljudi z njegovo uporabo prevaral.
 
 Njihova začetna prizadevanja za kovance so bila neuspešna, zato so ustvarili Monero, da bi poskusili še enkrat. Tudi to ni uspelo, saj je skupnost hitro ugotovila, da je nekaj narobe, in kovanec prevzela. Kljub temu so imeli goljufivi ustvarjalci v rokavu še zadnji trik. Javnosti so izdali namerno deoptimizirano programsko opremo za rudarjenje, optimizirano različico pa so obdržali zase, da bi lahko prelisičili druge in veliko zaslužili z nagradami za bloke.
@@ -158,11 +200,15 @@ Z pregledom nazaj bi lahko nekateri kritizirali odločitev, da kovanca ne bodo p
 
 ## 14\. Če je Monero tako zasebna valuta, kako lahko preverimo dobavo in zagotovimo, da nam nihče pred nosom ne bo brezplačno tiskal Monera?
 
+## 14\. Če je Monero tako zasebna valuta, kako lahko preverimo dobavo in zagotovimo, da nam nihče pred nosom ne bo brezplačno tiskal Monera?
+
 Na to vprašanje je težko odgovoriti. Eden od pogostih odgovorov je, da lahko seštejemo transakcije coinbase (ko je nov Monero nagrajen rudarju za rešitev bloka). Te transakcije so pregledne in če jih seštejemo, bi morali dobiti skupno število Monero v obtoku.
 
 Pomembno pa je opozoriti, da če bi se zgodile nečednosti, ki bi povečale količino Monera nad količino, ki jo pričakujemo od transakcij coinbase, se to ne bi zgodilo pri samih transakcijah Coinbase, temveč pri običajni transakciji med denarnicami. To bi se zgodilo le na enega od treh načinov.
 
 Prvič, če je kriptografija, ki dokazuje, da pri transakcijah ni bil ustvarjen ali uničen noben Monero, v osnovi pomanjkljiva. Drugič, če je izvedba (koda) trdne kriptografije pomanjkljiva. Tretji, če nobena od njih ni pomanjkljiva, vendar so računalniki dovolj močni, da lahko prebijejo naše trenutne kriptografske sheme in ustvarijo lažne dokaze.
+
+## 15\. Večina trenutnega hashrata Monera prihaja iz samo dveh bazenov.
 
 ## 15\. Večina trenutnega hashrata Monera prihaja iz samo dveh bazenov.
 
@@ -210,66 +256,68 @@ Dejstvo, da je večina hashrata Monera skoncentrirana v nekaj bazenih, torej ni 
 
 Nadaljnje branje
 
-  * [Kako Monero edinstveno omogoča krožna gospodarstva](/knowledge/monero-circular-economies/)
+  * [Kako Monero edinstveno omogoča krožna gospodarstva](/knowledge/monero-circular-economies)/
 
-  * [Obročni ring podpisi Monero vs CoinJoin kot v Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Obročni ring podpisi Monero vs CoinJoin kot v Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Zakaj (in kako!) bi morali imeti svoje ključe](/knowledge/hold-your-keys/)
+  * [Zakaj (in kako!) bi morali imeti svoje ključe](/knowledge/hold-your-keys)/
 
-  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero/)
+  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero)/
 
-  * [Kako oddaljena vozlišča vplivajo na zasebnost Monera](/knowledge/remote-nodes-privacy/)
+  * [Kako oddaljena vozlišča vplivajo na zasebnost Monera](/knowledge/remote-nodes-privacy)/
 
-  * [Kako Monero uporablja hard-forke za nadgradnjo omrežja](/knowledge/network-upgrades/)
+  * [Kako Monero uporablja hard-forke za nadgradnjo omrežja](/knowledge/network-upgrades)/
 
-  * [Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Kaj bo Naredil za Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Kaj bo Naredil za Monero](/knowledge/seraphis-for-monero)/
 
-  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup/)
+  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup)/
 
-  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect/)
+  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect)/
 
-  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking/)
+  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking)/
 
-  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams/)
+  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams)/
 
-  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps/)
+  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps)/
 
-  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking/)
+  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking)/
 
-  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct/)
+  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct)/
 
-  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses/)
+  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses)/
 
-  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses/)
+  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses)/
 
-  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs/)
+  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs)/
 
-  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices/)
+  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices)/
 
-  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures/)
+  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures)/
 
-  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag/)
+  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag)/
 
-  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission/)
+  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission)/
 
-  * [Kratka zgodovina Monera](/knowledge/monero-history/)
+  * [Kratka zgodovina Monera](/knowledge/monero-history)/
 
-  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked/)
+  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked)/
 
-  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion/)
+  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion)/
 
-  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx/)
+  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx)/
 
-  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better/)
+  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better)/
+
+Nadaljnje branje

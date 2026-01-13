@@ -12,6 +12,8 @@ De overgrote meerderheid van de mensen in de Monero-gemeenschap zijn niet noodza
 
 ## Monero's Community Crowdfunding Systeem
 
+## Monero's Community Crowdfunding Systeem
+
 Monero gebruikt een uniek systeem voor het financieren van werk, namelijk het [Community Crowdfunding System](https://ccs.getmonero.org/) (of "CCS"), waarmee iedereen in de gemeenschap een idee voor financiering kan indienen. Als ze door iedereen worden goedgekeurd, worden deze voorstellen vervolgens opengesteld voor financiering door de gemeenschap.
 
 Het systeem bestaat uit twee fases, die elk baat hebben bij meer betrokkenheid van mensen van allerlei achtergronden.
@@ -30,6 +32,8 @@ _U kunt alle voorstellen in de fase 'Financiering vereist' zien op[CCS-financier
 
 ## Opleiding
 
+## Opleiding
+
 Een andere goede manier waarop u betrokken kunt raken bij het Monero-project, is door te helpen nieuwe en bestaande community-leden op te leiden en te versterken. Dit kan vele vormen aannemen, maar kan zo simpel zijn als het delen van wat u leert over Monero op sociale media, een blog, enz. 
 
 Hier zijn enkele concrete manieren waarop u kunt helpen in het onderwijs:
@@ -37,6 +41,8 @@ Hier zijn enkele concrete manieren waarop u kunt helpen in het onderwijs:
   * Start een eigen blog
   * Schrijf threads op Twitter of Reddit-berichten over dingen die u heeft geleerd over of heeft leren doen met Monero
   * Maak video-'how-to's' van alledaagse dingen die u met Monero doet, zoals het versturen van Monero, het gebruik van een hardware portefeuille, het kopen en verkopen van Monero op [LocalMonero.co](https://localmonero.co), etc.
+
+## Bewustwording en betrokkenheid
 
 ## Bewustwording en betrokkenheid
 
@@ -91,9 +97,13 @@ Het kan ook nuttig zijn om een transactie tussen bijvoorbeeld Bitcoin en Monero 
 
 ## r/monerosupport
 
+## r/monerosupport
+
 Als u al een tijdje betrokken bent met Monero of goed begrijpt hoe u het moet gebruiken en problemen kunt oplossen, kunt u meedoen door naar de subreddit [r/monerosupport](https://www.reddit.com/r/monerosupport/) te gaan en ondersteuning bieden aan gebruikers die daar posten.
 
 Er zijn constant gebruikers die hulp nodig hebben bij (normaal gesproken) basisproblemen, en er zijn er maar een aantal van ons die actief zijn in de subreddit om hen te helpen. Het zou geweldig zijn als meer mensen zich inzetten en bijdragen om nieuwe en bestaande gebruikers te helpen hun problemen op te lossen!
+
+## Samenkomsten van de gemeenschap
 
 ## Samenkomsten van de gemeenschap
 
@@ -105,9 +115,13 @@ Als u ervoor kiest om deel te nemen, respecteer dan de onderwerpen, blijf bij he
 
 ## Vertalingen
 
+## Vertalingen
+
 Voor degenen die twee-of meertalig zijn, is een zeer belangrijke manier om bij te dragen, om te helpen met vertalingen van het Engels naar andere talen. Er is altijd behoefte aan nieuwe talen die moeten worden vertaald en bestaande talen die moeten worden bijgewerkt in het hele systeem, en hoe meer talen we actief ondersteunen, hoe inclusiever en toegankelijker Monero zal worden.
 
 U kunt vertaalbehoeften en informatie vinden op [translate.getmonero.org](https://translate.getmonero.org/) of [op Github](https://github.com/monero-ecosystem/monero-translations).
+
+## Problemen met archiveren
 
 ## Problemen met archiveren
 
@@ -148,70 +162,74 @@ Hoe meer informatie u kunt geven, hoe beter!
 
 ## Conclusie
 
+## Conclusie
+
 Hopelijk heeft deze handleiding u op enkele ideeën gebracht over hoe u iets terug kunt doen voor Monero met behulp van uw unieke vaardigheden, achtergrond en ervaring. Hoe meer van de gemeenschap op deze manier teruggeeft, hoe groter Monero zal zijn en hoe gemakkelijker we de doelen van privé, vervangbaar, zelf-soeverein, censuurbestendig geld kunnen vervullen.
 
 Verder lezen
 
-  * [Hoe Monero op unieke wijze circulaire economieën mogelijk maakt](/knowledge/monero-circular-economies/)
+  * [Hoe Monero op unieke wijze circulaire economieën mogelijk maakt](/knowledge/monero-circular-economies)/
 
-  * [Monero's ringhandtekeningen versus CoinJoin zoals in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero's ringhandtekeningen versus CoinJoin zoals in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Waarom (en hoe!) u uw eigen sleutels moet bezitten](/knowledge/hold-your-keys/)
+  * [Waarom (en hoe!) u uw eigen sleutels moet bezitten](/knowledge/hold-your-keys)/
 
-  * [Hoe externe knooppunten de privacy van Monero beïnvloeden](/knowledge/remote-nodes-privacy/)
+  * [Hoe externe knooppunten de privacy van Monero beïnvloeden](/knowledge/remote-nodes-privacy)/
 
-  * [Hoe Monero hard forks gebruikt om het netwerk te upgraden](/knowledge/network-upgrades/)
+  * [Hoe Monero hard forks gebruikt om het netwerk te upgraden](/knowledge/network-upgrades)/
 
-  * [Weergave tags: Hoe één byte de synchronisatietijden van de Monero portefeuille met meer dan 40% vermindert](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Weergave tags: Hoe één byte de synchronisatietijden van de Monero portefeuille met meer dan 40% vermindert](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool en Zijn Rol bij het Decentraliseren van Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool en Zijn Rol bij het Decentraliseren van Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Wat Het Zal Doen voor Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Wat Het Zal Doen voor Monero](/knowledge/seraphis-for-monero)/
 
-  * [Is het Omzetten van Bitcoin naar Monero Net Zo Privé als het Rechtstreeks Kopen van Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Is het Omzetten van Bitcoin naar Monero Net Zo Privé als het Rechtstreeks Kopen van Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Waarom Monero een Trustless Setup Gebruikt in Tegenstelling tot Zcash](/knowledge/monero-trustless-setup/)
+  * [Waarom Monero een Trustless Setup Gebruikt in Tegenstelling tot Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Waarom Monero een Betere Waardeopslag Is Dan Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Waarom Monero een Betere Waardeopslag Is Dan Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hoe Monero de Netwerkeffecten van Bitcoin Kan Overwinnen](/knowledge/network-effect/)
+  * [Hoe Monero de Netwerkeffecten van Bitcoin Kan Overwinnen](/knowledge/network-effect)/
 
-  * [Waarom Monero de Meest Kritische Denkgemeenschap Heeft](/knowledge/critical-thinking/)
+  * [Waarom Monero de Meest Kritische Denkgemeenschap Heeft](/knowledge/critical-thinking)/
 
-  * [Oplichtingen Om Voor Uit Te Kijken Bij Gebruik van Monero](/knowledge/monero-scams/)
+  * [Oplichtingen Om Voor Uit Te Kijken Bij Gebruik van Monero](/knowledge/monero-scams)/
 
-  * [Hoe Atomic Swaps Zullen Werken in Monero](/knowledge/monero-atomic-swaps/)
+  * [Hoe Atomic Swaps Zullen Werken in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Wat Elke Monero Gebruiker Moet Weten Als het om Netwerken Gaat](/knowledge/monero-networking/)
+  * [Wat Elke Monero Gebruiker Moet Weten Als het om Netwerken Gaat](/knowledge/monero-networking)/
 
-  * [Hoe RingCT Monero's Transactiebedragen verbergt](/knowledge/monero-ringct/)
+  * [Hoe RingCT Monero's Transactiebedragen verbergt](/knowledge/monero-ringct)/
 
-  * [Hoe Monero Stealth Adressen Uw Identiteit Beschermen](/knowledge/monero-stealth-addresses/)
+  * [Hoe Monero Stealth Adressen Uw Identiteit Beschermen](/knowledge/monero-stealth-addresses)/
 
-  * [Hoe Monero's Subadressen Identiteitskoppeling Voorkomen](/knowledge/monero-subaddresses/)
+  * [Hoe Monero's Subadressen Identiteitskoppeling Voorkomen](/knowledge/monero-subaddresses)/
 
-  * [Monero-Outputs uitgelegd](/knowledge/monero-outputs/)
+  * [Monero-Outputs uitgelegd](/knowledge/monero-outputs)/
 
-  * [Praktische Tips van Monero voor Beginners](/knowledge/monero-best-practices/)
+  * [Praktische Tips van Monero voor Beginners](/knowledge/monero-best-practices)/
 
-  * [Hoe Ring-handtekeningen de Resultaten van Monero Verdoezelen](/knowledge/ring-signatures/)
+  * [Hoe Ring-handtekeningen de Resultaten van Monero Verdoezelen](/knowledge/ring-signatures)/
 
-  * [Hoe Monero het Probleem met de Blokgrootte Dat Bitcoin Plaagt Heeft Opgelost](/knowledge/dynamic-block-size/)
+  * [Hoe Monero het Probleem met de Blokgrootte Dat Bitcoin Plaagt Heeft Opgelost](/knowledge/dynamic-block-size)/
 
-  * [Hoe CLSAG de Efficiëntie van Monero Zal Verbeteren](/knowledge/what-is-clsag/)
+  * [Hoe CLSAG de Efficiëntie van Monero Zal Verbeteren](/knowledge/what-is-clsag)/
 
-  * [Waarom Monero een Staartemissie Heeft](/knowledge/monero-tail-emission/)
+  * [Waarom Monero een Staartemissie Heeft](/knowledge/monero-tail-emission)/
 
-  * [Een Korte Geschiedenis van Monero](/knowledge/monero-history/)
+  * [Een Korte Geschiedenis van Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine heeft Ongelijk over Monero, Dit is Waarom](/knowledge/wired-article-debunked/)
+  * [Wired Magazine heeft Ongelijk over Monero, Dit is Waarom](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Monero Mythen en Zorgen Ontkracht](/knowledge/monero-myths-debunked/)
+  * [Top 15 Monero Mythen en Zorgen Ontkracht](/knowledge/monero-myths-debunked)/
 
-  * [Hoe Dandelion++ de Oorsprong van de Transacties van Monero Privé Houdt](/knowledge/monero-dandelion/)
+  * [Hoe Dandelion++ de Oorsprong van de Transacties van Monero Privé Houdt](/knowledge/monero-dandelion)/
 
-  * [Waarom Monero Open Source en Dedecentraliseerd Is](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Waarom Monero Open Source en Dedecentraliseerd Is](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero-Mining: Wat RandomX zo Speciaal Maakt](/knowledge/monero-mining-randomx/)
+  * [Monero-Mining: Wat RandomX zo Speciaal Maakt](/knowledge/monero-mining-randomx)/
 
-  * [Waarom Monero beter is dan Dash, Zcash, Zcoin (zelfs met Lelantus), Grin en Bitcoin Mixers zoals Wasabi (bijgewerkt mei 2020)](/knowledge/why-monero-is-better/)
+  * [Waarom Monero beter is dan Dash, Zcash, Zcoin (zelfs met Lelantus), Grin en Bitcoin Mixers zoals Wasabi (bijgewerkt mei 2020)](/knowledge/why-monero-is-better)/
+
+Verder lezen

@@ -1,99 +1,111 @@
 ---
-title: "Praktische Tips van Monero voor Beginners"
+title: "Monero beste praksis for nybegynnere"
 slug: "monero-best-practices"
 date: "2020-09-18"
 image: "/images/practices.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Veel gebruikers zullen misschien schrikken als ze horen dat experts denken dat het mogelijk is om een cryptocurrency verkeerd te gebruiken. Afhankelijk van waartegen een gebruiker zich verdedigt, zijn er bepaalde stappen en voorzorgsmaatregelen die moeten worden genomen om de privacy te behouden, oplichting te omzeilen en de juiste en tijdige levering van transacties te garanderen. Gelukkig hebben de Monero-ontwikkelaars er alles aan gedaan om op deze gebieden gezonde standaardwaarden in te stellen, zodat gebruikers die de portefeuille-software gebruiken zoals het hoort, voor het grootste deel van de tijd veilig zullen zijn. Dat gezegd hebbende, willen we graag even de tijd nemen om naar een paar gevallen te kijken waarin het nuttig kan zijn om wat bedachtzamer te zijn met uw uitgaven.
+Mange brukere kan bli sjokkert over å høre at eksperter tror at det er mulig å bruke en kryptovaluta feil. Avhengig av hva en bruker forsvarer seg mot, er det visse skritt og forholdsregler som må tas for å bevare personvernet, unngå svindel og sikre riktig og rettidig levering av transaksjoner. Heldigvis har Monero-utviklerne gjort alt de kan for å angi fornuftige standarder i disse områdene, så brukere som bruker lommebokprogramvaren som den er, vil være trygge mesteparten av tiden. Når det er sagt, vil vi gjerne bruke litt tid på å se på noen tilfeller der det kan være nyttig å være litt mer gjennomtenkt i forbruket.
 
-## SCHRIJF UW SEED OP!
+## SKRIV NED DIN FRØ!
 
-De eerste en grootste manier om uw cryptocurrency veilig te houden, is door uw Monero mnemonic seed op te schrijven. Dit is een korte woordenlijst die wordt weergegeven wanneer u voor het eerst uw portefeuille aanmaakt. Als u deze seed heeft, maar uw computer/telefoon uitvalt of stuk gaat, dan kunt u uw Monero herstellen. Als u deze seed niet heeft en uw portefeuille verliest, dan is uw Monero verloren en kan niemand u helpen deze terug te krijgen. Deel deze seed dus met niemand. Als ze deze woordenlijst hebben, hebben ze volledige toegang tot en bestedingsrechten voor uw Monero. Velen zijn onzorgvuldig geweest met het veiligstellen van hun seed en komen tot de angstaanjagende realiteit van verloren geld omdat iemand ze heeft ingenomen. We raden aan om het op te schrijven. Fysiek en niet digitaal opslaan, en zorgen dat u meerdere exemplaren op verschillende plekken heeft. Dit is het belangrijkste wat u kunt doen om uw Monero veilig te stellen. SCHRIJF UW SEED OP!
+## SKRIV NED DIN FRØ!
 
-## Dubbelcheck uw adressen
+Den første og største måten å holde kryptovalutaen din trygg og sikker på er å skrive ned Monero mnemonikkfrøet ditt, som er en kort ordliste som vises når du først oppretter lommeboken din. Hvis du har dette frøet, men datamaskinen/telefonen din dør, kan du gjenopprette Monero. Hvis du ikke har dette frøet, og du mister lommeboken din, er Moneroen din tapt og ingen kan hjelpe deg med å gjenopprette den. På samme måte, ikke del dette frøet med noen. Hvis de har denne ordlisten, har de full tilgang og forbruksrettigheter til din Monero. Mange har vært uforsiktig med å sikre sitt frø, og kommer til den skremmende virkeligheten med tapte midler fordi noen har tatt dem. Vi anbefaler å skrive det ned. Fysisk. Ikke lagre den digitalt, og sørge for at du har flere eksemplarer på ulike steder. Dette er nummer én ting du kan gjøre for å sikre din Monero. SKRIV NED FRØET DITT!
 
-Sommige scams maken gebruik van malware op uw computer die de kopieer-/plakfunctionaliteit wijzigt om het adres van de malware maker in te voeren in plaats van de beoogde ontvanger. Omdat Monero-adressen lang en log zijn, kan het verleidelijk zijn om alleen de eerste paar cijfers en letters te verifiëren en tevreden mee te zijn, of misschien helemaal niet dubbel te controleren. Hoewel het waarschijnlijk niet nodig is om het volledige adres te verifiëren, is het controleren van de eerste dozijn en laatste dozijn tekens van een adres in de meeste gevallen meer dan voldoende. Voor adressen waar u vaak naar verzendt, hebben veel portefeuilles een adresboekfunctie, die het gekozen opgeslagen adres automatisch invoert. Het is echter alsnog het beste om een snelle controle uit te voeren.
+## Dobbeltsjekk adressene dine
 
-## Leer het verschil tussen warme en koude portefeuilles
+## Dobbeltsjekk adressene dine
 
-'Hot' en 'cold wallets' zijn gebruikelijke terminologie in de wereld van cryptocurrency, en het concept is eigenlijk vrij eenvoudig. Een 'hot wallet' is er een die u vaak gebruikt. Het is 'hot' omdat het zogenaamd in uw achterzak zit. 'Cold wallets' zijn portefeuilles die niet vaak worden aangeraakt, vergelijkbaar met geld op een bank. Net zoals het niet aan te raden is om honderden dollars in uw fysieke portefeuille te hebben, maar het over het algemeen acceptabel is om dit op een bankrekening te doen, moeten gebruikers overwegen hoeveel Monero verstandig is om in hun 'hot', mobiele portefeuille te dragen en hoeveel ze het beste thuis houden in een tweede, 'cold wallet'. Op deze manier leidt verlies van een telefoon, diefstal of andere ongelukken niet tot totaal verlies van geld.
+Noen svindel benytter skadelig programvare på datamaskinen din som endrer kopier/lim-funksjonaliteten til å angi adressen til skadevareskaperen i stedet for den tiltenkte mottakeren. Siden Monero-adresser er lange og uhåndterlige, kan det være fristende å bare bekrefte de første tallene og bokstavene og kalle det bra, eller kanskje ikke dobbeltsjekke adressen i det hele tatt. Selv om det sannsynligvis ikke er nødvendig å bekrefte hele adressen, vil det i de fleste tilfeller være mer enn nok å sjekke det første dusinet og det siste dusinet av tegnene i en adresse. For adresser du ofte sender til, har mange lommebøker en adressebokfunksjon, som automatisk legger inn den valgte lagrede adressen. Likevel best å gjøre en rask sjekk.
 
-## Zijn hardware portefeuille's geschikt voor u?
+## Lær forskjellen mellom varme og kalde lommebøker
 
-Als het idee om uw digitale omgeving volledig vrij te houden van virussen en malware om uw Monero te beschermen u eng lijkt, dan zou u een hardware portefeuille kunnen overwegen. In principe houdt de hardware portefeuille uw privésleutels op het apparaat, weg van uw computer. Dus zelfs als uw computer wordt gecompromitteerd, hebben de hackers geen toegang tot uw seed. U kunt het geld alleen uitgeven als de portefeuille is aangesloten op de computer en de transactie ondertekent. Dit verplaatst de beveiliging van de sleutels van uw computer, die voor veel dingen wordt gebruikt en een groot aanvalsoppervlak heeft, naar de hardware portefeuille, die maar voor één ding wordt gebruikt, en een veel kleiner aanvalsoppervlak heeft. Voor de gewone persoon die de ins en outs van computerbeveiliging niet kent, is het een haalbare optie om uw geld veilig te houden.
+## Lær forskjellen mellom varme og kalde lommebøker
 
-## Gebruik bij twijfel de standaardinstellingen (bij Monero)
+Varme og kalde lommebøker er vanlig terminologi i kryptovaluta-området, og konseptet er egentlig ganske enkelt. En varm lommebok er en du tar frem og bruker ofte. Det er "varmt" av å være i baklommen. Kalde lommebøker er de som ikke blir berørt så ofte, på samme måte som penger i en bank. Akkurat som det ikke er tilrådelig å ha hundrevis av dollar i den fysiske lommeboken din, men det er generelt akseptabelt å gjøre det på en bankkonto, bør brukere vurdere hvor mye Monero er fornuftig å ha med seg i sine varme, mobile lommebøker, og hvor mye som er best igjen hjemme i en annen, kald en. På denne måten vil det å miste en telefon, tyveri eller andre uhell ikke føre til totalt tap av penger.
 
-Op het gebied van privacy is het vaak veel te gemakkelijk om per ongeluk gegevens over uzelf te lekken of te onthullen die kunnen worden gebruikt om u te identificeren. Een oud voorbeeld dat niet meer van toepassing is op Monero zijn aangepaste ringmaten. Als de standaardwaarde 11 is en iedereen gebruikt 11, maar u gebruikt consequent 54, het aantal is hoger, dus uw anonimiteit set is ook hoger, maar nu onderscheidt u zich van de massa en zijn uw transacties gemakkelijker te identificeren. Monero heeft sindsdien een update gemaakt om de ringmaat op 11 te zetten, dus nu ziet iedereen er hetzelfde uit. 
+## Er hardware lommebøker riktig for deg?
 
-Er zijn verschillende dingen die men kan doen om per ongeluk hun privacy in andere cryptocurrencies zoals Bitcoin te schaden. Het kiezen van een gerenommeerde mixer, het verkrijgen van niet-KYC/AML-munten, het niet hergebruiken van adressen en het juiste beheer van de muntuitvoer zijn allemaal dingen waar een individu rekening mee moet houden om het lekken van metadata te minimaliseren. Monero omzeilt veel van deze problemen door de privacyfuncties verplicht te stellen en goede standaardinstellingen in te stellen voor de gemiddelde gebruiker. Het bovenstaande voorbeeld van het gebruik van een vaste ringmaat betekent dat eindgebruikers niet hoeven te puzzelen hoe ze de best mogelijke privacy op dit gebied kunnen bereiken. De portefeuille doet het automatisch voor ze.
+## Er hardware lommebøker riktig for deg?
 
-Dit lijkt misschien vreemd om over te praten. Het kan de meeste gebruikers worden vergeven dat ze denken dat alle software automatisch voor hen werkt, en niet tegen hen. Helaas is niets minder waar, en als het om privacy gaat, schieten bijna alle cryptocurrencies ernstig tekort. De hoeveelheid moeite die men moet doen om enig niveau van privacy te bereiken, is meestal te veel en te moeilijk voor een gemiddelde gebruiker. Dit is vaak het geval, zelfs bij andere cryptocurrencies die zich richten op privacy! Monero zorgt ervoor dat privacy automatisch gebeurt, zonder te denken aan gebruikers, waar mogelijk op protocolniveau, en met gezonde standaardinstellingen voor de portefeuille als dat niet het geval is. Gebruik bij twijfel gewoon de standaardinstellingen van de portefeuille en wees niet bang om vragen te stellen.
+Hvis ideen om å holde det digitale miljøet ditt helt fri for virus og skadelig programvare for å beskytte Monero er skummelt for deg, kan du vurdere en maskinvarelommebok. I utgangspunktet holder maskinvarelommeboken dine private nøkler på enheten, borte fra datamaskinen. Så selv om datamaskinen din blir kompromittert, vil ikke hackerne ha tilgang til frøet ditt. Du vil bare kunne bruke pengene hvis maskinvarelommeboken er koblet til datamaskinen og signerer transaksjonen. Dette flytter sikkerheten til nøklene fra datamaskinen din, som brukes til mange ting, og har en stor angrepsflate, til hardware-lommeboken, som kun brukes til én ting, og har en mye mindre angrepsflate. For den vanlige personen som ikke kjenner inn og ut av datasikkerhet, er det et levedyktig alternativ for å holde pengene dine sikre.
 
-Verder lezen
+## Når du er i tvil, bruk standardinnstillingene (med Monero)
 
-  * [Hoe Monero op unieke wijze circulaire economieën mogelijk maakt](/knowledge/monero-circular-economies/)
+## Når du er i tvil, bruk standardinnstillingene (med Monero)
 
-  * [Monero's ringhandtekeningen versus CoinJoin zoals in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+Når det gjelder personvern, er det ofte altfor lett å ved et uhell lekke eller avsløre data om deg selv som kan brukes til å identifisere deg. Et gammelt eksempel som ikke lenger gjelder Monero er tilpassede ringstørrelser. Hvis standarden er 11, og alle bruker 11, men du konsekvent bruker 54, ja, tallet er høyere, så anonymitetssettet ditt er høyere, men nå skiller du deg fra mengden og transaksjonene dine er lettere å identifisere. Monero har siden laget en oppdatering for å fikse ringestørrelsen til 11, så nå ser alle like ut.
 
-  * [Waarom (en hoe!) u uw eigen sleutels moet bezitten](/knowledge/hold-your-keys/)
+Det er flere ting man kan gjøre for å skade personvernet deres ved et uhell i andre kryptovalutaer som Bitcoin. Å velge en anerkjent mikser, skaffe mynter som ikke er KYC/AML, ikke gjenbruke adresser og riktig myntutdatastyring er alle ting en person må vurdere når han prøver å minimere lekkasje av metadata. Monero omgår mange av disse problemene ved å gjøre personvernfunksjonene obligatoriske, og sette gode standardinnstillinger for den gjennomsnittlige brukeren. Eksemplet ovenfor med bruk av en fast ringestørrelse betyr at sluttbrukere ikke trenger å pusle over hvordan man oppnår best mulig personvern i denne forbindelse. Lommeboken gjør det for dem automatisk.
 
-  * [Bijdragen aan Monero](/knowledge/contributing-to-monero/)
+Dette kan virke som en merkelig ting å snakke om. De fleste brukere kan bli tilgitt for å tro at all programvare automatisk fungerer for dem, og ikke mot dem. Dessverre kan ingenting være lenger fra sannheten, og når det kommer til personvern er nesten alle kryptovalutaer alvorlige mangelfulle. Mengden innsats man må gå gjennom for å oppnå et hvilket som helst nivå av personvern er vanligvis for mye og for vanskelig for en gjennomsnittlig bruker. Dette er ofte tilfellet selv med andre kryptovalutaer som fokuserer på personvern! Monero sørger for å gjøre det slik at personvernet skjer automatisk, uten tanke fra brukerne, på protokollnivå når det er mulig, og med fornuftige standardinnstillinger for lommebøker når det ikke er det. Når du er i tvil, bruk bare standardinnstillingene for lommeboken, og ikke vær redd for å stille spørsmål.
 
-  * [Hoe externe knooppunten de privacy van Monero beïnvloeden](/knowledge/remote-nodes-privacy/)
+Videre lesning
 
-  * [Hoe Monero hard forks gebruikt om het netwerk te upgraden](/knowledge/network-upgrades/)
+  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies)/
 
-  * [Weergave tags: Hoe één byte de synchronisatietijden van de Monero portefeuille met meer dan 40% vermindert](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [P2Pool en Zijn Rol bij het Decentraliseren van Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [Hvorfor (og hvordan!) du bør holde dine egne nøkler](/knowledge/hold-your-keys)/
 
-  * [Seraphis: Wat Het Zal Doen voor Monero](/knowledge/seraphis-for-monero/)
+  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero)/
 
-  * [Is het Omzetten van Bitcoin naar Monero Net Zo Privé als het Rechtstreeks Kopen van Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Hvordan eksterne noder påvirker Moneros personvern](/knowledge/remote-nodes-privacy)/
 
-  * [Waarom Monero een Trustless Setup Gebruikt in Tegenstelling tot Zcash](/knowledge/monero-trustless-setup/)
+  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades)/
 
-  * [Waarom Monero een Betere Waardeopslag Is Dan Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Hoe Monero de Netwerkeffecten van Bitcoin Kan Overwinnen](/knowledge/network-effect/)
+  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Waarom Monero de Meest Kritische Denkgemeenschap Heeft](/knowledge/critical-thinking/)
+  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero)/
 
-  * [Oplichtingen Om Voor Uit Te Kijken Bij Gebruik van Monero](/knowledge/monero-scams/)
+  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Hoe Atomic Swaps Zullen Werken in Monero](/knowledge/monero-atomic-swaps/)
+  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Wat Elke Monero Gebruiker Moet Weten Als het om Netwerken Gaat](/knowledge/monero-networking/)
+  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hoe RingCT Monero's Transactiebedragen verbergt](/knowledge/monero-ringct/)
+  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect)/
 
-  * [Hoe Monero Stealth Adressen Uw Identiteit Beschermen](/knowledge/monero-stealth-addresses/)
+  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking)/
 
-  * [Hoe Monero's Subadressen Identiteitskoppeling Voorkomen](/knowledge/monero-subaddresses/)
+  * [Svindel å se etter når du bruker Monero](/knowledge/monero-scams)/
 
-  * [Monero-Outputs uitgelegd](/knowledge/monero-outputs/)
+  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Hoe Ring-handtekeningen de Resultaten van Monero Verdoezelen](/knowledge/ring-signatures/)
+  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking)/
 
-  * [Hoe Monero het Probleem met de Blokgrootte Dat Bitcoin Plaagt Heeft Opgelost](/knowledge/dynamic-block-size/)
+  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct)/
 
-  * [Hoe CLSAG de Efficiëntie van Monero Zal Verbeteren](/knowledge/what-is-clsag/)
+  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses)/
 
-  * [Waarom Monero een Staartemissie Heeft](/knowledge/monero-tail-emission/)
+  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses)/
 
-  * [Een Korte Geschiedenis van Monero](/knowledge/monero-history/)
+  * [Monero-utganger forklart](/knowledge/monero-outputs)/
 
-  * [Wired Magazine heeft Ongelijk over Monero, Dit is Waarom](/knowledge/wired-article-debunked/)
+  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures)/
 
-  * [Top 15 Monero Mythen en Zorgen Ontkracht](/knowledge/monero-myths-debunked/)
+  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Hoe Dandelion++ de Oorsprong van de Transacties van Monero Privé Houdt](/knowledge/monero-dandelion/)
+  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag)/
 
-  * [Waarom Monero Open Source en Dedecentraliseerd Is](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission)/
 
-  * [Monero-Mining: Wat RandomX zo Speciaal Maakt](/knowledge/monero-mining-randomx/)
+  * [En kort historie om Monero](/knowledge/monero-history)/
 
-  * [Waarom Monero beter is dan Dash, Zcash, Zcoin (zelfs met Lelantus), Grin en Bitcoin Mixers zoals Wasabi (bijgewerkt mei 2020)](/knowledge/why-monero-is-better/)
+  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked)/
+
+  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked)/
+
+  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion)/
+
+  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized)/
+
+  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx)/
+
+  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better)/
+
+Videre lesning

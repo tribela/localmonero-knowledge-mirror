@@ -10,7 +10,11 @@ Seitdem es Geld gibt, gibt es Betrügereien, um Leute dazu zu bringen, sich davo
 
 ## Die Betrugsmasche der Hochstapler
 
+## Die Betrugsmasche der Hochstapler
+
 Eine der ältesten Betrügereien der Welt und eine, die auf jeder existierenden Diskussionsplattform stattfinden kann. Bei diesem Betrug gibt der Betrüger vor, eine vertrauenswürdige Person der Gemeinschaft oder ein hochrangiger Beamter eines verwandten Unternehmens zu sein. Sobald das Vertrauen des Opfers durch diesen etablierten Ruf gewonnen wurde, kann der Betrüger einen Benutzer auf eine bösartige Website schicken, ihn ein Programm herunterladen lassen, das darauf ausgelegt ist, sein Geld zu stehlen, oder den Benutzer sogar dazu bringen, ihm direkt Geld zu schicken. Überprüfen Sie immer dreifach, ob die Person, mit der Sie sprechen, tatsächlich die richtige Person ist. Unternehmen haben E-Mail-Adressen, an die sie sich wenden können, um Identitäten zu überprüfen (z. B. „Hat mich der CEO Ihres Unternehmens gerade auf Telegram kontaktiert?“), und andere Community-Führungskräfte können normalerweise auf andere Weise kontaktiert werden. Überprüfen Sie dies, bevor Sie Maßnahmen ergreifen. INSBESONDERE, wenn sie das Gespräch mit Ihnen begonnen haben und nicht Sie mit ihnen. 
+
+## Der Business-Look-Alike-Betrug
 
 ## Der Business-Look-Alike-Betrug
 
@@ -22,7 +26,11 @@ Die Lösung für diese Art von Betrug ist Wachsamkeit. Prüfen Sie immer alles g
 
 ## Der glatte Betrug
 
+## Der glatte Betrug
+
 Manchmal versuchen Betrüger nicht einmal, subtil zu sein. Sie stellen riesige, grandiose Behauptungen auf und wissen, dass es immer Dummköpfe geben wird, die ihnen aus Verzweiflung, Gier oder Unwissenheit glauben werden. Diese Betrügereien nehmen viele Formen an, von Coin-Projekten, die lächerliche Renditen auf Investitionen versprechen, bei denen Sie ihnen zuerst Geld geben (wie Bitconnect), bis hin zu speziellen, geheimen Gruppen, die versprechen, Ihnen alle Marktbewegungen im Voraus mitzuteilen, damit Sie Geld verdienen können. .gegen Gebühr. Denken Sie daran. Wenn etwas zu gut klingt, um wahr zu sein, ist es das wahrscheinlich auch. Dieser Rat gilt besonders im Bereich der Kryptowährung, da der Einsatz eines Coins oder eines intelligenten Vertrags heutzutage trivial ist und die Online-Veröffentlichung Ihrer zwielichtigen Behauptungen kostenlos ist. Denken Sie daran, wenn jemand wirklich einen Weg gefunden hat, den Markt zu timen oder einen Weg entdeckt hat, um unendlich viel Geld zu verdienen, warum sollte er es Ihnen dann sagen? Sie würden es nur selbst benutzen, um reich zu werden. Warum sollten sie es teilen? Sei clever. Benutze dein Gehirn. Vertraue niemandem.
+
+## Die Rolle Ihres Monero-Seeds bei Betrug
 
 ## Die Rolle Ihres Monero-Seeds bei Betrug
 
@@ -34,66 +42,68 @@ IMMER, WENN eine Website, eine Anwendung oder ein Wallet über die Option „Wie
 
 Weiterlesen
 
-  * [Wie Monero auf einzigartige Weise Kreislaufwirtschaften ermöglicht](/knowledge/monero-circular-economies/)
+  * [Wie Monero auf einzigartige Weise Kreislaufwirtschaften ermöglicht](/knowledge/monero-circular-economies)/
 
-  * [Moneros Ringsignaturen vs. CoinJoin wie bei Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Moneros Ringsignaturen vs. CoinJoin wie bei Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Warum (und wie!) Sie Ihre eigenen Keys halten sollten](/knowledge/hold-your-keys/)
+  * [Warum (und wie!) Sie Ihre eigenen Keys halten sollten](/knowledge/hold-your-keys)/
 
-  * [Zu Monero beitragen](/knowledge/contributing-to-monero/)
+  * [Zu Monero beitragen](/knowledge/contributing-to-monero)/
 
-  * [Wie sich Remote-Knoten auf die Privatsphäre von Monero auswirken](/knowledge/remote-nodes-privacy/)
+  * [Wie sich Remote-Knoten auf die Privatsphäre von Monero auswirken](/knowledge/remote-nodes-privacy)/
 
-  * [Wie Monero Hard-Forks verwendet, um das Netzwerk zu aktualisieren](/knowledge/network-upgrades/)
+  * [Wie Monero Hard-Forks verwendet, um das Netzwerk zu aktualisieren](/knowledge/network-upgrades)/
 
-  * [View-Tags: Wie ein Byte die Synchronisierungszeiten der Monero-Wallet um über 40 % reduziert](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [View-Tags: Wie ein Byte die Synchronisierungszeiten der Monero-Wallet um über 40 % reduziert](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool und seine Rolle bei der Dezentralisierung des Monero-Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool und seine Rolle bei der Dezentralisierung des Monero-Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Was es für Monero tun wird](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Was es für Monero tun wird](/knowledge/seraphis-for-monero)/
 
-  * [Ist die Umwandlung von Bitcoin in Monero genauso privat wie der direkte Kauf von Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ist die Umwandlung von Bitcoin in Monero genauso privat wie der direkte Kauf von Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Warum Monero im Gegensatz zu Zcash ein vertrauensloses Setup verwendet](/knowledge/monero-trustless-setup/)
+  * [Warum Monero im Gegensatz zu Zcash ein vertrauensloses Setup verwendet](/knowledge/monero-trustless-setup)/
 
-  * [Warum Monero ein besserer Wertspeicher ist als Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Warum Monero ein besserer Wertspeicher ist als Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Wie Monero die Netzwerkeffekte von Bitcoin überwinden kann](/knowledge/network-effect/)
+  * [Wie Monero die Netzwerkeffekte von Bitcoin überwinden kann](/knowledge/network-effect)/
 
-  * [Warum Monero die kritischste Community hat](/knowledge/critical-thinking/)
+  * [Warum Monero die kritischste Community hat](/knowledge/critical-thinking)/
 
-  * [Wie Atomic Swaps in Monero funktionieren](/knowledge/monero-atomic-swaps/)
+  * [Wie Atomic Swaps in Monero funktionieren](/knowledge/monero-atomic-swaps)/
 
-  * [Was jeder Monero-Benutzer wissen muss, wenn es ums Networking geht](/knowledge/monero-networking/)
+  * [Was jeder Monero-Benutzer wissen muss, wenn es ums Networking geht](/knowledge/monero-networking)/
 
-  * [Wie RingCT Monero-Transaktionsbeträge verbirgt](/knowledge/monero-ringct/)
+  * [Wie RingCT Monero-Transaktionsbeträge verbirgt](/knowledge/monero-ringct)/
 
-  * [Wie Monero Stealth-Adressen Ihre Identität schützen](/knowledge/monero-stealth-addresses/)
+  * [Wie Monero Stealth-Adressen Ihre Identität schützen](/knowledge/monero-stealth-addresses)/
 
-  * [Wie Monero-Subadressen die Identitätsverknüpfung verhindern](/knowledge/monero-subaddresses/)
+  * [Wie Monero-Subadressen die Identitätsverknüpfung verhindern](/knowledge/monero-subaddresses)/
 
-  * [Monero-Outputs erklärt](/knowledge/monero-outputs/)
+  * [Monero-Outputs erklärt](/knowledge/monero-outputs)/
 
-  * [Monero Best Practices für Anfänger](/knowledge/monero-best-practices/)
+  * [Monero Best Practices für Anfänger](/knowledge/monero-best-practices)/
 
-  * [Wie Ringsignaturen die Ausgaben von Monero verschleiern](/knowledge/ring-signatures/)
+  * [Wie Ringsignaturen die Ausgaben von Monero verschleiern](/knowledge/ring-signatures)/
 
-  * [Wie Monero das Blockgrößenproblem löste, das Bitcoin plagt](/knowledge/dynamic-block-size/)
+  * [Wie Monero das Blockgrößenproblem löste, das Bitcoin plagt](/knowledge/dynamic-block-size)/
 
-  * [Wie CLSAG die Effizienz von Monero verbessern wird](/knowledge/what-is-clsag/)
+  * [Wie CLSAG die Effizienz von Monero verbessern wird](/knowledge/what-is-clsag)/
 
-  * [Warum Monero eine Tail-Emission hat](/knowledge/monero-tail-emission/)
+  * [Warum Monero eine Tail-Emission hat](/knowledge/monero-tail-emission)/
 
-  * [Eine kurze Geschichte von Monero](/knowledge/monero-history/)
+  * [Eine kurze Geschichte von Monero](/knowledge/monero-history)/
 
-  * [Das Wired Magazine hat Unrecht mit Monero, hier ist der Grund](/knowledge/wired-article-debunked/)
+  * [Das Wired Magazine hat Unrecht mit Monero, hier ist der Grund](/knowledge/wired-article-debunked)/
 
-  * [Die 15 wichtigsten Monero-Mythen und -Bedenken widerlegt](/knowledge/monero-myths-debunked/)
+  * [Die 15 wichtigsten Monero-Mythen und -Bedenken widerlegt](/knowledge/monero-myths-debunked)/
 
-  * [Wie Dandelion++ die Transaktionsursprünge von Monero geheim hält](/knowledge/monero-dandelion/)
+  * [Wie Dandelion++ die Transaktionsursprünge von Monero geheim hält](/knowledge/monero-dandelion)/
 
-  * [Warum Monero Open Source und dezentralisiert ist](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Warum Monero Open Source und dezentralisiert ist](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Was RandomX so besonders macht](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Was RandomX so besonders macht](/knowledge/monero-mining-randomx)/
 
-  * [Warum Monero besser ist als Dash, Zcash, Zcoin (sogar mit Lelantus), Grin und Bitcoin-Mixer wie Wasabi (Aktualisiert Mai 2020)](/knowledge/why-monero-is-better/)
+  * [Warum Monero besser ist als Dash, Zcash, Zcoin (sogar mit Lelantus), Grin und Bitcoin-Mixer wie Wasabi (Aktualisiert Mai 2020)](/knowledge/why-monero-is-better)/
+
+Weiterlesen

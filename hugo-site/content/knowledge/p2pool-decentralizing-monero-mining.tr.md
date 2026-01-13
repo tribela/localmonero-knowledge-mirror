@@ -14,15 +14,21 @@ RandomX gibi benzersiz bir madencilik algoritması [bu amaç için son derece ö
 
 ## Havuz madenciliği nedir?
 
+## Havuz madenciliği nedir?
+
 Havuz madenciliği, madencilerin ağdaki bir bloğu çözme girişimi görevini paylaşmalarının ve ardından havuzun bulduğu tüm bloklar için ödülleri eşit olarak paylaşmalarının bir yoludur. Bu, madencilere ödeme sıklığının Monero madenciliği ile karşılaştırıldığında eşitlenmesine son derece yardımcı olsa da, ciddi merkezileştirme sorunları da yok değil.
 
 Her madenci havuza iş katkısında bulunurken, yaptıkları her işin kontrolünü bırakır ve buldukları havuzun kendisine bloke eder, havuzun ödülleri tüm madenciler arasında ödül miktarına göre dürüst ve adil bir şekilde paylaşacağına güvenir. her birinin yaptığı iş. Her şey yolunda giderse, havuz operatörü tüm madencilerin çalışmalarını toplar, ağa gönderir ve ödülleri eşit olarak paylaşır.
 
 ## Havuz madenciliğindeki sorun nedir?
 
+## Havuz madenciliğindeki sorun nedir?
+
 Maalesef bu tamamen güvene dayanıyor ve havuz operatörünün madencilerin yaptığı işlerle ilgili kötü şeyler yapmasına izin veriyor. Havuz operatörü, yapılan işi ağa saldırmak için kullanabilir, fonları iki katına çıkarmaya çalışabilir (eğer havuz yeterince büyükse) veya madenciler tarafından yapılan işi kendilerine ödeme yapmak için kullanabilir ve madencileri çalışmaları için asla uygun şekilde ödüllendirmez. .
 
 Ağa yönelik en büyük risk, ağın hashrate'inin %51'den fazlasının kendi kontrolü altında olduğu bir havuzun (veya birlikte çalışan birden fazla havuzun) riskidir; çünkü bunu hile yapmak ve parayı iki kez harcamak için kullanabilirler (çift harcama) saldırı) veya ağın kurallarını değiştirme girişiminde bulunmak.
+
+## p2pool nedir?
 
 ## p2pool nedir?
 
@@ -34,11 +40,15 @@ Bu, her madencinin gerçekleştirdiği işin, cüzdan adresinin ve ne kadar Mone
 
 ## p2pool havuz madenciliği sorunlarını nasıl çözüyor?
 
+## p2pool havuz madenciliği sorunlarını nasıl çözüyor?
+
 p2pool'da merkezi bir havuz, merkezi bir havuz operatörü veya fonları elinde tutan ve ödemeleri dağıtan tek bir kişi yoktur. Bu madencilik tarafından p2pool aracılığıyla kolektif olarak yapılan tüm işler, meşru olduğundan emin olmak için p2pool blok zinciri ve diğer düğüm operatörleri tarafından kontrol edilir ve tüm madencilere, doğrudan bir blok bulunduğunda anında yaptıkları işe göre ödeme yapılır. bulunan bloktaki ödüller.
 
 Madenciler merkezi bir havuz yerine p2pool'u kullanmayı seçtiklerinde, havuz operatörlerinin tüm gücünü ve güvenini ortadan kaldırır ve çalışmalarının ağın iyiliğine ve kendi ödüllerine katkıda bulunmasını sağlar, ağ saldırıları, kötüye kullanım riskini azaltır yaptıkları işin ya da borçlu oldukları ödüllerin çalınmasının.
 
 Bu sadece onların kendi çıkarlarını korumalarına yardımcı olmakla kalmıyor, aynı zamanda merkezi havuzların bir bütün olarak Monero ağı için oluşturabileceği riski de azaltıyor. P2pool kullanımı aynı zamanda ulus devletlerin veya düzenleyicilerin ağın sağlığına yönelik oluşturabileceği risklerin azaltılmasına da büyük ölçüde yardımcı olur; zira baskı uygulayacak merkezi havuz operatörleri, dayanılacak coğrafi havuz yoğunluğu veya başka herhangi bir kolay baskı noktası yoktur. Monero'ya karşı kullanmaları için.
+
+## Dezavantajları nelerdir?
 
 ## Dezavantajları nelerdir?
 
@@ -48,10 +58,14 @@ Merkezi madencilikten diğer önemli fark, p2pool kullanan küçük madencilerin
 
 ##  Nasıl başlayabilirim?
 
+## Nasıl başlayabilirim?
+
 Neyse ki, Monero''in p2pool uygulamasının mükemmel tasarımı ve toplulukta p2pool yoluyla madencilik sürecini basitleştirmeye yardımcı olmak için zaman ayıran çok sayıda insan nedeniyle, başlamak zamanla daha da kolaylaşıyor. p2pool ile madenciliğe başlamanın birkaç yolu vardır, ancak teknik ayrıntılar bu makalenin kapsamı dışında olduğundan, işletim sisteminize bağlı olarak aşağıdaki bağlantıya geçmekten çekinmeyin:
 
   * [Windows](https://www.youtube.com/watch?v=yfbvTksF9ic)
   * [Linux](https://sethforprivacy.com/guides/run-a-p2pool-node/)
+
+## Daha fazlasını nasıl öğrenebilirim?
 
 ## Daha fazlasını nasıl öğrenebilirim?
 
@@ -67,66 +81,68 @@ için bir tür "blok gezgini"
 
 daha fazla okuma
 
-  * [Monero döngüsel ekonomileri benzersiz bir şekilde nasıl mümkün kılıyor?](/knowledge/monero-circular-economies/)
+  * [Monero döngüsel ekonomileri benzersiz bir şekilde nasıl mümkün kılıyor?](/knowledge/monero-circular-economies)/
 
-  * [Monero'nun halka imzaları Wasabi'deki gibi CoinJoin'e karşı](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero'nun halka imzaları Wasabi'deki gibi CoinJoin'e karşı](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Neden (ve nasıl!) kendi anahtarlarınızı tutmalısınız?](/knowledge/hold-your-keys/)
+  * [Neden (ve nasıl!) kendi anahtarlarınızı tutmalısınız?](/knowledge/hold-your-keys)/
 
-  * [Monero'ya geri katkıda bulunmak](/knowledge/contributing-to-monero/)
+  * [Monero'ya geri katkıda bulunmak](/knowledge/contributing-to-monero)/
 
-  * [Uzak düğümler Monero'nun gizliliğini nasıl etkiler?](/knowledge/remote-nodes-privacy/)
+  * [Uzak düğümler Monero'nun gizliliğini nasıl etkiler?](/knowledge/remote-nodes-privacy)/
 
-  * [Monero ağı yükseltmek için hard fork'ları nasıl kullanıyor?](/knowledge/network-upgrades/)
+  * [Monero ağı yükseltmek için hard fork'ları nasıl kullanıyor?](/knowledge/network-upgrades)/
 
-  * [Etiketleri görüntüle: Bir bayt, Monero cüzdan senkronizasyon sürelerini nasıl %40'tan fazla azaltır?](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Etiketleri görüntüle: Bir bayt, Monero cüzdan senkronizasyon sürelerini nasıl %40'tan fazla azaltır?](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Seraphis: Monero İçin Ne Yapacak?](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Monero İçin Ne Yapacak?](/knowledge/seraphis-for-monero)/
 
-  * [Bitcoin'i Monero'ya Dönüştürmek Doğrudan Monero Satın Almak Kadar Özel mi?](/knowledge/most-private-way-to-buy-monero/)
+  * [Bitcoin'i Monero'ya Dönüştürmek Doğrudan Monero Satın Almak Kadar Özel mi?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Monero Neden Zcash'ten Farklı Olarak Güvenilir Bir Kurulum Kullanıyor?](/knowledge/monero-trustless-setup/)
+  * [Monero Neden Zcash'ten Farklı Olarak Güvenilir Bir Kurulum Kullanıyor?](/knowledge/monero-trustless-setup)/
 
-  * [Monero Neden Bitcoin'den Daha İyi Bir Değer Deposu?](/knowledge/monero-better-store-of-value/)
+  * [Monero Neden Bitcoin'den Daha İyi Bir Değer Deposu?](/knowledge/monero-better-store-of-value)/
 
-  * [Monero, Bitcoin'in Ağ Etkilerinin Üstesinden Nasıl Gelebilir?](/knowledge/network-effect/)
+  * [Monero, Bitcoin'in Ağ Etkilerinin Üstesinden Nasıl Gelebilir?](/knowledge/network-effect)/
 
-  * [Monero Neden En Eleştirel Düşünme Topluluğuna Sahip?](/knowledge/critical-thinking/)
+  * [Monero Neden En Eleştirel Düşünme Topluluğuna Sahip?](/knowledge/critical-thinking)/
 
-  * [Monero Kullanırken Dikkat Edilmesi Gereken Dolandırıcılıklar](/knowledge/monero-scams/)
+  * [Monero Kullanırken Dikkat Edilmesi Gereken Dolandırıcılıklar](/knowledge/monero-scams)/
 
-  * [Monero'da Atomik Takaslar Nasıl Çalışacak?](/knowledge/monero-atomic-swaps/)
+  * [Monero'da Atomik Takaslar Nasıl Çalışacak?](/knowledge/monero-atomic-swaps)/
 
-  * [Konu Ağ Oluşturmaya Geldiğinde Her Monero Kullanıcısının Bilmesi Gerekenler](/knowledge/monero-networking/)
+  * [Konu Ağ Oluşturmaya Geldiğinde Her Monero Kullanıcısının Bilmesi Gerekenler](/knowledge/monero-networking)/
 
-  * [RingCT Monero İşlem Tutarlarını Nasıl Gizliyor?](/knowledge/monero-ringct/)
+  * [RingCT Monero İşlem Tutarlarını Nasıl Gizliyor?](/knowledge/monero-ringct)/
 
-  * [Monero Gizli Adresleri Kimliğinizi Nasıl Korur?](/knowledge/monero-stealth-addresses/)
+  * [Monero Gizli Adresleri Kimliğinizi Nasıl Korur?](/knowledge/monero-stealth-addresses)/
 
-  * [Monero Alt Adresleri Kimlik Bağlantısını Nasıl Önler?](/knowledge/monero-subaddresses/)
+  * [Monero Alt Adresleri Kimlik Bağlantısını Nasıl Önler?](/knowledge/monero-subaddresses)/
 
-  * [Monero Çıktılarının Açıklaması](/knowledge/monero-outputs/)
+  * [Monero Çıktılarının Açıklaması](/knowledge/monero-outputs)/
 
-  * [Yeni Başlayanlar İçin Monero En İyi Uygulamaları](/knowledge/monero-best-practices/)
+  * [Yeni Başlayanlar İçin Monero En İyi Uygulamaları](/knowledge/monero-best-practices)/
 
-  * [Halka İmzaları Monero'nun Çıktılarını Nasıl Gizliyor?](/knowledge/ring-signatures/)
+  * [Halka İmzaları Monero'nun Çıktılarını Nasıl Gizliyor?](/knowledge/ring-signatures)/
 
-  * [Monero, Bitcoin'i Saldıran Blok Boyutu Sorununu Nasıl Çözdü?](/knowledge/dynamic-block-size/)
+  * [Monero, Bitcoin'i Saldıran Blok Boyutu Sorununu Nasıl Çözdü?](/knowledge/dynamic-block-size)/
 
-  * [CLSAG Monero'nun Verimliliğini Nasıl Artıracak?](/knowledge/what-is-clsag/)
+  * [CLSAG Monero'nun Verimliliğini Nasıl Artıracak?](/knowledge/what-is-clsag)/
 
-  * [Monero'nun Neden Kuyruk Emisyonu Var?](/knowledge/monero-tail-emission/)
+  * [Monero'nun Neden Kuyruk Emisyonu Var?](/knowledge/monero-tail-emission)/
 
-  * [Monero'nun Kısa Tarihi](/knowledge/monero-history/)
+  * [Monero'nun Kısa Tarihi](/knowledge/monero-history)/
 
-  * [Wired Magazine Monero Konusunda Yanılıyor, İşte Nedeni](/knowledge/wired-article-debunked/)
+  * [Wired Magazine Monero Konusunda Yanılıyor, İşte Nedeni](/knowledge/wired-article-debunked)/
 
-  * [En Önemli 15 Monero Efsanesi ve Endişesi Çürütüldü](/knowledge/monero-myths-debunked/)
+  * [En Önemli 15 Monero Efsanesi ve Endişesi Çürütüldü](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion++ Monero'nun İşlem Kaynaklarını Nasıl Gizli Tutuyor?](/knowledge/monero-dandelion/)
+  * [Dandelion++ Monero'nun İşlem Kaynaklarını Nasıl Gizli Tutuyor?](/knowledge/monero-dandelion)/
 
-  * [Monero Neden Açık Kaynaklı ve Merkezi Değildir?](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Monero Neden Açık Kaynaklı ve Merkezi Değildir?](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Madenciliği: RandomX'i Bu Kadar Özel Kılan Nedir?](/knowledge/monero-mining-randomx/)
+  * [Monero Madenciliği: RandomX'i Bu Kadar Özel Kılan Nedir?](/knowledge/monero-mining-randomx)/
 
-  * [Monero Neden Dash, Zcash, Zcoin (Lelantus ile Bile), Grin ve Wasabi Gibi Bitcoin Karıştırıcılarından Daha İyidir (Mayıs 2020'de Güncellendi)](/knowledge/why-monero-is-better/)
+  * [Monero Neden Dash, Zcash, Zcoin (Lelantus ile Bile), Grin ve Wasabi Gibi Bitcoin Karıştırıcılarından Daha İyidir (Mayıs 2020'de Güncellendi)](/knowledge/why-monero-is-better)/
+
+daha fazla okuma

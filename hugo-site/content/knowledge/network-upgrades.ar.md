@@ -12,6 +12,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## لماذا تحتاج Monero إلى الاستمرار في ترقية الشبكة؟
 
+## لماذا تحتاج Monero إلى الاستمرار في ترقية الشبكة؟
+
 التزم مجتمع Monero بتكرار المشروع وتحسينه بمرور الوقت ، ويبدو أن الالتزام يتلخص في جانبين رئيسيين من روح المجتمع: 
 
   1. مشروع Monero هو في النهاية برنامج - كود - كتبه البشر. يمكن أن يؤدي ذلك إلى الحاجة إلى إصلاح الأخطاء ، وإضافة التحسينات التي تم اكتشافها أو اختراعها بمرور الوقت ، أو تنفيذ التحديثات على البروتوكول ، أو ببساطة الحفاظ على المشروع. هذا مشابه من نواح كثيرة لأجزاء البرامج الأخرى التي تستخدمها (مثل المتصفح الذي تقرأ فيه هذا!) ، والتي تحتاج إلى التحديث باستمرار لإضافة ميزات جديدة وإصلاح الأخطاء. 
@@ -24,6 +26,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## ما هي الهارد فورك؟
 
+## ما هي الهارد فورك؟
+
 يدخل تعقيد ترقية مونيرو حيز التنفيذ بمجرد أن تفهم مدى اختلاف ترقية العملة المشفرة عن دفع تحديث البرنامج إلى شيء مثل المتصفح. 
 
 في العملات المشفرة ، يجب أن يتم الاتفاق على قواعد الشبكة (أشياء مثل كيف يجب أن تبدو المعاملات ، وكيف يعمل التعدين ، وكيفية التحقق من كل كتلة) من قبل الشبكة ، وهو ما يسمى "الإجماع". عندما تحتاج أي من هذه القواعد إلى التغيير أو الترقية ، يجب أن توافق الشبكة على القواعد الجديدة ، مما يتسبب في "الانقسام الصعب" - وهو الموقف الذي تنقسم فيه الشبكة فعليًا إلى سلسلتين من الكتل - واحدة على القواعد القديمة ، و واحد على القواعد الجديدة. 
@@ -31,6 +35,8 @@ image_credit_url: "https://cypherstack.com"
 عندما يوافق كل فرد في المجتمع على تغييرات القاعدة ، يطلق عليها "مفترق صلب غير مثير للجدل" ، والسلسلة التي لا تزال لديها القواعد القديمة تموت ولا يتم تعدينها بعد الانقسام الكلي. كان هذا هو الحال في كل لعبة مونيرو hard-fork تقريبًا ، والاستمرار الوحيد للقواعد القديمة كان من خلال المشاريع التي تحاول جني الأرباح من الهارد فورك. 
 
 في حين أن الهارد فورك غير الخلافية هي الطريقة الوحيدة لترقية الجوانب المهمة لشبكة مونيرو بشكل صحيح ، إلا أن لها أيضًا تأثيرًا جانبيًا محبطًا - فالبرامج القديمة ، التي تم إصدارها قبل التخطيط لـ hard fork ، لا يمكنها فهم الجديد قواعد الشبكة وهكذا لا يعمل بعد هارد فورك! يمكن أن يؤدي هذا إلى اعتقاد المستخدمين بضياع الأموال ، والاعتقاد بأن مونيرو blockchain قد توقف ، وعدم القدرة على نقل الأموال حتى يقومون بترقية محفظتهم. 
+
+## من الذي يقرر متى يتم تحديث شبكة مونيرو وما الذي يتم تضمينه؟
 
 ## من الذي يقرر متى يتم تحديث شبكة مونيرو وما الذي يتم تضمينه؟
 
@@ -50,6 +56,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## كيف يمكنني المساعدة في ترقيات الشبكة؟
 
+## كيف يمكنني المساعدة في ترقيات الشبكة؟
+
 نظرًا لأن الترقيات إلى شبكة Monero تتطلب التنسيق والموافقة من المجتمع جنبًا إلى جنب مع تحديثات البرامج ، فمن المهم للغاية أن يشارك أكبر عدد ممكن من الأشخاص في عملية التخطيط والاختبار والاتصال الخاصة بترقيات الشبكة. 
 
 إليك بعض الطرق السهلة التي يمكنك من خلالها تسهيل الأمور حول ترقية الشبكة: 
@@ -61,14 +69,18 @@ image_credit_url: "https://cypherstack.com"
 
 ## ما الذي يمكن أن أتوقعه في الترقية التالية لشبكة مونيرو؟
 
+## ما الذي يمكن أن أتوقعه في الترقية التالية لشبكة مونيرو؟
+
 بينما لم يتم تحديد موعد محدد بعد ، سيكون هناك ترقية للشبكة قريبًا لتنفيذ بعض الترقيات والميزات الرئيسية في Monero: 
 
   1. زيادة حجم الحلقة من 11 إلى 16 ، مما يؤدي إلى زيادة مجموعة إخفاء الهوية الأساسية (اقرأ: الإنكار المعقول أو الخصوصية الأساسية) لكل معاملة على الشبكة 
-  2. [ عرض العلامات ، طريقة رائعة لتقليل أوقات مزامنة المحفظة بنسبة 30-40٪ ](/knowledge/view-tags-reduce-monero-sync-time/)
+  2. [ عرض العلامات ، طريقة رائعة لتقليل أوقات مزامنة المحفظة بنسبة 30-40٪ ](https://localmonero.co/knowledge/view-tags-reduce-monero-sync-time)
   3. تغييرات الرسوم ، وتحسين أمن ومرونة الشبكة للتغيرات السريعة في سوق الرسوم أو الهجمات التي تشنها الكيانات الخبيثة 
   4. [ Bulletproofs + ، تحسن إضافي في كفاءة معاملات Monero ](https://www.getmonero.org/2020/12/24/Bulletproofs+-in-Monero.html)
 
-ستقطع هذه التغييرات شوطًا طويلاً في زيادة خصوصية وكفاءة وأمان الشبكة ، كل ذلك مع تمهيد الطريق لـ [ Seraphis ](/knowledge/seraphis-for-monero/) ، بروتوكول المعاملات من الجيل التالي لـ Monero. 
+ستقطع هذه التغييرات شوطًا طويلاً في زيادة خصوصية وكفاءة وأمان الشبكة ، كل ذلك مع تمهيد الطريق لـ [ Seraphis ](https://localmonero.co/knowledge/seraphis-for-monero) ، بروتوكول المعاملات من الجيل التالي لـ Monero. 
+
+## كيف يمكنني معرفة المزيد؟
 
 ## كيف يمكنني معرفة المزيد؟
 
@@ -80,66 +92,68 @@ image_credit_url: "https://cypherstack.com"
 
 المزيد من القراءة
 
-  * [كيف مونيرو تمكن الاقتصادات الدائرية بشكل فريد](/knowledge/monero-circular-economies/)
+  * [كيف مونيرو تمكن الاقتصادات الدائرية بشكل فريد](/knowledge/monero-circular-economies)/
 
-  * [توقيعات حلقة مونيرو مقابل CoinJoin كما هو الحال في Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [توقيعات حلقة مونيرو مقابل CoinJoin كما هو الحال في Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [لماذا (وكيف!) يجب أن تحتفظ بمفاتيحك الخاصة](/knowledge/hold-your-keys/)
+  * [لماذا (وكيف!) يجب أن تحتفظ بمفاتيحك الخاصة](/knowledge/hold-your-keys)/
 
-  * [المساهمة مرة أخرى في مونيرو](/knowledge/contributing-to-monero/)
+  * [المساهمة مرة أخرى في مونيرو](/knowledge/contributing-to-monero)/
 
-  * [كيف تؤثر العقد البعيدة على خصوصية مونيرو](/knowledge/remote-nodes-privacy/)
+  * [كيف تؤثر العقد البعيدة على خصوصية مونيرو](/knowledge/remote-nodes-privacy)/
 
-  * [عرض العلامات: كيف سيؤدي البايت الواحد إلى تقليل أوقات مزامنة محفظة مونيرو بنسبة 40٪ +](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [عرض العلامات: كيف سيؤدي البايت الواحد إلى تقليل أوقات مزامنة محفظة مونيرو بنسبة 40٪ +](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ودوره في تحقيق اللامركزية في تعدين مونيرو](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ودوره في تحقيق اللامركزية في تعدين مونيرو](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [سيرافيز: ماذا ستفعل لمونيرو](/knowledge/seraphis-for-monero/)
+  * [سيرافيز: ماذا ستفعل لمونيرو](/knowledge/seraphis-for-monero)/
 
-  * [هل يعد تحويل Bitcoin إلى مونيرو أمرًا خاصًا مثل شراء مونيرو مباشرةً؟](/knowledge/most-private-way-to-buy-monero/)
+  * [هل يعد تحويل Bitcoin إلى مونيرو أمرًا خاصًا مثل شراء مونيرو مباشرةً؟](/knowledge/most-private-way-to-buy-monero)/
 
-  * [لماذا تستخدم مونيرو إعدادًا غير موثوق به على عكس Zcash](/knowledge/monero-trustless-setup/)
+  * [لماذا تستخدم مونيرو إعدادًا غير موثوق به على عكس Zcash](/knowledge/monero-trustless-setup)/
 
-  * [لماذا تعد مونيرو مخزنًا أفضل للقيمة من Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [لماذا تعد مونيرو مخزنًا أفضل للقيمة من Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [كيف يمكن لـمونيرو التغلب على تأثيرات شبكة Bitcoin](/knowledge/network-effect/)
+  * [كيف يمكن لـمونيرو التغلب على تأثيرات شبكة Bitcoin](/knowledge/network-effect)/
 
-  * [لماذا تمتلك مونيرو مجتمع التفكير الأكثر أهمية](/knowledge/critical-thinking/)
+  * [لماذا تمتلك مونيرو مجتمع التفكير الأكثر أهمية](/knowledge/critical-thinking)/
 
-  * [عمليات الاحتيال التي يجب الانتباه إليها عند استخدام مونيرو](/knowledge/monero-scams/)
+  * [عمليات الاحتيال التي يجب الانتباه إليها عند استخدام مونيرو](/knowledge/monero-scams)/
 
-  * [كيف ستعمل المقايضات الذرية في مونيرو](/knowledge/monero-atomic-swaps/)
+  * [كيف ستعمل المقايضات الذرية في مونيرو](/knowledge/monero-atomic-swaps)/
 
-  * [ما يحتاج كل مستخدم مونيرو إلى معرفته عندما يتعلق الأمر بالشبكات](/knowledge/monero-networking/)
+  * [ما يحتاج كل مستخدم مونيرو إلى معرفته عندما يتعلق الأمر بالشبكات](/knowledge/monero-networking)/
 
-  * [كيف يخفي RingCT مبالغ معاملة مونيرو](/knowledge/monero-ringct/)
+  * [كيف يخفي RingCT مبالغ معاملة مونيرو](/knowledge/monero-ringct)/
 
-  * [كيف تحمي عناوين Monero Stealth هويتك](/knowledge/monero-stealth-addresses/)
+  * [كيف تحمي عناوين Monero Stealth هويتك](/knowledge/monero-stealth-addresses)/
 
-  * [كيف عناوين مونيرو الفرعية تمنع ربط الهوية](/knowledge/monero-subaddresses/)
+  * [كيف عناوين مونيرو الفرعية تمنع ربط الهوية](/knowledge/monero-subaddresses)/
 
-  * [تمتوضيح مخرجات مونيرو](/knowledge/monero-outputs/)
+  * [تمتوضيح مخرجات مونيرو](/knowledge/monero-outputs)/
 
-  * [أفضل ممارسات مونيرو للمبتدئين](/knowledge/monero-best-practices/)
+  * [أفضل ممارسات مونيرو للمبتدئين](/knowledge/monero-best-practices)/
 
-  * [كيف تحجب تواقيع الحلقة مخرجات مونيرو](/knowledge/ring-signatures/)
+  * [كيف تحجب تواقيع الحلقة مخرجات مونيرو](/knowledge/ring-signatures)/
 
-  * [كيف حلت مونيرو مشكلة حجم الكتلة التي ابتليت بها Bitcoin](/knowledge/dynamic-block-size/)
+  * [كيف حلت مونيرو مشكلة حجم الكتلة التي ابتليت بها Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [كيف سيحسن CLSAG كفاءة مونيرو](/knowledge/what-is-clsag/)
+  * [كيف سيحسن CLSAG كفاءة مونيرو](/knowledge/what-is-clsag)/
 
-  * [لماذا مونيرو لها انبعاث الذيل](/knowledge/monero-tail-emission/)
+  * [لماذا مونيرو لها انبعاث الذيل](/knowledge/monero-tail-emission)/
 
-  * [تاريخ موجز لمونيرو](/knowledge/monero-history/)
+  * [تاريخ موجز لمونيرو](/knowledge/monero-history)/
 
-  * [مجلة وايرد خاطئة بشأن مونيرو ، إليكم السبب](/knowledge/wired-article-debunked/)
+  * [مجلة وايرد خاطئة بشأن مونيرو ، إليكم السبب](/knowledge/wired-article-debunked)/
 
-  * [تم فضح أفضل 15 خرافة ومخاوف لـ Monero](/knowledge/monero-myths-debunked/)
+  * [تم فضح أفضل 15 خرافة ومخاوف لـ Monero](/knowledge/monero-myths-debunked)/
 
-  * [كيف تحافظ Dandelion ++ على خصوصية أصول معاملات مونيرو](/knowledge/monero-dandelion/)
+  * [كيف تحافظ Dandelion ++ على خصوصية أصول معاملات مونيرو](/knowledge/monero-dandelion)/
 
-  * [لماذا مونيرو مفتوح المصدر ولامركزي](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [لماذا مونيرو مفتوح المصدر ولامركزي](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [تعدين مونيرو: ما الذي يجعل RandomX مميزًا جدًا](/knowledge/monero-mining-randomx/)
+  * [تعدين مونيرو: ما الذي يجعل RandomX مميزًا جدًا](/knowledge/monero-mining-randomx)/
 
-  * [لماذا Monero أفضل من Dash و Zcash و Zcoin (حتى مع Lelantus) وخلاطات Grin و Bitcoin مثل Wasabi (تم التحديث في مايو 2020)](/knowledge/why-monero-is-better/)
+  * [لماذا Monero أفضل من Dash و Zcash و Zcoin (حتى مع Lelantus) وخلاطات Grin و Bitcoin مثل Wasabi (تم التحديث في مايو 2020)](/knowledge/why-monero-is-better)/
+
+المزيد من القراءة

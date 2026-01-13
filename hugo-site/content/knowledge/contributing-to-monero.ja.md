@@ -12,6 +12,8 @@ Monero コミュニティの大部分の人々は必ずしも開発者ではな�
 
 ## Monero のコミュニティ クラウドファンディング システム
 
+## Monero のコミュニティ クラウドファンディング システム
+
 Monero は [ コミュニティ クラウドファンディング システム ](https://ccs.getmonero.org/) (または「CCS」) と呼ばれる独自の資金調達システムを使用しており、コミュニティの誰もが資金調達のアイデアを提示できます。コミュニティによって承認された場合、これらの提案はコミュニティによる資金提供のために開かれます。
 
 システムには 2 つの段階があり、それぞれの段階で、あらゆるバックグラウンドを持つ人々がより多く関与することで利益が得られます。
@@ -30,6 +32,8 @@ Monero は [ コミュニティ クラウドファンディング システム ]
 
 ## 教育
 
+## 教育
+
 Monero プロジェクトに参加できるもう 1 つの優れた方法は、新規および既存のコミュニティ メンバーを教育し、力を与えることです。これにはさまざまな形がありますが、Monero について学んだことをソーシャル メディアやブログなどで共有するのと同じくらい簡単な場合もあります。
 
 教育に役立ついくつかの具体的な方法を次に示します。
@@ -37,6 +41,8 @@ Monero プロジェクトに参加できるもう 1 つの優れた方法は、�
   * 自分のブログを始める
   * Moneroについて学んだこと、または習得したことについて、TwitterまたはRedditの投稿にスレッドを書いてください
   * Monero の送信、ハードウェア ウォレットの使用、[LocalMonero.co](https://localmonero.co) での Monero の売買など、Monero で日常的に行うことの「ハウツー」ビデオを作成してください。
+
+## 認知度とエンゲージメント
 
 ## 認知度とエンゲージメント
 
@@ -85,9 +91,13 @@ _部屋[#localmonero:agoradesk.com](https://matrix.to/#/#localmonero:agoradesk.c
 
 ## モネロサポート
 
+## モネロサポート
+
 Monero をしばらく使用している場合、または使用方法とトラブルシューティングの方法をよく理解している場合は、[r/monerosupport](https://www.reddit.com/r/monerosupport/) サブレディットに飛び込んで参加することをお勧めします。そこに投稿するユーザーにサポートを提供します。
 
 (通常は) 基本的な問題で助けを必要とするユーザーが常にいますが、彼らを助けるために subreddit で活動しているのは私たちのほんの一部です。新規および既存のユーザーが問題を解決するのを助けるために、より多くの人が飛び込んで貢献するのを見るのは素晴らしいことです!
+
+## コミュニティミーティング
 
 ## コミュニティミーティング
 
@@ -99,9 +109,13 @@ Monero をしばらく使用している場合、または使用方法とトラ�
 
 ## 翻訳
 
+## 翻訳
+
 バイリンガルまたはそれ以上の人にとって、貢献するための非常に重要な方法は、英語から他の言語への翻訳を支援することです。エコシステム全体で新しい言語を翻訳し、既存の言語を更新する必要性は常にあります。積極的にサポートする言語が増えるほど、Monero はより包括的で親しみやすいものになります。
 
 Github の [translate.getmonero.org](https://translate.getmonero.org/) または [ で翻訳の必要性と情報を見つけることができます ](https://github.com/monero-ecosystem/monero-translations).
+
+## ファイリングの問題
 
 ## ファイリングの問題
 
@@ -144,70 +158,74 @@ Github の [translate.getmonero.org](https://translate.getmonero.org/) または
 
 ## 結論
 
+## 結論
+
 このガイドが、あなたのユニークなスキルセット、バックグラウンド、経験を使って Monero に恩返しをする方法について、いくつかのアイデアを生み出すきっかけになれば幸いです。このような方法で手助けするコミュニティが多ければ多いほど、モネロはより大きく、より成熟し、プライベートで、代替可能で、自己主権があり、検閲に強いお金という目標をより簡単に達成できるようになります.
 
 参考文献
 
-  * [Monero が独自に循環型経済を実現する方法](/knowledge/monero-circular-economies/)
+  * [Monero が独自に循環型経済を実現する方法](/knowledge/monero-circular-economies)/
 
-  * [モネロのリング署名とWasabiのような CoinJoin の比較](/knowledge/ring-signatures-vs-coinjoin/)
+  * [モネロのリング署名とWasabiのような CoinJoin の比較](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [なぜ (そしてどのように!) 自分の鍵を保持する必要があるのか](/knowledge/hold-your-keys/)
+  * [なぜ (そしてどのように!) 自分の鍵を保持する必要があるのか](/knowledge/hold-your-keys)/
 
-  * [リモートノードが Monero のプライバシーに与える影響](/knowledge/remote-nodes-privacy/)
+  * [リモートノードが Monero のプライバシーに与える影響](/knowledge/remote-nodes-privacy)/
 
-  * [Monero がハードフォークを使用してネットワークをアップグレードする方法](/knowledge/network-upgrades/)
+  * [Monero がハードフォークを使用してネットワークをアップグレードする方法](/knowledge/network-upgrades)/
 
-  * [タグを表示: 1 バイトで Monero ウォレットの同期時間を 40% 以上短縮する方法](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [タグを表示: 1 バイトで Monero ウォレットの同期時間を 40% 以上短縮する方法](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool と Monero マイニングの分散化におけるその役割](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool と Monero マイニングの分散化におけるその役割](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [セラフィス: モネロに何をもたらすか](/knowledge/seraphis-for-monero/)
+  * [セラフィス: モネロに何をもたらすか](/knowledge/seraphis-for-monero)/
 
-  * [ビットコインをモネロに変換することは、モネロを直接購入することと同じくらいプライベートですか?](/knowledge/most-private-way-to-buy-monero/)
+  * [ビットコインをモネロに変換することは、モネロを直接購入することと同じくらいプライベートですか?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Monero が Zcash とは異なりトラストレス設定を使用する理由](/knowledge/monero-trustless-setup/)
+  * [Monero が Zcash とは異なりトラストレス設定を使用する理由](/knowledge/monero-trustless-setup)/
 
-  * [モネロがビットコインより優れた価値の保存手段である理由](/knowledge/monero-better-store-of-value/)
+  * [モネロがビットコインより優れた価値の保存手段である理由](/knowledge/monero-better-store-of-value)/
 
-  * [モネロがビットコインのネットワーク効果を克服する方法](/knowledge/network-effect/)
+  * [モネロがビットコインのネットワーク効果を克服する方法](/knowledge/network-effect)/
 
-  * [モネロが最も批判的思考のコミュニティを持っている理由](/knowledge/critical-thinking/)
+  * [モネロが最も批判的思考のコミュニティを持っている理由](/knowledge/critical-thinking)/
 
-  * [モネロを使用する際に注意すべき詐欺](/knowledge/monero-scams/)
+  * [モネロを使用する際に注意すべき詐欺](/knowledge/monero-scams)/
 
-  * [モネロでアトミックスワップがどのように機能するか](/knowledge/monero-atomic-swaps/)
+  * [モネロでアトミックスワップがどのように機能するか](/knowledge/monero-atomic-swaps)/
 
-  * [ネットワーキングに関してすべての Monero ユーザーが知っておくべきこと](/knowledge/monero-networking/)
+  * [ネットワーキングに関してすべての Monero ユーザーが知っておくべきこと](/knowledge/monero-networking)/
 
-  * [RingCT がモネロの取引金額を隠す方法](/knowledge/monero-ringct/)
+  * [RingCT がモネロの取引金額を隠す方法](/knowledge/monero-ringct)/
 
-  * [Monero ステルス アドレスが個人情報を保護する方法](/knowledge/monero-stealth-addresses/)
+  * [Monero ステルス アドレスが個人情報を保護する方法](/knowledge/monero-stealth-addresses)/
 
-  * [Monero のサブアドレスが ID リンクを防止するしくみ](/knowledge/monero-subaddresses/)
+  * [Monero のサブアドレスが ID リンクを防止するしくみ](/knowledge/monero-subaddresses)/
 
-  * [モネロのアウトプットの説明](/knowledge/monero-outputs/)
+  * [モネロのアウトプットの説明](/knowledge/monero-outputs)/
 
-  * [初心者のためのモネロのベストプラクティス](/knowledge/monero-best-practices/)
+  * [初心者のためのモネロのベストプラクティス](/knowledge/monero-best-practices)/
 
-  * [リング署名がMoneroの出力を覆い隠す方法](/knowledge/ring-signatures/)
+  * [リング署名がMoneroの出力を覆い隠す方法](/knowledge/ring-signatures)/
 
-  * [Monero がビットコインを悩ませているブロックサイズの問題をどのように解決したか](/knowledge/dynamic-block-size/)
+  * [Monero がビットコインを悩ませているブロックサイズの問題をどのように解決したか](/knowledge/dynamic-block-size)/
 
-  * [CLSAG がモネロの効率を改善する方法](/knowledge/what-is-clsag/)
+  * [CLSAG がモネロの効率を改善する方法](/knowledge/what-is-clsag)/
 
-  * [モネロにテールエミッションがある理由](/knowledge/monero-tail-emission/)
+  * [モネロにテールエミッションがある理由](/knowledge/monero-tail-emission)/
 
-  * [モネロの簡単な歴史](/knowledge/monero-history/)
+  * [モネロの簡単な歴史](/knowledge/monero-history)/
 
-  * [ワイアード・マガジンはモネロについて間違っている、その理由はここにある](/knowledge/wired-article-debunked/)
+  * [ワイアード・マガジンはモネロについて間違っている、その理由はここにある](/knowledge/wired-article-debunked)/
 
-  * [トップ15のモネロの神話と懸念が暴かれる](/knowledge/monero-myths-debunked/)
+  * [トップ15のモネロの神話と懸念が暴かれる](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion++ が Monero のトランザクションの起点を非公開にする方法](/knowledge/monero-dandelion/)
+  * [Dandelion++ が Monero のトランザクションの起点を非公開にする方法](/knowledge/monero-dandelion)/
 
-  * [モネロがオープンソースで分散化されている理由](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [モネロがオープンソースで分散化されている理由](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero マイニング: RandomX が特別な理由](/knowledge/monero-mining-randomx/)
+  * [Monero マイニング: RandomX が特別な理由](/knowledge/monero-mining-randomx)/
 
-  * [Monero が Dash、Zcash、Zcoin (Lelantus を使用しても)、Grin、およびWasabi のような Bitcoin ミキサーよりも優れている理由 (2020 年 5 月更新)](/knowledge/why-monero-is-better/)
+  * [Monero が Dash、Zcash、Zcoin (Lelantus を使用しても)、Grin、およびWasabi のような Bitcoin ミキサーよりも優れている理由 (2020 年 5 月更新)](/knowledge/why-monero-is-better)/
+
+参考文献

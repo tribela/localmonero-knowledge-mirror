@@ -12,15 +12,21 @@ While a unique mining algorithm [like RandomX](/knowledge/monero-mining-randomx)
 
 ## What is pool mining?
 
+## What is pool mining?
+
 Pool mining is a way for miners to share the task of attempting to solve a block on the network and then share the rewards evenly for all blocks that the pool finds. While this helps immensely to even out the frequency with which miners are paid versus mining Monero alone, it's not without serious centralization issues.
 
 As each miner contributes work to the pool, they give up control of any work they do and blocks that they find to the pool itself, trusting that the pool will honestly and fairly share the rewards among all miners based on the amount of work each has done. If all goes well, the pool operator collects the work from all miners, submits it to the network, and shares the rewards equally.
 
 ## What is the problem with pool mining?
 
+## What is the problem with pool mining?
+
 Unfortunately, this relies entirely on trust and allows the pool operator to do nefarious things with the work being done by miners. The pool operator could use the work being done to attack the network, attempt to double-spend funds (if the pool is large enough), or simply use the work being done by the miners to pay themselves and never reward miners properly for their work.
 
 The biggest risk to the network is that of a pool (or multiple pools working together) having greater than 51% of the networks hashrate under their control, as they could use this to cheat and spend funds twice (a double-spend attack) or attempt to change the rules of the network.
+
+## What is p2pool?
 
 ## What is p2pool?
 
@@ -32,11 +38,15 @@ This is done using a new blockchain (a "side-chain") that keeps a record of the 
 
 ## How does p2pool solve the problems of pool mining?
 
+## How does p2pool solve the problems of pool mining?
+
 In p2pool, there is no centralized pool, centralized pool operator, or single person holding onto funds and distributing payouts. All of the work being collectively done by those mining via p2pool is checked by the p2pool blockchain and other node operators to ensure that it is legitimate, and all miners are paid out according to the work they have done immediately when a block is found directly from the rewards in that found block.
 
 When miners choose to use p2pool instead of a centralized pool, they remove all power and trust from pool operators and ensure that their work contributes to the good of the network and to their own rewards, reduce the risk of network attacks, misuse of their work, or theft of rewards that they are owed.
 
 Not only does this help them protect their own interests, it reduces the risk that centralized pools can pose to the Monero network as a whole. p2pool usage also helps immensely to reduce the risk that nation-states or regulators could pose to the health of the network, as there are no centralized pool operators to pressure, no geographical concentration of pools to lean on, or any other easy point of pressure for them to use against Monero.
+
+## What are the drawbacks?
 
 ## What are the drawbacks?
 
@@ -46,10 +56,14 @@ The other key difference from centralized mining is that small miners using p2po
 
 ## How can I get started?
 
+## How can I get started?
+
 Thankfully, due to the excellent design of Monero's p2pool implementation and the many people in the community who have put in time to help simplify the process of mining via p2pool, getting started is getting simpler over time. There are several ways to get started mining with p2pool, but as the technical details are beyond the scope of this article, feel free to jump into a link below depending on your operating system:
 
   * [Windows](https://www.youtube.com/watch?v=yfbvTksF9ic)
   * [Linux](https://sethforprivacy.com/guides/run-a-p2pool-node/)
+
+## How can I learn more?
 
 ## How can I learn more?
 
@@ -64,66 +78,68 @@ If this has piqued your curiosity around p2pool mining, take a look below for so
 
 Further reading
 
-  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies/)
+  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies)/
 
-  * [Monero’s Ring Signatures vs CoinJoin Like in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero’s Ring Signatures vs CoinJoin Like in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Why (And How!) You Should Hold Your Own Keys](/knowledge/hold-your-keys/)
+  * [Why (And How!) You Should Hold Your Own Keys](/knowledge/hold-your-keys)/
 
-  * [Contributing Back to Monero](/knowledge/contributing-to-monero/)
+  * [Contributing Back to Monero](/knowledge/contributing-to-monero)/
 
-  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy/)
+  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy)/
 
-  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades/)
+  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades)/
 
-  * [View Tags: How One Byte Will Reduce Monero Wallet Sync Times by 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [View Tags: How One Byte Will Reduce Monero Wallet Sync Times by 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero)/
 
-  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero/)
+  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup/)
+  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect/)
+  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect)/
 
-  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking/)
+  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking)/
 
-  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams/)
+  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams)/
 
-  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps/)
+  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking/)
+  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking)/
 
-  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct/)
+  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct)/
 
-  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses/)
+  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses)/
 
-  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses/)
+  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses)/
 
-  * [Monero Outputs Explained](/knowledge/monero-outputs/)
+  * [Monero Outputs Explained](/knowledge/monero-outputs)/
 
-  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices/)
+  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices)/
 
-  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures/)
+  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures)/
 
-  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size/)
+  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag/)
+  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag)/
 
-  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission/)
+  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission)/
 
-  * [A Brief History of Monero](/knowledge/monero-history/)
+  * [A Brief History of Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked/)
+  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
 
-  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion/)
+  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion)/
 
-  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx)/
 
-  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better/)
+  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better)/
+
+Further reading

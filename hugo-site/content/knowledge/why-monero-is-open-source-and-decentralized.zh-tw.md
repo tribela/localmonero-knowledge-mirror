@@ -1,83 +1,95 @@
 ---
-title: "為什麼門羅幣是開源且去中心化的"
+title: "为什么门罗币是开源且去中心化的"
 slug: "why-monero-is-open-source-and-decentralized"
 date: "2020-03-05"
 image: "/images/foss.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-## 讓人們重獲權力
+## 让人们重获权力
 
-## 開源軟件
+## 让人们重获权力
 
-## 連接區塊鏈
+## 开源软件
 
-## 超越代碼
+## 开源软件
+
+## 连接区块链
+
+## 连接区块链
+
+## 超越代码
+
+## 超越代码
 
 ## 手段或目的?
 
-進一步閱讀
+## 手段或目的?
 
-  * [門羅幣如何獨特地實現循環經濟](/knowledge/monero-circular-economies/)
+进一步阅读
 
-  * [門羅幣環形簽名與CoinJoin像在Wasabi比較](/knowledge/ring-signatures-vs-coinjoin/)
+  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies)/
 
-  * [為什麼（以及如何！）你應該持有你自己的鑰匙](/knowledge/hold-your-keys/)
+  * [门罗币环形签名与CoinJoin像在Wasabi比较](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [貢獻為門羅幣](/knowledge/contributing-to-monero/)
+  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys)/
 
-  * [遠程節點如何影響門羅幣的隱私](/knowledge/remote-nodes-privacy/)
+  * [贡献为门罗币](/knowledge/contributing-to-monero)/
 
-  * [門羅幣是如何使用硬分叉為升級網絡](/knowledge/network-upgrades/)
+  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy)/
 
-  * [查看標籤：一個字節如何將門羅幣錢包的同步時間減少40%以上](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [门罗币是如何使用硬分叉为升级网络](/knowledge/network-upgrades)/
 
-  * [P2Pool和它在去Monero採礦中心化的作用](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Seraphis：它將為門羅幣做什麼](/knowledge/seraphis-for-monero/)
+  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [把比特幣兌換成門羅幣，就可以高枕無憂了嗎?](/knowledge/most-private-way-to-buy-monero/)
+  * [Seraphis：它将为门罗币做什么](/knowledge/seraphis-for-monero)/
 
-  * [為什麼門羅幣不像大零幣那樣需要初始信任來實現隱私](/knowledge/monero-trustless-setup/)
+  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [為什麼門羅幣才是電子黃金，相對於比特幣更有儲存價值的屬性](/knowledge/monero-better-store-of-value/)
+  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup)/
 
-  * [門羅幣是如何蠶食比特幣的份額和先發優勢](/knowledge/network-effect/)
+  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value)/
 
-  * [為什麼說門羅幣社區最具批判性精神](/knowledge/critical-thinking/)
+  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect)/
 
-  * [門羅幣防詐騙指南](/knowledge/monero-scams/)
+  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking)/
 
-  * [原子互換技術將如何在門羅幣上實現](/knowledge/monero-atomic-swaps/)
+  * [门罗币防诈骗指南](/knowledge/monero-scams)/
 
-  * [門羅幣與當代互聯網，隱私達人的須知](/knowledge/monero-networking/)
+  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps)/
 
-  * [ RingCT環形機密技術是如何隱藏門羅幣交易的金額](/knowledge/monero-ringct/)
+  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking)/
 
-  * [門羅幣隱身地址如何保護你的身份](/knowledge/monero-stealth-addresses/)
+  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct)/
 
-  * [門羅幣子位址是如何防止使用者資訊被關聯](/knowledge/monero-subaddresses/)
+  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses)/
 
-  * [加密貨幣裡面的output，中文譯作輸出，這個概念到底什麼意思,又為什麼門羅幣轉帳後餘額顯示錯誤要等待二十分鐘](/knowledge/monero-outputs/)
+  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses)/
 
-  * [門羅幣最佳入門指南](/knowledge/monero-best-practices/)
+  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs)/
 
-  * [環形簽名如何保護門羅幣發送者的輸出](/knowledge/ring-signatures/)
+  * [门罗币最佳入门指南](/knowledge/monero-best-practices)/
 
-  * [門羅幣是如何解決困擾比特幣的區塊大小的擴容問題](/knowledge/dynamic-block-size/)
+  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures)/
 
-  * [ 新的CLSAG環簽名技術將如何提高門羅幣的效率](/knowledge/what-is-clsag/)
+  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size)/
 
-  * [為什麼門羅幣擁有尾部增發的特性](/knowledge/monero-tail-emission/)
+  * [ 新的CLSAG环签名技术将如何提高门罗币的效率](/knowledge/what-is-clsag)/
 
-  * [門羅幣的前世今生](/knowledge/monero-history/)
+  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission)/
 
-  * [Wired雜誌是如何誤解了門羅](/knowledge/wired-article-debunked/)
+  * [门罗币的前世今生](/knowledge/monero-history)/
 
-  * [流言終結者：關於門羅幣的15大傳言和疑慮](/knowledge/monero-myths-debunked/)
+  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked)/
 
-  * [Dandelion ++蒲公英改進協議如何使Monero從源頭得到更強防護](/knowledge/monero-dandelion/)
+  * [流言终结者：关于门罗币的15大传言和疑虑](/knowledge/monero-myths-debunked)/
 
-  * [門羅幣挖礦: 什麼使 RandomX 算法如此特別](/knowledge/monero-mining-randomx/)
+  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion)/
 
-  * [為什麼門羅幣優於達世幣, 大零幣, 小零幣 , 古靈幣以及經過Wasabi級別混幣器混淆後的比特幣 (更新於2020年五月)](/knowledge/why-monero-is-better/)
+  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx)/
+
+  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better)/
+
+进一步阅读

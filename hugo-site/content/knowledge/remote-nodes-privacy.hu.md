@@ -12,6 +12,8 @@ Ebben a bejegyzésben bemutatjuk annak részleteit, ahogy a Monero kivételes ad
 
 ## Milyen funkciókat látnak el a Monero csomópontok?
 
+## Milyen funkciókat látnak el a Monero csomópontok?
+
 Azok számára, akik kevésbé ismerik a Monero működését: a hálózat csomópontjait (vagyis szervereit) bárki futtathatja, ez lehetővé teszi a csomópont tulajdonosának – vagy másoknak, akikkel megosztja azt! – a blokklánc egy példányának szinkronizálását, és a másolat továbbítását a hálózatnak. Ezek a csomópontok ellenőrzik a hálózaton zajló összes tranzakciót, valamint az összes közzétett blokkot, és biztosítják, hogy mindegyik megfeleljen a konszenzusban meghatározott szabályoknak.
 
 A másik funkció, amit a Monero csomópontok ellátnak, hogy biztosítják azokat az adatokat, amelyekre kedvenc Monero pénztárcájának szüksége van az Önhöz tartozó tranzakciók megfelelő ellenőrzéséhez és az új tranzakciók létrehozásához. Ezeket az adatokat a csomópontok két helyen biztosítják:
@@ -20,6 +22,12 @@ A másik funkció, amit a Monero csomópontok ellátnak, hogy biztosítják azok
     * Ez a művelet hamarosan drasztikusan javulni fog a [nézetcímkéknek](/knowledge/view-tags-reduce-monero-sync-time) köszönhetően.
   * Tranzakciók küldésekor az Ön által használt csomópont szolgáltatja a lehetséges csalik (hamis bemenetek) listáját, amelyeket a tranzakció felépítésére használ, így biztosítva, hogy minden Monero elköltésekor elbújhasson a tömegben. 
     * Ezek a csalik a [gyűrűs aláírások](/knowledge/ring-signatures) részét képezik, ami fontos része Monero láncon történő adatvédelmének.
+
+  * Ez a művelet hamarosan drasztikusan javulni fog a [nézetcímkéknek](/knowledge/view-tags-reduce-monero-sync-time) köszönhetően.
+
+  * Ezek a csalik a [gyűrűs aláírások](/knowledge/ring-signatures) részét képezik, ami fontos része Monero láncon történő adatvédelmének.
+
+## Mi a legprivátabb és legbiztonságosabb módja a Monero használatának?
 
 ## Mi a legprivátabb és legbiztonságosabb módja a Monero használatának?
 
@@ -31,6 +39,8 @@ Ezt szem előtt tartva, a Monero akkor is kiváló adatvédelmet biztosít, ha t
 
 ## Mit tudhat meg rólam egy távoli csomópont?
 
+## Mit tudhat meg rólam egy távoli csomópont?
+
 Távoli csomópont használatakor van néhány kulcsfontosságú információ, amely a távoli csomópont számára hozzáférhetővé válik, és néhány fontos módja annak, ahogy a csomópont megtámadhatja Önt, pl megakadályozhatja a tranzakciók küldését, és így tovább.
 
 Az első dolog, amit egy távoli csomópont megtud Önről, az a nyilvános IP-címe. Bár ezt remélhetőleg VPN-en vagy Toron keresztül rejtve marad, a távoli csomópont társíthatja a nyilvános IP-címét a tranzakcióhoz, megkönnyítve nekik, hogy leszűkítsék a tranzakció eredetének lehetséges helyét. A távoli csomópont azt is megtudhatja, hogy a pénztárca melyik blokkot szinkronizálta utoljára, ennek segítségével megalapozott feltételezésekkel élhet Önről, például, hogy mikor használja általában a Monerot, vagy mikor költött belőle utoljára. Ez különösen igaz, ha mindig ugyanarról az IP-címről érkezik (például otthonából). Az utolsó fontos tétel, amit a távoli csomópont megtudhat Önről, az a rajta keresztül küldött tranzakciók alapvető információi. Bár ezek a legtriviálisabb adatok, amelyeket a csomópont üzemeltetője megszerez Önről, fontos látni, hogy ezek felhasználhatók egy tranzakció feladójának azonosítására, ha ezeket az információkat más, láncon kívüli adatokkal kombinálják. Ez különösen veszélyes lehet, ha a távoli csomópontot rosszindulatú entitás, például egy blokklánc-elemző cég vagy egy elnyomó nemzetállam üzemelteti.
@@ -39,9 +49,13 @@ Egy távoli csomópont azzal is megkísérelhet problémát okozni, hogy blokkok
 
 ## Milyen adatvédelmi garanciák maradnak meg távoli csomópont használatakor?
 
+## Milyen adatvédelmi garanciák maradnak meg távoli csomópont használatakor?
+
 Bár ez a cikk megijeszthette egy kicsit, fontos látni, hogy a Monero által biztosított adatvédelem még távoli csomópont használatakor is kimagasló, messze felülmúl minden más kriptovalutát, akkor is, ha így használjuk. Továbbra is élvezheti a Monero által biztosított erős adatvédelmet, mivel a távoli csomópont soha nem ismeri a valódi bemenetet (hogy mit költ el), a tranzakcióban elköltött Monero összegét vagy a tranzakció címzettjét. A külső megfigyelők sem láthatják a valódi bemenetet, az összeget vagy az érintett címeket (függetlenül attól, hogy milyen csomópontot használ!), biztosítva, hogy a távoli csomóponton kívül az Ön IP-címe, szinkronizálási információi és tranzakciói is erős adatvédelmi garanciákat élveznek.
 
 A távoli csomópont továbbá soha nem fér hozzá az Ön által küldött vagy fogadott korábbi tranzakciókhoz, illetve a pénztárcájában jelenleg lévő Monero összegéhez, és elveszíti rálátását a tranzakcióira abban a pillanatban, amikor másik csomópontra vált. A távoli csomópont soha nem kap meg privát kulcsokat (sem a költési, sem a megtekintési kulcsokat), így a pénztárca privát és biztonságos marad. A csomóponttól függetlenül soha nem fenyegeti a Monero elvesztésének vagy ellopásának veszélye, mivel a csomópont nem tudja átírni a címzettet, soha nem fér hozzá a pénztárca privát kulcsaihoz, és semmilyen módon nem fér hozzá Monerojához.
+
+## Mi a helyzet a „könnyű” pénztárcákkal, mint a MyMonero?
 
 ## Mi a helyzet a „könnyű” pénztárcákkal, mint a MyMonero?
 
@@ -57,6 +71,8 @@ Ha többet szeretne megtudni erről, tekintse meg az alábbi Github repot:
 
 ## Hogyan tudhatok meg többet?
 
+## Hogyan tudhatok meg többet?
+
 Ha kíváncsi, és szeretné jobban megérteni a Monero csomópontok működését, szeretne egy távoli csomópontot használni vagy sajátot futtatni, tekintse meg az alábbi linkeket, nagyszerű forrásokat találhat a kezdéshez (angol):
 
   * [Monero World, a közösség által működtetett távoli csomópontok listája](https://moneroworld.com/#nodes)
@@ -67,66 +83,68 @@ Ha kíváncsi, és szeretné jobban megérteni a Monero csomópontok működés�
 
 További olvasnivaló
 
-  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies/)
+  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies)/
 
-  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin/)
+  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys/)
+  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys)/
 
-  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero/)
+  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero)/
 
-  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades/)
+  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades)/
 
-  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero)/
 
-  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero/)
+  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup/)
+  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup)/
 
-  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value/)
+  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value)/
 
-  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect/)
+  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect)/
 
-  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking/)
+  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking)/
 
-  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams/)
+  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams)/
 
-  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps/)
+  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps)/
 
-  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking/)
+  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking)/
 
-  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct/)
+  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct)/
 
-  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses/)
+  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses)/
 
-  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses/)
+  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses)/
 
-  * [Monero kimenetek magyarázata](/knowledge/monero-outputs/)
+  * [Monero kimenetek magyarázata](/knowledge/monero-outputs)/
 
-  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices/)
+  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices)/
 
-  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures/)
+  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures)/
 
-  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size/)
+  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size)/
 
-  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag/)
+  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag)/
 
-  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission/)
+  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission)/
 
-  * [A Monero rövid története](/knowledge/monero-history/)
+  * [A Monero rövid története](/knowledge/monero-history)/
 
-  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked/)
+  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked)/
 
-  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked/)
+  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked)/
 
-  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion/)
+  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion)/
 
-  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx/)
+  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx)/
 
-  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better/)
+  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better)/
+
+További olvasnivaló

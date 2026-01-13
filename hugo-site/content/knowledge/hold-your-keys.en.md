@@ -14,6 +14,8 @@ In this brief post we’ll dive into why you should hold your own keys and give 
 
 ## Why is holding your own keys important?
 
+## Why is holding your own keys important?
+
 One of the most commonly misunderstood aspects of self-custody in Monero is that if you do not hold your own keys, you gain little to no benefit from the privacy Monero offers. As the sender of a transaction has full visibility into the true spend, amount, and recipient address, if you are not the one sending the transaction and instead leave that to an exchange or custodian, they have _full_ visibility into the ways you spend your Monero.
 
 Thankfully, after they send the funds, Monero’s privacy guarantees kick in and provide strong “forward-secrecy”, but it will be clear to the exchange or custodian where you sent the funds and how much you sent initially.
@@ -38,6 +40,8 @@ This behavior can also lead to liquidity crises where users who _do_ want to hol
 
 ## How do I hold my own keys with Monero?
 
+## How do I hold my own keys with Monero?
+
 When you start to hold your own keys, the most important thing to remember is to _save and keep your seed phrase safe_! This is the set of 14 or 25 random words that any Monero wallet will give you when you create a wallet, and is all you will need to get your funds back if you lose your phone, your desktop, your laptop, or you forget a password.
 
 Treat this seed phrase as if it is worth all the Monero in your wallet, as anyone who gets it will have complete access to the funds in your wallet. It’s ideal to keep it in a safe or secret location, preserve multiple copies in case of fire or natural disaster, and never show it to anyone.
@@ -47,9 +51,11 @@ For more on seed phrases, see [Mnemonic Seed | Moneropedia](https://web.getmoner
 If you’re mainly a desktop user and don’t spend/receive Monero on-the-go very often, there are a few solid choices for holding your own keys without needing to rely on any third-parties.
 
   * [The official Monero wallet](https://getmonero.org/downloads)
-    * This is the official Monero wallet software, and has seen constant improvements and additions. It includes an integrated Monero daemon (if you want), is very user-friendly, and will soon support [mining via p2pool directly from your wallet](/knowledge/p2pool-decentralizing-monero-mining/).
+    * This is the official Monero wallet software, and has seen constant improvements and additions. It includes an integrated Monero daemon (if you want), is very user-friendly, and will soon support [mining via p2pool directly from your wallet](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
   * [Feather Wallet](https://featherwallet.org/)
     * This is an excellent wallet in the vein of [Electrum for Bitcoin](https://electrum.org/), and provides both simple usability and extremely powerful features in a single wallet.
+
+  * This is the official Monero wallet software, and has seen constant improvements and additions. It includes an integrated Monero daemon (if you want), is very user-friendly, and will soon support [mining via p2pool directly from your wallet](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
 
   * This is an excellent wallet in the vein of [Electrum for Bitcoin](https://electrum.org/), and provides both simple usability and extremely powerful features in a single wallet.
 
@@ -66,6 +72,8 @@ For those of us that like to be able to use our Monero on the go or spend freque
 
 ## Conclusion
 
+## Conclusion
+
 Hopefully this post has helped to cement the need for holding your own keys, as well as pointed you to some of the excellent wallets in the space.
 
 The more you take Monero into your own hands and actually use it, the more benefit you can get both now and in the future. Monero is not just a speculative asset – it’s a powerful tool for freedom and financial privacy that is much-needed in the world of today and the future ahead of us.
@@ -74,66 +82,68 @@ Now go get those coins off an exchange and dive into what Monero was built for.
 
 Further reading
 
-  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies/)
+  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies)/
 
-  * [Monero’s Ring Signatures vs CoinJoin Like in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero’s Ring Signatures vs CoinJoin Like in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Contributing Back to Monero](/knowledge/contributing-to-monero/)
+  * [Contributing Back to Monero](/knowledge/contributing-to-monero)/
 
-  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy/)
+  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy)/
 
-  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades/)
+  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades)/
 
-  * [View Tags: How One Byte Will Reduce Monero Wallet Sync Times by 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [View Tags: How One Byte Will Reduce Monero Wallet Sync Times by 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool and Its Role in Decentralizing Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool and Its Role in Decentralizing Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero)/
 
-  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero/)
+  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup/)
+  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect/)
+  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect)/
 
-  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking/)
+  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking)/
 
-  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams/)
+  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams)/
 
-  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps/)
+  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking/)
+  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking)/
 
-  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct/)
+  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct)/
 
-  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses/)
+  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses)/
 
-  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses/)
+  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses)/
 
-  * [Monero Outputs Explained](/knowledge/monero-outputs/)
+  * [Monero Outputs Explained](/knowledge/monero-outputs)/
 
-  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices/)
+  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices)/
 
-  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures/)
+  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures)/
 
-  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size/)
+  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag/)
+  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag)/
 
-  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission/)
+  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission)/
 
-  * [A Brief History of Monero](/knowledge/monero-history/)
+  * [A Brief History of Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked/)
+  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked)/
 
-  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
 
-  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion/)
+  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion)/
 
-  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx)/
 
-  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better/)
+  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better)/
+
+Further reading

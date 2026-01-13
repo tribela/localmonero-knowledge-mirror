@@ -10,7 +10,11 @@ Daugelis vartotojų gali būti šokiruoti sužinoję, kad ekspertai mano, kad kr
 
 ## UŽRAŠYK SAVO SĖKLĄ!
 
+## UŽRAŠYK SAVO SĖKLĄ!
+
 Pirmasis ir didžiausias būdas apsaugoti savo kriptovaliutą yra užsirašyti Monero mnemoninį elementą, kuris yra trumpas žodžių sąrašas, rodomas pirmą kartą kuriant piniginę. Jei turite šią sėklą, bet jūsų kompiuteris / telefonas miršta, galite atkurti savo Monero. Jei neturite šios sėklos ir pametate savo piniginę, jūsų Monero yra prarastas ir niekas negali padėti jums jos susigrąžinti. Lygiai taip pat nesidalinkite šia sėkla su niekuo. Jei jie turi šį žodžių sąrašą, jie turi visišką prieigą prie jūsų Monero ir išlaidavimo teises. Daugelis buvo nerūpestingi užsitikrindami savo sėklą ir patenka į siaubingą prarastų lėšų tikrovę, nes kažkas jas paėmė. Rekomenduojame užsirašyti. Fiziškai. Nesaugokite jo skaitmeniniu būdu ir įsitikinkite, kad turite keletą kopijų įvairiose vietose. Tai yra svarbiausias dalykas, kurį galite padaryti norėdami apsaugoti savo Monero. UŽRAŠYKITE SAVO SĖKLĄ!
+
+## Dar kartą patikrinkite savo adresus
 
 ## Dar kartą patikrinkite savo adresus
 
@@ -18,11 +22,17 @@ Kai kurios aferos naudoja jūsų kompiuteryje esančią kenkėjišką programą,
 
 ## Sužinokite, kuo skiriasi karštos ir šaltos piniginės
 
+## Sužinokite, kuo skiriasi karštos ir šaltos piniginės
+
 Karštos ir šaltos piniginės yra įprasta terminija kriptovaliutų erdvėje, o koncepcija išties gana paprasta. Karšta piniginė yra ta, kurią dažnai išsiimate ir naudojate. Tai „karšta“ nuo jūsų užpakalinėje kišenėje. Šaltos piniginės yra tokios, prie kurių neliečiama labai dažnai, panašiai kaip pinigai banke. Kaip ir nepatartina nešiotis šimtų dolerių fizinėje piniginėje, bet paprastai priimtina tai daryti banko sąskaitoje, vartotojai turėtų pagalvoti, kiek Monero yra protinga nešiotis karštoje, mobilioje piniginėje ir kiek geriausia palikti. namuose per antrą, šaltą. Tokiu būdu praradus telefoną, vagystę ar kitus nelaimingus atsitikimus nebus visiškai prarastos lėšos.
 
 ## Ar aparatinės piniginės jums tinka?
 
+## Ar aparatinės piniginės jums tinka?
+
 Jei idėja apsaugoti savo skaitmeninę aplinką nuo virusų ir kenkėjiškų programų, siekiant apsaugoti jūsų Monero, jums kelia baimę, galite apsvarstyti aparatinės įrangos piniginę. Iš esmės aparatinės įrangos piniginė saugo privačius raktus įrenginyje, toliau nuo kompiuterio. Taigi, net jei jūsų kompiuteris bus pažeistas, įsilaužėliai neturės prieigos prie jūsų sėklos. Lėšas galėsite išleisti tik tuo atveju, jei aparatinė piniginė bus prijungta prie kompiuterio ir pasirašys sandorį. Tai perkelia raktų saugumą iš jūsų kompiuterio, kuris naudojamas daugeliui dalykų ir turi didelį atakos paviršių, į aparatinės įrangos piniginę, kuri naudojama tik vienam dalykui ir turi daug mažesnį atakos paviršių. Paprastam žmogui, kuris neišmano kompiuterių saugumo smulkmenų, tai yra tinkama galimybė apsaugoti savo lėšas.
+
+## Jei abejojate, naudokite numatytuosius nustatymus (su Monero)
 
 ## Jei abejojate, naudokite numatytuosius nustatymus (su Monero)
 
@@ -34,66 +44,68 @@ Gali atrodyti, kad apie tai kalbėti keista. Daugeliui vartotojų būtų galima 
 
 Papildoma literatūra
 
-  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies/)
+  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies)/
 
-  * [Monero žiedo parašai prieš CoinJoin kaip Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero žiedo parašai prieš CoinJoin kaip Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys/)
+  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys)/
 
-  * [Prisideda prie Monero](/knowledge/contributing-to-monero/)
+  * [Prisideda prie Monero](/knowledge/contributing-to-monero)/
 
-  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy/)
+  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy)/
 
-  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades/)
+  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades)/
 
-  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: ką tai padarys Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: ką tai padarys Monero](/knowledge/seraphis-for-monero)/
 
-  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup/)
+  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup)/
 
-  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value/)
+  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value)/
 
-  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect/)
+  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect)/
 
-  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking/)
+  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking)/
 
-  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams/)
+  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams)/
 
-  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps/)
+  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking/)
+  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking)/
 
-  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct/)
+  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct)/
 
-  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses/)
+  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses)/
 
-  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses/)
+  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses)/
 
-  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs/)
+  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs)/
 
-  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures/)
+  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures)/
 
-  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag/)
+  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag)/
 
-  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission/)
+  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission)/
 
-  * [Trumpa Monero istorija](/knowledge/monero-history/)
+  * [Trumpa Monero istorija](/knowledge/monero-history)/
 
-  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked/)
+  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked)/
 
-  * [15 populiariausių Monero mitų ir rūpesčių, kurie buvo paneigti](/knowledge/monero-myths-debunked/)
+  * [15 populiariausių Monero mitų ir rūpesčių, kurie buvo paneigti](/knowledge/monero-myths-debunked)/
 
-  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion/)
+  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion)/
 
-  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx/)
+  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx)/
 
-  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better/)
+  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better)/
+
+Papildoma literatūra

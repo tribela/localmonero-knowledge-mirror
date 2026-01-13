@@ -14,6 +14,8 @@ Sa maikling post na ito, susuriin natin kung bakit dapat mong hawakan ang sarili
 
 ## Bakit mahalaga ang paghawak ng sarili mong mga susi?
 
+## Bakit mahalaga ang paghawak ng sarili mong mga susi?
+
 Isa sa mga pinakakaraniwang hindi nauunawaang aspeto ng self-custody in Monero ay na kung hindi mo hawak ang iyong sariling mga susi, makakakuha ka ng kaunti hanggang sa hindi makinabang mula sa privacy na iniaalok ng Monero. Bilang nagpadala ng isang transaksyon ay may ganap na kakayahang makita sa totoong paggastos, halaga, at address ng tatanggap, kung hindi ikaw ang nagpapadala ng transaksyon at sa halip ay iwanan mo iyon isang exchange o custodian, mayroon silang _buong_ visibility sa mga paraan kung paano mo ginagastos ang iyong Monero.
 
 Sa kabutihang palad, pagkatapos nilang ipadala ang mga pondo, ginagarantiyahan ng privacy ng Monero kick in at magbigay ng malakas na "forward-secrecy", ngunit magiging malinaw ito sa ang exchange o custodian kung saan mo ipinadala ang mga pondo at kung magkano ang iyong ipinadala sa simula.
@@ -38,6 +40,8 @@ Ang pag-uugaling ito ay maaari ding humantong sa mga krisis sa pagkatubig kung s
 
 ## Paano ko hahawakan ang sarili kong mga susi sa Monero?
 
+## Paano ko hahawakan ang sarili kong mga susi sa Monero?
+
 Kapag sinimulan mong hawakan ang sarili mong mga susi, ang pinakamahalagang bagay ay tandaan na _i-save at panatilihing ligtas ang iyong seed phrase_! Ito ang set ng 14 o 25 random na salita na ibibigay sa iyo ng anumang Monero wallet kung kailan gumawa ka ng wallet, at ito lang ang kakailanganin mo para maibalik ang iyong mga pondo kung nawala mo ang iyong telepono, desktop, laptop, o nakalimutan mo ang a password.
 
 Itrato ang seed na pariralang ito na parang sulit ang lahat ng Monero sa iyong wallet, dahil ang sinumang makakakuha nito ay magkakaroon ng kumpletong pag-access sa mga pondo sa loob iyong pitaka. Mainam na itago ito sa isang ligtas o lihim na lokasyon, mag-imbak ng maraming kopya sa kaso ng sunog o natural na sakuna, at hindi kailanman ipakita ito sa sinuman.
@@ -47,9 +51,11 @@ Para sa higit pa sa mga seed na parirala, tingnan ang [Mnemonic Binhi | Monerope
 Kung isa kang desktop user at hindi gumagastos/tumatanggap ng Monero on-the-go napakadalas, may ilang mga solidong pagpipilian para sa paghawak ng iyong sarili key nang hindi kinakailangang umasa sa anumang mga third-party.
 
   * [Ang opisyal na Monero pitaka](https://getmonero.org/downloads)
-    * Ito ang opisyal na software ng Monero wallet, at nakitang hindi nagbabago mga pagpapabuti at pagdaragdag. Kasama dito ang isang pinagsamang Monero daemon (kung gusto mo), ay napaka-user-friendly, at malapit nang suportahan ang [pagmimina sa pamamagitan ng p2pool nang direkta mula sa iyong wallet](/knowledge/p2pool-decentralizing-monero-mining/).
+    * Ito ang opisyal na software ng Monero wallet, at nakitang hindi nagbabago mga pagpapabuti at pagdaragdag. Kasama dito ang isang pinagsamang Monero daemon (kung gusto mo), ay napaka-user-friendly, at malapit nang suportahan ang [pagmimina sa pamamagitan ng p2pool nang direkta mula sa iyong wallet](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
   * [Feather Wallet](https://featherwallet.org/)
     * Ito ay isang mahusay na wallet sa ugat ng [Electrum para sa Bitcoin](https://electrum.org/), at nagbibigay ng pareho simpleng kakayahang magamit at napakalakas na mga tampok sa isang solong pitaka.
+
+  * Ito ang opisyal na software ng Monero wallet, at nakitang hindi nagbabago mga pagpapabuti at pagdaragdag. Kasama dito ang isang pinagsamang Monero daemon (kung gusto mo), ay napaka-user-friendly, at malapit nang suportahan ang [pagmimina sa pamamagitan ng p2pool nang direkta mula sa iyong wallet](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
 
   * Ito ay isang mahusay na wallet sa ugat ng [Electrum para sa Bitcoin](https://electrum.org/), at nagbibigay ng pareho simpleng kakayahang magamit at napakalakas na mga tampok sa isang solong pitaka.
 
@@ -66,6 +72,8 @@ Para sa amin na gustong magamit ang aming Monero on the go o madalas gumastos, p
 
 ## Konklusyon
 
+## Konklusyon
+
 Sana ang post na ito ay nakatulong upang mapatibay ang pangangailangan para sa paghawak ng iyong sariling mga susi, pati na rin itinuro sa iyo ang ilan sa mga mahuhusay na wallet sa espasyo.
 
 Habang mas dinadala mo ang Monero sa iyong sariling mga kamay at aktwal mong ginagamit ito, ang mas maraming benepisyo ang maaari mong makuha ngayon at sa hinaharap. Ang Monero ay hindi lamang isang speculative asset - ito ay isang makapangyarihang tool para sa kalayaan at pananalapi privacy na lubhang kailangan sa mundo ngayon at sa hinaharap sa amin.
@@ -74,66 +82,68 @@ Ngayon, kunin ang mga baryang iyon mula sa isang exchange at tingnan kung ano si
 
 Karagdagang pagbabasa
 
-  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies/)
+  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies)/
 
-  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero/)
+  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero)/
 
-  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy/)
+  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades/)
+  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades)/
 
-  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero)/
 
-  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup/)
+  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect/)
+  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect)/
 
-  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking/)
+  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking)/
 
-  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams/)
+  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams)/
 
-  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps/)
+  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking/)
+  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking)/
 
-  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct/)
+  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct)/
 
-  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses/)
+  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses)/
 
-  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses/)
+  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses)/
 
-  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs/)
+  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs)/
 
-  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices/)
+  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices)/
 
-  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures/)
+  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures)/
 
-  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size/)
+  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag/)
+  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag)/
 
-  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission/)
+  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission)/
 
-  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history/)
+  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history)/
 
-  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked/)
+  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked)/
 
-  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
 
-  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion/)
+  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion)/
 
-  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx)/
 
-  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better/)
+  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better)/
+
+Karagdagang pagbabasa

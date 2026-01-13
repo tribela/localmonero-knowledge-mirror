@@ -12,6 +12,8 @@ I dette innlegget skal vi dykke ned i noen av detaljene bak hvordan Monero gir e
 
 ## Hvilken funksjon har noder i Monero?
 
+## Hvilken funksjon har noder i Monero?
+
 For de som er mindre kjent med hvordan Monero fungerer, kan nodene (eller serverne) i Monero-nettverket drives av hvem som helst og la eieren av noden – eller andre de velger å dele den med! – å synkronisere en kopi av blokkjeden og gi den kopien til andre på nettverket. Disse nodene verifiserer også alle transaksjoner som skjer på nettverket, samt alle blokker som er publisert og sikrer at de alle følger reglene som er fastsatt ved konsensus.
 
 Den andre funksjonen som noder tjener i Monero, er som en måte å gi alle dataene din favoritt Monero-lommebok trenger for å se etter transaksjoner som tilhører deg og foreta nye transaksjoner. Disse dataene leveres av noder på to måter:
@@ -20,6 +22,12 @@ Den andre funksjonen som noder tjener i Monero, er som en måte å gi alle datae
     * Dette trinnet vil snart bli drastisk forbedret, takket være [visningstagger](/knowledge/view-tags-reduce-monero-sync-time).
   * Når du sender transaksjoner, gir noden du bruker en liste over mulige lokkemidler (eller falske innganger) du kan bruke når du bygger transaksjonen, og sikrer at du har en god mengde å gjemme deg i hver gang du bruker Monero. 
     * Disse lokkefuglene er en del av [ringsignaturer](/knowledge/ring-signatures), en viktig del av Moneros tilnærming til personvern på kjeden.
+
+  * Dette trinnet vil snart bli drastisk forbedret, takket være [visningstagger](/knowledge/view-tags-reduce-monero-sync-time).
+
+  * Disse lokkefuglene er en del av [ringsignaturer](/knowledge/ring-signatures), en viktig del av Moneros tilnærming til personvern på kjeden.
+
+## Hva er den mest private og sikre måten å bruke Monero på?
 
 ## Hva er den mest private og sikre måten å bruke Monero på?
 
@@ -31,6 +39,8 @@ Når det er sagt, gir Monero fortsatt utmerket personvern når du bruker en ekst
 
 ## Hva kan en ekstern node lære om meg?
 
+## Hva kan en ekstern node lære om meg?
+
 Når du bruker en ekstern node, er det noen få viktige opplysninger som blir eksponert for en ekstern node og et par viktige måter noden kan angripe deg på, hindre deg i å utføre transaksjoner og mer.
 
 Det første en ekstern node kan lære om deg, er den offentlige IP-adressen din. Selv om dette forhåpentligvis vil bli skjult via en VPN eller Tor, kan den eksterne noden knytte din offentlige IP-adresse til transaksjonen, og hjelpe dem med å begrense hvor du handler fra. Den eksterne noden kan også lære den siste blokken lommeboken din synkroniserte og bruke denne til å prøve å gjøre utdannede gjetninger om deg, for eksempel når du vanligvis bruker Monero og når du sist brukte Monero. Dette gjelder spesielt hvis du alltid kommer fra samme IP-adresse (som hjemmet ditt). Den siste nøkkelen som en ekstern node kan lære om deg, er grunnleggende informasjon om transaksjonene du sender gjennom den. Selv om dette kan være de mest åpenbare dataene som den eksterne nodeoperatøren får om deg, er det viktig å forstå at dette kan brukes til å hjelpe med å spore opp avsenderen av transaksjonen når du kombinerer denne informasjonen med andre data utenfor kjeden. Dette kan være spesielt farlig hvis den eksterne noden drives av en ondsinnet enhet, et blokkjedeanalyseselskap eller en undertrykkende nasjonalstat.
@@ -39,9 +49,13 @@ En ekstern node kan også forsøke å forårsake problemer ved å skjule blokker
 
 ## Hvilke personverngarantier eksisterer fortsatt når du bruker en ekstern node?
 
+## Hvilke personverngarantier eksisterer fortsatt når du bruker en ekstern node?
+
 Selv om denne artikkelen kan ha skremt deg litt, er det viktig å innse at personvernet levert av Monero er utmerket selv når du bruker en ekstern node, og langt overgår enhver annen kryptovaluta når den brukes på denne måten. Du oppnår fortsatt det sterke personvernet på kjeden levert av Monero, siden den eksterne noden aldri vet den sanne inngangen (hvilke mynter du bruker), mengden Monero brukt i transaksjonen, eller adressen til mottakeren av transaksjonen. Utenfor observatører kan heller ikke se den sanne inngangen, beløpet eller adressene som er involvert (uansett hvilken type node du velger å bruke!), og sikrer at utenfor den eksterne noden til og med din IP-adresse, lommeboksynkroniseringsinformasjon og transaksjoner har sterke personverngarantier .
 
 Den eksterne noden har heller aldri tilgang til de tidligere transaksjonene du har sendt eller mottatt eller mengden Monero i lommeboken din, og mister all synlighet til transaksjonene dine i det øyeblikket du begynner å bruke en annen node. Ingen private nøkler (verken forbruks- eller visningsnøkler) blir noen gang gitt til den eksterne noden, og derfor forblir lommeboken din privat, sikker og brukbar. Uansett ekstern node, er du heller aldri i fare for å miste Monero eller få den stjålet, siden noden ikke kan redigere mottakeradressen, aldri har tilgang til lommebokens private nøkler og ikke kan konfiskere Monero på noen måte.
+
+## Hva med "lette lommebøker" som MyMonero?
 
 ## Hva med "lette lommebøker" som MyMonero?
 
@@ -57,6 +71,8 @@ For mer om den tilpassede lette lommebokserveren, se Github-depotet nedenfor:
 
 ## Hvordan kan jeg lære mer?
 
+## Hvordan kan jeg lære mer?
+
 Hvis du er nysgjerrig og gjerne vil forstå noder i Monero bedre og se på hvordan du kan bruke en ekstern node eller kjøre din egen, kan du se koblingene nedenfor for gode steder å komme i gang:
 
   * [Monero World, en liste over fellesskapsdrevne eksterne noder som kan brukes](https://moneroworld.com/#nodes)
@@ -67,66 +83,68 @@ Hvis du er nysgjerrig og gjerne vil forstå noder i Monero bedre og se på hvord
 
 Videre lesning
 
-  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies/)
+  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies)/
 
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Hvorfor (og hvordan!) du bør holde dine egne nøkler](/knowledge/hold-your-keys/)
+  * [Hvorfor (og hvordan!) du bør holde dine egne nøkler](/knowledge/hold-your-keys)/
 
-  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero/)
+  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero)/
 
-  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades/)
+  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades)/
 
-  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero)/
 
-  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero/)
+  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup/)
+  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect/)
+  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect)/
 
-  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking/)
+  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking)/
 
-  * [Svindel å se etter når du bruker Monero](/knowledge/monero-scams/)
+  * [Svindel å se etter når du bruker Monero](/knowledge/monero-scams)/
 
-  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps/)
+  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking/)
+  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking)/
 
-  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct/)
+  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct)/
 
-  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses/)
+  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses)/
 
-  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses/)
+  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses)/
 
-  * [Monero-utganger forklart](/knowledge/monero-outputs/)
+  * [Monero-utganger forklart](/knowledge/monero-outputs)/
 
-  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices/)
+  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices)/
 
-  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures/)
+  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures)/
 
-  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size/)
+  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag/)
+  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag)/
 
-  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission/)
+  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission)/
 
-  * [En kort historie om Monero](/knowledge/monero-history/)
+  * [En kort historie om Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked/)
+  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked)/
 
-  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked/)
+  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked)/
 
-  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion/)
+  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion)/
 
-  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx)/
 
-  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better/)
+  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better)/
+
+Videre lesning

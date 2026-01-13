@@ -8,8 +8,12 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: nadgradnja modularne zasnove za Monero transakcije
 
+## Seraphis: nadgradnja modularne zasnove za Monero transakcije
+
 Ta objava opisuje [Seraphis](https://github.com/UkoeHB/Seraphis), niz struktur transakcijskega protokola in abstrakcij, ki jih je razvil psevdonimni raziskovalec [`koe`](https://github.com/UkoeHB) za ekosistem Monero, in s stalno varnostno analizo avtor psevdonimnega sodelavca [`coinstudent2048`](https://github.com/coinstudent2048).  
 Naredili smo nekaj poenostavitev in zaradi jasnosti izpustili nekatere tehnične podrobnosti; iz tega razloga in ker načrtovanje Seraphisa še vedno poteka, naj se zainteresirani bralci obrnejo na dokumentacijo Seraphis za najnovejše informacije.
+
+## Transakcije v Moneru
 
 ## Transakcije v Moneru
 
@@ -41,8 +45,12 @@ Podoben postopek je bil izveden z gradnikom povezljivega obročnega podpisa. V p
 
 ## Seraphis
 
+## Seraphis
+
 Seraphis s to idejo gre še korak dlje.  
 Namesto posodobitve posameznih gradnikov obstoječega transakcijskega protokola RingCT uvaja drugačen protokol, ki lahko izkoristi različne gradnike in ponudi izboljšano funkcionalnost.
+
+## Gradniki
 
 ## Gradniki
 
@@ -61,6 +69,8 @@ Ker RingCT vpeče povezovalno oznako v dvoumen podpis, so operacije podpisovanja
 Na srečo nekateri gradniki, ki jih zahteva Seraphis, že obstajajo drugje in jih ni treba načrtovati iz nič. Obe konstrukciji Bulletproofs in Bulletproofs+ se lahko uporabljata kot dokazila o dosegu. Spremembe dokaznih sistemov tipa Schnorr se lahko uporabljajo za avtorizacijo dokazov. In učinkovit [sistem dokazovanja](https://eprint.iacr.org/2015/643), ki je bil že uporabljen kot osnova za Triptych, [Lelantus](https://eprint.iacr.org/2019/373) in [Spark](https://eprint.iacr.org/2021/1173)*, je mogoče spremeniti za dokaze članstva.
 
 * Cypher Stack prejme sredstva za razvoj Spark.
+
+## Naslavljanje
 
 ## Naslavljanje
 
@@ -84,70 +94,74 @@ Kot imetnik naslova se lahko odločite, koliko pooblastil boste prenesli na drug
 
 ## Velika slika
 
+## Velika slika
+
 Seraphis je velika sprememba v Monero ekosistemu. Čeprav vključuje spremembe naslovov in gradnikov transakcij, njegova zasnova ponuja prilagodljivost in uporabno funkcionalnost, ki ni mogoča z današnjim protokolom RingCT. Medtem ko je velik del zasnove dokončan in se razvija v [izvedbo](https://github.com/UkoeHB/monero/tree/seraphis_lib), načrtovanje naslovov in analiza varnosti še potekata. Seraphis ponuja odlično priložnost za pospešitev ekosistema Monero! 
 
 Nadaljnje branje
 
-  * [Kako Monero edinstveno omogoča krožna gospodarstva](/knowledge/monero-circular-economies/)
+  * [Kako Monero edinstveno omogoča krožna gospodarstva](/knowledge/monero-circular-economies)/
 
-  * [Obročni ring podpisi Monero vs CoinJoin kot v Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Obročni ring podpisi Monero vs CoinJoin kot v Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Zakaj (in kako!) bi morali imeti svoje ključe](/knowledge/hold-your-keys/)
+  * [Zakaj (in kako!) bi morali imeti svoje ključe](/knowledge/hold-your-keys)/
 
-  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero/)
+  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero)/
 
-  * [Kako oddaljena vozlišča vplivajo na zasebnost Monera](/knowledge/remote-nodes-privacy/)
+  * [Kako oddaljena vozlišča vplivajo na zasebnost Monera](/knowledge/remote-nodes-privacy)/
 
-  * [Kako Monero uporablja hard-forke za nadgradnjo omrežja](/knowledge/network-upgrades/)
+  * [Kako Monero uporablja hard-forke za nadgradnjo omrežja](/knowledge/network-upgrades)/
 
-  * [Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup/)
+  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup)/
 
-  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect/)
+  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect)/
 
-  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking/)
+  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking)/
 
-  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams/)
+  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams)/
 
-  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps/)
+  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps)/
 
-  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking/)
+  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking)/
 
-  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct/)
+  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct)/
 
-  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses/)
+  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses)/
 
-  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses/)
+  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses)/
 
-  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs/)
+  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs)/
 
-  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices/)
+  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices)/
 
-  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures/)
+  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures)/
 
-  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag/)
+  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag)/
 
-  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission/)
+  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission)/
 
-  * [Kratka zgodovina Monera](/knowledge/monero-history/)
+  * [Kratka zgodovina Monera](/knowledge/monero-history)/
 
-  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked/)
+  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked)/
 
-  * [Razbijamo 15 glavnih mitov in pomislekov o Monero](/knowledge/monero-myths-debunked/)
+  * [Razbijamo 15 glavnih mitov in pomislekov o Monero](/knowledge/monero-myths-debunked)/
 
-  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion/)
+  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion)/
 
-  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx/)
+  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx)/
 
-  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better/)
+  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better)/
+
+Nadaljnje branje

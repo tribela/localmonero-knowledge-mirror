@@ -1,132 +1,150 @@
 ---
-title: "Bagaimana node jarak jauh memengaruhi privasi Monero"
+title: "Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát"
 slug: "remote-nodes-privacy"
 date: "2022-02-16"
 image: "/images/nodes.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Salah satu keuntungan terbesar yang dimiliki Monero dibandingkan mata uang kripto lainnya adalah privasi on-chain-nya, tetapi pernahkah Anda bertanya-tanya bagaimana privasi Monero bertahan saat Anda menggunakan node jarak jauh? Bagaimana jika Anda menggunakan server “dompet ringan” seperti MyMonero?
+A Monero egyik legnagyobb előnye más kriptovalutákkal szemben a láncon megvalósuló adatbiztonság, de gondolkozott-e már azon, hogy a Monero adatvédelme mennyire érvényesül, amikor távoli csomópontot használ? Mi történik, ha egy „könnyű pénztárcát” használ, mint amilyen a MyMonero?
 
-Dalam postingan ini kami akan menyelami beberapa detail di balik bagaimana Monero memberikan privasi on-chain yang luar biasa bahkan saat menggunakan node jarak jauh, serta apa yang harus diperhatikan saat menggunakan node jarak jauh.
+Ebben a bejegyzésben bemutatjuk annak részleteit, ahogy a Monero kivételes adatvédelmet biztosít távoli csomópontok használatakor is, valamint azt is, hogy mire kell figyelni távoli csomópontok használatánál.
 
-## Apa fungsi node di Monero?
+## Milyen funkciókat látnak el a Monero csomópontok?
 
-Bagi mereka yang kurang mengetahui cara kerja Monero, node (atau server) di jaringan Monero dapat dijalankan oleh siapa saja dan mengizinkan pemilik node – atau orang lain yang mereka pilih untuk membagikannya! – untuk menyinkronkan salinan blockchain dan memberikan salinan itu kepada orang lain di jaringan. Node-node ini juga memverifikasi semua transaksi yang terjadi di jaringan, serta semua blok yang dipublikasikan dan memastikan bahwa semuanya mengikuti aturan yang ditetapkan melalui konsensus.
+## Milyen funkciókat látnak el a Monero csomópontok?
 
-Fungsi lain yang diberikan node di Monero adalah sebagai cara untuk menyediakan semua data yang dibutuhkan dompet Monero favorit Anda untuk memeriksa transaksi milik Anda dengan benar dan melakukan transaksi baru. Data ini disediakan oleh node dalam dua cara:
+Azok számára, akik kevésbé ismerik a Monero működését: a hálózat csomópontjait (vagyis szervereit) bárki futtathatja, ez lehetővé teszi a csomópont tulajdonosának – vagy másoknak, akikkel megosztja azt! – a blokklánc egy példányának szinkronizálását, és a másolat továbbítását a hálózatnak. Ezek a csomópontok ellenőrzik a hálózaton zajló összes tranzakciót, valamint az összes közzétett blokkot, és biztosítják, hogy mindegyik megfeleljen a konszenzusban meghatározott szabályoknak.
 
-  * Data dari setiap blok di blockchain diminta oleh dompet, dipindai untuk transaksi milik Anda, lalu dibuang setelah diperiksa oleh dompet. 
-    * Langkah ini akan segera ditingkatkan secara drastis, berkat [lihat tag](/knowledge/view-tags-reduce-monero-sync-time).
-  * Saat mengirim transaksi, node yang Anda gunakan menyediakan daftar kemungkinan umpan (atau input palsu) untuk digunakan saat membuat transaksi, memastikan bahwa Anda memiliki kerumunan yang baik untuk bersembunyi setiap kali Anda membelanjakan Monero. 
-    * Umpan ini adalah bagian dari [ring signatures](/knowledge/ring-signatures), bagian penting dari pendekatan Monero terhadap privasi on-chain.
+A másik funkció, amit a Monero csomópontok ellátnak, hogy biztosítják azokat az adatokat, amelyekre kedvenc Monero pénztárcájának szüksége van az Önhöz tartozó tranzakciók megfelelő ellenőrzéséhez és az új tranzakciók létrehozásához. Ezeket az adatokat a csomópontok két helyen biztosítják:
 
-## Apa cara paling pribadi dan aman untuk menggunakan Monero?
+  * A lánc blokkjaihoz tartozó adatokat a pénztárca lekéri, átvizsgálja az Önhöz tartozó tranzakciókat, majd az ellenőrzés után eldobja a blokkokat. 
+    * Ez a művelet hamarosan drasztikusan javulni fog a [nézetcímkéknek](/knowledge/view-tags-reduce-monero-sync-time) köszönhetően.
+  * Tranzakciók küldésekor az Ön által használt csomópont szolgáltatja a lehetséges csalik (hamis bemenetek) listáját, amelyeket a tranzakció felépítésére használ, így biztosítva, hogy minden Monero elköltésekor elbújhasson a tömegben. 
+    * Ezek a csalik a [gyűrűs aláírások](/knowledge/ring-signatures) részét képezik, ami fontos része Monero láncon történő adatvédelmének.
 
-Hal terbaik untuk dilakukan, bahkan dengan privasi on-chain kuat yang disediakan oleh Monero saat menggunakan node jarak jauh, adalah menjalankan node Monero Anda sendiri untuk memastikan bahwa Anda memiliki salinan murni dari blockchain Monero yang berguna dan alamat IP Anda terlindungi dengan baik. Manfaat lain saat menjalankan node Anda sendiri adalah Anda dapat berkontribusi kembali ke jaringan, membiarkan node lain melakukan sinkronisasi dari node Anda atau bahkan membiarkan pengguna lain terhubung ke node Anda dengan dompet mereka.
+  * Ez a művelet hamarosan drasztikusan javulni fog a [nézetcímkéknek](/knowledge/view-tags-reduce-monero-sync-time) köszönhetően.
 
-Meskipun demikian, Monero masih memberikan privasi yang sangat baik saat menggunakan node jarak jauh. Jika Anda tertarik untuk menjalankan node Monero Anda sendiri, berikut adalah panduan yang mudah diikuti untuk melakukannya: 
+  * Ezek a csalik a [gyűrűs aláírások](/knowledge/ring-signatures) részét képezik, ami fontos része Monero láncon történő adatvédelmének.
 
-  * [Jalankan Monero Node](https://sethforprivacy.com/guides/run-a-monero-node/)
+## Mi a legprivátabb és legbiztonságosabb módja a Monero használatának?
 
-## Apa yang bisa dipelajari node jarak jauh tentang saya?
+## Mi a legprivátabb és legbiztonságosabb módja a Monero használatának?
 
-Saat menggunakan node jarak jauh, ada beberapa informasi penting yang terpapar ke node jarak jauh dan beberapa cara utama node dapat menyerang Anda, mencegah Anda bertransaksi, dan banyak lagi.
+A Monero által biztosított, távoli csomópontok használatakor is erős adatvédelem ellenére is a legjobb saját Monero csomópontot futtatni, hogy kéznél legyen a Monero blokklánc érintetlen példánya, és hogy az IP címe rejtve maradjon. A másik előnye a saját csomópont futtatának, hogy hozzájárul a hálózathoz, lehetővé teszi, hogy más csomópontok szinkronizáljanak az Önéről, vagy akár megengedheti nekik, hogy pénztárcájukkal csatlakozhazzak a csomóponthoz.
 
-Hal pertama yang dapat dipelajari node jarak jauh tentang Anda adalah alamat IP publik Anda. Meskipun ini mudah-mudahan akan disembunyikan melalui VPN atau Tor, node jarak jauh dapat mengaitkan alamat IP publik Anda dengan transaksi, membantu mereka mempersempit dari mana Anda bertransaksi. Node jarak jauh juga dapat mempelajari blok terakhir yang disinkronkan dompet Anda dan menggunakan ini untuk mencoba dan membuat tebakan cerdas tentang Anda, seperti saat Anda biasanya menggunakan Monero dan saat terakhir Anda membelanjakan Monero. Ini terutama benar jika Anda selalu berasal dari alamat IP yang sama (seperti rumah Anda). Hal penting terakhir yang dapat dipelajari node jarak jauh tentang Anda adalah informasi dasar tentang transaksi yang Anda kirim melaluinya. Meskipun ini mungkin data paling jelas yang diperoleh operator node jarak jauh tentang Anda, penting untuk dipahami bahwa ini dapat digunakan untuk membantu melacak pengirim transaksi saat menggabungkan informasi tersebut dengan data off-chain lainnya. Ini bisa sangat berbahaya jika node jarak jauh dijalankan oleh entitas jahat, perusahaan analitik blockchain, atau negara-bangsa penindas.
+Ezt szem előtt tartva, a Monero akkor is kiváló adatvédelmet biztosít, ha távoli csomópontot használ. Ha érdeklődik saját Monero csomópontjának futtatása irant, itt található egy útmutató (angol): 
 
-Node jarak jauh juga dapat mencoba untuk menimbulkan masalah bagi Anda dengan menyembunyikan blok-blok dari Anda, membuat dompet Anda mengira itu telah disinkronkan padahal sebenarnya tidak. Hal ini dapat membuat Anda mengira dana hilang atau mencegah Anda membelanjakan dana hingga Anda terhubung ke node lain. Hal utama terakhir yang dapat dilakukan node jarak jauh adalah memberi dompet Anda daftar umpan yang dimanipulasi. Ini dapat menyebabkan dompet Anda gagal sepenuhnya untuk membangun transaksi (membuat Anda tidak dapat membelanjakan dana), atau dapat memungkinkan node jarak jauh untuk mencoba dan memberikan umpan yang diketahui telah dihabiskan untuk mengurangi anonimitas yang Anda terima dalam setiap transaksi.
+  * [Monero Node futtatása](https://sethforprivacy.com/guides/run-a-monero-node/)
 
-## Jaminan privasi apa yang masih ada saat menggunakan node jarak jauh?
+## Mit tudhat meg rólam egy távoli csomópont?
 
-Meskipun artikel ini mungkin sedikit membuat Anda takut, penting untuk disadari bahwa privasi yang disediakan oleh Monero sangat baik bahkan saat menggunakan node jarak jauh, dan jauh melampaui mata uang kripto lainnya saat digunakan dengan cara ini. Anda masih mendapatkan privasi on-chain yang kuat yang disediakan oleh Monero, karena node jarak jauh tidak pernah mengetahui input sebenarnya (koin apa yang Anda belanjakan), jumlah yang dihabiskan Monero dalam transaksi, atau alamat penerima transaksi. Pengamat luar juga tidak dapat melihat input, jumlah, atau alamat sebenarnya yang terlibat (apa pun jenis node yang Anda pilih untuk digunakan!), memastikan bahwa di luar node jarak jauh bahkan alamat IP Anda, informasi sinkronisasi dompet, dan transaksi memiliki jaminan privasi yang kuat .
+## Mit tudhat meg rólam egy távoli csomópont?
 
-Node jarak jauh juga tidak pernah memiliki akses ke transaksi sebelumnya yang telah Anda kirim atau terima atau jumlah Monero yang saat ini ada di dompet Anda, dan kehilangan semua visibilitas transaksi Anda saat Anda mulai menggunakan node lain. Tidak ada kunci pribadi (baik kunci pembelanjaan atau tampilan) yang pernah diberikan ke node jarak jauh, sehingga dompet Anda tetap pribadi, aman, dan dapat digunakan. Terlepas dari node jarak jauh, Anda juga tidak akan pernah berisiko kehilangan Monero atau dicuri, karena node tidak dapat menyunting alamat penerima, tidak pernah memiliki akses ke kunci pribadi dompet Anda, dan tidak dapat menyita Monero Anda dengan cara apa pun.
+Távoli csomópont használatakor van néhány kulcsfontosságú információ, amely a távoli csomópont számára hozzáférhetővé válik, és néhány fontos módja annak, ahogy a csomópont megtámadhatja Önt, pl megakadályozhatja a tranzakciók küldését, és így tovább.
 
-## Bagaimana dengan “dompet ringan” seperti MyMonero?
+Az első dolog, amit egy távoli csomópont megtud Önről, az a nyilvános IP-címe. Bár ezt remélhetőleg VPN-en vagy Toron keresztül rejtve marad, a távoli csomópont társíthatja a nyilvános IP-címét a tranzakcióhoz, megkönnyítve nekik, hogy leszűkítsék a tranzakció eredetének lehetséges helyét. A távoli csomópont azt is megtudhatja, hogy a pénztárca melyik blokkot szinkronizálta utoljára, ennek segítségével megalapozott feltételezésekkel élhet Önről, például, hogy mikor használja általában a Monerot, vagy mikor költött belőle utoljára. Ez különösen igaz, ha mindig ugyanarról az IP-címről érkezik (például otthonából). Az utolsó fontos tétel, amit a távoli csomópont megtudhat Önről, az a rajta keresztül küldött tranzakciók alapvető információi. Bár ezek a legtriviálisabb adatok, amelyeket a csomópont üzemeltetője megszerez Önről, fontos látni, hogy ezek felhasználhatók egy tranzakció feladójának azonosítására, ha ezeket az információkat más, láncon kívüli adatokkal kombinálják. Ez különösen veszélyes lehet, ha a távoli csomópontot rosszindulatú entitás, például egy blokklánc-elemző cég vagy egy elnyomó nemzetállam üzemelteti.
 
-Meskipun topiknya sedikit di luar cakupan artikel ini, saya memang ingin membahas jenis dompet unik di Monero – dompet ringan. Nama dompet ringan berasal dari fakta bahwa dompet Anda (di ponsel atau komputer Anda) tidak harus melakukan sinkronisasi blockchain apa pun, menjadikan pengalaman lebih cepat dan lebih lancar.
+Egy távoli csomópont azzal is megkísérelhet problémát okozni, hogy blokkokat rejt el Ön elől, így a pénztárcája tévesen azt hiszi, hogy szinkronizálva van. Emiatt azt hiheti, hogy pénzeszközök vesztek el, vagy megakadályozhatja, hogy pénzt költsön, amíg nem csatlakozik másik csomóponthoz. Az utolsó, amit egy távoli csomópont tehet Ön ellen, hogy a pénztárcáját manipulált elterelőkimenetekkel látja el. Ez azt eredményezheti, hogy a pénztárcája nem lesz képes tranzakciót létrehozni (ami miatt nem tud pénzt elkölteni), vagy lehetővé teheti a távoli csomópont számára, hogy olyan terelőkimeneteket biztosítson, amelyekről tudja, hogy már elköltötték, így csökkentve az egyes tranzakciók során biztosított névtelenséget.
 
-Namun, dompet seperti ini datang dengan trade-off privasi yang parah untuk saat ini – dompet Anda mengirimkan kunci tampilan pribadi ke server jarak jauh yang Anda gunakan (seperti default di MyMonero), memberikan visibilitas penuh kepada server jarak jauh ke dalam setiap dana yang diterima sejak pembuatan dompet Anda (dan sampai Anda berhenti menggunakan dompet atau seed itu). Ini mengurangi privasi yang Anda terima dari operator node secara drastis, dan harus didekati dengan hati-hati.
+## Milyen adatvédelmi garanciák maradnak meg távoli csomópont használatakor?
 
-Untungnya, komunitas Monero sedang berupaya meningkatkan perangkat lunak yang dapat Anda gunakan untuk menghosting Light Wallet Server (LWS) Anda sendiri, yang akan memungkinkan Anda melakukan sinkronisasi cepat tanpa mempercayai pihak ketiga dengan kunci tampilan pribadi Anda – karena Anda akan menjalankan perangkat lunak di mana dompet Anda mengirimkan kunci tampilan pribadi!
+## Milyen adatvédelmi garanciák maradnak meg távoli csomópont használatakor?
 
-Untuk informasi lebih lanjut tentang server dompet ringan khusus, lihat repositori Github di bawah ini:
+Bár ez a cikk megijeszthette egy kicsit, fontos látni, hogy a Monero által biztosított adatvédelem még távoli csomópont használatakor is kimagasló, messze felülmúl minden más kriptovalutát, akkor is, ha így használjuk. Továbbra is élvezheti a Monero által biztosított erős adatvédelmet, mivel a távoli csomópont soha nem ismeri a valódi bemenetet (hogy mit költ el), a tranzakcióban elköltött Monero összegét vagy a tranzakció címzettjét. A külső megfigyelők sem láthatják a valódi bemenetet, az összeget vagy az érintett címeket (függetlenül attól, hogy milyen csomópontot használ!), biztosítva, hogy a távoli csomóponton kívül az Ön IP-címe, szinkronizálási információi és tranzakciói is erős adatvédelmi garanciákat élveznek.
+
+A távoli csomópont továbbá soha nem fér hozzá az Ön által küldött vagy fogadott korábbi tranzakciókhoz, illetve a pénztárcájában jelenleg lévő Monero összegéhez, és elveszíti rálátását a tranzakcióira abban a pillanatban, amikor másik csomópontra vált. A távoli csomópont soha nem kap meg privát kulcsokat (sem a költési, sem a megtekintési kulcsokat), így a pénztárca privát és biztonságos marad. A csomóponttól függetlenül soha nem fenyegeti a Monero elvesztésének vagy ellopásának veszélye, mivel a csomópont nem tudja átírni a címzettet, soha nem fér hozzá a pénztárca privát kulcsaihoz, és semmilyen módon nem fér hozzá Monerojához.
+
+## Mi a helyzet a „könnyű” pénztárcákkal, mint a MyMonero?
+
+## Mi a helyzet a „könnyű” pénztárcákkal, mint a MyMonero?
+
+Bár a téma egy kicsit túlmutat ennek a cikknek a hatókörén, szeretnék a Monero tárcák különleges változatával foglalkozni – a könnyített pénztárcákkal. A könnyű pénztárca elnevezés onnan ered, hogy a pénztárcának (a telefonon vagy a számítógépen) nem kell végrehajtania a blokklánc szinkronizálását, így az élmény gyorsabb és gördülékenyebb.
+
+Az ehhez hasonló pénztárcák azonban komoly adatvédelmi kompromisszummal járnak – a pénztárca elküldi a privát megtekintő kulcsát az Ön által használt távoli szervernek (ez az alapértelmezett a MyMoneroban), így a távoli szerver láthatja a kapott pénzeszközöket, pénztárcája létrehozása óta (és a jövőben is, amíg abba nem hagyja ennek a tárcának a használatát). Ez drasztikusan csökkenti a csomópont üzemeltetőjével szembeni adatvédelmet, ezért óvatosan kell eljárni.
+
+Szerencsére a Monero közösség dolgozik azon, hogy javítson a szoftveren, hogy saját könnyű szerverét (LWS) futtathassa, így lehetővé téve a gyors szinkronizálást anélkül, hogy egy harmadik félre bízná privát megtekintő kulcsait – mivel Ön futtatja azt a szoftvert, amelynek a pénztárcája elküldi a privát kulcsait!
+
+Ha többet szeretne megtudni erről, tekintse meg az alábbi Github repot:
 
   * [monero-lws](https://github.com/vtnerd/monero-lws)
 
-## Bagaimana saya bisa belajar lebih banyak?
+## Hogyan tudhatok meg többet?
 
-Jika Anda penasaran dan ingin lebih memahami node di Monero dan mencari cara untuk menggunakan node jarak jauh atau menjalankan node Anda sendiri, lihat tautan di bawah untuk mengetahui tempat yang bagus untuk memulai:
+## Hogyan tudhatok meg többet?
 
-  * [Monero World, daftar node jarak jauh yang dikelola komunitas yang dapat digunakan](https://moneroworld.com/#nodes)
-  * [Node Monero dijalankan oleh Seth For Privacy, penulis artikel ini](https://sethforprivacy.com/about/#high-performance-monero-nodes)
-  * [monero.fail, daftar node jarak jauh dengan status yang sering diperiksa< /a>](https://monero.fail/)
-  * [Cara menghubungkan ke node jarak jauh dalam dompet GUI](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
-  * [Moneropedia - Node Jarak Jauh](https://www.getmonero.org/resources/moneropedia/remote-node.html)
+Ha kíváncsi, és szeretné jobban megérteni a Monero csomópontok működését, szeretne egy távoli csomópontot használni vagy sajátot futtatni, tekintse meg az alábbi linkeket, nagyszerű forrásokat találhat a kezdéshez (angol):
 
-Bacaan lebih lanjut
+  * [Monero World, a közösség által működtetett távoli csomópontok listája](https://moneroworld.com/#nodes)
+  * [Seth For Privacy Monero csomópontjai , aki a cikk szerzője](https://sethforprivacy.com/about/#high-performance-monero-nodes)
+  * [monero.fail, gyakran ellenőrzött állapotú távoli csomópontok listája< /a>](https://monero.fail/)
+  * [Hogyan kell csatlakozni egy távoli csomóponthoz a grafikus felületű tárcával](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
+  * [Moneropedia – Távoli Csomópontok](https://www.getmonero.org/resources/moneropedia/remote-node.html)
 
-  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies/)
+További olvasnivaló
 
-  * [Ring signature Monero vs CoinJoin seperti di Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies)/
 
-  * [Mengapa (dan bagaimana!) Anda harus memegang kunci Anda sendiri](/knowledge/hold-your-keys/)
+  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Berkontribusi kembali ke Monero](/knowledge/contributing-to-monero/)
+  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys)/
 
-  * [Bagaimana Monero menggunakan hard-fork untuk memutakhirkan jaringan](/knowledge/network-upgrades/)
+  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero)/
 
-  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades)/
 
-  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Seraphis: Apa yang Akan Dilakukannya untuk Monero](/knowledge/seraphis-for-monero/)
+  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?](/knowledge/most-private-way-to-buy-monero/)
+  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero)/
 
-  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup/)
+  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup)/
 
-  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect/)
+  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value)/
 
-  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking/)
+  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect)/
 
-  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams/)
+  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking)/
 
-  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps/)
+  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams)/
 
-  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking/)
+  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps)/
 
-  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct/)
+  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking)/
 
-  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses/)
+  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct)/
 
-  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses/)
+  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses)/
 
-  * [Output Monero Dijelaskan](/knowledge/monero-outputs/)
+  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses)/
 
-  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices/)
+  * [Monero kimenetek magyarázata](/knowledge/monero-outputs)/
 
-  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures/)
+  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices)/
 
-  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size/)
+  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures)/
 
-  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag/)
+  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size)/
 
-  * [Mengapa Monero Memiliki Tail Emission](/knowledge/monero-tail-emission/)
+  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag)/
 
-  * [Sejarah Singkat Monero](/knowledge/monero-history/)
+  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission)/
 
-  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked/)
+  * [A Monero rövid története](/knowledge/monero-history)/
 
-  * [Top 15 Mitos dan Kekhawatiran Monero Terbantahkan](/knowledge/monero-myths-debunked/)
+  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked)/
 
-  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion/)
+  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked)/
 
-  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion)/
 
-  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx/)
+  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better/)
+  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx)/
+
+  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better)/
+
+További olvasnivaló

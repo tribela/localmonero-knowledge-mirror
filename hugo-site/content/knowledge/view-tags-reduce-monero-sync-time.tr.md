@@ -1,124 +1,136 @@
 ---
-title: "Etiketleri görüntüle: Bir bayt, Monero cüzdan senkronizasyon sürelerini nasıl %40'tan fazla azaltır?"
+title: "Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+"
 slug: "view-tags-reduce-monero-sync-time"
 date: "2022-02-03"
 image: "/images/viewTags.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Monero'yu günlük olarak kullanmayla ilgili en yaygın şikayetlerden biri, Monero'yu göndermeden önce bir cüzdanı senkronize etmenin zaman almasıdır. Neyse ki, Monero topluluğundaki geliştiriciler ve araştırmacılar, herhangi bir ek blockchain şişkinliği, ücret vb. olmadan cüzdanınızı senkronize etmek için harcadığınız süreyi %40'ın üzerinde azaltmanın harika bir yolunu buldular.
+Isa sa mga pinakakaraniwang reklamo sa paggamit ng Monero araw-araw ay ang oras na maaaring tumagal upang mag-sync ng wallet bago maipadala si Monero. Sa kabutihang palad, ang mga developer at mananaliksik sa komunidad ng Monero ay nakahanap ng napakahusay na paraan upang bawasan ang oras na aabutin mo upang i-sync ang iyong wallet ng 40%+ nang walang anumang idinagdag na blockchain bloat, mga bayarin, atbp.
 
-Her işlemin verilerine bir baytlık ek olan "etiketleri görüntüle"yi girin; bir sonraki ağ yükseltmesinde Monero'ya gelecek!
+Ilagay ang “view tags”, isang one-byte na karagdagan sa data ng bawat transaksyon – darating sa Monero sa susunod na pag-upgrade ng network!
 
-## Monero'nun cüzdan senkronizasyonu neden Bitcoin'inkinden daha yavaş?
+## Bakit mas mabagal ang pag-sync ng wallet ni Monero kaysa sa Bitcoin?
 
-Etiketleri görüntüleme gibi bir çözüme olan ihtiyacı daha iyi anlamak için yanıtlamamız gereken ilk sorulardan biri, Monero'nun cüzdan senkronizasyonunun neden Bitcoin gibi kripto para birimlerinden daha yavaş olduğudur.
+## Bakit mas mabagal ang pag-sync ng wallet ni Monero kaysa sa Bitcoin?
 
-Bitcoin'de, tüm işlemler özel olmadığından ve harcanan paraları, tutarları ve zincirdeki adresleri ortaya çıkardığından, Bitcoin cüzdanları, belirli bir cüzdan için harcanmamış işlem çıktılarını (UTXO'lar) veya kullanılmış adresleri kolayca arayabilir , hangi paraların cüzdanınıza ait olduğunu ve harcanabileceğini bulmak için blok zincirini yalnızca bu adreslere ait UTXO'lar için hızlı bir şekilde tarar.
+Isa sa mga unang tanong na kailangan naming sagutin para mas maunawaan ang pangangailangan para sa solusyon tulad ng mga view tag ay kung bakit mas mabagal ang pag-sync ng wallet ni Monero kaysa sa mga cryptocurrencies tulad ng Bitcoin.
 
-Ancak Monero'da tüm işlemler, göndereni, alıcıyı ve her işlemde yer alan tutarları gizleyerek kullanıcının gizliliğini korur. Bu gizlilik, ağ kullanıcılarının korunması açısından hayati öneme sahip olmakla birlikte, aynı zamanda daha yavaş cüzdan senkronizasyonunu da beraberinde getirir. Monero'da cüzdanınızın, ağda bulunan her işlem çıkışını (TXO) cüzdanınızın özel anahtarlarıyla karşılaştırması gerekir.
+Sa Bitcoin, dahil ang lahat ng mga transaksyon ay hindi pribado at ipinapakita ang mga coin na ginagastos, ang mga halaga, at ang mga address na kasangkot sa kadena, ang mga wallet ng Bitcoin ay maaaring maghanap lamang ng anumang hindi nagastos na mga output ng transaksyon (UTXO) o ginamit na mga address para sa isang partikular na wallet , mabilis na ini-scan ang blockchain para sa mga UTXO lamang na pagmamay-ari ng mga address na iyon upang malaman kung aling mga barya ang nabibilang sa iyong wallet at maaaring gastusin.
 
-Tüm tutarlar, adresler ve harcandığı bilinen çıktılar (veya madeni paralar) Monero'da zincir üzerinde gizlendiğinden, bu karşılaştırma bir çıktının gerçekten size ait olduğunu doğrulamak için birçok karmaşık matematik ve kriptografi içerir.
+Sa Monero, gayunpaman, pinapanatili ng lahat ng transaksyon ang privacy ng user sa pamamagitan ng pagtatago sa nagpadala, tagatanggap, at mga halagang kasama sa bawat transaksyon. Ang privacy na ito, habang mahalaga sa pagprotekta sa mga user ng network, ay nagpapakilala rin ng mas mabagal na pag-synchronize ng wallet. Sa Monero, kailangang ihambing ng iyong wallet ang bawat output ng transaksyon (TXO) na umiiral sa network sa mga pribadong key ng iyong wallet.
 
-## Görünüm etiketleri nedir?
+Ang paghahambing na ito ay nagsasangkot ng maraming kumplikadong matematika at cryptography upang patunayan na ang isang output ay tunay na sa iyo, dahil ang lahat ng mga halaga, address, at kilalang-ginastos na mga output (o mga barya) ay nakatago on-chain sa Monero.
 
-Monero cüzdanları için senkronizasyon süresini azaltmaya yardımcı olmanın bir yolu olarak, [UkoeHB adlı bir araştırmacı yeni bir yaklaşım geliştirdi](https://github.com/monero-project/research-lab/issues/73) \- yalnızca bilinen bir paylaşılan sırrı kullanarak her işleme 1 baytlık bir "etiket" ekleyin bu işlemin göndericisine ve alıcısına.
+## Ano ang view tags?
 
-Bu paylaşılan sır, gönderen tarafından, alıcı tarafından kendisine sağlanan adres kullanılarak oluşturulur ve gönderen ile alıcının herhangi bir aktif işbirliğini gerektirmez. Bu paylaşılan sırrın ilk baytı (veya karakteri), daha sonra Monero ağında yayınlanırken işlemin verilerine eklenir.
+## Ano ang view tags?
 
-Bu işlemdeki katılımcılardan biri daha sonra cüzdanını Monero blok zinciriyle senkronize etmek istediğinde, ağdaki her bir TXO için tüm karmaşık matematik ve kriptografi işlemlerini gerçekleştirmek yerine, cüzdan artık yalnızca her işlemde bu 1 baytlık alanı kullanın ve ancak bundan sonra bu etikete sahip işlemlerde zaman alıcı doğrulamayı gerçekleştirin - kesin olarak söylemek gerekirse ağdaki 1/256 TXO!
+Bilang isang paraan upang makatulong na bawasan ang oras ng pag-synchronize para sa mga wallet ng Monero, [isang researcher na nagngangalang UkoeHB ang nakaisip ng isang bagong diskarte](https://github.com/monero-project/research-lab/issues/73) – magdagdag ng 1-byte na “tag” sa bawat transaksyon gamit ang isang nakabahaging lihim na alam lang sa nagpadala at tumanggap ng transaksyong iyon.
 
-Bu etiket, işlemle ilgili herhangi bir bilgiyi dışarıdaki izleyicilere göstermez, işlem boyutlarına yalnızca 1 bayt (göz ardı edilebilir bir miktar) ekler ve yine de karmaşık doğrulamaları azaltarak senkronizasyon sürelerini %40'ın üzerinde azaltmamıza olanak tanır gerekli!
+Ang nakabahaging lihim na ito ay nabuo ng nagpadala gamit ang address na ibinigay sa kanila ng tatanggap, at hindi nangangailangan ng anumang aktibong pakikipagtulungan ng nagpadala at tagatanggap. Ang unang byte (o character) ng nakabahaging lihim na ito ay idinaragdag sa data ng transaksyon kapag na-publish ito sa Monero network.
 
-## Etiketleri görüntüle: basitleştirilmiş bir örnek
+Kapag ang isa sa mga kalahok sa transaksyong iyon ay nais na i-sync ang kanilang wallet sa Monero blockchain pagkatapos, sa halip na kailanganing gawin ang lahat ng kumplikadong matematika at cryptography para sa bawat at bawat TXO sa network, maaari na ngayong suriin ng wallet ang para sa ang 1-byte na field na iyon sa bawat transaksyon at pagkatapos lamang gawin ang matagal na pag-verify sa mga transaksyong may tag na iyon – 1/256 TXO sa network, upang maging tumpak!
 
-Bir odada 4.096 kutunuzun olduğunu ve bunlardan yalnızca 5'inin size ait olduğunu hayal edin. Kutuların hepsi dışarıdan tamamen ayırt edilemez ve bir kutunun size uygun olup olmadığını anlamanın tek yolu, onu açmak ve size ait olduğundan emin olmak için içine yazılmış, zaman alan bir matematik problemini çözmektir.
+Ang tag na ito ay hindi naghahayag ng anumang impormasyon tungkol sa transaksyon sa mga manonood sa labas, nagdaragdag lamang ng 1-byte (isang hindi gaanong halaga) sa mga laki ng transaksyon, at gayon pa man ay nagbibigay-daan sa amin na bawasan ang mga oras ng pag-sync ng 40%+ sa pamamagitan ng pagbabawas sa mga kumplikadong pag-verify kailangan!
 
-Şimdi, size bu 5 kutuyu gönderen kişinin adresinizi kullanarak özel bir kod oluşturmasına karar verdiğinizi ve ardından oluşturulan kodun yalnızca ilk karakterini size gönderilen her kutunun dışına koymaya karar verdiğinizi hayal edin. Herkes kendi kutuları için aynı şeyi yapıyor (tüm kutuların hala ayırt edilemez olduğundan emin olmak için), ancak artık kutunun dışındaki tek karakterli koda bakabilir ve yalnızca üzerinde o karakterin bulunduğu kutuları açabilirsiniz.[ X753X] 
+## Tingnan ang mga tag: isang pinasimpleng halimbawa
 
-Diğer kutular kodunuzla eşleşirken, bazıları size ait olmasa da, açmanız ve bir matematik problemini çözmeniz gereken kutu sayısı artık 4.096 yerine yalnızca 16 (1/256 kutu!). 
+## Tingnan ang mga tag: isang pinasimpleng halimbawa
 
-Şimdi o 16 kutuyu açıyorsunuz, matematik problemlerini çözüyorsunuz ve aslında size ait olan 5 kutuyu o gruptan tutuyorsunuz!
+Isipin na mayroon kang 4,096 na kahon sa isang silid, kung saan 5 kahon lang ang pag-aari mo. Ang mga kahon ay ganap na hindi nakikilala mula sa labas, at ang tanging paraan upang malaman kung ang isang kahon ay para sa iyo ay buksan ito at lutasin ang isang matagal na problema sa matematika na nakasulat sa loob upang matiyak na ito ay sa iyo.
 
-Diğer kutular kodunuzla eşleşirken, bazıları size ait olmasa da, açmanız ve bir matematik problemini çözmeniz gereken kutu sayısı artık 4.096 yerine yalnızca 16 (1/256 kutu!). 
+Ngayon, isipin na nagpasya kang gagawa ang taong nagpadala sa iyo ng 5 kahon na iyon ng isang espesyal na code gamit ang iyong address, at pagkatapos ay ilagay lamang ang unang character ng nabuong code na iyon sa labas ng bawat kahon na ipapadala sa iyo. Ang iba ay gumagawa ng parehong bagay para sa kanilang mga kahon (upang matiyak na ang lahat ng mga kahon ay hindi pa rin nakikilala), ngunit ngayon ay maaari mo na lamang tingnan ang isang code ng character sa labas ng kahon, at buksan lamang ang mga kahon na may ganoong karakter sa kanila.[ X753X] 
 
-Şimdi o 16 kutuyu açıyorsunuz, matematik problemlerini çözüyorsunuz ve aslında size ait olan 5 kutuyu o gruptan tutuyorsunuz!
+Bagama't tutugma ang ibang mga kahon sa iyong code, kahit na ang ilan ay hindi mo pagmamay-ari, ang bilang ng mga kahon na kailangan mong buksan at lutasin ang isang problema sa matematika ay 16 (1/256 na kahon!) na lang sa halip na lahat ng 4,096. 
 
-## Monero'da görüntüleme etiketleri ne zaman kullanıma sunulacak?
+Ngayon, buksan mo ang 16 na kahon na iyon, lutasin ang mga problema sa matematika, at panatilihin ang 5 kahon na aktuwal na pag-aari mo mula sa pangkat na iyon!
 
-Görünüm etiketleri, şu anda [yaklaşan ağ yükseltmesine](https://github.com/monero-project/meta/issues/630) dahil edilmesi planlanan özelliklerden biridir ve bu baharda piyasaya sürülmesi planlanmaktadır. Topluluk [görünüm etiketlerinin geliştirilmesini ve uygulanmasını teşvik etmek için 23,3XMR'yi](https://bounties.monero.social/posts/28/implement-view-tags-to-decrease-wallet-sync-times-in-monero) artırdı (bu yazının yazıldığı sırada) ve sonuç olarak görünüm etiketlerini Monero kod tabanına dahil etmeye yönelik çalışmaların büyük çoğunluğu zaten yürütüldü j-berman tarafından hakemler ve araştırmacıların işbirliğiyle tamamlandı.
+Bagama't tutugma ang ibang mga kahon sa iyong code, kahit na ang ilan ay hindi mo pagmamay-ari, ang bilang ng mga kahon na kailangan mong buksan at lutasin ang isang problema sa matematika ay 16 (1/256 na kahon!) na lang sa halip na lahat ng 4,096. 
 
-Görüntüleme etiketleri ağ tarafından zorunlu kılındıktan sonra, ağ yükseltmesinden sonra gönderilen tüm işlemler, büyük ölçüde iyileştirilmiş cüzdan senkronizasyon süresinden yararlanacaktır. Görünüm etiketlerini kullanmaya başlamak için özel bir şey yapmanıza gerek kalmayacak; Monero için favori cüzdanınız, ağ yükseltmesinden sonra otomatik olarak bunları kullanmaya başlayacak!
+Ngayon, buksan mo ang 16 na kahon na iyon, lutasin ang mga problema sa matematika, at panatilihin ang 5 kahon na aktuwal na pag-aari mo mula sa pangkat na iyon!
 
-## Daha fazlasını nasıl öğrenebilirim?
+## Kailan magiging available ang mga view na tag sa Monero?
 
-Bu, görünüm etiketleri konusunda merakınızı artırdıysa, konuyu derinlemesine ele alan bazı ek bağlantılar için aşağıya göz atın:
+## Kailan magiging available ang mga view na tag sa Monero?
 
-  * [Çıkış başına 1 bayt 'görüntüleme etiketi' ile tarama sürelerini azaltın](https://github.com/monero-project/research-lab/issues/73)
-  * [Cüzdan tarama süresini azaltmak için çıkışlara görünüm etiketleri ekleyin](https://github.com/monero-project/monero/pull/8061)
+Ang mga tag ng view ay isa sa mga feature na kasalukuyang pinaplano para sa pagsasama sa [paparating na pag-upgrade ng network](https://github.com/monero-project/meta/issues/630), at dapat na ilabas ilang oras ngayong tagsibol. Ang komunidad [ay nagtaas ng 23.3XMR](https://bounties.monero.social/posts/28/implement-view-tags-to-decrease-wallet-sync-times-in-monero) (sa oras ng pagsulat) upang bigyang-insentibo ang pagbuo at pagpapatupad ng mga tag ng view, at bilang resulta, ang karamihan sa gawaing magsama ng mga tag ng view sa Monero code base ay naisagawa na. kinumpleto ni j-berman sa pakikipagtulungan ng mga reviewer at researcher.
 
-daha fazla okuma
+Kapag ipinatupad na ng network ang mga view tag, lahat ng transaksyong ipinadala pagkatapos ng pag-upgrade sa network ay makikinabang sa napakahusay na oras ng pag-sync ng wallet. Hindi mo na kakailanganing gumawa ng anumang espesyal upang simulan ang paggamit ng mga view tag, ang iyong paboritong wallet para sa Monero ay magsisimulang gamitin ang mga ito pagkatapos ng awtomatikong pag-upgrade ng network!
 
-  * [Monero döngüsel ekonomileri benzersiz bir şekilde nasıl mümkün kılıyor?](/knowledge/monero-circular-economies/)
+## Paano ako matututo ng higit pa?
 
-  * [Monero'nun halka imzaları Wasabi'deki gibi CoinJoin'e karşı](/knowledge/ring-signatures-vs-coinjoin/)
+## Paano ako matututo ng higit pa?
 
-  * [Neden (ve nasıl!) kendi anahtarlarınızı tutmalısınız?](/knowledge/hold-your-keys/)
+Kung napukaw nito ang iyong pagkamausisa tungkol sa mga tag ng view, tingnan sa ibaba ang ilang karagdagang link na malalim ang papasok sa paksa:
 
-  * [Monero'ya geri katkıda bulunmak](/knowledge/contributing-to-monero/)
+  * [Bawasan ang mga oras ng pag-scan gamit ang 1-byte-per-output na 'view tag'](https://github.com/monero-project/research-lab/issues/73)
+  * [Magdagdag ng mga view tag sa mga output para mabawasan ang oras ng pag-scan ng wallet](https://github.com/monero-project/monero/pull/8061)
 
-  * [Uzak düğümler Monero'nun gizliliğini nasıl etkiler?](/knowledge/remote-nodes-privacy/)
+Karagdagang pagbabasa
 
-  * [Monero ağı yükseltmek için hard fork'ları nasıl kullanıyor?](/knowledge/network-upgrades/)
+  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies)/
 
-  * [P2Pool ve Monero Madenciliğinin Merkezi Olmamasındaki Rolü](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Seraphis: Monero İçin Ne Yapacak?](/knowledge/seraphis-for-monero/)
+  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys)/
 
-  * [Bitcoin'i Monero'ya Dönüştürmek Doğrudan Monero Satın Almak Kadar Özel mi?](/knowledge/most-private-way-to-buy-monero/)
+  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero)/
 
-  * [Monero Neden Zcash'ten Farklı Olarak Güvenilir Bir Kurulum Kullanıyor?](/knowledge/monero-trustless-setup/)
+  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Monero Neden Bitcoin'den Daha İyi Bir Değer Deposu?](/knowledge/monero-better-store-of-value/)
+  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades)/
 
-  * [Monero, Bitcoin'in Ağ Etkilerinin Üstesinden Nasıl Gelebilir?](/knowledge/network-effect/)
+  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Monero Neden En Eleştirel Düşünme Topluluğuna Sahip?](/knowledge/critical-thinking/)
+  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero)/
 
-  * [Monero Kullanırken Dikkat Edilmesi Gereken Dolandırıcılıklar](/knowledge/monero-scams/)
+  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Monero'da Atomik Takaslar Nasıl Çalışacak?](/knowledge/monero-atomic-swaps/)
+  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Konu Ağ Oluşturmaya Geldiğinde Her Monero Kullanıcısının Bilmesi Gerekenler](/knowledge/monero-networking/)
+  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [RingCT Monero İşlem Tutarlarını Nasıl Gizliyor?](/knowledge/monero-ringct/)
+  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect)/
 
-  * [Monero Gizli Adresleri Kimliğinizi Nasıl Korur?](/knowledge/monero-stealth-addresses/)
+  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking)/
 
-  * [Monero Alt Adresleri Kimlik Bağlantısını Nasıl Önler?](/knowledge/monero-subaddresses/)
+  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams)/
 
-  * [Monero Çıktılarının Açıklaması](/knowledge/monero-outputs/)
+  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Yeni Başlayanlar İçin Monero En İyi Uygulamaları](/knowledge/monero-best-practices/)
+  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking)/
 
-  * [Halka İmzaları Monero'nun Çıktılarını Nasıl Gizliyor?](/knowledge/ring-signatures/)
+  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct)/
 
-  * [Monero, Bitcoin'i Saldıran Blok Boyutu Sorununu Nasıl Çözdü?](/knowledge/dynamic-block-size/)
+  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses)/
 
-  * [CLSAG Monero'nun Verimliliğini Nasıl Artıracak?](/knowledge/what-is-clsag/)
+  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses)/
 
-  * [Monero'nun Neden Kuyruk Emisyonu Var?](/knowledge/monero-tail-emission/)
+  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs)/
 
-  * [Monero'nun Kısa Tarihi](/knowledge/monero-history/)
+  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices)/
 
-  * [Wired Magazine Monero Konusunda Yanılıyor, İşte Nedeni](/knowledge/wired-article-debunked/)
+  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures)/
 
-  * [En Önemli 15 Monero Efsanesi ve Endişesi Çürütüldü](/knowledge/monero-myths-debunked/)
+  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Dandelion++ Monero'nun İşlem Kaynaklarını Nasıl Gizli Tutuyor?](/knowledge/monero-dandelion/)
+  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag)/
 
-  * [Monero Neden Açık Kaynaklı ve Merkezi Değildir?](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission)/
 
-  * [Monero Madenciliği: RandomX'i Bu Kadar Özel Kılan Nedir?](/knowledge/monero-mining-randomx/)
+  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history)/
 
-  * [Monero Neden Dash, Zcash, Zcoin (Lelantus ile Bile), Grin ve Wasabi Gibi Bitcoin Karıştırıcılarından Daha İyidir (Mayıs 2020'de Güncellendi)](/knowledge/why-monero-is-better/)
+  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked)/
+
+  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
+
+  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion)/
+
+  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
+
+  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx)/
+
+  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better)/
+
+Karagdagang pagbabasa

@@ -1,81 +1,91 @@
 ---
-title: "Mineritul Monero: Ce face ca RandomX să fie atât de special"
+title: "Monero Mining: O que torna o RandomX tão especial"
 slug: "monero-mining-randomx"
 date: "2020-02-20"
 image: "/images/mining.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-## Scop
+## Objectivo
 
-## Fundal
+## Objectivo
 
-## O analogie distractivă
+## Fundo
+
+## Fundo
+
+## Uma analogia divertida
+
+## Uma analogia divertida
 
 ## RandomX
 
-Lecturi suplimentare
+## RandomX
 
-  * [Cum permite Monero în mod unic economiile circulare](/knowledge/monero-circular-economies/)
+Leitura adicional
 
-  * [Semnături inelare Monero vs CoinJoin ca în Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Como Monero permite de forma única economias circulares](/knowledge/monero-circular-economies)/
 
-  * [De ce (și cum!) ar trebui să vă păstrați propriile chei](/knowledge/hold-your-keys/)
+  * [Assinaturas do anel de Monero vs CoinJoin como em Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Contribuind înapoi la Monero](/knowledge/contributing-to-monero/)
+  * [Por que (e como!) você deve segurar suas próprias chaves](/knowledge/hold-your-keys)/
 
-  * [Cum afectează nodurile de la distanță confidențialitatea Monero](/knowledge/remote-nodes-privacy/)
+  * [Contribuindo de volta para Monero](/knowledge/contributing-to-monero)/
 
-  * [Cum folosește Monero hard-fork-urile pentru a moderniza rețeaua](/knowledge/network-upgrades/)
+  * [Como os nós remotos impactam a privacidade de Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Vezi etichete: Cum un singur octet va reduce timpii de sincronizare a portofelului Monero cu 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Como Monero usa o hard-forks para atualizar a rede](/knowledge/network-upgrades)/
 
-  * [P2Pool și rolul său în descentralizarea mineritului Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [Ver tags: Como um byte reduzirá o tempo de sincronização da carteira Monero em mais de 40%.](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Seraphis: Ce va face pentru Monero](/knowledge/seraphis-for-monero/)
+  * [P2Pool e seu papel na descentralização da mineração Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Este convertirea Bitcoin în Monero la fel de privată ca și cumpărarea directă de Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Seraphis: O que fará por Monero](/knowledge/seraphis-for-monero)/
 
-  * [De ce Monero folosește o configurație fără încredere, spre deosebire de Zcash](/knowledge/monero-trustless-setup/)
+  * [Converter Bitcoin em Monero é tão privado quanto comprar Monero diretamente?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [De ce Monero este un depozit de valoare mai bun decât Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Por que Monero usa uma configuração sem confiança ao contrário de Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Cum poate Monero să depășească efectele de rețea ale Bitcoin](/knowledge/network-effect/)
+  * [Por que Monero é uma reserva de valor melhor do que Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [De ce Monero are cea mai mare comunitate cu gândire critică](/knowledge/critical-thinking/)
+  * [Como Monero pode superar os efeitos de rede do Bitcoin](/knowledge/network-effect)/
 
-  * [Escrocherii la care să fii atent când folosești Monero](/knowledge/monero-scams/)
+  * [Por que Monero tem a comunidade de pensamento mais crítico](/knowledge/critical-thinking)/
 
-  * [Cum vor funcționa schimburile atomice în Monero](/knowledge/monero-atomic-swaps/)
+  * [Golpes a serem observados ao usar o Monero](/knowledge/monero-scams)/
 
-  * [Ce trebuie să știe fiecare utilizator Monero atunci când vine vorba de rețea](/knowledge/monero-networking/)
+  * [Como as trocas atômicas funcionarão no Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Cum ascunde RingCT sumele tranzacțiilor Monero](/knowledge/monero-ringct/)
+  * [O que todo usuário Monero precisa saber quando se trata de rede](/knowledge/monero-networking)/
 
-  * [Cum îți protejează identitatea adresele Monero invizibile](/knowledge/monero-stealth-addresses/)
+  * [Como RingCT esconde valores de transação Monero](/knowledge/monero-ringct)/
 
-  * [Cum previn subadresele Monero legătura de identitate](/knowledge/monero-subaddresses/)
+  * [Como os endereços Monero Stealth protegem sua identidade](/knowledge/monero-stealth-addresses)/
 
-  * [Explicații despre ieșirile Monero](/knowledge/monero-outputs/)
+  * [Como os subendereços do Monero evitam o vínculo de identidade](/knowledge/monero-subaddresses)/
 
-  * [Cele mai bune practici Monero pentru începători](/knowledge/monero-best-practices/)
+  * [Saídas Monero explicadas](/knowledge/monero-outputs)/
 
-  * [Modul în care semnăturile inelare ascund ieșirile Monero](/knowledge/ring-signatures/)
+  * [Práticas recomendadas Monero para iniciantes](/knowledge/monero-best-practices)/
 
-  * [Cum a rezolvat Monero problema dimensiunii blocurilor care afectează Bitcoin](/knowledge/dynamic-block-size/)
+  * [Como as assinaturas de toque obscurecem as saídas do Monero](/knowledge/ring-signatures)/
 
-  * [Cum va îmbunătăți CLSAG eficiența Monero](/knowledge/what-is-clsag/)
+  * [Como Monero resolveu o problema do tamanho do bloco que assola o Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [De ce Monero are o emisie de coadă](/knowledge/monero-tail-emission/)
+  * [Como o CLSAG melhorará a eficiência da Monero](/knowledge/what-is-clsag)/
 
-  * [O scurtă istorie a Monero](/knowledge/monero-history/)
+  * [Por que Monero tem uma emissão de cauda](/knowledge/monero-tail-emission)/
 
-  * [Revista Wired se înșeală în legătură cu Monero, iată de ce](/knowledge/wired-article-debunked/)
+  * [A história de Monero](/knowledge/monero-history)/
 
-  * [Top 15 mituri și îngrijorări legate de Monero dezmințite](/knowledge/monero-myths-debunked/)
+  * [Revista Wired está errada sobre Monero, aqui está o porquê](/knowledge/wired-article-debunked)/
 
-  * [Cum păstrează Dandelion++ confidențialitatea originilor tranzacțiilor Monero](/knowledge/monero-dandelion/)
+  * [Os 15 principais mitos e preocupações de Monero desmascarados](/knowledge/monero-myths-debunked)/
 
-  * [De ce Monero este Open Source și descentralizat](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Como o Dandelion ++ mantém as origens da transação de Monero em sigilo](/knowledge/monero-dandelion)/
 
-  * [De ce Monero este mai bun decât Dash, Zcash, Zcoin (chiar și cu Lelantus), Grin și Bitcoin Mixers ca Wasabi (actualizat în mai 2020)](/knowledge/why-monero-is-better/)
+  * [Por que o Monero é de código aberto e descentralizado](/knowledge/why-monero-is-open-source-and-decentralized)/
+
+  * [Por que Monero é melhor que Dash, Zcash, Zcoin (Even with Lelantus), Grin e Bitcoin Mixers como Wasabi (Atualizado em maio de 2020)](/knowledge/why-monero-is-better)/
+
+Leitura adicional

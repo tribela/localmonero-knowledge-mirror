@@ -1,93 +1,95 @@
 ---
-title: "Hvordan CLSAG vil forbedre Moneros effektivitet"
+title: "Kā CLSAG uzlabos Monero efektivitāti"
 slug: "what-is-clsag"
 date: "2020-08-05"
 image: "/images/clsag.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Som en protokoll er Monero for tiden i en konstant innovasjonstilstand. Ved å bruke forskning i både on-chain og off-chain løsninger, ser Monero-fellesskapet etter områder som kan forbedres for å gjøre Monero mer privat, mer skalerbar og mer tilgjengelig for alle. En av de nyere innovasjonene er erstatningen av den sammenkoblede ringsignaturordningen, MLSAG, med en drop-in-erstatning CLSAG, som står for Concise Linkable Spontaneous Anonymous Group.
+Kā protokols, Monero pašlaik ir pastāvīgas inovācijas stāvoklī. Izmantojot pētījumus gan ķēdē, gan ārpus ķēdes risinājumos, Monero kopiena meklē jomas, kuras jāuzlabo, lai padarītu Monero privātāku, vieglāk paplašināmu un pieejamu visiem. Viens no pēdējiem jauninājumiem ir saistāmās gredzenveida parakstu shēmas MLSAG aizstāšana ar ievietošanas nomaiņu CLSAG, kas nozīmē Concise Linkable Spontaneous Anonymous Group.
 
-På overflatenivå vil implementeringen av CLSAG redusere de vanligste 2 input, 2 output transaksjonene med 25 %. Vi vil også se en reduksjon på 10 % i bekreftelsestiden.
+Virspusējā līmenī CLSAG ieviešana par 25% samazinās izplatītākos 2 ievades, 2 izvades darījumus. Mēs arī redzēsim par 10% mazāku apstiprināšanas laiku.
 
-Men hva er egentlig CLSAG? Hva gjør den, og hvordan skiller den seg fra den gamle versjonen, MLSAG? La oss bruke et minutt på å minne oss selv på hvorfor og hvordan ringsignaturer, slik at vi bedre kan forstå dette konseptet. Ringsignaturer gir mulighet for ikke-interaktive, vitne utskillelige innganger ved bruk av signer-valgte anonymitetssett av tidligere utganger. I lekmenns termer lar det en bruker skjule sine utdata som brukes i en transaksjon sammen med ikke-relaterte utganger, og de kan gjøre alt dette uten at noen andre trenger å delta. Alt du trenger er en kopi av blokkjeden. Hver av disse utgangene ser for det meste ut til å være like sannsynlig å være den faktiske som sendes, og skjuler dermed metadata om avsenderen.
+Bet kas īsti ir CLSAG? Ko tas dara un kā tas atšķiras no vecās versijas MLSAG? Atvēlēsim minūti, lai atgādinātu sev par to, kāpēc un kā tiek izmantoti gredzenveida paraksti, lai mēs varētu labāk izprast šo jēdzienu. Gredzenveida paraksti nodrošina neinteraktīvus, neatšķiramus ievades datus, izmantojot parakstītāja atlasītas iepriekšējo izvadu anonimitātes grupas. Īsāk sakot, tas ļauj lietotājam slēpt savus pārskaitījumā izmantotos rezultātus starp nesaistītiem rezultātiem, un viņi to visu var izdarīt, nevienam citam nepiedaloties. Viss, kas jums nepieciešams, ir blokķēdes kopija. Katra no šīm izvadēm var būt īstā nosūtītā ar vienlīdz lielu varbūtību, tādējādi slēpjot metadatus par sūtītāju.
 
-Dette skaper imidlertid litt av et problem. Hva om en bruker skulle konstruere en ringsignatur med alle lokkeutganger? Hvordan kan noen vite at den ukjente avsenderen ikke har myndighet til å sende noen av dem? Ville denne brukeren kunne bruke falske penger? Svaret er nei. Ringsignaturen inkluderer en metode for å bevise at minst én av utgangene eies av den ukjente avsenderen, uten å avsløre hvilken det er. Faktisk er både CLSAG og MLSAG (heretter kjent som SAG-ene) den delen av ringsignaturen som beviser dette. Interessant nok beviser det samtidig at transaksjonsbeløpet, selv om det er skjult bak konfidensielle transaksjoner (RingCT), balanserer. At SAG-ene beviser to ting, at den ene produksjonen eies av noen i ringen, og at transaksjonen balanserer, er viktig, og faktisk hvor størrelsen og verifikasjonsbesparelsene ligger. Hvis dette blir forvirrende, ikke bekymre deg, vi kommer snart til en morsom og lettfattelig analogi.
+Tomēr tas rada nelielas problēmas. Kā būtu, ja lietotājs izveidotu gredzena parakstu tikai ar mānekļa izvadiem? Kā lai kāds zinātu, ka nezināmajam sūtītājam nav tiesību nosūtīt kādu no tiem? Vai šis lietotājs varētu tērēt viltotu naudu? Atbilde ir nē. Gredzenveida paraksts ietver metodi, lai pierādītu, ka vismaz viens no izvadiem pieder nezināmam sūtītājam, neatklājot, kurš tas ir. Faktiski gan CLSAG, gan MLSAG (turpmāk SAG) ir daļa no gredzena paraksta, kas to pierāda. Interesanti, ka tajā pašā laikā tas pierāda, ka darījuma summa, kaut arī slēpjas aiz konfidenciāliem pārskaitījumiem (RingCT), ir līdzsvarā. Tas, ka SAG pierāda divas lietas - ka viena izvade pieder kādam gredzena dalībniekam un ka darījums ir līdzsvarots - arī ir izmēra un pārbaudes ietaupījumu pamatā. Ja tas kļūst mulsinoši, neuztraucieties, mēs drīzumā nonāksim pie jautras un viegli saprotamas analoģijas.
 
-Det gamle signaturskjemaet, MLSAG (Multilayered Linkable Spontaneous Anonymous Group) beviser de nevnte to tingene i en ringsignatur, men den gjør hver for seg. Bruken av separate beregninger for signering og forpliktelsesnøkler betyr tregere operasjoner. En moderne datamaskin kan gjøre disse beregningene i løpet av millisekunder, noe som ikke virker som mye, og det er det faktisk ikke for en transaksjon. Men når vi tar i betraktning det store antallet transaksjoner på Monero-blokkjeden, og at en node som synkroniseres fra bunnen av må laste ned og verifisere hver av dem, begynner byte og millisekunder å hope seg opp raskt.
+Vecā parakstu shēma MLSAG (multilayed Linkable Spontaneous Anonymous Group) pierāda iepriekš minētās divas lietas gredzenveida parakstā, taču tā dara katru atsevišķi. Atsevišķu aprēķinu izmantošana parakstīšanas un saistību atslēgām nozīmē lēnākas darbības. Mūsdienīgs dators var veikt šos aprēķinus dažās milisekundēs, kas nešķiet daudz, un vienam pārskaitījumam tā arī nav. Bet, ja ņemam vērā Monero blokķēdē veikto pārskaitījumu skaitu un to, ka makam, kas sinhronizējas no nulles, būs jālejupielādē un jāpārbauda katrs no tiem, baiti un milisekundes ātri sakrājas.
 
-CLSAG kombinerer matematikken som er nødvendig for å bevise begge til én, i tillegg til å beregne begge samtidig, og det gjør det på en sikker måte. Hva betyr dette på en sikker måte? Vel, for å rydde opp i dette, samt forhåpentligvis gjøre det hele mer fornuftig, la oss utforske den lovede morsomme analogien.
+CLSAG apvieno matemātiku, kas nepieciešama, lai pierādītu abus vienā, kā arī aprēķina abus vienlaikus, turklāt tas tiek darīts drošā veidā. Ko nozīmē drošā veidā? Lai to noskaidrotu un, cerams, padarītu visu saprotamu, aplūkosim šo solīto jautro analoģiju.
 
-La oss si at du må gå til både matbutikken og jernvarebutikken for å kjøpe to forskjellige ting: mat og giftige rengjøringskjemikalier. Du vil ikke at de skal blandes sammen, som om det er en ulykke, vil kjemikaliene søle på maten, noe som gjør dem uspiselige. Du bestemmer deg for å være supertrygg og kjøre fra huset til matbutikken, kjøpe maten og deretter kjøre tilbake til huset ditt. Først etter at du har losset maten, setter du deg tilbake i bilen, kjører til jernvarehandelen og tilbake til huset ditt med kjemikaliene. Du har tatt to separate turer for å sikre sikkerheten ved alle kjøp. Selv om det faktisk er trygt, er det ineffektivt. Dette representerer MLSAG, der to forskjellige sett med matematikk er lagret og to forskjellige "turer" blir gjort for å beregne dem.
+Pieņemsim, ka jums ir jāiet gan uz pārtikas preču veikalu, gan datortehnikas veikalu, lai paņemtu divas dažādas lietas: pārtiku un toksiskas tīrīšanas ķimikālijas. Jūs nevēlaties, lai tie sajaucas, jo, ja ķīmiskās vielas izlīs uz pārtikas, tā kļūs neēdama. Jūs nolemjat būt īpaši drošs un braukt no savas mājas uz pārtikas veikalu, nopirkt pārtiku un pēc tam doties atpakaļ uz savu māju. Tikai pēc pārtikas izkraušanas jūs atkal iekāpjat automašīnā, braucat uz datortehnikas veikalu un atpakaļ uz māju ar ķimikālijām. Jūs esat veicis divus atsevišķus braucienus, lai nodrošinātu visu pirkumu drošību. Lai gan tas patiešām ir droši, tas ir neefektīvi. Tas atspoguļo MLSAG, kur tiek glabātas divas dažādas matemātiskas kopas un veikti divi dažādi “izbraucieni”, lai tās aprēķinātu.
 
-Du bestemmer deg for at du vil ha en raskere måte å gjøre dette på. Det er for mye bortkastet tid. At du gjør det en eller to ganger kommer ikke til å stjele livet ditt, men å måtte gjøre dette om og om igjen, timene begynner å øke. Du begynner å lure på om du kan ta en tur i stedet. Fra huset ditt, til matbutikken, til jernvarehandelen og hjem igjen. Du kan ikke bare gå og kaste alt i bilen din tilfeldig. Det er ikke trygt. I stedet utpeker du forskjellige steder i bilen din for forskjellige ting, og sørger for at alt passer pent på sin plass. Ved å gjøre det kan du trygt ta en tur til begge butikkene, og holde ting unna hverandre. Dette representerer CLSAG. Det er nå bare ett sett med matematikk lagret i denne transaksjonen for å bevise disse to tingene, og det er gjort på en måte at de ikke forstyrrer hverandre. En tur må fortsatt gjøres, men du har redusert antallet ganske drastisk.
+Tomēr jūs nolemjat, ka vēlaties to izdarīt ātrāk. Šādi tiek izniekots pārāk daudz laika. Protams, to darot vienu vai divas reizes, jūs nepalaidīsiet garām visu dzīvi, taču, darot to atkal un atkal, stundas sakrājas. Jūs sākat domāt, vai tā vietā varat veikt vienu braucienu. No jūsu mājas uz pārtikas veikalu, tad uz datortehnikas veikalu un atpakaļ uz mājām. Jūs nevarat vienkārši iemest visu savā automašīnā. Tas nav droši. Tā vietā jūs savā automašīnā iezīmējat dažādas vietas dažādām lietām un pārliecināties, ka viss stabili atrodas savās vietās. To darot, jūs varat droši doties vienā braucienā uz abiem veikaliem un turēt lietas tālāk viena no otras. Tas apzīmē CLSAG. Tagad pārskaitījumā ir saglabāta tikai viena matemātikas kopa, lai pierādītu šīs divas lietas, un tas tiek darīts tā, ka tā netraucē viena otrai. Braucieni joprojām ir jāveic, taču jūs esat diezgan krasi samazinājis to skaitu.
 
-Alt dette høres ganske spennende ut. Er det mulig vi kan finne andre snarveier, eller andre måter å spare tid og plass på? Svaret er ja og nei. Ifølge nåværende MRL-forskere er det sannsynligvis ikke mulig å ytterligere modifisere SAG-type konstruksjoner for bedre størrelse eller hastighet; Imidlertid gir andre konstruksjoner som Arcturus, Omniring, RCT3 eller Triptych mye bedre størrelsesskalering og verifikasjonsfordeler ved bruk av forskjellige matematiske metoder. Hver av disse "neste generasjons"-tilnærmingene til underskriver-tvetydige protokoller kommer imidlertid med sine egne avveininger i implementeringsdetaljer, og er under aktiv forskning og etterforskning.
+Tas viss izklausās diezgan aizraujoši. Vai ir iespējams atrast citus īsceļus vai citus veidus, kā ietaupīt laiku un vietu? Atbilde ir jā un nē. Saskaņā ar pašreizējiem MRL pētniekiem, visticamāk, nav iespējams turpināt modificēt SAG tipa konstrukcijas, lai nodrošinātu labāku izmēru vai ātrumu; tomēr citas konstrukcijas, piemēram, Arcturus, Omniring, RCT3 vai Triptych, rada daudz labākas izmēra paplašināšanas un pārbaudes priekšrocības, izmantojot dažādas matemātiskās metodes. Tomēr katrai no šīm "nākamās paaudzes" pieejām neskaidra parakstītāja protokoliem ir savi kompromisi ieviešanas detaļās, un tiek veikta aktīva izpēte un izmeklēšana.
 
-Tross alt er Monero alltid nyskapende.
+Galu galā, Monero vienmēr rada jauninājumus.
 
-Videre lesning
+Lasīt tālāk
 
-  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies/)
+  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies)/
 
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Hvorfor (og hvordan!) du bør holde dine egne nøkler](/knowledge/hold-your-keys/)
+  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys)/
 
-  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero/)
+  * [Iesaiste Monero](/knowledge/contributing-to-monero)/
 
-  * [Hvordan eksterne noder påvirker Moneros personvern](/knowledge/remote-nodes-privacy/)
+  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy)/
 
-  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades/)
+  * [Kā Monero izmanto hard-forks tīkla uzlabošanai](/knowledge/network-upgrades)/
 
-  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool un tā loma Monero mainošanas decentralizācijā](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero)/
 
-  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero/)
+  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup/)
+  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup)/
 
-  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect/)
+  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect)/
 
-  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking/)
+  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking)/
 
-  * [Svindel å se etter når du bruker Monero](/knowledge/monero-scams/)
+  * [Krāpniecība, kam jāpievērš uzmanība, lietojot Monero](/knowledge/monero-scams)/
 
-  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps/)
+  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps)/
 
-  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking/)
+  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking)/
 
-  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct/)
+  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct)/
 
-  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses/)
+  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses)/
 
-  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses/)
+  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses)/
 
-  * [Monero-utganger forklart](/knowledge/monero-outputs/)
+  * [Monero izvades tuvplānā](/knowledge/monero-outputs)/
 
-  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices/)
+  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices)/
 
-  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures/)
+  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures)/
 
-  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission/)
+  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission)/
 
-  * [En kort historie om Monero](/knowledge/monero-history/)
+  * [Īsa Monero vēsture](/knowledge/monero-history)/
 
-  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked/)
+  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked)/
 
-  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked/)
+  * [15 populārākie Monero mīti un bažas atspēkotas](/knowledge/monero-myths-debunked)/
 
-  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion/)
+  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion)/
 
-  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx/)
+  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx)/
 
-  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better/)
+  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better)/
+
+Lasīt tālāk

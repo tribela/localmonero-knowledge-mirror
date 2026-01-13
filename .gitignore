@@ -1,0 +1,11 @@
+# Raw HTML downloads
+raw_html/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Hugo
+hugo-site/public/
+hugo-site/resources/_gen/

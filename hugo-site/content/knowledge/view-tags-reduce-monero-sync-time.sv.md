@@ -12,6 +12,8 @@ Ange "visa taggar", ett tillägg på en byte till data för varje transaktion �
 
 ## Varför är Moneros plånbokssynkronisering långsammare än Bitcoins?
 
+## Varför är Moneros plånbokssynkronisering långsammare än Bitcoins?
+
 En av de första frågorna vi måste svara på för att bättre förstå behovet av en lösning som visningstaggar är varför Moneros plånbokssynkronisering är långsammare än kryptovalutor som Bitcoin.
 
 I Bitcoin, eftersom alla transaktioner inte är privata och avslöjar de mynt som spenderas, beloppen och adresserna som är involverade i kedjan, kan Bitcoin-plånböcker helt enkelt leta efter eventuella outnyttjade transaktionsutdata (UTXO) eller använda adresser för en given plånbok , snabbt skanna blockkedjan efter endast UTXO:er som ägs av dessa adresser för att ta reda på vilka mynt som tillhör din plånbok och kan användas.
@@ -22,6 +24,8 @@ Denna jämförelse involverar mycket komplex matematik och kryptografi för att 
 
 ## Vad är visnings taggar?
 
+## Vad är visnings taggar?
+
 Som ett sätt att minska synkroniseringstiden för Monero-plånböcker, kom [en forskare vid namn UkoeHB på ett nytt tillvägagångssätt](https://github.com/monero-project/research-lab/issues/73) – lägg till en 1-byte "tagg" till varje transaktion med hjälp av en delad hemlighet som endast är känd till avsändaren och mottagaren av transaktionen.
 
 Denna delade hemligheten genereras av avsändaren med den adress som mottagaren har gett dem och kräver inget aktivt samarbete av avsändaren och mottagaren. Den första byten (eller tecknet) av denna delade hemlighet läggs sedan till transaktionens data när den publiceras på Monero-nätverket.
@@ -29,6 +33,8 @@ Denna delade hemligheten genereras av avsändaren med den adress som mottagaren 
 När en av deltagarna i den transaktionen vill synkronisera sin plånbok med Monero blockchain efteråt, istället för att behöva utföra all komplex matematik och kryptografi för varje TXO på nätverket, kan plånboken nu bara kontrollera efter det 1-byte-fältet i varje transaktion och först därefter utföra den tidskrävande verifieringen på transaktioner som har den taggen – 1/256 TSO på nätverket, för att vara exakt!
 
 Den här taggen avslöjar ingen information om transaktionen för externa tittare, lägger bara till 1-byte (ett försumbart belopp) till transaktionsstorlekar, och ändå tillåter oss att minska synkroniseringstiderna med 40 %+ genom att minska på de komplexa verifieringarna nödvändigt!
+
+## Visa taggar: ett förenklat exempel
 
 ## Visa taggar: ett förenklat exempel
 
@@ -46,9 +52,13 @@ Nu öppnar du de 16 rutorna, löser matematikproblemen och behåller de 5 rutorn
 
 ## När kommer visningstaggar att finnas tillgängliga i Monero?
 
+## När kommer visningstaggar att finnas tillgängliga i Monero?
+
 View-taggar är en av funktionerna som för närvarande planeras för inkludering i [kommande nätverksuppgradering](https://github.com/monero-project/meta/issues/630), och bör släppas någon gång i vår. Gemenskapen [höjde 23.3XMR](https://bounties.monero.social/posts/28/implement-view-tags-to-decrease-wallet-sync-times-in-monero) (i skrivande stund) för att stimulera utvecklingen och implementeringen av visningstaggar, och som ett resultat av det har den stora majoriteten av arbetet med att inkludera visningstaggar i Monero-kodbasen redan varit färdigställt av j-berman i samarbete med granskare och forskare.
 
 När visningstaggar har tillämpats av nätverket kommer alla transaktioner som skickas efter nätverksuppgraderingen att dra nytta av den drastiskt förbättrade plånbokssynkroniseringstiden. Du behöver inte göra något speciellt för att börja använda visningstaggar, din favoritplånbok för Monero kommer helt enkelt att börja använda dem efter nätverksuppgraderingen automatiskt!
+
+## Hur kan jag lära mig mer?
 
 ## Hur kan jag lära mig mer?
 
@@ -59,66 +69,68 @@ Om detta har väckt din nyfikenhet kring visningstaggar, ta en titt nedan för y
 
 Vidare läsning
 
-  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies/)
+  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies)/
 
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Varför (och hur!) du ska hålla i dina egna nycklar](/knowledge/hold-your-keys/)
+  * [Varför (och hur!) du ska hålla i dina egna nycklar](/knowledge/hold-your-keys)/
 
-  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero/)
+  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero)/
 
-  * [Hur fjärrnoder påverkar Moneros integritet](/knowledge/remote-nodes-privacy/)
+  * [Hur fjärrnoder påverkar Moneros integritet](/knowledge/remote-nodes-privacy)/
 
-  * [Hur Monero använder hard-forks för att uppgradera nätverket](/knowledge/network-upgrades/)
+  * [Hur Monero använder hard-forks för att uppgradera nätverket](/knowledge/network-upgrades)/
 
-  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Vad det kommer att göra för Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Vad det kommer att göra för Monero](/knowledge/seraphis-for-monero)/
 
-  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero/)
+  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup/)
+  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Varför Monero är en bättre värdebevarare än Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Varför Monero är en bättre värdebevarare än Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect/)
+  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect)/
 
-  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking/)
+  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking)/
 
-  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams/)
+  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams)/
 
-  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps/)
+  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking/)
+  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking)/
 
-  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct/)
+  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct)/
 
-  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses/)
+  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses)/
 
-  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses/)
+  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses)/
 
-  * [Monero Utgångar Förklaras](/knowledge/monero-outputs/)
+  * [Monero Utgångar Förklaras](/knowledge/monero-outputs)/
 
-  * [Monero bästa praxis för nybörjare](/knowledge/monero-best-practices/)
+  * [Monero bästa praxis för nybörjare](/knowledge/monero-best-practices)/
 
-  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures/)
+  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures)/
 
-  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size/)
+  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag/)
+  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag)/
 
-  * [Varför Monero har en svans emission](/knowledge/monero-tail-emission/)
+  * [Varför Monero har en svans emission](/knowledge/monero-tail-emission)/
 
-  * [En kort historia om Monero](/knowledge/monero-history/)
+  * [En kort historia om Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked/)
+  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked)/
 
-  * [Topp 15 Monero myter och bekymmer debunked](/knowledge/monero-myths-debunked/)
+  * [Topp 15 Monero myter och bekymmer debunked](/knowledge/monero-myths-debunked)/
 
-  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion/)
+  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion)/
 
-  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx)/
 
-  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better/)
+  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better)/
+
+Vidare läsning

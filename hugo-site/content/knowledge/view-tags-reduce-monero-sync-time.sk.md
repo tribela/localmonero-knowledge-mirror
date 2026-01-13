@@ -12,6 +12,8 @@ Zadajte „zobraziť značky“, jednobajtový prídavok k údajom každej trans
 
 ## Prečo je synchronizácia peňaženky Monero pomalšia ako synchronizácia bitcoinov?
 
+## Prečo je synchronizácia peňaženky Monero pomalšia ako synchronizácia bitcoinov?
+
 Jednou z prvých otázok, na ktoré musíme odpovedať, aby sme lepšie porozumeli potrebe riešenia, akým sú napríklad značky zobrazenia, je dôvod, prečo je synchronizácia peňaženky Monero pomalšia ako pri kryptomenách, ako je Bitcoin.
 
 V bitcoine, keďže všetky transakcie nie sú súkromné a odhaľujú míňané mince, sumy a adresy zapojené do reťazca, bitcoinové peňaženky môžu jednoducho hľadať akékoľvek nevyčerpané transakčné výstupy (UTXO) alebo použité adresy pre danú peňaženku, rýchlo naskenujte blockchain, aby ste našli iba UTXO vlastnené týmito adresami, aby ste zistili, ktoré mince patria do vašej peňaženky a možno ich minúť.
@@ -19,6 +21,8 @@ V bitcoine, keďže všetky transakcie nie sú súkromné a odhaľujú míňané
 V Monero však všetky transakcie chránia súkromie používateľa tým, že skryjú odosielateľa, príjemcu a čiastky zahrnuté v každej transakcii. Toto súkromie, hoci je nevyhnutné na ochranu používateľov siete, tiež prináša pomalšiu synchronizáciu peňaženky. V Monero musí vaša peňaženka porovnať každý výstup transakcie (TXO), ktorý existuje v sieti, so súkromnými kľúčmi vašej peňaženky.
 
 Toto porovnanie zahŕňa veľa komplexnej matematiky a kryptografie na overenie, že výstup je skutočne váš, pretože všetky sumy, adresy a známe vynaložené výstupy (alebo mince) sú v Monero skryté v reťazci.
+
+## Čo sú značky zobrazenia?
 
 ## Čo sú značky zobrazenia?
 
@@ -32,6 +36,8 @@ Táto značka neprezrádza žiadne informácie o transakcii vonkajším divákom
 
 ## Zobraziť značky: zjednodušený príklad
 
+## Zobraziť značky: zjednodušený príklad
+
 Predstavte si, že máte v miestnosti 4 096 škatúľ, z ktorých iba 5 patrí vám. Všetky krabice sú zvonku úplne na nerozoznanie a jediný spôsob, ako zistiť, či je krabica pre vás, je otvoriť ju a vyriešiť časovo náročný matematický problém zapísaný vo vnútri, aby ste sa uistili, že je vaša.
 
 Teraz si predstavte, že sa rozhodnete, že osoba, ktorá vám pošle týchto 5 políčok, vygeneruje špeciálny kód pomocou vašej adresy a potom umiestnite iba prvý znak tohto vygenerovaného kódu na vonkajšiu stranu každej schránky, ktorú vám pošleme. Všetci ostatní robia to isté so svojimi krabicami (aby sa zabezpečilo, že všetky krabice sú stále nerozoznateľné), ale teraz sa môžete jednoducho pozrieť na kód jedného znaku na vonkajšej strane krabice a otvoriť iba tie krabice, na ktorých je daný znak.
@@ -42,9 +48,13 @@ Teraz otvoríte týchto 16 políčok, vyriešite matematické úlohy a ponechát
 
 ## Kedy budú značky zobrazenia dostupné v Monero?
 
+## Kedy budú značky zobrazenia dostupné v Monero?
+
 Značky zobrazenia sú jednou z funkcií, ktoré sa momentálne plánujú zahrnúť do [chystanej inovácie siete](https://github.com/monero-project/meta/issues/630) a mali by byť vydané niekedy na jar. Komunita [ vytvorila 23.3XMR](https://bounties.monero.social/posts/28/implement-view-tags-to-decrease-wallet-sync-times-in-monero) (v čase písania tohto článku), aby podnietila vývoj a implementáciu značiek zobrazenia, a výsledkom je, že veľká väčšina práce na zahrnutí značiek zobrazenia do základne kódu Monero už bola vykonaná. dokončil j-berman v spolupráci s recenzentmi a developermi.
 
 Po vynútení značiek zobrazenia sieťou budú všetky transakcie odoslané po inovácii siete profitovať z výrazne zlepšeného času synchronizácie peňaženky. Ak chcete začať používať značky zobrazenia, nemusíte robiť nič špeciálne, vaša obľúbená peňaženka pre Monero ich jednoducho začne používať po aktualizácii siete automaticky!
+
+## Ako sa môžem dozvedieť viac?
 
 ## Ako sa môžem dozvedieť viac?
 
@@ -55,66 +65,68 @@ Ak to vzbudilo vašu zvedavosť v súvislosti so značkami zobrazenia, pozrite s
 
 Ďalšie čítanie
 
-  * [Ako Monero jedinečne umožňuje obehové ekonomiky](/knowledge/monero-circular-economies/)
+  * [Ako Monero jedinečne umožňuje obehové ekonomiky](/knowledge/monero-circular-economies)/
 
-  * [Moneroove prstenové podpisy vs CoinJoin ako vo Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Moneroove prstenové podpisy vs CoinJoin ako vo Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Prečo (a ako!) by ste mali držať svoje vlastné kľúče](/knowledge/hold-your-keys/)
+  * [Prečo (a ako!) by ste mali držať svoje vlastné kľúče](/knowledge/hold-your-keys)/
 
-  * [Prispievame späť do Monero](/knowledge/contributing-to-monero/)
+  * [Prispievame späť do Monero](/knowledge/contributing-to-monero)/
 
-  * [Ako vzdialené uzly ovplyvňujú súkromie spoločnosti Monero](/knowledge/remote-nodes-privacy/)
+  * [Ako vzdialené uzly ovplyvňujú súkromie spoločnosti Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Ako Monero používa hard-forky na aktualizáciu siete](/knowledge/network-upgrades/)
+  * [Ako Monero používa hard-forky na aktualizáciu siete](/knowledge/network-upgrades)/
 
-  * [P2Pool a jeho úloha pri decentralizácii ťažby Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool a jeho úloha pri decentralizácii ťažby Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Čo to urobí pre Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Čo to urobí pre Monero](/knowledge/seraphis-for-monero)/
 
-  * [Je prevod bitcoinu na monero rovnako súkromný ako priamy nákup monera?](/knowledge/most-private-way-to-buy-monero/)
+  * [Je prevod bitcoinu na monero rovnako súkromný ako priamy nákup monera?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Prečo Monero používa Trustless Setup na rozdiel od Zcash](/knowledge/monero-trustless-setup/)
+  * [Prečo Monero používa Trustless Setup na rozdiel od Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Prečo je Monero lepším uchovávateľom hodnoty ako Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Prečo je Monero lepším uchovávateľom hodnoty ako Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Ako môže Monero prekonať sieťové efekty bitcoinu](/knowledge/network-effect/)
+  * [Ako môže Monero prekonať sieťové efekty bitcoinu](/knowledge/network-effect)/
 
-  * [Prečo má Monero komunitu najkritickejšieho myslenia](/knowledge/critical-thinking/)
+  * [Prečo má Monero komunitu najkritickejšieho myslenia](/knowledge/critical-thinking)/
 
-  * [Podvody na ktoré si treba dať pozor pri používaní Monero](/knowledge/monero-scams/)
+  * [Podvody na ktoré si treba dať pozor pri používaní Monero](/knowledge/monero-scams)/
 
-  * [Ako budú fungovať atómové swapy v Monero](/knowledge/monero-atomic-swaps/)
+  * [Ako budú fungovať atómové swapy v Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Čo potrebuje vedieť každý používateľ Monero, pokiaľ ide o vytváranie sietí](/knowledge/monero-networking/)
+  * [Čo potrebuje vedieť každý používateľ Monero, pokiaľ ide o vytváranie sietí](/knowledge/monero-networking)/
 
-  * [Ako RingCT skrýva sumy transakcií Monero](/knowledge/monero-ringct/)
+  * [Ako RingCT skrýva sumy transakcií Monero](/knowledge/monero-ringct)/
 
-  * [Ako Monero Stealth adresy chránia vašu identitu](/knowledge/monero-stealth-addresses/)
+  * [Ako Monero Stealth adresy chránia vašu identitu](/knowledge/monero-stealth-addresses)/
 
-  * [Ako podadresy Monero zabraňujú prepojeniu identity](/knowledge/monero-subaddresses/)
+  * [Ako podadresy Monero zabraňujú prepojeniu identity](/knowledge/monero-subaddresses)/
 
-  * [Vysvetlenie výstupov Monero](/knowledge/monero-outputs/)
+  * [Vysvetlenie výstupov Monero](/knowledge/monero-outputs)/
 
-  * [Monero osvedčené postupy pre začiatočníkov](/knowledge/monero-best-practices/)
+  * [Monero osvedčené postupy pre začiatočníkov](/knowledge/monero-best-practices)/
 
-  * [Ako prstencové podpisy zakrývajú výstupy Monera](/knowledge/ring-signatures/)
+  * [Ako prstencové podpisy zakrývajú výstupy Monera](/knowledge/ring-signatures)/
 
-  * [Ako Monero vyriešilo problém veľkosti bloku, ktorý trápi Bitcoin](/knowledge/dynamic-block-size/)
+  * [Ako Monero vyriešilo problém veľkosti bloku, ktorý trápi Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Ako CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag/)
+  * [Ako CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag)/
 
-  * [Prečo má Monero chvostovú emisiu](/knowledge/monero-tail-emission/)
+  * [Prečo má Monero chvostovú emisiu](/knowledge/monero-tail-emission)/
 
-  * [Stručná história Monera](/knowledge/monero-history/)
+  * [Stručná história Monera](/knowledge/monero-history)/
 
-  * [Wired Magazine sa o Monere mýli, tu je dôvod](/knowledge/wired-article-debunked/)
+  * [Wired Magazine sa o Monere mýli, tu je dôvod](/knowledge/wired-article-debunked)/
 
-  * [Top 15 vyvrátených mýtov a obáv o Monero](/knowledge/monero-myths-debunked/)
+  * [Top 15 vyvrátených mýtov a obáv o Monero](/knowledge/monero-myths-debunked)/
 
-  * [Ako Dandelion++ uchováva pôvod transakcií Monero v súkromí](/knowledge/monero-dandelion/)
+  * [Ako Dandelion++ uchováva pôvod transakcií Monero v súkromí](/knowledge/monero-dandelion)/
 
-  * [Prečo je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Prečo je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Čo robí RandomX tak výnimočným](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Čo robí RandomX tak výnimočným](/knowledge/monero-mining-randomx)/
 
-  * [Prečo je Monero lepšie ako Dash, Zcash, Zcoin (dokonca aj s Lelantus), Grin a bitcoinové mixéry ako Wasabi (aktualizované v máji 2020)](/knowledge/why-monero-is-better/)
+  * [Prečo je Monero lepšie ako Dash, Zcash, Zcoin (dokonca aj s Lelantus), Grin a bitcoinové mixéry ako Wasabi (aktualizované v máji 2020)](/knowledge/why-monero-is-better)/
+
+Ďalšie čítanie

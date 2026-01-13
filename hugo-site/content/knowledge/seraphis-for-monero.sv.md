@@ -8,8 +8,12 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: en modulär designuppgradering för Monero-transaktioner
 
+## Seraphis: en modulär designuppgradering för Monero-transaktioner
+
 Det här inlägget beskriver [Seraphis](https://github.com/UkoeHB/Seraphis), en uppsättning transaktionsprotokollstrukturer och abstraktioner utvecklade av pseudonym forskningsbidragsgivare [`koe`](https://github.com/UkoeHB) för Monero-ekosystemet, och med pågående säkerhetsanalys av pseudonym bidragsgivare [`coinstudent2048`](https://github.com/coinstudent2048).  
 Vi gör vissa förenklingar och utelämnar vissa tekniska detaljer för tydlighetens skull; av denna anledning, och eftersom designen av Seraphis fortfarande pågår, bör intresserade läsare hänvisa till Seraphis dokumentation för den senaste informationen.
+
+## Transaktioner i Monero
 
 ## Transaktioner i Monero
 
@@ -41,8 +45,12 @@ En liknande process genomgicks med den länkbara ringsignaturbyggstenen. I det u
 
 ## Seraphis
 
+## Seraphis
+
 Seraphis tar denna idé ett steg längre.  
 Istället för att uppdatera enskilda byggstenar i det befintliga transaktionsprotokollet RingCT, introduceras ett nytt protokoll som kan dra nytta av olika byggstenar och erbjuda förbättrad funktionalitet.
+
+## Byggklossar
 
 ## Byggklossar
 
@@ -82,6 +90,8 @@ Lyckligtvis finns några av byggstenarna som krävs av Seraphis redan någon ann
 
 ## Adressering
 
+## Adressering
+
 Tyvärr är de Monero-adresser som används för närvarande inte kompatibla med Seraphis. Användarna skulle behöva generera nya adresser från sina plånboksnycklar för att kunna ta emot Monero om Seraphis implementerades. Denna kostnad för ekosystemet kommer dock med en mängd fördelar.
 
 Bortsett från de strukturella fördelar som diskuterats ovan, är Seraphis design mottaglig för många olika adresskonstruktionsmöjligheter, som var och en kommer med kompromisser. Även om den slutliga adresskonstruktionen som ska användas i Seraphis är [beslutas fortfarande](https://github.com/monero-project/research-lab/issues/92) (ett schema som får mycket uppmärksamhet kallas [JAMTIS](https://gist.github.com/tevador/50160d160d24cfc6c52ae02eb3d17024)), kan vi beskriva några vanliga och användbara funktioner.[X908X ] 
@@ -116,70 +126,74 @@ Som adressinnehavare får du bestämma hur mycket behörighet du delegerar till 
 
 ## Den stora bilden
 
+## Den stora bilden
+
 Seraphis är en stor förändring av Monero-ekosystemet. Även om det innebär ändringar av adresser och transaktionsbyggstenar, erbjuder dess design flexibilitet och användbar funktionalitet som inte är möjliga med dagens RingCT-protokoll. Även om mycket av designen är färdigställd och utvecklas till [en implementering](https://github.com/UkoeHB/monero/tree/seraphis_lib), pågår adressdesign och säkerhetsanalys. Seraphis erbjuder ett utmärkt tillfälle att driva Monero-ekosystemet framåt!
 
 Vidare läsning
 
-  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies/)
+  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies)/
 
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Varför (och hur!) du ska hålla i dina egna nycklar](/knowledge/hold-your-keys/)
+  * [Varför (och hur!) du ska hålla i dina egna nycklar](/knowledge/hold-your-keys)/
 
-  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero/)
+  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero)/
 
-  * [Hur fjärrnoder påverkar Moneros integritet](/knowledge/remote-nodes-privacy/)
+  * [Hur fjärrnoder påverkar Moneros integritet](/knowledge/remote-nodes-privacy)/
 
-  * [Hur Monero använder hard-forks för att uppgradera nätverket](/knowledge/network-upgrades/)
+  * [Hur Monero använder hard-forks för att uppgradera nätverket](/knowledge/network-upgrades)/
 
-  * [Visa taggar: Hur en byte kommer att minska Monero plånbokssynkroniseringstider med 40% +](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Visa taggar: Hur en byte kommer att minska Monero plånbokssynkroniseringstider med 40% +](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero/)
+  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup/)
+  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Varför Monero är en bättre värdebevarare än Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Varför Monero är en bättre värdebevarare än Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect/)
+  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect)/
 
-  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking/)
+  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking)/
 
-  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams/)
+  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams)/
 
-  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps/)
+  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking/)
+  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking)/
 
-  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct/)
+  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct)/
 
-  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses/)
+  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses)/
 
-  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses/)
+  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses)/
 
-  * [Monero Utgångar Förklaras](/knowledge/monero-outputs/)
+  * [Monero Utgångar Förklaras](/knowledge/monero-outputs)/
 
-  * [Monero bästa praxis för nybörjare](/knowledge/monero-best-practices/)
+  * [Monero bästa praxis för nybörjare](/knowledge/monero-best-practices)/
 
-  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures/)
+  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures)/
 
-  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size/)
+  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag/)
+  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag)/
 
-  * [Varför Monero har en svans emission](/knowledge/monero-tail-emission/)
+  * [Varför Monero har en svans emission](/knowledge/monero-tail-emission)/
 
-  * [En kort historia om Monero](/knowledge/monero-history/)
+  * [En kort historia om Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked/)
+  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked)/
 
-  * [Topp 15 Monero myter och bekymmer debunked](/knowledge/monero-myths-debunked/)
+  * [Topp 15 Monero myter och bekymmer debunked](/knowledge/monero-myths-debunked)/
 
-  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion/)
+  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion)/
 
-  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx)/
 
-  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better/)
+  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better)/
+
+Vidare läsning

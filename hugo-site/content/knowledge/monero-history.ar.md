@@ -14,6 +14,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## بايتكوين
 
+## بايتكوين
+
 في سبتمبر 2013 ، أصدرت مجموعة لم يسمع بها من قبل ، Cryptonote ، ورقة بيضاء حول بروتوكول جديد يحمل نفس الاسم. سعى هذا البروتوكول إلى إنشاء عملة مشفرة تشبه Bitcoin ، على الرغم من استخدام توقيعات الحلقة الاختيارية والعناوين الخفية لتعزيز الخصوصية. بعد فترة وجيزة ، في نوفمبر 2013 ، تم دفع الكود الأولي إلى GitHub لعملة جديدة تسمى Bytecoin. نفذت هذه العملة البروتوكول الموصوف في الورقة ، على قاعدة بيانات جديدة تمامًا (على سبيل المثال ، لم يتم تشعبها من Bitcoin مثل معظم العملات المعدنية الأخرى في ذلك الوقت). 
 
 استغرق فريق Bytecoin وقتهم في وضع بقية الكود على مستودعاتهم ، ولكن بدا أنه تم الانتهاء منه بحلول مارس 2014 ، عندما تم "اكتشاف" المشروع لاحقًا بواسطة شخص "عشوائي" في منتديات BitcoinTalk ، على الرغم من ذلك يشتبه على نطاق واسع الآن في أن هذا كان مصنعًا لتوليد الاهتمام. بعد أن نجحت الدمية الجورب في جذب الانظار، اكتشف الأشخاص المهتمون حديثًا شيئًا غريبًا: أكثر من 80٪ من العملات المعدنية تم تعدينها بالفعل. 
@@ -26,11 +28,15 @@ image_credit_url: "https://cypherstack.com"
 
 ## بيتمونيرو
 
+## بيتمونيرو
+
 في التاسع من أبريل 2014 ، تم نشر كيان آخر لم يسمع به من قبل يُدعى thankful_for_today على منتديات BitcoinTalk ، معلناً إطلاق أول فورك لـ Bytecoin ، يسمى Bitmonero. نظرًا لأنها كانت الشوكة الأولى ، اكتسبت Bitmonero اهتمامًا سريعًا وتشكل مجتمع صغير حولها عندما تم إطلاقها في 18 أبريل ، حريصة على الاستمرار من حيث توقفت Bytecoin ، ولكن لم يستغرق الأمر وقتًا طويلاً حتىلاحظوا شيئا مريبا حول Bitmonero أيضًا. 
 
 أثبت المؤسس ، thankful_for_today ، صعوبة العمل معه. غالبًا ما تختفي لأيام في كل مرة (غريب جدًا لعملة جديدة تمامًا في الأيام الأولى من التطوير) ، وغالبًا ما تتعارض مع المجتمع من خلال محاولة دمج منجم Monero مع Bytecoin ، وضبط الجدول الزمني للإصدار ، ورفض التعاون بشكل عام مع المجموعة الأساسية المتسقة التي تم إنشاؤها حول العملة ، إلى حد أن يكون لها موقع الويب الخاص به ، ومنشور BitcoinTalk ، والمستودعات. 
 
 سرعان ما أصبح واضحًا أن المجموعة الأساسية التي تشكلت حول Monero كانت أكثر نشاطًا وكفاءة بكثير من thankful_for_today ، وعلى الرغم من دعوته للمشاركة عدة مرات ، فقد اختفى في النهاية وأصبح هامشيًا في تاريخ Monero. بعد سنوات عديدة ، يُشتبه في أنه كان أيضًا جزءًا من فريق Bytecoin. لماذا ا؟ حسنًا ، خلال كل هذا ، لم تكن Bytecoin نفسها جالسة مكتوفة الأيدي.
+
+## الأرض المحروقة
 
 ## الأرض المحروقة
 
@@ -44,72 +50,76 @@ image_credit_url: "https://cypherstack.com"
 
 ## الخاتمة
 
+## الخاتمة
+
 لا يمكن للعديد من العملات أن تتباهى بوجود مؤسس لم يعد معهم. في الواقع ، ربما تكون Bitcoin و Monero أكبر مثالين. في حين أن المقارنة قد تُظهر Bitcoin في جانبها الخيري المضيءأكثر ، إلا أن هناك دروسًا يمكن استخلاصها من بدايات Monero المخادعة أيضًا. 
 
 أظهرت Bitcoin ما يمكن أن يحدث عندما يتعب شخص ما من النظام الحالي ، ويتجرأ على الابتكار لتحدي الوضع الراهن. يُظهر Monero قوة المجتمع الذي يرفض بأن يتم تزويدهم بالأكاذيب ، ويجد الحقيقة لأنفسهم ، ويستعيدون الأدوات التي يمكنهم من خلالها بناء حريتهم. ربما بدأت Monero كعملية احتيال ، لكنها تطورت بالفعل إلى سلاح قوي لاستعادة خصوصيتنا المالية. 
 
 المزيد من القراءة
 
-  * [كيف مونيرو تمكن الاقتصادات الدائرية بشكل فريد](/knowledge/monero-circular-economies/)
+  * [كيف مونيرو تمكن الاقتصادات الدائرية بشكل فريد](/knowledge/monero-circular-economies)/
 
-  * [توقيعات حلقة مونيرو مقابل CoinJoin كما هو الحال في Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [توقيعات حلقة مونيرو مقابل CoinJoin كما هو الحال في Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [لماذا (وكيف!) يجب أن تحتفظ بمفاتيحك الخاصة](/knowledge/hold-your-keys/)
+  * [لماذا (وكيف!) يجب أن تحتفظ بمفاتيحك الخاصة](/knowledge/hold-your-keys)/
 
-  * [المساهمة مرة أخرى في مونيرو](/knowledge/contributing-to-monero/)
+  * [المساهمة مرة أخرى في مونيرو](/knowledge/contributing-to-monero)/
 
-  * [كيف تؤثر العقد البعيدة على خصوصية مونيرو](/knowledge/remote-nodes-privacy/)
+  * [كيف تؤثر العقد البعيدة على خصوصية مونيرو](/knowledge/remote-nodes-privacy)/
 
-  * [كيف تستخدم مونيرو الهارد فورك لترقية الشبكة](/knowledge/network-upgrades/)
+  * [كيف تستخدم مونيرو الهارد فورك لترقية الشبكة](/knowledge/network-upgrades)/
 
-  * [عرض العلامات: كيف سيؤدي البايت الواحد إلى تقليل أوقات مزامنة محفظة مونيرو بنسبة 40٪ +](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [عرض العلامات: كيف سيؤدي البايت الواحد إلى تقليل أوقات مزامنة محفظة مونيرو بنسبة 40٪ +](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ودوره في تحقيق اللامركزية في تعدين مونيرو](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ودوره في تحقيق اللامركزية في تعدين مونيرو](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [سيرافيز: ماذا ستفعل لمونيرو](/knowledge/seraphis-for-monero/)
+  * [سيرافيز: ماذا ستفعل لمونيرو](/knowledge/seraphis-for-monero)/
 
-  * [هل يعد تحويل Bitcoin إلى مونيرو أمرًا خاصًا مثل شراء مونيرو مباشرةً؟](/knowledge/most-private-way-to-buy-monero/)
+  * [هل يعد تحويل Bitcoin إلى مونيرو أمرًا خاصًا مثل شراء مونيرو مباشرةً؟](/knowledge/most-private-way-to-buy-monero)/
 
-  * [لماذا تستخدم مونيرو إعدادًا غير موثوق به على عكس Zcash](/knowledge/monero-trustless-setup/)
+  * [لماذا تستخدم مونيرو إعدادًا غير موثوق به على عكس Zcash](/knowledge/monero-trustless-setup)/
 
-  * [لماذا تعد مونيرو مخزنًا أفضل للقيمة من Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [لماذا تعد مونيرو مخزنًا أفضل للقيمة من Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [كيف يمكن لـمونيرو التغلب على تأثيرات شبكة Bitcoin](/knowledge/network-effect/)
+  * [كيف يمكن لـمونيرو التغلب على تأثيرات شبكة Bitcoin](/knowledge/network-effect)/
 
-  * [لماذا تمتلك مونيرو مجتمع التفكير الأكثر أهمية](/knowledge/critical-thinking/)
+  * [لماذا تمتلك مونيرو مجتمع التفكير الأكثر أهمية](/knowledge/critical-thinking)/
 
-  * [عمليات الاحتيال التي يجب الانتباه إليها عند استخدام مونيرو](/knowledge/monero-scams/)
+  * [عمليات الاحتيال التي يجب الانتباه إليها عند استخدام مونيرو](/knowledge/monero-scams)/
 
-  * [كيف ستعمل المقايضات الذرية في مونيرو](/knowledge/monero-atomic-swaps/)
+  * [كيف ستعمل المقايضات الذرية في مونيرو](/knowledge/monero-atomic-swaps)/
 
-  * [ما يحتاج كل مستخدم مونيرو إلى معرفته عندما يتعلق الأمر بالشبكات](/knowledge/monero-networking/)
+  * [ما يحتاج كل مستخدم مونيرو إلى معرفته عندما يتعلق الأمر بالشبكات](/knowledge/monero-networking)/
 
-  * [كيف يخفي RingCT مبالغ معاملة مونيرو](/knowledge/monero-ringct/)
+  * [كيف يخفي RingCT مبالغ معاملة مونيرو](/knowledge/monero-ringct)/
 
-  * [كيف تحمي عناوين Monero Stealth هويتك](/knowledge/monero-stealth-addresses/)
+  * [كيف تحمي عناوين Monero Stealth هويتك](/knowledge/monero-stealth-addresses)/
 
-  * [كيف عناوين مونيرو الفرعية تمنع ربط الهوية](/knowledge/monero-subaddresses/)
+  * [كيف عناوين مونيرو الفرعية تمنع ربط الهوية](/knowledge/monero-subaddresses)/
 
-  * [تمتوضيح مخرجات مونيرو](/knowledge/monero-outputs/)
+  * [تمتوضيح مخرجات مونيرو](/knowledge/monero-outputs)/
 
-  * [أفضل ممارسات مونيرو للمبتدئين](/knowledge/monero-best-practices/)
+  * [أفضل ممارسات مونيرو للمبتدئين](/knowledge/monero-best-practices)/
 
-  * [كيف تحجب تواقيع الحلقة مخرجات مونيرو](/knowledge/ring-signatures/)
+  * [كيف تحجب تواقيع الحلقة مخرجات مونيرو](/knowledge/ring-signatures)/
 
-  * [كيف حلت مونيرو مشكلة حجم الكتلة التي ابتليت بها Bitcoin](/knowledge/dynamic-block-size/)
+  * [كيف حلت مونيرو مشكلة حجم الكتلة التي ابتليت بها Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [كيف سيحسن CLSAG كفاءة مونيرو](/knowledge/what-is-clsag/)
+  * [كيف سيحسن CLSAG كفاءة مونيرو](/knowledge/what-is-clsag)/
 
-  * [لماذا مونيرو لها انبعاث الذيل](/knowledge/monero-tail-emission/)
+  * [لماذا مونيرو لها انبعاث الذيل](/knowledge/monero-tail-emission)/
 
-  * [مجلة وايرد خاطئة بشأن مونيرو ، إليكم السبب](/knowledge/wired-article-debunked/)
+  * [مجلة وايرد خاطئة بشأن مونيرو ، إليكم السبب](/knowledge/wired-article-debunked)/
 
-  * [تم فضح أفضل 15 خرافة ومخاوف لـ Monero](/knowledge/monero-myths-debunked/)
+  * [تم فضح أفضل 15 خرافة ومخاوف لـ Monero](/knowledge/monero-myths-debunked)/
 
-  * [كيف تحافظ Dandelion ++ على خصوصية أصول معاملات مونيرو](/knowledge/monero-dandelion/)
+  * [كيف تحافظ Dandelion ++ على خصوصية أصول معاملات مونيرو](/knowledge/monero-dandelion)/
 
-  * [لماذا مونيرو مفتوح المصدر ولامركزي](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [لماذا مونيرو مفتوح المصدر ولامركزي](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [تعدين مونيرو: ما الذي يجعل RandomX مميزًا جدًا](/knowledge/monero-mining-randomx/)
+  * [تعدين مونيرو: ما الذي يجعل RandomX مميزًا جدًا](/knowledge/monero-mining-randomx)/
 
-  * [لماذا Monero أفضل من Dash و Zcash و Zcoin (حتى مع Lelantus) وخلاطات Grin و Bitcoin مثل Wasabi (تم التحديث في مايو 2020)](/knowledge/why-monero-is-better/)
+  * [لماذا Monero أفضل من Dash و Zcash و Zcoin (حتى مع Lelantus) وخلاطات Grin و Bitcoin مثل Wasabi (تم التحديث في مايو 2020)](/knowledge/why-monero-is-better)/
+
+المزيد من القراءة

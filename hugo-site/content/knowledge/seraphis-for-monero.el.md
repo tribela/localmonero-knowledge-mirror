@@ -8,8 +8,12 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: μια αρθρωτή αναβάθμιση σχεδιασμού για συναλλαγές Monero
 
+## Seraphis: μια αρθρωτή αναβάθμιση σχεδιασμού για συναλλαγές Monero
+
 Αυτή η ανάρτηση περιγράφει το [Seraphis](https://github.com/UkoeHB/Seraphis), ένα σύνολο δομών πρωτοκόλλου συναλλαγών και αφαιρέσεων που αναπτύχθηκαν από τον ψευδώνυμο συνεργάτη της έρευνας [`koe`](https://github.com/UkoeHB) για το οικοσύστημα Monero, και με συνεχή ανάλυση ασφάλειας από τον ψευδώνυμο συνεργάτη [`coinstudent2048`](https://github.com/coinstudent2048).  
 Κάνουμε ορισμένες απλοποιήσεις και παραλείπουμε ορισμένες τεχνικές λεπτομέρειες για λόγους σαφήνειας. για αυτόν τον λόγο, και επειδή ο σχεδιασμός του Seraphis βρίσκεται ακόμη σε εξέλιξη, οι ενδιαφερόμενοι αναγνώστες θα πρέπει να ανατρέξουν στην τεκμηρίωση του Seraphis για τις πιο ενημερωμένες πληροφορίες.
+
+## Συναλλαγές σε Monero
 
 ## Συναλλαγές σε Monero
 
@@ -41,8 +45,12 @@ image_credit_url: "https://cypherstack.com"
 
 ## Seraphis
 
+## Seraphis
+
 Το Seraphis πηγαίνει αυτήν την ιδέα ένα βήμα παραπέρα.  
 Αντί να ενημερώνει μεμονωμένα δομικά στοιχεία του υπάρχοντος πρωτοκόλλου συναλλαγών RingCT, εισάγει ένα διαφορετικό πρωτόκολλο που μπορεί να εκμεταλλευτεί διαφορετικά δομικά στοιχεία και να προσφέρει βελτιωμένη λειτουργικότητα.
+
+## Χτίζοντας blocks
 
 ## Χτίζοντας blocks
 
@@ -61,6 +69,8 @@ image_credit_url: "https://cypherstack.com"
 Ευτυχώς, μερικά από τα δομικά στοιχεία που απαιτεί το Seraphis υπάρχουν ήδη αλλού και δεν χρειάζεται να σχεδιαστούν από την αρχή. Τόσο οι κατασκευές Bulletproofs όσο και Bulletproofs+ μπορούν να χρησιμοποιηθούν ως αποδείξεις εύρους. Τροποποιήσεις σε συστήματα απόδειξης τύπου Schnorr μπορούν να χρησιμοποιηθούν για την εξουσιοδότηση αποδείξεων. Και ένα αποτελεσματικό σύστημα [απόδειξης](https://eprint.iacr.org/2015/643) που χρησιμοποιείται ήδη ως βάση για το Triptych, το [Lelantus](https://eprint.iacr.org/2019/373) και το [Spark](https://eprint.iacr.org/2021/1173)* μπορεί να τροποποιηθεί για την απόδειξη συμμετοχής.
 
 * Το Cypher Stack λαμβάνει χρηματοδότηση για την ανάπτυξη του Spark.
+
+## Απευθυνόμενος
 
 ## Απευθυνόμενος
 
@@ -84,70 +94,74 @@ image_credit_url: "https://cypherstack.com"
 
 ## Η μεγάλη εικόνα
 
+## Η μεγάλη εικόνα
+
 Το Seraphis είναι μια σημαντική αλλαγή στο οικοσύστημα Monero. Ενώ περιλαμβάνει τροποποιήσεις σε διευθύνσεις και δομικά στοιχεία συναλλαγών, ο σχεδιασμός του προσφέρει ευελιξία και χρήσιμες λειτουργίες που δεν είναι δυνατές με το σημερινό πρωτόκολλο RingCT. Ενώ μεγάλο μέρος του σχεδιασμού έχει οριστικοποιηθεί και εξελίσσεται σε [μια υλοποίηση](https://github.com/UkoeHB/monero/tree/seraphis_lib), ο σχεδιασμός διευθύνσεων και η ανάλυση ασφαλείας βρίσκονται σε εξέλιξη. Το Seraphis προσφέρει μια εξαιρετική ευκαιρία να προωθήσετε το οικοσύστημα Monero!
 
 Περαιτέρω ανάγνωση
 
-  * [Πώς το Monero με μοναδικό τρόπο επιτρέπει τις κυκλικές οικονομίες](/knowledge/monero-circular-economies/)
+  * [Πώς το Monero με μοναδικό τρόπο επιτρέπει τις κυκλικές οικονομίες](/knowledge/monero-circular-economies)/
 
-  * [Οι υπογραφές δακτυλίου του Monero εναντίον του CoinJoin όπως στο Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Οι υπογραφές δακτυλίου του Monero εναντίον του CoinJoin όπως στο Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Γιατί (και πώς!) πρέπει να κρατάτε τα δικά σας κλειδιά](/knowledge/hold-your-keys/)
+  * [Γιατί (και πώς!) πρέπει να κρατάτε τα δικά σας κλειδιά](/knowledge/hold-your-keys)/
 
-  * [Συνεισφέροντας στο Monero](/knowledge/contributing-to-monero/)
+  * [Συνεισφέροντας στο Monero](/knowledge/contributing-to-monero)/
 
-  * [Πώς οι απομακρυσμένοι κόμβοι επηρεάζουν το απόρρητο του Monero](/knowledge/remote-nodes-privacy/)
+  * [Πώς οι απομακρυσμένοι κόμβοι επηρεάζουν το απόρρητο του Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Πώς το Monero χρησιμοποιεί hard-forks για την αναβάθμιση του δικτύου](/knowledge/network-upgrades/)
+  * [Πώς το Monero χρησιμοποιεί hard-forks για την αναβάθμιση του δικτύου](/knowledge/network-upgrades)/
 
-  * [Προβολή ετικετών: Πώς ένα byte θα μειώσει τους χρόνους συγχρονισμού του πορτοφολιού Monero κατά 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Προβολή ετικετών: Πώς ένα byte θα μειώσει τους χρόνους συγχρονισμού του πορτοφολιού Monero κατά 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Το P2Pool και ο Ρόλος του στην Αποκέντρωση της εξόρυξης Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [Το P2Pool και ο Ρόλος του στην Αποκέντρωση της εξόρυξης Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Είναι η Μετατροπή Bitcoin σε Monero Εξίσου Ιδιωτική με την Απευθείας Αγορά Monero;](/knowledge/most-private-way-to-buy-monero/)
+  * [Είναι η Μετατροπή Bitcoin σε Monero Εξίσου Ιδιωτική με την Απευθείας Αγορά Monero;](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Γιατί το Monero Χρησιμοποιεί μια Αξιόπιστη Εγκατάσταση σε Αντίθεση με το Zcash](/knowledge/monero-trustless-setup/)
+  * [Γιατί το Monero Χρησιμοποιεί μια Αξιόπιστη Εγκατάσταση σε Αντίθεση με το Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Γιατί το Monero είναι η καλύτερη παρακαταθήκη αξίας από το Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Γιατί το Monero είναι η καλύτερη παρακαταθήκη αξίας από το Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Πώς το Monero μπορεί να Ξεπεράσει τις Επιδράσεις Δικτύου του Bitcoin](/knowledge/network-effect/)
+  * [Πώς το Monero μπορεί να Ξεπεράσει τις Επιδράσεις Δικτύου του Bitcoin](/knowledge/network-effect)/
 
-  * [Γιατί το Monero έχει την Kαλύτερη Kοινότητα Kριτικής Σκέψης](/knowledge/critical-thinking/)
+  * [Γιατί το Monero έχει την Kαλύτερη Kοινότητα Kριτικής Σκέψης](/knowledge/critical-thinking)/
 
-  * [Απάτες που πρέπει να προσέχετε όταν χρησιμοποιείτε το Monero](/knowledge/monero-scams/)
+  * [Απάτες που πρέπει να προσέχετε όταν χρησιμοποιείτε το Monero](/knowledge/monero-scams)/
 
-  * [Πώς Θα Λειτουργήσουν τα Atomic Swaps στο Monero](/knowledge/monero-atomic-swaps/)
+  * [Πώς Θα Λειτουργήσουν τα Atomic Swaps στο Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Τι Πρέπει να Γνωρίζει Κάθε Χρήστης του Monero όταν Πρόκειται για Δικτύωση](/knowledge/monero-networking/)
+  * [Τι Πρέπει να Γνωρίζει Κάθε Χρήστης του Monero όταν Πρόκειται για Δικτύωση](/knowledge/monero-networking)/
 
-  * [Πώς το RingCT Αποκρύπτει τα Ποσά Συναλλαγών Monero](/knowledge/monero-ringct/)
+  * [Πώς το RingCT Αποκρύπτει τα Ποσά Συναλλαγών Monero](/knowledge/monero-ringct)/
 
-  * [Πώς οι Κρυφές Διευθύνσεις του Monero Προστατεύουν Την Ταυτότητά σας](/knowledge/monero-stealth-addresses/)
+  * [Πώς οι Κρυφές Διευθύνσεις του Monero Προστατεύουν Την Ταυτότητά σας](/knowledge/monero-stealth-addresses)/
 
-  * [Πώς οι Υποδιευθύνσεις Monero Αποτρέπουν τη Σύνδεση Ταυτότητας](/knowledge/monero-subaddresses/)
+  * [Πώς οι Υποδιευθύνσεις Monero Αποτρέπουν τη Σύνδεση Ταυτότητας](/knowledge/monero-subaddresses)/
 
-  * [Διευκρινήσεις εξόδων Monero](/knowledge/monero-outputs/)
+  * [Διευκρινήσεις εξόδων Monero](/knowledge/monero-outputs)/
 
-  * [Η καλύτερες πρακτικές Monero για αρχάριους](/knowledge/monero-best-practices/)
+  * [Η καλύτερες πρακτικές Monero για αρχάριους](/knowledge/monero-best-practices)/
 
-  * [Πώς οι ψηφιακές υπογραφές τύπου ring αποκρύπτουν τα αποτελέσματα του Monero](/knowledge/ring-signatures/)
+  * [Πώς οι ψηφιακές υπογραφές τύπου ring αποκρύπτουν τα αποτελέσματα του Monero](/knowledge/ring-signatures)/
 
-  * [Πώς το Monero Ελυσε το Πρόβλημα Μεγέθους Μπλοκ που Μαστίζει το Bitcoin](/knowledge/dynamic-block-size/)
+  * [Πώς το Monero Ελυσε το Πρόβλημα Μεγέθους Μπλοκ που Μαστίζει το Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Πώς το CLSAG Θα Βελτιώσει την Αποτελεσματικότητα του Monero](/knowledge/what-is-clsag/)
+  * [Πώς το CLSAG Θα Βελτιώσει την Αποτελεσματικότητα του Monero](/knowledge/what-is-clsag)/
 
-  * [Γιατί το Monero Εχει Ελάχιστη Επιδότηση](/knowledge/monero-tail-emission/)
+  * [Γιατί το Monero Εχει Ελάχιστη Επιδότηση](/knowledge/monero-tail-emission)/
 
-  * [Μια σύντομη ιστορία του Monero](/knowledge/monero-history/)
+  * [Μια σύντομη ιστορία του Monero](/knowledge/monero-history)/
 
-  * [Το Wired Magazine κάνει Λάθος Σχετικά με το Monero, Να Γιατί](/knowledge/wired-article-debunked/)
+  * [Το Wired Magazine κάνει Λάθος Σχετικά με το Monero, Να Γιατί](/knowledge/wired-article-debunked)/
 
-  * [Κορυφαίοι 15 Μύθοι και Ανησυχίες του Monero που Καταρρίφθηκαν](/knowledge/monero-myths-debunked/)
+  * [Κορυφαίοι 15 Μύθοι και Ανησυχίες του Monero που Καταρρίφθηκαν](/knowledge/monero-myths-debunked)/
 
-  * [Πώς το Dandelion ++ Κρατά την Προέλευση των Συναλλαγών του Monero Ιδιωτική](/knowledge/monero-dandelion/)
+  * [Πώς το Dandelion ++ Κρατά την Προέλευση των Συναλλαγών του Monero Ιδιωτική](/knowledge/monero-dandelion)/
 
-  * [Γιατί το Monero είναι Ανοιχτού κώδικα και Αποκεντρωμένο](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Γιατί το Monero είναι Ανοιχτού κώδικα και Αποκεντρωμένο](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Τι Kάνει το RandomX τόσο Ξεχωριστό](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Τι Kάνει το RandomX τόσο Ξεχωριστό](/knowledge/monero-mining-randomx)/
 
-  * [Γιατί το Monero είναι Καλύτερο από τα Dash, Zcash, Zcoin (Ακόμη και με Lelantus), Grin και Bitcoin Mixers όπως το Wasabi (Ενημερώθηκε Μάιος 2020)](/knowledge/why-monero-is-better/)
+  * [Γιατί το Monero είναι Καλύτερο από τα Dash, Zcash, Zcoin (Ακόμη και με Lelantus), Grin και Bitcoin Mixers όπως το Wasabi (Ενημερώθηκε Μάιος 2020)](/knowledge/why-monero-is-better)/
+
+Περαιτέρω ανάγνωση

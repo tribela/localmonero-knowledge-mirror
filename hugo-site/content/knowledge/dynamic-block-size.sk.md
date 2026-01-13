@@ -1,105 +1,107 @@
 ---
-title: "Ako Monero vyriešilo problém veľkosti bloku, ktorý trápi Bitcoin"
+title: "Как в Monero победили болезнь размера блоков, поразившую Bitcoin"
 slug: "dynamic-block-size"
 date: "2020-08-28"
 image: "/images/blocks.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-_**Poznámka:** Dôrazne odporúčame, aby si čitateľ prečítal naše články [„Prečo má Monero chvostové emisie“](/knowledge/monero-tail-emission) a [„Ťažba Monero: Čo robí RandomX tak špeciálne“](/knowledge/monero-mining-randomx). Tento článok stavia na konceptoch v ňom uvedených._
+_**Примечание:** Читателю настоятельно рекомендуется прочитать наши статьи [ «Почему Monero имеет хвостовую эмиссию» ](/knowledge/monero-tail-emission) и [ «Майнинг Monero: что делает случайнымX такой особенный»](/knowledge/monero-mining-randomx). Эта статья основана на представленных там концепциях._
 
-Vždy, keď jednotlivci diskutujú o problémoch s blockchainom, jedným z prvých slov, ktoré sa objavia, bude „škálovanie“. Nie je tajomstvom, že blockchainy sa neškálujú dobre, ale väčšina ľudí nevie prečo.
+Всякий раз, когда люди обсуждают проблемы с блокчейном, одним из первых слов, которые всплывают, будет «масштабирование». Ни для кого не секрет, что блокчейны плохо масштабируются, но большинство людей не знают, почему.
 
-Pravdou je, že škálovanie je v skutočnosti zastrešujúci pojem, ktorý pokrýva dve rôzne kategórie: Podpora protokolu a technologická podpora v danom časovom bode. V tomto článku zameriame svoju pozornosť na to prvé, podporu protokolu, je to v podstate mierou toho, koľko transakcií protokol dokáže v danom čase spracovať.
+На самом деле масштабирование — это общий термин, охватывающий две разные категории: поддержка протоколов и технологическая поддержка в данный момент времени. В этой статье мы сосредоточим наше внимание на одном: поддержка протокола — это, по сути, мера того, сколько транзакций протокол может обработать в данный момент времени.
 
-Bitcoin má limit veľkosti bloku, čo znamená, že akonáhle je v bloku zahrnutý dostatok transakcií, akékoľvek ďalšie transakcie budú musieť čakať v rade na ďalší blok. Užitočnou analógiou by bolo uvažovanie o vlaku. Vlak pristaví na stanicu a tí, čo sú v rade, sa prihlásia. Keď sa vlak naplní, každý, kto zostane vonku, bude musieť čakať na ďalší.
+Биткойн имеет ограничение на размер блока. Это означает, что как только в блок будет включено достаточное количество транзакций, любые дополнительные транзакции должны будут ждать в очереди для следующего блока. Полезной аналогией будет размышление о поезде. Поезд подъезжает к станции, и те, кто стоит в очереди, входят внутрь. Как только поезд заполнится, всем, кто останется снаружи, придется ждать следующего.
 
-Bitcoin používa poplatky na určenie toho, kto sa dostane do bloku alebo nie. Skočíme späť k analógii s vlakom, možno si predstaviť, že jeden potenciálny cestujúci, ktorý má zostať pozadu, ponúka strojníkovi päť dolárov, aby mu dal miesto. Ostatní pasažieri nasledujú príklad a nakoniec dôjde k boju o to, kto dostane aké miesta. Je na vodičovi, aby sa rozhodol, či chce dodržať zásadu „kto prv príde, ten prv berie“, ale je v jeho najlepšom finančnom záujme maximalizovať svoj príjem tým, že na palubu vezme tých, ktorí ponúknu najvyššiu cenu.
+Биткойн использует комиссию, чтобы определить, кто попадет в блок, а кто нет. Возвращаясь к аналогии с поездом, можно представить себе, что один потенциальный пассажир, который вот-вот останется позади, предлагает машинисту поезда пять долларов, чтобы дать ему место. Другие пассажиры следуют их примеру, и в конечном итоге начинается война за право определить, кто какое место получит. Водителю решать, хочет ли он соблюдать политику «первым пришел первым обслужен», но в его лучших финансовых интересах максимизировать свой доход, принимая на борт тех, кто предложит самую высокую цену.
 
-V tejto analógii sú baníci rušňovodiči. Do bloku môžu zahrnúť akékoľvek transakcie, ktoré chcú, ale vo všeobecnosti si vyberú tie, ktoré majú najvyššie platené poplatky.
+В этой аналогии шахтеры — это машинисты поездов. Они могут включать в блок любые транзакции, но обычно выбирают те, которые имеют самую высокую комиссию.
 
-Alternatívne, ak bloky nie sú príliš plné, ľudia nemajú motiváciu platiť vysoké poplatky, pretože je tam veľa voľných miest na rezervu.
+В качестве альтернативы, если блоки не очень заполнены, у людей нет стимула платить высокие сборы, потому что есть много свободных мест.
 
-Vo vrchole rozmachu kryptomien v roku 2017 bol bitcoin zaplavený transakciami a poplatky vyleteli pre tých, ktorí chceli byť zaradení do ďalšieho bloku alebo do akéhokoľvek bloku blízkej budúcnosti. Tí, ktorí neboli ochotní platiť vysoké poplatky, videli, že ich transakcie boli posunuté späť o hodiny, dni alebo dokonca úplne vypadli z radu.
+В разгар криптовалютного бума 2017 года Биткойн был наводнен транзакциями, и комиссии резко возросли для тех, кто хотел быть включенным в следующий блок или любой блок ближайшего будущего, если уж на то пошло. Те, кто не желал платить высокие комиссии, видели, что их транзакции откладывались на часы, дни или даже вообще выпадали из очереди.
 
-Bol to otrasný pohľad na to, ako by sa bitcoinom darilo, ak by sa často hovorilo o „masovej adopcii“. Ak by mal Bitcoin používať masy, veci by boli ešte horšie ako v roku 2017 a Bitcoin by bol nedostupný pre kohokoľvek okrem bohatých, jednoducho preto, že priepustnosť je malá kvôli pevnej veľkosti bloku, čo spôsobí, že trh s poplatkami prevezme kontrolu. .
+Это было душераздирающее представление о том, как поведет себя Биткойн, если произойдет то, что часто говорят о «массовом принятии». Если бы Биткойн стал использоваться массами, ситуация была бы еще хуже, чем в 2017 году, и Биткойн был бы недоступен никому, кроме богатых, просто потому, что пропускная способность мала из-за фиксированного размера блока, что привело бы к захвату рынка комиссий. .
 
-Monero to predvídal a chcel urobiť niečo iné. Developeri Monero teda implementovali dynamickú veľkosť blokov.
+Monero предвидел это и захотел сделать что-то другое. Поэтому разработчики Monero реализовали динамический размер блока.
 
-Monero má v podstate aj uzáver veľkosti bloku, ale je to mäkký uzáver. Keď je rad čakajúcich transakcií príliš dlhý, baníci môžu zväčšiť veľkosť blokov. S našou analógiou vlaku si viete predstaviť pridanie ďalších vlakových vozňov, aby sa zmestili ďalší cestujúci. Po vyprázdnení frontu sa bloky zmenšia späť na pôvodnú veľkosť.
+По сути, Monero также имеет ограничение размера блока, но это мягкое ограничение. Когда очередь ожидающих транзакций становится слишком длинной, майнеры могут увеличить размер блоков. Используя нашу аналогию с поездом, вы можете представить себе добавление большего количества вагонов для размещения дополнительных пассажиров. После того, как очередь опустеет, блоки снова сжимаются до исходного размера.
 
-Ak sa to zdá ako dobrý nápad, zdá sa rozumné položiť si otázku, prečo je Monero jedinou kryptomenou, ktorá to implementovala. Prečo to nepridať na bitcoiny, aby ste zastavili problémy s priepustnosťou?
+Если это кажется хорошей идеей, то разумно задаться вопросом, почему Monero — единственная криптовалюта, которая реализовала это. Почему бы не добавить его в Биткойн, чтобы положить конец проблемам с пропускной способностью? 
 
-Bohužiaľ to nie je možné. Existuje niekoľko dôvodov a my sa ich pokúsime vysvetliť.
+К сожалению, это невозможно. Тому есть несколько причин, и мы постараемся их объяснить.
 
-Vždy je v najlepšom záujme baníkov mať veľké bloky. S veľkými blokmi sa zmestia do viacerých transakcií a zarobia viac peňazí z poplatkov, ako aj z odmien za bloky. To môže viesť k spamovým útokom, pri ktorých niekto posiela veľa malých transakcií s malými poplatkami, čím nafúkne reťazec. Baník by len zvýšil veľkosť bloku, aby ich zahŕňal všetky, pretože peniaze sú peniaze, bez ohľadu na to, aké malé sú. To by viedlo k trvalo veľkým blokom s malým ekonomickým prínosom. Bitcoin to rieši umelým obmedzením veľkosti bloku, čím sa generuje trh s poplatkami. Spamoví útočníci by museli preplatiť ostatných používateľov na poplatkoch a to už nie je lacné. To však znamená, že bloky sa zaplnia a niektoré transakcie budú čakať, ako je uvedené vyššie.
+В интересах майнера всегда иметь большие блоки. Благодаря большим блокам они могут вместить больше транзакций и заработать больше денег на комиссиях, а также на вознаграждениях за блоки. Это может привести к спам-атакам, когда кто-то отправляет множество мелких транзакций с небольшой комиссией, чтобы раздуть цепочку. Майнеры просто увеличили бы размер блока, включив их всех, потому что деньги есть деньги, какими бы маленькими они ни были. Это приведет к постоянному увеличению блоков с небольшой экономической выгодой. Биткойн решает эту проблему, искусственно ограничивая размер блока, тем самым создавая рынок комиссий. Злоумышленникам, занимающимся спамом, придется переплачивать другим пользователям в виде комиссий, а это уже недешево. Но это означает, что блоки заполняются, оставляя некоторые транзакции в ожидании, как упоминалось выше. 
 
-Ako teda môže mať Monero dynamické veľkosti blokov, ale vyhnúť sa spamovým útokom? Odpoveď je jednoduchá, ale šikovná. Pokuta za odmenu za blok je zavedená, keď je blok väčší ako normálne. Ak chce tažiar zväčšiť veľkosť bloku, odmena, ktorú získa za nájdenie tohto bloku, bude menšia, ako by inak dostal. Veľkosť blokov teda zvýšia len vtedy, keď zaplatené transakčné poplatky používateľov prevážia stratenú časť odmeny za blokovanie. Napríklad, ak by ťažiar stratil 0,5 XMR zvýšením blokovej odmeny a súčet zaplatených transakčných poplatkov by bol 0,4 XMR, potom by došlo k čistej strate 0,1 XMR, ak by zvýšili veľkosť, takže by nerob to. Naopak, ak by sa celkové transakčné poplatky zvýšili na 0,7 XMR, potom by bol čistý zisk 0,2 XMR, aj keď stratia 0,5 XMR z pokuty za blokovú odmenu, takže baník zväčší veľkosť.
+Так как же Monero может иметь динамические размеры блоков, но при этом избегать спам-атак? Ответ простой, но умный. Штраф на вознаграждение за блок вводится, когда блок больше обычного. Если майнер захочет увеличить размер блока, вознаграждение, которое он получит от нахождения этого блока, будет меньше, чем он получил бы в противном случае. Таким образом, они будут увеличивать размер блока только тогда, когда уплаченные пользователями комиссии за транзакции перевешивают потерянную часть вознаграждения за блок. Например, если майнер потеряет 0,5 XMR из-за увеличения размера блока, а сумма уплаченных комиссий за транзакцию составит 0,4 XMR, то чистый убыток составит 0,1 XMR, если он увеличит размер блока, поэтому он не делай этого. И наоборот, если общая сумма комиссий за транзакцию составит 0,7 XMR, то чистая прибыль составит 0,2 XMR, даже если они потеряют 0,5 XMR из-за штрафа за вознаграждение за блок, поэтому майнер увеличит размер.
 
-Tieto dynamické bloky umožňujú, aby sieť organicky rástla, bez aritifikovaného obmedzovania veľkosti blokov, aby sa vytvoril trh s vynútenými poplatkami, pričom sa stále vyhýbajú útokom spamu. Existuje niekoľko ďalších uhlov, z ktorých sa môžeme na túto myšlienku pozerať, a viac dôvodov, prečo by nebolo možné pridať do Bitcoinu, ale zatiaľ dúfame, že čitateľ chápe, ako Monero obchádza niekoľko problémov v Bitcoine a jeho deriváty a ako plánuje rozšíriť svoju priepustnosť do budúcnosti.
+Эти динамические блоки позволяют сети расти органично, без искусственного ограничения размера блока, чтобы создать рынок принудительной комиссии, и при этом избегать спам-атак. Есть еще несколько точек зрения, под которыми мы можем рассмотреть эту идею, и больше причин, по которым невозможно добавить что-либо в Биткойн, но на данный момент мы надеемся, что читатель понимает, как Monero обходит некоторые проблемы Биткойна и его производные и то, как компания планирует масштабировать свою пропускную способность в будущем.
 
-Ďalšie čítanie
+Читайте также
 
-  * [Ako Monero jedinečne umožňuje obehové ekonomiky](/knowledge/monero-circular-economies/)
+  * [Как Monero уникальным образом обеспечивает циркулярную экономику](/knowledge/monero-circular-economies)/
 
-  * [Moneroove prstenové podpisy vs CoinJoin ako vo Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Кольцевые подписи Monero против CoinJoin как в Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Prečo (a ako!) by ste mali držať svoje vlastné kľúče](/knowledge/hold-your-keys/)
+  * [Почему (и как!) вы должны хранить собственные ключи](/knowledge/hold-your-keys)/
 
-  * [Prispievame späť do Monero](/knowledge/contributing-to-monero/)
+  * [Как внести свою лепту в успех Monero](/knowledge/contributing-to-monero)/
 
-  * [Ako vzdialené uzly ovplyvňujú súkromie spoločnosti Monero](/knowledge/remote-nodes-privacy/)
+  * [Как удаленные ноды влияют на конфиденциальность Монеро](/knowledge/remote-nodes-privacy)/
 
-  * [Ako Monero používa hard-forky na aktualizáciu siete](/knowledge/network-upgrades/)
+  * [Как Монеро использует хард-форки для модернизации сети](/knowledge/network-upgrades)/
 
-  * [Zobraziť značky: Ako jeden bajt zníži časy synchronizácie peňaženky Monero o 40 % a viac](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Теги просмотра: Как один байт сократит время синхронизации кошелька Монеро более чем на 40%](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool a jeho úloha pri decentralizácii ťažby Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool и его роль в децентрализации майнинга Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Čo to urobí pre Monero](/knowledge/seraphis-for-monero/)
+  * [Серафис: Как это повлияет на Monero](/knowledge/seraphis-for-monero)/
 
-  * [Je prevod bitcoinu na monero rovnako súkromný ako priamy nákup monera?](/knowledge/most-private-way-to-buy-monero/)
+  * [Обмен Bitcoin на Monero настолько же анонимен, как и покупка Monero напрямую. Так ли это?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Prečo Monero používa Trustless Setup na rozdiel od Zcash](/knowledge/monero-trustless-setup/)
+  * [Почему Monero, в отличие от Zcash, использует настройки, не требующие доверия](/knowledge/monero-trustless-setup)/
 
-  * [Prečo je Monero lepším uchovávateľom hodnoty ako Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [О том, почему Monero является более эффективным средством сбережения, чем Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Ako môže Monero prekonať sieťové efekty bitcoinu](/knowledge/network-effect/)
+  * [Как Monero избежать сетевых эффектов Bitcoin](/knowledge/network-effect)/
 
-  * [Prečo má Monero komunitu najkritickejšieho myslenia](/knowledge/critical-thinking/)
+  * [Почему представители сообщества Monero отличаются масштабом своего критического мышления](/knowledge/critical-thinking)/
 
-  * [Podvody na ktoré si treba dať pozor pri používaní Monero](/knowledge/monero-scams/)
+  * [Возможные случаи мошенничества при использовании Monero](/knowledge/monero-scams)/
 
-  * [Ako budú fungovať atómové swapy v Monero](/knowledge/monero-atomic-swaps/)
+  * [Как атомные свопы будут работать в Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Čo potrebuje vedieť každý používateľ Monero, pokiaľ ide o vytváranie sietí](/knowledge/monero-networking/)
+  * [Что должен знать каждый пользователь Monero, когда дело доходит до взаимодействия с сетью](/knowledge/monero-networking)/
 
-  * [Ako RingCT skrýva sumy transakcií Monero](/knowledge/monero-ringct/)
+  * [Как протокол RingCT скрывает суммы при проведении транзакций Monero](/knowledge/monero-ringct)/
 
-  * [Ako Monero Stealth adresy chránia vašu identitu](/knowledge/monero-stealth-addresses/)
+  * [Как скрытые адреса Monero помогают защитить вашу личность](/knowledge/monero-stealth-addresses)/
 
-  * [Ako podadresy Monero zabraňujú prepojeniu identity](/knowledge/monero-subaddresses/)
+  * [Как подадреса Monero не позволяют устанавливать связь с личностью пользователя](/knowledge/monero-subaddresses)/
 
-  * [Vysvetlenie výstupov Monero](/knowledge/monero-outputs/)
+  * [Что такое выходы Monero](/knowledge/monero-outputs)/
 
-  * [Monero osvedčené postupy pre začiatočníkov](/knowledge/monero-best-practices/)
+  * [Оптимальные способы использования Monero для начинающих](/knowledge/monero-best-practices)/
 
-  * [Ako prstencové podpisy zakrývajú výstupy Monera](/knowledge/ring-signatures/)
+  * [Как кольцевые подписи скрывают выходы Monero](/knowledge/ring-signatures)/
 
-  * [Ako CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag/)
+  * [Как реализация схемы CLSAG повысит эффективность Monero](/knowledge/what-is-clsag)/
 
-  * [Prečo má Monero chvostovú emisiu](/knowledge/monero-tail-emission/)
+  * [Зачем Monero хвостовая эмиссия](/knowledge/monero-tail-emission)/
 
-  * [Stručná história Monera](/knowledge/monero-history/)
+  * [Краткая История Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine sa o Monere mýli, tu je dôvod](/knowledge/wired-article-debunked/)
+  * [Wired Magazine заблуждается в отношении Monero, и вот почему](/knowledge/wired-article-debunked)/
 
-  * [Top 15 vyvrátených mýtov a obáv o Monero](/knowledge/monero-myths-debunked/)
+  * [Развенчиваем 15 самых популярных мифов о Monero](/knowledge/monero-myths-debunked)/
 
-  * [Ako Dandelion++ uchováva pôvod transakcií Monero v súkromí](/knowledge/monero-dandelion/)
+  * [Как Dandelion++ помогает сохранить приватность источников транзакций Monero](/knowledge/monero-dandelion)/
 
-  * [Prečo je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Почему Monero децентрализовано и имеет открытый исходный код](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Čo robí RandomX tak výnimočným](/knowledge/monero-mining-randomx/)
+  * [Майнинг Monero: что делает RandomX таким особенным](/knowledge/monero-mining-randomx)/
 
-  * [Prečo je Monero lepšie ako Dash, Zcash, Zcoin (dokonca aj s Lelantus), Grin a bitcoinové mixéry ako Wasabi (aktualizované v máji 2020)](/knowledge/why-monero-is-better/)
+  * [Почему Monero лучше, чем Dash, Zcash, Zcoin (даже с Lelantus), Grin и биткойн-миксеры вроде Wasabi (Обновлено в мае 2020 г.)](/knowledge/why-monero-is-better)/
+
+Читайте также

@@ -14,6 +14,8 @@ I dette korte innlegget skal vi dykke ned i hvorfor du bør holde dine egne nøk
 
 ## Hvorfor er det viktig å holde dine egne nøkler?
 
+## Hvorfor er det viktig å holde dine egne nøkler?
+
 Et av de mest misforståtte aspektene ved selvforvaring i Monero er at hvis du ikke har dine egne nøkler, vinner du lite eller ingen dra nytte av personvernet Monero tilbyr. Som avsender av en transaksjon har full oversikt over det sanne forbruket, beløpet og mottakeradressen, hvis du ikke er den som sender transaksjonen, og la det i stedet være en børs eller forvalter, har de _full_ innsyn i måter du bruker Monero på.
 
 Heldigvis, etter at de har sendt pengene, garanterer Moneros personvern sparke inn og gi sterk «frem-hemmelighold», men det vil være klart å børsen eller depotmottakeren du sendte midlene til og hvor mye du sendte innledningsvis.
@@ -38,6 +40,8 @@ Denne oppførselen kan også føre til likviditetskriser der brukere som _vil_ b
 
 ## Hvordan holder jeg mine egne nøkler med Monero?
 
+## Hvordan holder jeg mine egne nøkler med Monero?
+
 Når du begynner å holde dine egne nøkler, er det viktigste å husk er å _lagre og holde frøsetningen din trygg_! Dette er sett med 14 eller 25 tilfeldige ord som enhver Monero-lommebok vil gi deg når du oppretter en lommebok, og er alt du trenger for å få pengene tilbake hvis du mister telefonen, skrivebordet, den bærbare datamaskinen, eller du glemmer en passord.
 
 Behandle denne frøsetningen som om den er verdt all Monero i din lommebok, da alle som får den vil ha full tilgang til midlene i din lommebok. Det er ideelt å oppbevare det på et trygt eller hemmelig sted, bevare flere kopier i tilfelle brann eller naturkatastrofer, og aldri vis det til hvem som helst.
@@ -47,9 +51,11 @@ For mer om frøsetninger, se [Mnemonic Frø | Moneropedia](https://web.getmonero
 Hvis du hovedsakelig er en stasjonær bruker og ikke bruker/mottar Monero på farten veldig ofte, er det noen solide valg for å holde deg selv nøkler uten å måtte stole på noen tredjeparter.
 
   * [Den offisielle Monero lommebok](https://getmonero.org/downloads)
-    * Dette er den offisielle Monero-lommebokprogramvaren, og har vært konstant forbedringer og tillegg. Den inkluderer en integrert Monero-demon (hvis du vil ha), er veldig brukervennlig, og vil snart støtte [gruvedrift via p2pool direkte fra lommeboken din](/knowledge/p2pool-decentralizing-monero-mining/).
+    * Dette er den offisielle Monero-lommebokprogramvaren, og har vært konstant forbedringer og tillegg. Den inkluderer en integrert Monero-demon (hvis du vil ha), er veldig brukervennlig, og vil snart støtte [gruvedrift via p2pool direkte fra lommeboken din](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
   * [Featherwallet](https://featherwallet.org/)
     * Dette er en utmerket lommebok i likhet med [Electrum for Bitcoin](https://electrum.org/), og gir begge deler enkel brukervennlighet og ekstremt kraftige funksjoner i en enkelt lommebok.
+
+  * Dette er den offisielle Monero-lommebokprogramvaren, og har vært konstant forbedringer og tillegg. Den inkluderer en integrert Monero-demon (hvis du vil ha), er veldig brukervennlig, og vil snart støtte [gruvedrift via p2pool direkte fra lommeboken din](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
 
   * Dette er en utmerket lommebok i likhet med [Electrum for Bitcoin](https://electrum.org/), og gir begge deler enkel brukervennlighet og ekstremt kraftige funksjoner i en enkelt lommebok.
 
@@ -66,6 +72,8 @@ For de av oss som liker å kunne bruke Monero på farten eller bruke ofte, å ha
 
 ## Konklusjon
 
+## Konklusjon
+
 Forhåpentligvis har dette innlegget bidratt til å sementere behovet for å holde deg egne nøkler, samt viste deg til noen av de utmerkede lommebøkene i plass.
 
 Jo mer du tar Monero i egne hender og faktisk bruker den, jo mer flere fordeler du kan få både nå og i fremtiden. Monero er ikke bare en spekulativ eiendel – det er et kraftig verktøy for frihet og økonomisk personvern som er sårt tiltrengt i dagens verden og fremtiden av oss.
@@ -74,66 +82,68 @@ Hent nå disse myntene fra en børs og dykk inn i hva Monero var bygget for.
 
 Videre lesning
 
-  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies/)
+  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies)/
 
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero/)
+  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero)/
 
-  * [Hvordan eksterne noder påvirker Moneros personvern](/knowledge/remote-nodes-privacy/)
+  * [Hvordan eksterne noder påvirker Moneros personvern](/knowledge/remote-nodes-privacy)/
 
-  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades/)
+  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades)/
 
-  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero)/
 
-  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero/)
+  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup/)
+  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect/)
+  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect)/
 
-  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking/)
+  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking)/
 
-  * [Svindel å se etter når du bruker Monero](/knowledge/monero-scams/)
+  * [Svindel å se etter når du bruker Monero](/knowledge/monero-scams)/
 
-  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps/)
+  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking/)
+  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking)/
 
-  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct/)
+  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct)/
 
-  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses/)
+  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses)/
 
-  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses/)
+  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses)/
 
-  * [Monero-utganger forklart](/knowledge/monero-outputs/)
+  * [Monero-utganger forklart](/knowledge/monero-outputs)/
 
-  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices/)
+  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices)/
 
-  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures/)
+  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures)/
 
-  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size/)
+  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag/)
+  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag)/
 
-  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission/)
+  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission)/
 
-  * [En kort historie om Monero](/knowledge/monero-history/)
+  * [En kort historie om Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked/)
+  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked)/
 
-  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked/)
+  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked)/
 
-  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion/)
+  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion)/
 
-  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx)/
 
-  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better/)
+  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better)/
+
+Videre lesning

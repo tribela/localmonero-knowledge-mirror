@@ -14,6 +14,8 @@ Bu kısa gönderide neden kendi anahtarlarınızı yanınızda bulundurmanız ge
 
 ## Kendi anahtarlarınızı tutmak neden önemlidir?
 
+## Kendi anahtarlarınızı tutmak neden önemlidir?
+
 Kendini velayet altına almanın en yaygın yanlış anlaşılan yönlerinden biri Monero, eğer kendi anahtarlarınızı elinizde tutmazsanız, çok az veya hiç kazanç elde edemezsiniz Monero'nun sunduğu gizlilikten yararlanın. Bir işlemin göndericisi olarak gerçek harcama, tutar ve alıcı adresine ilişkin tam görünürlüğe sahiptir, eğer işlemi gönderen siz değilseniz ve bunun yerine bunu başkalarına bırakın bir borsa veya saklayıcı, _tam_ görünürlüğe sahiptirler Monero'nuzu nasıl harcayacağınız.
 
 Neyse ki parayı gönderdikten sonra Monero'nun gizlilik garantisi var devreye girer ve güçlü bir "ileri gizlilik" sağlar, ancak parayı gönderdiğiniz borsa veya saklamacı ve ne kadar gönderdiğiniz başlangıçta.
@@ -38,6 +40,8 @@ Bu davranış aynı zamanda likidite krizlerine de yol açabilir; _do_ kendi ana
 
 ## Monero ile kendi anahtarlarımı nasıl tutabilirim?
 
+## Monero ile kendi anahtarlarımı nasıl tutabilirim?
+
 Kendi anahtarlarınızı tutmaya başladığınızda yapmanız gereken en önemli şey _kaynak ifadenizi kaydedip güvende tutmanız_ gerektiğini unutmayın! Bu Herhangi bir Monero cüzdanının size vereceği 14 veya 25 rastgele kelimeden oluşan set bir cüzdan yaratırsınız ve paranızı geri almak için ihtiyacınız olan tek şey budur. telefonunuzu, masaüstünüzü, dizüstü bilgisayarınızı kaybedersiniz veya bir şeyi unutursunuz şifre.
 
 Bu tohum cümlesine, sanki tüm Monero'nuza değermiş gibi davranın. Cüzdanı alan herkes, içindeki fonlara tam erişime sahip olacak. cüzdanın. Güvenli veya gizli bir yerde saklamak idealdir. Yangın veya doğal afet durumunda birden fazla kopyayı saklayın ve asla herkese göster.
@@ -47,9 +51,11 @@ Bu tohum cümlesine, sanki tüm Monero'nuza değermiş gibi davranın. Cüzdanı
 Genellikle bir masaüstü kullanıcısıysanız ve Monero harcamıyor/almıyorsanız Sık sık hareket halindeyken, kendinize ait bir yer tutmak için birkaç sağlam seçenek vardır. anahtarları herhangi bir üçüncü tarafa güvenmeye gerek kalmadan kullanabilirsiniz.
 
   * [Resmi Monero cüzdan](https://getmonero.org/downloads)
-    * Bu resmi Monero cüzdan yazılımıdır ve sürekli olarak görülmüştür iyileştirmeler ve eklemeler. Entegre bir Monero arka plan programı içerir (eğer çok kullanıcı dostudur ve yakında [madencilik p2pool aracılığıyla doğrudan cüzdanınızdan](/knowledge/p2pool-decentralizing-monero-mining/).
+    * Bu resmi Monero cüzdan yazılımıdır ve sürekli olarak görülmüştür iyileştirmeler ve eklemeler. Entegre bir Monero arka plan programı içerir (eğer çok kullanıcı dostudur ve yakında [madencilik p2pool aracılığıyla doğrudan cüzdanınızdan](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
   * [Tüy Cüzdanı](https://featherwallet.org/)
     * Bu, [Bitcoin için Electrum](https://electrum.org/) ve her ikisini de sağlar Tek bir cihazda basit kullanılabilirlik ve son derece güçlü özellikler cüzdan.
+
+  * Bu resmi Monero cüzdan yazılımıdır ve sürekli olarak görülmüştür iyileştirmeler ve eklemeler. Entegre bir Monero arka plan programı içerir (eğer çok kullanıcı dostudur ve yakında [madencilik p2pool aracılığıyla doğrudan cüzdanınızdan](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
 
   * Bu, [Bitcoin için Electrum](https://electrum.org/) ve her ikisini de sağlar Tek bir cihazda basit kullanılabilirlik ve son derece güçlü özellikler cüzdan.
 
@@ -66,6 +72,8 @@ Monero'muzu hareket halindeyken kullanmayı sevenlerimiz için veya sık sık ha
 
 ## Çözüm
 
+## Çözüm
+
 Umarım bu gönderi, elinizi tutma ihtiyacını güçlendirmeye yardımcı olmuştur. Kendi anahtarlarınızın yanı sıra, size piyasadaki bazı mükemmel cüzdanları da gösterdim. boşluk.
 
 Monero'yu ne kadar çok kendi elinize alırsanız ve gerçekten kullanırsanız, hem şimdi hem de gelecekte daha fazla fayda elde edebilirsiniz. Monero sadece spekülatif bir varlık – özgürlük ve finansal açıdan güçlü bir araçtır günümüz dünyasında ve önümüzdeki gelecekte çok ihtiyaç duyulan gizlilik bizden.
@@ -74,66 +82,68 @@ Monero'yu ne kadar çok kendi elinize alırsanız ve gerçekten kullanırsanız,
 
 daha fazla okuma
 
-  * [Monero döngüsel ekonomileri benzersiz bir şekilde nasıl mümkün kılıyor?](/knowledge/monero-circular-economies/)
+  * [Monero döngüsel ekonomileri benzersiz bir şekilde nasıl mümkün kılıyor?](/knowledge/monero-circular-economies)/
 
-  * [Monero'nun halka imzaları Wasabi'deki gibi CoinJoin'e karşı](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero'nun halka imzaları Wasabi'deki gibi CoinJoin'e karşı](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Monero'ya geri katkıda bulunmak](/knowledge/contributing-to-monero/)
+  * [Monero'ya geri katkıda bulunmak](/knowledge/contributing-to-monero)/
 
-  * [Uzak düğümler Monero'nun gizliliğini nasıl etkiler?](/knowledge/remote-nodes-privacy/)
+  * [Uzak düğümler Monero'nun gizliliğini nasıl etkiler?](/knowledge/remote-nodes-privacy)/
 
-  * [Monero ağı yükseltmek için hard fork'ları nasıl kullanıyor?](/knowledge/network-upgrades/)
+  * [Monero ağı yükseltmek için hard fork'ları nasıl kullanıyor?](/knowledge/network-upgrades)/
 
-  * [Etiketleri görüntüle: Bir bayt, Monero cüzdan senkronizasyon sürelerini nasıl %40'tan fazla azaltır?](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Etiketleri görüntüle: Bir bayt, Monero cüzdan senkronizasyon sürelerini nasıl %40'tan fazla azaltır?](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ve Monero Madenciliğinin Merkezi Olmamasındaki Rolü](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ve Monero Madenciliğinin Merkezi Olmamasındaki Rolü](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Monero İçin Ne Yapacak?](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Monero İçin Ne Yapacak?](/knowledge/seraphis-for-monero)/
 
-  * [Bitcoin'i Monero'ya Dönüştürmek Doğrudan Monero Satın Almak Kadar Özel mi?](/knowledge/most-private-way-to-buy-monero/)
+  * [Bitcoin'i Monero'ya Dönüştürmek Doğrudan Monero Satın Almak Kadar Özel mi?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Monero Neden Zcash'ten Farklı Olarak Güvenilir Bir Kurulum Kullanıyor?](/knowledge/monero-trustless-setup/)
+  * [Monero Neden Zcash'ten Farklı Olarak Güvenilir Bir Kurulum Kullanıyor?](/knowledge/monero-trustless-setup)/
 
-  * [Monero Neden Bitcoin'den Daha İyi Bir Değer Deposu?](/knowledge/monero-better-store-of-value/)
+  * [Monero Neden Bitcoin'den Daha İyi Bir Değer Deposu?](/knowledge/monero-better-store-of-value)/
 
-  * [Monero, Bitcoin'in Ağ Etkilerinin Üstesinden Nasıl Gelebilir?](/knowledge/network-effect/)
+  * [Monero, Bitcoin'in Ağ Etkilerinin Üstesinden Nasıl Gelebilir?](/knowledge/network-effect)/
 
-  * [Monero Neden En Eleştirel Düşünme Topluluğuna Sahip?](/knowledge/critical-thinking/)
+  * [Monero Neden En Eleştirel Düşünme Topluluğuna Sahip?](/knowledge/critical-thinking)/
 
-  * [Monero Kullanırken Dikkat Edilmesi Gereken Dolandırıcılıklar](/knowledge/monero-scams/)
+  * [Monero Kullanırken Dikkat Edilmesi Gereken Dolandırıcılıklar](/knowledge/monero-scams)/
 
-  * [Monero'da Atomik Takaslar Nasıl Çalışacak?](/knowledge/monero-atomic-swaps/)
+  * [Monero'da Atomik Takaslar Nasıl Çalışacak?](/knowledge/monero-atomic-swaps)/
 
-  * [Konu Ağ Oluşturmaya Geldiğinde Her Monero Kullanıcısının Bilmesi Gerekenler](/knowledge/monero-networking/)
+  * [Konu Ağ Oluşturmaya Geldiğinde Her Monero Kullanıcısının Bilmesi Gerekenler](/knowledge/monero-networking)/
 
-  * [RingCT Monero İşlem Tutarlarını Nasıl Gizliyor?](/knowledge/monero-ringct/)
+  * [RingCT Monero İşlem Tutarlarını Nasıl Gizliyor?](/knowledge/monero-ringct)/
 
-  * [Monero Gizli Adresleri Kimliğinizi Nasıl Korur?](/knowledge/monero-stealth-addresses/)
+  * [Monero Gizli Adresleri Kimliğinizi Nasıl Korur?](/knowledge/monero-stealth-addresses)/
 
-  * [Monero Alt Adresleri Kimlik Bağlantısını Nasıl Önler?](/knowledge/monero-subaddresses/)
+  * [Monero Alt Adresleri Kimlik Bağlantısını Nasıl Önler?](/knowledge/monero-subaddresses)/
 
-  * [Monero Çıktılarının Açıklaması](/knowledge/monero-outputs/)
+  * [Monero Çıktılarının Açıklaması](/knowledge/monero-outputs)/
 
-  * [Yeni Başlayanlar İçin Monero En İyi Uygulamaları](/knowledge/monero-best-practices/)
+  * [Yeni Başlayanlar İçin Monero En İyi Uygulamaları](/knowledge/monero-best-practices)/
 
-  * [Halka İmzaları Monero'nun Çıktılarını Nasıl Gizliyor?](/knowledge/ring-signatures/)
+  * [Halka İmzaları Monero'nun Çıktılarını Nasıl Gizliyor?](/knowledge/ring-signatures)/
 
-  * [Monero, Bitcoin'i Saldıran Blok Boyutu Sorununu Nasıl Çözdü?](/knowledge/dynamic-block-size/)
+  * [Monero, Bitcoin'i Saldıran Blok Boyutu Sorununu Nasıl Çözdü?](/knowledge/dynamic-block-size)/
 
-  * [CLSAG Monero'nun Verimliliğini Nasıl Artıracak?](/knowledge/what-is-clsag/)
+  * [CLSAG Monero'nun Verimliliğini Nasıl Artıracak?](/knowledge/what-is-clsag)/
 
-  * [Monero'nun Neden Kuyruk Emisyonu Var?](/knowledge/monero-tail-emission/)
+  * [Monero'nun Neden Kuyruk Emisyonu Var?](/knowledge/monero-tail-emission)/
 
-  * [Monero'nun Kısa Tarihi](/knowledge/monero-history/)
+  * [Monero'nun Kısa Tarihi](/knowledge/monero-history)/
 
-  * [Wired Magazine Monero Konusunda Yanılıyor, İşte Nedeni](/knowledge/wired-article-debunked/)
+  * [Wired Magazine Monero Konusunda Yanılıyor, İşte Nedeni](/knowledge/wired-article-debunked)/
 
-  * [En Önemli 15 Monero Efsanesi ve Endişesi Çürütüldü](/knowledge/monero-myths-debunked/)
+  * [En Önemli 15 Monero Efsanesi ve Endişesi Çürütüldü](/knowledge/monero-myths-debunked)/
 
-  * [Dandelion++ Monero'nun İşlem Kaynaklarını Nasıl Gizli Tutuyor?](/knowledge/monero-dandelion/)
+  * [Dandelion++ Monero'nun İşlem Kaynaklarını Nasıl Gizli Tutuyor?](/knowledge/monero-dandelion)/
 
-  * [Monero Neden Açık Kaynaklı ve Merkezi Değildir?](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Monero Neden Açık Kaynaklı ve Merkezi Değildir?](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Madenciliği: RandomX'i Bu Kadar Özel Kılan Nedir?](/knowledge/monero-mining-randomx/)
+  * [Monero Madenciliği: RandomX'i Bu Kadar Özel Kılan Nedir?](/knowledge/monero-mining-randomx)/
 
-  * [Monero Neden Dash, Zcash, Zcoin (Lelantus ile Bile), Grin ve Wasabi Gibi Bitcoin Karıştırıcılarından Daha İyidir (Mayıs 2020'de Güncellendi)](/knowledge/why-monero-is-better/)
+  * [Monero Neden Dash, Zcash, Zcoin (Lelantus ile Bile), Grin ve Wasabi Gibi Bitcoin Karıştırıcılarından Daha İyidir (Mayıs 2020'de Güncellendi)](/knowledge/why-monero-is-better)/
+
+daha fazla okuma

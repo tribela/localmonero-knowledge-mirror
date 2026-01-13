@@ -14,6 +14,8 @@ V tomto krátkém příspěvku se ponoříme do toho, proč byste měli držet s
 
 ## Proč je důležité držet vlastní klíče?
 
+## Proč je důležité držet vlastní klíče?
+
 Jeden z nejčastěji nepochopených aspektů vlastní úschovy u Monera je, že pokud nedržíte své vlastní klíče, získáte jen málo nebo žádné benefity ze soukromí, které Monero nabízí. Jako odesílatel transakce má úplný přehled o skutečné útratě, částce a adrese příjemce, pokud nejste ten, kdo transakci odesílá, a místo toho to necháte na burze nebo správci, mají _plný_ přehled o způsobu, jakým utrácíte své Monero.
 
 Po odeslání prostředků naštěstí začnou fungovat záruky ochrany osobních údajů společnosti Monero, které zajišťují přísné utajení, ale burze nebo správci bude jasné, kam jste prostředky poslali a kolik jste jich původně poslali.
@@ -38,6 +40,8 @@ Toto chování může také vést ke krizím likvidity, kdy uživatelé, kteří
 
 ## Jak mohu držet své vlastní klíče s Monerem?
 
+## Jak mohu držet své vlastní klíče s Monerem?
+
 Když začnete mít v ruce vlastní klíče, nejdůležitější je pamatovat si, že _je třeba uložit a uchovávat svou seed frázi v bezpečí_! Jedná se o sadu 14 nebo 25 náhodných slov, kterou vám při vytvoření peněženky poskytne každá peněženka Monero, a je to vše, co budete potřebovat k získání svých prostředků zpět, pokud ztratíte telefon, stolní počítač, notebook nebo zapomenete heslo.
 
 S touto seed frází zacházejte, jako by měla hodnotu všech peněz Monero ve vaší peněžence, protože každý, kdo ji získá, bude mít úplný přístup k prostředkům ve vaší peněžence. Ideální je uchovávat ji v trezoru nebo na tajném místě, uchovat si více kopií pro případ požáru nebo přírodní katastrofy a nikdy ji nikomu neukázat.
@@ -47,9 +51,11 @@ Další informace o seed frázích naleznete v části [Mnemonic Seed | Monerope
 Pokud jste hlavně uživatelé stolních počítačů a neutrácíte/přijímáte Monero na cestách příliš často, existuje několik solidních možností, jak si držet vlastní klíče, aniž byste se museli spoléhat na třetí strany.
 
   * [Oficiální Monero peněženka](https://getmonero.org/downloads)
-    * Jedná se o oficiální software peněženky Monero, který je neustále vylepšován a doplňován. Obsahuje integrovaného démona Monero (pokud chcete), je uživatelsky velmi přívětivý a brzy bude podporovat [těžbu přes p2pool přímo z vaší peněženky](/knowledge/p2pool-decentralizing-monero-mining/).
+    * Jedná se o oficiální software peněženky Monero, který je neustále vylepšován a doplňován. Obsahuje integrovaného démona Monero (pokud chcete), je uživatelsky velmi přívětivý a brzy bude podporovat [těžbu přes p2pool přímo z vaší peněženky](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
   * [Peněženka Feather](https://featherwallet.org/)
     * Jedná se o vynikající peněženku v duchu [Electrum pro Bitcoin,](https://electrum.org/) a poskytuje jak jednoduchou použitelnost, tak extrémně výkonné funkce v jediné peněžence.
+
+  * Jedná se o oficiální software peněženky Monero, který je neustále vylepšován a doplňován. Obsahuje integrovaného démona Monero (pokud chcete), je uživatelsky velmi přívětivý a brzy bude podporovat [těžbu přes p2pool přímo z vaší peněženky](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
 
   * Jedná se o vynikající peněženku v duchu [Electrum pro Bitcoin,](https://electrum.org/) a poskytuje jak jednoduchou použitelnost, tak extrémně výkonné funkce v jediné peněžence.
 
@@ -66,6 +72,8 @@ Pro ty z nás, kteří chtějí mít možnost používat své Monero na cestách
 
 ## Závěr
 
+## Závěr
+
 Doufáme, že tento příspěvek Vám pomohl upevnit potřebu držení vlastních klíčů a také Vás upozornil na některé z vynikajících peněženek v tomto prostoru.
 
 Čím více vezmete Monero do svých rukou a skutečně jej používáte, tím více výhod, které můžete získat nyní i v budoucnu. Monero není jen tak spekulativní aktivum – je to mocný nástroj svobody a finančního soukromí, který je v dnešním světě a v budoucnosti, která nás čeká, velmi potřebný.
@@ -74,66 +82,68 @@ Nyní vytáhněte tyto mince z burzy a ponořte se do toho, pro co bylo Monero p
 
 Další čtení
 
-  * [Jak Monero jedinečně umožňuje cirkulární ekonomiky](/knowledge/monero-circular-economies/)
+  * [Jak Monero jedinečně umožňuje cirkulární ekonomiky](/knowledge/monero-circular-economies)/
 
-  * [Monerové kruhové podpisy vs CoinJoin jako ve Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monerové kruhové podpisy vs CoinJoin jako ve Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Přispíváme zpět do Monera](/knowledge/contributing-to-monero/)
+  * [Přispíváme zpět do Monera](/knowledge/contributing-to-monero)/
 
-  * [Jak vzdálené uzly ovlivňují soukromí Monero](/knowledge/remote-nodes-privacy/)
+  * [Jak vzdálené uzly ovlivňují soukromí Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Jak Monero používá hard-forky k upgradu sítě](/knowledge/network-upgrades/)
+  * [Jak Monero používá hard-forky k upgradu sítě](/knowledge/network-upgrades)/
 
-  * [Značky zobrazení: Jak jeden bajt zkrátí dobu synchronizace peněženky Monero o více než 40 %](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Značky zobrazení: Jak jeden bajt zkrátí dobu synchronizace peněženky Monero o více než 40 %](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool a jeho role v decentralizaci těžby Monera](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool a jeho role v decentralizaci těžby Monera](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Co to udělá pro Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Co to udělá pro Monero](/knowledge/seraphis-for-monero)/
 
-  * [Je převod bitcoinu na monero stejně soukromý jako přímý nákup monera?](/knowledge/most-private-way-to-buy-monero/)
+  * [Je převod bitcoinu na monero stejně soukromý jako přímý nákup monera?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Proč Monero na rozdíl od Zcash používá bezdůvěryhodné nastavení](/knowledge/monero-trustless-setup/)
+  * [Proč Monero na rozdíl od Zcash používá bezdůvěryhodné nastavení](/knowledge/monero-trustless-setup)/
 
-  * [Proč je Monero lepší uchovatel hodnoty než bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Proč je Monero lepší uchovatel hodnoty než bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Jak může Monero překonat síťové efekty Bitcoinu](/knowledge/network-effect/)
+  * [Jak může Monero překonat síťové efekty Bitcoinu](/knowledge/network-effect)/
 
-  * [Proč má Monero komunitu nejkritičtějšího myšlení](/knowledge/critical-thinking/)
+  * [Proč má Monero komunitu nejkritičtějšího myšlení](/knowledge/critical-thinking)/
 
-  * [Podvody, na které si dát pozor při používání Monero](/knowledge/monero-scams/)
+  * [Podvody, na které si dát pozor při používání Monero](/knowledge/monero-scams)/
 
-  * [Jak budou fungovat atomové swapy na Moneru](/knowledge/monero-atomic-swaps/)
+  * [Jak budou fungovat atomové swapy na Moneru](/knowledge/monero-atomic-swaps)/
 
-  * [Co by měl každý uživatel Monero vědět, pokud jde o vytváření sítí](/knowledge/monero-networking/)
+  * [Co by měl každý uživatel Monero vědět, pokud jde o vytváření sítí](/knowledge/monero-networking)/
 
-  * [Jak RingCT skrývá částky transakcí Monero](/knowledge/monero-ringct/)
+  * [Jak RingCT skrývá částky transakcí Monero](/knowledge/monero-ringct)/
 
-  * [Jak skryté adresy Monero chrání vaši identitu](/knowledge/monero-stealth-addresses/)
+  * [Jak skryté adresy Monero chrání vaši identitu](/knowledge/monero-stealth-addresses)/
 
-  * [Jak subadresy Monero zabraňují propojení identity](/knowledge/monero-subaddresses/)
+  * [Jak subadresy Monero zabraňují propojení identity](/knowledge/monero-subaddresses)/
 
-  * [Vysvětlení výstupů Monero](/knowledge/monero-outputs/)
+  * [Vysvětlení výstupů Monero](/knowledge/monero-outputs)/
 
-  * [Osvědčené postupy pro začátečníky s Monero](/knowledge/monero-best-practices/)
+  * [Osvědčené postupy pro začátečníky s Monero](/knowledge/monero-best-practices)/
 
-  * [Jak kruhové podpisy zakrývají výstupy Monera](/knowledge/ring-signatures/)
+  * [Jak kruhové podpisy zakrývají výstupy Monera](/knowledge/ring-signatures)/
 
-  * [Jak Monero vyřešilo problém velikosti bloku, který sužuje bitcoiny](/knowledge/dynamic-block-size/)
+  * [Jak Monero vyřešilo problém velikosti bloku, který sužuje bitcoiny](/knowledge/dynamic-block-size)/
 
-  * [Jak CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag/)
+  * [Jak CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag)/
 
-  * [Proč má Monero ocasní emise](/knowledge/monero-tail-emission/)
+  * [Proč má Monero ocasní emise](/knowledge/monero-tail-emission)/
 
-  * [Stručná historie Monera](/knowledge/monero-history/)
+  * [Stručná historie Monera](/knowledge/monero-history)/
 
-  * [Wired Magazine se o Moneru mýlí, tady je důvod](/knowledge/wired-article-debunked/)
+  * [Wired Magazine se o Moneru mýlí, tady je důvod](/knowledge/wired-article-debunked)/
 
-  * [15 vyvrácených mýtů a obav o Monero](/knowledge/monero-myths-debunked/)
+  * [15 vyvrácených mýtů a obav o Monero](/knowledge/monero-myths-debunked)/
 
-  * [Jak Dandelion++ uchovává původ transakcí Monero v soukromí](/knowledge/monero-dandelion/)
+  * [Jak Dandelion++ uchovává původ transakcí Monero v soukromí](/knowledge/monero-dandelion)/
 
-  * [Proč je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Proč je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Co dělá RandomX tak výjimečným](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Co dělá RandomX tak výjimečným](/knowledge/monero-mining-randomx)/
 
-  * [Proč je Monero lepší než Dash, Zcash, Zcoin (i s Lelantusem), Grin a bitcoinové mixéry jako Wasabi (aktualizováno květen 2020)](/knowledge/why-monero-is-better/)
+  * [Proč je Monero lepší než Dash, Zcash, Zcoin (i s Lelantusem), Grin a bitcoinové mixéry jako Wasabi (aktualizováno květen 2020)](/knowledge/why-monero-is-better)/
+
+Další čtení

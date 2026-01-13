@@ -10,7 +10,11 @@ image_credit_url: "https://cypherstack.com"
 
 ## Измамата с иммитация
 
+## Измамата с иммитация
+
 Една от най-старите измами в книгата и такава която може да се случи на всяка съществуваща дискусионна платформа. В тази измама измамникът ще се преструва че е доверен човек от общността или високопоставен служител на свързан бизнес. След като бъде спечелено доверието на жертвата чрез тази установена репутация измамникът може да изпрати потребител към злонамерен сайт да го накара да изтегли програма предназначена да открадне средствата му или дори просто да накара потребителя да му изпрати средства директно. Винаги проверявайте три пъти дали човекът с когото говорите наистина е правилният човек. Фирмите ще имат имейли с които да се свържат за да проверят самоличността си (т.е. „Главният изпълнителен директор на вашата компания току-що ли се свърза с мен в Telegram?“), а други лидери на общността обикновено ще могат да се свържат чрез други средства. Проверете преди да предприемете каквото и да е действие. ОСОБЕНО ако те са започнали разговора с вас а не вие с тях.
+
+## Измамата със сходен бизнес
 
 ## Измамата със сходен бизнес
 
@@ -22,7 +26,11 @@ image_credit_url: "https://cypherstack.com"
 
 ## Директната измама
 
+## Директната измама
+
 Понякога измамниците дори не се опитват да бъдат интелегентни. Те правят огромни, грандиозни твърдения и знаят че винаги ще има глупаци които ще им повярват от отчаяние, алчност или невежество. Тези измами приемат много форми, от проекти с монети които обещават абсурдна възвръщаемост на инвестицийте когато първо им дадете пари (като Bitconnect) до специални тайни групи които обещават да ви кажат всички движения на пазара предварително, за да можете да правите пари...срещу такса. Запомнете. Ако нещо звучи твърде хубаво за да е истина вероятно е така. Този съвет е особено верен в пространството на криптовалутите тъй като внедряването на монета или интелигентен договор е тривиално в наши дни а публикуването на вашите сенчести твърдения онлайн е безплатно. Не забравяйте че ако някой наистина е намерил начин да засече пазара или е открил начин да направи тонове безкрайни пари тогава защо ще ви го каже? Те просто биха го използвали сами за да забогатеят. Защо ще го споделят? Бъдете умни. Използвай мозъка си. Не се доверявайте на никого.
+
+## Ролята на вашето Monero Семе в измами
 
 ## Ролята на вашето Monero Семе в измами
 
@@ -34,66 +42,68 @@ image_credit_url: "https://cypherstack.com"
 
 Допълнителна информация
 
-  * [Как Monero уникално позволява кръгови икономики](/knowledge/monero-circular-economies/)
+  * [Как Monero уникално позволява кръгови икономики](/knowledge/monero-circular-economies)/
 
-  * [Пръстеновите подписи на Monero срещу CoinJoin като Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Пръстеновите подписи на Monero срещу CoinJoin като Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Защо (и как!) трябва да държите собствените си ключове](/knowledge/hold-your-keys/)
+  * [Защо (и как!) трябва да държите собствените си ключове](/knowledge/hold-your-keys)/
 
-  * [Принос към Monero](/knowledge/contributing-to-monero/)
+  * [Принос към Monero](/knowledge/contributing-to-monero)/
 
-  * [Как отдалечените възли влият върху поверителността на Monero](/knowledge/remote-nodes-privacy/)
+  * [Как отдалечените възли влият върху поверителността на Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Как Monero използва хард-форкове за надграждане на мрежата](/knowledge/network-upgrades/)
+  * [Как Monero използва хард-форкове за надграждане на мрежата](/knowledge/network-upgrades)/
 
-  * [Преглед на тагове: Как един байт ще намали времето за синхронизиране на портфейла на Monero с 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Преглед на тагове: Как един байт ще намали времето за синхронизиране на портфейла на Monero с 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool и неговата роля в децентрализацията на Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool и неговата роля в децентрализацията на Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Какво ще направи за Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Какво ще направи за Monero](/knowledge/seraphis-for-monero)/
 
-  * [Конвертирането на биткойни в Monero също толкова лично ли е колкото и директното закупуване на Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Конвертирането на биткойни в Monero също толкова лично ли е колкото и директното закупуване на Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Защо Monero използва безнадеждна настройка за разлика от Zcash](/knowledge/monero-trustless-setup/)
+  * [Защо Monero използва безнадеждна настройка за разлика от Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Защо Monero е по-добро хранилище на стойност от биткойн](/knowledge/monero-better-store-of-value/)
+  * [Защо Monero е по-добро хранилище на стойност от биткойн](/knowledge/monero-better-store-of-value)/
 
-  * [Как Monero може да преодолее мрежовите ефекти на Биткойн](/knowledge/network-effect/)
+  * [Как Monero може да преодолее мрежовите ефекти на Биткойн](/knowledge/network-effect)/
 
-  * [Защо Monero има най-критично мислещата общност](/knowledge/critical-thinking/)
+  * [Защо Monero има най-критично мислещата общност](/knowledge/critical-thinking)/
 
-  * [Как ще работят атомните размяни в Monero](/knowledge/monero-atomic-swaps/)
+  * [Как ще работят атомните размяни в Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Какво всеки потребител на Monero трябва да знае когато става въпрос за работа в мрежа](/knowledge/monero-networking/)
+  * [Какво всеки потребител на Monero трябва да знае когато става въпрос за работа в мрежа](/knowledge/monero-networking)/
 
-  * [Как RingCT скрива сумите на транзакциите на Monero](/knowledge/monero-ringct/)
+  * [Как RingCT скрива сумите на транзакциите на Monero](/knowledge/monero-ringct)/
 
-  * [Как Monero Stealth адресите защитават вашата самоличност](/knowledge/monero-stealth-addresses/)
+  * [Как Monero Stealth адресите защитават вашата самоличност](/knowledge/monero-stealth-addresses)/
 
-  * [Как подадресите на Monero предотвратяват свързването на самоличност](/knowledge/monero-subaddresses/)
+  * [Как подадресите на Monero предотвратяват свързването на самоличност](/knowledge/monero-subaddresses)/
 
-  * [Обяснени изходи на Monero](/knowledge/monero-outputs/)
+  * [Обяснени изходи на Monero](/knowledge/monero-outputs)/
 
-  * [Най-добри практики на Monero за начинаещи](/knowledge/monero-best-practices/)
+  * [Най-добри практики на Monero за начинаещи](/knowledge/monero-best-practices)/
 
-  * [Как Ring подписите прикриват резултатите на Monero](/knowledge/ring-signatures/)
+  * [Как Ring подписите прикриват резултатите на Monero](/knowledge/ring-signatures)/
 
-  * [Как Monero реши проблема с размера на блока който тормози биткойн](/knowledge/dynamic-block-size/)
+  * [Как Monero реши проблема с размера на блока който тормози биткойн](/knowledge/dynamic-block-size)/
 
-  * [Как CLSAG ще подобри ефективността на Monero](/knowledge/what-is-clsag/)
+  * [Как CLSAG ще подобри ефективността на Monero](/knowledge/what-is-clsag)/
 
-  * [Защо Monero има опашкова емисия](/knowledge/monero-tail-emission/)
+  * [Защо Monero има опашкова емисия](/knowledge/monero-tail-emission)/
 
-  * [Кратка история на Monero](/knowledge/monero-history/)
+  * [Кратка история на Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine греши за Monero, ето защо](/knowledge/wired-article-debunked/)
+  * [Wired Magazine греши за Monero, ето защо](/knowledge/wired-article-debunked)/
 
-  * [Топ 15 развенчани мита и притеснения за Monero](/knowledge/monero-myths-debunked/)
+  * [Топ 15 развенчани мита и притеснения за Monero](/knowledge/monero-myths-debunked)/
 
-  * [Как Dandelion++ пази в тайна произхода на транзакциите на Monero](/knowledge/monero-dandelion/)
+  * [Как Dandelion++ пази в тайна произхода на транзакциите на Monero](/knowledge/monero-dandelion)/
 
-  * [Защо Monero е с отворен код и е децентрализиран](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Защо Monero е с отворен код и е децентрализиран](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Какво прави RandomX толкова специален](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Какво прави RandomX толкова специален](/knowledge/monero-mining-randomx)/
 
-  * [Защо Monero е по-добър от Dash, Zcash, Zcoin (дори с Lelantus), Grin и Bitcoin Mixers като Wasabi (Актуализиран през май 2020 г.)](/knowledge/why-monero-is-better/)
+  * [Защо Monero е по-добър от Dash, Zcash, Zcoin (дори с Lelantus), Grin и Bitcoin Mixers като Wasabi (Актуализиран през май 2020 г.)](/knowledge/why-monero-is-better)/
+
+Допълнителна информация

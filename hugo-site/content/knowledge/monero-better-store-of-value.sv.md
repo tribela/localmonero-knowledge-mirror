@@ -1,101 +1,103 @@
 ---
-title: "Varför Monero är en bättre värdebevarare än Bitcoin"
+title: "Waa maxay sababta Monero uu uga qiimo badan yahay Bitcoin"
 slug: "monero-better-store-of-value"
 date: "2021-02-03"
 image: "/images/sov.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Det är en vanlig synpunkt (och en vi tror fullt ut på) att Monero är ett bättre bytesmedel än transparensmynt, inklusive Bitcoin. Detta beror på att Moneros inneboende integritet gör det omöjligt att spåra, vilket undviker många faror som uppstår när ditt pengaflöde är tillgängligt för alla intresserade parter. Dessutom låser integriteten upp fungibilitet, så att användare kan känna sig trygga med att varje Monero som byts mot en vara eller tjänst är likvärdig med alla andra eftersom det inte finns något associerat förflutet.
+Waa goob hadal caadi ah (oo aan si buuxda u aaminsanahay) in Monero uu sameeyo dhexdhexaad ka wanaagsan beddelka qadaadiicda daahfurnaanta, oo ay ku jirto Bitcoin. Tani waa sababta oo ah sirta dhabta ah ee Monero ayaa ka dhigaysa mid aan suurtagal ahayn in la raad raaco, iyada oo dhinac laga saarayo khataro badan oo ka dhasha in lacagtaada ay u socoto dhammaan dhinacyada danaynaya. Sidoo kale, sirnimadu waxay daaha ka qaadaysaa fungility, markaa isticmaalayaashu waxay dareemi karaan kalsooni in Monero kasta oo lagu beddesho wax wanaagsan ama adeeg u dhigma mid kasta oo kale maadaama aysan jirin wax la soo dhaafay.
 
-Så vanligt som denna diskussionspunkt är finns det dock en annan som vanligtvis dyker upp tillsammans med den; att medan Monero kan vara det bättre utbytesmedlet, är Bitcoin den bättre värdeförvaringen. Det är inte ovanligt att höra detta, även inom Monero-communityn. Använd Monero som ett utgiftskonto och använd Bitcoin som ett sparkonto. När de pressas på resonemang tror dessa användare inte ens att det nödvändigtvis beror på att Bitcoins pris stiger i högre takt än Moneros, utan för att Bitcoin har "egenskaper" som gör det till digitalt guld.
+Sida caadiga ah sida bartan hadalku u yahay, si kastaba ha ahaatee, waxaa jira mid kale oo inta badan ka soo baxa; in halka Monero laga yaabo inay noqoto dhexdhexaadka ugu wanaagsan ee sarrifka, Bitcoin waa kaydka ugu fiican ee qiimaha. Maaha wax aan caadi ahayn in tan la maqlo, xitaa gudaha beesha Monero. Isticmaal Monero sida koontada kharash gareynta, oo u isticmaal Bitcoin sida koontada kaydka ah. Marka la cadaadiyo sababta, isticmaaleyaashani xitaa uma malaynayaan inay daruuri tahay sababtoo ah qiimaha Bitcoin ayaa kor u kacaya heer ka sarreeya kan Monero, laakiin sababtoo ah Bitcoin waxay leedahay 'hanti' taas oo ka dhigaysa sida dahab dijital ah.
 
-Vi håller inte alls med om denna idé och skulle vilja utveckla varför i den här artikeln. Bitcoins radikala transparens gör mer för att förringa dess egenskaper som en värdebevarare än vad folk inser. Det första och mest uppenbara exemplet på detta är att föreställa sig en annan allmänt accepterad värdebevarare, guld, med den transparens som Bitcoin har.
+Si niyad ah ayaan u diidanahay fikradan waxaanan jeclaan lahayn in aan ku balaadhino sababta maqaalkan. Daah-furnaanta xagjirka ah ee Bitcoin ayaa wax badan ka qabata si ay u baabi'iso hantideeda sida kaydka qiimaha marka loo eego dadka. Tusaalaha ugu horreeya, uguna cad ee tani waa qiyaasida bakhaar kale oo la aqbali karo oo qiimo leh, dahab, oo leh daah-furnaanta ay Bitcoin leedahay.
 
-Vad skulle hända med förtroendet för guld om det var möjligt (trivialt många gånger) att koppla en mängd guld till en individ eller grupp? Skulle det fortfarande användas som det är om varje gång guld överförs är det känt att en överföring har skett, vem avsändaren och mottagaren var och vilken mängd guld som överfördes? Det tror vi inte.
+Maxaa ku dhici doona aaminaadda dahabka haddii ay suurtogal tahay (wax yar marar badan) in lagu xidho qaddar dahab ah shakhsi ama koox? Weli ma loo isticmaali lahaa sidii ay ahayd haddii mar kasta oo dahab la wareejinayo la ogaado in wareejintu dhacday, cidda soo dirtay iyo soo-qaaduhu yaa ahaayeen, iyo xadiga dahabka ah ee la wareejiyey? Waxaan u malaynayn.
 
-En av guldets egenskaper, som är inneboende för att det är ett verkligt objekt, är att det är naturligt privat. Man kan på konstgjord väg ge det en historia genom att brännmärka tidigare ägare till en guldtacka, men dessa kan enkelt tas bort genom att smälta ner stången och göra om den, ett alternativ som inte finns i Bitcoin.
+Mid ka mid ah hantida dahabka, taas oo ka dhalanaysa inay tahay shay adduunka dhabta ah, waa inuu yahay mid sir ah. Mid ayaa si macmal ah u siin kara taariikh isagoo ku calaamadeynaya milkiilayaasha hore ee dahabka ah, laakiin kuwan si fudud ayaa looga saari karaa iyada oo la dhalaalinayo bararka oo dib loo sameeyo, oo ah ikhtiyaar aan ku jirin Bitcoin.
 
-Denna transparens i rörelse, även om den är tillräckligt destruktiv i sig, är inte den enda bristen som guld skulle ha om all information om dess rörelse var tillgänglig för alla. Genom att känna till flödet av guld kunde vi identifiera vilka verkliga enheter som har stora lager av det. Vissa av dessa kanske inte är institutioner, utan individer utan storskaliga säkerhetsinrättningar. Det är inte ovanligt för en vanlig person att köpa guld som en skydd mot katastrof, och vi vet nu att Joe Schmoe längre ner på gatan har 10 000 dollar värda att sitta någonstans i sitt hus. Inte information som Joe förmodligen vill att världen ska veta.
+Daah-furnaantan dhaqdhaqaaqa, in kasta oo ay iskeed u burburinayso, ma aha cilladda kaliya ee dahabku leeyahay haddii dhammaan macluumaadka ku saabsan dhaqdhaqaaqiisa uu heli karo qof kasta. Dabeecadda ogaanshaha qulqulka dahabka, waxaan aqoonsan karnaa kuwa adduunka dhabta ah ee leh bakhaarro waaweyn. Qaar ka mid ah kuwan waxaa laga yaabaa inaysan ahayn hay'ado, laakiin shakhsiyaad aan lahayn dhismayaal ammaan oo ballaaran. Ma ahan wax aan la maqlin in qofka caadiga ah uu u iibsado dahab si uu uga hortago musiibada, waxaana hadda ognahay in Joe Schmoe oo ku yaala wadada uu haysto 10k dollars qiimihiisu inuu fadhiisto meel gurigiisa ka mid ah. Ma aha macluumaad laga yaabo in Joe uu rabo in dunidu ogaato.
 
-En bra butik med värde betyder inte bara att priset är stabilt eller eventuellt kommer att gå upp, det betyder att innehavaren känner sig bekväm och säker på säkerheten där de har valt att lägga sina pengar. Så, med radikal transparens, blir guld obekvämt i rörelse och potentiellt farligt i vila. Då är det bra att veta att detta bara var ett tankeexperiment och att guld inte har dessa egenskaper. Guldinvesterare kan andas ut.
+Dukaanka wanaagsan ee qiimaha macnihiisu maaha oo kaliya in qiimuhu degan yahay ama ay suurtogal tahay inuu kor u kaco, waxay la macno tahay in qofka haystaa uu dareemayo raaxo iyo kalsooni uu ku qabo amniga meesha ay doorteen inay lacagtooda dhigaan. Sidaa darteed, iyada oo daahfurnaanta xagjirka ah, dahabku wuxuu noqdaa mid aan raaxo lahayn dhaqdhaqaaqa, iyo khatarta nasashada. Way fiicantahay in la ogaado in tani ay ahayd tijaabo feker oo kaliya dahabkuna ma laha guryahan. Maalgeliyayaasha dahabka ah waxay neefsan karaan neefta nasinta.
 
-Men detsamma kan inte sägas om Bitcoin.
+Laakiin isku mid lama dhihi karo Bitcoin.
 
-Moneros integritet ger verkligen mycket bättre säkerhet både i rörelse och vila för alla som vill använda det som antingen ett checkkonto eller ett sparkonto.
+Sirnimada Monero runtii waxay bixisaa badbaado aad uga wanaagsan dhaqdhaqaaqa iyo inta nasashadaba qof kasta oo raba inuu u isticmaalo koontada hubinta ama koontada kaydka ah.
 
-Förespråkare av Bitcoin kommer dock att hävda att Bitcoin är säkrare som värdeförråd eftersom det har ett större hashrate bakom sig, så det är mycket mindre sannolikt att kedjan kommer att skrivas om (dvs. dina mynt i lager kan tas) , och även om detta för närvarande är sant, är det ett socialt problem som kan förändras med tiden snarare än ett grundläggande tekniskt problem som sannolikt inte kommer att åtgärdas.
+Taageerayaasha Bitcoin ayaa ku doodi doona, si kastaba ha ahaatee, in Seeraar aad u ammaan badan tahay kayd ahaan qiimaha sababtoo ah waxay leedahay xashiish weyn oo ka dambeeya, markaa silsiladda aad ayay u yar tahay in dib loo qoro (ie qadaadiicdaada kaydinta waa la qaadan karaa) , iyadoo ay tani run tahay hadda, haddana waa dhibaato bulsho oo la beddeli karo waqti ka dib halkii laga beddeli lahaa tignoolajiyada aasaasiga ah oo aan loo badnayn in weligeed la saxo.
 
-Ett andra argument för Bitcoin är att det har ett fast utbud, medan Monero har en svansutsläpp. Detta extrapoleras till att betyda att Monero har ett oändligt utbud, så det är lika olämpligt att vara ett värdelager som fiat. På ytan är detta definitivt det mer övertygande argumentet av de två, så vi skulle vilja ta upp det här i detalj.
+Doodda labaad ee Bitcoin waa inay leedahay sahay go'an, halka Monero ay leedahay dabada sii daynta. Tan waxaa laga soo saaray si loola jeedo Monero waxay leedahay sahay aan dhammaad lahayn, sidaa darteed uma habboona inay noqoto kayd qiimo leh sida fiat. Dusha sare, tani waa hubaal doodda lagu qanci karo ee labada, marka waxaan jeclaan lahayn inaan middan si faahfaahsan uga hadalno.
 
-Även om Monero har en svansemission, är detta för att säkerställa Moneros långsiktiga säkerhet. När den sista Bitcoin har präglats kommer det inte att finnas fler blockbelöningar, vilket lämnar avgiftsmarknaden ensam för att uppmuntra gruvarbetare att säkra kedjan. Det finns redan preliminär forskning som tyder på att detta inte kommer att räcka, och kedjans säkerhet kommer att minska dramatiskt, vilket gör kedjan sårbar för 51 % attacker.
+In kasta oo Monero ay leedahay qiiqa dabada, tani waa si loo xaqiijiyo amniga mustaqbalka fog ee Monero. Marka Seeraarkii ugu dambeeyay la soo saaro, ma jiri doonto abaal-marin dheeraad ah, oo ka tagaysa suuqa khidmadda oo keliya si loogu dhiirrigeliyo macdanta si ay u sugaan silsiladda. Waxaa horey u jiray cilmi-baaris horudhac ah oo soo jeedinaysa in tani aysan ku filnaan doonin, iyo amniga silsiladda ayaa si weyn hoos ugu dhici doona, taasoo ka dhigeysa silsiladda mid u nugul 51% weerar.
 
-I slutändan betyder det att du har samlat på dig ett värdelager som du aldrig kan flytta av rädsla för en attack. Om man går tillbaka till guld, skulle guld överhuvudtaget vara användbart som värdeförråd om det var omöjligt eller oöverkomligt farligt att flytta runt, sälja eller byta? Vilken nytta är otillgängligt värde? Vad hjälper ett ackumulerat lagervärde av miljontals dollar om det bara någonsin kan sitta i vad som lika gärna kan vara en bottenlös avgrund för alltid?
+Ugu dambeyntii, tani waxay ka dhigan tahay inaad urursatay bakhaar qiimo leh oo aadan weligaa dhaqaaqi karin cabsida weerar. Dib ugu noqoshada dahabka, dahabku ma noqon lahaa mid faa'iido u leh bakhaar qiimihiisu yahay haddi aanay suurtogal ahayn ama ay mamnuuc tahay in la wareego, la iibiyo, ama la beddelo? Waa maxay faa'iidada aan la heli karin? Maxay faa'iido u leedahay malaayiinta doollar ee la ururiyay ee qiimaha kaydsan haddii ay waligeed ku fadhiisan karto waxa laga yaabo inay sidoo kale noqon karto god aan gun lahayn weligiis?
 
-Låt oss ta upp den andra delen av denna kritik snarare än att för hand vifta bort Monero-delen av problemet. Svansemissionen. Även om det är sant att det har ett syfte, kanske vissa ser blotta existensen av svansemissionen som ett bevis på att Monero inte kan vara ont om och fungerar precis som fiat. Detta är inte heller sant. Fiat har en procentuell inflationsmodell, och även denna är inte huggen i sten, utan snarare föremål för en ogenomskinlig kropp av fördärvliga människor. Detta står i kontrast till Monero, som blåser upp linjärt, vilket innebär att inflationen trender mot noll över tiden. Det betyder också att inflationen, till skillnad från fiat, enkelt kan beräknas och planeras för med säkerhet.
+Aynu wax ka qabanno qaybta kale ee dhaleecayntan intii aan gacanta ka wareejin lahayn qaybta Monero ee dhibaatada. Sii daynta dabada. Inkasta oo ay run tahay in ay leedahay ujeedo, qaar ayaa laga yaabaa inay u arkaan jiritaanka kaliya ee dabada sii daaya caddaynta in Monero aanu noqon karin mid aad u yar oo u shaqeeya sida fiat. Tani sidoo kale run maaha. Fiat waxay leedahay qaab boqolkiiba boqol ku salaysan oo sicir barar ah, xitaa tan laguma dhejin dhagax, laakiin waxay ku xiran tahay jirka mugdiga ah ee bini'aadamka qudhunka ah. Tani waxay ka soo horjeedaa Monero, taas oo si toos ah u kordheysa, taasoo la micno ah in waqti ka dib isbeddellada sicir-bararka ee eber. Sidoo kale waxay ka dhigan tahay, si ka duwan fiat, sicir-bararka si fudud ayaa loo xisaabin karaa oo loo qorsheyn karaa si hubaal ah.
 
-Vidare läsning
+Akhris dheeraad ah
 
-  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies/)
+  * [Sida Monero si gaar ah u awoodo dhaqaalaha wareegtada ah](/knowledge/monero-circular-economies)/
 
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Saxeexa giraanta Monero vs CoinJoin sida Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Varför (och hur!) du ska hålla i dina egna nycklar](/knowledge/hold-your-keys/)
+  * [Waa maxay sababta (iyo sidee!) Waa inaad haysataa furayaashaada](/knowledge/hold-your-keys)/
 
-  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero/)
+  * [Wax ku biirinta dib ugu noqoshada Monero](/knowledge/contributing-to-monero)/
 
-  * [Hur fjärrnoder påverkar Moneros integritet](/knowledge/remote-nodes-privacy/)
+  * [Sidee noodhka fog u saameeyaan gaarka ah ee Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Hur Monero använder hard-forks för att uppgradera nätverket](/knowledge/network-upgrades/)
+  * [Sida Monero u isticmaasho fargeeto adag si ay u cusboonaysiiso shabakada](/knowledge/network-upgrades)/
 
-  * [Visa taggar: Hur en byte kommer att minska Monero plånbokssynkroniseringstider med 40% +](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Arag tags: Sida hal byte u dhimi doono wakhtiga isku xidhka jeebka Monero 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool iyo Doorka ay ku leedahay Daadejinta Macdanta Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Vad det kommer att göra för Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Waxa ay u qaban doonto Monero](/knowledge/seraphis-for-monero)/
 
-  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero/)
+  * [U beddelashada Bitcoin ee Monero ma tahay mid gaar loo leeyahay sida tooska ah ee Monero u iibsanayso?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup/)
+  * [Waa maxay sababta Monero u isticmaasho habayn aan la aamini karin oo ka duwan Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect/)
+  * [Sidee Monero uga gudbi kartaa Saamaynta Shabakadda Bitcoin](/knowledge/network-effect)/
 
-  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking/)
+  * [Waa maxay sababta Monero u leedahay bulshada ugu fikirka badan](/knowledge/critical-thinking)/
 
-  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams/)
+  * [Khiyaamooyinka la Fikiro Marka la Isticmaalayo Monero](/knowledge/monero-scams)/
 
-  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps/)
+  * [Sida Isku-beddelka Atoomikada uu uga Shaqeeyo Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking/)
+  * [Waxa uu Isticmaale kasta oo Monero u baahan yahay inuu ogaado marka ay timaaddo isku xidhka](/knowledge/monero-networking)/
 
-  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct/)
+  * [Sida RingCT u qariso xadiga wax kala iibsiga Monero](/knowledge/monero-ringct)/
 
-  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses/)
+  * [Sidee Ciwaanada Monero Stealth ay u ilaaliyaan aqoonsigaaga](/knowledge/monero-stealth-addresses)/
 
-  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses/)
+  * [Sidee Monero Dharka-hoosaadka uga hortagaan isku xidhka aqoonsiga](/knowledge/monero-subaddresses)/
 
-  * [Monero Utgångar Förklaras](/knowledge/monero-outputs/)
+  * [Waxsoosaarka Monero waa la sharaxay](/knowledge/monero-outputs)/
 
-  * [Monero bästa praxis för nybörjare](/knowledge/monero-best-practices/)
+  * [Dhaqamada ugu Fiican ee Monero ee Bilowga](/knowledge/monero-best-practices)/
 
-  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures/)
+  * [Sidee Saxiixa Garaacuhu u qariyaan wax soo saarka Monero](/knowledge/ring-signatures)/
 
-  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size/)
+  * [Sidee Monero u xallisay Dhibaatada Cabbirka Block ee aafaysay Seeraar](/knowledge/dynamic-block-size)/
 
-  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag/)
+  * [Sidee CLSAG u hagaajin doontaa waxtarka Monero](/knowledge/what-is-clsag)/
 
-  * [Varför Monero har en svans emission](/knowledge/monero-tail-emission/)
+  * [Waa maxay sababta Monero ay leedahay Dabada sii daayo](/knowledge/monero-tail-emission)/
 
-  * [En kort historia om Monero](/knowledge/monero-history/)
+  * [Taariikhda Monero oo Kooban](/knowledge/monero-history)/
 
-  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked/)
+  * [Majaladda Wired ayaa ku qaldan Monero, waa kan sababta](/knowledge/wired-article-debunked)/
 
-  * [Topp 15 Monero myter och bekymmer debunked](/knowledge/monero-myths-debunked/)
+  * [15ka khuraafaad ee Monero iyo walaaca waa la beeniyey](/knowledge/monero-myths-debunked)/
 
-  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion/)
+  * [Sida Dandelion++ uga dhigayo Monero ganacsigiisa mid gaar ah](/knowledge/monero-dandelion)/
 
-  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Waa maxay sababta Monero Isha Furan tahay oo loo baahiyey](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Maxaa RandomX ka dhigaya mid gaar ah](/knowledge/monero-mining-randomx)/
 
-  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better/)
+  * [Waa maxay sababta Monero uga fiican tahay Dash, Zcash, Zcoin (Xitaa Lelantus), Grin iyo Bitcoin Mixers sida Wasabi (La cusbooneysiiyay May 2020)](/knowledge/why-monero-is-better)/
+
+Akhris dheeraad ah

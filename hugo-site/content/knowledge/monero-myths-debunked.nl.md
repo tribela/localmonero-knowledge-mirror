@@ -10,21 +10,39 @@ Geen enkele cryptocurrency is zonder zijn tekortkomingen, en Monero is daarop ge
 
 Dat gezegd hebbende, zijn er enkele algemene kritieken op Monero die achterhaald of onjuist zijn, terwijl andere een zeer beperkt beeld geven van het probleem in kwestie. In dit artikel hopen we deze kritiek recht te zetten. 
 
-  1. [Monero zal veel meer regulerend toezicht krijgen in vergelijking met andere cryptocurrencies vanwege zijn toewijding aan privacy en anonimiteit in zijn transacties.](/knowledge/monero-myths-debunked#1/)
-  2. [Monero heeft minder portefeuille opties.](/knowledge/monero-myths-debunked#2/)
-  3. [Monero heeft een slechte gebruikerservaring.](/knowledge/monero-myths-debunked#3/)
-  4. [Monero zal achterhaald raken als een meer populaire blockchain krachtige privacytechnologie toepast.](/knowledge/monero-myths-debunked#4/)
-  5. [Heeft Monero niet erg hoge transactiekosten?](/knowledge/monero-myths-debunked#5/)
-  6. [Een Monero transactie is vele malen groter dan een Bitcoin transactie.](/knowledge/monero-myths-debunked#6/)
-  7. [Monero heeft vrij vaak hard forks. Betekent dit niet dat het gecentraliseerd is?](/knowledge/monero-myths-debunked#7/)
-  8. [Dit is de persoonlijke munt van fluffypony!](/knowledge/monero-myths-debunked#8/)
-  9. [De meeste commits sinds 2017 zijn afkomstig van een persoon die bekend staat als moneromooo-monero](/knowledge/monero-myths-debunked#9/)
-  10. [Wordt Monero niet gemakkelijk 51% aangevallen?](/knowledge/monero-myths-debunked#10/)
-  11. [CPU-vriendelijk algoritme? Wordt Monero mining niet zomaar overgenomen door botnets?](/knowledge/monero-myths-debunked#11/)
-  12. [Monero-vorken schaden niet alleen de economische levensvatbaarheid van Monero aan, maar ook de privacy!](/knowledge/monero-myths-debunked#12/)
-  13. [Had Monero in het begin geen verminkte miner die werd gebruikt om de oprichters te verrijken?](/knowledge/monero-myths-debunked#13/)
-  14. [Als Monero zo privé is, hoe kunnen we dan het aanbod controleren om er zeker van te zijn dat niemand gratis Monero onder onze neus drukt?](/knowledge/monero-myths-debunked#14/)
-  15. [Het grootste deel van de huidige hashrate van Monero is afkomstig van slechts twee pools.](/knowledge/monero-myths-debunked#15/)
+  1. [Monero zal veel meer regulerend toezicht krijgen in vergelijking met andere cryptocurrencies vanwege zijn toewijding aan privacy en anonimiteit in zijn transacties.](/knowledge/monero-myths-debunked#1)/
+  2. [Monero heeft minder portefeuille opties.](/knowledge/monero-myths-debunked#2)/
+  3. [Monero heeft een slechte gebruikerservaring.](/knowledge/monero-myths-debunked#3)/
+  4. [Monero zal achterhaald raken als een meer populaire blockchain krachtige privacytechnologie toepast.](/knowledge/monero-myths-debunked#4)/
+  5. [Heeft Monero niet erg hoge transactiekosten?](/knowledge/monero-myths-debunked#5)/
+  6. [Een Monero transactie is vele malen groter dan een Bitcoin transactie.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero heeft vrij vaak hard forks. Betekent dit niet dat het gecentraliseerd is?](/knowledge/monero-myths-debunked#7)/
+  8. [Dit is de persoonlijke munt van fluffypony!](/knowledge/monero-myths-debunked#8)/
+  9. [De meeste commits sinds 2017 zijn afkomstig van een persoon die bekend staat als moneromooo-monero](/knowledge/monero-myths-debunked#9)/
+  10. [Wordt Monero niet gemakkelijk 51% aangevallen?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU-vriendelijk algoritme? Wordt Monero mining niet zomaar overgenomen door botnets?](/knowledge/monero-myths-debunked#11)/
+  12. [Monero-vorken schaden niet alleen de economische levensvatbaarheid van Monero aan, maar ook de privacy!](/knowledge/monero-myths-debunked#12)/
+  13. [Had Monero in het begin geen verminkte miner die werd gebruikt om de oprichters te verrijken?](/knowledge/monero-myths-debunked#13)/
+  14. [Als Monero zo privé is, hoe kunnen we dan het aanbod controleren om er zeker van te zijn dat niemand gratis Monero onder onze neus drukt?](/knowledge/monero-myths-debunked#14)/
+  15. [Het grootste deel van de huidige hashrate van Monero is afkomstig van slechts twee pools.](/knowledge/monero-myths-debunked#15)/
+
+  1. [Monero zal veel meer regulerend toezicht krijgen in vergelijking met andere cryptocurrencies vanwege zijn toewijding aan privacy en anonimiteit in zijn transacties.](/knowledge/monero-myths-debunked#1)/
+  2. [Monero heeft minder portefeuille opties.](/knowledge/monero-myths-debunked#2)/
+  3. [Monero heeft een slechte gebruikerservaring.](/knowledge/monero-myths-debunked#3)/
+  4. [Monero zal achterhaald raken als een meer populaire blockchain krachtige privacytechnologie toepast.](/knowledge/monero-myths-debunked#4)/
+  5. [Heeft Monero niet erg hoge transactiekosten?](/knowledge/monero-myths-debunked#5)/
+  6. [Een Monero transactie is vele malen groter dan een Bitcoin transactie.](/knowledge/monero-myths-debunked#6)/
+  7. [Monero heeft vrij vaak hard forks. Betekent dit niet dat het gecentraliseerd is?](/knowledge/monero-myths-debunked#7)/
+  8. [Dit is de persoonlijke munt van fluffypony!](/knowledge/monero-myths-debunked#8)/
+  9. [De meeste commits sinds 2017 zijn afkomstig van een persoon die bekend staat als moneromooo-monero](/knowledge/monero-myths-debunked#9)/
+  10. [Wordt Monero niet gemakkelijk 51% aangevallen?](/knowledge/monero-myths-debunked#10)/
+  11. [CPU-vriendelijk algoritme? Wordt Monero mining niet zomaar overgenomen door botnets?](/knowledge/monero-myths-debunked#11)/
+  12. [Monero-vorken schaden niet alleen de economische levensvatbaarheid van Monero aan, maar ook de privacy!](/knowledge/monero-myths-debunked#12)/
+  13. [Had Monero in het begin geen verminkte miner die werd gebruikt om de oprichters te verrijken?](/knowledge/monero-myths-debunked#13)/
+  14. [Als Monero zo privé is, hoe kunnen we dan het aanbod controleren om er zeker van te zijn dat niemand gratis Monero onder onze neus drukt?](/knowledge/monero-myths-debunked#14)/
+  15. [Het grootste deel van de huidige hashrate van Monero is afkomstig van slechts twee pools.](/knowledge/monero-myths-debunked#15)/
+
+## 1\. Monero zal veel meer regulerend toezicht krijgen in vergelijking met andere cryptocurrencies vanwege zijn toewijding aan privacy en anonimiteit in zijn transacties.
 
 ## 1\. Monero zal veel meer regulerend toezicht krijgen in vergelijking met andere cryptocurrencies vanwege zijn toewijding aan privacy en anonimiteit in zijn transacties.
 
@@ -40,9 +58,13 @@ Nu zou u kunnen beweren dat de reputatie van Bitcoin veranderde toen mensen zich
 
 ## 2\. Monero heeft minder portefeuille opties.
 
+## 2\. Monero heeft minder portefeuille opties.
+
 Monero heeft inderdaad minder portefeuille-opties dan veel bestaande munten. Dit komt omdat Monero vanaf de grond af is ontwikkeld. Het is op een heel andere codebase dan Bitcoin. Dit betekent dat Monero niet zomaar de Bitcoin-core-portefeuille kan forken, of andere portefeuilles die voor Bitcoin bestaan forken, zoals de meeste munten doen, en profiteren van de bestaande infrastructuur. Het betekent ook dat Monero niet zo gemakkelijk kan worden toegevoegd aan externe portefeuilles, zoals Exodus.
 
 En toch beginnen langzaam maar zeker allerlei soorten portefeuilles voor Monero te verschijnen. Het was jarenlang een meme dat Monero geen GUI had en ook geen ondersteuning voor mobiele portefeuilles, maar nu is niets minder waar. Er zijn portefeuilles die specifiek op Monero zijn gericht, zoals Monerujo voor Android en Cake Wallet voor zowel iOS als Android, evenals nieuwe zoals Wookey, Exa Wallet en meer. Bovendien beginnen externe portefeuilles Monero toe te voegen, zij het in een langzamer tempo, waaronder Exodus en Guarda, en we verwachten dat deze trend zich alleen maar zal voortzetten naarmate de tijd verstrijkt en de codebase van Monero volwassen wordt. 
+
+## 3\. Monero heeft een slechte gebruikerservaring.
 
 ## 3\. Monero heeft een slechte gebruikerservaring.
 
@@ -55,6 +77,8 @@ We nodigen de lezer uit om artikelen te lezen over de stappen die Bitcoiners aan
 Met Monero is deze waslijst aan details zo goed als verdwenen. Elke Monero-transactie behoudt elke keer een hoog niveau van privacy, zonder dat de gebruiker iets hoeft te doen of externe software hoeft te gebruiken. Terwijl Bitcoin het moeilijk maakt om privacy goed te krijgen voor iedereen behalve de meest ervaren gebruiker, maakt Monero het moeilijk om het altijd fout te doen, voor iedereen. Wat de afwegingen betreft, denken we dat de langere adressen en synchronisatietijd het meer dan waard zijn.
 
 En zelfs nadat we alles hierboven hebben besproken, blijft het een feit dat de gebruikerservaring in de loop van de tijd vaak beter wordt, en Monero is daarop geen uitzondering. De UX van een munt kan na een paar jaar drastisch worden verbeterd, maar de basis ervan is veel moeilijker te veranderen.
+
+## 4\. Monero zal achterhaald raken als een meer populaire blockchain krachtige privacytechnologie toepast.
 
 ## 4\. Monero zal achterhaald raken als een meer populaire blockchain krachtige privacytechnologie toepast.
 
@@ -78,6 +102,8 @@ Nog één keer schakelen voor deze vraag, dit argument is minder vaak van toepas
 
 ## 5\. Heeft Monero niet erg hoge transactiekosten?
 
+## 5\. Heeft Monero niet erg hoge transactiekosten?
+
 Niet meer! Dankzij de wonderbaarlijke technologie van bulletproofs, toegevoegd in Oktober 2018, worden de transactieomvang drastisch verminderd (met meer dan 80%), wat leidt tot een vergelijkbare daling van de transactiekosten. Op het moment dat dit geschreven is, is Monero zelfs goedkoper per byte dan Bitcoin, en verdere optimalisaties van de technologie brengen deze zelfs nog lager.
 
 Deze optimalisaties zijn gevarieerd en komen vaak voor. Een voorbeeld zijn slimme optimalisaties in de bulletproofs zelf, waardoor de wiskunde die nodig is voor zowel berekening als verificatie soms met wel 25% wordt verkleind.
@@ -85,6 +111,10 @@ Deze optimalisaties zijn gevarieerd en komen vaak voor. Een voorbeeld zijn slimm
 Bovendien zijn er nieuwe, opwindende ringsignatuurschema's in de maak, zoals CLSAG, dat het huidige MLSAG-schema zal vervangen en de omvang van de gehele transactie verder zal verkleinen met 25-35%. Daarnaast zijn er nog nieuwere, geavanceerdere technologieën met totaal verschillende testsystemen die het potentieel hebben om de huidige transactiegroottes te behouden, maar ringgroottes hebben van meer dan honderd, zoals Triptych, Arcturus en Lelantus, die allemaal kleiner en efficiënter zijn dan de huidige schema's. 
 
 ## 6\. Een Monero transactie is vele malen groter dan een Bitcoin transactie.
+
+## 6\. Een Monero transactie is vele malen groter dan een Bitcoin transactie.
+
+## 7\. Monero heeft vrij vaak hard forks. Betekent dit niet dat het gecentraliseerd is?
 
 ## 7\. Monero heeft vrij vaak hard forks. Betekent dit niet dat het gecentraliseerd is?
 
@@ -98,9 +128,13 @@ Dit alles om te zeggen dat het gedecentraliseerde ontwikkelingsteam het te moeil
 
 ## 8\. Dit is de persoonlijke munt van fluffypony!
 
+## 8\. Dit is de persoonlijke munt van fluffypony!
+
 Dit is niet, en was nooit, de munt van Riccardo 'fluffypony' Spagni. Hij heeft het niet eens gehaald. Het is gestart door een pseudoniem persoon die bekend staat als thankful_for_today, en daar is een heel interessant verhaal wat we achterlaten voor een andere keer. Fluffypony verwierf bekendheid als zowel een kernteamlid/hoofdbeheerder, omdat hij veel tijd en middelen gaf om de munt te laten groeien, als door zijn reizen en door te spreken op conferenties. Met deze twee dingen gecombineerd, werd hij een soort onofficieel gezicht voor Monero en was hij meestal de toegangspoort waardoor mensen ons vonden. Vanwege de vreselijke CEO-cultuur die alomtegenwoordig was in de cryptocurrency-scene, gingen ze ervan uit dat hij de oprichter en leider van Monero was, wat beide niet waar is. 
 
 Tegenwoordig maakt fluffypony nog steeds deel uit van het kernteam, maar is hij niet langer de hoofdbeheerder van de codebase, en is hij terug getreden om aan zijn eigen persoonlijke projecten te werken. Monero gaat prima verder.
+
+## 9\. De meeste commits sinds 2017 zijn afkomstig van een persoon die bekend staat als moneromooo-monero
 
 ## 9\. De meeste commits sinds 2017 zijn afkomstig van een persoon die bekend staat als moneromooo-monero
 
@@ -109,6 +143,8 @@ Dit is een onbetwistbaar feit en er valt niet over te argumenteren. moneromooo i
 Zoals u u kunt voorstellen, zal fulltime werken aan Monero, in plaats van op vrijwillige basis, resulteren in grote hoeveelheden geaccumuleerd werk. Aangezien Monero geen premine of ICO had en geen oprichtersbeloning in ontvangst nam, hebben we verder geen fulltime ingenieurs die aan het project werken, en mensen dragen bij wat ze kunnen, wanneer ze kunnen, en het is simpelweg niet haalbaar om te verwachten dat deze bijdragen zwaarder wegen dan een fulltime werknemer.
 
 Dat gezegd hebbende, er wordt nog steeds veel moeite gedaan om controles and balansen te hebben. Een lid van het kernteam voegt de code nog steeds samen na beoordeling, dus het is niet zo dat een individu zowel de code maakt als integreert, waardoor het toezicht wordt omzeild dat nodig is om een flagrante fout of kwaadwillende bedoeling op te sporen.
+
+## 10\. Wordt Monero niet gemakkelijk 51% aangevallen?
 
 ## 10\. Wordt Monero niet gemakkelijk 51% aangevallen?
 
@@ -122,6 +158,8 @@ De exacte kosten van hardware om het Monero-netwerk 51% aan te vallen, zijn niet
 
 ## 11\. CPU-vriendelijk algoritme? Wordt Monero mining niet zomaar overgenomen door botnets?
 
+## 11\. CPU-vriendelijk algoritme? Wordt Monero mining niet zomaar overgenomen door botnets?
+
 De twee boemannen van het mining-gebied zijn ASIC's en botnets, en weggaan van de ene betekent noodzakelijkerwijs dichter bij de andere komen. Als iemand een CPU nodig heeft om Monero te minen, dan kunnen hackers in theorie de controle over vele honderden, zo niet duizenden kwetsbare computers overnemen en ze dwingen om namens hen Monero te minen, wat hen niets kost en degenen met slechts een paar computers in hun huishouden te slim af is .
 
 De eerste weerlegging van dit argument gaat over de eigenaren van botnets zelf. Hoewel we het hacken van andermans computers niet goedkeuren, is de toetredingsdrempel voor het bezitten en exploiteren van een botnet veel lager dan die voor het bezitten van ASIC's. De ene heeft software nodig - vaak vrij beschikbaar en open source - en de tijd en het inzicht om kwetsbare computers op te sporen. De andere vereist ongelooflijke hoeveelheden kapitaal en toegang tot productie. De ene kan worden gedaan door een kind, en de andere alleen door de extreem rijken. Dit brengt ons tot de conclusie dat, als de ergste angsten van miners zouden uitkomen, de botnets zelf meer gedecentraliseerd zouden zijn dan ASIC's. 
@@ -129,6 +167,8 @@ De eerste weerlegging van dit argument gaat over de eigenaren van botnets zelf. 
 Dat gezegd hebbende, is de Monero-gemeenschap ervan overtuigd dat dit probleem overdreven is. De ingenieurs van RandomX hebben het protocol opzettelijk zo ontworpen dat 2 GB RAM-geheugen nodig is om te werken. Met andere woorden, veel kleine, kwetsbare virtual private servers (VPS) zullen eenvoudigweg niet over de capaciteit beschikken, en als ze dat wel zouden doen, zou de toename in gebruikte bronnen zeer merkbaar zijn voor een systeembeheerder, wat zou leiden tot een onmiddellijk onderzoek. Met andere woorden, het kan niet geruisloos op de achtergrond draaien, zoals gecompromitteerde computers die deelnemen aan een DDOS-aanval, of geruisloos wachtwoorden opsnuiven. Als de miner aan staat, weet iedereen het.
 
 Dit vermindert het aantal computers dat een botnet met succes zou kunnen compromitteren tot degene die technologisch gezien zeer incapabel zijn, of degenen die nooit worden gecontroleerd, in plaats van de overvloed aan kwetsbare computers waarvan de voorstanders van dit argument aannemen dat ze gevaar lopen .
+
+## 12\. Monero-vorken schaden niet alleen de economische levensvatbaarheid van Monero aan, maar ook de privacy!
 
 ## 12\. Monero-vorken schaden niet alleen de economische levensvatbaarheid van Monero aan, maar ook de privacy!
 
@@ -146,6 +186,8 @@ Dat gezegd hebbende, vinden we het naïef om te denken dat er nooit een aanval o
 
 ## 13\. Had Monero in het begin geen verminkte miner die werd gebruikt om de oprichters te verrijken?
 
+## 13\. Had Monero in het begin geen verminkte miner die werd gebruikt om de oprichters te verrijken?
+
 De geschiedenis van Monero is zeer interessant en het zal velen misschien verbazen te horen dat het inderdaad begon als oplichterij. De maker, thankful_for_today, werkte waarschijnlijk samen met een cryptocurrency-groep die het CryptoNote-protocol maakte, maar had slinkse bedoelingen om mensen hun geld afhandig te maken door het te gebruiken.
 
 Hun aanvankelijke muntpogingen mislukten, dus creëerden ze Monero als een manier om het opnieuw te proberen. Dit mislukte opnieuw omdat de gemeenschap snel besefte dat er iets niet klopte en de munt in eigen handen nam. Toch hadden de sluwe makers nog een laatste truc in petto. Ze gaven een opzettelijk gedeoptimaliseerde mining-software vrij aan het publiek, waarbij ze de geoptimaliseerde versie voor zichzelf hielden om anderen te overtreffen en veel daarbij geld te verdienen met de blokbeloningen.
@@ -158,11 +200,15 @@ Achteraf gezien kunnen sommigen kritiek hebben op de beslissing om de munt niet 
 
 ## 14\. Als Monero zo privé is, hoe kunnen we dan het aanbod controleren om er zeker van te zijn dat niemand gratis Monero onder onze neus drukt?
 
+## 14\. Als Monero zo privé is, hoe kunnen we dan het aanbod controleren om er zeker van te zijn dat niemand gratis Monero onder onze neus drukt?
+
 Dit is een moeilijke vraag om te beantwoorden. Een vaak gegeven antwoord is dat we de coinbase-transacties kunnen optellen (wanneer nieuwe Monero wordt beloond aan een miner voor het oplossen van een blok). Deze transacties zijn transparant en als we ze optellen, zouden we het totale aantal Monero in omloop moeten krijgen.
 
 Het is echter belangrijk op te merken dat als er streken zouden worden uitgehaald die de hoeveelheid Monero verhogen boven wat we verwachten van de coinbase-transacties, dit niet zou gebeuren op de coinbase-transacties zelf, maar in een normale transactie tussen portefeuilles. Dit kan alleen op drie manieren gebeuren.
 
 Ten eerste, als de cryptografie die bewijst dat er geen Monero is gemaakt of vernietigd in een transactie, fundamenteel gebrekkig is. Ten tweede, als de implementatie (code) van de solide cryptografie gebrekkig is. Tot slot, als geen van beide gebrekkig is, maar computers krachtig genoeg worden om onze huidige cryptografische schema's door te breken en valse bewijzen te creëren. 
+
+## 15\. Het grootste deel van de huidige hashrate van Monero is afkomstig van slechts twee pools.
 
 ## 15\. Het grootste deel van de huidige hashrate van Monero is afkomstig van slechts twee pools.
 
@@ -210,66 +256,68 @@ Dus het feit dat het grootste deel van de hashrate van Monero geconcentreerd is 
 
 Verder lezen
 
-  * [Hoe Monero op unieke wijze circulaire economieën mogelijk maakt](/knowledge/monero-circular-economies/)
+  * [Hoe Monero op unieke wijze circulaire economieën mogelijk maakt](/knowledge/monero-circular-economies)/
 
-  * [Monero's ringhandtekeningen versus CoinJoin zoals in Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero's ringhandtekeningen versus CoinJoin zoals in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Waarom (en hoe!) u uw eigen sleutels moet bezitten](/knowledge/hold-your-keys/)
+  * [Waarom (en hoe!) u uw eigen sleutels moet bezitten](/knowledge/hold-your-keys)/
 
-  * [Bijdragen aan Monero](/knowledge/contributing-to-monero/)
+  * [Bijdragen aan Monero](/knowledge/contributing-to-monero)/
 
-  * [Hoe externe knooppunten de privacy van Monero beïnvloeden](/knowledge/remote-nodes-privacy/)
+  * [Hoe externe knooppunten de privacy van Monero beïnvloeden](/knowledge/remote-nodes-privacy)/
 
-  * [Hoe Monero hard forks gebruikt om het netwerk te upgraden](/knowledge/network-upgrades/)
+  * [Hoe Monero hard forks gebruikt om het netwerk te upgraden](/knowledge/network-upgrades)/
 
-  * [Weergave tags: Hoe één byte de synchronisatietijden van de Monero portefeuille met meer dan 40% vermindert](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Weergave tags: Hoe één byte de synchronisatietijden van de Monero portefeuille met meer dan 40% vermindert](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool en Zijn Rol bij het Decentraliseren van Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool en Zijn Rol bij het Decentraliseren van Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Wat Het Zal Doen voor Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Wat Het Zal Doen voor Monero](/knowledge/seraphis-for-monero)/
 
-  * [Is het Omzetten van Bitcoin naar Monero Net Zo Privé als het Rechtstreeks Kopen van Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Is het Omzetten van Bitcoin naar Monero Net Zo Privé als het Rechtstreeks Kopen van Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Waarom Monero een Trustless Setup Gebruikt in Tegenstelling tot Zcash](/knowledge/monero-trustless-setup/)
+  * [Waarom Monero een Trustless Setup Gebruikt in Tegenstelling tot Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Waarom Monero een Betere Waardeopslag Is Dan Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Waarom Monero een Betere Waardeopslag Is Dan Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Hoe Monero de Netwerkeffecten van Bitcoin Kan Overwinnen](/knowledge/network-effect/)
+  * [Hoe Monero de Netwerkeffecten van Bitcoin Kan Overwinnen](/knowledge/network-effect)/
 
-  * [Waarom Monero de Meest Kritische Denkgemeenschap Heeft](/knowledge/critical-thinking/)
+  * [Waarom Monero de Meest Kritische Denkgemeenschap Heeft](/knowledge/critical-thinking)/
 
-  * [Oplichtingen Om Voor Uit Te Kijken Bij Gebruik van Monero](/knowledge/monero-scams/)
+  * [Oplichtingen Om Voor Uit Te Kijken Bij Gebruik van Monero](/knowledge/monero-scams)/
 
-  * [Hoe Atomic Swaps Zullen Werken in Monero](/knowledge/monero-atomic-swaps/)
+  * [Hoe Atomic Swaps Zullen Werken in Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Wat Elke Monero Gebruiker Moet Weten Als het om Netwerken Gaat](/knowledge/monero-networking/)
+  * [Wat Elke Monero Gebruiker Moet Weten Als het om Netwerken Gaat](/knowledge/monero-networking)/
 
-  * [Hoe RingCT Monero's Transactiebedragen verbergt](/knowledge/monero-ringct/)
+  * [Hoe RingCT Monero's Transactiebedragen verbergt](/knowledge/monero-ringct)/
 
-  * [Hoe Monero Stealth Adressen Uw Identiteit Beschermen](/knowledge/monero-stealth-addresses/)
+  * [Hoe Monero Stealth Adressen Uw Identiteit Beschermen](/knowledge/monero-stealth-addresses)/
 
-  * [Hoe Monero's Subadressen Identiteitskoppeling Voorkomen](/knowledge/monero-subaddresses/)
+  * [Hoe Monero's Subadressen Identiteitskoppeling Voorkomen](/knowledge/monero-subaddresses)/
 
-  * [Monero-Outputs uitgelegd](/knowledge/monero-outputs/)
+  * [Monero-Outputs uitgelegd](/knowledge/monero-outputs)/
 
-  * [Praktische Tips van Monero voor Beginners](/knowledge/monero-best-practices/)
+  * [Praktische Tips van Monero voor Beginners](/knowledge/monero-best-practices)/
 
-  * [Hoe Ring-handtekeningen de Resultaten van Monero Verdoezelen](/knowledge/ring-signatures/)
+  * [Hoe Ring-handtekeningen de Resultaten van Monero Verdoezelen](/knowledge/ring-signatures)/
 
-  * [Hoe Monero het Probleem met de Blokgrootte Dat Bitcoin Plaagt Heeft Opgelost](/knowledge/dynamic-block-size/)
+  * [Hoe Monero het Probleem met de Blokgrootte Dat Bitcoin Plaagt Heeft Opgelost](/knowledge/dynamic-block-size)/
 
-  * [Hoe CLSAG de Efficiëntie van Monero Zal Verbeteren](/knowledge/what-is-clsag/)
+  * [Hoe CLSAG de Efficiëntie van Monero Zal Verbeteren](/knowledge/what-is-clsag)/
 
-  * [Waarom Monero een Staartemissie Heeft](/knowledge/monero-tail-emission/)
+  * [Waarom Monero een Staartemissie Heeft](/knowledge/monero-tail-emission)/
 
-  * [Een Korte Geschiedenis van Monero](/knowledge/monero-history/)
+  * [Een Korte Geschiedenis van Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine heeft Ongelijk over Monero, Dit is Waarom](/knowledge/wired-article-debunked/)
+  * [Wired Magazine heeft Ongelijk over Monero, Dit is Waarom](/knowledge/wired-article-debunked)/
 
-  * [Hoe Dandelion++ de Oorsprong van de Transacties van Monero Privé Houdt](/knowledge/monero-dandelion/)
+  * [Hoe Dandelion++ de Oorsprong van de Transacties van Monero Privé Houdt](/knowledge/monero-dandelion)/
 
-  * [Waarom Monero Open Source en Dedecentraliseerd Is](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Waarom Monero Open Source en Dedecentraliseerd Is](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero-Mining: Wat RandomX zo Speciaal Maakt](/knowledge/monero-mining-randomx/)
+  * [Monero-Mining: Wat RandomX zo Speciaal Maakt](/knowledge/monero-mining-randomx)/
 
-  * [Waarom Monero beter is dan Dash, Zcash, Zcoin (zelfs met Lelantus), Grin en Bitcoin Mixers zoals Wasabi (bijgewerkt mei 2020)](/knowledge/why-monero-is-better/)
+  * [Waarom Monero beter is dan Dash, Zcash, Zcoin (zelfs met Lelantus), Grin en Bitcoin Mixers zoals Wasabi (bijgewerkt mei 2020)](/knowledge/why-monero-is-better)/
+
+Verder lezen

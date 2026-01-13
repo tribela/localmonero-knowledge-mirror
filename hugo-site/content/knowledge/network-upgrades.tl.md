@@ -12,6 +12,8 @@ Sa post na ito, tatalakayin natin kung ano ang mga hard-fork, kung bakit mahalag
 
 ## Bakit kailangang patuloy na i-upgrade ni Monero ang network?
 
+## Bakit kailangang patuloy na i-upgrade ni Monero ang network?
+
 Nangako ang komunidad ng Monero sa pag-ulit at pagpapabuti ng proyekto sa paglipas ng panahon, at tila ang pangako ay nauuwi sa dalawang pangunahing aspeto ng etos ng komunidad:
 
   1. Ang proyekto ng Monero ay sa wakas ay software – code – na isinulat ng mga tao. Maaari itong humantong sa pangangailangang ayusin ang mga bug, magdagdag ng mga pagpapahusay na natuklasan o naimbento sa paglipas ng panahon, magpatupad ng mga modernisasyon sa protocol, o mapanatili lamang ang proyekto. Ito ay katulad sa maraming paraan sa iba pang piraso ng software na ginagamit mo (tulad ng browser kung saan mo ito binabasa!), na kailangang patuloy na mag-update upang magdagdag ng mga bagong feature at ayusin ang mga bug.
@@ -24,6 +26,8 @@ Ang proyekto ng Monero ay isang tool sa privacy, at ang privacy ay isang patuloy
 
 ## Ano ang hard-fork?
 
+## Ano ang hard-fork?
+
 Ang pagiging kumplikado ng pag-upgrade ng Monero ay magkakabisa kapag naunawaan mo kung gaano kaiba ang pag-upgrade ng cryptocurrency kumpara sa simpleng pag-update ng software sa isang bagay tulad ng isang browser.
 
 Sa mga cryptocurrencies, ang mga panuntunan ng network (mga bagay tulad ng hitsura ng mga transaksyon, kung paano gumagana ang pagmimina, at kung paano i-verify ang bawat bloke) ay dapat na napagkasunduan ng network, isang bagay na tinatawag na "consensus". Kapag ang alinman sa mga panuntunang ito ay kailangang baguhin o i-upgrade, ang network ay kailangang sumang-ayon sa mga bagong panuntunan, na nagiging sanhi ng isang "hard-fork" - isang sitwasyon kung saan ang network ay aktwal na nahati sa dalawang chain ng mga bloke - isa sa mga lumang panuntunan, at isa sa mga bagong panuntunan.
@@ -31,6 +35,8 @@ Sa mga cryptocurrencies, ang mga panuntunan ng network (mga bagay tulad ng hitsu
 Kapag sumang-ayon ang lahat sa komunidad sa pagbabago ng panuntunan, ito ay tinatawag na "non-contentious hard-fork", at ang chain na mayroon pa ring mga lumang panuntunan ay mawawala at hindi na mina pagkatapos ng hard-fork. Ito ang nangyari sa halos lahat ng Monero hard-fork, at ang tanging pagpapatuloy ng mga lumang panuntunan ay sa pamamagitan ng mga proyektong sumusubok na kumita mula sa hard-fork.
 
 Bagama't ang mga non-contentious hard-fork ay ang tanging paraan upang maayos na i-upgrade ang mahahalagang aspeto ng Monero network, mayroon din silang nakakadismaya na side-effect – lumang software, na inilabas bago ang hard-fork ay binalak, hindi maintindihan ang bago mga panuntunan ng network at sa gayon ay hindi gumagana pagkatapos ng hard-fork! Maaari itong humantong sa pag-iisip ng mga user na nawawala ang mga pondo, iniisip na huminto ang Monero blockchain, at hindi makapaglipat ng mga pondo hanggang sa i-upgrade nila ang kanilang wallet.
+
+## Sino ang magpapasya kung kailan mag-upgrade ang Monero network at ano ang kasama?
 
 ## Sino ang magpapasya kung kailan mag-upgrade ang Monero network at ano ang kasama?
 
@@ -50,6 +56,8 @@ Kung mayroon kang mahalagang ideya para sa isang pag-upgrade sa network, hindi g
 
 ## Paano ako makakatulong sa mga pag-upgrade ng network?
 
+## Paano ako makakatulong sa mga pag-upgrade ng network?
+
 Dahil ang mga pag-upgrade sa Monero network ay nangangailangan ng koordinasyon at pag-apruba ng komunidad kasama ng mga update sa software, napakahalaga na ang pinakamaraming tao hangga't maaari ay makibahagi sa pagpaplano, pagsubok, at proseso ng komunikasyon ng mga upgrade sa network.
 
 Narito ang ilang madaling paraan na makakatulong ka sa pag-aayos ng mga bagay tungkol sa pag-upgrade ng network:
@@ -61,14 +69,18 @@ Narito ang ilang madaling paraan na makakatulong ka sa pag-aayos ng mga bagay tu
 
 ## Ano ang maaari kong asahan sa susunod na pag-upgrade ng network ng Monero?
 
+## Ano ang maaari kong asahan sa susunod na pag-upgrade ng network ng Monero?
+
 Bagama't wala pang itinakdang petsa, magkakaroon ng network upgrade sa lalong madaling panahon upang ipatupad ang ilang pangunahing pag-upgrade at feature sa Monero:
 
   1. Isang pagtaas ng laki ng singsing mula 11 hanggang 16, na nagdaragdag sa hanay ng batayang anonymity (basahin ang: posibleng pagkakatanggi, o batayang privacy) ng bawat transaksyon sa network
-  2. [Tingnan ang mga tag, isang napakahusay na paraan upang bawasan ang mga oras ng pag-sync ng wallet nang 30-40%](/knowledge/view-tags-reduce-monero-sync-time/)
+  2. [Tingnan ang mga tag, isang napakahusay na paraan upang bawasan ang mga oras ng pag-sync ng wallet nang 30-40%](https://localmonero.co/knowledge/view-tags-reduce-monero-sync-time)
   3. Mga pagbabago sa bayad, pagpapahusay sa seguridad at katatagan ng network sa mabilis na pagbabago sa market ng bayad o mga pag-atake ng mga malisyosong entity
   4. [Bulletproofs+, isang karagdagang pagpapabuti sa kahusayan ng mga transaksyon sa Monero](https://www.getmonero.org/2020/12/24/Bulletproofs+-in-Monero.html)
 
-Malaki ang maitutulong ng mga pagbabagong ito sa pagpapataas ng privacy, kahusayan, at seguridad ng network, habang binibigyang daan ang [Seraphis](/knowledge/seraphis-for-monero/), ang susunod na henerasyong protocol ng transaksyon para sa Monero.
+Malaki ang maitutulong ng mga pagbabagong ito sa pagpapataas ng privacy, kahusayan, at seguridad ng network, habang binibigyang daan ang [Seraphis](https://localmonero.co/knowledge/seraphis-for-monero), ang susunod na henerasyong protocol ng transaksyon para sa Monero.
+
+## Paano ako matututo ng higit pa?
 
 ## Paano ako matututo ng higit pa?
 
@@ -80,66 +92,68 @@ Ang paksa ng mga hard-forks at pag-upgrade ng network ay napakalawak at may maha
 
 Karagdagang pagbabasa
 
-  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies/)
+  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies)/
 
-  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys/)
+  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys)/
 
-  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero/)
+  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero)/
 
-  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy/)
+  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero)/
 
-  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup/)
+  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect/)
+  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect)/
 
-  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking/)
+  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking)/
 
-  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams/)
+  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams)/
 
-  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps/)
+  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking/)
+  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking)/
 
-  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct/)
+  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct)/
 
-  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses/)
+  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses)/
 
-  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses/)
+  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses)/
 
-  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs/)
+  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs)/
 
-  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices/)
+  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices)/
 
-  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures/)
+  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures)/
 
-  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size/)
+  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag/)
+  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag)/
 
-  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission/)
+  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission)/
 
-  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history/)
+  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history)/
 
-  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked/)
+  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked)/
 
-  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
 
-  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion/)
+  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion)/
 
-  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx)/
 
-  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better/)
+  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better)/
+
+Karagdagang pagbabasa

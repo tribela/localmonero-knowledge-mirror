@@ -1,124 +1,132 @@
 ---
-title: "Arag tags: Sida hal byte u dhimi doono wakhtiga isku xidhka jeebka Monero 40%+"
+title: "Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+"
 slug: "view-tags-reduce-monero-sync-time"
 date: "2022-02-03"
 image: "/images/viewTags.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-Mid ka mid ah cabashooyinka ugu badan ee ku saabsan isticmaalka maalin-ka-maalin Monero waa wakhtiga ay ku qaadan karto in la isku xidho jeebka ka hor inta aanad awoodin in ay soo diraan Monero. Mahadsanid, horumarinta iyo cilmi-baarayaasha bulshada Monero waxay heleen hab qurux badan oo lagu dhimo wakhtiga ay kugu qaadanayso inaad ku dhejiso boorsadaada 40%+ iyada oo aan lagu darin blockchain bloat, khidmadaha, iwm.
+Ena najpogostejših pritožb pri vsakodnevni uporabi Monera je čas, ki ga lahko traja, da sinhronizirate denarnico, preden lahko pošljete Monero. K sreči so razvijalci in raziskovalci v skupnosti Monero našli sijajen način za zmanjšanje časa, ki ga potrebujete za sinhronizacijo denarnice, za 40 %+ brez dodatnih stroškov verige blokov, provizij itd. 
 
-Geli "view tags", hal-byte ah oo lagu daro xogta macaamil kasta - u imanaya Monero ee cusboonaysiinta shabakada xigta!
+Vnesite "ogled oznak", enobajtni dodatek k podatkom vsake transakcije – prihaja v Monero pri naslednji nadgradnji omrežja!
 
-## Waa maxay sababta jeebka Monero uu u siman yahay ka Bitcoin?
+## Zakaj je sinhronizacija Monero denarnice počasnejša od sinhronizacije denarnice Bitcoin?
 
-Mid ka mid ah su'aalaha ugu horreeya ee ay tahay inaan ka jawaabno si aan si wanaagsan u fahamno baahida xalka sida tags-ka aragtida ayaa ah sababta Monero's boorsada jeebka uu ka gaabiyaa lacagaha loo yaqaan 'cryptocurrencies sida Bitcoin.
+## Zakaj je sinhronizacija Monero denarnice počasnejša od sinhronizacije denarnice Bitcoin?
 
-Bitcoin dhexdeeda, maadaama dhammaan wax kala iibsiga aysan ahayn kuwo gaar ah oo ay muujinayaan qadaadiicda la isticmaalay, caddadka, iyo ciwaannada ku lugta leh silsiladda, boorsooyinka Bitcoin waxay si fudud u raadin karaan wax soo saar ganacsi oo aan la isticmaalin (UTXOs) ama cinwaannada loo isticmaalo boorsada jeebka ah. , si dhakhso leh u baadh blockchain kaliya UTXO-yada ay leeyihiin ciwaannadaas si aad u ogaatid qadaadiicda ku jirta boorsadaada oo la isticmaali karo.
+Eno od prvih vprašanj na katero moramo odgovoriti, da bi bolje razumeli potrebo po rešitvi, kot so oznake za ogled, je, zakaj je sinhronizacija denarnice Monero počasnejša od kriptovalut, kot je Bitcoin.
 
-Monero, si kastaba ha ahaatee, dhammaan wax kala iibsiga ayaa ilaaliya sirta isticmaalaha iyaga oo qarinaya soo diraha, qaataha, iyo cadadka ku lug leh wax kala iibsi kasta. Qarsoonaantan, iyadoo muhiim u ah ilaalinta isticmaalayaasha shabakadda, waxay sidoo kale soo bandhigaysaa wada shaqaynta jeebka oo gaabis ah. Monero, boorsadaadu waa inay is barbar dhigto wax kasta oo wax kala iibsiga ah (TXO) ee ka jira shabakada furayaashaada boorsadaada.
+Ker v Bitcoinu vse transakcije niso zasebne in razkrivajo porabljene kovance, zneske in vključene naslove v verigi, lahko denarnice Bitcoin preprosto poiščejo morebitne neporabljene izhode transakcij (UTXO) ali uporabljene naslove za dano denarnico. , hitro skeniranje verige blokov samo za UTXO, ki so v lasti teh naslovov, da ugotovi, kateri kovanci pripadajo vaši denarnici in jih je mogoče porabiti.
 
-Isbarbardhiggan waxaa ku jira xisaabo badan oo adag iyo cryptography si loo xaqiijiyo in wax soo saarku runtii adigaa iska leeyahay, maadaama dhammaan xadiga, ciwaanada, iyo wax soo saarka la yaqaan ee la isticmaalay (ama qadaadiicda) ay ku qarsoon yihiin silsilada Monero.
+V Monero pa vse transakcije ohranjajo zasebnost uporabnika tako, da skrijejo pošiljatelja, prejemnika in zneske, vključene v posamezno transakcijo. Ta zasebnost, ki je ključna za zaščito uporabnikov omrežja, uvaja tudi počasnejšo sinhronizacijo denarnice. V Monero mora vaša denarnica primerjati vsak izhod transakcije (TXO), ki obstaja v omrežju, z zasebnimi ključi vaše denarnice.
 
-## Waa maxay muuqaalada tags?
+Ta primerjava vključuje veliko zapletene matematike in kriptografije za potrditev, da je rezultat resnično vaš, saj so vsi zneski, naslovi in znano porabljeni rezultati (ali kovanci) skriti v verigi v Monero.
 
-Si aad u caawiso yaraynta wakhtiga wada shaqaynta ee jeebka Monero, [ cilmi-baare lagu magacaabo UkoeHB ayaa la yimid hab cusub](https://github.com/monero-project/research-lab/issues/73) \- ku dar 1-byte "tag" ganacsi kasta adoo isticmaalaya sir la wadaago oo la yaqaan oo kaliya u diraya iyo qaataha wax kala iibsigaas.
+## Kaj so oznake pogleda?
 
-Sirtan la wadaago waxa soo diray soo dirayaha isaga oo isticmaalaya ciwaanka uu siiyay qaataha, uma baahna wax wada shaqayn firfircoon oo soo dirayaha iyo qaataha. Baytka ugu horreeya (ama dabeecadda) ee sirtan la wadaago ayaa markaa lagu daraa xogta macaamilka marka loo daabacayo shabakadda Monero.
+## Kaj so oznake pogleda?
 
-Marka mid ka mid ah ka-qaybgalayaasha wax kala beddelashadaas ay rabaan inay jeebkooda ku dhejiyaan Monero blockchain ka dib, halkii ay uga baahnaan lahaayeen inay sameeyaan dhammaan xisaabta adag iyo cryptography mid kasta iyo TXO kasta oo shabakadda ah, boorsada hadda waxay hubin kartaa oo keliya in goobta 1-byte ee wax kala iibsi kasta oo kaliya ka dibna ay fuliso xaqiijinta wakhtiga qaadashada ee macaamilada leh summadaas - 1/256 TXOs ee shabakada, si sax ah!
+Da bi zmanjšal čas sinhronizacije za Monero denarnice, [je raziskovalec UkoeHB iznašel nov pristop](https://github.com/monero-project/research-lab/issues/73) – dodajte 1-bajtno "oznako" vsaki transakciji z uporabo skupne skrivnosti, ki je znana samo pošiljatelju in prejemniku te transakcije.
 
-Summadani ma daaha ka qaadayso wax macluumaad ah oo ku saabsan wax kala iibsiga daawadayaasha dibadda, kaliya waxay ku daraa 1-byte (lacag aad u dayacan) cabbirrada wax kala iibsiga, oo haddana waxay noo ogolaataa inaan hoos u dhigno waqtiyada isku xidhka 40%+ annaga oo jarayna xaqiijinta kakan lagama maarmaan!
+To skupno skrivnost ustvari pošiljatelj z uporabo naslova, ki mu ga je posredoval prejemnik, in ne zahteva nobenega aktivnega sodelovanja pošiljatelja in prejemnika. Prvi bajt (ali znak) te skupne skrivnosti se nato doda k podatkom transakcije, ko jo objavite v omrežju Monero.
 
-## View tags: tusaale la fududeeyay
+Ko želi eden od udeležencev te transakcije pozneje sinhronizirati svojo denarnico z Monero blockchainom, namesto da bi moral izvesti vso zapleteno matematiko in kriptografijo za vsak TXO v omrežju, lahko denarnica zdaj samo preveri, ali to 1-bajtno polje v vsaki transakciji in šele nato opravite zamudno preverjanje transakcij, ki imajo to oznako – 1/256 TXO v omrežju, če smo natančni! 
 
-Bal qiyaas inaad qol ku haysato 4,096 sanduuq, kuwaas oo 5 sanduuq oo keliya ay adiga leedahay. Sanduuqyadu gabi ahaantood dibadda lagama sooci karo, sida kaliya ee lagu ogaan karo haddii sanduuqa adiga lagugu leeyahay waa inaad furto oo aad xalliso mushkilad xisaabeed oo wakhti lumis ah oo gudaha laguugu qoray si loo hubiyo inay taada tahay.
+Ta oznaka ne razkrije nobenih informacij o transakciji zunanjim gledalcem, doda le 1 bajt (zanemarljivo količino) velikosti transakcije, vendar nam omogoča, da skrajšamo čase sinhronizacije za 40 %+ z zmanjšanjem zapletenih preverjanj potrebno!
 
-Hadda, ka fikir inaad go'aansatid in qofka kuu soo diraya 5ta sanduuq uu soo saaro kood gaar ah isagoo isticmaalaya ciwaankaaga, ka dibna ku dheji kaliya xarafka ugu horreeya ee koodkaas bannaanka sanduuq kasta oo laguu soo diro. Qof kasta oo kale wuxuu sameeyaa wax la mid ah sanduuqyada (si loo hubiyo in dhammaan sanduuqyada aan weli la kala saari karin), laakiin hadda waxaad si fudud u eegi kartaa hal lambar oo ku yaal bannaanka sanduuqa, oo kaliya fur sanduuqyadaas oo leh dabeecaddaas. X753X] 
+## Ogled oznak: poenostavljen primer
 
-Iyadoo sanduuqyada kale ay ku habboon yihiin koodkaaga, xitaa qaar aanad adigu lahayn, tirada sanduuqyada aad u baahan tahay inaad furto oo aad ku xalliso dhibaatada xisaabta hadda waa 16 oo keliya (1/256 sanduuq!) halkii aad ka ahaan lahayd 4,096. 
+## Ogled oznak: poenostavljen primer
 
-Hadda waxaad furtaa 16-kaas sanduuq, xalliso mashaakilaadka xisaabta, oo waxaad haysataa 5 sanduuq oo run ahaantii adiga iska leh kooxdaas!
+Predstavljajte si, da imate v sobi 4096 škatel, od katerih vam pripada samo 5 škatel. Vse škatle so od zunaj popolnoma nerazločljive in edini način, da ugotovite, ali je škatla za vas, je, da jo odprete in rešite zamudno matematično nalogo, zapisano v njej, da zagotovite, da je vaša. 
 
-Iyadoo sanduuqyada kale ay ku habboon yihiin koodkaaga, xitaa qaar aanad adigu lahayn, tirada sanduuqyada aad u baahan tahay inaad furto oo aad ku xalliso dhibaatada xisaabta hadda waa 16 oo keliya (1/256 sanduuq!) halkii aad ka ahaan lahayd 4,096. 
+Zdaj pa si predstavljajte, da se odločite, da oseba, ki vam pošlje teh 5 škatel, ustvari posebno kodo z uporabo vašega naslova in nato na zunanjo stran vsake škatle, ki vam je poslana, vnese samo prvi znak te generirane kode. Vsi ostali naredijo isto za svoje škatle (da zagotovijo, da so vse škatle še vedno nerazločljive), zdaj pa lahko preprosto pogledate kodo z enim znakom na zunanji strani škatle in odprete samo tiste škatle, ki imajo ta znak. 
 
-Hadda waxaad furtaa 16-kaas sanduuq, xalliso mashaakilaadka xisaabta, oo waxaad haysataa 5 sanduuq oo run ahaantii adiga iska leh kooxdaas!
+Medtem ko se bodo druge škatle ujemale z vašo kodo, tudi tiste, ki niso v vaši lasti, je število škatel, ki jih morate odpreti in rešiti matematično nalogo, zdaj le 16 (1/256 škatel!) namesto vseh 4096. 
 
-## Goorma ayaa daawashada tags laga heli doonaa Monero?
+Zdaj odprite teh 16 škatel, rešite matematične probleme in obdržite 5 škatel, ki vam dejansko pripadajo iz te skupine!
 
-Muuqaal tags waa mid ka mid ah sifooyinka hadda loo qorsheeyay in lagu daro [ cusboonaysiinta shabakada soo socota](https://github.com/monero-project/meta/issues/630), waana in la sii daayaa wakhti gugan. Bulshada [ waxay kor u qaaday 23.3XMR](https://bounties.monero.social/posts/28/implement-view-tags-to-decrease-wallet-sync-times-in-monero) (waqtiga qorista) si loo dhiirigeliyo horumarinta iyo hirgelinta calaamadaha aragtida, iyo natiijada inteeda badan shaqada in lagu daro calaamadaha muuqaalka ee saldhigga koodhka Monero ayaa horeba loo ahaa. waxaa dhamaystiray j-berman oo kaashanaya dib-u-eegayaasha iyo cilmi-baarayaasha.
+## Kdaj bodo oznake za ogled na voljo v Moneru?
 
-Mar haddii summada aragtida ay hirgeliso shabakadu, dhammaan wax kala iibsiga la diro ka dib cusboonaysiinta shabakada waxay ka faa'iidaysan doonaan wakhtiga isku xidhka boorsada jeebka ee aadka loo hagaajiyay. Uma baahnid inaad sameyso wax gaar ah si aad u bilowdo isticmaalka calaamadaha muuqaalka, boorsada aad ugu jeceshahay Monero ayaa si fudud u bilaabi doonta isticmaalkooda ka dib markii shabakada si toos ah u cusbooneysiiso!
+## Kdaj bodo oznake za ogled na voljo v Moneru?
 
-## Sideen wax badan u baran karaa?
+Oznake za ogled so ena od funkcij, ki so trenutno načrtovane za vključitev v [prihajajočo nadgradnjo omrežja](https://github.com/monero-project/meta/issues/630) in bi morale biti izdane to pomlad. Skupnost [je zbrala 23.3XMR](https://bounties.monero.social/posts/28/implement-view-tags-to-decrease-wallet-sync-times-in-monero) (v času pisanja), da bi spodbudila razvoj in implementacijo oznak za oglede, zato je bila velika večina dela za vključitev oznak za oglede v osnovo kode Monero že opravljena. dokončal j-berman v sodelovanju z recenzenti in raziskovalci.
 
-Haddii tani ay kicisay xiisahaaga ku saabsan calaamadaha muuqaalka, ka fiirso qaar ka mid ah xiriiriyeyaasha dheeraadka ah ee si qoto dheer u gala mawduuca:
+Ko bo omrežje uveljavilo oznake za ogled, bodo vse transakcije, poslane po nadgradnji omrežja, imele koristi od drastično izboljšanega časa sinhronizacije denarnice. Ne bo vam treba narediti nič posebnega, da začnete uporabljati oznake za ogled, vaša najljubša denarnica za Monero jih bo preprosto začela uporabljati po samodejni nadgradnji omrežja! 
 
-  * [ Yaree wakhtiyada iskaanka leh 1-byte-output per-out 'tagga aragtida'](https://github.com/monero-project/research-lab/issues/73)
-  * [Ku dar summada aragga wax soo saarka si loo yareeyo wakhtiga iskaanka jeebka](https://github.com/monero-project/monero/pull/8061)
+## Kako lahko izvem več?
 
-Akhris dheeraad ah
+## Kako lahko izvem več?
 
-  * [Sida Monero si gaar ah u awoodo dhaqaalaha wareegtada ah](/knowledge/monero-circular-economies/)
+Če je to vzbudilo vašo radovednost glede oznak pogleda, si spodaj oglejte nekaj dodatnih povezav, ki se poglobijo v temo: 
 
-  * [Saxeexa giraanta Monero vs CoinJoin sida Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Zmanjšajte čas skeniranja z 'oznako pogleda' 1-bajt ](https://github.com/monero-project/research-lab/issues/73)
+  * [Dodajte oznake pogleda izhodom, da skrajšate čas skeniranja denarnice](https://github.com/monero-project/monero/pull/8061)
 
-  * [Waa maxay sababta (iyo sidee!) Waa inaad haysataa furayaashaada](/knowledge/hold-your-keys/)
+Nadaljnje branje
 
-  * [Wax ku biirinta dib ugu noqoshada Monero](/knowledge/contributing-to-monero/)
+  * [Kako Monero edinstveno omogoča krožna gospodarstva](/knowledge/monero-circular-economies)/
 
-  * [Sidee noodhka fog u saameeyaan gaarka ah ee Monero](/knowledge/remote-nodes-privacy/)
+  * [Obročni ring podpisi Monero vs CoinJoin kot v Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Sida Monero u isticmaasho fargeeto adag si ay u cusboonaysiiso shabakada](/knowledge/network-upgrades/)
+  * [Zakaj (in kako!) bi morali imeti svoje ključe](/knowledge/hold-your-keys)/
 
-  * [P2Pool iyo Doorka ay ku leedahay Daadejinta Macdanta Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero)/
 
-  * [Seraphis: Waxa ay u qaban doonto Monero](/knowledge/seraphis-for-monero/)
+  * [Kako oddaljena vozlišča vplivajo na zasebnost Monera](/knowledge/remote-nodes-privacy)/
 
-  * [U beddelashada Bitcoin ee Monero ma tahay mid gaar loo leeyahay sida tooska ah ee Monero u iibsanayso?](/knowledge/most-private-way-to-buy-monero/)
+  * [Kako Monero uporablja hard-forke za nadgradnjo omrežja](/knowledge/network-upgrades)/
 
-  * [Waa maxay sababta Monero u isticmaasho habayn aan la aamini karin oo ka duwan Zcash](/knowledge/monero-trustless-setup/)
+  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Waa maxay sababta Monero uu uga qiimo badan yahay Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Seraphis: Kaj bo Naredil za Monero](/knowledge/seraphis-for-monero)/
 
-  * [Sidee Monero uga gudbi kartaa Saamaynta Shabakadda Bitcoin](/knowledge/network-effect/)
+  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Waa maxay sababta Monero u leedahay bulshada ugu fikirka badan](/knowledge/critical-thinking/)
+  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup)/
 
-  * [Khiyaamooyinka la Fikiro Marka la Isticmaalayo Monero](/knowledge/monero-scams/)
+  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Sida Isku-beddelka Atoomikada uu uga Shaqeeyo Monero](/knowledge/monero-atomic-swaps/)
+  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect)/
 
-  * [Waxa uu Isticmaale kasta oo Monero u baahan yahay inuu ogaado marka ay timaaddo isku xidhka](/knowledge/monero-networking/)
+  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking)/
 
-  * [Sida RingCT u qariso xadiga wax kala iibsiga Monero](/knowledge/monero-ringct/)
+  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams)/
 
-  * [Sidee Ciwaanada Monero Stealth ay u ilaaliyaan aqoonsigaaga](/knowledge/monero-stealth-addresses/)
+  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps)/
 
-  * [Sidee Monero Dharka-hoosaadka uga hortagaan isku xidhka aqoonsiga](/knowledge/monero-subaddresses/)
+  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking)/
 
-  * [Waxsoosaarka Monero waa la sharaxay](/knowledge/monero-outputs/)
+  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct)/
 
-  * [Dhaqamada ugu Fiican ee Monero ee Bilowga](/knowledge/monero-best-practices/)
+  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses)/
 
-  * [Sidee Saxiixa Garaacuhu u qariyaan wax soo saarka Monero](/knowledge/ring-signatures/)
+  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses)/
 
-  * [Sidee Monero u xallisay Dhibaatada Cabbirka Block ee aafaysay Seeraar](/knowledge/dynamic-block-size/)
+  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs)/
 
-  * [Sidee CLSAG u hagaajin doontaa waxtarka Monero](/knowledge/what-is-clsag/)
+  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices)/
 
-  * [Waa maxay sababta Monero ay leedahay Dabada sii daayo](/knowledge/monero-tail-emission/)
+  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures)/
 
-  * [Taariikhda Monero oo Kooban](/knowledge/monero-history/)
+  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Majaladda Wired ayaa ku qaldan Monero, waa kan sababta](/knowledge/wired-article-debunked/)
+  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag)/
 
-  * [15ka khuraafaad ee Monero iyo walaaca waa la beeniyey](/knowledge/monero-myths-debunked/)
+  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission)/
 
-  * [Sida Dandelion++ uga dhigayo Monero ganacsigiisa mid gaar ah](/knowledge/monero-dandelion/)
+  * [Kratka zgodovina Monera](/knowledge/monero-history)/
 
-  * [Waa maxay sababta Monero Isha Furan tahay oo loo baahiyey](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked)/
 
-  * [Monero Mining: Maxaa RandomX ka dhigaya mid gaar ah](/knowledge/monero-mining-randomx/)
+  * [Razbijamo 15 glavnih mitov in pomislekov o Monero](/knowledge/monero-myths-debunked)/
 
-  * [Waa maxay sababta Monero uga fiican tahay Dash, Zcash, Zcoin (Xitaa Lelantus), Grin iyo Bitcoin Mixers sida Wasabi (La cusbooneysiiyay May 2020)](/knowledge/why-monero-is-better/)
+  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion)/
+
+  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized)/
+
+  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx)/
+
+  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better)/
+
+Nadaljnje branje

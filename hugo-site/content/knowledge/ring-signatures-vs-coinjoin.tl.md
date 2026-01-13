@@ -14,6 +14,8 @@ Sa blog post na ito, sumisid tayo sa isang paghahambing ng CoinJoin at mga ring 
 
 ## Ano ang transaksyon ng CoinJoin?
 
+## Ano ang transaksyon ng CoinJoin?
+
 Dahil ang lahat ng mga transaksyon ay ganap na transparent sa Bitcoin - inilalantad ang nagpadala, tagatanggap, at mga halaga - ang mga user ay dapat gumawa ng mga karagdagang hakbang upang mapanatili ang kanilang privacy mula sa mga nakaraang nagpadala at mga tatanggap sa hinaharap ng kanilang mga pondo o panganib na censorship, pagsubaybay, o pagnanakaw ng mga pondo sa pamamagitan ng pisikal na karahasan.
 
 Ang pinakamahusay na solusyon ngayon para sa privacy sa Bitcoin ay isang tool na tinatawag na [“CoinJoin”](https://bitcoiner.guide/qna/coinjoin/), kung saan 2 o higit pang user ang nagtutulungan (karaniwan ay sa pamamagitan ng isang sentralisadong coordinator) upang lumikha ng isang espesyal na transaksyon na nagpapahirap sa labas mga tagamasid upang ikonekta ang mga input sa mga output. Ang bawat kalahok ay nakikipag-ugnayan upang sama-samang buuin ang transaksyon nang hindi ibinibigay ang pag-iingat ng kanilang mga pondo, at tumatanggap ng isang output sa dulo na ang nakaraang kasaysayan ay hindi malinaw (o malabo) sa mga tagamasid sa labas.
@@ -25,6 +27,8 @@ Ito ay sumisira sa kasaysayan ng mga partikular na UTXO, na nagbibigay-daan sa m
   * Ang mga gumagamit na may malaking halaga ng pondo sa CoinJoin ay kadalasang kailangang maghintay ng mga oras (o kahit na araw!) upang makahanap ng sapat na kalahok na makakasama ng CoinJoin, na humahantong sa malalaking pagkaantala mula sa oras na makatanggap ng mga pondo ang isang user hanggang sa kung kailan nila magagamit ang mga ito nang pribado. 
   * Ang privacy na ibinibigay ng isang transaksyon sa CoinJoin ay bumababa sa paglipas ng panahon habang ang ibang mga kalahok ay gumagastos ng mga pondo o ini-link ang kanilang mga output sa kanilang pagkakakilanlan sa pamamagitan ng KYC exchanges, ID na nangangailangan ng mga merchant, atbp. Nangangahulugan ito na ang mga user ay perpektong panatilihin ang kanilang mga pondo na patuloy na umiikot sa mga transaksyon sa CoinJoin upang mapanatili ang kanilang anonymity set ("crowd to hide in") bilang bago hangga't maaari.
   * Sa karamihan ng mga diskarte sa CoinJoin, ang mga kalahok ay dapat gumamit ng fixed-size na UTXO (i.e. 0.1 BTC) para mas mahirap ikonekta ang mga input at output ng mga transaksyon sa CoinJoin. Ito ay humahantong sa mas mataas na mga bayarin (mas hiwalay na mga transaksyon na kinakailangan sa bawat malaking input), mas "nakakalason na pagbabago" (mga pondo na hindi magastos nang walang malubhang panganib sa privacy), at maaaring mag-udyok sa mas maliliit na user na hindi makapaghalo sa lahat kung wala silang kinakailangang minimum na balanse.
+
+## Paano malulutas ng mga ring signature ang mga isyung ito?
 
 ## Paano malulutas ng mga ring signature ang mga isyung ito?
 
@@ -64,6 +68,8 @@ Dahil nakatago ang mga halaga sa bawat transaksyon gamit ang [“Kumpidensyal na
 
 ## Paano ako matututo ng higit pa?
 
+## Paano ako matututo ng higit pa?
+
 Kung interesado ka at gusto mong mas maunawaan ang mga ring signature o mga transaksyon sa CoinJoin, tingnan ang mga link sa ibaba para sa magagandang lugar para makapagsimula:
 
   * [Paano Nalalabo ng Mga Signature ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures)
@@ -73,66 +79,68 @@ Kung interesado ka at gusto mong mas maunawaan ang mga ring signature o mga tran
 
 Karagdagang pagbabasa
 
-  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies/)
+  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies)/
 
-  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys/)
+  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys)/
 
-  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero/)
+  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero)/
 
-  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy/)
+  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades/)
+  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades)/
 
-  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero)/
 
-  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup/)
+  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect/)
+  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect)/
 
-  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking/)
+  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking)/
 
-  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams/)
+  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams)/
 
-  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps/)
+  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking/)
+  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking)/
 
-  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct/)
+  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct)/
 
-  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses/)
+  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses)/
 
-  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses/)
+  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses)/
 
-  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs/)
+  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs)/
 
-  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices/)
+  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices)/
 
-  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures/)
+  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures)/
 
-  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size/)
+  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag/)
+  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag)/
 
-  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission/)
+  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission)/
 
-  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history/)
+  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history)/
 
-  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked/)
+  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked)/
 
-  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked/)
+  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
 
-  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion/)
+  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion)/
 
-  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx)/
 
-  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better/)
+  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better)/
+
+Karagdagang pagbabasa

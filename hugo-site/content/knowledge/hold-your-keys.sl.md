@@ -14,6 +14,8 @@ V tej kratki objavi se bomo poglobili v to, zakaj bi morali sami držati svoje k
 
 ## Zakaj je pomembno imeti lastne ključe?
 
+## Zakaj je pomembno imeti lastne ključe?
+
 Eden od najpogosteje napačno razumljenih vidikov skrbništva v Monero je, da če nimate lastnih ključev, pridobite le malo ali nič koristi od zasebnosti, ki jo ponuja Monero. Kot pošiljatelj transakcije ima popoln vpogled v pravo porabo, znesek in naslov prejemnika, če niste tisti, ki pošilja transakcijo in namesto tega prepustite to borzi, imajo _popoln_ vpogled v to kako porabite svoj Monero.
 
 Na srečo Monero po pošiljanju sredstev zagotavlja zasebnost in zagotavljajo močno "vnaprejšnjo tajnost", vendar bo jasno, da bo borzi ali skrbniku, kam ste poslali sredstva in koliko ste jih poslali. na začetku. 
@@ -38,6 +40,8 @@ To vedenje lahko povzroči tudi likvidnostne krize, kjer uporabniki, ki _želijo
 
 ## Kako držim lastne ključe z Monero?
 
+## Kako držim lastne ključe z Monero?
+
 Ko začnete držati svoje ključe, najpomembnejše, kar si morate zapomniti, je, da _shranite in ohranite svojo seed frazo na varnem_! To je nabor 14 ali 25 naključnih besed, ki vam jih bo dala katera koli denarnica Monero, ko jo ustvarite in je vse, kar potrebujete za povračilo sredstev, če izgubite telefon, prenosnik ali pozabite geslo.
 
 Ravnajte s to frazo, kot da je vredna vsega Monera v vaši denarnici, saj bo imel vsak, ki jo bo dobil, popoln dostop do sredstev v njej. Idealno je, da hranite na varnem ali skrivnem mestu, ohranite več izvodov v primeru požara ali naravne nesreče in nikoli ne pokažite nikomur.
@@ -47,9 +51,11 @@ Za več o seed frazah poglejte [Mnemonic Seed | Moneropedija](https://web.getmon
 Če ste večinoma uporabnik namizja in ne pošiljate/prejemate Monera zelo pogosto na poti, je na voljo nekaj dobrih možnosti, da ostanete sami lastnik ključev, ne da bi se morali zanašati na tretje osebe.
 
   * [Uradna Monero denarnica](https://getmonero.org/downloads)
-    * To je uradna programska oprema za denarnico Monero, ki nenehno doživlja izboljšave in dopolnitve. Vključuje integriran daemon Monero (če želite), je zelo uporabniku prijazna in bo kmalu podpiral [rudarjenje prek p2pool neposredno iz vaše denarnice](/knowledge/p2pool-decentralizing-monero-mining/).
+    * To je uradna programska oprema za denarnico Monero, ki nenehno doživlja izboljšave in dopolnitve. Vključuje integriran daemon Monero (če želite), je zelo uporabniku prijazna in bo kmalu podpiral [rudarjenje prek p2pool neposredno iz vaše denarnice](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
   * [Feather Wallet](https://featherwallet.org/)
     * To je odlična denarnica v smislu [Electrum za Bitcoin](https://electrum.org/) in ponuja preprosto uporabnost in izjemno zmogljive funkcije v eni denarnici.
+
+  * To je uradna programska oprema za denarnico Monero, ki nenehno doživlja izboljšave in dopolnitve. Vključuje integriran daemon Monero (če želite), je zelo uporabniku prijazna in bo kmalu podpiral [rudarjenje prek p2pool neposredno iz vaše denarnice](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining).
 
   * To je odlična denarnica v smislu [Electrum za Bitcoin](https://electrum.org/) in ponuja preprosto uporabnost in izjemno zmogljive funkcije v eni denarnici.
 
@@ -66,6 +72,8 @@ Za tiste med nami, ki radi uporabljamo svoj Monero na poti je pomembna trdna mob
 
 ## Zaključek
 
+## Zaključek
+
 Upamo, da je ta objava pomagala utrditi potrebo po držanju vaših lastnih ključev, ter predstaviti nekaj odličnih denarnic v tem prostoru.
 
 Bolj ko vzamete Monero v svoje roke in ga dejansko uporabljate, tem več koristi, ki jih lahko dobite. Monero ni samo špekulativno sredstvo – je močno orodje za svobodo in finančno zasebnost, ki je zelo potrebna v današnjem svetu in naši prihodnosti 
@@ -74,66 +82,68 @@ Zdaj pa pojdi, spravi te kovance z borze in se poglobi v to, za kaj je bil Moner
 
 Nadaljnje branje
 
-  * [Kako Monero edinstveno omogoča krožna gospodarstva](/knowledge/monero-circular-economies/)
+  * [Kako Monero edinstveno omogoča krožna gospodarstva](/knowledge/monero-circular-economies)/
 
-  * [Obročni ring podpisi Monero vs CoinJoin kot v Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Obročni ring podpisi Monero vs CoinJoin kot v Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero/)
+  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero)/
 
-  * [Kako oddaljena vozlišča vplivajo na zasebnost Monera](/knowledge/remote-nodes-privacy/)
+  * [Kako oddaljena vozlišča vplivajo na zasebnost Monera](/knowledge/remote-nodes-privacy)/
 
-  * [Kako Monero uporablja hard-forke za nadgradnjo omrežja](/knowledge/network-upgrades/)
+  * [Kako Monero uporablja hard-forke za nadgradnjo omrežja](/knowledge/network-upgrades)/
 
-  * [Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Kaj bo Naredil za Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Kaj bo Naredil za Monero](/knowledge/seraphis-for-monero)/
 
-  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero/)
+  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup/)
+  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup)/
 
-  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect/)
+  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect)/
 
-  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking/)
+  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking)/
 
-  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams/)
+  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams)/
 
-  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps/)
+  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps)/
 
-  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking/)
+  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking)/
 
-  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct/)
+  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct)/
 
-  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses/)
+  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses)/
 
-  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses/)
+  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses)/
 
-  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs/)
+  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs)/
 
-  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices/)
+  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices)/
 
-  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures/)
+  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures)/
 
-  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size/)
+  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag/)
+  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag)/
 
-  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission/)
+  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission)/
 
-  * [Kratka zgodovina Monera](/knowledge/monero-history/)
+  * [Kratka zgodovina Monera](/knowledge/monero-history)/
 
-  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked/)
+  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked)/
 
-  * [Razbijamo 15 glavnih mitov in pomislekov o Monero](/knowledge/monero-myths-debunked/)
+  * [Razbijamo 15 glavnih mitov in pomislekov o Monero](/knowledge/monero-myths-debunked)/
 
-  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion/)
+  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion)/
 
-  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx/)
+  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx)/
 
-  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better/)
+  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better)/
+
+Nadaljnje branje

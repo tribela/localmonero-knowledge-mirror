@@ -10,7 +10,11 @@ Yawancin masu amfani za su yi mamakin sanin cewa masana suna tunanin cewa zai yi
 
 ## RUBUTA TSARI!
 
+## RUBUTA TSARI!
+
 Hanya ta farko, kuma babbar hanyar kiyaye cryptocurrency ɗinku lafiya da tsaro shine rubuta zuriyar Monero mnemonic, wacce gajeriyar jerin kalmomi ce da aka nuna lokacin da kuka fara ƙirƙirar walat ɗin ku. Idan kuna da wannan iri, amma kwamfutarku/wayar ku ta mutu, to zaku iya dawo da Monero naku. Idan ba ku da wannan iri, kuma kuka rasa walat ɗin ku, to Monero ɗinku ya ɓace kuma babu wanda zai iya taimaka muku dawo da shi. Haka kuma, kada ku raba wannan iri ga kowa. Idan suna da wannan jerin kalmomin, suna da cikakken dama da haƙƙin kashe kuɗi ga Monero na ku. Mutane da yawa sun yi sakaci wajen tabbatar da zuriyarsu, kuma sun zo ga gaskiya mai ban tsoro na asarar kuɗi saboda wani ya ɗauke su. Muna ba da shawarar rubuta shi. A zahiri. Ba adana shi ta hanyar dijital ba, da kuma tabbatar da cewa kuna da kwafi da yawa a wurare daban-daban. Wannan shine abu na ɗaya da zaku iya yi don tabbatar da Monero ɗin ku. RUBUTA ZUWAN KA!
+
+## Duba adiresoshin ku sau biyu
 
 ## Duba adiresoshin ku sau biyu
 
@@ -18,11 +22,17 @@ Wasu zamba suna amfani da malware akan kwamfutarka wanda ke canza aikin kwafi/ m
 
 ## Koyi bambanci tsakanin walat ɗin zafi da sanyi
 
+## Koyi bambanci tsakanin walat ɗin zafi da sanyi
+
 Wallet ɗin zafi da sanyi kalmomi ne gama gari a cikin sararin cryptocurrency, kuma ra'ayin yana da sauƙi. Wallet mai zafi shine wanda kuke fitar da amfani akai-akai. Yana da 'zafi' daga kasancewa a cikin aljihun baya. Wallet ɗin sanyi sune waɗanda ba a taɓa taɓa su sosai, kamar kuɗin banki. Kamar dai yadda ba a ba da shawarar ɗaukar ɗaruruwan daloli a cikin walat ɗin ku na zahiri ba, amma galibi ana yarda da yin hakan a cikin asusun banki, masu amfani yakamata su yi la'akari da nawa Monero ke da hankali don ɗauka a cikin wallet ɗin su masu zafi, na wayar hannu, da nawa ne mafi kyawun saura. a gida cikin dakika, sanyi. Ta wannan hanyar, asarar waya, sata, ko wasu ɓarna ba za su haifar da asarar kuɗi gaba ɗaya ba.
 
 ## Shin walat ɗin kayan masarufi daidai gare ku?
 
+## Shin walat ɗin kayan masarufi daidai gare ku?
+
 Idan ra'ayin kiyaye yanayin dijital ku gaba ɗaya daga ƙwayoyin cuta da malware don kare Monero yana da ban tsoro a gare ku, to kuna iya yin la'akari da walat ɗin kayan aiki. Ainihin walat ɗin kayan masarufi yana kiyaye maɓallan ku na sirri akan na'urar, nesa da kwamfutarka. Don haka ko da kwamfutar ku ta sami matsala, masu kutse ba za su sami damar yin amfani da iri na ku ba. Za ku iya kashe kuɗin ne kawai idan an haɗa walat ɗin hardware zuwa kwamfutar kuma ya sanya hannu kan ma'amala. Wannan yana matsar da tsaro na maɓallan daga kwamfutarka, wanda ake amfani da shi don abubuwa da yawa, kuma yana da babban filin hari, zuwa walat ɗin hardware, wanda ake amfani da shi kawai don abu ɗaya, kuma yana da mafi ƙanƙanci mafi girma. Ga kowa da kowa wanda bai san illolin tsaro na kwamfuta ba, zaɓi ne mai yuwuwa don kiyaye kuɗin ku.
+
+## Lokacin da ake shakka, yi amfani da abubuwan da suka dace (tare da Monero)
 
 ## Lokacin da ake shakka, yi amfani da abubuwan da suka dace (tare da Monero)
 
@@ -34,66 +44,68 @@ Wannan na iya zama kamar wani abu mara kyau don magana akai. Yawancin masu amfan
 
 Kara karantawa
 
-  * [Yadda Monero ke ba da damar tattalin arzikin madauwari ta musamman](/knowledge/monero-circular-economies/)
+  * [Yadda Monero ke ba da damar tattalin arzikin madauwari ta musamman](/knowledge/monero-circular-economies)/
 
-  * [Sa hannun zoben Monero vs CoinJoin kamar a cikin Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Sa hannun zoben Monero vs CoinJoin kamar a cikin Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Me yasa (kuma ta yaya!) yakamata ku riƙe maɓallan ku](/knowledge/hold-your-keys/)
+  * [Me yasa (kuma ta yaya!) yakamata ku riƙe maɓallan ku](/knowledge/hold-your-keys)/
 
-  * [Gudunmawar komawa ga Monero](/knowledge/contributing-to-monero/)
+  * [Gudunmawar komawa ga Monero](/knowledge/contributing-to-monero)/
 
-  * [Yadda nodes masu nisa ke tasiri sirrin Monero](/knowledge/remote-nodes-privacy/)
+  * [Yadda nodes masu nisa ke tasiri sirrin Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Yadda Monero ke amfani da cokali mai yatsa don haɓaka hanyar sadarwa](/knowledge/network-upgrades/)
+  * [Yadda Monero ke amfani da cokali mai yatsa don haɓaka hanyar sadarwa](/knowledge/network-upgrades)/
 
-  * [Duba tags: Yadda byte ɗaya zai rage lokutan daidaitawa na walat ɗin Monero da 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Duba tags: Yadda byte ɗaya zai rage lokutan daidaitawa na walat ɗin Monero da 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool da Matsayinsa a Rarraba Ma'adinai na Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool da Matsayinsa a Rarraba Ma'adinai na Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Abin da Zai Yi wa Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Abin da Zai Yi wa Monero](/knowledge/seraphis-for-monero)/
 
-  * [Shin Canza Bitcoin zuwa Monero yana da zaman kansa kamar siyan Monero kai tsaye?](/knowledge/most-private-way-to-buy-monero/)
+  * [Shin Canza Bitcoin zuwa Monero yana da zaman kansa kamar siyan Monero kai tsaye?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Me yasa Monero ke Amfani da Saitin Amintacce Ba kamar Zcash ba](/knowledge/monero-trustless-setup/)
+  * [Me yasa Monero ke Amfani da Saitin Amintacce Ba kamar Zcash ba](/knowledge/monero-trustless-setup)/
 
-  * [Me yasa Monero ya fi Bitcoin daraja](/knowledge/monero-better-store-of-value/)
+  * [Me yasa Monero ya fi Bitcoin daraja](/knowledge/monero-better-store-of-value)/
 
-  * [Ta yaya Monero zai iya shawo kan Tasirin hanyar sadarwa na Bitcoin](/knowledge/network-effect/)
+  * [Ta yaya Monero zai iya shawo kan Tasirin hanyar sadarwa na Bitcoin](/knowledge/network-effect)/
 
-  * [Me yasa Monero ke da Mafi Mahimman Tunani Al'umma](/knowledge/critical-thinking/)
+  * [Me yasa Monero ke da Mafi Mahimman Tunani Al'umma](/knowledge/critical-thinking)/
 
-  * [Zamba don Kalli Lokacin Amfani da Monero](/knowledge/monero-scams/)
+  * [Zamba don Kalli Lokacin Amfani da Monero](/knowledge/monero-scams)/
 
-  * [Yadda Atomic Swaps Zai Yi Aiki a Monero](/knowledge/monero-atomic-swaps/)
+  * [Yadda Atomic Swaps Zai Yi Aiki a Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Abin da Kowane Mai Amfani da Monero Ya Bukatar Sanin Lokacin da Ya zo kan hanyar sadarwa](/knowledge/monero-networking/)
+  * [Abin da Kowane Mai Amfani da Monero Ya Bukatar Sanin Lokacin da Ya zo kan hanyar sadarwa](/knowledge/monero-networking)/
 
-  * [Yadda RingCT ke ɓoye Adadin Kasuwancin Monero](/knowledge/monero-ringct/)
+  * [Yadda RingCT ke ɓoye Adadin Kasuwancin Monero](/knowledge/monero-ringct)/
 
-  * [Yadda Monero Stealth Adresoshin Ya Kare Imaninku](/knowledge/monero-stealth-addresses/)
+  * [Yadda Monero Stealth Adresoshin Ya Kare Imaninku](/knowledge/monero-stealth-addresses)/
 
-  * [Yadda Monero Subaddresses ke Hana Haɗin Shaida](/knowledge/monero-subaddresses/)
+  * [Yadda Monero Subaddresses ke Hana Haɗin Shaida](/knowledge/monero-subaddresses)/
 
-  * [An Bayyana Fitar Monero](/knowledge/monero-outputs/)
+  * [An Bayyana Fitar Monero](/knowledge/monero-outputs)/
 
-  * [Yadda Sa hannu na zobe ke ɓoye abubuwan da Monero ke bayarwa](/knowledge/ring-signatures/)
+  * [Yadda Sa hannu na zobe ke ɓoye abubuwan da Monero ke bayarwa](/knowledge/ring-signatures)/
 
-  * [Yadda Monero Ya Warware Matsalolin Girman Toshe wanda ke addabar Bitcoin](/knowledge/dynamic-block-size/)
+  * [Yadda Monero Ya Warware Matsalolin Girman Toshe wanda ke addabar Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Yadda CLSAG Zai Inganta Ingantacciyar Monero](/knowledge/what-is-clsag/)
+  * [Yadda CLSAG Zai Inganta Ingantacciyar Monero](/knowledge/what-is-clsag)/
 
-  * [Me yasa Monero ke fitar da wutsiya](/knowledge/monero-tail-emission/)
+  * [Me yasa Monero ke fitar da wutsiya](/knowledge/monero-tail-emission)/
 
-  * [Takaitaccen Tarihin Monero](/knowledge/monero-history/)
+  * [Takaitaccen Tarihin Monero](/knowledge/monero-history)/
 
-  * [Mujallar Wired ba daidai ba ce Game da Monero, Ga dalilin da ya sa](/knowledge/wired-article-debunked/)
+  * [Mujallar Wired ba daidai ba ce Game da Monero, Ga dalilin da ya sa](/knowledge/wired-article-debunked)/
 
-  * [Manyan Tatsuniyoyi 15 na Monero da Abubuwan da Aka Kashe](/knowledge/monero-myths-debunked/)
+  * [Manyan Tatsuniyoyi 15 na Monero da Abubuwan da Aka Kashe](/knowledge/monero-myths-debunked)/
 
-  * [Yadda Dandelion++ ke Keɓance Ma'amalar Monero Mai zaman kansa](/knowledge/monero-dandelion/)
+  * [Yadda Dandelion++ ke Keɓance Ma'amalar Monero Mai zaman kansa](/knowledge/monero-dandelion)/
 
-  * [Me yasa Monero Buɗaɗɗen Madogara da Rarraba](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Me yasa Monero Buɗaɗɗen Madogara da Rarraba](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Abin da ke Sa RandomX ta Musamman](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Abin da ke Sa RandomX ta Musamman](/knowledge/monero-mining-randomx)/
 
-  * [Me yasa Monero ya fi Dash, Zcash, Zcoin (Ko da Lelantus), Grin da Bitcoin Mixers Kamar Wasabi (An sabunta Mayu 2020)](/knowledge/why-monero-is-better/)
+  * [Me yasa Monero ya fi Dash, Zcash, Zcoin (Ko da Lelantus), Grin da Bitcoin Mixers Kamar Wasabi (An sabunta Mayu 2020)](/knowledge/why-monero-is-better)/
+
+Kara karantawa

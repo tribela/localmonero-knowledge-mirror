@@ -1,153 +1,167 @@
 ---
-title: "Seraphis：它將為門羅幣做什麼"
+title: "Seraphis：它将为门罗币做什么"
 slug: "seraphis-for-monero"
 date: "2022-01-13"
 image: "/images/seraphis.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-## Seraphis：Monero交易的模塊化設計升級
+## Seraphis：Monero交易的模块化设计升级
 
-這篇文章描述 [Seraphis](https://github.com/UkoeHB/Seraphis), 一套交易協議結構和抽象,由化名的研究貢獻者 [`koe`](https://github.com/UkoeHB) 開發的為Monero生態系統, 並由化名開發者 [`coinstudent2048`](https://github.com/coinstudent2048)進行持續的安全分析。  
-為了清楚起見，我們做了一些簡化，並省略了某些技術細節；為此，由於Seraphis的設計仍在進行中，感興趣的讀者應該參考Seraphis的文檔，以獲得最新的信息。
+## Seraphis：Monero交易的模块化设计升级
+
+这篇文章描述 [Seraphis](https://github.com/UkoeHB/Seraphis), 一套交易协议结构和抽象,由化名的研究贡献者 [`koe`](https://github.com/UkoeHB) 开发的为Monero生态系统, 并由化名开发者 [`coinstudent2048`](https://github.com/coinstudent2048)进行持续的安全分析。  
+为了清楚起见，我们做了一些简化，并省略了某些技术细节；为此，由于Seraphis的设计仍在进行中，感兴趣的读者应该参考Seraphis的文档，以获得最新的信息。
 
 ## Monero交易
 
-像Bitcoin和Monero以及其他協議都依賴於所謂的"輸出模式" 的運作, 其中 _輸出_ 是可以轉移的價值的代表。  
-交易消耗一個或多個由發送者控制的輸出，並產生針對接收者的新輸出（或作為零錢返回給發送者）；交易必須平衡，因為消耗的輸出必須包含與新輸出的價值完全相等的總價值（加上網絡施加的費用）。  
-在許多像比特幣的協議中，輸出所包含的價值是寫在明處的，接受者也是如此。  
-此外，通過查看區塊鏈，可以很容易地看到一項輸出是否和何時被花費了（也就是說，如果它在後來的交易中被消耗了，以及哪筆交易花費了它）。
+## Monero交易
 
-相比之下，像Monero這樣的協議引入了一個不同的設計：
+像Bitcoin和Monero以及其他协议都依赖于所谓的"输出模式" 的运作, 其中 _输出_ 是可以转移的价值的代表。  
+交易消耗一个或多个由发送者控制的输出，并产生针对接收者的新输出（或作为零钱返回给发送者）；交易必须平衡，因为消耗的输出必须包含与新输出的价值完全相等的总价值（加上网络施加的费用）。  
+在许多像比特币的协议中，输出所包含的价值是写在明处的，接受者也是如此。  
+此外，通过查看区块链，可以很容易地看到一项输出是否和何时被花费了（也就是说，如果它在后来的交易中被消耗了，以及哪笔交易花费了它）。
 
-  * 輸出值是隱藏的，在區塊鏈上不可見
-  * 收款人地址通過使用一次性地址協議而被隱藏起來
-  * 使用模棱兩可的簽名掩蓋了一項輸出是否已經支出的問題
+相比之下，像Monero这样的协议引入了一个不同的设计：
 
-其結果是，在沒有外部信息的情況下，很難確定某項輸出是否已經使用，其價值是什麼，以及誰是其接受者。
+  * 输出值是隐藏的，在区块链上不可见
+  * 收款人地址通过使用一次性地址协议而被隐藏起来
+  * 使用模棱两可的签名掩盖了一项输出是否已经支出的问题
 
-目前的Monero交易協議被稱為 _RingCT_ , 並使用幾個加密構件來實現這些設計目標。
+其结果是，在没有外部信息的情况下，很难确定某项输出是否已经使用，其价值是什么，以及谁是其接受者。
 
-  * _義務_ 以一種數學上有用的方式隱藏金額
-  * _範圍證明_ 防止溢出，可能使供應膨脹
-  * _可鏈接的環形簽名_ 提供簽名人的模糊性，防止重複消費的企圖
-  * _Commitment offsets_ 主張交易平衡
+目前的Monero交易协议被称为 _RingCT_ , 并使用几个加密构件来实现这些设计目标。
 
-這些構件被小心地交織在一起，構建RingCT協議。
+  * _义务_ 以一种数学上有用的方式隐藏金额
+  * _范围证明_ 防止溢出，可能使供应膨胀
+  * _可链接的环形签名_ 提供签名人的模糊性，防止重复消费的企图
+  * _Commitment offsets_ 主张交易平衡
 
-RingCT協議的一個有用的特性是，一些構件可以在保持整體設計和屬性不變的情況下被改變或升級，但可以提供效率或安全方面的改進。 事實上，這類升級在Monero的歷史上已經發生（或計劃發生）過幾次。 最初的RingCT協議中的範圍證明是笨重和緩慢的；後來被更新為一種構建稱為 [Bulletproofs](https://eprint.iacr.org/2017/1066) 使得交易更小、更快，並有更好的安全分析，併計劃更新為一種新的結構名為 [Bulletproofs+](https://eprint.iacr.org/2020/735) 以獲得更大的效率效益。 
+这些构件被小心地交织在一起，构建RingCT协议。
 
-對可鏈接的環形簽名構件也經歷了類似的過程。 在最初的協議中，使用了一種叫做 [MLSAG](https://ledger.pitt.edu/ojs/ledger/article/view/34) 的設計。 這後來被更新為一種較新的結構，稱為 [CLSAG](https://eprint.iacr.org/2019/654) 它的速度更快，交易量更小，並且有更好的安全分析。 一種基於 [Triptych](https://eprint.iacr.org/2020/018) 的更新的可鏈接的環形簽名結構被提出來，但由於它對多簽名操作的影響，沒有被選擇部署。 
+RingCT协议的一个有用的特性是，一些构件可以在保持整体设计和属性不变的情况下被改变或升级，但可以提供效率或安全方面的改进。 事实上，这类升级在Monero的历史上已经发生（或计划发生）过几次。 最初的RingCT协议中的范围证明是笨重和缓慢的；后来被更新为一种构建称为 [Bulletproofs](https://eprint.iacr.org/2017/1066) 使得交易更小、更快，并有更好的安全分析，并计划更新为一种新的结构名为 [Bulletproofs+](https://eprint.iacr.org/2020/735) 以获得更大的效率效益。
+
+对可链接的环形签名构件也经历了类似的过程。 在最初的协议中，使用了一种叫做 [MLSAG](https://ledger.pitt.edu/ojs/ledger/article/view/34) 的设计。 这后来被更新为一种较新的结构，称为 [CLSAG](https://eprint.iacr.org/2019/654) 它的速度更快，交易量更小，并且有更好的安全分析。 一种基于 [Triptych](https://eprint.iacr.org/2020/018) 的更新的可链接的环形签名结构被提出来，但由于它对多签名操作的影响，没有被选择部署。
 
 ## Seraphis
 
-Seraphis 將這一想法向前推進了一步。  
-它沒有更新現有RingCT交易協議的各個構件，而是引入了一個不同的協議，為了可以利用不同的構件並提供更好的功能。
+## Seraphis
 
-## 構建模塊
+Seraphis 将这一想法向前推进了一步。  
+它没有更新现有RingCT交易协议的各个构件，而是引入了一个不同的协议，为了可以利用不同的构件并提供更好的功能。
 
-Seraphis 使用一套不同的加密構件來實現其設計目標。
+## 构建模块
 
-  * _義務_ 仍然隱藏金額
-  * _範圍證明_ 仍然防止溢出和供應膨脹
-  * _成員證明_ 提供簽名者的模糊性
-  * _承諾抵銷_ 仍然主張平衡
-  * _授權證明_ 防止重複消費的企圖
+## 构建模块
 
-注意這裡的變化：可鏈接的環形簽名被替換成成員證明和授權證明的組合。 粗略地說，成員證明表明，一個被消耗的輸出是一個更大的集合的一部分，類似於RingCT中的情況。 但與RingCT不同的是，成員證明完全不涉及鏈接標籤！ 授權證明表明鏈接標籤是有效的，並用於簽署最終交易。
+Seraphis 使用一套不同的加密构件来实现其设计目标。
 
-由於RingCT將鏈接標籤嵌入到模糊的簽名中，簽名（和多簽名）操作在計算上更加密集，而且建立其他與標籤相關的功能也變得更具挑戰性。 但在Seraphis，構建成員證明可以安全地從高度信任的設備（可能有有限的計算能力，如硬件錢包）委託給一個稍微少信任的設備，而且使用更簡單的授權證明，簽名（和多簽名）操作要容易得多。
+  * _义务_ 仍然隐藏金额
+  * _范围证明_ 仍然防止溢出和供应膨胀
+  * _成员证明_ 提供签名者的模糊性
+  * _承诺抵销_ 仍然主张平衡
+  * _授权证明_ 防止重复消费的企图
 
-幸運的是，Seraphis所需的一些構件已經存在於其他地方，不需要從頭設計。 Bulletproofs和Bulletproofs+結構都可以作為範圍證明。 對Schnorr型證明系統的修改可用於授權證明。 還有一個有效的 [證明系統](https://eprint.iacr.org/2015/643) 已經作為Triptych的基礎使用, [Lelantus](https://eprint.iacr.org/2019/373), 和 [Spark](https://eprint.iacr.org/2021/1173)* 可以為成員證明進行修改。 
+注意这里的变化：可链接的环形签名被替换成成员证明和授权证明的组合。 粗略地说，成员证明表明，一个被消耗的输出是一个更大的集合的一部分，类似于RingCT中的情况。 但与RingCT不同的是，成员证明完全不涉及链接标签！ 授权证明表明链接标签是有效的，并用于签署最终交易。
 
-* Cypher Stack獲得用於Spark開發的資金。 
+由于RingCT将链接标签嵌入到模糊的签名中，签名（和多签名）操作在计算上更加密集，而且建立其他与标签相关的功能也变得更具挑战性。 但在Seraphis，构建成员证明可以安全地从高度信任的设备（可能有有限的计算能力，如硬件钱包）委托给一个稍微少信任的设备，而且使用更简单的授权证明，签名（和多签名）操作要容易得多。
 
-## 尋址
+幸运的是，Seraphis所需的一些构件已经存在于其他地方，不需要从头设计。 Bulletproofs和Bulletproofs+结构都可以作为范围证明。 对Schnorr型证明系统的修改可用于授权证明。 还有一个有效的 [证明系统](https://eprint.iacr.org/2015/643) 已经作为Triptych的基础使用, [Lelantus](https://eprint.iacr.org/2019/373), 和 [Spark](https://eprint.iacr.org/2021/1173)* 可以为成员证明进行修改。
 
-不幸的是，目前使用的Monero地址與Seraphis不兼容。 如果Seraphis被實施，用戶將需要從他們的錢包密鑰中生成新的地址，以便接收Monero。 然而，這種生態系統的成本伴隨著一系列的好處。
+* Cypher Stack获得用于Spark开发的资金。
 
-除了上面討論的結構上的好處，Seraphis的設計適用於許多不同的地址建設的可能性，其中每一個都是有取捨的。 雖然在Seraphis中使用的最終地址結構 [仍在決定之中](https://github.com/monero-project/research-lab/issues/92) (有一個方案受到很多人的關注，叫做 [JAMTIS](https://gist.github.com/tevador/50160d160d24cfc6c52ae02eb3d17024)), 我們可以描述一些常見和有用的功能。
+## 寻址
 
-你可能知道，Monero地址提供 _view key_ 功能，你可以向設備或第三方提供view key，並允許它代表你觀察傳入的輸出，但不放棄花費權限。 這對錢包來說很有用，它可以保持更新，同時將你的spend key安全地鎖起來。 它對於你想要外部視圖訪問的情況也很有用，比如提供透明度的公共慈善機構或有會計部門的公司。
+## 寻址
 
-Monero視圖鍵的缺點是，它們不提供完整或細粒度的視圖訪問。 不可能可靠地檢測一個錢包何時花費資金，這使得在spend key不可用時很難正確計算錢包餘額。 目前也不可能在不了解這些輸出所包含的價值的情況下檢測到傳入的輸出（這意味著任何負責尋找傳入輸出的第三方都會準確地了解你正在獲取多少Monero）。
+不幸的是，目前使用的Monero地址与Seraphis不兼容。 如果Seraphis被实施，用户将需要从他们的钱包密钥中生成新的地址，以便接收Monero。 然而，这种生态系统的成本伴随着一系列的好处。
 
-Seraphis 的地址建設可以解決這個問題。 有了Seraphis，你的地址就會配備不同的鑰匙，可以做不同的事情：
+除了上面讨论的结构上的好处，Seraphis的设计适用于许多不同的地址建设的可能性，其中每一个都是有取舍的。 虽然在Seraphis中使用的最终地址结构 [仍在决定之中](https://github.com/monero-project/research-lab/issues/92) (有一个方案受到很多人的关注，叫做 [JAMTIS](https://gist.github.com/tevador/50160d160d24cfc6c52ae02eb3d17024)), 我们可以描述一些常见和有用的功能。
 
-  * 觀察傳入的輸出，但隱藏其價值
-  * 觀察傳入的輸出，但顯示其價值
-  * 觀察發出的輸出
-  * 幫助你產生交易，但不簽署它們
-  * 生成新的地址（對有許多客戶的零售商或交易所很有用）
+你可能知道，Monero地址提供 _view key_ 功能，你可以向设备或第三方提供view key，并允许它代表你观察传入的输出，但不放弃花费权限。 这对钱包来说很有用，它可以保持更新，同时将你的spend key安全地锁起来。 它对于你想要外部视图访问的情况也很有用，比如提供透明度的公共慈善机构或有会计部门的公司。
 
-作為地址持有人，你可以決定將多少權力下放給其他設備或第三方。 
+Monero视图键的缺点是，它们不提供完整或细粒度的视图访问。 不可能可靠地检测一个钱包何时花费资金，这使得在spend key不可用时很难正确计算钱包余额。 目前也不可能在不了解这些输出所包含的价值的情况下检测到传入的输出（这意味着任何负责寻找传入输出的第三方都会准确地了解你正在获取多少Monero）。
 
-## 大局觀
+Seraphis 的地址建设可以解决这个问题。 有了Seraphis，你的地址就会配备不同的钥匙，可以做不同的事情：
 
-Seraphis是Monero生態系統的一個重大變化。 雖然它涉及到對地址和交易構件的修改，但它的設計提供了今天的RingCT協議所無法實現的靈活性和有用的功能。 雖然大部分的設計已經定稿，並正在發展成一個 [實施方案](https://github.com/UkoeHB/monero/tree/seraphis_lib), 地址設計和安全分析正在進行。 Seraphis提供了一個極好的機會來推動Monero生態系統的發展!
+  * 观察传入的输出，但隐藏其价值
+  * 观察传入的输出，但显示其价值
+  * 观察发出的输出
+  * 帮助你产生交易，但不签署它们
+  * 生成新的地址（对有许多客户的零售商或交易所很有用）
 
-進一步閱讀
+作为地址持有人，你可以决定将多少权力下放给其他设备或第三方。
 
-  * [門羅幣如何獨特地實現循環經濟](/knowledge/monero-circular-economies/)
+## 大局观
 
-  * [門羅幣環形簽名與CoinJoin像在Wasabi比較](/knowledge/ring-signatures-vs-coinjoin/)
+## 大局观
 
-  * [為什麼（以及如何！）你應該持有你自己的鑰匙](/knowledge/hold-your-keys/)
+Seraphis是Monero生态系统的一个重大变化。 虽然它涉及到对地址和交易构件的修改，但它的设计提供了今天的RingCT协议所无法实现的灵活性和有用的功能。 虽然大部分的设计已经定稿，并正在发展成一个 [实施方案](https://github.com/UkoeHB/monero/tree/seraphis_lib), 地址设计和安全分析正在进行。 Seraphis提供了一个极好的机会来推动Monero生态系统的发展!
 
-  * [貢獻為門羅幣](/knowledge/contributing-to-monero/)
+进一步阅读
 
-  * [遠程節點如何影響門羅幣的隱私](/knowledge/remote-nodes-privacy/)
+  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies)/
 
-  * [門羅幣是如何使用硬分叉為升級網絡](/knowledge/network-upgrades/)
+  * [门罗币环形签名与CoinJoin像在Wasabi比较](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [查看標籤：一個字節如何將門羅幣錢包的同步時間減少40%以上](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys)/
 
-  * [P2Pool和它在去Monero採礦中心化的作用](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [贡献为门罗币](/knowledge/contributing-to-monero)/
 
-  * [把比特幣兌換成門羅幣，就可以高枕無憂了嗎?](/knowledge/most-private-way-to-buy-monero/)
+  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy)/
 
-  * [為什麼門羅幣不像大零幣那樣需要初始信任來實現隱私](/knowledge/monero-trustless-setup/)
+  * [门罗币是如何使用硬分叉为升级网络](/knowledge/network-upgrades)/
 
-  * [為什麼門羅幣才是電子黃金，相對於比特幣更有儲存價值的屬性](/knowledge/monero-better-store-of-value/)
+  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [門羅幣是如何蠶食比特幣的份額和先發優勢](/knowledge/network-effect/)
+  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [為什麼說門羅幣社區最具批判性精神](/knowledge/critical-thinking/)
+  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [門羅幣防詐騙指南](/knowledge/monero-scams/)
+  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup)/
 
-  * [原子互換技術將如何在門羅幣上實現](/knowledge/monero-atomic-swaps/)
+  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value)/
 
-  * [門羅幣與當代互聯網，隱私達人的須知](/knowledge/monero-networking/)
+  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect)/
 
-  * [ RingCT環形機密技術是如何隱藏門羅幣交易的金額](/knowledge/monero-ringct/)
+  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking)/
 
-  * [門羅幣隱身地址如何保護你的身份](/knowledge/monero-stealth-addresses/)
+  * [门罗币防诈骗指南](/knowledge/monero-scams)/
 
-  * [門羅幣子位址是如何防止使用者資訊被關聯](/knowledge/monero-subaddresses/)
+  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps)/
 
-  * [加密貨幣裡面的output，中文譯作輸出，這個概念到底什麼意思,又為什麼門羅幣轉帳後餘額顯示錯誤要等待二十分鐘](/knowledge/monero-outputs/)
+  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking)/
 
-  * [門羅幣最佳入門指南](/knowledge/monero-best-practices/)
+  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct)/
 
-  * [環形簽名如何保護門羅幣發送者的輸出](/knowledge/ring-signatures/)
+  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses)/
 
-  * [門羅幣是如何解決困擾比特幣的區塊大小的擴容問題](/knowledge/dynamic-block-size/)
+  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses)/
 
-  * [ 新的CLSAG環簽名技術將如何提高門羅幣的效率](/knowledge/what-is-clsag/)
+  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs)/
 
-  * [為什麼門羅幣擁有尾部增發的特性](/knowledge/monero-tail-emission/)
+  * [门罗币最佳入门指南](/knowledge/monero-best-practices)/
 
-  * [門羅幣的前世今生](/knowledge/monero-history/)
+  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures)/
 
-  * [Wired雜誌是如何誤解了門羅](/knowledge/wired-article-debunked/)
+  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size)/
 
-  * [流言終結者：關於門羅幣的15大傳言和疑慮](/knowledge/monero-myths-debunked/)
+  * [ 新的CLSAG环签名技术将如何提高门罗币的效率](/knowledge/what-is-clsag)/
 
-  * [Dandelion ++蒲公英改進協議如何使Monero從源頭得到更強防護](/knowledge/monero-dandelion/)
+  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission)/
 
-  * [為什麼門羅幣是開源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [门罗币的前世今生](/knowledge/monero-history)/
 
-  * [門羅幣挖礦: 什麼使 RandomX 算法如此特別](/knowledge/monero-mining-randomx/)
+  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked)/
 
-  * [為什麼門羅幣優於達世幣, 大零幣, 小零幣 , 古靈幣以及經過Wasabi級別混幣器混淆後的比特幣 (更新於2020年五月)](/knowledge/why-monero-is-better/)
+  * [流言终结者：关于门罗币的15大传言和疑虑](/knowledge/monero-myths-debunked)/
+
+  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion)/
+
+  * [为什么门罗币是开源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized)/
+
+  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx)/
+
+  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better)/
+
+进一步阅读

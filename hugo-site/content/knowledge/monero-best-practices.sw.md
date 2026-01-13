@@ -10,7 +10,11 @@ Watumiaji wengi wanaweza kushangazwa kujua kwamba wataalamu wanafikiri kwamba in
 
 ## ANDIKA MBEGU YAKO!
 
+## ANDIKA MBEGU YAKO!
+
 Njia ya kwanza na kubwa zaidi ya kuweka sarafu-fiche zako salama ni kuandika mbegu yako ya kumbukumbu ya Monero, ambayo ni orodha fupi ya maneno inayoonyeshwa unapounda pochi lako kwa mara ya kwanza. Ikiwa una mbegu hii, lakini kompyuta/simu yako inakufa, basi unaweza kurejesha Monero lako. Ikiwa huna mbegu hii, na ukipoteza pochi lako, basi Monero yako imepotea na hakuna mtu anayeweza kukusaidia kuirejesha. Vivyo hivyo, usishiriki mbegu hii na mtu yeyote. Ikiwa wana orodha hii ya maneno, wana ufikiaji kamili na haki za kutumia kwa Monero lako. Wengi wamekuwa wazembe katika kupata mbegu zao, na kuja kwenye ukweli wa kutisha wa fedha zilizopotea kwa sababu kuna mtu amezichukua. Tunapendekeza kuandika. Kimwili. Kutoihifadhi kidijitali, na kuhakikisha kuwa una nakala kadhaa katika sehemu mbalimbali. Hili ndilo jambo la kwanza unaweza kufanya ili kulinda Monero yako. ANDIKA MBEGU YAKO!
+
+## Angalia tena anwani zako
 
 ## Angalia tena anwani zako
 
@@ -18,11 +22,17 @@ Baadhi ya ulaghai hutumia programu hasidi kwenye kompyuta yako ambalo hubadilish
 
 ## Jifunze tofauti kati ya pochi moto na baridi
 
+## Jifunze tofauti kati ya pochi moto na baridi
+
 Pochi za joto na baridi ni istilahi za kawaida katika nafasi za sarafu-fiche, na dhana ni rahisi sana. Pochi moto ni ile unayotoa na kuitumia mara-kwa-mara. Ni 'moto' kutokana na kuwa kwenye mfuko wako wa nyuma. Pochi baridi ni zile ambazo haziguswi mara nyingi, sawa na pesa katika benki. Kama vile si vyema kubeba mamia ya dola kwenye pochi lako halisi, lakini inakubalika kwa ujumla kufanya hivyo katika akaunti ya benki, watumiaji wanapaswa kuzingatia ni kiasi gani Monero ni busara kubeba katika pochi zao za moto, za simu, na ni kiasi gani bora zaidi kitakachosalia nyumbani kwa pili, ile ya baridi. Kwa njia hii, kupoteza simu, wizi au makosa mengine hakutasababisha hasara kamili za pesa.
 
 ## Je, pochi za vifaa ni sawa kwako?
 
+## Je, pochi za vifaa ni sawa kwako?
+
 Iwapo wazo la kuweka mazingira yako ya kidijitali bila virusi na programu hasidi linakuogopesha, basi unaweza kuzingatia pochi la maunzi. Kimsingi pochi la vifaa huweka funguo zako za kibinafsi kwenye kifaa, mbali na kompyuta lako. Kwa hivyo hata kama kompyuta yako itaathiriwa, wadukuzi hawataweza kufikia mbegu lako. Utakuwa na uwezo wa kutumia fedha tu ikiwa kwenye pochi la vifaa imeunganishwa kwenye kompyuta na kusaini shughuli hizo. Hii huhamisha usalama wa funguo kutoka kwa kompyuta yako, ambalo hutumiwa kwa vitu vingi, na ina sehemu kubwa ya mashambulizi, hadi kwenye pochi la vifaa, ambalo hutumiwa tu kwa kitu kimoja, na ina sehemu ndogo zaidi ya mashambulizi. Kwa mtu wa kawaida ambaye hajui mambo ya ndani na nje ya usalama wa kompyuta, ni chaguo linalofaa kuweka pesa zako salama.
+
+## Ukiwa na shaka, tumia chaguo-msingi (na Monero)
 
 ## Ukiwa na shaka, tumia chaguo-msingi (na Monero)
 
@@ -34,66 +44,68 @@ Hili linaweza kuonekana kama jambo geni kuzungumzia. Watumiaji wengi wanaweza ku
 
 Kusoma zaidi
 
-  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies/)
+  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies)/
 
-  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys/)
+  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys)/
 
-  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero/)
+  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero)/
 
-  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy/)
+  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades/)
+  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades)/
 
-  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero)/
 
-  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero/)
+  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup/)
+  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect/)
+  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect)/
 
-  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking/)
+  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking)/
 
-  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams/)
+  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams)/
 
-  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps/)
+  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking/)
+  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking)/
 
-  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct/)
+  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct)/
 
-  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses/)
+  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses)/
 
-  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses/)
+  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses)/
 
-  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs/)
+  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs)/
 
-  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures/)
+  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures)/
 
-  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size/)
+  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size)/
 
-  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag/)
+  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag)/
 
-  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission/)
+  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission)/
 
-  * [Historia fupi ya Monero](/knowledge/monero-history/)
+  * [Historia fupi ya Monero](/knowledge/monero-history)/
 
-  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked/)
+  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked)/
 
-  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked/)
+  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked)/
 
-  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion/)
+  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion)/
 
-  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx/)
+  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx)/
 
-  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better/)
+  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better)/
+
+Kusoma zaidi

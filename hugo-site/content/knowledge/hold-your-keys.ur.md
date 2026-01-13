@@ -14,6 +14,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## آپ کی اپنی چابیاں رکھنا کیوں ضروری ہے؟
 
+## آپ کی اپنی چابیاں رکھنا کیوں ضروری ہے؟
+
 خود کی تحویل کے سب سے عام غلط فہمی والے پہلوؤں میں سے ایک منیرو یہ ہے کہ اگر آپ اپنی چابیاں نہیں رکھتے ہیں، تو آپ کو بہت کم فائدہ ہوتا ہے۔ منیرو کی پرائیویسی آفرز سے فائدہ اٹھائیں۔ لین دین کے بھیجنے والے کے طور پر حقیقی خرچ، رقم، اور وصول کنندہ کے پتے کی مکمل مرئیت ہے، اگر آپ ٹرانزیکشن بھیجنے والے نہیں ہیں اور اس کے بجائے اسے چھوڑ دیں۔ ایکسچینج یا نگہبان، ان کے پاس _مکمل_ مرئیت ہے اپنے منیرو خرچ کرنے کے طریقے۔
 
 شکر ہے، فنڈز بھیجنے کے بعد، منیرو کی رازداری کی ضمانت دیتا ہے لات ماریں اور مضبوط "آگے کی رازداری" فراہم کریں، لیکن یہ واضح ہو جائے گا ایکسچینج یا کسٹوڈین جہاں آپ نے فنڈز بھیجے اور آپ نے کتنی رقم بھیجی۔ ابتدائی طور پر
@@ -38,6 +40,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## میں Monero کے ساتھ اپنی چابیاں کیسے پکڑ سکتا ہوں؟
 
+## میں Monero کے ساتھ اپنی چابیاں کیسے پکڑ سکتا ہوں؟
+
 جب آپ خود اپنی چابیاں رکھنا شروع کرتے ہیں تو سب سے اہم چیز یاد رکھیں کہ _اپنے بیج کے جملے کو محفوظ کریں اور محفوظ رکھیں_! یہ ہے 14 یا 25 بے ترتیب الفاظ کا سیٹ جو کوئی بھی Monero والیٹ آپ کو دے گا جب آپ ایک بٹوہ بناتے ہیں، اور اگر آپ کو اپنے فنڈز واپس حاصل کرنے کی ضرورت ہو گی۔ آپ اپنا فون، اپنا ڈیسک ٹاپ، اپنا لیپ ٹاپ کھو دیتے ہیں، یا آپ بھول جاتے ہیں۔ پاس ورڈ۔
 
 اس بیج کے جملے کو اس طرح سمجھیں جیسے یہ آپ کے تمام مونیرو کے قابل ہے۔ پرس، جیسا کہ جو بھی اسے حاصل کرے گا اسے فنڈز تک مکمل رسائی حاصل ہوگی۔ آپ کا بٹوہ. اسے محفوظ یا خفیہ جگہ پر رکھنا مثالی ہے، آگ یا قدرتی آفت کی صورت میں متعدد کاپیاں محفوظ رکھیں، اور کبھی نہیں۔ اسے کسی کو بھی دکھائیں۔
@@ -47,9 +51,11 @@ image_credit_url: "https://cypherstack.com"
 اگر آپ بنیادی طور پر ایک ڈیسک ٹاپ صارف ہیں اور Monero خرچ نہیں کرتے/ وصول نہیں کرتے چلتے پھرتے اکثر، آپ کے پاس رکھنے کے لیے چند ٹھوس انتخاب ہوتے ہیں۔ کسی بھی فریق ثالث پر انحصار کیے بغیر کیز۔
 
   * [آفیشل مونیرو پرس](https://getmonero.org/downloads)
-    * یہ آفیشل Monero والیٹ سافٹ ویئر ہے، اور اس نے مسلسل دیکھا ہے۔ بہتری اور اضافے۔ اس میں ایک مربوط Monero ڈیمون شامل ہے (اگر آپ چاہتے ہیں)، بہت صارف دوست ہے، اور جلد ہی [کان کنی براہ راست اپنے بٹوے سے p2pool کے ذریعے](/knowledge/p2pool-decentralizing-monero-mining/)۔
+    * یہ آفیشل Monero والیٹ سافٹ ویئر ہے، اور اس نے مسلسل دیکھا ہے۔ بہتری اور اضافے۔ اس میں ایک مربوط Monero ڈیمون شامل ہے (اگر آپ چاہتے ہیں)، بہت صارف دوست ہے، اور جلد ہی [کان کنی براہ راست اپنے بٹوے سے p2pool کے ذریعے](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining)۔
   * [Feather Wallet](https://featherwallet.org/)
     * یہ [الیکٹرم برائے بٹ کوائن](https://electrum.org/)، اور دونوں فراہم کرتا ہے۔ ایک سنگل میں سادہ استعمال اور انتہائی طاقتور خصوصیات پرس۔
+
+  * یہ آفیشل Monero والیٹ سافٹ ویئر ہے، اور اس نے مسلسل دیکھا ہے۔ بہتری اور اضافے۔ اس میں ایک مربوط Monero ڈیمون شامل ہے (اگر آپ چاہتے ہیں)، بہت صارف دوست ہے، اور جلد ہی [کان کنی براہ راست اپنے بٹوے سے p2pool کے ذریعے](https://localmonero.co/knowledge/p2pool-decentralizing-monero-mining)۔
 
   * یہ [الیکٹرم برائے بٹ کوائن](https://electrum.org/)، اور دونوں فراہم کرتا ہے۔ ایک سنگل میں سادہ استعمال اور انتہائی طاقتور خصوصیات پرس۔
 
@@ -66,6 +72,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## نتیجہ
 
+## نتیجہ
+
 امید ہے کہ اس پوسٹ نے آپ کے پاس رکھنے کی ضرورت کو کم کرنے میں مدد کی ہے۔ اپنی چابیاں، نیز آپ کو میں سے کچھ بہترین بٹوے کی طرف اشارہ کیا۔
 
 جتنا زیادہ آپ مونیرو کو اپنے ہاتھ میں لیں گے اور حقیقت میں اسے استعمال کریں گے، مزید فائدہ آپ ابھی اور مستقبل دونوں میں حاصل کر سکتے ہیں۔ مونیرو صرف نہیں ہے ایک قیاس آرائی پر مبنی اثاثہ - یہ آزادی اور مالی کے لیے ایک طاقتور ٹول ہے۔ رازداری جس کی آج کی دنیا اور آنے والے مستقبل میں بہت زیادہ ضرورت ہے۔
@@ -74,66 +82,68 @@ image_credit_url: "https://cypherstack.com"
 
 مزید پڑھيے
 
-  * [کس طرح Monero منفرد طور پر سرکلر اکانومی کو قابل بناتا ہے](/knowledge/monero-circular-economies/)
+  * [کس طرح Monero منفرد طور پر سرکلر اکانومی کو قابل بناتا ہے](/knowledge/monero-circular-economies)/
 
-  * [Monero کے انگوٹھی کے دستخط بمقابلہ CoinJoin جیسےWasabi میں](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Monero کے انگوٹھی کے دستخط بمقابلہ CoinJoin جیسےWasabi میں](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Monero میں واپس تعاون کرنا](/knowledge/contributing-to-monero/)
+  * [Monero میں واپس تعاون کرنا](/knowledge/contributing-to-monero)/
 
-  * [ریموٹ نوڈس Monero کی رازداری کو کیسے متاثر کرتے ہیں](/knowledge/remote-nodes-privacy/)
+  * [ریموٹ نوڈس Monero کی رازداری کو کیسے متاثر کرتے ہیں](/knowledge/remote-nodes-privacy)/
 
-  * [کس طرح Monero نیٹ ورک کو اپ گریڈ کرنے کے لیے ہارڈ فورکس کا استعمال کرتا ہے](/knowledge/network-upgrades/)
+  * [کس طرح Monero نیٹ ورک کو اپ گریڈ کرنے کے لیے ہارڈ فورکس کا استعمال کرتا ہے](/knowledge/network-upgrades)/
 
-  * [ٹیگز دیکھیں: کس طرح ایک بائٹ Monero والیٹ کی مطابقت پذیری کے اوقات کو 40%+ تک کم کر دے گا](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [ٹیگز دیکھیں: کس طرح ایک بائٹ Monero والیٹ کی مطابقت پذیری کے اوقات کو 40%+ تک کم کر دے گا](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool اور Monero Mining کی وکندریقرت میں اس کا کردار](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool اور Monero Mining کی وکندریقرت میں اس کا کردار](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [سیرفیس: یہ مونیرو کے لئے کیا کرے گا](/knowledge/seraphis-for-monero/)
+  * [سیرفیس: یہ مونیرو کے لئے کیا کرے گا](/knowledge/seraphis-for-monero)/
 
-  * [کیا بٹ کوائن کو مونیرو میں تبدیل کرنا اتنا ہی نجی ہے جتنا براہ راست مونیرو خریدنا؟](/knowledge/most-private-way-to-buy-monero/)
+  * [کیا بٹ کوائن کو مونیرو میں تبدیل کرنا اتنا ہی نجی ہے جتنا براہ راست مونیرو خریدنا؟](/knowledge/most-private-way-to-buy-monero)/
 
-  * [کیوں Monero Zcash کے برعکس ٹرسٹ لیس سیٹ اپ استعمال کرتا ہے](/knowledge/monero-trustless-setup/)
+  * [کیوں Monero Zcash کے برعکس ٹرسٹ لیس سیٹ اپ استعمال کرتا ہے](/knowledge/monero-trustless-setup)/
 
-  * [کیوں Monero Bitcoin سے قیمت کا ایک بہتر اسٹور ہے](/knowledge/monero-better-store-of-value/)
+  * [کیوں Monero Bitcoin سے قیمت کا ایک بہتر اسٹور ہے](/knowledge/monero-better-store-of-value)/
 
-  * [Monero Bitcoin کے نیٹ ورک اثرات پر کیسے قابو پا سکتا ہے](/knowledge/network-effect/)
+  * [Monero Bitcoin کے نیٹ ورک اثرات پر کیسے قابو پا سکتا ہے](/knowledge/network-effect)/
 
-  * [کیوں مونیرو کے پاس سب سے زیادہ تنقیدی سوچ رکھنے والی جماعت ہے](/knowledge/critical-thinking/)
+  * [کیوں مونیرو کے پاس سب سے زیادہ تنقیدی سوچ رکھنے والی جماعت ہے](/knowledge/critical-thinking)/
 
-  * [Monero استعمال کرتے وقت گھوٹالے تلاش کرنے کے لیے](/knowledge/monero-scams/)
+  * [Monero استعمال کرتے وقت گھوٹالے تلاش کرنے کے لیے](/knowledge/monero-scams)/
 
-  * [مونیرو میں جوہری تبدیلی کیسے کام کرے گی](/knowledge/monero-atomic-swaps/)
+  * [مونیرو میں جوہری تبدیلی کیسے کام کرے گی](/knowledge/monero-atomic-swaps)/
 
-  * [جب نیٹ ورکنگ کی بات آتی ہے تو ہر Monero صارف کو کیا جاننے کی ضرورت ہوتی ہے](/knowledge/monero-networking/)
+  * [جب نیٹ ورکنگ کی بات آتی ہے تو ہر Monero صارف کو کیا جاننے کی ضرورت ہوتی ہے](/knowledge/monero-networking)/
 
-  * [RingCT Monero ٹرانزیکشن کی رقم کو کیسے چھپاتا ہے](/knowledge/monero-ringct/)
+  * [RingCT Monero ٹرانزیکشن کی رقم کو کیسے چھپاتا ہے](/knowledge/monero-ringct)/
 
-  * [مونیرو اسٹیلتھ ایڈریسز آپ کی شناخت کی حفاظت کیسے کرتے ہیں](/knowledge/monero-stealth-addresses/)
+  * [مونیرو اسٹیلتھ ایڈریسز آپ کی شناخت کی حفاظت کیسے کرتے ہیں](/knowledge/monero-stealth-addresses)/
 
-  * [مونیرو سب ایڈریسز شناخت کو جوڑنے سے کیسے روکتے ہیں](/knowledge/monero-subaddresses/)
+  * [مونیرو سب ایڈریسز شناخت کو جوڑنے سے کیسے روکتے ہیں](/knowledge/monero-subaddresses)/
 
-  * [Monero آؤٹ پٹس کی وضاحت کی گئی](/knowledge/monero-outputs/)
+  * [Monero آؤٹ پٹس کی وضاحت کی گئی](/knowledge/monero-outputs)/
 
-  * [مبتدیوں کے لیے Monero بہترین طرز عمل](/knowledge/monero-best-practices/)
+  * [مبتدیوں کے لیے Monero بہترین طرز عمل](/knowledge/monero-best-practices)/
 
-  * [رنگ کے دستخط کیسے مونیرو کے آؤٹ پٹس کو غیر واضح کرتے ہیں](/knowledge/ring-signatures/)
+  * [رنگ کے دستخط کیسے مونیرو کے آؤٹ پٹس کو غیر واضح کرتے ہیں](/knowledge/ring-signatures)/
 
-  * [مونیرو نے بلاک سائز کا مسئلہ کیسے حل کیا جو بٹ کوائن کو متاثر کرتا ہے](/knowledge/dynamic-block-size/)
+  * [مونیرو نے بلاک سائز کا مسئلہ کیسے حل کیا جو بٹ کوائن کو متاثر کرتا ہے](/knowledge/dynamic-block-size)/
 
-  * [CLSAG Monero کی کارکردگی کو کیسے بہتر بنائے گا](/knowledge/what-is-clsag/)
+  * [CLSAG Monero کی کارکردگی کو کیسے بہتر بنائے گا](/knowledge/what-is-clsag)/
 
-  * [مونیرو میں دم کا اخراج کیوں ہوتا ہے](/knowledge/monero-tail-emission/)
+  * [مونیرو میں دم کا اخراج کیوں ہوتا ہے](/knowledge/monero-tail-emission)/
 
-  * [مونیرو کی مختصر تاریخ](/knowledge/monero-history/)
+  * [مونیرو کی مختصر تاریخ](/knowledge/monero-history)/
 
-  * [وائرڈ میگزین مونیرو کے بارے میں غلط ہے، اس کی وجہ یہ ہے](/knowledge/wired-article-debunked/)
+  * [وائرڈ میگزین مونیرو کے بارے میں غلط ہے، اس کی وجہ یہ ہے](/knowledge/wired-article-debunked)/
 
-  * [سرفہرست 15 مونیرو خرافات اور خدشات کو ختم کیا گیا](/knowledge/monero-myths-debunked/)
+  * [سرفہرست 15 مونیرو خرافات اور خدشات کو ختم کیا گیا](/knowledge/monero-myths-debunked)/
 
-  * [کیسے ڈینڈیلین ++ مونیرو کے لین دین کی اصل کو نجی رکھتا ہے](/knowledge/monero-dandelion/)
+  * [کیسے ڈینڈیلین ++ مونیرو کے لین دین کی اصل کو نجی رکھتا ہے](/knowledge/monero-dandelion)/
 
-  * [مونیرو اوپن سورس اورdecentralized کیوں ہے](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [مونیرو اوپن سورس اورdecentralized کیوں ہے](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: RandomX کو کیا خاص بناتا ہے](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: RandomX کو کیا خاص بناتا ہے](/knowledge/monero-mining-randomx)/
 
-  * [کیوں Monero Dash، Zcash، Zcoin (یہاں تک کہ Lelantus کے ساتھ) سے بہتر ہے، Grin اور Bitcoin مکسرز جیسے Wasabi (مئی 2020 کو اپ ڈیٹ کیا گیا)](/knowledge/why-monero-is-better/)
+  * [کیوں Monero Dash، Zcash، Zcoin (یہاں تک کہ Lelantus کے ساتھ) سے بہتر ہے، Grin اور Bitcoin مکسرز جیسے Wasabi (مئی 2020 کو اپ ڈیٹ کیا گیا)](/knowledge/why-monero-is-better)/
+
+مزید پڑھيے

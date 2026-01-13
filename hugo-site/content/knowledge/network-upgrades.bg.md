@@ -12,6 +12,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## Защо Monero трябва да продължи да надгражда мрежата?
 
+## Защо Monero трябва да продължи да надгражда мрежата?
+
 Общността на Monero се е ангажирала да повтаря и подобрява проекта с течение на времето и изглежда че ангажиментът се свежда до два ключови аспекта от етиката на общността: 
 
   1. Проектът Monero в крайна сметка е софтуер – код – написан от хора. Това може да доведе до необходимост от коригиране на грешки добавяне на подобрения които са открити или измислени с течение на времето внедряване на модернизации на протокола или просто поддържане на проекта. Това е подобно по много начини на другите софтуерни части които използвате (като браузъра в който четете това!) които трябва постоянно да се актуализират за да добавят нови функции и да коригират грешки.
@@ -24,6 +26,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## Какво е хард-форк?
 
+## Какво е хард-форк?
+
 Сложността на надграждането на Monero влиза в сила след като разберете колко различно е надграждането на криптовалута спрямо простото натискане на софтуерна актуализация на нещо като браузър.
 
 При криптовалутите правилата на мрежата (неща като това как трябва да изглеждат транзакциите как работи копаенето и как да се проверява всеки блок) трябва да бъдат съгласувани от мрежата нещо което се нарича „консенсус“. Когато някое от тези правила трябва да бъде променено или надстроено, мрежата трябва да се съгласи с новите правила, причинявайки „hard-fork“ – ситуация, при която мрежата всъщност се разделя на две вериги от блокове – една на старите правила и един за новите правила.
@@ -31,6 +35,8 @@ image_credit_url: "https://cypherstack.com"
 Когато всички в общността са съгласни с промените в правилата, това се нарича „неспорен хард-форк“ и веригата, която все още има старите правила, умира и не се копае след хард-форка. Това беше случаят с почти всеки хард-форк на Monero и единственото продължение на старите правила беше чрез проекти, които се опитваха да спечелят от хард-форка.
 
 Въпреки че неконфликтните хард-форкове са единственият начин за правилно надграждане на важни аспекти на мрежата Monero те имат и разочароващ страничен ефект – старият софтуер, пуснат преди планирането на хард-форка не може да разбере новите правила на мрежата и така не функционира след хард-форка! Това може да накара потребителите да си помислят че средствата са загубени че блокчейнът Monero е спрял и не могат да преместят средства, докато не надстроят портфейла си.
+
+## Кой решава кога мрежата Monero да се надгражда и какво е включено?
 
 ## Кой решава кога мрежата Monero да се надгражда и какво е включено?
 
@@ -50,6 +56,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## Как мога да помогна с мрежовите надстройки?
 
+## Как мога да помогна с мрежовите надстройки?
+
 Тъй като подобрения на Monero мрежата изискват координация и одобрение от общността заедно със софтуерните актуализации е изключително важно възможно най-много хора да участват в процеса на планиране тестване и комуникация на мрежовите надстройки.
 
 Ето няколко лесни начина по които можете да помогнете за изглаждането на нещата около мрежово надграждане: 
@@ -61,14 +69,18 @@ image_credit_url: "https://cypherstack.com"
 
 ## Какво мога да очаквам при следващото подобрение на Monero мрежата?
 
+## Какво мога да очаквам при следващото подобрение на Monero мрежата?
+
 Въпреки че все още няма точно определена дата, скоро ще има мрежова подобрения за внедряване на няколко ключови надстройки и функции в Monero: 
 
   1. Увеличаване на размера на пръстена от 11 на 16, увеличавайки базовия набор за анонимност (да се чете: правдоподобно отричане или основна поверителност) на всяка транзакция в мрежата
-  2. [Преглед на тагове брилянтен начин за намаляване на времето за синхронизиране на портфейла с 30-40%](/knowledge/view-tags-reduce-monero-sync-time/)
+  2. [Преглед на тагове брилянтен начин за намаляване на времето за синхронизиране на портфейла с 30-40%](https://localmonero.co/knowledge/view-tags-reduce-monero-sync-time)
   3. Промени в таксите подобряване на сигурността и устойчивостта на мрежата към бързи промени в пазара на такси или атаки от злонамерени субекти 
   4. [Bulletproofs+, допълнително подобрение в ефективността на транзакциите на Monero](https://www.getmonero.org/2020/12/24/Bulletproofs+-in-Monero.html)
 
-Тези промени ще извършат дълъг път към повишаване на поверителността, ефективността и сигурността на мрежата като същевременно проправят пътя за [Seraphis](/knowledge/seraphis-for-monero/), следващото поколение протокол за транзакции за Monero.
+Тези промени ще извършат дълъг път към повишаване на поверителността, ефективността и сигурността на мрежата като същевременно проправят пътя за [Seraphis](https://localmonero.co/knowledge/seraphis-for-monero), следващото поколение протокол за транзакции за Monero.
+
+## Как мога да науча повече?
 
 ## Как мога да науча повече?
 
@@ -80,66 +92,68 @@ image_credit_url: "https://cypherstack.com"
 
 Допълнителна информация
 
-  * [Как Monero уникално позволява кръгови икономики](/knowledge/monero-circular-economies/)
+  * [Как Monero уникално позволява кръгови икономики](/knowledge/monero-circular-economies)/
 
-  * [Пръстеновите подписи на Monero срещу CoinJoin като Wasabi](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Пръстеновите подписи на Monero срещу CoinJoin като Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Защо (и как!) трябва да държите собствените си ключове](/knowledge/hold-your-keys/)
+  * [Защо (и как!) трябва да държите собствените си ключове](/knowledge/hold-your-keys)/
 
-  * [Принос към Monero](/knowledge/contributing-to-monero/)
+  * [Принос към Monero](/knowledge/contributing-to-monero)/
 
-  * [Как отдалечените възли влият върху поверителността на Monero](/knowledge/remote-nodes-privacy/)
+  * [Как отдалечените възли влият върху поверителността на Monero](/knowledge/remote-nodes-privacy)/
 
-  * [Преглед на тагове: Как един байт ще намали времето за синхронизиране на портфейла на Monero с 40%+](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Преглед на тагове: Как един байт ще намали времето за синхронизиране на портфейла на Monero с 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool и неговата роля в децентрализацията на Monero Mining](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool и неговата роля в децентрализацията на Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Какво ще направи за Monero](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Какво ще направи за Monero](/knowledge/seraphis-for-monero)/
 
-  * [Конвертирането на биткойни в Monero също толкова лично ли е колкото и директното закупуване на Monero?](/knowledge/most-private-way-to-buy-monero/)
+  * [Конвертирането на биткойни в Monero също толкова лично ли е колкото и директното закупуване на Monero?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Защо Monero използва безнадеждна настройка за разлика от Zcash](/knowledge/monero-trustless-setup/)
+  * [Защо Monero използва безнадеждна настройка за разлика от Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Защо Monero е по-добро хранилище на стойност от биткойн](/knowledge/monero-better-store-of-value/)
+  * [Защо Monero е по-добро хранилище на стойност от биткойн](/knowledge/monero-better-store-of-value)/
 
-  * [Как Monero може да преодолее мрежовите ефекти на Биткойн](/knowledge/network-effect/)
+  * [Как Monero може да преодолее мрежовите ефекти на Биткойн](/knowledge/network-effect)/
 
-  * [Защо Monero има най-критично мислещата общност](/knowledge/critical-thinking/)
+  * [Защо Monero има най-критично мислещата общност](/knowledge/critical-thinking)/
 
-  * [Измами за които да внимавате когато използвате Monero](/knowledge/monero-scams/)
+  * [Измами за които да внимавате когато използвате Monero](/knowledge/monero-scams)/
 
-  * [Как ще работят атомните размяни в Monero](/knowledge/monero-atomic-swaps/)
+  * [Как ще работят атомните размяни в Monero](/knowledge/monero-atomic-swaps)/
 
-  * [Какво всеки потребител на Monero трябва да знае когато става въпрос за работа в мрежа](/knowledge/monero-networking/)
+  * [Какво всеки потребител на Monero трябва да знае когато става въпрос за работа в мрежа](/knowledge/monero-networking)/
 
-  * [Как RingCT скрива сумите на транзакциите на Monero](/knowledge/monero-ringct/)
+  * [Как RingCT скрива сумите на транзакциите на Monero](/knowledge/monero-ringct)/
 
-  * [Как Monero Stealth адресите защитават вашата самоличност](/knowledge/monero-stealth-addresses/)
+  * [Как Monero Stealth адресите защитават вашата самоличност](/knowledge/monero-stealth-addresses)/
 
-  * [Как подадресите на Monero предотвратяват свързването на самоличност](/knowledge/monero-subaddresses/)
+  * [Как подадресите на Monero предотвратяват свързването на самоличност](/knowledge/monero-subaddresses)/
 
-  * [Обяснени изходи на Monero](/knowledge/monero-outputs/)
+  * [Обяснени изходи на Monero](/knowledge/monero-outputs)/
 
-  * [Най-добри практики на Monero за начинаещи](/knowledge/monero-best-practices/)
+  * [Най-добри практики на Monero за начинаещи](/knowledge/monero-best-practices)/
 
-  * [Как Ring подписите прикриват резултатите на Monero](/knowledge/ring-signatures/)
+  * [Как Ring подписите прикриват резултатите на Monero](/knowledge/ring-signatures)/
 
-  * [Как Monero реши проблема с размера на блока който тормози биткойн](/knowledge/dynamic-block-size/)
+  * [Как Monero реши проблема с размера на блока който тормози биткойн](/knowledge/dynamic-block-size)/
 
-  * [Как CLSAG ще подобри ефективността на Monero](/knowledge/what-is-clsag/)
+  * [Как CLSAG ще подобри ефективността на Monero](/knowledge/what-is-clsag)/
 
-  * [Защо Monero има опашкова емисия](/knowledge/monero-tail-emission/)
+  * [Защо Monero има опашкова емисия](/knowledge/monero-tail-emission)/
 
-  * [Кратка история на Monero](/knowledge/monero-history/)
+  * [Кратка история на Monero](/knowledge/monero-history)/
 
-  * [Wired Magazine греши за Monero, ето защо](/knowledge/wired-article-debunked/)
+  * [Wired Magazine греши за Monero, ето защо](/knowledge/wired-article-debunked)/
 
-  * [Топ 15 развенчани мита и притеснения за Monero](/knowledge/monero-myths-debunked/)
+  * [Топ 15 развенчани мита и притеснения за Monero](/knowledge/monero-myths-debunked)/
 
-  * [Как Dandelion++ пази в тайна произхода на транзакциите на Monero](/knowledge/monero-dandelion/)
+  * [Как Dandelion++ пази в тайна произхода на транзакциите на Monero](/knowledge/monero-dandelion)/
 
-  * [Защо Monero е с отворен код и е децентрализиран](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Защо Monero е с отворен код и е децентрализиран](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Monero Mining: Какво прави RandomX толкова специален](/knowledge/monero-mining-randomx/)
+  * [Monero Mining: Какво прави RandomX толкова специален](/knowledge/monero-mining-randomx)/
 
-  * [Защо Monero е по-добър от Dash, Zcash, Zcoin (дори с Lelantus), Grin и Bitcoin Mixers като Wasabi (Актуализиран през май 2020 г.)](/knowledge/why-monero-is-better/)
+  * [Защо Monero е по-добър от Dash, Zcash, Zcoin (дори с Lelantus), Grin и Bitcoin Mixers като Wasabi (Актуализиран през май 2020 г.)](/knowledge/why-monero-is-better)/
+
+Допълнителна информация

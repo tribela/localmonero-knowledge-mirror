@@ -12,6 +12,8 @@ Valtaosa Monero-yhteisön ihmisistä ei välttämättä ole kehittäjiä, joten 
 
 ## Moneron yhteisön joukkorahoitusjärjestelmä
 
+## Moneron yhteisön joukkorahoitusjärjestelmä
+
 Monero käyttää ainutlaatuista järjestelmää töiden rahoittamiseen nimeltä [Community Crowdfunding System](https://ccs.getmonero.org/) (tai "CCS"), jonka avulla kuka tahansa yhteisön jäsen voi esittää rahoitusidean. Jos yhteisö hyväksyy nämä ehdotukset, ne avataan yhteisön rahoitettavaksi.
 
 Järjestelmässä on kaksi vaihetta, joista kumpikin hyötyy kaikentaustaisten ihmisten suuremmasta osallistumisesta.
@@ -30,6 +32,8 @@ _Näet kaikki "Rahoitusta tarvitaan" -vaiheessa olevat ehdotukset osoitteessa[CC
 
 ## Koulutus
 
+## Koulutus
+
 Toinen hieno tapa osallistua Monero-projektiin on kouluttaa ja vahvistaa uusia ja olemassa olevia yhteisön jäseniä. Tätä voi esiintyä monessa muodossa, mutta se voi olla niinkin yksinkertaista kuin Monerosta oppimasi tiedon jakaminen sosiaalisessa mediassa, blogissa jne.
 
 Tässä on muutamia konkreettisia tapoja, joilla voit auttaa koulutuksessa:
@@ -37,6 +41,8 @@ Tässä on muutamia konkreettisia tapoja, joilla voit auttaa koulutuksessa:
   * Aloita oma blogisi
   * Kirjoita viestiketjuja Twitteriin tai Reddit-viesteihin asioista, joista olet oppinut tai oppinut tekemään Moneron kanssa
   * Tee ohjevideo jokapäiväisistä Moneron kanssatekemisistäsi, kuten Moneron lähettämisestä, laitteistolompakon käyttämisestä, Moneron ostamisesta ja myymisestä osoitteessa [LocalMonero.co](https://localmonero.co) jne.
+
+## Tietoisuus ja sitoutuminen
 
 ## Tietoisuus ja sitoutuminen
 
@@ -91,9 +97,13 @@ Voit myös olla hyödyllistä verrata Bitcoinin ja Moneron kaltaisten tapahtumie
 
 ## r/monerosupport
 
+## r/monerosupport
+
 Jos olet ollut Monerossa jonkin aikaa tai sinulla on hyvä käsitys sen käytöstä ja vianetsinnästä, hyvä tapa osallistua on hypätä [r/monerosupport](https://www.reddit.com/r/monerosupport/)-subredditiin ja tarjota tukea käyttäjille, jotka kirjoittavat sinne.
 
 On jatkuvasti käyttäjiä, jotka tarvitsevat apua (yleensä) perusongelmissa ja vain harvat meistä ovat aktiivisia subredditissä auttamaan heitä. Olisi hienoa nähdä enemmän ihmisiä sukeltamaan ja osallistumaan auttamaan uusia ja nykyisiä käyttäjiä selvittämään ongelmansa!
+
+## Yhteisön kokoukset
 
 ## Yhteisön kokoukset
 
@@ -105,9 +115,13 @@ Jos päätät tulla ja osallistua, kunnioita aihejärjestystä, pysy aiheessa ja
 
 ## Käännökset
 
+## Käännökset
+
 Niille, jotka ovat kaksikielisiä tai enemmän, erittäin tärkeä tapa osallistua on auttaa käännöksissä englannista muille kielille. Uusia kieliä on aina käännettävä ja olemassa olevia kieliä päivitettävä kaikkialla ekosysteemissä, ja mitä useampia kieliä tuemme aktiivisesti, sitä kattavammaksi ja lähestyttävämmäksi Monero tulee.
 
 Käännöstarpeet ja -tiedot löytyvät osoitteesta [translate.getmonero.org](https://translate.getmonero.org/) tai [Githubista](https://github.com/monero-ecosystem/monero-translations).
+
+## Arkistointiongelmat
 
 ## Arkistointiongelmat
 
@@ -148,70 +162,74 @@ Mitä enemmän tietoja voit antaa ongelmassa, sitä parempi!
 
 ## Johtopäätös
 
+## Johtopäätös
+
 Toivottavasti tämä opas on herättänyt ideoita siitä, kuinka voit antaa Monerolle takaisin ainutlaatuisen taitosi, taustasi ja kokemuksesi avulla. Mitä enemmän yhteisöstä antaa takaisin tällaisilla tavoilla, sitä suurempi ja kypsempi Monero on ja sitä helpommin voimme saavuttaa yksityisen, vaihdettavan, itsenäisen ja sensuurin kestävän rahan tavoitteet.
 
 Lue lisää
 
-  * [Kuinka Monero ainutlaatuisesti mahdollistaa kiertotaloudet](/knowledge/monero-circular-economies/)
+  * [Kuinka Monero ainutlaatuisesti mahdollistaa kiertotaloudet](/knowledge/monero-circular-economies)/
 
-  * [Moneron sormusallekirjoitukset vs CoinJoin kuten Wasabissa](/knowledge/ring-signatures-vs-coinjoin/)
+  * [Moneron sormusallekirjoitukset vs CoinJoin kuten Wasabissa](/knowledge/ring-signatures-vs-coinjoin)/
 
-  * [Miksi (ja miten!) sinun pitäisi hallita omia avaimiasi](/knowledge/hold-your-keys/)
+  * [Miksi (ja miten!) sinun pitäisi hallita omia avaimiasi](/knowledge/hold-your-keys)/
 
-  * [Kuinka etäsolmut vaikuttavat Moneron yksityisyyteen](/knowledge/remote-nodes-privacy/)
+  * [Kuinka etäsolmut vaikuttavat Moneron yksityisyyteen](/knowledge/remote-nodes-privacy)/
 
-  * [Kuinka Monero käyttää hard forkkeja verkon päivittämiseen](/knowledge/network-upgrades/)
+  * [Kuinka Monero käyttää hard forkkeja verkon päivittämiseen](/knowledge/network-upgrades)/
 
-  * [Katselutunnisteet: Kuinka yksi tavu vähentää Moneron lompakon synkronointiaikoja yli 40%](/knowledge/view-tags-reduce-monero-sync-time/)
+  * [Katselutunnisteet: Kuinka yksi tavu vähentää Moneron lompakon synkronointiaikoja yli 40%](/knowledge/view-tags-reduce-monero-sync-time)/
 
-  * [P2Pool ja sen rooli Monero-louhinnan hajauttamisessa](/knowledge/p2pool-decentralizing-monero-mining/)
+  * [P2Pool ja sen rooli Monero-louhinnan hajauttamisessa](/knowledge/p2pool-decentralizing-monero-mining)/
 
-  * [Seraphis: Mitä se tekee Monerolle](/knowledge/seraphis-for-monero/)
+  * [Seraphis: Mitä se tekee Monerolle](/knowledge/seraphis-for-monero)/
 
-  * [Onko Bitcoinin muuntaminen Moneroksi yhtä yksityistä kuin Moneron ostaminen suoraan?](/knowledge/most-private-way-to-buy-monero/)
+  * [Onko Bitcoinin muuntaminen Moneroksi yhtä yksityistä kuin Moneron ostaminen suoraan?](/knowledge/most-private-way-to-buy-monero)/
 
-  * [Miksi Monero käyttää "Trustless" -asetusta toisin kuin Zcash](/knowledge/monero-trustless-setup/)
+  * [Miksi Monero käyttää "Trustless" -asetusta toisin kuin Zcash](/knowledge/monero-trustless-setup)/
 
-  * [Miksi Monero on parempi arvon säilyttäjä kuin Bitcoin](/knowledge/monero-better-store-of-value/)
+  * [Miksi Monero on parempi arvon säilyttäjä kuin Bitcoin](/knowledge/monero-better-store-of-value)/
 
-  * [Kuinka Monero voi voittaa Bitcoinin verkkovaikutukset](/knowledge/network-effect/)
+  * [Kuinka Monero voi voittaa Bitcoinin verkkovaikutukset](/knowledge/network-effect)/
 
-  * [Miksi Monerolla on kriittisin ajatteluyhteisö](/knowledge/critical-thinking/)
+  * [Miksi Monerolla on kriittisin ajatteluyhteisö](/knowledge/critical-thinking)/
 
-  * [Huijaukset, joita kannattaa huomioida Moneroa käytettäessä](/knowledge/monero-scams/)
+  * [Huijaukset, joita kannattaa huomioida Moneroa käytettäessä](/knowledge/monero-scams)/
 
-  * [Kuinka Atomic Swapit toimivat Monerossa](/knowledge/monero-atomic-swaps/)
+  * [Kuinka Atomic Swapit toimivat Monerossa](/knowledge/monero-atomic-swaps)/
 
-  * [Mitä jokaisen Moneron käyttäjän on tiedettävä verkostoitumisesta](/knowledge/monero-networking/)
+  * [Mitä jokaisen Moneron käyttäjän on tiedettävä verkostoitumisesta](/knowledge/monero-networking)/
 
-  * [Kuinka RingCT piilottaa Monero-transaktiosummat](/knowledge/monero-ringct/)
+  * [Kuinka RingCT piilottaa Monero-transaktiosummat](/knowledge/monero-ringct)/
 
-  * [Kuinka Monero Stealth -osoitteet suojaa identiteettiäsi](/knowledge/monero-stealth-addresses/)
+  * [Kuinka Monero Stealth -osoitteet suojaa identiteettiäsi](/knowledge/monero-stealth-addresses)/
 
-  * [Kuinka Monero-aliosoitteet estävät identiteetin yhdistämisen](/knowledge/monero-subaddresses/)
+  * [Kuinka Monero-aliosoitteet estävät identiteetin yhdistämisen](/knowledge/monero-subaddresses)/
 
-  * [Moneron Outputit selitettynä](/knowledge/monero-outputs/)
+  * [Moneron Outputit selitettynä](/knowledge/monero-outputs)/
 
-  * [Moneron parhaat käytännöt aloittelijoille](/knowledge/monero-best-practices/)
+  * [Moneron parhaat käytännöt aloittelijoille](/knowledge/monero-best-practices)/
 
-  * [Kuinka sormusallekirjoitukset sekoittavat Moneron outputit](/knowledge/ring-signatures/)
+  * [Kuinka sormusallekirjoitukset sekoittavat Moneron outputit](/knowledge/ring-signatures)/
 
-  * [Kuinka Monero ratkaisi Bitcoinia vaivaavan lohkokoko-ongelman](/knowledge/dynamic-block-size/)
+  * [Kuinka Monero ratkaisi Bitcoinia vaivaavan lohkokoko-ongelman](/knowledge/dynamic-block-size)/
 
-  * [Kuinka CLSAG parantaa Moneron tehokkuutta](/knowledge/what-is-clsag/)
+  * [Kuinka CLSAG parantaa Moneron tehokkuutta](/knowledge/what-is-clsag)/
 
-  * [Miksi Monerolla on "Tail Emission"](/knowledge/monero-tail-emission/)
+  * [Miksi Monerolla on "Tail Emission"](/knowledge/monero-tail-emission)/
 
-  * [Moneron lyhyt historia](/knowledge/monero-history/)
+  * [Moneron lyhyt historia](/knowledge/monero-history)/
 
-  * [Wired Magazine on väärässä Monerosta, tässä miksi](/knowledge/wired-article-debunked/)
+  * [Wired Magazine on väärässä Monerosta, tässä miksi](/knowledge/wired-article-debunked)/
 
-  * [15 parasta Monero-myyttiä ja -huolia, jotka on kumottu](/knowledge/monero-myths-debunked/)
+  * [15 parasta Monero-myyttiä ja -huolia, jotka on kumottu](/knowledge/monero-myths-debunked)/
 
-  * [Kuinka Dandelion++ pitää Moneron tapahtuman alkuperän yksityisenä](/knowledge/monero-dandelion/)
+  * [Kuinka Dandelion++ pitää Moneron tapahtuman alkuperän yksityisenä](/knowledge/monero-dandelion)/
 
-  * [Miksi Monero on avoimen lähdekoodin ja hajautettu](/knowledge/why-monero-is-open-source-and-decentralized/)
+  * [Miksi Monero on avoimen lähdekoodin ja hajautettu](/knowledge/why-monero-is-open-source-and-decentralized)/
 
-  * [Moneron louhinta: Mikä tekee RandomX:stä niin erityisen?](/knowledge/monero-mining-randomx/)
+  * [Moneron louhinta: Mikä tekee RandomX:stä niin erityisen?](/knowledge/monero-mining-randomx)/
 
-  * [Miksi Monero on parempi kuin Dash, Zcash, Zcoin (jopa Lelantuksen kanssa), Grin ja Bitcoin-mikserit kuten Wasabi (päivitetty toukokuussa 2020)](/knowledge/why-monero-is-better/)
+  * [Miksi Monero on parempi kuin Dash, Zcash, Zcoin (jopa Lelantuksen kanssa), Grin ja Bitcoin-mikserit kuten Wasabi (päivitetty toukokuussa 2020)](/knowledge/why-monero-is-better)/
+
+Lue lisää
