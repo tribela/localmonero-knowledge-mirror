@@ -8,12 +8,8 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: Monero لین دین کے لیے ایک ماڈیولر ڈیزائن اپ گریڈ
 
-## Seraphis: Monero لین دین کے لیے ایک ماڈیولر ڈیزائن اپ گریڈ
-
 یہ پوسٹ [Seraphis](https://github.com/UkoeHB/Seraphis) کی وضاحت کرتی ہے، لین دین کے پروٹوکول ڈھانچے اور تجریدات کا ایک مجموعہ جو تخلص تحقیقی معاون [`koe`](https://github.com/UkoeHB) نے Monero ماحولیاتی نظام کے لیے تیار کیا ہے، اور سیکیورٹی کے ساتھ جاری ہے۔ تخلص کنٹریبیوٹر کے ذریعے [`coinstudent2048`](https://github.com/coinstudent2048)  
 ہم کچھ آسانیاں بناتے ہیں اور وضاحت کی خاطر کچھ تکنیکی تفصیلات کو چھوڑ دیتے ہیں۔ اس وجہ سے، اور چونکہ Seraphis کا ڈیزائن ابھی تک جاری ہے، دلچسپی رکھنے والے قارئین کو تازہ ترین معلومات کے لیے Seraphis دستاویزات کا حوالہ دینا چاہیے۔
-
-## Monero میں لین دین
 
 ## Monero میں لین دین
 
@@ -45,12 +41,8 @@ image_credit_url: "https://cypherstack.com"
 
 ## سرافیس
 
-## سرافیس
-
 Seraphis اس خیال کو ایک قدم آگے لے جاتا ہے۔  
 موجودہ RingCT ٹرانزیکشن پروٹوکول کے انفرادی بلڈنگ بلاکس کو اپ ڈیٹ کرنے کے بجائے، یہ ایک مختلف پروٹوکول متعارف کراتا ہے جو مختلف بلڈنگ بلاکس سے فائدہ اٹھا سکتا ہے اور بہتر فعالیت پیش کر سکتا ہے۔
-
-## عمارت کے بلاکس
 
 ## عمارت کے بلاکس
 
@@ -69,8 +61,6 @@ Seraphis اپنے ڈیزائن کے اہداف کو حاصل کرنے کے لی�
 خوش قسمتی سے، Seraphis کو درکار کچھ بلڈنگ بلاکس پہلے سے ہی کہیں اور موجود ہیں، اور انہیں شروع سے ڈیزائن کرنے کی ضرورت نہیں ہے۔ بلٹ پروف اور بلٹ پروف + تعمیرات دونوں کو رینج پروف کے طور پر استعمال کیا جا سکتا ہے۔ Schnorr قسم کے ثابت کرنے والے نظاموں میں ترمیم کو ثبوتوں کی اجازت کے لیے استعمال کیا جا سکتا ہے۔ اور ایک موثر [ثابت کرنے والا نظام](https://eprint.iacr.org/2015/643) پہلے سے ہی Triptych، [Lelantus](https://eprint.iacr.org/2019/373)، اور [Spark](https://eprint.iacr.org/2021/1173)* کی بنیاد کے طور پر استعمال کیا جا سکتا ہے۔
 
 * سائفر اسٹیک کو اسپارک کی ترقی کے لیے فنڈنگ ملتی ہے۔
-
-## خطاب کرتے ہوئے
 
 ## خطاب کرتے ہوئے
 
@@ -94,74 +84,6 @@ Seraphis ایڈریس کرنے والی تعمیرات اس کو حل کر سک�
 
 ## بڑی تصویر
 
-## بڑی تصویر
-
 سیرفیس مونیرو ماحولیاتی نظام میں ایک بڑی تبدیلی ہے۔ اگرچہ اس میں ایڈریس اور ٹرانزیکشن بلڈنگ بلاکس میں ترمیم شامل ہے، اس کا ڈیزائن لچک اور مفید فعالیت پیش کرتا ہے جو آج کے RingCT پروٹوکول کے ساتھ ممکن نہیں ہے۔ جب کہ زیادہ تر ڈیزائن کو حتمی شکل دی گئی ہے اور اسے [ایک نفاذ](https://github.com/UkoeHB/monero/tree/seraphis_lib) میں تیار کیا جا رہا ہے، ایڈریس ڈیزائن اور سیکیورٹی کا تجزیہ جاری ہے۔ Seraphis Monero ماحولیاتی نظام کو آگے بڑھانے کا ایک بہترین موقع فراہم کرتا ہے!
-
-مزید پڑھيے
-
-  * [کس طرح Monero منفرد طور پر سرکلر اکانومی کو قابل بناتا ہے](/knowledge/monero-circular-economies)/
-
-  * [Monero کے انگوٹھی کے دستخط بمقابلہ CoinJoin جیسےWasabi میں](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [کیوں (اور کیسے!) آپ کو اپنی چابیاں اپنے پاس رکھنی چاہئیں](/knowledge/hold-your-keys)/
-
-  * [Monero میں واپس تعاون کرنا](/knowledge/contributing-to-monero)/
-
-  * [ریموٹ نوڈس Monero کی رازداری کو کیسے متاثر کرتے ہیں](/knowledge/remote-nodes-privacy)/
-
-  * [کس طرح Monero نیٹ ورک کو اپ گریڈ کرنے کے لیے ہارڈ فورکس کا استعمال کرتا ہے](/knowledge/network-upgrades)/
-
-  * [ٹیگز دیکھیں: کس طرح ایک بائٹ Monero والیٹ کی مطابقت پذیری کے اوقات کو 40%+ تک کم کر دے گا](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool اور Monero Mining کی وکندریقرت میں اس کا کردار](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [کیا بٹ کوائن کو مونیرو میں تبدیل کرنا اتنا ہی نجی ہے جتنا براہ راست مونیرو خریدنا؟](/knowledge/most-private-way-to-buy-monero)/
-
-  * [کیوں Monero Zcash کے برعکس ٹرسٹ لیس سیٹ اپ استعمال کرتا ہے](/knowledge/monero-trustless-setup)/
-
-  * [کیوں Monero Bitcoin سے قیمت کا ایک بہتر اسٹور ہے](/knowledge/monero-better-store-of-value)/
-
-  * [Monero Bitcoin کے نیٹ ورک اثرات پر کیسے قابو پا سکتا ہے](/knowledge/network-effect)/
-
-  * [کیوں مونیرو کے پاس سب سے زیادہ تنقیدی سوچ رکھنے والی جماعت ہے](/knowledge/critical-thinking)/
-
-  * [Monero استعمال کرتے وقت گھوٹالے تلاش کرنے کے لیے](/knowledge/monero-scams)/
-
-  * [مونیرو میں جوہری تبدیلی کیسے کام کرے گی](/knowledge/monero-atomic-swaps)/
-
-  * [جب نیٹ ورکنگ کی بات آتی ہے تو ہر Monero صارف کو کیا جاننے کی ضرورت ہوتی ہے](/knowledge/monero-networking)/
-
-  * [RingCT Monero ٹرانزیکشن کی رقم کو کیسے چھپاتا ہے](/knowledge/monero-ringct)/
-
-  * [مونیرو اسٹیلتھ ایڈریسز آپ کی شناخت کی حفاظت کیسے کرتے ہیں](/knowledge/monero-stealth-addresses)/
-
-  * [مونیرو سب ایڈریسز شناخت کو جوڑنے سے کیسے روکتے ہیں](/knowledge/monero-subaddresses)/
-
-  * [Monero آؤٹ پٹس کی وضاحت کی گئی](/knowledge/monero-outputs)/
-
-  * [مبتدیوں کے لیے Monero بہترین طرز عمل](/knowledge/monero-best-practices)/
-
-  * [رنگ کے دستخط کیسے مونیرو کے آؤٹ پٹس کو غیر واضح کرتے ہیں](/knowledge/ring-signatures)/
-
-  * [مونیرو نے بلاک سائز کا مسئلہ کیسے حل کیا جو بٹ کوائن کو متاثر کرتا ہے](/knowledge/dynamic-block-size)/
-
-  * [CLSAG Monero کی کارکردگی کو کیسے بہتر بنائے گا](/knowledge/what-is-clsag)/
-
-  * [مونیرو میں دم کا اخراج کیوں ہوتا ہے](/knowledge/monero-tail-emission)/
-
-  * [مونیرو کی مختصر تاریخ](/knowledge/monero-history)/
-
-  * [وائرڈ میگزین مونیرو کے بارے میں غلط ہے، اس کی وجہ یہ ہے](/knowledge/wired-article-debunked)/
-
-  * [سرفہرست 15 مونیرو خرافات اور خدشات کو ختم کیا گیا](/knowledge/monero-myths-debunked)/
-
-  * [کیسے ڈینڈیلین ++ مونیرو کے لین دین کی اصل کو نجی رکھتا ہے](/knowledge/monero-dandelion)/
-
-  * [مونیرو اوپن سورس اورdecentralized کیوں ہے](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: RandomX کو کیا خاص بناتا ہے](/knowledge/monero-mining-randomx)/
-
-  * [کیوں Monero Dash، Zcash، Zcoin (یہاں تک کہ Lelantus کے ساتھ) سے بہتر ہے، Grin اور Bitcoin مکسرز جیسے Wasabi (مئی 2020 کو اپ ڈیٹ کیا گیا)](/knowledge/why-monero-is-better)/
 
 مزید پڑھيے

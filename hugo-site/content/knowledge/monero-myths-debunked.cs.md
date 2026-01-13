@@ -26,24 +26,6 @@ To znamená, že existují některé běžné kritiky směřované na Monero, kt
   14. [Pokud je Monero tak soukromé, jak můžeme kontrolovat nabídku, abychom se ujistili, že nám nikdo netiskne Monero zdarma pod nosem?](/knowledge/monero-myths-debunked#14)/
   15. [Většina současného hashrate Monero pochází pouze ze dvou poolů.](/knowledge/monero-myths-debunked#15)/
 
-  1. [Monero bude čelit regulační kontrole daleko za hranicemi jiných kryptoměn kvůli svému závazku k ochraně soukromí a anonymity ve svých transakcích.](/knowledge/monero-myths-debunked#1)/
-  2. [Monero má méně možností peněženek.](/knowledge/monero-myths-debunked#2)/
-  3. [Monero má špatnou uživatelskou zkušenost.](/knowledge/monero-myths-debunked#3)/
-  4. [Monero se stane zastaralým, pokud populárnější blockchain přijme silnou technologii ochrany soukromí.](/knowledge/monero-myths-debunked#4)/
-  5. [Nemá Monero velmi vysoké transakční poplatky?](/knowledge/monero-myths-debunked#5)/
-  6. [Transakce Monero je mnohonásobně větší než transakce Bitcoinů.](/knowledge/monero-myths-debunked#6)/
-  7. [Monero má hard forky poměrně často. Neznamená to, že je centralizované?](/knowledge/monero-myths-debunked#7)/
-  8. [Toto je osobní mince fluffypony!](/knowledge/monero-myths-debunked#8)/
-  9. [Většina commitů od roku 2017 pochází od osoby známé jako moneromooo-monero](/knowledge/monero-myths-debunked#9)/
-  10. [Není Monero snadno napadnutelo 51 % útokem?](/knowledge/monero-myths-debunked#10)/
-  11. [Algoritmus šetrný k CPU? Nepřevezmou těžbu Monero jen botnety?](/knowledge/monero-myths-debunked#11)/
-  12. [Forky Monera nepoškozují jen jeho ekonomickou životaschopnost, ale i jeho soukromí!](/knowledge/monero-myths-debunked#12)/
-  13. [Nemělo Monero v počátcích mrzáckou těžbu, která byla použita k obohacení zakladatelů?](/knowledge/monero-myths-debunked#13)/
-  14. [Pokud je Monero tak soukromé, jak můžeme kontrolovat nabídku, abychom se ujistili, že nám nikdo netiskne Monero zdarma pod nosem?](/knowledge/monero-myths-debunked#14)/
-  15. [Většina současného hashrate Monero pochází pouze ze dvou poolů.](/knowledge/monero-myths-debunked#15)/
-
-## 1\. Monero bude čelit regulační kontrole daleko za hranicemi jiných kryptoměn kvůli svému závazku k ochraně soukromí a anonymity ve svých transakcích.
-
 ## 1\. Monero bude čelit regulační kontrole daleko za hranicemi jiných kryptoměn kvůli svému závazku k ochraně soukromí a anonymity ve svých transakcích.
 
 Jedná se o častou kritiku Monera, kvůli které se na něj mnozí dívají skrz prsty, a je to zdaleka ten případ, kdy reakce komunity není tak jednoznačná jako pouhá oprava nesprávného předpokladu.
@@ -58,13 +40,9 @@ Někdo by mohl namítnout, že pověst Bitcoinu se změnila, když si lidé uvě
 
 ## 2\. Monero má méně možností peněženek.
 
-## 2\. Monero má méně možností peněženek.
-
 Monero má skutečně méně možností peněženky než mnoho stávajících mincí. Je to proto, že Monero bylo vyvinuto od základu. Je na zcela jiné kódové základně než Bitcoin. To znamená, že Monero nemůže jednoduše forknout jádro peněženky Bitcoinu nebo jiné peněženky, které existují pro Bitcoin, jako to dělá většina mincí, a využít existující infrastrukturu. Stejně tak to znamená, že Monero nelze tak snadno přidat do peněženek třetích stran, jako je například Exodus.
 
 A přesto se pomalu, ale jistě začínají objevovat peněženky pro Monero všeho druhu. Dlouhá léta bylo mementem, že Monero nemá grafické uživatelské rozhraní a nepodporuje mobilní peněženky, ale nyní nemůže být nic vzdálenějšího pravdě. Existují peněženky, které jsou určeny speciálně pro Monero, jako například Monerujo pro Android a Cake Wallet pro iOS i Android, a také nové peněženky jako Wookey, Exa Wallet a další. Kromě toho začínají Monero přidávat i peněženky třetích stran, i když pomalejším tempem, včetně Exodus a Guarda, a očekáváme, že tento trend bude s postupem času a vyzráváním kódové základny Monero jen pokračovat.
-
-## 3\. Monero má špatnou uživatelskou zkušenost.
 
 ## 3\. Monero má špatnou uživatelskou zkušenost.
 
@@ -77,8 +55,6 @@ Zveme čtenáře k přečtení článků o krocích, které Bitcoineři doporuč
 V případě Monera je tento seznam detailů téměř úplně odstraněn. Každá transakce v Moneru si pokaždé zachovává vysokou úroveň soukromí, aniž by uživatel musel cokoli dělat nebo používat externí software. Zatímco u Bitcoinu je pro všechny kromě těch nejzkušenějších uživatelů obtížné zajistit soukromí správně, u Monera je obtížné ho zajistit špatně, a to pro všechny a neustále. Co se týče kompromisů, myslíme si, že delší adresy a doba synchronizace za to více než stojí.
 
 A i když jsme probrali vše výše uvedené, faktem zůstává, že uživatelská zkušenost se časem často zlepšuje, a Monero není výjimkou. UX mince se může po několika letech výrazně zlepšit, ale její základy se mění mnohem hůře.
-
-## 4\. Monero se stane zastaralým, pokud populárnější blockchain přijme silnou technologii ochrany soukromí.
 
 ## 4\. Monero se stane zastaralým, pokud populárnější blockchain přijme silnou technologii ochrany soukromí.
 
@@ -102,8 +78,6 @@ Pokud se naposledy zaměříme na tuto otázku, méně často se tento argument 
 
 ## 5\. Nemá Monero velmi vysoké transakční poplatky?
 
-## 5\. Nemá Monero velmi vysoké transakční poplatky?
-
 Již ne! Díky zázračné technologii bulletproof, která byla přidána v říjnu 2018, se drasticky snížila velikost transakcí (o více než 80 %), což vedlo k podobnému poklesu transakčních poplatků. V době psaní tohoto článku bylo Monero v přepočtu na jeden bajt dokonce levnější než Bitcoin a další optimalizace technologie je snižují ještě více.
 
 Tyto optimalizace jsou rozmanité a časté. Jedním z příkladů jsou chytré optimalizace v samotných neprůstřelných testech, které zmenšují matematický objem potřebný pro výpočet i ověření, někdy až o 25 %.
@@ -111,10 +85,6 @@ Tyto optimalizace jsou rozmanité a časté. Jedním z příkladů jsou chytré 
 Kromě toho se pracuje na nových zajímavých schématech kruhového podpisu, jako je CLSAG, které nahradí současné schéma MLSAG a dále zmenší velikost celé transakce o 25-35 %. Kromě toho jsou tu ještě novější, bleeding edge technologie se zcela odlišnými systémy prokazování, které mají potenciál zachovat současnou velikost transakcí, ale mají velikost kruhů přesahující stovku, například Triptych, Arcturus a Lelantus, které jsou všechny menší a efektivnější než současná schémata.
 
 ## 6\. Transakce Monero je mnohonásobně větší než transakce Bitcoinů.
-
-## 6\. Transakce Monero je mnohonásobně větší než transakce Bitcoinů.
-
-## 7\. Monero má hard forky poměrně často. Neznamená to, že je centralizované?
 
 ## 7\. Monero má hard forky poměrně často. Neznamená to, že je centralizované?
 
@@ -128,13 +98,9 @@ Všechno to znamená, že pro decentralizovaný vývojový tým je příliš obt
 
 ## 8\. Toto je osobní mince fluffypony!
 
-## 8\. Toto je osobní mince fluffypony!
-
 Toto není a nikdy nebyla mince Riccarda 'fluffypony' Spagniho. On ji ani nevyrobil. Založil ji pseudonym známý jako thankful_for_today a o tom je velmi zajímavý příběh na jindy. Fluffypony si získal věhlas jednak jako člen hlavního týmu/vedoucí správce, protože věnoval mnoho času a prostředků, aby pomohl minci růst, a také díky svému cestování a vystupování na konferencích. Díky kombinaci těchto dvou věcí se stal jakousi neoficiální tváří Monera a obvykle byl branou, přes kterou nás lidé našli. Vzhledem k příšerné kultuře CEO, která byla na kryptoměnové scéně všudypřítomná, předpokládali, že je zakladatelem a vůdcem Monera, což obojí není pravda.
 
 V současnosti je fluffypony stále součástí hlavního týmu, ale již není hlavním správcem kódové základny a stáhl se k práci na svých vlastních projektech. Monero pokračuje v pohodě dál.
-
-## 9\. Většina commitů od roku 2017 pochází od osoby známé jako moneromooo-monero
 
 ## 9\. Většina commitů od roku 2017 pochází od osoby známé jako moneromooo-monero
 
@@ -143,8 +109,6 @@ To je neoddiskutovatelný fakt, o kterém není třeba polemizovat. moneromooo j
 Jak si lze představit, práce na platformě Monero na plný úvazek, nikoliv na dobrovolnické bázi, bude mít za následek velké množství nahromaděné práce. Vzhledem k tomu, že Monero nemělo premine, ICO a nebere žádnou odměnu zakladatele, nemáme jinak inženýry pracující na projektu na plný úvazek a lidé přispívají, čím mohou a kdy mohou, a není prostě možné očekávat, že tyto příspěvky převáží pracovníka na plný úvazek.
 
 Přesto je třeba vyvinout velké úsilí, aby existovaly kontrolní mechanismy a rovnováhy. Člen hlavního týmu po kontrole kód stále slučuje, takže se nejedná o případ, kdy jednotlivec kód vytváří i integruje, čímž obchází jakýkoli dohled potřebný k odhalení hrubé chyby nebo zlého úmyslu.
-
-## 10\. Není Monero snadno napadnutelo 51 % útokem?
 
 ## 10\. Není Monero snadno napadnutelo 51 % útokem?
 
@@ -158,8 +122,6 @@ Přesné náklady na hardware pro 51% útok na síť Monero nebyly vypočteny a 
 
 ## 11\. Algoritmus šetrný k CPU? Nepřevezmou těžbu Monero jen botnety?
 
-## 11\. Algoritmus šetrný k CPU? Nepřevezmou těžbu Monero jen botnety?
-
 Dvěma strašáky v oblasti těžby jsou ASIC a botnety a odklon od jednoho nutně znamená přiblížení se k druhému. Pokud někdo k těžbě Monera potřebuje procesor, pak hackeři teoreticky mohou převzít kontrolu nad mnoha stovkami, ne-li tisíci zranitelných počítačů a donutit je těžit Monero jejich jménem, což je nic nestojí a předčí ty, kteří mají v domácnosti jen pár počítačů.
 
 První námitka proti tomuto argumentu se týká samotných vlastníků botnetů. Ačkoli neschvalujeme hackování cizích počítačů, vstupní bariéra pro vlastnictví a provozování botnetu je mnohem nižší než pro vlastnictví ASIC. Člověk potřebuje software - často zcela volně dostupný a s otevřeným zdrojovým kódem - a čas a důvtip pro vyčmuchání zranitelných počítačů. Druhá možnost vyžaduje neuvěřitelné množství kapitálu a přístup k výrobě. Jedno může zvládnout dítě ve sklepě a druhé pouze extrémně bohatí lidé. To nás vede k závěru, že pokud by se naplnily nejhorší obavy těžařů, samotné botnety by byly decentralizovanější než ASIC.
@@ -167,8 +129,6 @@ První námitka proti tomuto argumentu se týká samotných vlastníků botnetů
 Komunita Monero je přesvědčena, že tento problém je přehnaný. Inženýři RandomX záměrně navrhli protokol tak, aby ke svému fungování vyžadoval 2 GB paměti RAM. Jinými slovy, mnoho malých, zranitelných virtuálních privátních serverů (VPS) prostě nebude mít tuto kapacitu, a pokud by ji měly, nárůst použitých prostředků by byl pro správce systému velmi znatelný, což by vedlo k okamžitému vyšetřování. Jinými slovy, nemůže běžet tiše na pozadí jako napadené počítače účastnící se útoku DDOS nebo tiše odposlouchávat hesla. Když je těžař zapnutý, každý to pozná.
 
 Tím se počet počítačů, které by botnet mohl úspěšně napadnout, snižuje na počet těch, které jsou technologicky velmi nezpůsobilé, nebo těch, které nejsou nikdy kontrolovány, a nikoli na množství zranitelných počítačů, o nichž zastánci tohoto argumentu předpokládají, že jsou ohroženy.
-
-## 12\. Forky Monera nepoškozují jen jeho ekonomickou životaschopnost, ale i jeho soukromí!
 
 ## 12\. Forky Monera nepoškozují jen jeho ekonomickou životaschopnost, ale i jeho soukromí!
 
@@ -186,8 +146,6 @@ Přesto považujeme za naivní si myslet, že k útoku na Monero tímto způsobe
 
 ## 13\. Nemělo Monero v počátcích mrzáckou těžbu, která byla použita k obohacení zakladatelů?
 
-## 13\. Nemělo Monero v počátcích mrzáckou těžbu, která byla použita k obohacení zakladatelů?
-
 Historie Monera je zajímavá a mnohé možná překvapí, že skutečně začalo jako podvod. Jeho tvůrce, thankful_for_today, byl pravděpodobně ve spojení se skupinou, která vytvořila protokol CryptoNote, ale měla ďábelské úmysly vylákat pomocí něj z lidí jejich peníze.
 
 Jejich počáteční snahy o mince selhaly, a tak vytvořili Monero jako způsob, jak to zkusit znovu. To se opět nepodařilo, protože komunita si rychle uvědomila, že něco není v pořádku, a mince se chopila. I přesto měli prohnaní tvůrci v rukávu poslední trik. Vypustili na veřejnost záměrně neoptimalizovaný těžební software, přičemž optimalizovanou verzi si nechali pro sebe, aby mohli předčít ostatní a vydělat spoustu peněz na odměnách za bloky.
@@ -196,10 +154,6 @@ Na nějakou dobu se to podařilo, ale komunita Monero se toho také rychle chyti
 
 S odstupem času by někteří mohli kritizovat rozhodnutí minci znovu nezprovoznit, a pokud tyto podvodné počátky stačí k tomu, aby někoho odradily od dobré práce, kterou Monero odvedlo, pak není argument, který by je přesvědčil. Bez ohledu na počáteční frustraci, kterou podvodní tvůrci způsobili, Monero vzkvétá a využívá spojený intelekt a nadšení komunity k vytvoření mocné technologie. Náš současný základní tým, stejně jako jeho dřívější členové, se na mrzácké těžbě nijak neobohatil, a pokud je nám známo, nikdo z účastníků původního podvodu nevydržel v komunitě Monero déle než několik prvních týdnů existence mince.
 
-S odstupem času by někteří mohli kritizovat rozhodnutí minci znovu nezprovoznit, a pokud tyto podvodné počátky stačí k tomu, aby někoho odradily od dobré práce, kterou Monero odvedlo, pak není argument, který by je přesvědčil. Bez ohledu na počáteční frustraci, kterou podvodní tvůrci způsobili, Monero vzkvétá a využívá spojený intelekt a nadšení komunity k vytvoření mocné technologie. Náš současný základní tým, stejně jako jeho dřívější členové, se na mrzácké těžbě nijak neobohatil, a pokud je nám známo, nikdo z účastníků původního podvodu nevydržel v komunitě Monero déle než několik prvních týdnů existence mince.
-
-## 14\. Pokud je Monero tak soukromé, jak můžeme kontrolovat nabídku, abychom se ujistili, že nám nikdo netiskne Monero zdarma pod nosem?
-
 ## 14\. Pokud je Monero tak soukromé, jak můžeme kontrolovat nabídku, abychom se ujistili, že nám nikdo netiskne Monero zdarma pod nosem?
 
 Na tuto otázku je těžké odpovědět. Jednou z běžně uváděných odpovědí je, že můžeme sečíst transakce na coinbase (kdy je těžař odměněn novým Monerem za vyřešení bloku). Tyto transakce jsou transparentní, a pokud je sečteme, měli bychom získat celkový počet Moner v oběhu.
@@ -207,8 +161,6 @@ Na tuto otázku je těžké odpovědět. Jednou z běžně uváděných odpověd
 Je však důležité poznamenat, že pokud by došlo k podvodům, které by zvýšily množství Monera nad rámec toho, co očekáváme od transakcí na coinbase, nestalo by se tak při samotných transakcích na coinbase, ale při běžné transakci mezi peněženkami. K tomu by došlo pouze jedním ze tří způsobů.
 
 Jedná se o to, zda je kryptografie, která dokazuje, že při transakcích nebylo vytvořeno ani zničeno žádné Monero, od základu chybná. Za druhé, pokud je implementace (kód) pevné kryptografie chybná. Třetí, pokud není chybná ani jedna z nich, ale počítače se stanou dostatečně výkonnými na to, aby prorazily naše současná kryptografická schémata a vytvořily falešné důkazy.
-
-## 15\. Většina současného hashrate Monero pochází pouze ze dvou poolů.
 
 ## 15\. Většina současného hashrate Monero pochází pouze ze dvou poolů.
 
@@ -229,95 +181,5 @@ Ale to odbočujeme.
 Výše jste si všimli, že v naší výzvě k decentralizaci je uvedeno, že těžař má možnost přepínat pooly. V jakémkoli okamžiku, ať už z důvodu lepšího vzdělání, výzvy k decentralizaci nebo zvýšené konkurence mezi pooly, se může distribuce hashů změnit na základě toho, že jednotliví těžaři změní místo, kam směřují své hashe. Totéž nelze říci o těžbě, která je centralizovaná na úrovni hardwaru, protože výrobci ASIC nemají žádnou motivaci směřovat do jiného poolu než do svého vlastního a ani to nebudou dělat.
 
 Takže skutečnost, že většina hashrate Monera je soustředěna do několika poolů, není něco, s čím bychom se zasekli, a skutečně může být způsobena nedostatečným vzděláním o těžbě obecně. Je to něco, co lze napravit, protože problém nespočívá na základní úrovni, na rozdíl od hardwarové centralizace Bitcoinu.
-
-Tento problém není řešitelný. Centralizované těžební pooly vlastní hardware, pool i hashe a nikdo s tím nemůže nic dělat.
-
-Centralizace poolu je sice v konečném důsledku podobná, ale má zcela odlišné a mnohem proměnlivější základy. Protože Monero má egalitární těžbu, každý těžař si může vybrat, kam bude směřovat své hashe. Lidé se často rozhodnou směřovat do většího poolu jednoduše proto, že to znamená, že uvidí nalezené bloky častěji než v menším poolu. 
-
-I když je třeba poznamenat, že jejich individuální podíl na blokové odměně bude menší, protože se o něj dělí s mnohem více lidmi. Menší pooly nacházejí bloky méně často, ale každý těžař dostane větší část odměny za blok a v konečném důsledku těžař vlastně vydělá stejné množství peněz, ať už je v menším nebo větším poolu, takže těžaře podporujeme v tom, aby své hashe směřovali do menších poolů, a tím těžbu ještě více decentralizovali.
-
-Ale to odbočujeme.
-
-Výše jste si všimli, že v naší výzvě k decentralizaci je uvedeno, že těžař má možnost přepínat pooly. V jakémkoli okamžiku, ať už z důvodu lepšího vzdělání, výzvy k decentralizaci nebo zvýšené konkurence mezi pooly, se může distribuce hashů změnit na základě toho, že jednotliví těžaři změní místo, kam směřují své hashe. Totéž nelze říci o těžbě, která je centralizovaná na úrovni hardwaru, protože výrobci ASIC nemají žádnou motivaci směřovat do jiného poolu než do svého vlastního a ani to nebudou dělat.
-
-Takže skutečnost, že většina hashrate Monera je soustředěna do několika poolů, není něco, s čím bychom se zasekli, a skutečně může být způsobena nedostatečným vzděláním o těžbě obecně. Je to něco, co lze napravit, protože problém nespočívá na základní úrovni, na rozdíl od hardwarové centralizace Bitcoinu.
-
-Tento problém není řešitelný. Centralizované těžební pooly vlastní hardware, pool i hashe a nikdo s tím nemůže nic dělat.
-
-Centralizace poolu je sice v konečném důsledku podobná, ale má zcela odlišné a mnohem proměnlivější základy. Protože Monero má egalitární těžbu, každý těžař si může vybrat, kam bude směřovat své hashe. Lidé se často rozhodnou směřovat do většího poolu jednoduše proto, že to znamená, že uvidí nalezené bloky častěji než v menším poolu. 
-
-I když je třeba poznamenat, že jejich individuální podíl na blokové odměně bude menší, protože se o něj dělí s mnohem více lidmi. Menší pooly nacházejí bloky méně často, ale každý těžař dostane větší část odměny za blok a v konečném důsledku těžař vlastně vydělá stejné množství peněz, ať už je v menším nebo větším poolu, takže těžaře podporujeme v tom, aby své hashe směřovali do menších poolů, a tím těžbu ještě více decentralizovali.
-
-Ale to odbočujeme.
-
-Výše jste si všimli, že v naší výzvě k decentralizaci je uvedeno, že těžař má možnost přepínat pooly. V jakémkoli okamžiku, ať už z důvodu lepšího vzdělání, výzvy k decentralizaci nebo zvýšené konkurence mezi pooly, se může distribuce hashů změnit na základě toho, že jednotliví těžaři změní místo, kam směřují své hashe. Totéž nelze říci o těžbě, která je centralizovaná na úrovni hardwaru, protože výrobci ASIC nemají žádnou motivaci směřovat do jiného poolu než do svého vlastního a ani to nebudou dělat.
-
-Takže skutečnost, že většina hashrate Monera je soustředěna do několika poolů, není něco, s čím bychom se zasekli, a skutečně může být způsobena nedostatečným vzděláním o těžbě obecně. Je to něco, co lze napravit, protože problém nespočívá na základní úrovni, na rozdíl od hardwarové centralizace Bitcoinu.
-
-Další čtení
-
-  * [Jak Monero jedinečně umožňuje cirkulární ekonomiky](/knowledge/monero-circular-economies)/
-
-  * [Monerové kruhové podpisy vs CoinJoin jako ve Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Proč (a jak!) byste měli držet své vlastní klíče](/knowledge/hold-your-keys)/
-
-  * [Přispíváme zpět do Monera](/knowledge/contributing-to-monero)/
-
-  * [Jak vzdálené uzly ovlivňují soukromí Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Jak Monero používá hard-forky k upgradu sítě](/knowledge/network-upgrades)/
-
-  * [Značky zobrazení: Jak jeden bajt zkrátí dobu synchronizace peněženky Monero o více než 40 %](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool a jeho role v decentralizaci těžby Monera](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Co to udělá pro Monero](/knowledge/seraphis-for-monero)/
-
-  * [Je převod bitcoinu na monero stejně soukromý jako přímý nákup monera?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Proč Monero na rozdíl od Zcash používá bezdůvěryhodné nastavení](/knowledge/monero-trustless-setup)/
-
-  * [Proč je Monero lepší uchovatel hodnoty než bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Jak může Monero překonat síťové efekty Bitcoinu](/knowledge/network-effect)/
-
-  * [Proč má Monero komunitu nejkritičtějšího myšlení](/knowledge/critical-thinking)/
-
-  * [Podvody, na které si dát pozor při používání Monero](/knowledge/monero-scams)/
-
-  * [Jak budou fungovat atomové swapy na Moneru](/knowledge/monero-atomic-swaps)/
-
-  * [Co by měl každý uživatel Monero vědět, pokud jde o vytváření sítí](/knowledge/monero-networking)/
-
-  * [Jak RingCT skrývá částky transakcí Monero](/knowledge/monero-ringct)/
-
-  * [Jak skryté adresy Monero chrání vaši identitu](/knowledge/monero-stealth-addresses)/
-
-  * [Jak subadresy Monero zabraňují propojení identity](/knowledge/monero-subaddresses)/
-
-  * [Vysvětlení výstupů Monero](/knowledge/monero-outputs)/
-
-  * [Osvědčené postupy pro začátečníky s Monero](/knowledge/monero-best-practices)/
-
-  * [Jak kruhové podpisy zakrývají výstupy Monera](/knowledge/ring-signatures)/
-
-  * [Jak Monero vyřešilo problém velikosti bloku, který sužuje bitcoiny](/knowledge/dynamic-block-size)/
-
-  * [Jak CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag)/
-
-  * [Proč má Monero ocasní emise](/knowledge/monero-tail-emission)/
-
-  * [Stručná historie Monera](/knowledge/monero-history)/
-
-  * [Wired Magazine se o Moneru mýlí, tady je důvod](/knowledge/wired-article-debunked)/
-
-  * [Jak Dandelion++ uchovává původ transakcí Monero v soukromí](/knowledge/monero-dandelion)/
-
-  * [Proč je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Co dělá RandomX tak výjimečným](/knowledge/monero-mining-randomx)/
-
-  * [Proč je Monero lepší než Dash, Zcash, Zcoin (i s Lelantusem), Grin a bitcoinové mixéry jako Wasabi (aktualizováno květen 2020)](/knowledge/why-monero-is-better)/
 
 Další čtení

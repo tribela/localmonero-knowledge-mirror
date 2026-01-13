@@ -12,8 +12,6 @@ Dauguma Monero bendruomenės žmonių nebūtinai bus kūrėjai, todėl mes sutel
 
 ## Monero bendruomenės sutelktinio finansavimo sistema
 
-## Monero bendruomenės sutelktinio finansavimo sistema
-
 Monero darbui finansuoti naudoja unikalią sistemą, vadinamą [Community Crowdfunding System](https://ccs.getmonero.org/) (arba CCS), kuri leidžia visiems bendruomenės nariams pateikti finansavimo idėją. Jei bendruomenė patvirtina, šie pasiūlymai yra atveriami finansuoti bendruomenei.
 
 Yra du sistemos etapai, kurių kiekvienas naudingas, kai daugiau dalyvauja įvairių sluoksnių žmonės.
@@ -32,8 +30,6 @@ _Visus pasiūlymus, kurie yra etape „Reikalingas finansavimas“, galite perž
 
 ## Išsilavinimas
 
-## Išsilavinimas
-
 Kitas puikus būdas dalyvauti Monero projekte – padėti šviesti ir suteikti naujų ir esamų bendruomenės narių. Tai gali būti įvairių formų, bet gali būti taip paprasta, kaip pasidalyti tuo, ką sužinojote apie Monero, socialinėje žiniasklaidoje, tinklaraštyje ir kt.
 
 Štai keli konkretūs būdai, kaip galite padėti švietimui:
@@ -41,8 +37,6 @@ Kitas puikus būdas dalyvauti Monero projekte – padėti šviesti ir suteikti n
   * Sukurkite savo tinklaraštį
   * Rašykite gijas Twitter arba Reddit įrašuose apie dalykus, apie kuriuos sužinojote arba išmokote daryti naudodami Monero
   * Sukurkite vaizdo įrašą apie kasdienius dalykus, kuriuos atliekate naudodami Monero, pvz., siunčiate Monero, naudojate aparatinės įrangos piniginę, perkate ir parduodate Monero svetainėje [LocalMonero.co](https://localmonero.co) ir kt.
-
-## Sąmoningumas ir įsitraukimas
 
 ## Sąmoningumas ir įsitraukimas
 
@@ -97,13 +91,9 @@ Taip pat gali būti naudinga palyginti operaciją tarp kažko, pvz., Bitcoin ir 
 
 ## r/monerosupport
 
-## r/monerosupport
-
 Jei jau kurį laiką naudojatės „Monero“ arba gerai žinote, kaip juo naudotis ir šalinti triktis, puikus būdas įsitraukti būtų pereiti prie [r/monerosupport](https://www.reddit.com/r/monerosupport/) subreddit ir teikti pagalbą naudotojams, kurie ten skelbia.
 
 Nuolat atsiranda vartotojų, kuriems reikia pagalbos sprendžiant (paprastai) pagrindines problemas, ir tik keli iš mūsų aktyviai naudojasi subreddit, kad padėtų jiems. Būtų puiku, kad daugiau žmonių įsitrauktų ir prisidėtų, kad padėtų naujiems ir esamiems naudotojams išspręsti iškilusias problemas!
-
-## Bendruomenės susirinkimai
 
 ## Bendruomenės susirinkimai
 
@@ -115,13 +105,9 @@ Jei nuspręsite ateiti ir dalyvauti, gerbkite temų tvarką, išlikite ties tema
 
 ## Vertimai
 
-## Vertimai
-
 Tiems, kurie moka dvikalbius ar daugiau, labai svarbus būdas prisidėti – padėti išversti iš anglų kalbos į kitas kalbas. Visada reikia versti naujas kalbas ir atnaujinti esamas kalbas visoje ekosistemoje, ir kuo daugiau kalbų aktyviai palaikysime, tuo labiau įtrauks ir prieinamas Monero bus.
 
 Vertimo poreikius ir informaciją galite rasti adresu [translate.getmonero.org](https://translate.getmonero.org/) arba [„Github“](https://github.com/monero-ecosystem/monero-translations).
-
-## Failavimo problemos
 
 ## Failavimo problemos
 
@@ -162,74 +148,6 @@ Kuo daugiau informacijos galite pateikti problemos metu, tuo geriau!
 
 ## Išvada
 
-## Išvada
-
 Tikimės, kad šis vadovas paskatino keletą idėjų, kaip galite grąžinti Monero naudodamiesi savo unikaliais įgūdžiais, fone ir patirtimi. Kuo daugiau bendruomenės atsipirks tokiais būdais, tuo didesnė ir brandesnė bus Monero ir tuo lengviau galėsime įgyvendinti privačių, pakeičiamų, savarankiškų, cenzūrai atsparių pinigų tikslus.
-
-Papildoma literatūra
-
-  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies)/
-
-  * [Monero žiedo parašai prieš CoinJoin kaip Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys)/
-
-  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy)/
-
-  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades)/
-
-  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: ką tai padarys Monero](/knowledge/seraphis-for-monero)/
-
-  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup)/
-
-  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value)/
-
-  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect)/
-
-  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking)/
-
-  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams)/
-
-  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking)/
-
-  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct)/
-
-  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses)/
-
-  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses)/
-
-  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs)/
-
-  * [„Monero“ geriausia praktika pradedantiesiems](/knowledge/monero-best-practices)/
-
-  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures)/
-
-  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag)/
-
-  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission)/
-
-  * [Trumpa Monero istorija](/knowledge/monero-history)/
-
-  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked)/
-
-  * [15 populiariausių Monero mitų ir rūpesčių, kurie buvo paneigti](/knowledge/monero-myths-debunked)/
-
-  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion)/
-
-  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx)/
-
-  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better)/
 
 Papildoma literatūra

@@ -12,8 +12,6 @@ I det här inlägget kommer vi att dyka ner i några av detaljerna bakom hur Mon
 
 ## Vilken funktion har noder i Monero?
 
-## Vilken funktion har noder i Monero?
-
 För de som är mindre bekanta med hur Monero fungerar, kan noderna (eller servrarna) i Monero-nätverket drivas av vem som helst och låta ägaren av noden – eller andra de väljer att dela den med! – att synkronisera en kopia av blockkedjan och tillhandahålla den kopian till andra på nätverket. Dessa noder verifierar också alla transaktioner som sker på nätverket, såväl som alla block som publiceras och säkerställer att de alla följer reglerna enligt konsensus.
 
 Den andra funktionen som noder tjänar i Monero är ett sätt att tillhandahålla all data som din favorit Monero-plånbok behöver för att korrekt kontrollera transaktioner som tillhör dig och göra nya transaktioner. Dessa data tillhandahålls av noder på två sätt:
@@ -29,15 +27,11 @@ Den andra funktionen som noder tjänar i Monero är ett sätt att tillhandahåll
 
 ## Vad är det mest privata och säkra sättet att använda Monero?
 
-## Vad är det mest privata och säkra sättet att använda Monero?
-
 Det bästa du kan göra, även med den starka on-chain integritet som tillhandahålls av Monero när du använder fjärrnoder, är att köra din egen Monero-nod för att säkerställa att du har en ren kopia av Monero blockchain till hands och att din IP-adress är väl skyddad. Den andra fördelen med att köra din egen nod är att du kan bidra tillbaka till nätverket, låta andra noder synkronisera från din nod eller till och med låta andra användare ansluta till din nod med sina plånböcker.
 
 Med det sagt ger Monero fortfarande utmärkt sekretess när du använder en fjärrnod. Om du är intresserad av att köra din egen Monero-nod, här är en enkel guide för att göra det:
 
   * [Kör en Monero Node](https://sethforprivacy.com/guides/run-a-monero-node/)
-
-## Vad kan en avlägsen nod få veta om mig?
 
 ## Vad kan en avlägsen nod få veta om mig?
 
@@ -49,13 +43,9 @@ En fjärrnod kan också försöka orsaka dig problem genom att dölja block för
 
 ## Vilka integritetsgarantier finns fortfarande när man använder en fjärrnod?
 
-## Vilka integritetsgarantier finns fortfarande när man använder en fjärrnod?
-
 Även om den här artikeln kan ha skrämt dig lite, är det viktigt att inse att integriteten som tillhandahålls av Monero är utmärkt även när du använder en fjärrnod, och vida överträffar alla andra kryptovalutor när den används på detta sätt. Du får fortfarande den starka integriteten på kedjan som tillhandahålls av Monero, eftersom fjärrnoden aldrig vet den verkliga ingången (vilka mynt du spenderar), mängden Monero som spenderas i transaktionen eller adressen till mottagaren av transaktionen. Utomstående observatörer kan inte heller se den verkliga inmatningen, mängden eller adresserna som är involverade (oavsett vilken typ av nod du väljer att använda!), vilket säkerställer att utanför fjärrnoden även din IP-adress, plånbokssynkroniseringsinformation och transaktioner har starka integritetsgarantier .
 
 Fjärrnoden har heller aldrig tillgång till de tidigare transaktionerna du har skickat eller tagit emot eller mängden Monero som för närvarande finns i din plånbok, och förlorar all insyn i dina transaktioner i samma ögonblick som du börjar använda en annan nod. Inga privata nycklar (varken spend- eller visningsnycklar) tillhandahålls någonsin till fjärrnoden, så din plånbok förblir privat, säker och användbar. Oavsett fjärrnod riskerar du heller aldrig att förlora Monero eller få den stulen, eftersom noden inte kan redigera mottagaradressen, aldrig har tillgång till dina plånboksnycklar och inte kan konfiskera din Monero på något sätt.
-
-## Vad sägs om "lätta plånböcker" som MyMonero?
 
 ## Vad sägs om "lätta plånböcker" som MyMonero?
 
@@ -71,8 +61,6 @@ För mer om den anpassade lätta plånboksservern, se Github-förrådet nedan:
 
 ## Hur kan jag lära mig mer?
 
-## Hur kan jag lära mig mer?
-
 Om du är nyfiken och skulle älska att bättre förstå noder i Monero och titta på att använda en fjärrnod eller köra din egen, se länkarna nedan för bra ställen att komma igång:
 
   * [Monero World, en lista över gemenskapsdrivna fjärrnoder som kan användas](https://moneroworld.com/#nodes)
@@ -80,71 +68,5 @@ Om du är nyfiken och skulle älska att bättre förstå noder i Monero och titt
   * [monero.fail, en lista över fjärrnoder med ofta kontrollerad status< /a>](https://monero.fail/)
   * [Så här ansluter du till en fjärrnod i GUI-plånboken](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
   * [Moneropedia – fjärrkontroll Nod](https://www.getmonero.org/resources/moneropedia/remote-node.html)
-
-Vidare läsning
-
-  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies)/
-
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Varför (och hur!) du ska hålla i dina egna nycklar](/knowledge/hold-your-keys)/
-
-  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero)/
-
-  * [Hur Monero använder hard-forks för att uppgradera nätverket](/knowledge/network-upgrades)/
-
-  * [Visa taggar: Hur en byte kommer att minska Monero plånbokssynkroniseringstider med 40% +](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Vad det kommer att göra för Monero](/knowledge/seraphis-for-monero)/
-
-  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Varför Monero är en bättre värdebevarare än Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect)/
-
-  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking)/
-
-  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams)/
-
-  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking)/
-
-  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct)/
-
-  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses)/
-
-  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses)/
-
-  * [Monero Utgångar Förklaras](/knowledge/monero-outputs)/
-
-  * [Monero bästa praxis för nybörjare](/knowledge/monero-best-practices)/
-
-  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures)/
-
-  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag)/
-
-  * [Varför Monero har en svans emission](/knowledge/monero-tail-emission)/
-
-  * [En kort historia om Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked)/
-
-  * [Topp 15 Monero myter och bekymmer debunked](/knowledge/monero-myths-debunked)/
-
-  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion)/
-
-  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx)/
-
-  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better)/
 
 Vidare läsning

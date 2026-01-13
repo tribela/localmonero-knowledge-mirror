@@ -12,8 +12,6 @@ Die überwiegende Mehrheit der Menschen in der Monero-Gemeinschaft sind nicht zw
 
 ## Moneros Community-Crowdfunding-System
 
-## Moneros Community-Crowdfunding-System
-
 Monero verwendet ein einzigartiges System zur Finanzierung von Arbeiten namens [Community Crowdfunding System](https://ccs.getmonero.org/) (oder „CCS“), das es jedem in der Community ermöglicht, eine Idee zur Finanzierung vorzustellen. Wenn sie von der Community genehmigt werden, werden diese Vorschläge dann zur Finanzierung durch die Community geöffnet.
 
 Das System besteht aus zwei Phasen, die jeweils von einer stärkeren Beteiligung von Menschen mit unterschiedlichem Hintergrund profitieren.
@@ -32,8 +30,6 @@ _Sie können alle Vorschläge, die sich in der Phase „Finanzierung erforderlic
 
 ## Bildung
 
-## Bildung
-
 Eine weitere großartige Möglichkeit, sich am Monero-Projekt zu beteiligen, besteht darin, dabei zu helfen, neue und bestehende Community-Mitglieder zu schulen und zu stärken. Dies kann in vielen Formen erfolgen, kann aber so einfach sein wie das Teilen dessen, was Sie über Monero in sozialen Medien, einem Blog usw. lernen.
 
 Hier sind einige konkrete Möglichkeiten, wie Sie bei der Bildung helfen können:
@@ -41,8 +37,6 @@ Hier sind einige konkrete Möglichkeiten, wie Sie bei der Bildung helfen können
   * Starten Sie einen eigenen Blog
   * Schreiben Sie Threads auf Twitter oder Reddit-Posts über Dinge, über die Sie gelernt haben oder die Sie mit Monero zu tun gelernt haben
   * Erstellen Sie Video-"How-tos" von alltäglichen Dingen, die Sie mit Monero tun, wie z. B. das Senden von Monero, die Verwendung einer Hardware-Wallet, den Kauf und Verkauf von Monero auf [LocalMonero.co](https://localmonero.co) usw.
-
-## Bewusstsein und Engagement
 
 ## Bewusstsein und Engagement
 
@@ -97,13 +91,9 @@ Es kann auch hilfreich sein, eine Transaktion zwischen etwas wie Bitcoin und Mon
 
 ## r/monerosupport
 
-## r/monerosupport
-
 Wenn Sie schon eine Weile mit Monero zu tun haben oder ein gutes Verständnis für die Verwendung und Fehlerbehebung haben, können Sie sich am Subreddit [r/monerosupport](https://www.reddit.com/r/monerosupport/) beteiligen und Support für Benutzer bieten, die dort posten.
 
 Es gibt ständig Benutzer, die Hilfe bei (normalerweise) einfachen Problemen benötigen, und nur wenige von uns sind im Subreddit aktiv, um ihnen zu helfen. Es wäre großartig zu sehen, wie mehr Leute eintauchen und dazu beitragen, neuen und bestehenden Benutzern zu helfen, ihre Probleme zu lösen!
-
-## Community-Meetings
 
 ## Community-Meetings
 
@@ -115,13 +105,9 @@ Wenn Sie kommen und teilnehmen möchten, respektieren Sie bitte die Reihenfolge 
 
 ## Übersetzungen
 
-## Übersetzungen
-
 Für diejenigen, die zweisprachig oder mehr sind, besteht eine sehr wichtige Möglichkeit, einen Beitrag zu leisten, darin, bei Übersetzungen aus dem Englischen in andere Sprachen zu helfen. Es müssen immer neue Sprachen übersetzt und vorhandene Sprachen im gesamten Ökosystem aktualisiert werden, und je mehr Sprachen wir aktiv unterstützen, desto integrativer und zugänglicher wird Monero.
 
 Sie finden Übersetzungsbedarf und Informationen unter [translate.getmonero.org](https://translate.getmonero.org/) oder [auf Github](https://github.com/monero-ecosystem/monero-translations).
-
-## Probleme einreichen
 
 ## Probleme einreichen
 
@@ -162,74 +148,6 @@ Je mehr Informationen Sie in der Ausgabe angeben können, desto besser!
 
 ## Fazit
 
-## Fazit
-
 Hoffentlich hat Sie dieser Leitfaden mit einige Ideen dazu angeregt, wie Sie Monero mit Ihren einzigartigen Fähigkeiten, Ihrem Hintergrund und Ihrer Erfahrung etwas zurückgeben können. Je mehr von der Gemeinschaft auf diese Weise etwas zurückgeben, desto größer und ausgereifter wird Monero sein und desto leichter können wir die Ziele von privatem, fungiblem, selbstsouveränem, zensurresistentem Geld erfüllen.
-
-Weiterlesen
-
-  * [Wie Monero auf einzigartige Weise Kreislaufwirtschaften ermöglicht](/knowledge/monero-circular-economies)/
-
-  * [Moneros Ringsignaturen vs. CoinJoin wie bei Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Warum (und wie!) Sie Ihre eigenen Keys halten sollten](/knowledge/hold-your-keys)/
-
-  * [Wie sich Remote-Knoten auf die Privatsphäre von Monero auswirken](/knowledge/remote-nodes-privacy)/
-
-  * [Wie Monero Hard-Forks verwendet, um das Netzwerk zu aktualisieren](/knowledge/network-upgrades)/
-
-  * [View-Tags: Wie ein Byte die Synchronisierungszeiten der Monero-Wallet um über 40 % reduziert](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool und seine Rolle bei der Dezentralisierung des Monero-Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Was es für Monero tun wird](/knowledge/seraphis-for-monero)/
-
-  * [Ist die Umwandlung von Bitcoin in Monero genauso privat wie der direkte Kauf von Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Warum Monero im Gegensatz zu Zcash ein vertrauensloses Setup verwendet](/knowledge/monero-trustless-setup)/
-
-  * [Warum Monero ein besserer Wertspeicher ist als Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Wie Monero die Netzwerkeffekte von Bitcoin überwinden kann](/knowledge/network-effect)/
-
-  * [Warum Monero die kritischste Community hat](/knowledge/critical-thinking)/
-
-  * [Betrügereien, auf die Sie bei der Verwendung von Monero achten sollten](/knowledge/monero-scams)/
-
-  * [Wie Atomic Swaps in Monero funktionieren](/knowledge/monero-atomic-swaps)/
-
-  * [Was jeder Monero-Benutzer wissen muss, wenn es ums Networking geht](/knowledge/monero-networking)/
-
-  * [Wie RingCT Monero-Transaktionsbeträge verbirgt](/knowledge/monero-ringct)/
-
-  * [Wie Monero Stealth-Adressen Ihre Identität schützen](/knowledge/monero-stealth-addresses)/
-
-  * [Wie Monero-Subadressen die Identitätsverknüpfung verhindern](/knowledge/monero-subaddresses)/
-
-  * [Monero-Outputs erklärt](/knowledge/monero-outputs)/
-
-  * [Monero Best Practices für Anfänger](/knowledge/monero-best-practices)/
-
-  * [Wie Ringsignaturen die Ausgaben von Monero verschleiern](/knowledge/ring-signatures)/
-
-  * [Wie Monero das Blockgrößenproblem löste, das Bitcoin plagt](/knowledge/dynamic-block-size)/
-
-  * [Wie CLSAG die Effizienz von Monero verbessern wird](/knowledge/what-is-clsag)/
-
-  * [Warum Monero eine Tail-Emission hat](/knowledge/monero-tail-emission)/
-
-  * [Eine kurze Geschichte von Monero](/knowledge/monero-history)/
-
-  * [Das Wired Magazine hat Unrecht mit Monero, hier ist der Grund](/knowledge/wired-article-debunked)/
-
-  * [Die 15 wichtigsten Monero-Mythen und -Bedenken widerlegt](/knowledge/monero-myths-debunked)/
-
-  * [Wie Dandelion++ die Transaktionsursprünge von Monero geheim hält](/knowledge/monero-dandelion)/
-
-  * [Warum Monero Open Source und dezentralisiert ist](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Was RandomX so besonders macht](/knowledge/monero-mining-randomx)/
-
-  * [Warum Monero besser ist als Dash, Zcash, Zcoin (sogar mit Lelantus), Grin und Bitcoin-Mixer wie Wasabi (Aktualisiert Mai 2020)](/knowledge/why-monero-is-better)/
 
 Weiterlesen

@@ -12,21 +12,15 @@ Co prawda unikalny algorytm kopania [taki jak RandomX](/knowledge/monero-mining-
 
 ## Czym jest mining w poolu?
 
-## Czym jest mining w poolu?
-
 Kopanie w poolu jest sposobem dla minerów na podzielenie się zadaniem rozwiązania bloku, a następnie równomiernego udostępniania nagród ze wszystkich bloków, które odnajdzie pool. Chociaż pomaga to bardzo wyrównać częstotliwość, z jaką minersi zarabiają w porównaniu z samodzielnym kopaniem, to wynikają z tego poważne problemy związane z centralizacją. 
 
 Ponieważ każdy miner przyczynia się do pracy w poolu, to rezygnują oni z kontroli nad blokami na korzyść poola, ufając, że pool będzie szczerze i uczciwie dzielić nagrody między wszystkimi minerami w oparciu o ilość pracy wykonanej przez każdego z uczestników. Jeśli wszystko pójdzie dobrze, operator poola zbierze prace od wszystkich minerów, prześle je do sieci i równo podzieli nagrody.
 
 ## Jaki jest problem z pool mining?
 
-## Jaki jest problem z pool mining?
-
 Niestety opiera się to całkowicie na zaufaniu i pozwala operatorowi poola na zrobienie nikczemnych rzeczy z pracą wykonywaną przez minerów. Operator poola mógłby skorzystać z pracy w celu zaatakowania sieci, spróbować dwukrotnie wydać środki (jeśli pool jest wystarczająco duży) lub po prostu wykorzystać pracę wykonaną przez minerów, aby zapłacić sobie i nigdy nie nagrodzić minerów za ich pracę. 
 
 Największym ryzykiem dla sieci jest pool (lub wiele pooli współpracujących ze sobą), posiadający ponad 51% hashrate sieci pod swoją kontrolą, ponieważ mógłby wykorzystać to do oszukania i wydania jednych środków dwukrotnie (atak double-spend) lub spróbować zmienić reguły sieci. 
-
-## Czym jest p2pool?
 
 ## Czym jest p2pool?
 
@@ -38,15 +32,11 @@ Odbywa się to przy użyciu nowego blockchaina („side-chaina”), który śled
 
 ## W jaki sposób p2pool rozwiązuje problemy związane z pool miningiem?
 
-## W jaki sposób p2pool rozwiązuje problemy związane z pool miningiem?
-
 W p2poolu nie ma scentralizowanego poola, scentralizowanego operatora poola oraz ani jednej osoby trzymającej wykopane środki i dystrybuującej wypłaty. Wszystkie działania minerów są weryfikowane przez blockchain p2pool i innych operatorów węzłów, aby upewnić się, że są to poprawne działania, a wszyscy minersi zarabiają proporcjonalnie do włożonej pracy natychmiast po wykopaniu nowego bloku. 
 
 Gdy minersi decydują się na korzystanie z p2poola zamiast z poola scentralizowanego, eliminują konieczność powierzania władzy i zaufania operatorom pooli i zapewniają, że ich praca przyczynia się do dobra sieci i do ich własnego dochodu, zmniejszają ryzyko ataków na sieć i niewłaściwego użycia ich pracy lub kradzieży nagród, które są im należne. 
 
 Nie tylko pomaga im to chronić własne interesy, ale zmniejsza zagrożenie, jakie scentralizowane poole mogą stanowić dla całej sieci Monero. Zastosowanie p2poola pomaga również znacznie zmniejszyć ryzyko, jakie rządy i ich organy, mogą stanowić dla sieci Monero, ponieważ nie ma scentralizowanych operatorów pooli pod presją, nie ma geograficznej koncentracji pooli, ani żadnego innego słabego punktu do wykorzystania przeciwko Monero. 
-
-## Jakie są wady?
 
 ## Jakie są wady?
 
@@ -56,14 +46,10 @@ Inną kluczową różnicą względem scentralizowanego kopania jest to, że mali
 
 ## Jak mogę zacząć?
 
-## Jak mogę zacząć?
-
 Na szczęście, ze względu na doskonale zaprojektowany Monero p2pool i dzięki wielu członkom społeczności, którzy poświęcili czas, aby uprościć proces wydobycia przez p2pool, stał on się dużo łatwiejszy. Istnieje kilka sposobów na rozpoczęcie kopania z p2poola, ale ponieważ szczegóły techniczne wykraczają poza zakres tego artykułu, możesz dowiedzieć się więcej samodzielnie wchodząc w poniższe linki: 
 
   * [Windows](https://www.youtube.com/watch?v=yfbvTksF9ic)
   * [Linux](https://sethforprivacy.com/guides/run-a-p2pool-node/)
-
-## Jak mogę się dowiedzieć więcej?
 
 ## Jak mogę się dowiedzieć więcej?
 
@@ -75,71 +61,5 @@ Jeśli wzbudziło to Twoją ciekawość wokół kopania w p2poolu, zajrzyj do po
   * [p2pool.observer, a "block explorer" of sorts for p2pool](https://p2pool.observer/)
   * [Monero p2pool docker-compose](https://github.com/WeebDataHoarder/p2pool-compose)
   * [Sergei Chernykh: On his development of P2Pool a Decentralized XMR Mining Pool](https://www.monerotalk.live/sergei-chernykh-on-his-development-of-p2pool-a-decentralized-xmr-mining-pool)
-
-Więcej do przeczytania
-
-  * [Jak Monero jednoznacznie umożliwia circular economies](/knowledge/monero-circular-economies)/
-
-  * [Ring signatures w Monero vs CoinJoin jak w Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Dlaczego (i jak!) powinieneś trzymać własne klucze ](/knowledge/hold-your-keys)/
-
-  * [Wspieranie Monero](/knowledge/contributing-to-monero)/
-
-  * [Jak zdalne węzły wpływają na prywatność Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Jak Monero używa hard forków do aktualizacji sieci](/knowledge/network-upgrades)/
-
-  * [View tags: Jak jeden bajt skróci czas synchronizacji portfela Monero o 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [Seraphis - Co zrobi dla Monero](/knowledge/seraphis-for-monero)/
-
-  * [Czy sprzedaż Bitcoinów za Monero jest tak samo prywatna jak kupno Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Dlaczego Monero nie wykorzystuje specjalnej konfiguracji w przeciwieństwie do Zcasha](/knowledge/monero-trustless-setup)/
-
-  * [Dlaczego Monero lepiej przechowuje wartości niż Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Jak Monero może pokonać efekt sieciowy Bitcoina](/knowledge/network-effect)/
-
-  * [Dlaczego Monero ma najbardziej krytycznie myślącą społeczność](/knowledge/critical-thinking)/
-
-  * [Oszustwa, na które należy uważać korzystając z Monero](/knowledge/monero-scams)/
-
-  * [Jak wymiany atomiczne będą działały w Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Co każdy użytkownik Monero musi wiedzieć o jego sieci](/knowledge/monero-networking)/
-
-  * [Jak RingCT ukrywa ilości w transakcjach Monero](/knowledge/monero-ringct)/
-
-  * [Jak stealth addresses chronią Twoją tożsamość](/knowledge/monero-stealth-addresses)/
-
-  * [Jak subadresy zapobiegają łączeniu tożsamości](/knowledge/monero-subaddresses)/
-
-  * [Wyjścia Monero wyjaśnione](/knowledge/monero-outputs)/
-
-  * [Dobre praktyki Monero dla początkujących](/knowledge/monero-best-practices)/
-
-  * [Jak ring signatures chowają wyjścia Monero](/knowledge/ring-signatures)/
-
-  * [Jak Monero rozwiązało problem rozmiaru bloku nękający Bitcoina](/knowledge/dynamic-block-size)/
-
-  * [Jak CLSAG poprawi wydajność Monero](/knowledge/what-is-clsag)/
-
-  * [Dlaczego Monero ma Tail Emission](/knowledge/monero-tail-emission)/
-
-  * [Krótka historia Monero](/knowledge/monero-history)/
-
-  * [Oto dlaczego magazyn Wired myli się co do Monero](/knowledge/wired-article-debunked)/
-
-  * [15 najczęstszych obalonych mitów i obaw o Monero](/knowledge/monero-myths-debunked)/
-
-  * [Jak Dandelion++ prywatyzuje źródło transakcji Monero](/knowledge/monero-dandelion)/
-
-  * [Dlaczego Monero jest open source i zdecentralizowane](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Kopanie Monero: Co sprawia, że RandomX jest wyjątkowy](/knowledge/monero-mining-randomx)/
-
-  * [Dlaczego Monero jest lepsze niż Dash, Zcash, Zcoin (nawet z Lelantus), Grin oraz od mikserów Bitcoina takich jak Wasabi (Zaktualizowano w maju 2020 r.)](/knowledge/why-monero-is-better)/
 
 Więcej do przeczytania

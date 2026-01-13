@@ -12,8 +12,6 @@ W tym poście zagłębimy się w niektóre szczegóły, dzięki którym Monero z
 
 ## Jaką funkcję pełnią node'y w Monero?
 
-## Jaką funkcję pełnią node'y w Monero?
-
 Dla osób mniej zaznajomionych z tym, jak działa Monero, węzły (lub serwery) w sieci Monero mogą być uruchamiane przez każdego (lub innych, z którymi zdecydują się go udostępnić!) i pozwalać właścicielowi węzła na zsynchronizowanie kopii blockchaina i przesłanie tej kopii innym w sieci. Węzły te weryfikują również wszystkie transakcje odbywające się w sieci, a także wszystkie publikowane bloki i zapewniają, że wszystkie są zgodne z regułami ustalonymi przez konsensus. 
 
 Inną funkcją, którą obsługują węzły w Monero, jest sposób na dostarczenie wszystkich danych, które potrzebuje Twój ulubiony portfel Monero, aby właściwie sprawdzić transakcje należące do Ciebie i dokonać nowych transakcji. Dane te są dostarczane przez węzły na dwa sposoby: 
@@ -29,15 +27,11 @@ Inną funkcją, którą obsługują węzły w Monero, jest sposób na dostarczen
 
 ## Jaki jest najbardziej prywatny i najbezpieczniejszy sposób korzystania z Monero?
 
-## Jaki jest najbardziej prywatny i najbezpieczniejszy sposób korzystania z Monero?
-
 Najlepszą rzeczą do zrobienia, nawet przy silnej prywatności on-chain dostarczanej przez Monero podczas korzystania z cudzych węzłów, jest uruchomienie własnego węzła Monero, aby upewnić się, czy masz nieskazitelną kopię blockchaina Monero i czy Twój adres IP jest dobrze chroniony. Drugą korzyścią podczas uruchamiania własnego węzła jest to, że wtedy wspierasz sieć, pozwalając innym węzłom zsynchronizować się z Twoim węzłem lub nawet pozwalając innym użytkownikom na połączenie się z Twoim węzłem ze swojego portfela. 
 
 To powiedziawszy, Monero nadal zapewnia doskonałą prywatność podczas korzystania z cudzego węzła. Jeśli chcesz uruchomić własny węzeł Monero, oto łatwy do prześledzenia przewodnik: 
 
   * [Uruchom Węzeł Monero](https://sethforprivacy.com/guides/run-a-monero-node/)
-
-## Czego może się o mnie dowiedzieć cudzy node?
 
 ## Czego może się o mnie dowiedzieć cudzy node?
 
@@ -49,13 +43,9 @@ Zdalny węzeł może również próbować wywołać kłopoty ukrywając bloki pr
 
 ## Jakie gwarancje prywatności nadal istnieją podczas korzystania ze zdalnego węzła?
 
-## Jakie gwarancje prywatności nadal istnieją podczas korzystania ze zdalnego węzła?
-
 Chociaż ten artykuł mógł Cię trochę przestraszyć, ważne jest, aby zdać sobie sprawę z tego, że prywatność dostarczana przez Monero jest wspaniała, nawet gdy używasz zdalnego węzła i znacznie przewyższa wszelkie inne kryptowaluty. Nadal zyskujesz silną prywatność on-chain dostarczoną przez Monero, ponieważ zdalny węzeł nigdy nie zna prawdziwego wejścia (jakie monety wydajesz), ilości Monero wydanego w transakcji lub adresu odbiorcy transakcji. Zewnętrzni obserwatorzy również nie widzą prawdziwego wejścia, kwoty lub adresów (bez względu na rodzaj węzła, który wybierzesz!), zapewniając, że za wyjątkiem korzystania ze zdalnego węzła, nawet adres IP, informacje o synchronizacji portfela i transakcje mają silne gwarancje prywatności .
 
 Zdalny węzeł nigdy również nie ma dostępu do poprzednich transakcji, które wysłałeś lub otrzymałeś czy też do aktualnej ilości Monero w portfelu i traci wszelką wiedzę o transakcjach, gdy zaczynasz korzystać z innego węzła. Żadne prywatne klucze (spend lub view) nigdy nie są dostarczane do zdalnego węzła, więc Twój portfel zachowuje prywatność, bezpieczeństwo i użyteczność. Bez względu na zdalny węzeł, nigdy nie jesteś narażony na utratę Monero lub jego kradzież, ponieważ węzeł nie może edytować adresu odbiorcy, nigdy nie ma dostępu do Twoich prywatnych kluczy i nie może w żaden sposób skonfiskować Monero.
-
-## Co na temat „lekkich portfeli” takich jak MyMonero?
 
 ## Co na temat „lekkich portfeli” takich jak MyMonero?
 
@@ -71,8 +61,6 @@ Aby uzyskać więcej informacji na temat light wallet servera, zobacz poniższe 
 
 ## Jak mogę się dowiedzieć więcej?
 
-## Jak mogę się dowiedzieć więcej?
-
 Jeśli jesteś ciekaw i chcesz lepiej zrozumieć węzły w Monero oraz przyjrzeć się użyciu zdalnego węzła, bądź uruchomić własny,wejdź w poniższe linki, aby dowiedzieć się więcej:
 
   * [Monero World, lista węzłów prowadzonych przez członków społeczności](https://moneroworld.com/#nodes)
@@ -80,71 +68,5 @@ Jeśli jesteś ciekaw i chcesz lepiej zrozumieć węzły w Monero oraz przyjrze�
   * [monero.fail, lista węzłów z częstym sprawdzaniem ich łączności](https://monero.fail/)
   * [Jak połączyć się ze zdalnym węzłem w portfelu GUI](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
   * [Moneropedia - Remote Node](https://www.getmonero.org/resources/moneropedia/remote-node.html)
-
-Więcej do przeczytania
-
-  * [Jak Monero jednoznacznie umożliwia circular economies](/knowledge/monero-circular-economies)/
-
-  * [Ring signatures w Monero vs CoinJoin jak w Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Dlaczego (i jak!) powinieneś trzymać własne klucze ](/knowledge/hold-your-keys)/
-
-  * [Wspieranie Monero](/knowledge/contributing-to-monero)/
-
-  * [Jak Monero używa hard forków do aktualizacji sieci](/knowledge/network-upgrades)/
-
-  * [View tags: Jak jeden bajt skróci czas synchronizacji portfela Monero o 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool i jego rola w decentralizacji kopania Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis - Co zrobi dla Monero](/knowledge/seraphis-for-monero)/
-
-  * [Czy sprzedaż Bitcoinów za Monero jest tak samo prywatna jak kupno Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Dlaczego Monero nie wykorzystuje specjalnej konfiguracji w przeciwieństwie do Zcasha](/knowledge/monero-trustless-setup)/
-
-  * [Dlaczego Monero lepiej przechowuje wartości niż Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Jak Monero może pokonać efekt sieciowy Bitcoina](/knowledge/network-effect)/
-
-  * [Dlaczego Monero ma najbardziej krytycznie myślącą społeczność](/knowledge/critical-thinking)/
-
-  * [Oszustwa, na które należy uważać korzystając z Monero](/knowledge/monero-scams)/
-
-  * [Jak wymiany atomiczne będą działały w Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Co każdy użytkownik Monero musi wiedzieć o jego sieci](/knowledge/monero-networking)/
-
-  * [Jak RingCT ukrywa ilości w transakcjach Monero](/knowledge/monero-ringct)/
-
-  * [Jak stealth addresses chronią Twoją tożsamość](/knowledge/monero-stealth-addresses)/
-
-  * [Jak subadresy zapobiegają łączeniu tożsamości](/knowledge/monero-subaddresses)/
-
-  * [Wyjścia Monero wyjaśnione](/knowledge/monero-outputs)/
-
-  * [Dobre praktyki Monero dla początkujących](/knowledge/monero-best-practices)/
-
-  * [Jak ring signatures chowają wyjścia Monero](/knowledge/ring-signatures)/
-
-  * [Jak Monero rozwiązało problem rozmiaru bloku nękający Bitcoina](/knowledge/dynamic-block-size)/
-
-  * [Jak CLSAG poprawi wydajność Monero](/knowledge/what-is-clsag)/
-
-  * [Dlaczego Monero ma Tail Emission](/knowledge/monero-tail-emission)/
-
-  * [Krótka historia Monero](/knowledge/monero-history)/
-
-  * [Oto dlaczego magazyn Wired myli się co do Monero](/knowledge/wired-article-debunked)/
-
-  * [15 najczęstszych obalonych mitów i obaw o Monero](/knowledge/monero-myths-debunked)/
-
-  * [Jak Dandelion++ prywatyzuje źródło transakcji Monero](/knowledge/monero-dandelion)/
-
-  * [Dlaczego Monero jest open source i zdecentralizowane](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Kopanie Monero: Co sprawia, że RandomX jest wyjątkowy](/knowledge/monero-mining-randomx)/
-
-  * [Dlaczego Monero jest lepsze niż Dash, Zcash, Zcoin (nawet z Lelantus), Grin oraz od mikserów Bitcoina takich jak Wasabi (Zaktualizowano w maju 2020 r.)](/knowledge/why-monero-is-better)/
 
 Więcej do przeczytania

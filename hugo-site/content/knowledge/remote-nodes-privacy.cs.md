@@ -12,8 +12,6 @@ V tomto příspěvku se seznámíme s některými podrobnostmi o tom, jak Monero
 
 ## Jakou funkci plní uzly v Moneru?
 
-## Jakou funkci plní uzly v Moneru?
-
 Pro ty, kteří nejsou tak dobře obeznámeni s tím, jak Monero funguje, uzly (nebo servery) v síti Monero může provozovat kdokoli a umožňuje vlastníkovi uzlu - nebo dalším osobám, které se rozhodnou jej sdílet! - synchronizovat kopii blockchainu a poskytovat ji ostatním v síti. Tyto uzly také ověřují všechny transakce probíhající v síti i všechny zveřejněné bloky a zajišťují, že všechny dodržují pravidla stanovená konsensem.
 
 Druhou funkcí, kterou uzly v Moneru plní, je poskytování všech údajů, které vaše oblíbená peněženka Monero potřebuje ke správné kontrole transakcí, které vám patří, a k provádění nových transakcí. Tato data poskytují uzly dvěma způsoby:
@@ -29,15 +27,11 @@ Druhou funkcí, kterou uzly v Moneru plní, je poskytování všech údajů, kte
 
 ## Jaký je nejprivátnější a nejbezpečnější způsob používání Monero?
 
-## Jaký je nejprivátnější a nejbezpečnější způsob používání Monero?
-
 Při používání vzdálených uzlů je i přes silné soukromí na řetězci, které Monero poskytuje, nejlepší spustit vlastní uzel Monero, abyste měli po ruce neporušenou kopii blockchainu Monero a aby vaše IP adresa byla dobře chráněna. Další výhodou při spuštění vlastního uzlu je, že můžete zpětně přispívat do sítě a umožnit ostatním uzlům synchronizaci z vašeho uzlu nebo dokonce umožnit ostatním uživatelům připojit se k vašemu uzlu pomocí svých peněženek.
 
 Při použití vzdáleného uzlu však Monero stále poskytuje vynikající soukromí. Pokud máte zájem o spuštění vlastního uzlu Monero, zde je jednoduchý návod, jak na to:
 
   * [Spusťte uzel Monero](https://sethforprivacy.com/guides/run-a-monero-node/)
-
-## Co se o mně může vzdálený uzel dozvědět?
 
 ## Co se o mně může vzdálený uzel dozvědět?
 
@@ -49,13 +43,9 @@ Vzdálený uzel se vám také může pokusit způsobit potíže tím, že před 
 
 ## Jaké záruky soukromí ještě existují při použití vzdáleného uzlu?
 
-## Jaké záruky soukromí ještě existují při použití vzdáleného uzlu?
-
 Ačkoli vás tento článek možná trochu vyděsil, je důležité si uvědomit, že soukromí, které Monero poskytuje, je vynikající i při použití vzdáleného uzlu a při tomto způsobu použití daleko předčí jakoukoli jinou kryptoměnu. Stále získáváte silné soukromí na řetězci, které Monero poskytuje, protože vzdálený uzel nikdy nezná skutečný vstup (jaké mince utrácíte), částku Monero utracenou v transakci ani adresu příjemce transakce. Pozorovatelé zvenčí také nemohou vidět skutečný vstup, částku ani adresy zúčastněných (bez ohledu na to, jaký typ uzlu se rozhodnete použít!), což zajišťuje, že mimo vzdálený uzel mají i vaše IP adresa, informace o synchronizaci peněženky a transakce silné záruky soukromí.
 
 Vzdálený uzel také nikdy nemá přístup k předchozím transakcím, které jste odeslali nebo přijali, ani k množství Monera, které máte aktuálně v peněžence, a v okamžiku, kdy začnete používat jiný uzel, ztratí veškerý přehled o vašich transakcích. Vzdálenému uzlu nejsou nikdy poskytnuty žádné soukromé klíče (ani klíče k útratě, ani klíče k prohlížení), a vaše peněženka tak zůstává soukromá, bezpečná a použitelná. Bez ohledu na vzdálený uzel vám také nikdy nehrozí ztráta nebo krádež Monera, protože uzel nemůže upravovat adresu příjemce, nikdy nemá přístup k soukromým klíčům vaší peněženky a nemůže vaše Monero nijak zabavit.
-
-## Co třeba „lehké peněženky“ jako MyMonero?
 
 ## Co třeba „lehké peněženky“ jako MyMonero?
 
@@ -71,8 +61,6 @@ Další informace o vlastním serveru lehké peněženky naleznete v níže uved
 
 ## Jak se mohu dozvědět více?
 
-## Jak se mohu dozvědět více?
-
 Pokud jste zvědaví a chtěli byste lépe porozumět uzlům v Moneru a podívat se na možnost využití vzdáleného uzlu nebo spuštění vlastního, podívejte se na níže uvedené odkazy, kde najdete skvělá místa, kde můžete začít:
 
   * [Monero World, seznam vzdálených komunitních uzlů, které lze použít](https://moneroworld.com/#nodes)
@@ -80,71 +68,5 @@ Pokud jste zvědaví a chtěli byste lépe porozumět uzlům v Moneru a podívat
   * [monero.fail, seznam vzdálených uzlů s často kontrolovaným stavem< /a>](https://monero.fail/)
   * [Jak se připojit ke vzdálenému uzlu v rámci peněženky GUI](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
   * [Moneropedia – vzdálený uzel](https://www.getmonero.org/resources/moneropedia/remote-node.html)
-
-Další čtení
-
-  * [Jak Monero jedinečně umožňuje cirkulární ekonomiky](/knowledge/monero-circular-economies)/
-
-  * [Monerové kruhové podpisy vs CoinJoin jako ve Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Proč (a jak!) byste měli držet své vlastní klíče](/knowledge/hold-your-keys)/
-
-  * [Přispíváme zpět do Monera](/knowledge/contributing-to-monero)/
-
-  * [Jak Monero používá hard-forky k upgradu sítě](/knowledge/network-upgrades)/
-
-  * [Značky zobrazení: Jak jeden bajt zkrátí dobu synchronizace peněženky Monero o více než 40 %](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool a jeho role v decentralizaci těžby Monera](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Co to udělá pro Monero](/knowledge/seraphis-for-monero)/
-
-  * [Je převod bitcoinu na monero stejně soukromý jako přímý nákup monera?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Proč Monero na rozdíl od Zcash používá bezdůvěryhodné nastavení](/knowledge/monero-trustless-setup)/
-
-  * [Proč je Monero lepší uchovatel hodnoty než bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Jak může Monero překonat síťové efekty Bitcoinu](/knowledge/network-effect)/
-
-  * [Proč má Monero komunitu nejkritičtějšího myšlení](/knowledge/critical-thinking)/
-
-  * [Podvody, na které si dát pozor při používání Monero](/knowledge/monero-scams)/
-
-  * [Jak budou fungovat atomové swapy na Moneru](/knowledge/monero-atomic-swaps)/
-
-  * [Co by měl každý uživatel Monero vědět, pokud jde o vytváření sítí](/knowledge/monero-networking)/
-
-  * [Jak RingCT skrývá částky transakcí Monero](/knowledge/monero-ringct)/
-
-  * [Jak skryté adresy Monero chrání vaši identitu](/knowledge/monero-stealth-addresses)/
-
-  * [Jak subadresy Monero zabraňují propojení identity](/knowledge/monero-subaddresses)/
-
-  * [Vysvětlení výstupů Monero](/knowledge/monero-outputs)/
-
-  * [Osvědčené postupy pro začátečníky s Monero](/knowledge/monero-best-practices)/
-
-  * [Jak kruhové podpisy zakrývají výstupy Monera](/knowledge/ring-signatures)/
-
-  * [Jak Monero vyřešilo problém velikosti bloku, který sužuje bitcoiny](/knowledge/dynamic-block-size)/
-
-  * [Jak CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag)/
-
-  * [Proč má Monero ocasní emise](/knowledge/monero-tail-emission)/
-
-  * [Stručná historie Monera](/knowledge/monero-history)/
-
-  * [Wired Magazine se o Moneru mýlí, tady je důvod](/knowledge/wired-article-debunked)/
-
-  * [15 vyvrácených mýtů a obav o Monero](/knowledge/monero-myths-debunked)/
-
-  * [Jak Dandelion++ uchovává původ transakcí Monero v soukromí](/knowledge/monero-dandelion)/
-
-  * [Proč je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Co dělá RandomX tak výjimečným](/knowledge/monero-mining-randomx)/
-
-  * [Proč je Monero lepší než Dash, Zcash, Zcoin (i s Lelantusem), Grin a bitcoinové mixéry jako Wasabi (aktualizováno květen 2020)](/knowledge/why-monero-is-better)/
 
 Další čtení

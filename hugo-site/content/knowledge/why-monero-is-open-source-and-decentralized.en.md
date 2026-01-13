@@ -8,88 +8,40 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Power to the people
 
-## Power to the people
+One of the often sung goals of blockchain is putting power back in the hands of the people. What kinds of power, and how much differ depending on who you ask, and the design of a blockchain itself will determine how this redistribution comes about. There are many tools that contribute to correcting the disparity, and we would like to discuss one that has a great effect on how a project is run, and the actual power redistribution potential it has: open source.
 
 ## Open source software
 
-## Open source software
+A free, open source software (FOSS) project is one in which the code is licensed in such a way that it is available for viewing, changing, auditing, and copying by anyone and everyone. In contrast, the code of proprietary software is hidden, and kept as a business secret that is not shared for fear of competition copying the hard work that the creator paid for or made. Only the program produced at the end is released to the public, not the code.   
+  
+FOSS software has many advantages over its proprietary counterparts, such as potentially fewer bugs (since anyone is free to audit the code), innovation (since contributions can come from anywhere at any time), and empowerment of people that might not be able to afford or otherwise utilize the proprietary offerings.   
+  
+This is true of standard FOSS projects, and blockchain is no exception. The space is abuzz with talks of open source software, and proprietary wallet offerings are met with suspicion and criticism from cryptocurrency veterans. Despite most reference implementations of most major blockchains being open source, there are some – such as Monero – that go above and beyond and stand apart from the crowd.
 
 ## The blockchain connection
 
-## The blockchain connection
+While it’s true that most projects have open source code, it would be a disservice to the spirit of the concept to not dig a little deeper to see the real reasons why open source is so powerful. The reality is, open source licensing fosters open collaboration by people from all walks and stages of life, with the intention of creating tools that are needed, useful, and beneficial for humanity.   
+  
+Some cryptocurrencies, while the code is eventually released, have development done in secret so as to stay ahead of competing projects. While these projects do qualify as “open source projects” since their code is eventually released to the public, the initial development is still done by a select few, leading to a loss of many of the benefits that being open source might otherwise give.   
+  
+The spirit of an open source project is open collaboration for the benefit of all, rather than for the benefits of a few, and in this way Monero outshines most of its peers. Not only is Monero’s development done in an open fashion, with frequent meetings that anyone can attend and speak in, but so is its research and implementation. Indeed, many of Monero’s largest breakthroughs have come from external sources via collaboration, or by a seemingly random person coming onto the research platforms with a new idea, such as bulletproofs and privacy optimizations.
 
 ## Beyond code
 
-## Beyond code
+When evaluating a blockchain project, it is recommended that the user should not just look to see if the code is available for viewing, but if other aspects of the project are also conducted in an open, transparent fashion. The more closed doors there are to community involvement, the more uneasy one should feel. Herein lies a stumbling block for many, however, as many of us come from the proprietary world, where transparency is not common, and we don’t have a reference point for what constitutes “open enough”, not just in code, but in the spirit and other areas of a project.   
+  
+Indeed, most projects tout their openness on social media, but when you take a look into how many people actually contribute to the software, development, or research besides those employed or otherwise compensated to do so, the reality can be astoundingly different than what is claimed. It is possible for those in power (formally or informally) to be dismissive or outright hostile when it comes to other people’s ideas.   
+  
+Monero tries to sidestep this issue entirely by having no formal roles of the project, with even the core team of Monero primarily just running infrastructure, and having little to do with the actual development or research of the project. That said, informal power structures form in all social circles, and Monero is no exception, so they must be accounted for.
 
 ## A means or an end?
 
-## A means or an end?
-
-Further reading
-
-  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies)/
-
-  * [Monero’s Ring Signatures vs CoinJoin Like in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Why (And How!) You Should Hold Your Own Keys](/knowledge/hold-your-keys)/
-
-  * [Contributing Back to Monero](/knowledge/contributing-to-monero)/
-
-  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy)/
-
-  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades)/
-
-  * [View Tags: How One Byte Will Reduce Monero Wallet Sync Times by 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool and Its Role in Decentralizing Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero)/
-
-  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect)/
-
-  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking)/
-
-  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams)/
-
-  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps)/
-
-  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking)/
-
-  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct)/
-
-  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses)/
-
-  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses)/
-
-  * [Monero Outputs Explained](/knowledge/monero-outputs)/
-
-  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices)/
-
-  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures)/
-
-  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag)/
-
-  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission)/
-
-  * [A Brief History of Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked)/
-
-  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
-
-  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion)/
-
-  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx)/
-
-  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better)/
-
-Further reading
+While these social portions of open source software are valuable to explore and discuss, and indeed the lack of doing so has led to the downfall of many a project, the conversation can get quite intricate, and is generally outside of the scope of this article, though the reader is encouraged to continue learning about this critical portion of FOSS management.   
+  
+The Monero Project continually seeks to find ways to foster the open collaboration that is so critical to the spirit of open source. If some people prefer one chat platform over another, then bridges are deployed with existing platforms to increase communication. If a group of people feel they don’t have the tools or infrastructure to implement their ideas to make Monero better, then the community sees what sorts of (FOSS) tools are available.   
+  
+This means there’s not just more eyes on the code, which is only one aspect of the project, but on the designs, the research, the digital infrastructure, and the conversations.   
+  
+The spirit of open source software is not just to have open code, but to empower people, give them a voice, and change the world through global collaboration. The reader is encouraged to see if any project that they are interested in goes to these core values, or merely stops at the licensing of the code.   
+  
+We also invite them to run the same rubric on Monero. We know you’ll only discover the reason why Monero is one of the most secure, and collaborative communities in the cryptocurrency world.

@@ -8,12 +8,8 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis：Monero交易的模块化设计升级
 
-## Seraphis：Monero交易的模块化设计升级
-
 这篇文章描述 [Seraphis](https://github.com/UkoeHB/Seraphis), 一套交易协议结构和抽象,由化名的研究贡献者 [`koe`](https://github.com/UkoeHB) 开发的为Monero生态系统, 并由化名开发者 [`coinstudent2048`](https://github.com/coinstudent2048)进行持续的安全分析。  
 为了清楚起见，我们做了一些简化，并省略了某些技术细节；为此，由于Seraphis的设计仍在进行中，感兴趣的读者应该参考Seraphis的文档，以获得最新的信息。
-
-## Monero交易
 
 ## Monero交易
 
@@ -45,12 +41,8 @@ RingCT协议的一个有用的特性是，一些构件可以在保持整体设�
 
 ## Seraphis
 
-## Seraphis
-
 Seraphis 将这一想法向前推进了一步。  
 它没有更新现有RingCT交易协议的各个构件，而是引入了一个不同的协议，为了可以利用不同的构件并提供更好的功能。
-
-## 构建模块
 
 ## 构建模块
 
@@ -69,8 +61,6 @@ Seraphis 使用一套不同的加密构件来实现其设计目标。
 幸运的是，Seraphis所需的一些构件已经存在于其他地方，不需要从头设计。 Bulletproofs和Bulletproofs+结构都可以作为范围证明。 对Schnorr型证明系统的修改可用于授权证明。 还有一个有效的 [证明系统](https://eprint.iacr.org/2015/643) 已经作为Triptych的基础使用, [Lelantus](https://eprint.iacr.org/2019/373), 和 [Spark](https://eprint.iacr.org/2021/1173)* 可以为成员证明进行修改。
 
 * Cypher Stack获得用于Spark开发的资金。
-
-## 寻址
 
 ## 寻址
 
@@ -94,74 +84,6 @@ Seraphis 的地址建设可以解决这个问题。 有了Seraphis，你的地�
 
 ## 大局观
 
-## 大局观
-
 Seraphis是Monero生态系统的一个重大变化。 虽然它涉及到对地址和交易构件的修改，但它的设计提供了今天的RingCT协议所无法实现的灵活性和有用的功能。 虽然大部分的设计已经定稿，并正在发展成一个 [实施方案](https://github.com/UkoeHB/monero/tree/seraphis_lib), 地址设计和安全分析正在进行。 Seraphis提供了一个极好的机会来推动Monero生态系统的发展!
-
-进一步阅读
-
-  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies)/
-
-  * [门罗币环形签名与CoinJoin像在Wasabi比较](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys)/
-
-  * [贡献为门罗币](/knowledge/contributing-to-monero)/
-
-  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy)/
-
-  * [门罗币是如何使用硬分叉为升级网络](/knowledge/network-upgrades)/
-
-  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup)/
-
-  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value)/
-
-  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect)/
-
-  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking)/
-
-  * [门罗币防诈骗指南](/knowledge/monero-scams)/
-
-  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps)/
-
-  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking)/
-
-  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct)/
-
-  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses)/
-
-  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses)/
-
-  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs)/
-
-  * [门罗币最佳入门指南](/knowledge/monero-best-practices)/
-
-  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures)/
-
-  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size)/
-
-  * [ 新的CLSAG环签名技术将如何提高门罗币的效率](/knowledge/what-is-clsag)/
-
-  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission)/
-
-  * [门罗币的前世今生](/knowledge/monero-history)/
-
-  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked)/
-
-  * [流言终结者：关于门罗币的15大传言和疑虑](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion)/
-
-  * [为什么门罗币是开源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx)/
-
-  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better)/
 
 进一步阅读

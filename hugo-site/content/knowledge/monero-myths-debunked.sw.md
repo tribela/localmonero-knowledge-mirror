@@ -26,24 +26,6 @@ Iliyotajwa, kuna ukosoaji wa kawaida unaotozwa kwa Monero ambalo umepitwa na wak
   14. [Ikiwa Monero ni ya faragha sana, tunawezaje kukagua usambazaji ili kuhakikisha hakuna mtu anayechapisha Monero bila malipo chini ya pua zetu?](/knowledge/monero-myths-debunked#14)/
   15. [Hashrate nyingi za sasa za Monero hutoka kwa madimbwi mawili tu.](/knowledge/monero-myths-debunked#15)/
 
-  1. [Monero itakabiliwa na uchunguzi wa udhibiti zaidi ya sarafu zingine za siri kwa sababu ya kujitolea kwake kwa faragha na kutokujulikana katika shughuli zake.](/knowledge/monero-myths-debunked#1)/
-  2. [Monero ina chaguo chache za pochi.](/knowledge/monero-myths-debunked#2)/
-  3. [Monero ina uzoefu duni wa mtumiaji.](/knowledge/monero-myths-debunked#3)/
-  4. [Monero itapitwa na wakati ikiwa blockchain maarufu zaidi itatumia teknolojia thabiti ya faragha.](/knowledge/monero-myths-debunked#4)/
-  5. [Je, Monero haina ada ya juu sana ya ununuzi?](/knowledge/monero-myths-debunked#5)/
-  6. [Muamala wa Monero ni mkubwa mara nyingi kuliko muamala wa Bitcoin.](/knowledge/monero-myths-debunked#6)/
-  7. [Monero ina uma ngumu mara nyingi. Je, hii haimaanishi kuwa ni ya kati?](/knowledge/monero-myths-debunked#7)/
-  8. [Hii ni sarafu ya kibinafsi ya fluffypony!](/knowledge/monero-myths-debunked#8)/
-  9. [Ahadi nyingi tangu 2017 zimetoka kwa mtu anayejulikana kama moneromooo-monero](/knowledge/monero-myths-debunked#9)/
-  10. [Je, Monero si rahisi kushambuliwa 51%?](/knowledge/monero-myths-debunked#10)/
-  11. [Algorithm inayofaa kwa CPU? Je, uchimbaji madini wa Monero hautachukuliwa tu na boti?](/knowledge/monero-myths-debunked#11)/
-  12. [Uma za Monero hazidhuru tu uwezo wa kiuchumi wa Monero, lakini faragha yake!](/knowledge/monero-myths-debunked#12)/
-  13. [Je, Monero hakuwa na mchimba madini kiwete siku za mwanzo ambayo ilitumika kuwatajirisha waanzilishi?](/knowledge/monero-myths-debunked#13)/
-  14. [Ikiwa Monero ni ya faragha sana, tunawezaje kukagua usambazaji ili kuhakikisha hakuna mtu anayechapisha Monero bila malipo chini ya pua zetu?](/knowledge/monero-myths-debunked#14)/
-  15. [Hashrate nyingi za sasa za Monero hutoka kwa madimbwi mawili tu.](/knowledge/monero-myths-debunked#15)/
-
-## 1\. Monero itakabiliwa na uchunguzi wa udhibiti zaidi ya sarafu zingine za siri kwa sababu ya kujitolea kwake kwa faragha na kutokujulikana katika shughuli zake.
-
 ## 1\. Monero itakabiliwa na uchunguzi wa udhibiti zaidi ya sarafu zingine za siri kwa sababu ya kujitolea kwake kwa faragha na kutokujulikana katika shughuli zake.
 
 Hii ni ukosoaji wa kawaida juu ya Monero, ambalo husababisha wengi kuipa nafasi pana, na ndio kwa mbali ambapo mwitikio wa jumuiya si wa kupunguzwa na kukauka kama tu kusahihisha dhana isiyo sahihi.
@@ -58,13 +40,9 @@ Sasa mtu anaweza kusema kuwa sifa ya Bitcoin ilibadilika kwani watu waligundua k
 
 ## 2\. Monero ina chaguo chache za pochi.
 
-## 2\. Monero ina chaguo chache za pochi.
-
 Monero kwa hakika haina chaguo chache za pochi kuliko sarafu nyingi zilizopo. Hii ni kwa sababu Monero iliendelezwa kutoka chini kwenda juu. Iko kwenye kanuni la msingi tofauti kabisa kuliko Bitcoin. Hii inamaanisha kuwa Monero hawezi tu kugeuza pochi la msingi la Bitcoin, au pochi nyingine zozote zilizopo kwa Bitcoin kama sarafu nyingi zinavyofanya, na kuchukua fursa ya miundombinu iliyopo. Vile-vile, inamaanisha kuwa Monero haiongezwi kwa urahisi kwenye pochi za watu wengine, kama vile Exodus.
 
 Na bado, polepole lakini hakika, pochi za kila aina zinaanza kuonekana kwa Monero. Ilikuwa ni meme kwa miaka mingi kwamba Monero hakuwa na GUI, na hakuna msaada wa pochi wa simu, lakini sasa, hakuna kitu kinachoweza kuwa zaidi kutoka kwa ukweli. Kuna pochi zinazohudumia Monero haswa, kama vile Monerujo ya Android, na Cake Wallet kwa iOS na Android, na vile-vile mapya kama vile Wookey, Exa Wallet, na zaidi. Zaidi ya hayo, pochi za wahusika wengine zinaanza kuongeza Monero, ingawa kwa kasi ya polepole zaidi, ikijumuisha Exodus na Guarda, na tunatarajia mtindo huu utaendelea tu kadiri muda unavyosonga na kanuni la msingi wa Monero inakomaa.
-
-## 3\. Monero ina uzoefu duni wa mtumiaji.
 
 ## 3\. Monero ina uzoefu duni wa mtumiaji.
 
@@ -77,8 +55,6 @@ Tunamwalika msomaji kusoma makala kuhusu hatua ambazo Bitcoiners hupendekeza kwa
 Pamoja na Monero, orodha hii ya maelezo ya nguo zote imeondolewa kabisa. Kila muamala wa Monero huhifadhi kiwango cha juu cha faragha kila wakati, bila mtumiaji kuhitaji kufanya chochote au kutumia programu za nje. Ingawa Bitcoin inafanya iwe vigumu kupata faragha sawa kwa wote isipokuwa mtumiaji mwenye uzoefu zaidi, Monero hufanya iwe vigumu kuikosea, kwa mtu yeyote, wakati wote. Kwa kadiri utendakazi unavyoendelea, tunafikiri kuwa anwani ndefu na muda wa kusawazisha ni wa thamani zaidi.
 
 Na hata baada ya kujadili kila kitu hapo juu, ukweli unabaki kuwa uzoefu wa mtumiaji mara nyingi huwa bora zaidi baada ya muda, na Monero pia. UX ya sarafu inaweza kuboreshwa sana baada ya miaka michache, lakini misingi yake ni vigumu zaidi kubadilika.
-
-## 4\. Monero itapitwa na wakati ikiwa blockchain maarufu zaidi itatumia teknolojia thabiti ya faragha.
 
 ## 4\. Monero itapitwa na wakati ikiwa blockchain maarufu zaidi itatumia teknolojia thabiti ya faragha.
 
@@ -102,8 +78,6 @@ Kubadilisha gia kwa mara ya mwisho kwa swali hili, mara chache hoja hii hutumika
 
 ## 5\. Je, Monero haina ada ya juu sana ya ununuzi?
 
-## 5\. Je, Monero haina ada ya juu sana ya ununuzi?
-
 Hapana tena! Shukrani kwa teknolojia ya ajabu ya kuzuia risasi, iliyoongezwa mnamo Oktoba 2018, ukubwa wa ununuzi umepunguzwa sana (kwa zaidi ya 80%), na kusababisha kushuka sawa kwa ada za ununuzi. Kwa hakika, kufikia wakati wa kuandika, Monero ni nafuu kwa kila baiti kuliko Bitcoin, na uboreshaji zaidi wa teknolojia unazifanya kuwa chini zaidi.
 
 Uboreshaji huu ni tofauti na mara-kwa-mara. Mfano mmoja ni uboreshaji mahiri katika vizuia risasi vyenyewe, na hivyo kupunguza hesabu inayohitajika kwa ukokotoaji na uthibitishaji, wakati mwingine kwa hadi 25%.
@@ -111,10 +85,6 @@ Uboreshaji huu ni tofauti na mara-kwa-mara. Mfano mmoja ni uboreshaji mahiri kat
 Aidha, kuna miradi mapya ya kusisimua ya kusaini pete katika kazi, kama vile CLSAG, ambalo litachukua nafasi ya mpango wa sasa wa MLSAG, na kupunguza zaidi ukubwa wa shughuli nzima kwa 25-35%. Zaidi ya hayo, kuna teknolojia mpya zaidi, zenye makali ya kutokwa na damu zenye mifumo tofauti kabisa na uthibitishaji ambalo lina uwezo wa kuweka ukubwa wa sasa wa shughuli, lakini ina saizi za pete za zaidi ya mia mmoja, kama vile Triptych, Arcturus, na Lelantus, zote ambazo ni ndogo na ufanisi zaidi kuliko mipango ya sasa.
 
 ## 6\. Muamala wa Monero ni mkubwa mara nyingi kuliko muamala wa Bitcoin.
-
-## 6\. Muamala wa Monero ni mkubwa mara nyingi kuliko muamala wa Bitcoin.
-
-## 7\. Monero ina uma ngumu mara nyingi. Je, hii haimaanishi kuwa ni ya kati?
 
 ## 7\. Monero ina uma ngumu mara nyingi. Je, hii haimaanishi kuwa ni ya kati?
 
@@ -128,13 +98,9 @@ Haya yote ya kusema, timu la maendeleo iliyogatuliwa inapata vigumu sana na inac
 
 ## 8\. Hii ni sarafu ya kibinafsi ya fluffypony!
 
-## 8\. Hii ni sarafu ya kibinafsi ya fluffypony!
-
 Hii si, na haijawahi kuwa, sarafu ya Riccardo ‘fluffypony’ Spagni. Hakufanikiwa hata. Lilianzishwa na mtu asiyejulikana kwa jina bandia anayejulikana kama asante_kwa_leo, na kuna hadithi ya kuvutia sana kuhusu hilo kwa wakati mwingine. Fluffypony alipata sifa mbaya kama mshiriki mkuu wa timu/msimamizi mkuu, kwani alitoa muda na rasilimali nyingi kusaidia sarafu kukua, na pia kupitia kusafiri na kuzungumza kwenye mikutano. Pamoja na mambo haya mawili, akawa aina wa uso usio rasmi kwa Monero, na kwa kawaida alikuwa lango ambalo watu walitupata. Kwa sababu ya utamaduni mbaya wa Mkurugenzi Mtendaji uliokuwa umeenea katika eneo la sarafu-fiche, walidhani kuwa yeye ndiye mwanzilishi na kiongozi wa Monero, ambalo lote si la kweli.
 
 Katika siku ya sasa, fluffypony bado ni sehemu ya timu kuu, lakini si msimamizi mkuu wa kanuni za msingi, na amerejea kufanya kazi kwenye miradi yake binafsi. Monero inaendelea vizuri.
-
-## 9\. Ahadi nyingi tangu 2017 zimetoka kwa mtu anayejulikana kama moneromooo-monero
 
 ## 9\. Ahadi nyingi tangu 2017 zimetoka kwa mtu anayejulikana kama moneromooo-monero
 
@@ -143,8 +109,6 @@ Huu ni ukweli usiopingika, na si jambo la kubishaniwa. moneromooo ni mwanachama 
 Kama mtu anavyoweza kufikiria, kufanya kazi kwa muda wote wa Monero badala ya kujitolea kutasababisha kiasi kikubwa cha kazi iliyokusanywa. Kwa kuwa Monero haikuwa na mkuu, ICO, na haichukui tuzo la mwanzilishi, vinginevyo hatuna wahandisi wa wakati wote wanaofanya kazi kwenye mradi huo, na watu huchangia kile wanachoweza, wakati wanaweza, na haiwezekani kutarajia michango huu kumzidi mfanyikazi wa wakati wote.
 
 Hilo likishasemwa, bado kuna juhudi kubwa la kuwa na hundi na salio. Mwanachama wa timu ya msingi bado huunganisha msimbo baada ya ukaguzi, kwa hivyo sio kesi ambapo mtu kibinafsi anatengeneza na kuunganisha msimbo, na hivyo kukwepa usimamizi wowote unaohitajika ili kupata hitilafu mbaya au nia mbaya.
-
-## 10\. Je, Monero si rahisi kushambuliwa 51%?
 
 ## 10\. Je, Monero si rahisi kushambuliwa 51%?
 
@@ -158,8 +122,6 @@ Gharama kamili ya maunzi hadi 51% kwa kushambulia mtandao wa Monero haujahesabiw
 
 ## 11\. Algorithm inayofaa kwa CPU? Je, uchimbaji madini wa Monero hautachukuliwa tu na boti?
 
-## 11\. Algorithm inayofaa kwa CPU? Je, uchimbaji madini wa Monero hautachukuliwa tu na boti?
-
 Viongozi wawili wa nafasi wa uchimbaji madini ni ASIC na boti, na kusonga mbali na mmoja lazima kumaanisha kusogea karibu na lingine. Ikiwa mtu anahitaji CPU ya kuchimba Monero, basi wadukuzi wanaweza kuchukua udhibiti wa mamia kama si maelfu ya kompyuta zilizo hatarini na kuwalazimisha kuchimba Monero kwa niaba yao, bila kuwagharimu chochote, na kushinda wale walio na kompyuta kadhaa tu katika kaya zao. .
 
 Kanusho la kwanza kwa hoja hii ni kuhusu wamiliki wa boti wenyewe. Ingawa hatuungi mkono udukuzi wa kompyuta za wengine, kizuizi cha kuingia katika kumiliki na kuendesha botnet ni cha chini sana kuliko kile cha kumiliki ASIC. Mtu anahitaji programu - mara nyingi inapatikana bila malipo na chanzo huria - na wakati na ujuzi wa kunusa kompyuta zilizo hatarini. ziingine zinahitaji kiasi cha ajabu cha mtaji na upatikanaji wa viwanda. Mmoja inaweza kufanywa na mtoto katika lelo, na zingine tu za matajiri sana. Hii inatupelekea kuhitimisha kwamba, ikiwa hofu mbaya zaidi za wachimbaji zingetimia, boti zenyewe zingegatuliwa zaidi kuliko ASICs ambzo ziko.
@@ -167,8 +129,6 @@ Kanusho la kwanza kwa hoja hii ni kuhusu wamiliki wa boti wenyewe. Ingawa hatuun
 Hilo lilisema, jumuiya ya Monero ina imani kuwa suala hili limezidiwa. Wahandisi wa RandomX walitengeneza itifaki kimakusudi ili kuhitaji 2GB ya kumbukumbu ya RAM kufanya kazi. Kwa maneno mengine, seva nyingi ndogo, zisizo na mazingira hatarishi za kibinafsi (VPS) hazitakuwa na uwezo, na ikiwa zingekuwa hivyo, nyongeza za rasilimali zinazotumiwa zingeonekana sana kwa msimamizi wa mfumo, na kusababisha uchunguzi wa haraka. Kwa maneno mengine, haiwezi kufanya kazi kimya chini kama vile kompyuta zilizoathiriwa zinazoshiriki katika shambulio la DDOS, au kunusa manenosiri kimyakimya. Wakati mchimbaji amewashwa, kila mtu anaijua.
 
 Hii inapunguza kiwango cha kompyuta ambazo botnet zitaweza kuathiri kwa ufanisi zile zisizo na uwezo mkubwa wa kiteknolojia, au zile ambazo hazijaangaliwa kamwe, badala ya wingi wa kompyuta zilizo hatarini ambazo watetezi wa hoja hii wanadhani umo hatarini. .
-
-## 12\. Uma za Monero hazidhuru tu uwezo wa kiuchumi wa Monero, lakini faragha yake!
 
 ## 12\. Uma za Monero hazidhuru tu uwezo wa kiuchumi wa Monero, lakini faragha yake!
 
@@ -186,8 +146,6 @@ Ikishasemwa hivo, tunaona kuwa ni ujinga kufikiria kuwa hakutakuwa na shambulio 
 
 ## 13\. Je, Monero hakuwa na mchimba madini kiwete siku za mwanzo ambayo ilitumika kuwatajirisha waanzilishi?
 
-## 13\. Je, Monero hakuwa na mchimba madini kiwete siku za mwanzo ambayo ilitumika kuwatajirisha waanzilishi?
-
 Historia ya Monero inavutia, na inaweza kushangaza wengi kusikia kwamba ilianza kama ulaghai. Mtayarishi, asante_kwa_leo, kuna uwezekano alikuwa anashirikiana na kikundi cha sarafu-fiche ambacho kilitengeneza itifaki ya CryptoNote, lakini alikuwa na nia ya hila ya kuwalaghai watu pesa zao kwa kuitumia.
 
 Juhudi zao za awali za sarafu hazikufaulu, kwa hivyo waliunda Monero kama njia ya kujaribu tena. Hili lilishindikana tena kwani jamii iligundua haraka kuwa kuna- kitu kibaya na kushika sarafu. Hata hivyo, watayarishi hao wajanja walipata hila ya mwisho. Walitoa kwa umma kwa makusudi programu ya uchimbaji madini, wakiweka toleo lililoboreshwa kwao wenyewe ili kuwashinda wengine na kupata pesa nyingi kutokana na zawadi za kuzuia.
@@ -196,10 +154,6 @@ Hili lilifanikiwa kwa muda, lakini pia lilinaswa kwa haraka na jumuiya la Monero
 
 Kwa manufaa ya kuona nyuma, wengine wanaweza kukosoa uamuzi wa kutozindua tena sarafu, na ikiwa asili hizi za kitapeli zinatosha kusukuma mtu mbali na kazi nzuri ambazo Monero imefanya, basi hakuna hoja ya kuwashawishi. Bila kujali mafadhaiko ya awali ambalo waundaji wa matapeli walisababisha, Monero imestawi na kutumia akili na shauku yake ya jumuiya kutengeneza teknolojia yenye nguvu. Timu letu kuu la kisasa, pamoja na washiriki wa zamani, hawakuimarishwa na mgodi wa kilema, na kwa ufahamu wetu, hakuna mtu aliyehusika katika kashfa ya awali iliyodumu katika jumuiya la Monero zaidi ya wiki chache za kuwepo kwa sarafu.
 
-Kwa manufaa ya kuona nyuma, wengine wanaweza kukosoa uamuzi wa kutozindua tena sarafu, na ikiwa asili hizi za kitapeli zinatosha kusukuma mtu mbali na kazi nzuri ambazo Monero imefanya, basi hakuna hoja ya kuwashawishi. Bila kujali mafadhaiko ya awali ambalo waundaji wa matapeli walisababisha, Monero imestawi na kutumia akili na shauku yake ya jumuiya kutengeneza teknolojia yenye nguvu. Timu letu kuu la kisasa, pamoja na washiriki wa zamani, hawakuimarishwa na mgodi wa kilema, na kwa ufahamu wetu, hakuna mtu aliyehusika katika kashfa ya awali iliyodumu katika jumuiya la Monero zaidi ya wiki chache za kuwepo kwa sarafu.
-
-## 14\. Ikiwa Monero ni ya faragha sana, tunawezaje kukagua usambazaji ili kuhakikisha hakuna mtu anayechapisha Monero bila malipo chini ya pua zetu?
-
 ## 14\. Ikiwa Monero ni ya faragha sana, tunawezaje kukagua usambazaji ili kuhakikisha hakuna mtu anayechapisha Monero bila malipo chini ya pua zetu?
 
 Hili ni swali gumu kujibu. Jibu mmoja linalotolewa kwa kawaida ni kwamba tunaweza kuongeza miamala ya coinbase (wakati Monero mpya inapotolewa kwa mchimbaji kwa kutatua kizuizi). Miamala hii ni ya uwazi, na ikiwa tutaijumlisha tunapaswa kupata jumla ya idadi ya Monero katika mzunguko.
@@ -207,8 +161,6 @@ Hili ni swali gumu kujibu. Jibu mmoja linalotolewa kwa kawaida ni kwamba tunawez
 Ni muhimu kutambua hata hivyo, kwamba kama shenanigans zingetokea ambazo zitaongeza kiasi cha Monero zaidi ya kile tunachotarajia kuona kutoka kwa miamala la coinbase, hazingefanyika kwenye shughuli za coinbase zenyewe, lakini katika muamala wa kawaida kati ya pochi. Hili lingetokea katika mmojawapo wa njia tatu pekee.
 
 Mmoja, ikiwa usimbaji fiche unaothibitisha kuwa hakuna Monero iliundwa au kuharibiwa katika miamala ina hitilafu kimsingi. Mbili, ikiwa utekelezaji (msimbo) wa kriptografia thabiti ni mbovu. Tatu, ikiwa hakuna dosari, lakini kompyuta huwa na nguvu ya kutosha kupenya mifumo wetu wa sasa wa kriptografia, na kuunda uthibitisho wa uwongo.
-
-## 15\. Hashrate nyingi za sasa za Monero hutoka kwa madimbwi mawili tu.
 
 ## 15\. Hashrate nyingi za sasa za Monero hutoka kwa madimbwi mawili tu.
 
@@ -229,95 +181,5 @@ Lakini tuyaache.
 Utagundua katika uhamasishaji wetu wa ugatuaji wa madaraka hapo juu, ukweli kwamba mchimbaji ana uwezo wa kubadilisha mabwawa. Wakati wowote, iwe kutoka kwa elimu bora, mwito wa hadhara wa ugatuaji, au kuongezeka kwa ushindani kati ya vikundi, usambazaji wa heshi unaweza kubadilika kulingana na wachimbaji mmoja-mmoja kubadilisha mahali wanapoelekeza heshi zao. Hilo haliwezi kusemwa kwa uchimbaji madini ambalo umejikita katika kiwango cha maunzi, kwani watengenezaji wa ASIC hawana motisha ya kuelekeza kwenye bwawa lolote isipokuwa wao wenyewe, na hawatafanya hivyo.
 
 Kwa hivyo ukweli kwamba sehemu kubwa ya hashrate ya Monero imejilimbikizia kwenye mabwawa kadhaa sio jambo ambalo tumekwama, na kwa kweli, linaweza kuwa ni kwa sababu ya ukosefu wa elimu kuhusu uchimbaji madini kwa ujumla. Ni jambo ambalo linaweza kurekebishwa kwa sababu tatizo haliko katika kiwango cha msingi, tofauti na uwekaji wa vifaa vya Bitcoin.
-
-Hili si tatizo linaloweza kutatuliwa. Mabwawa ya uchimbaji madini ya kati yanamiliki maunzi, bwawa, na heshi, na hakuna chochote ambacho mtu yeyote anaweza kufanya kuhusu hilo.
-
-Uwekaji kati wa bwawa, wakati matokeo ya mwisho ni sawa, yana tofauti sana, na msingi unaobadilika zaidi. Kwa sababu Monero ina uchimbaji wa usawa, kila mchimbaji anaweza kuchagua mahali pa kuelekeza heshi zake. Watu mara nyingi huchagua kuelekeza kwenye bwawa kubwa, kwa sababu tu hii inamaanisha wataona vitalu vikipatikana mara nyingi zaidi kuliko bwawa ndogo. 
-
-Ingawa, ikumbukwe kwamba kipunguzo chao binafsi cha zawadi la kuzuia kitakuwa kidogo kwa kuwa wanashiriki na watu wengi zaidi. Bwawa ndogo hupata vitalu mara chache, lakini kila mchimbaji hupata sehemu kubwa kwa zawadi ya block, na matokeo la mwisho ni mchimbaji hupata kiasi sawa cha pesa iwe kwenye bwawa dogo au kubwa zaidi, kwa hivyo tunawahimiza wachimbaji kuelekeza, heshi zao kwa madimbwi madogo ili kugawanya zaidi uchimbaji.
-
-Lakini tuyaache.
-
-Utagundua katika uhamasishaji wetu wa ugatuaji wa madaraka hapo juu, ukweli kwamba mchimbaji ana uwezo wa kubadilisha mabwawa. Wakati wowote, iwe kutoka kwa elimu bora, mwito wa hadhara wa ugatuaji, au kuongezeka kwa ushindani kati ya vikundi, usambazaji wa heshi unaweza kubadilika kulingana na wachimbaji mmoja-mmoja kubadilisha mahali wanapoelekeza heshi zao. Hilo haliwezi kusemwa kwa uchimbaji madini ambalo umejikita katika kiwango cha maunzi, kwani watengenezaji wa ASIC hawana motisha ya kuelekeza kwenye bwawa lolote isipokuwa wao wenyewe, na hawatafanya hivyo.
-
-Kwa hivyo ukweli kwamba sehemu kubwa ya hashrate ya Monero imejilimbikizia kwenye mabwawa kadhaa sio jambo ambalo tumekwama, na kwa kweli, linaweza kuwa ni kwa sababu ya ukosefu wa elimu kuhusu uchimbaji madini kwa ujumla. Ni jambo ambalo linaweza kurekebishwa kwa sababu tatizo haliko katika kiwango cha msingi, tofauti na uwekaji wa vifaa vya Bitcoin.
-
-Hili si tatizo linaloweza kutatuliwa. Mabwawa ya uchimbaji madini ya kati yanamiliki maunzi, bwawa, na heshi, na hakuna chochote ambacho mtu yeyote anaweza kufanya kuhusu hilo.
-
-Uwekaji kati wa bwawa, wakati matokeo ya mwisho ni sawa, yana tofauti sana, na msingi unaobadilika zaidi. Kwa sababu Monero ina uchimbaji wa usawa, kila mchimbaji anaweza kuchagua mahali pa kuelekeza heshi zake. Watu mara nyingi huchagua kuelekeza kwenye bwawa kubwa, kwa sababu tu hii inamaanisha wataona vitalu vikipatikana mara nyingi zaidi kuliko bwawa ndogo. 
-
-Ingawa, ikumbukwe kwamba kipunguzo chao binafsi cha zawadi la kuzuia kitakuwa kidogo kwa kuwa wanashiriki na watu wengi zaidi. Bwawa ndogo hupata vitalu mara chache, lakini kila mchimbaji hupata sehemu kubwa kwa zawadi ya block, na matokeo la mwisho ni mchimbaji hupata kiasi sawa cha pesa iwe kwenye bwawa dogo au kubwa zaidi, kwa hivyo tunawahimiza wachimbaji kuelekeza, heshi zao kwa madimbwi madogo ili kugawanya zaidi uchimbaji.
-
-Lakini tuyaache.
-
-Utagundua katika uhamasishaji wetu wa ugatuaji wa madaraka hapo juu, ukweli kwamba mchimbaji ana uwezo wa kubadilisha mabwawa. Wakati wowote, iwe kutoka kwa elimu bora, mwito wa hadhara wa ugatuaji, au kuongezeka kwa ushindani kati ya vikundi, usambazaji wa heshi unaweza kubadilika kulingana na wachimbaji mmoja-mmoja kubadilisha mahali wanapoelekeza heshi zao. Hilo haliwezi kusemwa kwa uchimbaji madini ambalo umejikita katika kiwango cha maunzi, kwani watengenezaji wa ASIC hawana motisha ya kuelekeza kwenye bwawa lolote isipokuwa wao wenyewe, na hawatafanya hivyo.
-
-Kwa hivyo ukweli kwamba sehemu kubwa ya hashrate ya Monero imejilimbikizia kwenye mabwawa kadhaa sio jambo ambalo tumekwama, na kwa kweli, linaweza kuwa ni kwa sababu ya ukosefu wa elimu kuhusu uchimbaji madini kwa ujumla. Ni jambo ambalo linaweza kurekebishwa kwa sababu tatizo haliko katika kiwango cha msingi, tofauti na uwekaji wa vifaa vya Bitcoin.
-
-Kusoma zaidi
-
-  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies)/
-
-  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys)/
-
-  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero)/
-
-  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades)/
-
-  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero)/
-
-  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect)/
-
-  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking)/
-
-  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams)/
-
-  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking)/
-
-  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct)/
-
-  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses)/
-
-  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses)/
-
-  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs)/
-
-  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices)/
-
-  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures)/
-
-  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag)/
-
-  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission)/
-
-  * [Historia fupi ya Monero](/knowledge/monero-history)/
-
-  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked)/
-
-  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion)/
-
-  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx)/
-
-  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better)/
 
 Kusoma zaidi

@@ -14,8 +14,6 @@ image_credit_url: "https://cypherstack.com"
 
 ## バイトコイン
 
-## バイトコイン
-
 2013 年 9 月、前代未聞のグループである Cryptonote が、同名の新しいプロトコルに関するホワイトペーパーをリリースしました。このプロトコルは、オプションのリング署名とステルスアドレスを利用してプライバシーを強化しながら、ビットコインのような暗号通貨を作ろうとしました。その後間もなく、2013 年 11 月に、Bytecoin と呼ばれる新しいコインの最初のコードが GitHub にプッシュされました。このコインは、論文で説明されているプロトコルを新しいコードベースで実装しました (つまり、当時の他のほとんどのコインのようにビットコインからフォークされたものではありません)。
 
 Bytecoin チームは、残りのコードをリポジトリに入れるのに時間を費やしましたが、2014 年 3 月までに完了したように見えました。これは興味を引くための策だったのではないかと今では広く疑われています。ソックパペットで人目を引くことに成功した後、新しく興味を持った人々は奇妙なことを発見しました: コインの 80% 以上がすでに採掘されていました。
@@ -28,15 +26,11 @@ Bytecoin チームは、残りのコードをリポジトリに入れるのに�
 
 ## ビットモネロ
 
-## ビットモネロ
-
 2014 年 4 月 9 日、Thanks_for_today という前代未聞の別のエンティティが BitcoinTalk フォーラムに投稿し、Bitmonero と呼ばれる最初の Bytecoin フォークの立ち上げを発表しました。それが最初のフォークだったので、Bitmonero はすぐに注目を集め、4 月 18 日にローンチされたとき、Bitmonero の周りに小さなコミュニティが形成され、Bytecoin が中断したところから継続することを熱望しましたが、Bitmonero について何か怪しい匂いがするのに時間はかかりませんでした。
 
 創設者のThanks_for_todayは、一緒に仕事をするのが難しいことがわかりました。一度に何日も姿を消し（開発の最初の数日間の真新しいコインにとっては非常に奇妙です）、鉱山のMoneroをBytecoinとマージしようとしたり、発行スケジュールを調整したり、コインを中心に構築された一貫したコア グループの協力を拒否したり、独自のウェブサイト、BitcoinTalk の投稿、およびリポジトリを持つことで、コミュニティに逆らうことがよくありました。
 
 Monero を中心に構築されたコア グループは、Thanks_for_today よりもはるかに活発で有能であることがすぐに明らかになり、何度か参加するよう招待されたにもかかわらず、彼は最終的に姿を消し、Monero の歴史の脚注になりました。数年後、彼はひそかにBytecoinチームの一員でもあったと疑われています。なぜ？さて、このすべての間、Bytecoin 自体は何もせずに座ったままではいませんでした。
-
-## 焦土
 
 ## 焦土
 
@@ -50,76 +44,8 @@ Bytecoin チームは満足していませんでした。大規模にプレマ�
 
 ## 結論
 
-## 結論
-
 創設者がもういないことを自慢できるコインは多くありません。実際、ビットコインとモネロはおそらく 2 つの最大の例です。比較すると、ビットコインはより慈善的な観点から示されるかもしれませんが、モネロの詐欺の始まりからも学ぶべき教訓があります。
 
 Bitcoin は、1 人が現在のシステムに飽きたときに何が起こるかを示し、現状に挑戦するためにイノベーションでステップアップすることを敢えてしました。モネロは、嘘をつくことを拒否し、自分たちで真実を見つけ、自由を築くためのツールを取り戻すコミュニティの力を示しています。モネロは詐欺として始まったかもしれませんが、私たちの経済的プライバシーを取り戻すための強力な武器に本当に進化しました。
-
-参考文献
-
-  * [Monero が独自に循環型経済を実現する方法](/knowledge/monero-circular-economies)/
-
-  * [モネロのリング署名とWasabiのような CoinJoin の比較](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [なぜ (そしてどのように!) 自分の鍵を保持する必要があるのか](/knowledge/hold-your-keys)/
-
-  * [モネロへの寄付](/knowledge/contributing-to-monero)/
-
-  * [リモートノードが Monero のプライバシーに与える影響](/knowledge/remote-nodes-privacy)/
-
-  * [Monero がハードフォークを使用してネットワークをアップグレードする方法](/knowledge/network-upgrades)/
-
-  * [タグを表示: 1 バイトで Monero ウォレットの同期時間を 40% 以上短縮する方法](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool と Monero マイニングの分散化におけるその役割](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [セラフィス: モネロに何をもたらすか](/knowledge/seraphis-for-monero)/
-
-  * [ビットコインをモネロに変換することは、モネロを直接購入することと同じくらいプライベートですか?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Monero が Zcash とは異なりトラストレス設定を使用する理由](/knowledge/monero-trustless-setup)/
-
-  * [モネロがビットコインより優れた価値の保存手段である理由](/knowledge/monero-better-store-of-value)/
-
-  * [モネロがビットコインのネットワーク効果を克服する方法](/knowledge/network-effect)/
-
-  * [モネロが最も批判的思考のコミュニティを持っている理由](/knowledge/critical-thinking)/
-
-  * [モネロを使用する際に注意すべき詐欺](/knowledge/monero-scams)/
-
-  * [モネロでアトミックスワップがどのように機能するか](/knowledge/monero-atomic-swaps)/
-
-  * [ネットワーキングに関してすべての Monero ユーザーが知っておくべきこと](/knowledge/monero-networking)/
-
-  * [RingCT がモネロの取引金額を隠す方法](/knowledge/monero-ringct)/
-
-  * [Monero ステルス アドレスが個人情報を保護する方法](/knowledge/monero-stealth-addresses)/
-
-  * [Monero のサブアドレスが ID リンクを防止するしくみ](/knowledge/monero-subaddresses)/
-
-  * [モネロのアウトプットの説明](/knowledge/monero-outputs)/
-
-  * [初心者のためのモネロのベストプラクティス](/knowledge/monero-best-practices)/
-
-  * [リング署名がMoneroの出力を覆い隠す方法](/knowledge/ring-signatures)/
-
-  * [Monero がビットコインを悩ませているブロックサイズの問題をどのように解決したか](/knowledge/dynamic-block-size)/
-
-  * [CLSAG がモネロの効率を改善する方法](/knowledge/what-is-clsag)/
-
-  * [モネロにテールエミッションがある理由](/knowledge/monero-tail-emission)/
-
-  * [ワイアード・マガジンはモネロについて間違っている、その理由はここにある](/knowledge/wired-article-debunked)/
-
-  * [トップ15のモネロの神話と懸念が暴かれる](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion++ が Monero のトランザクションの起点を非公開にする方法](/knowledge/monero-dandelion)/
-
-  * [モネロがオープンソースで分散化されている理由](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero マイニング: RandomX が特別な理由](/knowledge/monero-mining-randomx)/
-
-  * [Monero が Dash、Zcash、Zcoin (Lelantus を使用しても)、Grin、およびWasabi のような Bitcoin ミキサーよりも優れている理由 (2020 年 5 月更新)](/knowledge/why-monero-is-better)/
 
 参考文献

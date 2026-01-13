@@ -10,10 +10,6 @@ Et av kjernemålene i Monero-prosjektet er å muliggjøre et rettferdig, desentr
 
 Selv om en unik gruvealgoritme [som RandomX](/knowledge/monero-mining-randomx) er ekstremt viktig for dette målet, da den bidrar til å sikre at alle med en datamaskin kan bidra med en god del til sikkerheten til nettverket, løser ikke RandomX problemene som kan oppstå på grunn av bassengutvinning. Pool mining er den desidert vanligste måten å utvinne kryptovalutaer i dag, inkludert Monero, men heldigvis endrer fremveksten av p2pool mining det raskt.
 
-Selv om en unik gruvealgoritme [som RandomX](/knowledge/monero-mining-randomx) er ekstremt viktig for dette målet, da den bidrar til å sikre at alle med en datamaskin kan bidra med en god del til sikkerheten til nettverket, løser ikke RandomX problemene som kan oppstå på grunn av bassengutvinning. Pool mining er den desidert vanligste måten å utvinne kryptovalutaer i dag, inkludert Monero, men heldigvis endrer fremveksten av p2pool mining det raskt.
-
-## Hva er bassenggruvedrift?
-
 ## Hva er bassenggruvedrift?
 
 Pool mining er en måte for gruvearbeidere å dele oppgaven med å prøve å løse en blokk på nettverket og deretter dele belønningene jevnt for alle blokkene som bassenget finner. Selv om dette hjelper enormt med å jevne ut frekvensen som gruvearbeidere blir betalt med kontra mining av Monero alene, er det ikke uten alvorlige sentraliseringsproblemer.
@@ -22,13 +18,9 @@ Når hver gruvearbeider bidrar med arbeid til bassenget, gir de opp kontrollen o
 
 ## Hva er problemet med bassengutvinning?
 
-## Hva er problemet med bassengutvinning?
-
 Dessverre er dette helt avhengig av tillit og lar bassengoperatøren gjøre grusomme ting med arbeidet som utføres av gruvearbeidere. Bassengoperatøren kan bruke arbeidet som gjøres til å angripe nettverket, forsøke å dobbeltbruke midler (hvis bassenget er stort nok), eller ganske enkelt bruke arbeidet som gjøres av gruvearbeiderne til å betale seg selv og aldri belønne gruvearbeidere ordentlig for arbeidet deres. .
 
 Den største risikoen for nettverket er at en pool (eller flere bassenger som jobber sammen) har mer enn 51 % av nettverkets hashrate under kontroll, da de kan bruke dette til å jukse og bruke midler to ganger (dobbeltforbruk) angrep) eller forsøk å endre reglene for nettverket.
-
-## Hva er p2pool?
 
 ## Hva er p2pool?
 
@@ -40,15 +32,11 @@ Dette gjøres ved å bruke en ny blokkjede (en "sidekjede") som holder oversikt 
 
 ## Hvordan løser p2pool problemene med bassenggruvedrift?
 
-## Hvordan løser p2pool problemene med bassenggruvedrift?
-
 I p2pool er det ingen sentralisert pool, sentralisert pooloperatør eller enkeltperson som holder på midler og distribuerer utbetalinger. Alt arbeidet som gjøres kollektivt av de som gruver via p2pool, blir sjekket av p2pool-blokkjeden og andre nodeoperatører for å sikre at det er legitimt, og alle gruvearbeidere blir betalt ut i henhold til arbeidet de har gjort umiddelbart når en blokk blir funnet direkte fra belønningene i den funnet blokken.
 
 Når gruvearbeidere velger å bruke p2pool i stedet for et sentralisert basseng, fjerner de all makt og tillit fra bassengoperatørene og sikrer at arbeidet deres bidrar til nettverkets beste og til deres egne belønninger, reduserer risikoen for nettverksangrep, misbruk av arbeidet deres, eller tyveri av belønninger de skylder.
 
 Ikke bare hjelper dette dem å beskytte sine egne interesser, det reduserer risikoen for at sentraliserte bassenger kan utgjøre for Monero-nettverket som helhet. p2pool-bruk hjelper også enormt med å redusere risikoen som nasjonalstater eller regulatorer kan utgjøre for helsen til nettverket, ettersom det ikke er noen sentraliserte bassengoperatører å presse på, ingen geografisk konsentrasjon av bassenger å støtte seg på, eller noe annet lett presspunkt. for dem å bruke mot Monero.
-
-## Hva er ulempene?
 
 ## Hva er ulempene?
 
@@ -58,14 +46,10 @@ Den andre viktige forskjellen fra sentralisert gruvedrift er at små gruvearbeid
 
 ## Hvordan kan jeg komme i gang?
 
-## Hvordan kan jeg komme i gang?
-
 Heldigvis, på grunn av den utmerkede utformingen av Monero's p2pool-implementering og de mange menneskene i samfunnet som har brukt tid på å hjelpe til med å forenkle prosessen med gruvedrift via p2pool, blir det enklere med tiden å komme i gang. Det er flere måter å komme i gang med mining med p2pool, men siden de tekniske detaljene er utenfor rammen av denne artikkelen, kan du gjerne hoppe inn i en lenke nedenfor avhengig av operativsystemet ditt:
 
   * [Windows](https://www.youtube.com/watch?v=yfbvTksF9ic)
   * [Linux](https://sethforprivacy.com/guides/run-a-p2pool-node/)
-
-## Hvordan kan jeg lære mer?
 
 ## Hvordan kan jeg lære mer?
 
@@ -77,71 +61,5 @@ Hvis dette har vakt nysgjerrigheten din rundt p2pool-gruvedrift, ta en titt nede
   * [p2pool.observer, en slags "blokkutforsker" for p2pool](https://p2pool.observer/)
   * [Monero p2pool docker-komponer](https://github.com/WeebDataHoarder/p2pool-compose)
   * [Sergei Chernykh: Om hans utvikling av P2Pool en desentralisert XMR-gruvepool](https://www.monerotalk.live/sergei-chernykh-on-his-development-of-p2pool-a-decentralized-xmr-mining-pool)
-
-Videre lesning
-
-  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies)/
-
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Hvorfor (og hvordan!) du bør holde dine egne nøkler](/knowledge/hold-your-keys)/
-
-  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero)/
-
-  * [Hvordan eksterne noder påvirker Moneros personvern](/knowledge/remote-nodes-privacy)/
-
-  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades)/
-
-  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero)/
-
-  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect)/
-
-  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking)/
-
-  * [Svindel å se etter når du bruker Monero](/knowledge/monero-scams)/
-
-  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking)/
-
-  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct)/
-
-  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses)/
-
-  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses)/
-
-  * [Monero-utganger forklart](/knowledge/monero-outputs)/
-
-  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices)/
-
-  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures)/
-
-  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag)/
-
-  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission)/
-
-  * [En kort historie om Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked)/
-
-  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked)/
-
-  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion)/
-
-  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx)/
-
-  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better)/
 
 Videre lesning

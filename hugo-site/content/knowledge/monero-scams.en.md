@@ -10,11 +10,7 @@ For as long as there has been money, there have been scams to get people to part
 
 ## The Impostor Scam
 
-## The Impostor Scam
-
 One of the oldest scams in the book, and one that can take place on any and every discussion platform in existence. In this scam, the scammer will pretend to be a trusted individual of the community or a high ranking official of a related business. Once the victim's trust is earned through this established reputation, the scammer might send a user to a malicious site, have them download a program designed to steal their funds, or even just get the user to send them funds directly. Always triple check that the person you're talking to is indeed the correct person. Businesses will have emails to contact to verify identities (i.e. "Did the CEO of your company just contact me on Telegram?") and other community leaders will usually be able to be contacted through other means. Verify before taking any action. ESPECIALLY if they initiated the conversation with you rather than you with them.
-
-## The Business Look Alike Scam
 
 ## The Business Look Alike Scam
 
@@ -26,11 +22,7 @@ The solution to these kinds of scams is vigilance. Always double check before ut
 
 ## The Outright Scam
 
-## The Outright Scam
-
 Sometimes scammers don't even try to be subtle. They make huge, grandiose claims and know there will always be fools that will believe them out of desperation, greed, or ignorance. These scams take many forms, from coin projects that promise ludicrous returns on investments where you first give them money (like Bitconnect), to special, secret groups that promise to tell you all of the market movements in advance so you can make money...for a fee. Remember. If something sounds too good to be true, it probably is. This advice is especially true in the cryptocurrency space, as deploying a coin or smart contract is trivial these days, and posting your shady claims online is free. Remember, if somebody really did find a way to time the market or discover a way to make tons of infinite money, then why would they tell you? They would just use it themselves to get rich. Why would they share it? Be smart. Use your brain. Trust no one.
-
-## The Role of Your Monero Seed in Scams
 
 ## The Role of Your Monero Seed in Scams
 
@@ -39,71 +31,5 @@ Your Monero seed IS your Monero. You must write it down when you first make a wa
 Far too often has an individual kept a cold wallet of Monero, been curious about their funds, and wanted to check on it. But rather than going through the hassle of reinstalling the entire wallet application, they just decide to use a web wallet to quickly restore their seed and look at their money. If they fall victim to the Business Look Alike scam, then the very act of inputting their seed gives it to the scammers, who can then move the money to a different wallet that they control at their convenience.
 
 ANYTIME a site, application, or wallet has a 'restore with seed' option, be very careful that the application you are using is a legitimate one. Check the hashes of the program (the Monero website has instructions on how to do this) to ensure the program has not been tampered with by outside forces, and be constantly aware of where and how you expose your seed. The double check may be annoying, but the loss of funds from carelessness would be even worse.
-
-Further reading
-
-  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies)/
-
-  * [Monero’s Ring Signatures vs CoinJoin Like in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Why (And How!) You Should Hold Your Own Keys](/knowledge/hold-your-keys)/
-
-  * [Contributing Back to Monero](/knowledge/contributing-to-monero)/
-
-  * [How Remote Nodes Impact Monero’s Privacy](/knowledge/remote-nodes-privacy)/
-
-  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades)/
-
-  * [View Tags: How One Byte Will Reduce Monero Wallet Sync Times by 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool and Its Role in Decentralizing Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero)/
-
-  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect)/
-
-  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking)/
-
-  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps)/
-
-  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking)/
-
-  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct)/
-
-  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses)/
-
-  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses)/
-
-  * [Monero Outputs Explained](/knowledge/monero-outputs)/
-
-  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices)/
-
-  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures)/
-
-  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag)/
-
-  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission)/
-
-  * [A Brief History of Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked)/
-
-  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
-
-  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion)/
-
-  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx)/
-
-  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better)/
 
 Further reading

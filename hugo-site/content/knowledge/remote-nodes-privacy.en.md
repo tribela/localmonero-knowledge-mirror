@@ -12,8 +12,6 @@ In this post we’ll dive into some of the details behind how Monero provides ex
 
 ## What function do nodes serve in Monero?
 
-## What function do nodes serve in Monero?
-
 For those less familiar with how Monero works, the nodes (or servers) in the Monero network can be run by anyone and allow the owner of the node – or others they choose to share it with! – to synchronize a copy of the blockchain and provide that copy to others on the network. These nodes also verify all the transactions happening on the network, as well as all blocks that are published and ensure that they all follow the rules as set by consensus.
 
 The other function that nodes serve in Monero is as a way to provide all of the data your favorite Monero wallet needs to properly check for transactions that belong to you and make new transactions. This data is provided by nodes in two ways:
@@ -29,15 +27,11 @@ The other function that nodes serve in Monero is as a way to provide all of the 
 
 ## What is the most private and secure way to use Monero?
 
-## What is the most private and secure way to use Monero?
-
 The best thing to do, even with the strong on-chain privacy provided by Monero when using remote nodes, is to run your own Monero node to ensure that you have a pristine copy of the Monero blockchain handy and that your IP address is well protected. The other benefit when running your own node is that you can contribute back to the network, letting other nodes synchronize from your node or even letting other users connect to your node with their wallets.
 
 That being said, Monero does still provide excellent privacy when using a remote node. If you’re interested in running your own Monero node, here is an easy to follow guide to doing so:
 
   * [Run a Monero Node](https://sethforprivacy.com/guides/run-a-monero-node/)
-
-## What can a remote node learn about me?
 
 ## What can a remote node learn about me?
 
@@ -49,13 +43,9 @@ A remote node can also attempt to cause you trouble by hiding blocks from you, m
 
 ## What privacy guarantees still exist when using a remote node?
 
-## What privacy guarantees still exist when using a remote node?
-
 While this article may have scared you a bit, it’s important to realize that the privacy provided by Monero is excellent even when using a remote node, and far surpasses any other cryptocurrency when used this way. You still gain the strong on-chain privacy provided by Monero, as the remote node never knows the true input (what coins you’re spending), the amount of Monero spent in the transaction, or the address of the recipient of the transaction. Outside observers also cannot see the true input, amount, or addresses involved (no matter what type of node you choose to use!), ensuring that outside of the remote node even your IP address, wallet sync information, and transactions have strong privacy guarantees.
 
 The remote node also never has access to the previous transactions you’ve sent or received or the amount of Monero currently in your wallet, and loses all visibility into your transactions the moment you start to use another node. No private keys (either spend or view keys) are ever provided to the remote node, and so your wallet remains private, secure, and usable. No matter the remote node, you also are never at risk of losing Monero or having it stolen, as the node cannot edit the recipient address, never has access to your wallets private keys, and cannot confiscate your Monero in any way.
-
-## How about “light wallets” like MyMonero?
 
 ## How about “light wallets” like MyMonero?
 
@@ -71,8 +61,6 @@ For more on the custom light wallet server, see the below Github repository:
 
 ## How can I learn more?
 
-## How can I learn more?
-
 If you’re curious and would love to better understand nodes in Monero and look into using a remote node or running your own, see the links below for great places to get started:
 
   * [Monero World, a list of community-run remote nodes that can be used](https://moneroworld.com/#nodes)
@@ -80,71 +68,5 @@ If you’re curious and would love to better understand nodes in Monero and look
   * [monero.fail, a list of remote nodes with frequently checked status](https://monero.fail/)
   * [How to connect to a remote node within GUI wallet](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
   * [Moneropedia - Remote Node](https://www.getmonero.org/resources/moneropedia/remote-node.html)
-
-Further reading
-
-  * [How Monero Uniquely Enables Circular Economies](/knowledge/monero-circular-economies)/
-
-  * [Monero’s Ring Signatures vs CoinJoin Like in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Why (And How!) You Should Hold Your Own Keys](/knowledge/hold-your-keys)/
-
-  * [Contributing Back to Monero](/knowledge/contributing-to-monero)/
-
-  * [How Monero Uses Hard-Forks to Upgrade the Network](/knowledge/network-upgrades)/
-
-  * [View Tags: How One Byte Will Reduce Monero Wallet Sync Times by 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool and Its Role in Decentralizing Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: What It Will Do for Monero](/knowledge/seraphis-for-monero)/
-
-  * [Is Converting Bitcoin to Monero Just as Private as Buying Monero Directly?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Why Monero Uses a Trustless Setup Unlike Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Why Monero Is a Better Store of Value Than Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [How Monero Can Overcome Bitcoin's Network Effects](/knowledge/network-effect)/
-
-  * [Why Monero Has the Most Critical Thinking Community](/knowledge/critical-thinking)/
-
-  * [Scams to Look Out for When Using Monero](/knowledge/monero-scams)/
-
-  * [How Atomic Swaps Will Work in Monero](/knowledge/monero-atomic-swaps)/
-
-  * [What Every Monero User Needs to Know When It Comes to Networking](/knowledge/monero-networking)/
-
-  * [How RingCT Hides Monero Transaction Amounts](/knowledge/monero-ringct)/
-
-  * [How Monero Stealth Addresses Protect Your Identity](/knowledge/monero-stealth-addresses)/
-
-  * [How Monero Subaddresses Prevent Identity Linking](/knowledge/monero-subaddresses)/
-
-  * [Monero Outputs Explained](/knowledge/monero-outputs)/
-
-  * [Monero Best Practices for Beginners](/knowledge/monero-best-practices)/
-
-  * [How Ring Signatures Obscure Monero's Outputs](/knowledge/ring-signatures)/
-
-  * [How Monero Solved the Block Size Problem That Plagues Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [How CLSAG Will Improve Monero's Efficiency](/knowledge/what-is-clsag)/
-
-  * [Why Monero Has a Tail Emission](/knowledge/monero-tail-emission)/
-
-  * [A Brief History of Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine Is Wrong About Monero, Here's Why](/knowledge/wired-article-debunked)/
-
-  * [Top 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
-
-  * [How Dandelion++ Keeps Monero's Transaction Origins Private](/knowledge/monero-dandelion)/
-
-  * [Why Monero Is Open Source and Decentralized](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: What Makes RandomX So Special](/knowledge/monero-mining-randomx)/
-
-  * [Why Monero Is Better Than Dash, Zcash, Zcoin (Even With Lelantus), Grin and Bitcoin Mixers Like Wasabi (Updated May 2020)](/knowledge/why-monero-is-better)/
 
 Further reading

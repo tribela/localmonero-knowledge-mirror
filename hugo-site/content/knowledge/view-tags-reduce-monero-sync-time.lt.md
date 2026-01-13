@@ -12,8 +12,6 @@ Vienas iš dažniausiai pasitaikančių nusiskundimų, susijusių su Monero naud
 
 ## Kodėl Monero piniginės sinchronizavimas yra lėtesnis nei Bitcoin?
 
-## Kodėl Monero piniginės sinchronizavimas yra lėtesnis nei Bitcoin?
-
 Vienas iš pirmųjų klausimų, į kurį turime atsakyti, kad geriau suprastume tokio sprendimo, kaip peržiūros žymos, poreikį yra tai, kodėl Monero piniginės sinchronizavimas yra lėtesnis nei kriptovaliutų, pvz., Bitcoin.
 
 Bitcoin, kadangi visos operacijos nėra privačios ir atskleidžia išleidžiamas monetas, sumas ir grandinėje dalyvaujančius adresus, „Bitcoin“ piniginės gali tiesiog ieškoti bet kokių nepanaudotų operacijų rezultatų (UTXO) arba panaudotų tam tikros piniginės adresų. , greitai nuskaitydami blokų grandinę ir ieškodami tik tiems adresams priklausančių UTXO, kad išsiaiškintumėte, kurios monetos priklauso jūsų piniginei ir kurias galima išleisti.
@@ -21,8 +19,6 @@ Bitcoin, kadangi visos operacijos nėra privačios ir atskleidžia išleidžiama
 Tačiau „Monero“ sistemoje visos operacijos išsaugo vartotojo privatumą, nes paslepia siuntėją, gavėją ir su kiekviena operacija susijusias sumas. Šis privatumas, nors ir gyvybiškai svarbus siekiant apsaugoti tinklo vartotojus, taip pat įveda lėtesnį piniginės sinchronizavimą. Monero jūsų piniginė turi palyginti kiekvieną tinkle esančią operacijos išvestį (TXO) su jūsų piniginės privačiais raktais.
 
 Šis palyginimas apima daugybę sudėtingų matematikos ir kriptografijos metodų, kad patvirtintumėte, jog išvestis tikrai priklauso jums, nes visos sumos, adresai ir žinomos išleistos išvesties (arba monetos) yra paslėptos grandinėje Monero.
-
-## Kas yra peržiūros žymos?
 
 ## Kas yra peržiūros žymos?
 
@@ -36,8 +32,6 @@ Kai vienas iš tos operacijos dalyvių nori vėliau sinchronizuoti savo pinigin�
 
 ## Žymų peržiūra: supaprastintas pavyzdys
 
-## Žymų peržiūra: supaprastintas pavyzdys
-
 Įsivaizduokite, kad kambaryje turite 4 096 dėžes, iš kurių tik 5 dėžės priklauso jums. Dėžutės visiškai nesiskiria nuo išorės, ir vienintelis būdas sužinoti, ar dėžutė jums skirta, yra ją atidaryti ir išspręsti daug laiko reikalaujančią matematikos užduotį, užrašytą viduje, kad įsitikintumėte, jog tai jūsų.
 
 Dabar įsivaizduokite, kad nusprendėte, kad asmuo, siunčiantis jums tuos 5 langelius, sugeneruotų specialų kodą naudodamas jūsų adresą, o tada kiekvieno jums siunčiamo dėžutės išorėje įdėkite tik pirmąjį to sugeneruoto kodo simbolį. Visi kiti daro tą patį su savo dėžutėmis (siekdami užtikrinti, kad visi langeliai būtų neatskiriami), bet dabar galite tiesiog pažvelgti į vieno simbolio kodą dėžutės išorėje ir atidaryti tik tuos langelius, kuriuose yra tas simbolis. X753X] 
@@ -45,12 +39,6 @@ Dabar įsivaizduokite, kad nusprendėte, kad asmuo, siunčiantis jums tuos 5 lan
 Nors kiti langeliai atitiks jūsų kodą, net kai kurie jums nepriklauso, laukelių, kuriuos reikia atidaryti ir išspręsti matematikos uždavinį, skaičius dabar yra tik 16 (1/256 langelių!), o ne visi 4096. 
 
 Dabar atidarote tuos 16 langelių, išspręsite matematikos uždavinius ir pasilikite 5 langelius, kurie iš tikrųjų priklauso jums iš tos grupės!
-
-Nors kiti langeliai atitiks jūsų kodą, net kai kurie jums nepriklauso, laukelių, kuriuos reikia atidaryti ir išspręsti matematikos uždavinį, skaičius dabar yra tik 16 (1/256 langelių!), o ne visi 4096. 
-
-Dabar atidarote tuos 16 langelių, išspręsite matematikos uždavinius ir pasilikite 5 langelius, kurie iš tikrųjų priklauso jums iš tos grupės!
-
-## Kada peržiūros žymos bus pasiekiamos Monero?
 
 ## Kada peržiūros žymos bus pasiekiamos Monero?
 
@@ -60,77 +48,9 @@ Kai tinklas pritaiko peržiūros žymas, visoms operacijoms, išsiųstoms po tin
 
 ## Kaip galiu sužinoti daugiau?
 
-## Kaip galiu sužinoti daugiau?
-
 Jei tai sukėlė jūsų smalsumą dėl peržiūros žymų, peržiūrėkite toliau pateiktas papildomas nuorodas, kuriose išsamiai aprašoma tema:
 
   * [Sumažinkite nuskaitymo laiką naudodami 1 baitą už išvestį „peržiūros žyma“ ](https://github.com/monero-project/research-lab/issues/73)
   * [Pridėkite peržiūros žymas prie išvesties, kad sumažintumėte piniginės nuskaitymo laiką](https://github.com/monero-project/monero/pull/8061)
-
-Papildoma literatūra
-
-  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies)/
-
-  * [Monero žiedo parašai prieš CoinJoin kaip Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys)/
-
-  * [Prisideda prie Monero](/knowledge/contributing-to-monero)/
-
-  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy)/
-
-  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades)/
-
-  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: ką tai padarys Monero](/knowledge/seraphis-for-monero)/
-
-  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup)/
-
-  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value)/
-
-  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect)/
-
-  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking)/
-
-  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams)/
-
-  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking)/
-
-  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct)/
-
-  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses)/
-
-  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses)/
-
-  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs)/
-
-  * [„Monero“ geriausia praktika pradedantiesiems](/knowledge/monero-best-practices)/
-
-  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures)/
-
-  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag)/
-
-  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission)/
-
-  * [Trumpa Monero istorija](/knowledge/monero-history)/
-
-  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked)/
-
-  * [15 populiariausių Monero mitų ir rūpesčių, kurie buvo paneigti](/knowledge/monero-myths-debunked)/
-
-  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion)/
-
-  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx)/
-
-  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better)/
 
 Papildoma literatūra

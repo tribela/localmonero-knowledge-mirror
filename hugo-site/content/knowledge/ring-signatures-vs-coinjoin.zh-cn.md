@@ -14,8 +14,6 @@ image_credit_url: "https://cypherstack.com"
 
 ## CoinJoin交易是什么？
 
-## CoinJoin交易是什么？
-
 由于所有的交易在比特币中是完全透明的——揭示了发送者、接收者和金额——用户必须采取额外的措施来保护他们的隐私，不被以前的发送者和未来的接收者发现，或者冒着被审查、监视或通过身体暴力盗窃资金的风险。
 
 目前，比特币隐私的最佳解决方案是一种叫做 [“CoinJoin”](https://bitcoiner.guide/qna/coinjoin/), 的工具，2个或更多的用户一起工作（通常通过一个集中的协调人），创建一个特殊的交易，使外部观察者难以将输入和输出联系起来。每个参与者在不交出资金保管权的情况下进行沟通，共同建立交易，并在最后收到一个输出，而这个输出的历史对外部观察者来说现在是不清楚的（或被混淆的）。
@@ -30,31 +28,21 @@ image_credit_url: "https://cypherstack.com"
 
 ## 环形签名如何解决这些问题？
 
-## 环形签名如何解决这些问题？
-
 由于 [我们在过去已经深入研究了什么是环形签名](/knowledge/ring-signatures), 我不会在这篇博文中详细讨论它们如何工作的技术问题。相反，我们将看看门罗币中采取的方法如何解决上面讨论的CoinJoin的问题。
 
 > CoinJoin是选择加入的，需要参与
-
-CoinJoin是选择加入的，需要参与
 
 门罗币的环形签名是隐私协议的一个核心特征，网络上的 _每一笔_ 交易都使用它们。这意味着没有用户的交易会因为寻求比 “正常” 门罗币用户更多的隐私而脱颖而出，而且所有用户都获得了他们在任何特定交易中花费资金的合理推诿性。由于花费资金的用户不会与交易中的诱饵投入相协调或参与，那些拥有碰巧被选为诱饵的投入的用户可以诚实地说他们没有参与该交易，加强他们的隐私。
 
 > 使用一个集中的协调器
 
-使用一个集中的协调器
-
 由于门罗币的环形签名是完全非协调的，只需要真正的资金花费者来创建交易，所以在门罗币中不需要一个集中的协调者。这确保了 _没有人_ 可以拒绝你在门罗币中获得隐私，也没有一个中心化的实体可以施压，不容易对流动性进行Sybil攻击，等等。只要你的交易支付适当的费用，你就可以在门罗币中获得不可审查的隐私、安全和匿名的机会。
 
 > CoinJoin需要流动性
 
-CoinJoin需要流动性
-
 任何花费门罗币的人可以用作诱饵的 "流动性"总是链上的总输出，所以永远不会缺少可以用门罗币隐藏的诱饵。寻求花费门罗币的人可以在收到资金后~20分钟内完成，并且不需要执行任何额外的步骤来获得门罗币的强大隐私。
 
 > CoinJoin的隐私会随着时间的推移而降低
-
-CoinJoin的隐私会随着时间的推移而降低
 
 由于门罗币的输出永远不会被网络所知晓，环形签名所提供的隐私更不容易随时间退化。一个用户不需要不断地在门罗币中搅动输出，并且在极其罕见的情况下，随着时间的推移不会失去隐私。
 
@@ -62,11 +50,7 @@ CoinJoin的隐私会随着时间的推移而降低
 
 > CoinJoin通常需要固定规模的输入
 
-CoinJoin通常需要固定规模的输入
-
 由于使用 [“机密交易”](/knowledge/monero-ringct) ("RingCT"的一部分), 的每笔交易的金额都是隐藏的，在任何特定交易中使用的诱饵可以是任何大小。在门罗币中没有理由需要担心基于金额的启发式方法，因此交易的建立要简单得多，可以利用来自门罗币区块链上任何时间点和任何金额的诱饵。
-
-## 我怎样能了解更多？
 
 ## 我怎样能了解更多？
 
@@ -76,71 +60,5 @@ CoinJoin通常需要固定规模的输入
   * [环形签名 - Moneropedia](https://www.getmonero.org/resources/moneropedia/ringsignatures.html)
   * [Coinjoin 问答](https://bitcoiner.guide/qna/coinjoin/)
   * [CoinJoin 概述](https://6102bitcoin.com/coinjoin-overview/)
-
-进一步阅读
-
-  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies)/
-
-  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys)/
-
-  * [贡献为门罗币](/knowledge/contributing-to-monero)/
-
-  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy)/
-
-  * [门罗币是如何使用硬分叉为升级网络](/knowledge/network-upgrades)/
-
-  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis：它将为门罗币做什么](/knowledge/seraphis-for-monero)/
-
-  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup)/
-
-  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value)/
-
-  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect)/
-
-  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking)/
-
-  * [门罗币防诈骗指南](/knowledge/monero-scams)/
-
-  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps)/
-
-  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking)/
-
-  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct)/
-
-  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses)/
-
-  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses)/
-
-  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs)/
-
-  * [门罗币最佳入门指南](/knowledge/monero-best-practices)/
-
-  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures)/
-
-  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size)/
-
-  * [ 新的CLSAG环签名技术将如何提高门罗币的效率](/knowledge/what-is-clsag)/
-
-  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission)/
-
-  * [门罗币的前世今生](/knowledge/monero-history)/
-
-  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked)/
-
-  * [流言终结者：关于门罗币的15大传言和疑虑](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion)/
-
-  * [为什么门罗币是开源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx)/
-
-  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better)/
 
 进一步阅读

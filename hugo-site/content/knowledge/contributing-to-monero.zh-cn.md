@@ -12,8 +12,6 @@ image_credit_url: "https://cypherstack.com"
 
 ## 门罗币的社区众筹系统
 
-## 门罗币的社区众筹系统
-
 门罗币使用一个独特的系统来资助工作，称为 [社区众筹系统(Community Crowdfunding System)](https://ccs.getmonero.org/) （或 "CCS"），允许社区中的任何人提出资助的想法。如果得到社区的认可，这些建议就会被社区开放，以获得资金。
 
 该系统有两个阶段，每个阶段都从来自各种背景的人的更多参与中受益。
@@ -32,8 +30,6 @@ _你可以在以下网址看到所有处于 "需要资金 "阶段的提案[CCS �
 
 ## 教育
 
-## 教育
-
 你可以参与门罗币项目的另一个好方法是帮助教育和授权新的和现有的社区成员。这可以有很多形式，但可以简单到在社交媒体和博客上分享你对门罗币的了解，等等。
 
 下面是一些你可以帮助教育的具体方式：
@@ -41,8 +37,6 @@ _你可以在以下网址看到所有处于 "需要资金 "阶段的提案[CCS �
   * 开设一个自己的博客
   * 在Twitter或Reddit上写下关于你在门罗币方面学到的东西或学会的东西的主题帖子
   * 将你用门罗币做的日常事情制作成"演示"视频 ，例如发送门罗币、使用硬件钱包、购买和出售门罗币在 [LocalMonero.co](https://localmonero.co), 等。
-
-## 意识和参与
 
 ## 意识和参与
 
@@ -97,13 +91,9 @@ _你可以在Matrix的房间里找到LocalMonero社区[#localmonero:agoradesk.co
 
 ## r/monerosupport
 
-## r/monerosupport
-
 如果你已经在门罗币附近呆了一段时间，或者对如何使用和排除使用门罗币的故障有很好的掌握，参与的一个好方法是跳到 [r/monerosupport](https://www.reddit.com/r/monerosupport/) Reddit群，为在那里发帖的用户提供支持。
 
 不断有用户在基本问题上需要帮助，而我们中只有少数人在群中积极帮助他们。如果能看到更多的人参与进来，帮助新和老用户解决他们的问题，那将是非常好的！
-
-## 社区会议
 
 ## 社区会议
 
@@ -115,13 +105,9 @@ _你可以在Matrix的房间里找到LocalMonero社区[#localmonero:agoradesk.co
 
 ## 翻译
 
-## 翻译
-
 对于那些会双语或更多的人来说，一个非常重要的贡献方式是帮助将英语翻译成其他语言。在整个生态系统中，总是需要翻译新的语言和更新现有的语言，我们积极支持的语言越多，门罗币就越有包容性和亲和力。
 
 你可以在以下网站找到翻译需求和信息 [translate.getmonero.org](https://translate.getmonero.org/) or [在 Github](https://github.com/monero-ecosystem/monero-translations)。
-
-## 申报问题
 
 ## 申报问题
 
@@ -162,74 +148,6 @@ _你可以在Matrix的房间里找到LocalMonero社区[#localmonero:agoradesk.co
 
 ## 总结
 
-## 总结
-
 希望本指南能激发一些想法，让你利用自己独特的技能组合、背景和经验来回馈门罗币。社区中以这样的方式回馈的人越多，门罗币就会越大，越成熟，我们就越容易实现私人的、可替换的、自我主权的、抗审查的货币的目标。
-
-进一步阅读
-
-  * [门罗币如何独特地实现循环经济](/knowledge/monero-circular-economies)/
-
-  * [门罗币环形签名与CoinJoin像在Wasabi比较](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [为什么（以及如何！）你应该持有你自己的钥匙](/knowledge/hold-your-keys)/
-
-  * [远程节点如何影响门罗币的隐私](/knowledge/remote-nodes-privacy)/
-
-  * [门罗币是如何使用硬分叉为升级网络](/knowledge/network-upgrades)/
-
-  * [查看标签：一个字节如何将门罗币钱包的同步时间减少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool和它在去Monero采矿中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis：它将为门罗币做什么](/knowledge/seraphis-for-monero)/
-
-  * [把比特币兑换成门罗币，就可以高枕无忧了吗?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [为什么门罗币不像大零币那样需要初始信任来实现隐私](/knowledge/monero-trustless-setup)/
-
-  * [为什么门罗币才是电子黄金，相对于比特币更有储存价值的属性](/knowledge/monero-better-store-of-value)/
-
-  * [门罗币是如何蚕食比特币的份额和先发优势](/knowledge/network-effect)/
-
-  * [为什么说门罗币社区最具批判性精神](/knowledge/critical-thinking)/
-
-  * [门罗币防诈骗指南](/knowledge/monero-scams)/
-
-  * [原子互换技术将如何在门罗币上实现](/knowledge/monero-atomic-swaps)/
-
-  * [门罗币与当代互联网，隐私达人的须知](/knowledge/monero-networking)/
-
-  * [ RingCT环形机密技术是如何隐藏门罗币交易的金额](/knowledge/monero-ringct)/
-
-  * [门罗币隐身地址如何保护你的身份](/knowledge/monero-stealth-addresses)/
-
-  * [门罗币子地址是如何防止用户信息被关联](/knowledge/monero-subaddresses)/
-
-  * [加密货币里面的output，中文译作输出，这个概念到底什么意思,又为什么门罗币转账后余额显示错误要等待二十分钟](/knowledge/monero-outputs)/
-
-  * [门罗币最佳入门指南](/knowledge/monero-best-practices)/
-
-  * [环形签名如何保护门罗币发送者的输出](/knowledge/ring-signatures)/
-
-  * [门罗币是如何解决困扰比特币的区块大小的扩容问题](/knowledge/dynamic-block-size)/
-
-  * [ 新的CLSAG环签名技术将如何提高门罗币的效率](/knowledge/what-is-clsag)/
-
-  * [为什么门罗币拥有尾部增发的特性](/knowledge/monero-tail-emission)/
-
-  * [门罗币的前世今生](/knowledge/monero-history)/
-
-  * [Wired杂志是如何误解了门罗](/knowledge/wired-article-debunked)/
-
-  * [流言终结者：关于门罗币的15大传言和疑虑](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion ++蒲公英改进协议如何使Monero从源头得到更强防护](/knowledge/monero-dandelion)/
-
-  * [为什么门罗币是开源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [门罗币挖矿: 什么使 RandomX 算法如此特别](/knowledge/monero-mining-randomx)/
-
-  * [为什么门罗币优于达世币, 大零币, 小零币 , 古灵币以及经过Wasabi级别混币器混淆后的比特币 (更新于2020年五月)](/knowledge/why-monero-is-better)/
 
 进一步阅读

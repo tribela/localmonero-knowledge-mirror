@@ -14,8 +14,6 @@ image_credit_url: "https://cypherstack.com"
 
 ## CoinJoin トランザクションとは何ですか?
 
-## CoinJoin トランザクションとは何ですか?
-
 ビットコインではすべての取引が完全に透過的であり、送信者、受信者、金額が明らかになるため、ユーザーはプライバシーを検閲、監視、または物理的暴力による資金の盗難のリスクから保護するために特別な措置を講じる必要があります。
 
 ビットコインのプライバシーに対する今日の最善の解決策は、[「CoinJoin」](https://bitcoiner.guide/qna/coinjoin/) と呼ばれるツールです。このツールでは、2 人以上のユーザーが協力して (通常は集中化されたコーディネーターを介して)、外部からのアクセスを困難にする特別なトランザクションを作成します。入力と出力を接続するオブザーバー。各参加者は、資金の管理権を譲渡することなく共同でトランザクションを構築するために通信し、最後に出力を受け取りますが、その以前の履歴は外部のオブザーバーには不明確 (または難読化) になっています。
@@ -30,31 +28,21 @@ image_credit_url: "https://cypherstack.com"
 
 ## リング署名はこれらの問題をどのように解決しますか?
 
-## リング署名はこれらの問題をどのように解決しますか?
-
 [過去](/knowledge/ring-signatures)のリング シグネチャについて詳しく調査したため、このブログ投稿では、リング シグネチャがどのように機能するかの技術的側面については詳しく説明しません。代わりに、Monero で採用されたアプローチが、上記で説明した CoinJoin の問題をどのように解決するかを見ていきます。
 
 > CoinJoin はオプトインであり、参加が必要です
-
-CoinJoin はオプトインであり、参加が必要です
 
 Monero のリング署名は、プライバシー プロトコルのコア機能であり、 _ネットワーク上のすべての_ トランザクションで使用されます。これは、「通常の」Monero ユーザーよりも優れたプライバシーを求めるユーザーの取引はなく、すべてのユーザーは、特定の取引で資金を費やしたというもっともらしい否認を得ることを意味します。資金を使うユーザーはトランザクションのおとり入力と連携したり参加したりしないため、たまたまおとりとして選択された入力を所有しているユーザーは、そのトランザクションに参加していなかったと正直に言うことができ、プライバシーが強化されます。
 
 > 集中コーディネーターの使用
 
-集中コーディネーターの使用
-
 Monero のリング署名は完全に調整されておらず、トランザクションを作成するために資金の真の消費者のみを必要とするため、Monero に中央集権的なコーディネーターは必要ありません。これにより、 _誰も_ が Monero のプライバシーへのアクセスを拒否することはできず、圧力を受ける可能性のある集中化されたエンティティはなく、流動性に対する簡単な Sybil 攻撃もありません。取引が適切な料金を支払う限り、 Monero のプライバシー、セキュリティ、および匿名性への無検閲のアクセスを取得します。
 
 > CoinJoin には流動性が必要です
 
-CoinJoin には流動性が必要です
-
 おとりとして Monero を使う人が利用できる「流動性」は、常にチェーン上のアウトプットの合計セットであるため、Monero で隠れるおとりが不足することはありません。モネロを使おうとしている人は、資金を受け取ってから約 20 分後にそれを行うことができ、モネロで強力なプライバシーを得るために追加の手順を実行する必要はありません。
 
 > CoinJoin のプライバシーは時間の経過とともに低下します
-
-CoinJoin のプライバシーは時間の経過とともに低下します
 
 Monero のアウトプットはネットワークによって知られて消費されることがないため、リング署名によって提供されるプライバシーは、時間の経過とともに低下する可能性がはるかに低くなります。ユーザーは Monero で常に出力を変更する必要はなく、非常にまれな状況を除いて、時間の経過とともにプライバシーが失われることはありません。
 
@@ -62,11 +50,7 @@ Monero のアウトプットはネットワークによって知られて消費�
 
 > CoinJoin は通常、固定サイズの入力を必要とします
 
-CoinJoin は通常、固定サイズの入力を必要とします
-
 [「Confidential Transactions」](/knowledge/monero-ringct) (「RingCT」の一部) を使用するすべての取引で金額が隠されているため、特定の取引で使用されるおとりは任意のサイズにすることができます。 Monero の金額ベースのヒューリスティックについて心配する必要がないため、トランザクションの構築がはるかに簡単になり、Monero ブロックチェーン上の任意の時点から任意の金額のおとりを活用できます。
-
-## どうすれば詳細を知ることができますか?
 
 ## どうすれば詳細を知ることができますか?
 
@@ -76,71 +60,5 @@ CoinJoin は通常、固定サイズの入力を必要とします
   * [リング シグネチャー - モネロペディア](https://www.getmonero.org/resources/moneropedia/ringsignatures.html)
   * [Coinjoin Q+A](https://bitcoiner.guide/qna/coinjoin/)
   * [CoinJoinの概要](https://6102bitcoin.com/coinjoin-overview/)
-
-参考文献
-
-  * [Monero が独自に循環型経済を実現する方法](/knowledge/monero-circular-economies)/
-
-  * [なぜ (そしてどのように!) 自分の鍵を保持する必要があるのか](/knowledge/hold-your-keys)/
-
-  * [モネロへの寄付](/knowledge/contributing-to-monero)/
-
-  * [リモートノードが Monero のプライバシーに与える影響](/knowledge/remote-nodes-privacy)/
-
-  * [Monero がハードフォークを使用してネットワークをアップグレードする方法](/knowledge/network-upgrades)/
-
-  * [タグを表示: 1 バイトで Monero ウォレットの同期時間を 40% 以上短縮する方法](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool と Monero マイニングの分散化におけるその役割](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [セラフィス: モネロに何をもたらすか](/knowledge/seraphis-for-monero)/
-
-  * [ビットコインをモネロに変換することは、モネロを直接購入することと同じくらいプライベートですか?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Monero が Zcash とは異なりトラストレス設定を使用する理由](/knowledge/monero-trustless-setup)/
-
-  * [モネロがビットコインより優れた価値の保存手段である理由](/knowledge/monero-better-store-of-value)/
-
-  * [モネロがビットコインのネットワーク効果を克服する方法](/knowledge/network-effect)/
-
-  * [モネロが最も批判的思考のコミュニティを持っている理由](/knowledge/critical-thinking)/
-
-  * [モネロを使用する際に注意すべき詐欺](/knowledge/monero-scams)/
-
-  * [モネロでアトミックスワップがどのように機能するか](/knowledge/monero-atomic-swaps)/
-
-  * [ネットワーキングに関してすべての Monero ユーザーが知っておくべきこと](/knowledge/monero-networking)/
-
-  * [RingCT がモネロの取引金額を隠す方法](/knowledge/monero-ringct)/
-
-  * [Monero ステルス アドレスが個人情報を保護する方法](/knowledge/monero-stealth-addresses)/
-
-  * [Monero のサブアドレスが ID リンクを防止するしくみ](/knowledge/monero-subaddresses)/
-
-  * [モネロのアウトプットの説明](/knowledge/monero-outputs)/
-
-  * [初心者のためのモネロのベストプラクティス](/knowledge/monero-best-practices)/
-
-  * [リング署名がMoneroの出力を覆い隠す方法](/knowledge/ring-signatures)/
-
-  * [Monero がビットコインを悩ませているブロックサイズの問題をどのように解決したか](/knowledge/dynamic-block-size)/
-
-  * [CLSAG がモネロの効率を改善する方法](/knowledge/what-is-clsag)/
-
-  * [モネロにテールエミッションがある理由](/knowledge/monero-tail-emission)/
-
-  * [モネロの簡単な歴史](/knowledge/monero-history)/
-
-  * [ワイアード・マガジンはモネロについて間違っている、その理由はここにある](/knowledge/wired-article-debunked)/
-
-  * [トップ15のモネロの神話と懸念が暴かれる](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion++ が Monero のトランザクションの起点を非公開にする方法](/knowledge/monero-dandelion)/
-
-  * [モネロがオープンソースで分散化されている理由](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero マイニング: RandomX が特別な理由](/knowledge/monero-mining-randomx)/
-
-  * [Monero が Dash、Zcash、Zcoin (Lelantus を使用しても)、Grin、およびWasabi のような Bitcoin ミキサーよりも優れている理由 (2020 年 5 月更新)](/knowledge/why-monero-is-better)/
 
 参考文献

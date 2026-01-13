@@ -26,24 +26,6 @@ Sabi nga, may ilang karaniwang pagpuna na ipinapataw kay Monero na luma na, o hi
   14. [Kung napakapribado ng Monero, paano natin maa-audit ang supply para matiyak na walang nagpi-print ng libreng Monero sa ilalim ng ating mga ilong?](/knowledge/monero-myths-debunked#14)/
   15. [Karamihan sa kasalukuyang hashrate ng Monero ay nagmumula lamang sa dalawang pool.](/knowledge/monero-myths-debunked#15)/
 
-  1. [Haharapin ng Monero ang pagsusuri sa regulasyon na higit pa sa ibang mga cryptocurrencies dahil sa pangako nito sa privacy at hindi nagpapakilala sa mga transaksyon nito.](/knowledge/monero-myths-debunked#1)/
-  2. [Ang Monero ay may mas kaunting mga pagpipilian sa wallet.](/knowledge/monero-myths-debunked#2)/
-  3. [May mahinang karanasan ng gumagamit ang Monero.](/knowledge/monero-myths-debunked#3)/
-  4. [Ang Monero ay magiging lipas na kung ang isang mas sikat na blockchain ay magpapatibay ng malakas na teknolohiya sa privacy.](/knowledge/monero-myths-debunked#4)/
-  5. [Hindi ba ang Monero ay may napakataas na bayarin sa transaksyon?](/knowledge/monero-myths-debunked#5)/
-  6. [Ang isang transaksyon sa Monero ay maraming beses na mas malaki kaysa sa isang transaksyon sa Bitcoin.](/knowledge/monero-myths-debunked#6)/
-  7. [Ang Monero ay madalas na may matitigas na tinidor. Hindi ba ito nangangahulugan na ito ay sentralisado?](/knowledge/monero-myths-debunked#7)/
-  8. [Ito ang personal na barya ng fluffypony!](/knowledge/monero-myths-debunked#8)/
-  9. [Karamihan sa mga commit mula noong 2017 ay nagmula sa isang indibidwal na kilala bilang moneromooo-monero](/knowledge/monero-myths-debunked#9)/
-  10. [Hindi ba madaling 51% inaatake si Monero?](/knowledge/monero-myths-debunked#10)/
-  11. [CPU-friendly na algorithm? Hindi ba ang pagmimina ng Monero ay kukunin na lamang ng mga botnet?](/knowledge/monero-myths-debunked#11)/
-  12. [Ang mga tinidor ng Monero ay hindi lamang nakakasakit sa kakayahang pang-ekonomiya ng Monero, ngunit ang privacy nito!](/knowledge/monero-myths-debunked#12)/
-  13. [Hindi ba't si Monero ay may baldado na minero noong unang panahon na ginamit upang pagyamanin ang mga nagtatag?](/knowledge/monero-myths-debunked#13)/
-  14. [Kung napakapribado ng Monero, paano natin maa-audit ang supply para matiyak na walang nagpi-print ng libreng Monero sa ilalim ng ating mga ilong?](/knowledge/monero-myths-debunked#14)/
-  15. [Karamihan sa kasalukuyang hashrate ng Monero ay nagmumula lamang sa dalawang pool.](/knowledge/monero-myths-debunked#15)/
-
-## 1\. Haharapin ng Monero ang pagsusuri sa regulasyon na higit pa sa ibang mga cryptocurrencies dahil sa pangako nito sa privacy at hindi nagpapakilala sa mga transaksyon nito.
-
 ## 1\. Haharapin ng Monero ang pagsusuri sa regulasyon na higit pa sa ibang mga cryptocurrencies dahil sa pangako nito sa privacy at hindi nagpapakilala sa mga transaksyon nito.
 
 Ito ay isang karaniwang pagpuna sa Monero, na nagiging sanhi ng marami upang bigyan ito ng isang malawak na puwesto, at ito ay sa ngayon kung saan ang tugon ng komunidad ay hindi masyadong putol at tuyo bilang pagwawasto lamang ng isang maling palagay.[ X217X] 
@@ -56,23 +38,11 @@ Ang isang katiyakang maibibigay namin, gayunpaman, ay na sa isang punto ang Bitc
 
 Ngayon ay maaaring magtaltalan ang isang tao na nagbago ang reputasyon ng Bitcoin habang napagtanto ng mga tao na ito ay talagang hindi pribado o anonymous, ngunit hindi ito totoo, dahil ang paniwala na ang Bitcoin ay ganap na pribado at hindi maaaring masubaybayan ay laganap pa rin hindi lamang sa pangkalahatang publiko, ngunit kabilang sa mga kumokontrol sa industriya. Ang mga taong ito ay naniniwala pa rin na ito ay pribado, kaya sila ay karaniwang naniniwala na ito ay kung ano talaga ang Monero, at gayunpaman mabilis kaming lumilipat sa isang mundo kung saan ito ay nakakakuha ng pagtanggap sa publiko, mga negosyo, at mga namumunong katawan. Iminumungkahi nito, kapag sapat na oras, maaaring makita ni Monero ang parehong pagtanggap.
 
-Ang katotohanan ay, kami, bilang isang komunidad, ay hindi pa alam kung ano ang magiging tugon ng regulasyon sa isang bagay na tulad ng Monero. Alam namin na ang mga cryptocurrencies sa pangkalahatan ay nasa radar ng maraming ahensya ng gobyerno, at may dahilan upang maniwala na ang Monero ay, higit pa kaysa sa iba, para sa mga nabanggit na dahilan, ngunit, sa ngayon, kakaunti ang mga hakbang na ginawa ng mga pamahalaan ng alinmang bansa hinggil sa tahasang pagbabawal sa Monero.
-
-Gayunpaman, ang komunidad ng Monero ay nakatuon sa pakikipaglaban sa magandang laban. Naniniwala kami na ang pagkapribado sa pananalapi ay isang bagay na mahalaga para sa kalayaan, at ang bawat isa ay dapat magkaroon ng opsyon na makipagtransaksyon nang pribado nang walang mga gobyerno, korporasyon, o sinumang nang-espiya sa iyo.
-
-Ang isang katiyakang maibibigay namin, gayunpaman, ay na sa isang punto ang Bitcoin ay may eksaktong parehong reputasyon na mayroon si Monero ngayon. Ito ay naisip na barya ng kriminal, at ganap na pribado at hindi nagpapakilala, ngunit dahan-dahan, sa paglipas ng panahon, tinanggap ng publiko ang Bitcoin anuman. 
-
-Ngayon ay maaaring magtaltalan ang isang tao na nagbago ang reputasyon ng Bitcoin habang napagtanto ng mga tao na ito ay talagang hindi pribado o anonymous, ngunit hindi ito totoo, dahil ang paniwala na ang Bitcoin ay ganap na pribado at hindi maaaring masubaybayan ay laganap pa rin hindi lamang sa pangkalahatang publiko, ngunit kabilang sa mga kumokontrol sa industriya. Ang mga taong ito ay naniniwala pa rin na ito ay pribado, kaya sila ay karaniwang naniniwala na ito ay kung ano talaga ang Monero, at gayunpaman mabilis kaming lumilipat sa isang mundo kung saan ito ay nakakakuha ng pagtanggap sa publiko, mga negosyo, at mga namumunong katawan. Iminumungkahi nito, kapag sapat na oras, maaaring makita ni Monero ang parehong pagtanggap.
-
-## 2\. Ang Monero ay may mas kaunting mga pagpipilian sa wallet.
-
 ## 2\. Ang Monero ay may mas kaunting mga pagpipilian sa wallet.
 
 Ang Monero ay talagang may mas kaunting mga pagpipilian sa wallet kaysa sa maraming umiiral na mga barya. Ito ay dahil ang Monero ay binuo mula sa simula. Ito ay nasa isang ganap na naiibang codebase kaysa sa Bitcoin. Nangangahulugan ito na hindi maaaring i-fork lang ng Monero ang Bitcoin core wallet, o anumang iba pang mga wallet na umiiral para sa Bitcoin tulad ng ginagawa ng karamihan sa mga barya, at samantalahin ang umiiral na imprastraktura. Gayundin, nangangahulugan ito na ang Monero ay hindi madaling idagdag sa mga wallet ng third party, gaya ng Exodus.
 
 Gayunpaman, dahan-dahan ngunit tiyak, ang lahat ng uri ng mga wallet ay nagsisimula nang lumitaw para sa Monero. Ito ay isang meme sa loob ng maraming taon na ang Monero ay walang GUI, at walang suporta sa mobile wallet, ngunit ngayon, wala nang higit pa sa katotohanan. May mga wallet na partikular na tumutugon sa Monero, gaya ng Monerujo para sa Android, at Cake Wallet para sa parehong iOS at Android, pati na rin ang mga bago gaya ng Wookey, Exa Wallet, at higit pa. Higit pa rito, nagsisimula nang magdagdag ng Monero ang mga third party na wallet, kahit na sa mas mabagal na rate, kabilang ang Exodus at Guarda, at inaasahan naming magpapatuloy lamang ang trend na ito habang tumatagal at tumatanda ang codebase ng Monero.
-
-## 3\. May mahinang karanasan ng gumagamit ang Monero.
 
 ## 3\. May mahinang karanasan ng gumagamit ang Monero.
 
@@ -85,8 +55,6 @@ Iniimbitahan namin ang mambabasa na magbasa ng mga artikulo sa mga hakbang na in
 Sa Monero, ang listahan ng mga detalye sa paglalaba na ito ay ganap na mawawala. Ang bawat transaksyon ng Monero ay nagpapanatili ng isang mataas na antas ng privacy sa bawat oras, nang hindi nangangailangan ang user na gumawa ng anuman o gumamit ng panlabas na software. Habang pinapahirapan ng Bitcoin na gawing tama ang privacy para sa lahat maliban sa pinaka may karanasang user, pinapahirapan ng Monero na mali ito, para sa lahat, sa lahat ng oras. Sa abot ng mga trade-off, sa tingin namin ay mas sulit ang mas mahabang mga address at oras ng pag-sync.
 
 At kahit na pagkatapos talakayin ang lahat ng nasa itaas, nananatili ang katotohanan na ang karanasan ng user ay kadalasang nagiging mas mahusay sa paglipas ng panahon, at ang Monero ay walang pagbubukod. Ang UX ng isang coin ay maaaring kapansin-pansing mapabuti pagkatapos ng ilang taon, ngunit ang mga pundasyon nito ay mas mahirap baguhin.
-
-## 4\. Ang Monero ay magiging lipas na kung ang isang mas sikat na blockchain ay magpapatibay ng malakas na teknolohiya sa privacy.
 
 ## 4\. Ang Monero ay magiging lipas na kung ang isang mas sikat na blockchain ay magpapatibay ng malakas na teknolohiya sa privacy.
 
@@ -110,8 +78,6 @@ Ang pagpapalit ng gear sa huling pagkakataon para sa tanong na ito, mas madalas 
 
 ## 5\. Hindi ba ang Monero ay may napakataas na bayarin sa transaksyon?
 
-## 5\. Hindi ba ang Monero ay may napakataas na bayarin sa transaksyon?
-
 Hindi na! Salamat sa kamangha-manghang teknolohiya ng mga bulletproof, na idinagdag noong Oktubre 2018, ang mga laki ng transaksyon ay nababawasan nang husto (ng higit sa 80%), na humahantong sa isang katulad na pagbaba sa mga bayarin sa transaksyon. Sa katunayan, sa oras ng pagsulat, ang Monero ay mas mura kada byte kaysa sa Bitcoin, at ang mga karagdagang pag-optimize ng teknolohiya ay nagpapababa ng mga ito.
 
 Iba-iba at madalas ang mga pag-optimize na ito. Ang isang halimbawa ay ang mga matalinong pag-optimize sa mga bulletproof mismo, na nagpapaliit sa matematika na kinakailangan para sa parehong pag-compute at pag-verify, kung minsan ay hanggang sa 25%.
@@ -119,10 +85,6 @@ Iba-iba at madalas ang mga pag-optimize na ito. Ang isang halimbawa ay ang mga m
 Sa karagdagan, may mga bago, kapana-panabik na ring signature scheme sa mga gawa, gaya ng CLSAG, na papalitan ang kasalukuyang MLSAG scheme, at higit pang magpapaliit sa laki ng buong transaksyon ng 25-35%. Higit pa rito, may mga mas bago pa, mas dumudugo na mga teknolohiya na may ganap na magkakaibang mga sistema ng pagpapatunay na may potensyal na panatilihin ang mga kasalukuyang laki ng transaksyon, ngunit may mga laki ng singsing na higit sa isang daan, gaya ng Triptych, Arcturus, at Lelantus, na lahat ay mas maliit at mas mahusay kaysa sa mga kasalukuyang scheme.
 
 ## 6\. Ang isang transaksyon sa Monero ay maraming beses na mas malaki kaysa sa isang transaksyon sa Bitcoin.
-
-## 6\. Ang isang transaksyon sa Monero ay maraming beses na mas malaki kaysa sa isang transaksyon sa Bitcoin.
-
-## 7\. Ang Monero ay madalas na may matitigas na tinidor. Hindi ba ito nangangahulugan na ito ay sentralisado?
 
 ## 7\. Ang Monero ay madalas na may matitigas na tinidor. Hindi ba ito nangangahulugan na ito ay sentralisado?
 
@@ -136,13 +98,9 @@ Ibig sabihin, ang desentralisadong development team ay napakahirap at nakakapago
 
 ## 8\. Ito ang personal na barya ng fluffypony!
 
-## 8\. Ito ang personal na barya ng fluffypony!
-
 Ito ay hindi, at hindi kailanman naging, ang barya ni Riccardo 'fluffypony' Spagni. Hindi man lang niya nagawa. Sinimulan ito ng isang pseudonymous na indibidwal na kilala bilang thankful_for_today, at may isang napaka-interesante na kuwento tungkol doon sa ibang pagkakataon. Nakilala si Fluffypony bilang parehong pangunahing miyembro ng team/lead maintainer, dahil nagbigay siya ng maraming oras at mapagkukunan upang matulungan ang coin na lumago, gayundin sa pamamagitan ng kanyang paglalakbay at pagsasalita sa mga kumperensya. Sa pagsasama-sama ng dalawang bagay na ito, siya ay naging isang uri ng hindi opisyal na mukha para kay Monero, at kadalasan ay ang gateway kung saan kami matatagpuan ng mga tao. Dahil sa kakila-kilabot na kultura ng CEO na laganap sa eksena ng cryptocurrency, ipinapalagay nila na siya ang tagapagtatag at pinuno ng Monero, na parehong hindi totoo.
 
 Sa kasalukuyang panahon, bahagi pa rin ng core team ang fluffypony, ngunit hindi na ito ang lead maintainer ng codebase, at bumalik na siya para gumawa ng sarili niyang mga personal na proyekto. Nagpapatuloy si Monero nang maayos.
-
-## 9\. Karamihan sa mga commit mula noong 2017 ay nagmula sa isang indibidwal na kilala bilang moneromooo-monero
 
 ## 9\. Karamihan sa mga commit mula noong 2017 ay nagmula sa isang indibidwal na kilala bilang moneromooo-monero
 
@@ -151,8 +109,6 @@ Ito ay isang hindi mapag-aalinlanganang katotohanan, at hindi isang bagay na dap
 Gaya ng maiisip ng isang tao, ang pagtatrabaho sa Monero nang buong oras sa halip na sa isang boluntaryong batayan ay magreresulta sa malaking halaga ng naipon na trabaho. Dahil ang Monero ay walang premine, ICO, at hindi tumatanggap ng reward ng founder, kung hindi man ay wala kaming mga full time na inhinyero na nagtatrabaho sa proyekto, at ang mga tao ay nag-aambag ng kanilang makakaya, kapag kaya nila, at sadyang hindi posible na asahan ang mga kontribusyong ito sa mas matimbang ang isang full time na manggagawa.
 
 Sabi nga, may malaking pagsisikap pa rin na magkaroon ng checks and balances. Pinagsasama-sama pa rin ng isang miyembro ng core team ang code pagkatapos ng pagsusuri, kaya hindi ito isang kaso kung saan ang isang indibidwal ay parehong gumagawa at nagsasama ng code, at sa gayon ay nilalampasan ang anumang pangangasiwa na kinakailangan upang mahuli ang isang matinding error o malisyosong layunin.
-
-## 10\. Hindi ba madaling 51% inaatake si Monero?
 
 ## 10\. Hindi ba madaling 51% inaatake si Monero?
 
@@ -166,8 +122,6 @@ Ang eksaktong halaga ng hardware sa 51% na pag-atake sa Monero network ay hindi 
 
 ## 11\. CPU-friendly na algorithm? Hindi ba ang pagmimina ng Monero ay kukunin na lamang ng mga botnet?
 
-## 11\. CPU-friendly na algorithm? Hindi ba ang pagmimina ng Monero ay kukunin na lamang ng mga botnet?
-
 Ang dalawang boogeymen ng mining space ay mga ASIC at botnet, at ang paglayo sa isa ay nangangahulugan ng paglapit sa isa pa. Kung kailangan ng isang CPU para minahan ang Monero, maaaring kontrolin ng mga hacker ang daan-daan kung hindi libu-libong mahinang mga computer at pilitin silang minahin ang Monero para sa kanila, walang gastos sa kanila, at malalampasan ang mga may dalawang computer lang sa kanilang mga sambahayan. .
 
 Ang unang pagtanggi sa argumentong ito ay tungkol sa mga may-ari ng mga botnet mismo. Bagama't hindi namin kinukunsinti ang pag-hack ng mga computer ng iba, ang hadlang sa pagpasok sa pagmamay-ari at pagpapatakbo ng botnet ay mas mababa kaysa sa pagmamay-ari ng mga ASIC. Ang isa ay nangangailangan ng software - kadalasan ay medyo malayang magagamit at open source - at ang oras at katalinuhan para sa pagsinghot ng mga masusugatan na computer. Ang isa pa ay nangangailangan ng hindi kapani-paniwalang halaga ng kapital at pag-access sa pagmamanupaktura. Ang isa ay maaaring gawin ng isang bata sa isang basement, at ang isa ay sa pamamagitan lamang ng napakayaman. Ito ay humantong sa amin upang tapusin na, kung ang pinakamatinding takot ng mga minero ay magkatotoo, ang mga botnet mismo ay magiging mas desentralisado kaysa sa mga ASIC.
@@ -175,8 +129,6 @@ Ang unang pagtanggi sa argumentong ito ay tungkol sa mga may-ari ng mga botnet m
 Sabi nga, kumpiyansa ang komunidad ng Monero na sobra na ang isyung ito. Ang mga inhinyero ng RandomX ay sadyang nagdisenyo ng protocol upang mangailangan ng 2GB ng RAM memory upang gumana. Sa madaling salita, maraming maliliit, masusugatan na virtual private server (VPS) ang hindi magkakaroon ng kapasidad, at kung mayroon sila, ang pagtaas ng mga mapagkukunang ginamit ay magiging lubhang kapansin-pansin sa isang administrator ng system, na humahantong sa agarang pagsisiyasat. Sa madaling salita, hindi ito maaaring tumakbo nang tahimik sa background tulad ng mga nakompromisong computer na nakikilahok sa pag-atake ng DDOS, o tahimik na pagsinghot ng mga password. Kapag naka-on ang minero, alam ito ng lahat.
 
 Pinababawasan nito ang dami ng mga computer na matagumpay na maikompromiso ng botnet sa mga computer na lubhang hindi marunong sa teknolohiya, o sa mga hindi kailanman nasusuri, sa halip na sa napakaraming computer na madaling maapektuhan na ipinapalagay ng mga tagapagtaguyod ng argumentong ito na nasa panganib. .
-
-## 12\. Ang mga tinidor ng Monero ay hindi lamang nakakasakit sa kakayahang pang-ekonomiya ng Monero, ngunit ang privacy nito!
 
 ## 12\. Ang mga tinidor ng Monero ay hindi lamang nakakasakit sa kakayahang pang-ekonomiya ng Monero, ngunit ang privacy nito!
 
@@ -194,8 +146,6 @@ Sabi nga, nakikita namin na walang muwang isipin na hindi kailanman magkakaroon 
 
 ## 13\. Hindi ba't si Monero ay may baldado na minero noong unang panahon na ginamit upang pagyamanin ang mga nagtatag?
 
-## 13\. Hindi ba't si Monero ay may baldado na minero noong unang panahon na ginamit upang pagyamanin ang mga nagtatag?
-
 Ang kasaysayan ng Monero ay isang kawili-wili, at maaaring ikagulat ng marami na marinig na nagsimula nga ito bilang isang scam. Ang creator, thankful_for_today, ay malamang na nakipag-legue sa isang cryptocurrency group na gumawa ng CryptoNote protocol, ngunit may mapanlinlang na intensyon na lokohin ang mga tao mula sa kanilang pera gamit ito.
 
 Nabigo ang kanilang mga paunang pagsusumikap sa barya, kaya ginawa nila ang Monero bilang isang paraan upang subukang muli. Muli itong nabigo nang mabilis na napagtanto ng komunidad na may mali at hinawakan ang barya. Gayunpaman, ang mga mapanlinlang na tagalikha ay nagkaroon ng huling panlilinlang. Inilabas nila sa publiko ang sadyang na-deoptimize na software sa pagmimina, na pinapanatili ang na-optimize na bersyon para sa kanilang sarili upang madaig ang iba at kumita ng maraming pera mula sa mga block reward.
@@ -204,10 +154,6 @@ Nagtagumpay ito sa loob ng ilang panahon, ngunit mabilis ding nahuli ng komunida
 
 Sa pakinabang ng pagbabalik-tanaw, maaaring punahin ng ilan ang desisyon na huwag muling ilunsad ang barya, at kung sapat na ang mga scammy na pinagmulang ito para itulak ang isa mula sa magandang gawaing ginawa ni Monero, kung gayon walang argumento para maimpluwensyahan sila. Anuman ang mga unang pagkabigo na idinulot ng mga manloloko na tagalikha, ang Monero ay umunlad at ginamit ang pinagsamang talino at hilig ng komunidad upang makagawa ng isang makapangyarihang teknolohiya. Ang aming kasalukuyang core team, gayundin ang mga nakaraang miyembro, ay hindi pinayaman ng lumpo na minahan, at sa aming kaalaman, walang sinumang sangkot sa paunang scam ang tumagal sa komunidad ng Monero nang mas matagal kaysa sa unang ilang linggo ng pagkakaroon ng coin.
 
-Sa pakinabang ng pagbabalik-tanaw, maaaring punahin ng ilan ang desisyon na huwag muling ilunsad ang barya, at kung sapat na ang mga scammy na pinagmulang ito para itulak ang isa mula sa magandang gawaing ginawa ni Monero, kung gayon walang argumento para maimpluwensyahan sila. Anuman ang mga unang pagkabigo na idinulot ng mga manloloko na tagalikha, ang Monero ay umunlad at ginamit ang pinagsamang talino at hilig ng komunidad upang makagawa ng isang makapangyarihang teknolohiya. Ang aming kasalukuyang core team, gayundin ang mga nakaraang miyembro, ay hindi pinayaman ng lumpo na minahan, at sa aming kaalaman, walang sinumang sangkot sa paunang scam ang tumagal sa komunidad ng Monero nang mas matagal kaysa sa unang ilang linggo ng pagkakaroon ng coin.
-
-## 14\. Kung napakapribado ng Monero, paano natin maa-audit ang supply para matiyak na walang nagpi-print ng libreng Monero sa ilalim ng ating mga ilong?
-
 ## 14\. Kung napakapribado ng Monero, paano natin maa-audit ang supply para matiyak na walang nagpi-print ng libreng Monero sa ilalim ng ating mga ilong?
 
 Ito ay isang mahirap na tanong na sagutin. Ang isang sagot na karaniwang ibinibigay ay maaari nating dagdagan ang mga transaksyon sa coinbase (kapag ang bagong Monero ay ginantimpalaan sa isang minero para sa paglutas ng isang bloke). Ang mga transaksyong ito ay transparent, at kung susumahin natin ang mga ito, dapat nating makuha ang kabuuang bilang ng Monero sa sirkulasyon.
@@ -215,8 +161,6 @@ Ito ay isang mahirap na tanong na sagutin. Ang isang sagot na karaniwang ibinibi
 Gayunpaman, mahalagang tandaan na kung mangyayari ang mga kalokohan na nagpapataas sa halaga ng Monero nang higit sa inaasahan nating makita mula sa mga transaksyon sa coinbase, hindi ito mangyayari sa mga transaksyon sa coinbase mismo, ngunit sa isang regular na transaksyon sa pagitan ng mga wallet. Mangyayari lamang ito sa isa sa tatlong paraan.
 
 Isa, kung ang cryptography na nagpapatunay na walang Monero na ginawa o nawasak sa isang transaksyon ay sa panimula ay may depekto. Dalawa, kung ang pagpapatupad (code) ng solid cryptography ay may depekto. Tatlo, kung walang depekto ang alinman, ngunit ang mga computer ay nagiging sapat na makapangyarihan upang matugunan ang aming mga kasalukuyang cryptographic scheme, at lumikha ng mga maling patunay.
-
-## 15\. Karamihan sa kasalukuyang hashrate ng Monero ay nagmumula lamang sa dalawang pool.
 
 ## 15\. Karamihan sa kasalukuyang hashrate ng Monero ay nagmumula lamang sa dalawang pool.
 
@@ -237,95 +181,5 @@ Ngunit lumilihis kami.
 Mapapansin mo sa aming paghihikayat para sa desentralisasyon sa itaas, ang katotohanang may kapangyarihan ang minero na lumipat ng pool. Sa anumang punto, mula man sa mas mahusay na edukasyon, isang rallying call para sa desentralisasyon, o tumaas na kumpetisyon sa mga pool, ang pamamahagi ng hash ay maaaring magbago batay sa pagbabago ng mga indibidwal na minero kung saan nila itinuturo ang kanilang mga hash. Ang parehong ay hindi masasabi para sa pagmimina na nakasentro sa antas ng hardware, dahil ang mga ASIC manufacturer ay walang insentibo na ituro ang anumang pool maliban sa kanila, at hindi nila ito gagawin.
 
 Kaya ang katotohanang ang karamihan sa hashrate ng Monero ay nakakonsentra sa ilang pool ay hindi isang bagay na natigil tayo, at sa katunayan, ay maaaring dahil sa kakulangan ng edukasyon tungkol sa pagmimina sa pangkalahatan. Ito ay isang bagay na maaaring ayusin dahil ang problema ay hindi nakasalalay sa antas ng ugat, hindi katulad ng pag-sentralisa ng hardware ng Bitcoin.
-
-Hindi ito malulutas na problema. Ang mga sentralisadong mining pool ay nagmamay-ari ng hardware, pool, at mga hash, at walang magagawa ang sinuman tungkol dito.
-
-Ang sentralisasyon ng pool, habang magkapareho ang resulta, ay may ibang-iba, at higit na nababago na mga batayan. Dahil ang Monero ay may egalitarian na pagmimina, ang bawat minero ay maaaring pumili kung saan ituturo ang kanilang mga hash. Kadalasang pinipili ng mga tao na tumuro sa isang mas malaking pool, dahil nangangahulugan lamang ito na mas madalas nilang makikita ang mga bloke kaysa sa mas maliit na pool. 
-
-Bagaman, dapat tandaan na ang kanilang indibidwal na pagbawas ng gantimpala sa block ay magiging mas maliit dahil ibinabahagi nila ito sa mas maraming tao. Ang mas maliliit na pool ay hindi gaanong nakakahanap ng mga bloke, ngunit ang bawat minero ay nakakakuha ng mas malaking bahagi ng block reward, at ang resulta ay ang isang minero ay aktwal na gumagawa ng katumbas na halaga ng pera man sila ay nasa isang mas maliit na pool o mas malaki, kaya hinihikayat namin ang mga minero na ituro ang kanilang hash sa mas maliliit na pool para higit pang i-desentralisa ang pagmimina.
-
-Ngunit lumilihis kami.
-
-Mapapansin mo sa aming paghihikayat para sa desentralisasyon sa itaas, ang katotohanang may kapangyarihan ang minero na lumipat ng pool. Sa anumang punto, mula man sa mas mahusay na edukasyon, isang rallying call para sa desentralisasyon, o tumaas na kumpetisyon sa mga pool, ang pamamahagi ng hash ay maaaring magbago batay sa pagbabago ng mga indibidwal na minero kung saan nila itinuturo ang kanilang mga hash. Ang parehong ay hindi masasabi para sa pagmimina na nakasentro sa antas ng hardware, dahil ang mga ASIC manufacturer ay walang insentibo na ituro ang anumang pool maliban sa kanila, at hindi nila ito gagawin.
-
-Kaya ang katotohanang ang karamihan sa hashrate ng Monero ay nakakonsentra sa ilang pool ay hindi isang bagay na natigil tayo, at sa katunayan, ay maaaring dahil sa kakulangan ng edukasyon tungkol sa pagmimina sa pangkalahatan. Ito ay isang bagay na maaaring ayusin dahil ang problema ay hindi nakasalalay sa antas ng ugat, hindi katulad ng pag-sentralisa ng hardware ng Bitcoin.
-
-Hindi ito malulutas na problema. Ang mga sentralisadong mining pool ay nagmamay-ari ng hardware, pool, at mga hash, at walang magagawa ang sinuman tungkol dito.
-
-Ang sentralisasyon ng pool, habang magkapareho ang resulta, ay may ibang-iba, at higit na nababago na mga batayan. Dahil ang Monero ay may egalitarian na pagmimina, ang bawat minero ay maaaring pumili kung saan ituturo ang kanilang mga hash. Kadalasang pinipili ng mga tao na tumuro sa isang mas malaking pool, dahil nangangahulugan lamang ito na mas madalas nilang makikita ang mga bloke kaysa sa mas maliit na pool. 
-
-Bagaman, dapat tandaan na ang kanilang indibidwal na pagbawas ng gantimpala sa block ay magiging mas maliit dahil ibinabahagi nila ito sa mas maraming tao. Ang mas maliliit na pool ay hindi gaanong nakakahanap ng mga bloke, ngunit ang bawat minero ay nakakakuha ng mas malaking bahagi ng block reward, at ang resulta ay ang isang minero ay aktwal na gumagawa ng katumbas na halaga ng pera man sila ay nasa isang mas maliit na pool o mas malaki, kaya hinihikayat namin ang mga minero na ituro ang kanilang hash sa mas maliliit na pool para higit pang i-desentralisa ang pagmimina.
-
-Ngunit lumilihis kami.
-
-Mapapansin mo sa aming paghihikayat para sa desentralisasyon sa itaas, ang katotohanang may kapangyarihan ang minero na lumipat ng pool. Sa anumang punto, mula man sa mas mahusay na edukasyon, isang rallying call para sa desentralisasyon, o tumaas na kumpetisyon sa mga pool, ang pamamahagi ng hash ay maaaring magbago batay sa pagbabago ng mga indibidwal na minero kung saan nila itinuturo ang kanilang mga hash. Ang parehong ay hindi masasabi para sa pagmimina na nakasentro sa antas ng hardware, dahil ang mga ASIC manufacturer ay walang insentibo na ituro ang anumang pool maliban sa kanila, at hindi nila ito gagawin.
-
-Kaya ang katotohanang ang karamihan sa hashrate ng Monero ay nakakonsentra sa ilang pool ay hindi isang bagay na natigil tayo, at sa katunayan, ay maaaring dahil sa kakulangan ng edukasyon tungkol sa pagmimina sa pangkalahatan. Ito ay isang bagay na maaaring ayusin dahil ang problema ay hindi nakasalalay sa antas ng ugat, hindi katulad ng pag-sentralisa ng hardware ng Bitcoin.
-
-Karagdagang pagbabasa
-
-  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies)/
-
-  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys)/
-
-  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero)/
-
-  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades)/
-
-  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero)/
-
-  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect)/
-
-  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking)/
-
-  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams)/
-
-  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking)/
-
-  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct)/
-
-  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses)/
-
-  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses)/
-
-  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs)/
-
-  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices)/
-
-  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures)/
-
-  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag)/
-
-  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission)/
-
-  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history)/
-
-  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked)/
-
-  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion)/
-
-  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx)/
-
-  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better)/
 
 Karagdagang pagbabasa

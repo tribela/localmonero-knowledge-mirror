@@ -8,12 +8,8 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: peningkatan desain modular untuk transaksi Monero
 
-## Seraphis: peningkatan desain modular untuk transaksi Monero
-
 Posting ini menjelaskan tentang [Seraphis](https://github.com/UkoeHB/Seraphis), sekumpulan struktur dan abstraksi protokol transaksi yang dikembangkan oleh kontributor penelitian dengan nama samaran [`koe`](https://github.com/UkoeHB) untuk ekosistem Monero, dan dengan analisis keamanan berkelanjutan oleh kontributor dengan nama samaran [`coinstudent2048`](https://github.com/coinstudent2048).  
 Kami membuat beberapa penyederhanaan dan menghilangkan detail teknis tertentu demi kejelasan; untuk alasan ini, dan karena desain Seraphis masih dalam proses, pembaca yang tertarik harus merujuk ke dokumentasi Seraphis untuk mendapatkan informasi terbaru.
-
-## Transaksi di Monero
 
 ## Transaksi di Monero
 
@@ -45,12 +41,8 @@ Proses serupa dilakukan dengan blok penyusun ring signature yang dapat ditautkan
 
 ## Seraphis
 
-## Seraphis
-
 Seraphis mengambil ide ini selangkah lebih jauh.  
 Daripada memperbarui masing-masing blok penyusun dari protokol transaksi RingCT yang ada, ia memperkenalkan protokol berbeda yang dapat memanfaatkan blok penyusun yang berbeda dan menawarkan fungsionalitas yang lebih baik.
-
-## Blok bangunan
 
 ## Blok bangunan
 
@@ -69,8 +61,6 @@ Karena RingCT memasukkan tag penautan ke dalam signature yang ambigu, operasi pe
 Untungnya, beberapa blok bangunan yang dibutuhkan oleh Seraphis sudah ada di tempat lain, dan tidak perlu didesain dari awal. Konstruksi Bulletproofs dan Bulletproofs+ dapat digunakan sebagai range proof. Modifikasi pada sistem pembuktian tipe Schnorr dapat digunakan untuk mengotorisasi pembuktian. Dan [sistem pembuktian](https://eprint.iacr.org/2015/643) yang efisien sudah digunakan sebagai dasar untuk Triptych, [Lelantus](https://eprint.iacr.org/2019/373), dan [Spark](https://eprint.iacr.org/2021/1173)* dapat dimodifikasi untuk bukti keanggotaan.
 
 * Cypher Stack menerima dana untuk pengembangan Spark.
-
-## Pengalamatan
 
 ## Pengalamatan
 
@@ -94,74 +84,6 @@ Sebagai pemegang alamat, Anda dapat memutuskan berapa banyak otoritas yang Anda 
 
 ## Gambaran besar
 
-## Gambaran besar
-
 Seraphis merupakan perubahan besar pada ekosistem Monero. Meskipun melibatkan modifikasi pada alamat dan blok bangunan transaksi, desainnya menawarkan fleksibilitas dan fungsionalitas berguna yang tidak mungkin dilakukan dengan protokol RingCT saat ini. Sementara sebagian besar desain sedang diselesaikan dan dikembangkan ke dalam [implementasi ](https://github.com/UkoeHB/monero/tree/seraphis_lib), desain alamat dan analisis keamanan sedang berlangsung. Seraphis menawarkan peluang bagus untuk mendorong ekosistem Monero ke depan!
-
-Bacaan lebih lanjut
-
-  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies)/
-
-  * [Ring signature Monero vs CoinJoin seperti di Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Mengapa (dan bagaimana!) Anda harus memegang kunci Anda sendiri](/knowledge/hold-your-keys)/
-
-  * [Berkontribusi kembali ke Monero](/knowledge/contributing-to-monero)/
-
-  * [Bagaimana node jarak jauh memengaruhi privasi Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Bagaimana Monero menggunakan hard-fork untuk memutakhirkan jaringan](/knowledge/network-upgrades)/
-
-  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect)/
-
-  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking)/
-
-  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams)/
-
-  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking)/
-
-  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct)/
-
-  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses)/
-
-  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses)/
-
-  * [Output Monero Dijelaskan](/knowledge/monero-outputs)/
-
-  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices)/
-
-  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures)/
-
-  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag)/
-
-  * [Mengapa Monero Memiliki Tail Emission](/knowledge/monero-tail-emission)/
-
-  * [Sejarah Singkat Monero](/knowledge/monero-history)/
-
-  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked)/
-
-  * [Top 15 Mitos dan Kekhawatiran Monero Terbantahkan](/knowledge/monero-myths-debunked)/
-
-  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion)/
-
-  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx)/
-
-  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better)/
 
 Bacaan lebih lanjut

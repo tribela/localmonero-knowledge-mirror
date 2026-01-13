@@ -14,8 +14,6 @@ Ebben a blogbejegyzésben röviden összehasonlítjuk a CoinJoint és a gyűrűs
 
 ## Mi az a CoinJoin tranzakció?
 
-## Mi az a CoinJoin tranzakció?
-
 Mivel a Bitcoin protokollon minden tranzakció teljesen nyilvános – megmutatva a feladót, a címzettet és az összeget – a felhasználóknak további lépéseket kell tenniük, hogy megőrizzék magánszférájukat a korábbi feladókkal és jövőbeni címzettekkel szemben, vagy kénytelenek a cenzúrát, megfigyelés vagy fizikai erőszak kockázatát vállalni.
 
 A bitcoin adatvédelemre a ma elérhető legjobb megoldás az ún. ['CoinJoin'](https://bitcoiner.guide/qna/coinjoin/), ahol 2 vagy több felhasználó együttesen (általában egy központi koordinátoron keresztül), hoz létre egy speciális tranzakciót, amely megnehezíti a külső szemlélők számára, hogy összekapcsolják a kimeneteket a bemenetekkel. A tranzakció létrehozásához a résztvevők olyan módon dolgoznak össze, hogy eközben a forrásaikat ne kelljen megőrzésre átadni harmadik félnek. A tranzakció lebonyolítása után a kimenetek története külső szemlélők számára átláthatatlanná (vagy legalábbis zavarosabbá) válik-
@@ -30,31 +28,21 @@ Ezzel megszakad az egyes UTXO-k követhetősége, lehetővé téve a Bitcoin-fel
 
 ## Hogyan oldják meg ezeket a problémákat a gyűrűs aláírások?
 
-## Hogyan oldják meg ezeket a problémákat a gyűrűs aláírások?
-
 Mivel korábban [alaposan megvizsgáltuk a gyűrűs aláírásokat](/knowledge/ring-signatures), ebben a bejegyzésben nem megyek bele a működésük technikai részleteibe. Ehelyett nézzük meg, hogy a Monero által alkalmazott megközelítések hogyan kerülik meg a CoinJoin fent tárgyalt problémáit.
 
 > A CoinJoin választható és aktív részvétel szükséges hozzá
-
-A CoinJoin választható és aktív részvétel szükséges hozzá
 
 A gyűrűs aláírás a Monero adatvédelmi protokoll alapvető tulajdonsága, és _a hálózat összes_ tranzakciója használja. Ez azt jelenti, hogy egyetlen felhasználó tranzakciója sem tűnik ki azzal, hogy nagyobb adatvédelemre törekszik, mint a „normál” Monero-felhasználók, és minden felhasználó hihetően tagadhatja, hogy pénzeszközöket költött egy adott tranzakció során. Mivel a pénzeszközöket elköltő felhasználó nem vesz részt a csali bemenetek eredeti tranzakcióiban és nem egyeztet velük, azok a felhasználók, akiknek a bemenetei csaliként kiválasztásra kerülnek őszintén mondhatják, hogy nem vettek részt a tranzakcióban, ezzel erősítve adatvédelmüket.
 
 > Központosított koordinátor használata
 
-Központosított koordinátor használata
-
 Mivel a Monero gyűrűs aláírásai nem koordináltak, és csak a valódi pénzköltőre van szükség a tranzakció létrehozásához, nincs szükség központi szervezésre. Ez biztosítja, hogy _senki_ nem tagadhatja meg Öntől a Monero adatvédelméhez való hozzáférést, és nincs központi entitás, amelyre nyomást lehet gyakorolni, nem lehetséges egyszerű Sybil-támadás a likviditás ellen, stb. Mindaddig, amíg a tranzakció kifizeti a hálózati díjat, cenzúrázhatatlan hozzáférést kap a magánélethez, a biztonsághoz és a névtelenséghez.
 
 > A CoinJoinhoz likviditás kell
 
-A CoinJoinhoz likviditás kell
-
 A „likviditás”, amely mindenki számára elérhető, akinek csalikra van szüksége, mindig a láncon lévő kimenetek teljes készlete, így soha nem lesz hiány csaliból, amik között a Monero tranzakció megbújhat. Ha valaki Monerot akar elkölteni, azt a pénz beérkezése után körülbelül 20 perccel megteheti, és nem kell további lépéseket tennie ahhoz, hogy erős adatvédelmet élvezzen.
 
 > A CoinJoin adatbiztonsága idővel gyengül
-
-A CoinJoin adatbiztonsága idővel gyengül
 
 Mivel a Monero kimenetei soha nem nyilvánosan ismertek a hálózaton, a gyűrűs aláírások által biztosított adatvédelem sokkal kevésbé hajlamos az idő múlásával történő romlásra. A felhasználónak nem kell állandóan forgatnia a Monero kimeneteket, és rendkívül ritka körülményeket leszámítva az idő múlásával sem veszít pénzügyei magánjellegéből.
 
@@ -62,11 +50,7 @@ Ha a felhasználó mégis szeretné „frissíteni” a kimenettel használt csa
 
 > A CoinJoin rendszerint fix méretű bemeneteket igényel
 
-A CoinJoin rendszerint fix méretű bemeneteket igényel
-
 Mivel a [„Bizalmas tranzakciók”](/knowledge/monero-ringct) (a „RingCT” része) használatával az összegek minden tranzakcióban el vannak rejtve, az adott tranzakcióban használt csali bármilyen méretű lehet. Nem kell aggódni a mennyiségalapú heurisztikák miatt, így a tranzakciók sokkal egyszerűbben felépíthetők, és a Monero blokkláncon bármely időpontból tetszőleges összegű csalikkal használhatók.
-
-## Hogyan tudhatok meg többet?
 
 ## Hogyan tudhatok meg többet?
 
@@ -76,71 +60,5 @@ Ha kíváncsi, és szeretné jobban megérteni a gyűrűs aláírásokat vagy a 
   * [Ring Signature – Moneropedia](https://www.getmonero.org/resources/moneropedia/ringsignatures.html) (angol)
   * [Coinjoin Q+A](https://bitcoiner.guide/qna/coinjoin/) (angol)
   * [CoinJoin Overview](https://6102bitcoin.com/coinjoin-overview/) (angol)
-
-További olvasnivaló
-
-  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies)/
-
-  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys)/
-
-  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero)/
-
-  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy)/
-
-  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades)/
-
-  * [Nézetcímkék: Hogyan csökkenti egy byte adat a Monero tárcák szinkronizálási idejét 40+%-kal](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero)/
-
-  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup)/
-
-  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value)/
-
-  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect)/
-
-  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking)/
-
-  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams)/
-
-  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps)/
-
-  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking)/
-
-  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct)/
-
-  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses)/
-
-  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses)/
-
-  * [Monero kimenetek magyarázata](/knowledge/monero-outputs)/
-
-  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices)/
-
-  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures)/
-
-  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size)/
-
-  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag)/
-
-  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission)/
-
-  * [A Monero rövid története](/knowledge/monero-history)/
-
-  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked)/
-
-  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked)/
-
-  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion)/
-
-  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx)/
-
-  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better)/
 
 További olvasnivaló

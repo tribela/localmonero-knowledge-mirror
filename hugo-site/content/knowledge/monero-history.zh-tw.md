@@ -14,8 +14,6 @@ image_credit_url: "https://cypherstack.com"
 
 ## Bytecoin位元組幣
 
-## Bytecoin位元組幣
-
 2013年9月，一個之前聞所未聞的組織，CryptoNote小組，發佈了一份跟他們組織同名的新型協定，也就是CryptoNote白皮書. 通過利用可選的環形簽名技術和隱身位址來增強新一代加密貨幣的隱私性，該協議試圖創造類似於比特幣的加密貨幣. 不久之後，2013年11月，初始代碼被推送到開原始程式碼庫GitHub，創造出一種名為Bytecoin位元組幣的新加密貨幣. 該代幣在全新的代碼庫上實現了CryptoNote本文中描述的協議，而當時其他大多數代幣基本上是直接抄比特幣的代碼庫稍加修改.
 
 Bytecoin團隊之後花了更多時間將剩餘代碼上傳到它的代碼庫中，大約在2014年3月完成，隨後該項目在BitcoinTalk論壇上被一個看起來隨機的人，看似在不經意的時機發現. 如今回顧這段歷史，人們普遍認為這次看似不經意的發現其實是精心設計好的炒作. 這場雙簧表演成功造成了眼球效應，但很快圍觀的人們有了一個奇怪的發現，那就是超過百分之80的幣已經被發行出來.
@@ -28,15 +26,11 @@ Bytecoin團隊之後花了更多時間將剩餘代碼上傳到它的代碼庫中
 
 ## Bitmonero
 
-## Bitmonero
-
 2014年4月9日，另一個之前不為人知，名為thankful_for_today的用戶在BitcoinTalk論壇上，宣佈推出了首個基於Bytecoin系代碼的分叉，即Bitmonero. 由於它是第一個分支，Bitmonero在4月18日發佈時迅速引起了人們的注意，並圍繞它成立了一個小型社區，兩周後社區更名為Monero也就是門羅幣，人們渴望實現那些Bytecoin本應該承擔的使命，但是好景不長，人們也很快嗅到了Bitmonero的問題.
 
 作為創始人，thankful_for_today被證明很難合作和溝通，他經常性的數天失聯於互聯網，對於一個新幣的創立者來說，這很不尋常.並且他多次試圖把Monero和Bytecoin社區進行合併，試圖調整門羅幣的發行時間表，並且拒絕與自發形成的門羅幣核心小組合作，由於他擁有自己的網頁，BitcoinTalk的帖子和代碼庫許可權，所以可以不經過其他人的同意.
 
 之後局面很快變得清晰起來，圍繞Monero門羅幣自發成立的核心小組比thankful_for_forday更加活躍和可以勝任門羅幣建設，儘管門羅幣社區多次邀請他參與進來，但thankful_for_today最終還是消失了，成為門羅幣的歷史的一個插曲. 許多年後，人們懷疑他當時秘密地參與了Bytecoin團隊. 為什麼人們會這樣想？ 好吧，因為在這一切期間，Bytecoin團隊並沒有閑著.
-
-## 一片焦土
 
 ## 一片焦土
 
@@ -50,76 +44,8 @@ Bytecoin團隊並不高興, 因為他們通過謊言致富的計畫失敗了. �
 
 ## 總結
 
-## 總結
-
 沒有多少加密貨幣可以在創始人不在的情況下還可以保持發展. 確實，比特幣和門羅幣是兩個最大的例子. 雖然兩者進行比較可能比特幣創始人消失更具禪讓精神和慈愛之光，但門羅幣即使誕生於黑暗，卻毫不妥協，逆境中更加頑強堅定，從層層騙局中出淤泥不染.
 
 比特幣更多的展示了當一個人厭倦了當前體制並敢於通過創造新來挑戰現狀時會發生什麼. 門羅幣則展現了當一群人堅定自己的目標，拒絕接受謊言，依靠自己探尋真相，持續改造現世會迸發出怎樣的社區力量. 門羅幣多年前誕生於黑暗之中，但如今已進化成成奪回我們財務隱私的最強大武器.
-
-進一步閱讀
-
-  * [門羅幣如何獨特地實現循環經濟](/knowledge/monero-circular-economies)/
-
-  * [門羅幣環形簽名與CoinJoin像在Wasabi比較](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [為什麼（以及如何！）你應該持有你自己的鑰匙](/knowledge/hold-your-keys)/
-
-  * [貢獻為門羅幣](/knowledge/contributing-to-monero)/
-
-  * [遠程節點如何影響門羅幣的隱私](/knowledge/remote-nodes-privacy)/
-
-  * [門羅幣是如何使用硬分叉為升級網絡](/knowledge/network-upgrades)/
-
-  * [查看標籤：一個字節如何將門羅幣錢包的同步時間減少40%以上](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool和它在去Monero採礦中心化的作用](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis：它將為門羅幣做什麼](/knowledge/seraphis-for-monero)/
-
-  * [把比特幣兌換成門羅幣，就可以高枕無憂了嗎?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [為什麼門羅幣不像大零幣那樣需要初始信任來實現隱私](/knowledge/monero-trustless-setup)/
-
-  * [為什麼門羅幣才是電子黃金，相對於比特幣更有儲存價值的屬性](/knowledge/monero-better-store-of-value)/
-
-  * [門羅幣是如何蠶食比特幣的份額和先發優勢](/knowledge/network-effect)/
-
-  * [為什麼說門羅幣社區最具批判性精神](/knowledge/critical-thinking)/
-
-  * [門羅幣防詐騙指南](/knowledge/monero-scams)/
-
-  * [原子互換技術將如何在門羅幣上實現](/knowledge/monero-atomic-swaps)/
-
-  * [門羅幣與當代互聯網，隱私達人的須知](/knowledge/monero-networking)/
-
-  * [ RingCT環形機密技術是如何隱藏門羅幣交易的金額](/knowledge/monero-ringct)/
-
-  * [門羅幣隱身地址如何保護你的身份](/knowledge/monero-stealth-addresses)/
-
-  * [門羅幣子位址是如何防止使用者資訊被關聯](/knowledge/monero-subaddresses)/
-
-  * [加密貨幣裡面的output，中文譯作輸出，這個概念到底什麼意思,又為什麼門羅幣轉帳後餘額顯示錯誤要等待二十分鐘](/knowledge/monero-outputs)/
-
-  * [門羅幣最佳入門指南](/knowledge/monero-best-practices)/
-
-  * [環形簽名如何保護門羅幣發送者的輸出](/knowledge/ring-signatures)/
-
-  * [門羅幣是如何解決困擾比特幣的區塊大小的擴容問題](/knowledge/dynamic-block-size)/
-
-  * [ 新的CLSAG環簽名技術將如何提高門羅幣的效率](/knowledge/what-is-clsag)/
-
-  * [為什麼門羅幣擁有尾部增發的特性](/knowledge/monero-tail-emission)/
-
-  * [Wired雜誌是如何誤解了門羅](/knowledge/wired-article-debunked)/
-
-  * [流言終結者：關於門羅幣的15大傳言和疑慮](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion ++蒲公英改進協議如何使Monero從源頭得到更強防護](/knowledge/monero-dandelion)/
-
-  * [為什麼門羅幣是開源且去中心化的](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [門羅幣挖礦: 什麼使 RandomX 算法如此特別](/knowledge/monero-mining-randomx)/
-
-  * [為什麼門羅幣優於達世幣, 大零幣, 小零幣 , 古靈幣以及經過Wasabi級別混幣器混淆後的比特幣 (更新於2020年五月)](/knowledge/why-monero-is-better)/
 
 進一步閱讀

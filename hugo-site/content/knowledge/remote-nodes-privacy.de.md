@@ -12,8 +12,6 @@ In diesem Beitrag werden wir in einige der Details eintauchen, die dahintersteck
 
 ## Welche Funktion haben Nodes in Monero?
 
-## Welche Funktion haben Nodes in Monero?
-
 Für diejenigen, die mit der Funktionsweise von Monero nicht so vertraut sind: Die Knoten (oder Server) im Monero-Netzwerk können von jedem betrieben werden und ermöglichen es dem Eigentümer des Knotens - oder anderen, mit denen er ihn teilen möchte! - eine Kopie der Blockchain zu synchronisieren und diese Kopie anderen im Netzwerk zur Verfügung zu stellen. Diese Knoten überprüfen auch alle Transaktionen, die im Netzwerk stattfinden, sowie alle Blöcke, die veröffentlicht werden, und stellen sicher, dass sie alle den Regeln folgen, die durch den Konsens festgelegt wurden.
 
 Die andere Funktion, die Knoten in Monero erfüllen, ist die Bereitstellung aller Daten, die Ihre bevorzugte Monero Wallet benötigt, um ordnungsgemäß nach Transaktionen zu suchen, die Ihnen gehören, und um neue Transaktionen durchzuführen. Diese Daten werden von Nodes auf zwei Arten bereitgestellt:
@@ -29,15 +27,11 @@ Die andere Funktion, die Knoten in Monero erfüllen, ist die Bereitstellung alle
 
 ## Was ist die anonymste und sicherste Art, Monero zu verwenden?
 
-## Was ist die anonymste und sicherste Art, Monero zu verwenden?
-
 Trotz der starken On-Chain-Privatsphäre, die Monero bei der Verwendung von Remote-Knoten bietet, ist es am besten, einen eigenen Monero-Knoten zu betreiben, um sicherzustellen, dass Sie eine unverfälschte Kopie der Monero-Blockchain zur Verfügung haben und dass Ihre IP-Adresse gut geschützt ist. Ein weiterer Vorteil eines eigenen Knotens ist, dass Sie einen Beitrag zum Netzwerk leisten können, indem Sie andere Knoten von Ihrem Knoten aus synchronisieren oder sogar andere Nutzer mit ihren Wallets mit Ihrem Knoten verbinden lassen.
 
 Trotzdem bietet Monero bei der Verwendung eines Remote-Knotens immer noch hervorragende Privatsphäre. Wenn Sie daran interessiert sind, Ihren eigenen Monero-Knoten zu betreiben, finden Sie hier eine leicht verständliche Anleitung dazu:
 
   * [Einen Monero-Knoten ausführen](https://sethforprivacy.com/guides/run-a-monero-node/)
-
-## Was kann ein Remote-Knoten über mich erfahren?
 
 ## Was kann ein Remote-Knoten über mich erfahren?
 
@@ -49,13 +43,9 @@ Ein entfernter Knoten kann auch versuchen, Ihnen Probleme zu bereiten, indem er 
 
 ## Welche Datenschutzgarantien gibt es noch bei der Verwendung eines Remote-Knotens?
 
-## Welche Datenschutzgarantien gibt es noch bei der Verwendung eines Remote-Knotens?
-
 Auch wenn dieser Artikel Sie vielleicht ein wenig erschreckt hat, ist es wichtig zu wissen, dass die von Monero gebotene Privatsphäre auch bei der Verwendung eines entfernten Knotens ausgezeichnet ist und jede andere Kryptowährung bei dieser Verwendung weit übertrifft. Sie profitieren immer noch von der starken On-Chain-Privatsphäre, die Monero bietet, da der Remote-Node niemals den wahren Input (welche Coins Sie ausgeben), die Menge der in der Transaktion ausgegebenen Monero oder die Adresse des Empfängers der Transaktion kennt. Außenstehende Beobachter können auch nicht die wahre Eingabe, den Betrag oder die beteiligten Adressen sehen (unabhängig davon, welche Art von Knoten Sie verwenden!), wodurch sichergestellt wird, dass außerhalb des entfernten Knotens sogar Ihre IP-Adresse, Wallet-Synchronisierungsinformationen und Transaktionen starke Datenschutzgarantien haben.
 
 Der entfernte Knoten hat auch niemals Zugriff auf die vorherigen Transaktionen, die Sie gesendet oder erhalten haben, oder auf die Menge an Monero, die sich derzeit in Ihrer Wallet befindet, und verliert jeden Einblick in Ihre Transaktionen, sobald Sie beginnen, einen anderen Knoten zu verwenden. Es werden keine privaten Schlüssel (weder Ausgaben- noch Einsichtsschlüssel) an den entfernten Knoten weitergegeben, so dass Ihre Wallet privat, sicher und benutzbar bleibt. Unabhängig vom entfernten Knotenpunkt sind Sie auch nie dem Risiko ausgesetzt, Monero zu verlieren oder gestohlen zu werden, da der Knotenpunkt die Empfängeradresse nicht bearbeiten kann, keinen Zugriff auf die privaten Schlüssel Ihrer Wallet hat und Ihre Monero in keiner Weise beschlagnahmen kann.
-
-## Was hat es mit „Light Wallets“ wie MyMonero auf sich?
 
 ## Was hat es mit „Light Wallets“ wie MyMonero auf sich?
 
@@ -71,8 +61,6 @@ Weitere Informationen über den Light Wallet Server finden Sie im folgenden Gith
 
 ## Wie kann ich mehr erfahren?
 
-## Wie kann ich mehr erfahren?
-
 Wenn Sie neugierig sind und Knoten in Monero besser verstehen und sich mit der Verwendung eines Remote-Knotens oder dem Betrieb Ihres eigenen befassen möchten, finden Sie unter den folgenden Links großartige Einstiegsmöglichkeiten:
 
   * [Monero World, eine Liste der von der Gemeinschaft betriebenen Remote Nodes, die verwendet werden können](https://moneroworld.com/#nodes)
@@ -80,71 +68,5 @@ Wenn Sie neugierig sind und Knoten in Monero besser verstehen und sich mit der V
   * [monero.fail, eine Liste von Remote-Knoten mit häufig überprüftem Status< /a>](https://monero.fail/)
   * [Verbindung herstellen zu einem Remote-Knoten innerhalb der GUI-Brieftasche](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
   * [Moneropedia – Remote Knoten](https://www.getmonero.org/resources/moneropedia/remote-node.html)
-
-Weiterlesen
-
-  * [Wie Monero auf einzigartige Weise Kreislaufwirtschaften ermöglicht](/knowledge/monero-circular-economies)/
-
-  * [Moneros Ringsignaturen vs. CoinJoin wie bei Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Warum (und wie!) Sie Ihre eigenen Keys halten sollten](/knowledge/hold-your-keys)/
-
-  * [Zu Monero beitragen](/knowledge/contributing-to-monero)/
-
-  * [Wie Monero Hard-Forks verwendet, um das Netzwerk zu aktualisieren](/knowledge/network-upgrades)/
-
-  * [View-Tags: Wie ein Byte die Synchronisierungszeiten der Monero-Wallet um über 40 % reduziert](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool und seine Rolle bei der Dezentralisierung des Monero-Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Was es für Monero tun wird](/knowledge/seraphis-for-monero)/
-
-  * [Ist die Umwandlung von Bitcoin in Monero genauso privat wie der direkte Kauf von Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Warum Monero im Gegensatz zu Zcash ein vertrauensloses Setup verwendet](/knowledge/monero-trustless-setup)/
-
-  * [Warum Monero ein besserer Wertspeicher ist als Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Wie Monero die Netzwerkeffekte von Bitcoin überwinden kann](/knowledge/network-effect)/
-
-  * [Warum Monero die kritischste Community hat](/knowledge/critical-thinking)/
-
-  * [Betrügereien, auf die Sie bei der Verwendung von Monero achten sollten](/knowledge/monero-scams)/
-
-  * [Wie Atomic Swaps in Monero funktionieren](/knowledge/monero-atomic-swaps)/
-
-  * [Was jeder Monero-Benutzer wissen muss, wenn es ums Networking geht](/knowledge/monero-networking)/
-
-  * [Wie RingCT Monero-Transaktionsbeträge verbirgt](/knowledge/monero-ringct)/
-
-  * [Wie Monero Stealth-Adressen Ihre Identität schützen](/knowledge/monero-stealth-addresses)/
-
-  * [Wie Monero-Subadressen die Identitätsverknüpfung verhindern](/knowledge/monero-subaddresses)/
-
-  * [Monero-Outputs erklärt](/knowledge/monero-outputs)/
-
-  * [Monero Best Practices für Anfänger](/knowledge/monero-best-practices)/
-
-  * [Wie Ringsignaturen die Ausgaben von Monero verschleiern](/knowledge/ring-signatures)/
-
-  * [Wie Monero das Blockgrößenproblem löste, das Bitcoin plagt](/knowledge/dynamic-block-size)/
-
-  * [Wie CLSAG die Effizienz von Monero verbessern wird](/knowledge/what-is-clsag)/
-
-  * [Warum Monero eine Tail-Emission hat](/knowledge/monero-tail-emission)/
-
-  * [Eine kurze Geschichte von Monero](/knowledge/monero-history)/
-
-  * [Das Wired Magazine hat Unrecht mit Monero, hier ist der Grund](/knowledge/wired-article-debunked)/
-
-  * [Die 15 wichtigsten Monero-Mythen und -Bedenken widerlegt](/knowledge/monero-myths-debunked)/
-
-  * [Wie Dandelion++ die Transaktionsursprünge von Monero geheim hält](/knowledge/monero-dandelion)/
-
-  * [Warum Monero Open Source und dezentralisiert ist](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Was RandomX so besonders macht](/knowledge/monero-mining-randomx)/
-
-  * [Warum Monero besser ist als Dash, Zcash, Zcoin (sogar mit Lelantus), Grin und Bitcoin-Mixer wie Wasabi (Aktualisiert Mai 2020)](/knowledge/why-monero-is-better)/
 
 Weiterlesen

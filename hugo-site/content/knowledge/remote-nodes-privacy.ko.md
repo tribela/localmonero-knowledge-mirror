@@ -12,8 +12,6 @@ Monero가 다른 암호 화폐에 비해 가지고있는 가장 큰 장점 중 �
 
 ## 노드는 Monero에서 어떤 기능을 수행합니까?
 
-## 노드는 Monero에서 어떤 기능을 수행합니까?
-
 Monero의 작동 방식에 익숙하지 않은 사용자를 위해 Monero 네트워크의 노드(또는 서버)는 누구나 실행할 수 있으며 노드 소유자 또는 노드가 공유하기로 선택한 다른 사람을 허용할 수 있습니다. – 블록체인 사본을 동기화하고 해당 사본을 네트워크의 다른 사람에게 제공합니다. 이 노드는 또한 네트워크에서 발생하는 모든 트랜잭션과 게시된 모든 블록을 확인하고 모두 합의에 의해 설정된 규칙을 따르는지 확인합니다.
 
 Monero에서 노드가 제공하는 또 다른 기능은 좋아하는 Monero 지갑이 귀하에게 속한 트랜잭션을 올바르게 확인하고 새로운 트랜잭션을 수행하는 데 필요한 모든 데이터를 제공하는 방법입니다. 이 데이터는 두 가지 방법으로 노드에서 제공됩니다.
@@ -29,15 +27,11 @@ Monero에서 노드가 제공하는 또 다른 기능은 좋아하는 Monero 지
 
 ## Monero를 사용하는 가장 개인적이고 안전한 방법은 무엇입니까?
 
-## Monero를 사용하는 가장 개인적이고 안전한 방법은 무엇입니까?
-
 원격 노드를 사용할 때 Monero가 제공하는 강력한 온체인 개인정보 보호가 있더라도 가장 좋은 방법은 자신의 Monero 노드를 실행하여 Monero 블록체인의 원본 사본을 편리하게 사용할 수 있고 IP 주소가 잘 보호되어 있습니다. 자체 노드를 실행할 때의 또 다른 이점은 네트워크에 다시 기여할 수 있어 다른 노드가 노드에서 동기화하거나 다른 사용자가 지갑을 사용하여 노드에 연결할 수 있다는 것입니다.
 
 그렇지만 Monero는 원격 노드를 사용할 때 여전히 우수한 개인 정보를 제공합니다. 자신의 Monero 노드를 실행하는 데 관심이 있는 경우 다음 가이드를 따르십시오.
 
   * [Monero 노드 실행](https://sethforprivacy.com/guides/run-a-monero-node/)
-
-## 원격 노드는 나에 대해 무엇을 알 수 있습니까?
 
 ## 원격 노드는 나에 대해 무엇을 알 수 있습니까?
 
@@ -49,13 +43,9 @@ Monero에서 노드가 제공하는 또 다른 기능은 좋아하는 Monero 지
 
 ## 원격 노드를 사용할 때 어떤 개인 정보 보호가 여전히 존재합니까?
 
-## 원격 노드를 사용할 때 어떤 개인 정보 보호가 여전히 존재합니까?
-
 이 문서는 당신을 조금 무서워 할 수 있지만, 모네로가 제공하는 개인 정보 보호는 원격 노드를 사용하는 경우에도 우수하고, 이 방법으로 사용할 때 훨씬 다른 암호 화폐를 능가한다는 것을 깨닫는 것이 중요합니다. 원격 노드는 실제 입력 (지출하는 동전), 트랜잭션에 지출 한 Monero의 양 또는 트랜잭션 수신자의 주소를 알지 못했기 때문에 Monero가 제공하는 강력한 온 체인 개인 정보를 얻을 수 있습니다. 외부 관찰자는 또한 관련 된 실제 입력, 금액 또는 주소(어떤 유형의 노드를 사용하든!)을 볼 수 없으므로 원격 노드 외부에서도 IP 주소, 지갑 동기화 정보 및 트랜잭션에 강력한 개인 정보 보호 보장이 보장됩니다.
 
 원격 노드는 전송하거나 받은 이전 트랜잭션또는 현재 지갑에 있는 Monero의 양에 액세스할 수 없으며 다른 노드를 사용하기 시작하는 순간 트랜잭션에 대한 모든 가시성을 잃게 됩니다. 원격 노드에 개인 키(지출 또는 보기 키)가 제공되지 않으므로 지갑은 비공개, 안전 및 사용 가능한 상태로 유지됩니다. 원격 노드에 관계없이 노드가 받는 사람 주소를 편집할 수 없고 지갑 개인 키에 액세스할 수 없으며 Monero를 어떤 식으로든 압수할 수 없기 때문에 Monero를 잃거나 도난당한 위험도 없습니다.
-
-## MyMonero와 같은 "가벼운 지갑"은 어떻습니까?
 
 ## MyMonero와 같은 "가벼운 지갑"은 어떻습니까?
 
@@ -71,8 +61,6 @@ Monero에서 노드가 제공하는 또 다른 기능은 좋아하는 Monero 지
 
 ## 자세히 알아보려면 어떻게 해야 하나요?
 
-## 자세히 알아보려면 어떻게 해야 하나요?
-
 모네로의 노드를 더 잘 이해하고 원격 노드를 사용하거나 직접 실행하는 것을 보고 싶다면 아래 링크를 참조하십시오:
 
   * [Monero World, 세스 포 프라이버시가 운영하는 Monero 노드에](https://moneroworld.com/#nodes)
@@ -80,71 +68,5 @@ Monero에서 노드가 제공하는 또 다른 기능은 좋아하는 Monero 지
   * [monero.fail, 자주 확인 된 상태와 원격 노드의 목록](https://monero.fail/)
   * [GUI 지갑](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
   * [Moneropedia 내에서 원격 노드에 연결하는 방법 - 원격 노드](https://www.getmonero.org/resources/moneropedia/remote-node.html)
-
-더 보기
-
-  * [Monero가 순환 경제를 가능하게 하는 방법](/knowledge/monero-circular-economies)/
-
-  * [와사비처럼 모네로의 링 시그니처 vs 코인조인](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [자신의 키를 보유해야 하는 이유(및 방법!)](/knowledge/hold-your-keys)/
-
-  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero)/
-
-  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades)/
-
-  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool과 Monero Mining의 탈중앙화에서의 역할](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero)/
-
-  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup)/
-
-  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value)/
-
-  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect)/
-
-  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking)/
-
-  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams)/
-
-  * [Monero에서 원자 스왑이 작동하는 방법](/knowledge/monero-atomic-swaps)/
-
-  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking)/
-
-  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct)/
-
-  * [모네로 비밀주소가 신상을 보호하는 방법](/knowledge/monero-stealth-addresses)/
-
-  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses)/
-
-  * [모네로 출력에 대하여](/knowledge/monero-outputs)/
-
-  * [초보자를 위한 모네로 사용 습관 추천](/knowledge/monero-best-practices)/
-
-  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures)/
-
-  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size)/
-
-  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag)/
-
-  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission)/
-
-  * [모네로의 간단한 역사](/knowledge/monero-history)/
-
-  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked)/
-
-  * [모네로에 관한 15가지 미신과 우려, 그리고 그 해답](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion)/
-
-  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx)/
-
-  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better)/
 
 더 보기

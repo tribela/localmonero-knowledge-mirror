@@ -14,8 +14,6 @@ V tem prispevku se bomo na kratko poglobili v primerjavo CoinJoina in obročnih 
 
 ## Kaj je CoinJoin transakcija?
 
-## Kaj je CoinJoin transakcija?
-
 Ker so vse transakcije v Bitcoinu popolnoma pregledne - razkrivajo pošiljatelja, prejemnika in zneske -, morajo uporabniki sprejeti dodatne ukrepe za zaščito zasebnosti pred prejšnjimi pošiljatelji in prihodnjimi prejemniki svojih sredstev, sicer tvegajo cenzuro, nadzor ali krajo sredstev s fizičnim nasiljem.
 
 Najboljša današnja rešitev za zasebnost v Bitcoinu je orodje, imenovano ["CoinJoin"](https://bitcoiner.guide/qna/coinjoin/), kjer dva ali več uporabnikov sodeluje (običajno prek centraliziranega koordinatorja) in ustvari posebno transakcijo, ki zunanjim opazovalcem otežuje povezavo med vhodi in izhodi. Vsak udeleženec komunicira, da bi skupaj ustvaril transakcijo, ne da bi predal skrbništvo nad svojimi sredstvi, na koncu pa prejme izhod, katerega prejšnja zgodovina je zdaj zunanjim opazovalcem nejasna (ali zakrita).
@@ -30,31 +28,21 @@ S tem se prekine zgodovina določenih UTXO, kar uporabnikom Bitcoina omogoča, d
 
 ## Kako obročni ali "ring" podpisi rešujejo te težave?
 
-## Kako obročni ali "ring" podpisi rešujejo te težave?
-
 Ker[ smo se v preteklosti že poglobili v to, kaj so obročni podpisi](/knowledge/ring-signatures), zato v tem prispevku ne bomo podrobno opisovali tehničnih vidikov njihovega delovanja. Namesto tega si bomo ogledali kako pristopi, ki so jih uporabili v Moneru, rešujejo težave s CoinJoinom.
 
 > CoinJoin je opt-in in zahteva sodelovanje 
-
-CoinJoin je opt-in in zahteva sodelovanje 
 
 Obročni ozr. Ring podpisi Monero so osrednja značilnost protokola zasebnosti in jih uporablja vsaka transakcija v omrežju. To pomeni, da transakcije nobenega uporabnika ne izstopajo zaradi iskanja večje zasebnosti od "običajnih" uporabnikov Monera, vsi uporabniki pa pridobijo verodostojno možnost zanikanja, da so pri posamezni transakciji porabili sredstva. Ker uporabnik, ki porabi sredstva, v transakciji ne usklajuje ali sodeluje z vložki za vabo, lahko tisti uporabniki, ki imajo v lasti vložke, ki so slučajno izbrani kot vabe, pošteno povedo, da niso sodelovali v tej transakciji, kar okrepi njihovo zasebnost.
 
 > Uporaba centraliziranega koordinatorja
 
-Uporaba centraliziranega koordinatorja
-
 Ker obročni podpisi Monero v celoti niso koordinirani in za ustvarjanje transakcije potrebujejo le pravega porabnika sredstev, v Moneru ni potrebe po centraliziranem koordinatorju. To zagotavlja, da _nihče_ ne more preprečiti dostopa do zasebnosti v Moneru, prav tako ni centraliziranega subjekta, na katerega bi lahko pritiskali, ni enostavnih napadov Sybila na likvidnost itd. Dokler s svojo transakcijo plačujete ustrezne pristojbine, v Moneru pridobite necenzuriran dostop do zasebnosti, varnosti in anonimnosti.
 
 > CoinJoin zahteva likvidnost 
 
-CoinJoin zahteva likvidnost 
-
 "Likvidnost", ki je na voljo vsakomur, ki porabi Monero, da jo uporabi kot vabo, je vedno celoten nabor izhodov na verigi, zato nikoli ne zmanjka vabe, v katero se lahko skrijete z Monero. Nekdo, ki želi porabiti Monero, lahko to stori ~20min po prejemu sredstev in mu ni treba opraviti nobenih dodatnih korakov, da bi pridobil močno zasebnost v Moneru.
 
 > Zasebnost CoinJoin se sčasoma poslabša
-
-Zasebnost CoinJoin se sčasoma poslabša
 
 Ker izhodi Monero niso znani, je zasebnost, ki jo zagotavljajo obročni oz. "ring" podpisi, veliko manj dovzetna za poslabšanje s časom. Uporabniku ni treba nenehno spreminjati izhodov in ne izgublja zasebnosti, razen v izjemno redkih okoliščinah.
 
@@ -62,11 +50,7 @@ Ker izhodi Monero niso znani, je zasebnost, ki jo zagotavljajo obročni oz. "rin
 
 > CoinJoin običajno zahteva vnose fiksne velikosti 
 
-CoinJoin običajno zahteva vnose fiksne velikosti 
-
 Ker so zneski v vsaki transakciji skriti z uporabo [ "Zaupne transakcije "](/knowledge/monero-ringct) (del "RingCT"), so lahko vabe, uporabljene v posamezni transakciji, poljubno velike. V Moneru ni razloga, da bi bilo treba skrbeti za hevristiko, ki temelji na znesku, zato so transakcije veliko enostavnejše za izdelavo in lahko uporabljajo vabe iz katere koli točke v času in katere koli vrednosti v blokovni verigi Monero.
-
-## Kako lahko izvem več?
 
 ## Kako lahko izvem več?
 
@@ -76,71 +60,5 @@ Ker so zneski v vsaki transakciji skriti z uporabo [ "Zaupne transakcije "](/kno
   * [Obročni ali "Ring" Podpis - Moneropedia](https://www.getmonero.org/resources/moneropedia/ringsignatures.html)
   * [Coinjoin Q+A](https://bitcoiner.guide/qna/coinjoin/)
   * [Pregled CoinJoin](https://6102bitcoin.com/coinjoin-overview/)
-
-Nadaljnje branje
-
-  * [Kako Monero edinstveno omogoča krožna gospodarstva](/knowledge/monero-circular-economies)/
-
-  * [Zakaj (in kako!) bi morali imeti svoje ključe](/knowledge/hold-your-keys)/
-
-  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero)/
-
-  * [Kako oddaljena vozlišča vplivajo na zasebnost Monera](/knowledge/remote-nodes-privacy)/
-
-  * [Kako Monero uporablja hard-forke za nadgradnjo omrežja](/knowledge/network-upgrades)/
-
-  * [Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Kaj bo Naredil za Monero](/knowledge/seraphis-for-monero)/
-
-  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup)/
-
-  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect)/
-
-  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking)/
-
-  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams)/
-
-  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps)/
-
-  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking)/
-
-  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct)/
-
-  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses)/
-
-  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses)/
-
-  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs)/
-
-  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices)/
-
-  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures)/
-
-  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag)/
-
-  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission)/
-
-  * [Kratka zgodovina Monera](/knowledge/monero-history)/
-
-  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked)/
-
-  * [Razbijamo 15 glavnih mitov in pomislekov o Monero](/knowledge/monero-myths-debunked)/
-
-  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion)/
-
-  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx)/
-
-  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better)/
 
 Nadaljnje branje

@@ -12,8 +12,6 @@ Skriv inn «vis tags», et tillegg på én byte til dataene for hver transaksjon
 
 ## Hvorfor er Moneros lommeboksynkronisering tregere enn Bitcoins?
 
-## Hvorfor er Moneros lommeboksynkronisering tregere enn Bitcoins?
-
 Et av de første spørsmålene vi må svare på for å bedre forstå behovet for en løsning som visningskoder, er hvorfor Moneros lommeboksynkronisering er tregere enn kryptovalutaer som Bitcoin.
 
 I Bitcoin, siden alle transaksjoner ikke er private og avslører myntene som brukes, beløpene og adressene som er involvert på kjeden, kan Bitcoin-lommebøker ganske enkelt se etter ubrukte transaksjonsutganger (UTXOs) eller brukte adresser for en gitt lommebok , skanner raskt blokkjeden for bare UTXO-er som eies av disse adressene for å finne ut hvilke mynter som tilhører lommeboken din og kan brukes.
@@ -21,8 +19,6 @@ I Bitcoin, siden alle transaksjoner ikke er private og avslører myntene som bru
 I Monero bevarer imidlertid alle transaksjoner brukerens personvern ved å skjule avsender, mottaker og beløp involvert i hver transaksjon. Dette personvernet, selv om det er avgjørende for å beskytte brukerne av nettverket, introduserer også tregere lommeboksynkronisering. I Monero må lommeboken din sammenligne hver transaksjonsutgang (TXO) som finnes på nettverket med lommebokens private nøkler.
 
 Denne sammenligningen involverer mye kompleks matematikk og kryptografi for å validere at en utdata virkelig er din, siden alle beløp, adresser og kjente brukte utdata (eller mynter) er skjult på kjeden i Monero.
-
-## Hva er visningstagger?
 
 ## Hva er visningstagger?
 
@@ -36,8 +32,6 @@ Denne taggen avslører ingen informasjon om transaksjonen til eksterne seere, de
 
 ## Vis tagger: et forenklet eksempel
 
-## Vis tagger: et forenklet eksempel
-
 Se for deg at du har 4096 bokser i et rom, hvorav kun 5 bokser tilhører deg. Boksene er alle helt umulige å skille fra utsiden, og den eneste måten å finne ut om en boks er noe for deg er å åpne den og løse et tidkrevende matteproblem skrevet ned på innsiden for å sikre at den er din.
 
 Forestill deg nå at du bestemmer deg for å la personen som sender deg de 5 boksene generere en spesiell kode ved hjelp av adressen din, og deretter sette bare det første tegnet i den genererte koden på utsiden av hver boks som sendes til deg. Alle andre gjør det samme for boksene sine (for å sikre at alle boksene fortsatt ikke kan skilles fra hverandre), men nå kan du ganske enkelt se på den ene tegnkoden på utsiden av boksen, og bare åpne de boksene som har det tegnet på seg.[ X753X] 
@@ -45,12 +39,6 @@ Forestill deg nå at du bestemmer deg for å la personen som sender deg de 5 bok
 Selv om andre bokser vil matche koden din, til og med noen som ikke eies av deg, er antallet bokser du trenger for å åpne og løse et matematikkproblem nå bare 16 (1/256 bokser!) i stedet for alle 4096. 
 
 Nå åpner du de 16 boksene, løser matematikkoppgavene og beholder de 5 boksene som faktisk tilhører deg fra den gruppen!
-
-Selv om andre bokser vil matche koden din, til og med noen som ikke eies av deg, er antallet bokser du trenger for å åpne og løse et matematikkproblem nå bare 16 (1/256 bokser!) i stedet for alle 4096. 
-
-Nå åpner du de 16 boksene, løser matematikkoppgavene og beholder de 5 boksene som faktisk tilhører deg fra den gruppen!
-
-## Når vil visningstagger være tilgjengelige i Monero?
 
 ## Når vil visningstagger være tilgjengelige i Monero?
 
@@ -60,77 +48,9 @@ Når visningstagger er håndhevet av nettverket, vil alle transaksjoner som send
 
 ## Hvordan kan jeg lære mer?
 
-## Hvordan kan jeg lære mer?
-
 Hvis dette har vakt nysgjerrigheten din rundt visningstagger, ta en titt nedenfor for noen ekstra linker som går i dybden på emnet:
 
   * [Reduser skannetidene med 1-byte-per-utgang «view tag»](https://github.com/monero-project/research-lab/issues/73)
   * [Legg til visningstagger til utganger for å redusere skannetiden for lommeboken](https://github.com/monero-project/monero/pull/8061)
-
-Videre lesning
-
-  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies)/
-
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Hvorfor (og hvordan!) du bør holde dine egne nøkler](/knowledge/hold-your-keys)/
-
-  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero)/
-
-  * [Hvordan eksterne noder påvirker Moneros personvern](/knowledge/remote-nodes-privacy)/
-
-  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades)/
-
-  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Hva det vil gjøre for Monero](/knowledge/seraphis-for-monero)/
-
-  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect)/
-
-  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking)/
-
-  * [Svindel å se etter når du bruker Monero](/knowledge/monero-scams)/
-
-  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking)/
-
-  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct)/
-
-  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses)/
-
-  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses)/
-
-  * [Monero-utganger forklart](/knowledge/monero-outputs)/
-
-  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices)/
-
-  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures)/
-
-  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag)/
-
-  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission)/
-
-  * [En kort historie om Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked)/
-
-  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked)/
-
-  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion)/
-
-  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx)/
-
-  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better)/
 
 Videre lesning

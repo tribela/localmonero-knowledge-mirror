@@ -8,12 +8,8 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: upgrade modulárního designu pro transakce Monero
 
-## Seraphis: upgrade modulárního designu pro transakce Monero
-
 Tento příspěvek popisuje [Seraphis](https://github.com/UkoeHB/Seraphis), sadu struktur a abstrakcí transakčních protokolů vyvinutých pseudonymním výzkumným přispěvatelem [`koe`](https://github.com/UkoeHB) pro ekosystém Monero a s probíhající bezpečnostní analýzou od pseudonymního přispěvatele [`coinstudent2048`](https://github.com/coinstudent2048).  
 V zájmu přehlednosti se dopouštíme některých zjednodušení a vynecháváme některé technické detaily; z tohoto důvodu a vzhledem k tomu, že na návrhu systému Seraphis se stále pracuje, by se zájemci měli obrátit na dokumentaci systému Seraphis, kde naleznou nejaktuálnější informace.
-
-## Transakce v Monero
 
 ## Transakce v Monero
 
@@ -45,12 +41,8 @@ Podobný proces byl proveden se stavebním blokem propojitelného kruhového pod
 
 ## Seraphis
 
-## Seraphis
-
 Seraphis jde v této myšlence ještě dál.  
 Namísto aktualizace jednotlivých stavebních bloků stávajícího transakčního protokolu RingCT zavádí jiný protokol, který může využívat různé stavební bloky a nabízet lepší funkce.
-
-## Stavební bloky
 
 ## Stavební bloky
 
@@ -69,8 +61,6 @@ Protože RingCT zapracovává propojovací značku do nejednoznačného podpisu,
 Některé stavební bloky požadované Seraphisem již naštěstí existují jinde a není třeba je navrhovat od začátku. Konstrukce Bulletproofs i Bulletproofs+ mohou být použity jako nátisky. Pro autorizační nátisky lze použít modifikace dokazovacích systémů typu Schnorr. A účinný [provingový systém](https://eprint.iacr.org/2015/643) používaný již jako základ pro Triptych, [Lelantus](https://eprint.iacr.org/2019/373) a [Spark](https://eprint.iacr.org/2021/1173)* může být upraven pro důkazy o členství.
 
 * Cypher Stack získává finanční prostředky na vývoj Spark.
-
-## Adresování
 
 ## Adresování
 
@@ -94,74 +84,6 @@ Jako držitel adresy se můžete rozhodnout, kolik pravomocí delegujete na jin�
 
 ## Celkový obraz
 
-## Celkový obraz
-
 Seraphis je velkou změnou v ekosystému Monero. I když zahrnuje úpravy adres a stavebních bloků transakcí, jeho design nabízí flexibilitu a užitečné funkce, které dnešní protokol RingCT neumožňuje. Zatímco velká část návrhu je dokončena a rozvíjena do [implementace](https://github.com/UkoeHB/monero/tree/seraphis_lib), návrh adres a analýza zabezpečení stále pokračují. Seraphis nabízí vynikající příležitost, jak posunout ekosystém Monero vpřed!
-
-Další čtení
-
-  * [Jak Monero jedinečně umožňuje cirkulární ekonomiky](/knowledge/monero-circular-economies)/
-
-  * [Monerové kruhové podpisy vs CoinJoin jako ve Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Proč (a jak!) byste měli držet své vlastní klíče](/knowledge/hold-your-keys)/
-
-  * [Přispíváme zpět do Monera](/knowledge/contributing-to-monero)/
-
-  * [Jak vzdálené uzly ovlivňují soukromí Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Jak Monero používá hard-forky k upgradu sítě](/knowledge/network-upgrades)/
-
-  * [Značky zobrazení: Jak jeden bajt zkrátí dobu synchronizace peněženky Monero o více než 40 %](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool a jeho role v decentralizaci těžby Monera](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Je převod bitcoinu na monero stejně soukromý jako přímý nákup monera?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Proč Monero na rozdíl od Zcash používá bezdůvěryhodné nastavení](/knowledge/monero-trustless-setup)/
-
-  * [Proč je Monero lepší uchovatel hodnoty než bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Jak může Monero překonat síťové efekty Bitcoinu](/knowledge/network-effect)/
-
-  * [Proč má Monero komunitu nejkritičtějšího myšlení](/knowledge/critical-thinking)/
-
-  * [Podvody, na které si dát pozor při používání Monero](/knowledge/monero-scams)/
-
-  * [Jak budou fungovat atomové swapy na Moneru](/knowledge/monero-atomic-swaps)/
-
-  * [Co by měl každý uživatel Monero vědět, pokud jde o vytváření sítí](/knowledge/monero-networking)/
-
-  * [Jak RingCT skrývá částky transakcí Monero](/knowledge/monero-ringct)/
-
-  * [Jak skryté adresy Monero chrání vaši identitu](/knowledge/monero-stealth-addresses)/
-
-  * [Jak subadresy Monero zabraňují propojení identity](/knowledge/monero-subaddresses)/
-
-  * [Vysvětlení výstupů Monero](/knowledge/monero-outputs)/
-
-  * [Osvědčené postupy pro začátečníky s Monero](/knowledge/monero-best-practices)/
-
-  * [Jak kruhové podpisy zakrývají výstupy Monera](/knowledge/ring-signatures)/
-
-  * [Jak Monero vyřešilo problém velikosti bloku, který sužuje bitcoiny](/knowledge/dynamic-block-size)/
-
-  * [Jak CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag)/
-
-  * [Proč má Monero ocasní emise](/knowledge/monero-tail-emission)/
-
-  * [Stručná historie Monera](/knowledge/monero-history)/
-
-  * [Wired Magazine se o Moneru mýlí, tady je důvod](/knowledge/wired-article-debunked)/
-
-  * [15 vyvrácených mýtů a obav o Monero](/knowledge/monero-myths-debunked)/
-
-  * [Jak Dandelion++ uchovává původ transakcí Monero v soukromí](/knowledge/monero-dandelion)/
-
-  * [Proč je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Co dělá RandomX tak výjimečným](/knowledge/monero-mining-randomx)/
-
-  * [Proč je Monero lepší než Dash, Zcash, Zcoin (i s Lelantusem), Grin a bitcoinové mixéry jako Wasabi (aktualizováno květen 2020)](/knowledge/why-monero-is-better)/
 
 Další čtení

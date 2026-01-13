@@ -8,23 +8,43 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Power to the people
 
-## Power to the people
+Jednym z często omawianych celów blockchaina jest przywrócenie władzy w ręce ludzi. Rodzaje władzy, jak bardzo różnią się w zależności od tego, kogo zapytasz i projekt samego blockchaina określą, jak ta redystrybucja władzy ma nastąpić. Istnieje wiele narzędzi, które przyczyniają się do poprawy tej różnicy i chcielibyśmy omówić takie, które mają znaczący wpływ na sposób uruchamiania projektu oraz rzeczywisty potencjał redystrybucji jaki będzie mieć: open source.
 
 ## Oprogramowanie open source
 
-## Oprogramowanie open source
+Wolny projekt oprogramowania typu open source (FOSS) to taki, w którym kod jest licencjonowany w taki sposób, aby był dostępny do oglądania, zmiany, kontroli i kopiowania przez każdego i wszystkich. Natomiast kod oprogramowania zastrzeżonego jest ukryty i utrzymywany jako sekret biznesowy, który nie jest udostępniany z obawy przed konkurencją kopiującą ciężką pracę, za którą zapłaciła lub którą wykonała firma. Tylko program końcowy jest wydany publicznie, a nie jego kod.   
+  
+Oprogramowanie FOSS ma wiele zalet w stosunku do swoich zastrzeżonych odpowiedników, takich jak potencjalnie mniej błędów (ponieważ każdy może kontrolować kod), innowacyjność (ponieważ wkłady kodu mogą pochodzić z dowolnego miejsca) oraz wsparcie osób, których nie stać na zastrzeżone programy.   
+  
+Dotyczy to standardowych projektów FOSS, a blockchain nie jest wyjątkiem. Przestrzeń jest pełna dyskusji o oprogramowaniu open source, a zastrzeżone portfele spotykają się z podejrzeniem i krytyką ze strony weteranów kryptowalut. Pomimo większości referencyjnych implementacji wielu głównych blockchainów będących open source, są niektóre - takie jak Monero - które wykraczają poza tłum i się wyróżniają.
 
 ## Połączenie poprzez blockchain
 
-## Połączenie poprzez blockchain
+Chociaż prawdą jest, że większość projektów ma kod open source, zastanówmy się co sprawia, że open source jest tak potężny. Rzeczywistość jest taka, że licencja open source sprzyja współpracy ludzi z różnych miejsc i różnych społeczności z zamiarem tworzenia narzędzi przydatnych i korzystnych dla ludzkości.   
+  
+Niektóre kryptowaluty, co prawda publikują kod publicznie, ale jego rozwój jest prowadzony w tajemnicy, aby wyprzedzić konkurencyjne projekty. Podczas gdy projekty te kwalifikują się jako „projekty open source”, ponieważ ich kod jest ostatecznie wydany publicznie, początkowy rozwój jest nadal dokonywany przez kilku wybrańców, co prowadzi do utraty wielu korzyści, które w innym przypadku oferuje oprogramowanie open source.   
+  
+Duchem projektu open source jest publiczna współpraca z korzyścią dla wszystkich, a nie korzyści dla kilku i w ten sposób Monero przyćmiło większość swoich konkurentów. Rozwój Monero odbywa się nie tylko w otwarty sposób, z częstymi spotkaniami, w których każdy może uczestniczyć i przemawiać, ale także jego badania i wdrażanie nowych funkcji odbywają się w sposób otwarty. Rzeczywiście, wiele największych przełomów Monero pochodzi ze źródeł zewnętrznych poprzez współpracę lub pozornie przypadkową osobę przybywającą na platformy badawcze z nowym pomysłem, takim jak bulletproofs i optymalizacje prywatności.
 
 ## Ponad kodem
 
-## Ponad kodem
+Podczas oceny projektu blockchaina zaleca się, aby użytkownik nie tylko sprawdził czy kod jest dostępny do przeglądania, ale też czy inne aspekty projektu są przeprowadzane w otwarty, przejrzysty sposób. Im bardziej drzwi są zamykane przed zaangażowaniem społeczności, tym bardziej należy się obawiać. Wielu z nas pochodzi ze świata zastrzeżonego, w którym przejrzystość nie jest powszechna i nie mamy punktu odniesienia do tego, co stanowi „wystarczająco otwarte”, nie tylko w kodzie, ale w duchu projektu i innych jego obszarach.   
+  
+Rzeczywiście, większość projektów reklamuje swoją otwartość w mediach społecznościowych, ale kiedy przyjrzysz się, ile osób faktycznie przyczynia się do oprogramowania, rozwoju lub badań oprócz tych zatrudnionych bądź też w inny sposób zrekompensowanych, rzeczywistość może być zdumiewająco inna niż to, co się wydaje na pierwszy rzut oka. Możliwe, że osoby sterujące projektem (formalnie lub nieformalnie) są lekceważące lub wrogo nastawione do pomysłów innych ludzi.   
+  
+Monero próbuje całkowicie ominąć ten problem, nie mając wydzielonych ról do pracy z projektem. Ponadto główny zespół prowadzi infrastrukturę i nie ma nic wspólnego z faktycznym oprogramowaniem lub badaniami na cele projektu. Tak powiedziawszy, nieformalne struktury władzy powstają we wszystkich kręgach społecznych, a Monero nie jest wyjątkiem, więc należy je brać pod uwagę.
 
 ## Narzędzie czy cel?
 
-## Narzędzie czy cel?
+Podczas gdy te społeczne części oprogramowania open source są cenne do poznania i przedyskutowania, a ich brak doprowadził do upadku wielu projektów, temat bywa skomplikowany i wykracza poza zakres tego artykułu. Tym niemniej czytelnik jest zachęcany do dalszego dowiadywania się o tej istotnej części zarządzania projektami FOSS.   
+  
+Projekt Monero nieustannie stara się znaleźć sposoby na wspieranie otwartej współpracy, która jest tak kluczowa dla ducha open source. Jeśli niektóre osoby wolą jedną platformę czatu od drugiej, mosty są wdrażane z istniejącymi platformami w celu zwiększenia komunikacji. Jeśli grupa ludzi uważa, że nie ma narzędzi ani infrastruktury, aby wdrożyć swoje pomysły na ulepszenie Monero, społeczność odnajduje odpowiednie narzędzia (FOSS).   
+  
+Oznacza to, że nie tylko więcej osób widzi kod, który jest wyłącznie jednym aspektem projektu, ale również więcej osób widzi badania, infrastrukturę i rozmowy.   
+  
+Duchem oprogramowania open source jest nie tylko otwarty kod, ale wspieranie ludzi, nadawanie im głosu i zmiana świata poprzez globalną współpracę. Zachęca się czytelnika do sprawdzenia, czy jakikolwiek projekt, którym jest zainteresowany podziela te podstawowe wartości, czy po prostu zatrzymuje się na licencji kodu.   
+  
+Zapraszamy Cię również do przeprowadzenia tych samych testów na Monero. Wiemy, że odkryjesz powód, dla którego Monero jest jedną z najbezpieczniejszych i najlepiej współpracujących społeczności w świecie kryptowalut.
 
 Więcej do przeczytania
 
@@ -91,5 +111,3 @@ Więcej do przeczytania
   * [Kopanie Monero: Co sprawia, że RandomX jest wyjątkowy](/knowledge/monero-mining-randomx)/
 
   * [Dlaczego Monero jest lepsze niż Dash, Zcash, Zcoin (nawet z Lelantus), Grin oraz od mikserów Bitcoina takich jak Wasabi (Zaktualizowano w maju 2020 r.)](/knowledge/why-monero-is-better)/
-
-Więcej do przeczytania

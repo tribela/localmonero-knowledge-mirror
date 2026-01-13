@@ -12,8 +12,6 @@ Prevažná väčšina ľudí v komunite Monero nevyhnutne nebudú developeri, ta
 
 ## Crowdfunding systém komunity Monero
 
-## Crowdfunding systém komunity Monero
-
 Monero používa jedinečný systém na financovanie práce s názvom [Community Crowdfunding System](https://ccs.getmonero.org/) (alebo „CCS“), ktorý umožňuje komukoľvek v komunite predložiť nápad na financovanie. Ak ich komunita schváli, tieto návrhy sú potom otvorené na financovanie komunitou.
 
 Systém má dve fázy, z ktorých každá profituje z väčšieho zapojenia ľudí zo všetkých prostredí.
@@ -32,8 +30,6 @@ _Všetky návrhy, ktoré sú vo fáze „Vyžaduje sa financovanie“ si môžet
 
 ## Vzdelávanie
 
-## Vzdelávanie
-
 Ďalším skvelým spôsobom, ako sa môžete zapojiť do projektu Monero, je pomôcť vzdelávať a posilniť nových a existujúcich členov komunity. Môže to mať mnoho podôb, ale môže to byť také jednoduché, ako zdieľanie toho, čo sa o Monero dozvedáte na sociálnych sieťach, blogu atď.
 
 Tu je niekoľko konkrétnych spôsobov, ako môžete pomôcť vo vzdelávaní:
@@ -41,8 +37,6 @@ Tu je niekoľko konkrétnych spôsobov, ako môžete pomôcť vo vzdelávaní:
   * Založte si vlastný blog
   * Píšte na Twitteri alebo Reddite o veciach, o ktorých ste sa naučili alebo sa naučili robiť s Monero
   * Urobte si video „návody“ na každodenné veci, ktoré robíte s Monero, ako napríklad posielanie Monera, používanie hardvérovej peňaženky, nákup a predaj Monera na [LocalMonero.co](https://localmonero.co) atď.
-
-## Informovanosť a angažovanosť
 
 ## Informovanosť a angažovanosť
 
@@ -97,13 +91,9 @@ Môže byť tiež užitočné porovnať transakciu medzi niečím ako Bitcoin a 
 
 ## r/moneropodpora
 
-## r/moneropodpora
-
 Ak sa okolo Monera už nejaký čas pohybujete alebo viete, ako ho používať a riešiť problémy s jeho používaním, skvelým spôsobom, ako sa zapojiť, je skočiť do subredditu [r/monerosupport](https://www.reddit.com/r/monerosupport/) a poskytovať podporu používateľom, ktorí tam uverejňujú príspevky.
 
 Neustále sú používatelia, ktorí potrebujú pomoc s (normálne) základnými problémami, a je len málo z nás, ktorí sú aktívni v subreddite, aby sme im pomohli. Bolo by skvelé vidieť viac ľudí, ktorí sa zapájajú a prispievajú k pomoci novým a existujúcim používateľom vyriešiť ich problémy!
-
-## Stretnutia komunity
 
 ## Stretnutia komunity
 
@@ -115,13 +105,9 @@ Ak sa rozhodnete prísť a zúčastniť sa, rešpektujte poradie tém, zostaňte
 
 ## Preklady
 
-## Preklady
-
 Pre tých, ktorí sú bilingválni alebo viac, je veľmi dôležitým spôsobom, ako prispieť, pomoc s prekladmi z angličtiny do iných jazykov. Vždy je potrebné prekladať nové jazyky a aktualizovať existujúce jazyky v celom ekosystéme. Čím viac jazykov aktívne podporujeme, tým bude Monero inkluzívnejšie a prístupnejšie.
 
 Potreby a informácie o prekladoch nájdete na [translate.getmonero.org](https://translate.getmonero.org/) alebo [na Github](https://github.com/monero-ecosystem/monero-translations).
-
-## Problémy s podávaním
 
 ## Problémy s podávaním
 
@@ -162,74 +148,6 @@ Keď prejdete na otvorenie problému:
 
 ## Záver
 
-## Záver
-
 Dúfame, že táto príručka podnietila niekoľko nápadov, ako môžete Monero vrátiť pomocou svojich jedinečných zručností, zázemia a skúseností. Čím väčšia časť komunity sa bude vracať takýmito spôsobmi, tým väčšie a vyspelejšie bude Monero a tým ľahšie budeme môcť naplniť ciele súkromných, zastupiteľných, sebazvrchovaných peňazí odolných voči cenzúre.
-
-Ďalšie čítanie
-
-  * [Ako Monero jedinečne umožňuje obehové ekonomiky](/knowledge/monero-circular-economies)/
-
-  * [Moneroove prstenové podpisy vs CoinJoin ako vo Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Prečo (a ako!) by ste mali držať svoje vlastné kľúče](/knowledge/hold-your-keys)/
-
-  * [Ako vzdialené uzly ovplyvňujú súkromie spoločnosti Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Ako Monero používa hard-forky na aktualizáciu siete](/knowledge/network-upgrades)/
-
-  * [Zobraziť značky: Ako jeden bajt zníži časy synchronizácie peňaženky Monero o 40 % a viac](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool a jeho úloha pri decentralizácii ťažby Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Čo to urobí pre Monero](/knowledge/seraphis-for-monero)/
-
-  * [Je prevod bitcoinu na monero rovnako súkromný ako priamy nákup monera?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Prečo Monero používa Trustless Setup na rozdiel od Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Prečo je Monero lepším uchovávateľom hodnoty ako Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Ako môže Monero prekonať sieťové efekty bitcoinu](/knowledge/network-effect)/
-
-  * [Prečo má Monero komunitu najkritickejšieho myslenia](/knowledge/critical-thinking)/
-
-  * [Podvody na ktoré si treba dať pozor pri používaní Monero](/knowledge/monero-scams)/
-
-  * [Ako budú fungovať atómové swapy v Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Čo potrebuje vedieť každý používateľ Monero, pokiaľ ide o vytváranie sietí](/knowledge/monero-networking)/
-
-  * [Ako RingCT skrýva sumy transakcií Monero](/knowledge/monero-ringct)/
-
-  * [Ako Monero Stealth adresy chránia vašu identitu](/knowledge/monero-stealth-addresses)/
-
-  * [Ako podadresy Monero zabraňujú prepojeniu identity](/knowledge/monero-subaddresses)/
-
-  * [Vysvetlenie výstupov Monero](/knowledge/monero-outputs)/
-
-  * [Monero osvedčené postupy pre začiatočníkov](/knowledge/monero-best-practices)/
-
-  * [Ako prstencové podpisy zakrývajú výstupy Monera](/knowledge/ring-signatures)/
-
-  * [Ako Monero vyriešilo problém veľkosti bloku, ktorý trápi Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Ako CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag)/
-
-  * [Prečo má Monero chvostovú emisiu](/knowledge/monero-tail-emission)/
-
-  * [Stručná história Monera](/knowledge/monero-history)/
-
-  * [Wired Magazine sa o Monere mýli, tu je dôvod](/knowledge/wired-article-debunked)/
-
-  * [Top 15 vyvrátených mýtov a obáv o Monero](/knowledge/monero-myths-debunked)/
-
-  * [Ako Dandelion++ uchováva pôvod transakcií Monero v súkromí](/knowledge/monero-dandelion)/
-
-  * [Prečo je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Čo robí RandomX tak výnimočným](/knowledge/monero-mining-randomx)/
-
-  * [Prečo je Monero lepšie ako Dash, Zcash, Zcoin (dokonca aj s Lelantus), Grin a bitcoinové mixéry ako Wasabi (aktualizované v máji 2020)](/knowledge/why-monero-is-better)/
 
 Ďalšie čítanie

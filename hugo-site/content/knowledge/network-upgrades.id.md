@@ -12,8 +12,6 @@ Dalam postingan ini kita akan membahas apa itu hard-fork, mengapa hard-fork pent
 
 ## Mengapa Monero perlu untuk terus meningkatkan jaringan?
 
-## Mengapa Monero perlu untuk terus meningkatkan jaringan?
-
 Komunitas Monero telah berkomitmen untuk mengulangi dan meningkatkan proyek dari waktu ke waktu, dan tampaknya komitmen tersebut bermuara pada dua aspek utama dari etos komunitas:
 
   1. Proyek Monero pada akhirnya adalah perangkat lunak – kode – yang ditulis oleh manusia. Hal ini dapat menyebabkan kebutuhan untuk memperbaiki bug, menambahkan perbaikan yang ditemukan atau ditemukan dari waktu ke waktu, menerapkan modernisasi pada protokol, atau sekadar memelihara proyek. Ini serupa dalam banyak hal dengan perangkat lunak lain yang Anda gunakan (seperti peramban tempat Anda membaca ini!), yang perlu terus diperbarui untuk menambahkan fitur baru dan memperbaiki bug.
@@ -26,8 +24,6 @@ Proyek Monero adalah alat privasi, dan privasi adalah perlombaan senjata yang te
 
 ## Apa itu hard-fork?
 
-## Apa itu hard-fork?
-
 Kompleksitas pemutakhiran Monero mulai berlaku setelah Anda memahami betapa berbedanya memutakhirkan mata uang kripto versus hanya mendorong pembaruan perangkat lunak ke sesuatu seperti peramban.
 
 Dalam mata uang kripto, aturan jaringan (hal-hal seperti tampilan transaksi, cara kerja penambangan, dan cara memverifikasi setiap blok) harus disetujui oleh jaringan, sesuatu yang disebut "konsensus". Ketika salah satu aturan ini perlu diubah atau ditingkatkan, jaringan harus menyetujui aturan baru, menyebabkan "hard fork" - situasi di mana jaringan benar-benar terbagi menjadi dua rangkaian blok - satu pada aturan lama, dan satu di aturan baru.
@@ -35,8 +31,6 @@ Dalam mata uang kripto, aturan jaringan (hal-hal seperti tampilan transaksi, car
 Ketika semua orang di komunitas menyetujui perubahan aturan, itu disebut "hard-fork tanpa perdebatan", dan chain yang masih memiliki aturan lama mati dan tidak ditambang setelah hard-fork. Hal ini telah terjadi di hampir setiap hard-fork Monero, dan satu-satunya kelanjutan dari aturan lama adalah dengan proyek yang mencoba mengambil untung dari hard-fork.
 
 Sementara hard-fork non-perdebatan adalah satu-satunya cara untuk meningkatkan aspek-aspek penting dari jaringan Monero dengan benar, mereka juga memiliki efek samping yang membuat frustrasi – perangkat lunak lama, dirilis sebelum hard-fork direncanakan, tidak dapat memahami aturan jaringan yang baru dan tidak berfungsi setelah hard-fork! Hal ini dapat menyebabkan pengguna berpikir dana hilang, berpikir blockchain Monero telah berhenti, dan tidak dapat memindahkan dana sampai mereka meningkatkan dompet mereka.
-
-## Siapa yang memutuskan kapan jaringan Monero ditingkatkan dan apa saja yang disertakan?
 
 ## Siapa yang memutuskan kapan jaringan Monero ditingkatkan dan apa saja yang disertakan?
 
@@ -56,8 +50,6 @@ Jika Anda memiliki ide penting untuk pemutakhiran jaringan, tidak menyukai pende
 
 ## Bagaimana saya bisa membantu dengan pemutakhiran jaringan?
 
-## Bagaimana saya bisa membantu dengan pemutakhiran jaringan?
-
 Karena pemutakhiran pada jaringan Monero memerlukan koordinasi dan persetujuan komunitas bersama dengan pembaruan perangkat lunak, sangat penting bagi sebanyak mungkin orang untuk terlibat dalam proses perencanaan, pengujian, dan komunikasi pemutakhiran jaringan.
 
 Berikut adalah beberapa cara mudah yang dapat Anda lakukan untuk membantu memuluskan berbagai hal seputar pemutakhiran jaringan:
@@ -66,8 +58,6 @@ Berikut adalah beberapa cara mudah yang dapat Anda lakukan untuk membantu memulu
   2. Komunikasikan detail seputar waktu pemutakhiran jaringan (setelah diputuskan!) ke exchange, dompet, atau kumpulan penambangan favorit Anda. Mungkin sulit untuk memberi tahu semua pengguna Monero tentang pemutakhiran dengan benar, jadi penting bagi kita semua untuk membantu sebisa mungkin untuk menyebarkan berita.
   3. Uji perangkat lunak sebelum peningkatan jaringan. Akan ada panggilan untuk penguji sebelum pemutakhiran jaringan, baik di testnet maupun stagenet, untuk memastikan bahwa setiap aspek pemutakhiran telah direncanakan dan diterapkan dengan benar dalam perangkat lunak. Semakin banyak orang yang terlibat dan menguji versi baru secara menyeluruh, semakin besar kemungkinan pemutakhiran jaringan akan berjalan lancar!
   4. Setelah rilis yang kompatibel dengan pemutakhiran jaringan dipublikasikan, pastikan untuk segera memutakhirkan! Semakin banyak orang yang ditingkatkan dan siap untuk peningkatan jaringan, semakin lancar jaringan akan menanganinya dan semakin sedikit sakit kepala yang dialami pengguna.
-
-## Apa yang dapat saya harapkan dalam peningkatan jaringan Monero berikutnya?
 
 ## Apa yang dapat saya harapkan dalam peningkatan jaringan Monero berikutnya?
 
@@ -82,78 +72,10 @@ Perubahan ini akan sangat membantu dalam meningkatkan privasi, efisiensi, dan ke
 
 ## Bagaimana saya bisa belajar lebih banyak?
 
-## Bagaimana saya bisa belajar lebih banyak?
-
 Topik hard-fork dan pemutakhiran jaringan sangat luas dan ada sejarah panjang dan bertingkat tentangnya di Monero, jadi pastikan untuk menggali beberapa tautan berikut jika Anda ingin mempelajari lebih lanjut tentang riwayat, proses, atau perencanaan yang sedang berlangsung untuk pemutakhiran jaringan yang akan datang!
 
   * [perencanaan hard-fork Monero v15](https://github.com/monero-project/meta/issues/630)
   * [Pemutakhiran perangkat lunak terjadwal (di Monero)](https://github.com/monero-project/monero#scheduled-software-upgrades)
   * [Catatan tentang pemutakhiran protokol terjadwal](https://web.getmonero.org/2020/09/01/note-scheduled-upgrades.html)
-
-Bacaan lebih lanjut
-
-  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies)/
-
-  * [Ring signature Monero vs CoinJoin seperti di Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Mengapa (dan bagaimana!) Anda harus memegang kunci Anda sendiri](/knowledge/hold-your-keys)/
-
-  * [Berkontribusi kembali ke Monero](/knowledge/contributing-to-monero)/
-
-  * [Bagaimana node jarak jauh memengaruhi privasi Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Apa yang Akan Dilakukannya untuk Monero](/knowledge/seraphis-for-monero)/
-
-  * [Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect)/
-
-  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking)/
-
-  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams)/
-
-  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking)/
-
-  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct)/
-
-  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses)/
-
-  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses)/
-
-  * [Output Monero Dijelaskan](/knowledge/monero-outputs)/
-
-  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices)/
-
-  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures)/
-
-  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag)/
-
-  * [Mengapa Monero Memiliki Tail Emission](/knowledge/monero-tail-emission)/
-
-  * [Sejarah Singkat Monero](/knowledge/monero-history)/
-
-  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked)/
-
-  * [Top 15 Mitos dan Kekhawatiran Monero Terbantahkan](/knowledge/monero-myths-debunked)/
-
-  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion)/
-
-  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx)/
-
-  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better)/
 
 Bacaan lebih lanjut

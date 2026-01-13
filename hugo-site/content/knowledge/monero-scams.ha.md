@@ -10,11 +10,7 @@ Muddin akwai kuɗi, an yi zamba don a sa mutane su rabu da shi, kuma sararin cry
 
 ## Zamba
 
-## Zamba
-
 Daya daga cikin tsofaffin zamba a cikin littafin, kuma wanda zai iya faruwa akan kowane dandalin tattaunawa da ke wanzuwa. A cikin wannan zamba, mai zamba zai yi kamar ya zama amintaccen mutum na al'umma ko babban jami'in kasuwanci mai alaka. Da zarar an sami amincewar wanda aka azabtar ta hanyar wannan suna da aka kafa, mai zamba na iya aika mai amfani zuwa wani rukunin yanar gizo mara kyau, ya sa su zazzage shirin da aka ƙera don satar kuɗinsu, ko ma kawai ya sa mai amfani ya aika musu da kuɗi kai tsaye. Koyaushe bincika sau uku cewa mutumin da kake magana da shi shine ainihin mutumin. Kasuwanci za su sami imel da za su tuntuɓar su don tabbatar da ganewa (watau "Shin Shugaban Kamfanin ku kawai ya tuntube ni a kan Telegram?") Kuma sauran shugabannin al'umma yawanci za a iya tuntubar su ta wasu hanyoyi. Tabbatar kafin ɗaukar kowane mataki. MUSAMMAN idan sun fara tattaunawa da ku maimakon ku da su.
-
-## Kasuwancin Kalli Kamar Zamba
 
 ## Kasuwancin Kalli Kamar Zamba
 
@@ -26,11 +22,7 @@ Maganin ire-iren waɗannan zamba shine a hankali. Koyaushe bincika sau biyu kafi
 
 ## Zamban Kai tsaye
 
-## Zamban Kai tsaye
-
 Wani lokaci ƴan zamba ba sa ƙoƙarin yin wayo. Suna yin manya-manyan iƙirari kuma sun san cewa koyaushe za a sami wawaye waɗanda za su yarda da su saboda rashin bege, kwaɗayi, ko jahilci. Waɗannan zamba suna ɗaukar nau'i-nau'i da yawa, daga ayyukan tsabar kuɗi waɗanda ke yin alkawarin dawo da kuɗi akan saka hannun jari inda kuka fara ba su kuɗi (kamar Bitconnect), zuwa ƙungiyoyin sirri na musamman waɗanda suka yi alƙawarin gaya muku duk motsin kasuwa a gaba don ku sami kuɗi. .don kudi. Ka tuna. Idan wani abu ya yi kyau sosai ya zama gaskiya, mai yiwuwa haka ne. Wannan shawarar gaskiya ce musamman a cikin sararin cryptocurrency, saboda tura tsabar kudi ko kwangilar wayo ba komai bane a kwanakin nan, kuma aika da'awar ku akan layi kyauta ne. Ka tuna, idan da gaske wani ya sami hanyar da zai sa lokaci kasuwa ko kuma ya gano hanyar samun kuɗi mara iyaka, to me zai sa su gaya muku? Da kansu za su yi amfani da shi don su yi arziki. Me yasa za su raba shi? Yi hankali. Yi amfani da kwakwalwar ku. Kada ku amince da kowa.
-
-## Matsayin Zuriyar Monero a cikin Zamba
 
 ## Matsayin Zuriyar Monero a cikin Zamba
 
@@ -39,71 +31,5 @@ Irin ku Monero shine Monero na ku. Dole ne ku rubuta ta lokacin da kuka fara yin
 Sau da yawa mutum yana riƙe da jakar kuɗi mai sanyi na Monero, yana sha'awar kuɗin su, kuma yana son duba shi. Amma maimakon shiga cikin wahala na sake shigar da duk aikace-aikacen walat, kawai sun yanke shawarar yin amfani da walat ɗin yanar gizo don dawo da zuriyarsu da sauri da duba kuɗinsu. Idan sun fada cikin zamba na Business Look Alike, to, ainihin shigar da zuriyarsu yana ba wa ’yan damfara, sannan za su iya tura kuɗin zuwa wani jakar kuɗi daban-daban waɗanda suke sarrafawa daidai lokacin da suka dace.
 
 A KOWANE LOKACI shafin yanar gizo, aikace-aikace, ko wallet suna da zaɓi na 'mayar da iri', a kula sosai cewa aikace-aikacen da kuke amfani da shi halal ne. Bincika hashes na shirin (shafin yanar gizon Monero yana da umarni kan yadda ake yin hakan) don tabbatar da cewa dakarun waje ba su dame shirin ba, kuma a koyaushe ku san inda da yadda kuke fallasa zuriyar ku. Binciken sau biyu na iya zama mai ban haushi, amma asarar kuɗi daga rashin kulawa zai fi muni.
-
-Kara karantawa
-
-  * [Yadda Monero ke ba da damar tattalin arzikin madauwari ta musamman](/knowledge/monero-circular-economies)/
-
-  * [Sa hannun zoben Monero vs CoinJoin kamar a cikin Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Me yasa (kuma ta yaya!) yakamata ku riƙe maɓallan ku](/knowledge/hold-your-keys)/
-
-  * [Gudunmawar komawa ga Monero](/knowledge/contributing-to-monero)/
-
-  * [Yadda nodes masu nisa ke tasiri sirrin Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Yadda Monero ke amfani da cokali mai yatsa don haɓaka hanyar sadarwa](/knowledge/network-upgrades)/
-
-  * [Duba tags: Yadda byte ɗaya zai rage lokutan daidaitawa na walat ɗin Monero da 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool da Matsayinsa a Rarraba Ma'adinai na Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Abin da Zai Yi wa Monero](/knowledge/seraphis-for-monero)/
-
-  * [Shin Canza Bitcoin zuwa Monero yana da zaman kansa kamar siyan Monero kai tsaye?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Me yasa Monero ke Amfani da Saitin Amintacce Ba kamar Zcash ba](/knowledge/monero-trustless-setup)/
-
-  * [Me yasa Monero ya fi Bitcoin daraja](/knowledge/monero-better-store-of-value)/
-
-  * [Ta yaya Monero zai iya shawo kan Tasirin hanyar sadarwa na Bitcoin](/knowledge/network-effect)/
-
-  * [Me yasa Monero ke da Mafi Mahimman Tunani Al'umma](/knowledge/critical-thinking)/
-
-  * [Yadda Atomic Swaps Zai Yi Aiki a Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Abin da Kowane Mai Amfani da Monero Ya Bukatar Sanin Lokacin da Ya zo kan hanyar sadarwa](/knowledge/monero-networking)/
-
-  * [Yadda RingCT ke ɓoye Adadin Kasuwancin Monero](/knowledge/monero-ringct)/
-
-  * [Yadda Monero Stealth Adresoshin Ya Kare Imaninku](/knowledge/monero-stealth-addresses)/
-
-  * [Yadda Monero Subaddresses ke Hana Haɗin Shaida](/knowledge/monero-subaddresses)/
-
-  * [An Bayyana Fitar Monero](/knowledge/monero-outputs)/
-
-  * [Mafi kyawun Ayyuka na Monero don Masu farawa](/knowledge/monero-best-practices)/
-
-  * [Yadda Sa hannu na zobe ke ɓoye abubuwan da Monero ke bayarwa](/knowledge/ring-signatures)/
-
-  * [Yadda Monero Ya Warware Matsalolin Girman Toshe wanda ke addabar Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Yadda CLSAG Zai Inganta Ingantacciyar Monero](/knowledge/what-is-clsag)/
-
-  * [Me yasa Monero ke fitar da wutsiya](/knowledge/monero-tail-emission)/
-
-  * [Takaitaccen Tarihin Monero](/knowledge/monero-history)/
-
-  * [Mujallar Wired ba daidai ba ce Game da Monero, Ga dalilin da ya sa](/knowledge/wired-article-debunked)/
-
-  * [Manyan Tatsuniyoyi 15 na Monero da Abubuwan da Aka Kashe](/knowledge/monero-myths-debunked)/
-
-  * [Yadda Dandelion++ ke Keɓance Ma'amalar Monero Mai zaman kansa](/knowledge/monero-dandelion)/
-
-  * [Me yasa Monero Buɗaɗɗen Madogara da Rarraba](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Abin da ke Sa RandomX ta Musamman](/knowledge/monero-mining-randomx)/
-
-  * [Me yasa Monero ya fi Dash, Zcash, Zcoin (Ko da Lelantus), Grin da Bitcoin Mixers Kamar Wasabi (An sabunta Mayu 2020)](/knowledge/why-monero-is-better)/
 
 Kara karantawa

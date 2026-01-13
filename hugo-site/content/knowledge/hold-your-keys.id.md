@@ -14,8 +14,6 @@ Dalam postingan singkat ini, kami akan membahas mengapa Anda harus memegang kunc
 
 ## Mengapa memegang kunci Anda sendiri itu penting?
 
-## Mengapa memegang kunci Anda sendiri itu penting?
-
 Salah satu aspek hak milik pribadi yang paling sering disalahpahami di Monero adalah jika Anda tidak memegang kunci Anda sendiri, Anda mendapatkan sedikit atau tidak sama sekali manfaat privasi yang ditawarkan Monero. Karena pengirim transaksi memiliki visibilitas penuh ke dalam pembelanjaan, jumlah, dan alamat penerima yang sebenarnya, jika bukan Anda yang mengirim transaksi dan malah menyerahkannya pada exchange atau kustodian, mereka memiliki visibilitas _penuh_ pada bagaimana cara Anda membelanjakan Monero.
 
 Untungnya, setelah mereka mengirim dana, jaminan privasi Monero beroperasi dan memberikan "forward-secrecy" yang kuat, tetapi akan terlihat jelas bagi exchange atau kustodian di mana Anda mengirim dana dan berapa banyak yang Anda kirim pada awalnya.
@@ -37,8 +35,6 @@ Aspek penting lainnya dari memegang kunci Anda sendiri adalah sebuah alasan yang
 Meskipun jenis aktivitas ini tidak sering dikonfirmasi secara publik, ada banyak komunitas yang khawatir bahwa exchange seperti Binance memanfaatkan Monero yang dipegang pengguna di dalam exchange untuk berdagang melawan Monero, menggembungkan jumlah penjualan Monero dan menyebabkan penekanan harga dari waktu ke waktu.
 
 Perilaku ini juga dapat menyebabkan krisis likuiditas di mana pengguna yang _benar-benar_ ingin memegang kunci mereka sendiri tidak dapat menarik diri dari exchange karena exchange telah menjanjikan lebih banyak Monero kepada penggunanya daripada yang sebenarnya tersedia. Semakin banyak pengguna Monero memegang kunci mereka sendiri dan jauhkan Monero mereka dari exchange, maka secara teoritis akan membuat pasar semakin sehat dan alami, dan semakin sedikit risiko yang dapat ditimbulkan oleh exchange jahat atau serakah terhadap stabilitas harga Monero.
-
-## Bagaimana cara memegang kunci saya sendiri dengan Monero?
 
 ## Bagaimana cara memegang kunci saya sendiri dengan Monero?
 
@@ -72,78 +68,10 @@ Bagi kita yang ingin menggunakan Monero saat bepergian atau sering membelanjakan
 
 ## Kesimpulan
 
-## Kesimpulan
-
 Semoga postingan ini membantu memperkuat kebutuhan untuk memegang kunci Anda sendiri, serta mengarahkan Anda ke beberapa dompet terbaik di ruang ini.
 
 Semakin Anda mengambil Monero ke tangan Anda sendiri dan benar-benar menggunakannya, semakin banyak manfaat yang bisa Anda dapatkan baik sekarang maupun di masa depan. Monero bukan hanya sekedar aset spekulatif – ini adalah alat yang powerful untuk kebebasan dan privasi finansial yang sangat dibutuhkan di dunia saat ini dan masa depan di depan kita.
 
 Sekarang ambil koin itu dari exchange dan selami untuk apa Monero dibuat.
-
-Bacaan lebih lanjut
-
-  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies)/
-
-  * [Ring signature Monero vs CoinJoin seperti di Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Berkontribusi kembali ke Monero](/knowledge/contributing-to-monero)/
-
-  * [Bagaimana node jarak jauh memengaruhi privasi Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Bagaimana Monero menggunakan hard-fork untuk memutakhirkan jaringan](/knowledge/network-upgrades)/
-
-  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Apa yang Akan Dilakukannya untuk Monero](/knowledge/seraphis-for-monero)/
-
-  * [Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect)/
-
-  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking)/
-
-  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams)/
-
-  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking)/
-
-  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct)/
-
-  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses)/
-
-  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses)/
-
-  * [Output Monero Dijelaskan](/knowledge/monero-outputs)/
-
-  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices)/
-
-  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures)/
-
-  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag)/
-
-  * [Mengapa Monero Memiliki Tail Emission](/knowledge/monero-tail-emission)/
-
-  * [Sejarah Singkat Monero](/knowledge/monero-history)/
-
-  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked)/
-
-  * [Top 15 Mitos dan Kekhawatiran Monero Terbantahkan](/knowledge/monero-myths-debunked)/
-
-  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion)/
-
-  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx)/
-
-  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better)/
 
 Bacaan lebih lanjut

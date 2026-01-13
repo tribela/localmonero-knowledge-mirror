@@ -10,11 +10,7 @@ image_credit_url: "https://cypherstack.com"
 
 ## ढोंगी घोटाला
 
-## ढोंगी घोटाला
-
 सबसे पुराने घोटालों में से एक, और ऐसा जो अस्तित्व में किसी भी और हर चर्चा मंच पर हो सकता है। इस घोटाले में, घोटालेबाज़ समुदाय का एक विश्वसनीय व्यक्ति या संबंधित व्यवसाय का एक उच्च पदस्थ अधिकारी होने का दिखावा करेगा। एक बार इस स्थापित प्रतिष्ठा के माध्यम से पीड़ित का विश्वास अर्जित करने के बाद, घोटालेबाज़ किसी उपयोगकर्ता को दुर्भावनापूर्ण site पर भेज सकता है, उन्हें अपने राशि चोरी करने के लिए बनाया गया program download कर सकता है, या यहाँ तक कि उपयोगकर्ता को उन्हें सीधे राशि भेजने के लिए भी कह सकता है। हमेशा तीन बार देखें कि आप जिस व्यक्ति से बात कर रहे हैं वह वास्तव में सही व्यक्ति है। व्यवसायों के पास पहचान सत्यापित करने के लिए संपर्क करने के लिए ईमेल होंगे (अर्थात "क्या आपकी कंपनी के CEO ने अभी Telegram पर मुझसे संपर्क किया?") और अन्य समुदाय के नेताओं से आमतौर पर अन्य माध्यमों से संपर्क किया जा सकेगा। कोई कार्रवाई करने से पहले सत्यापित करें। विशेष रूप से अगर उन्होंने आपके साथ बातचीत की पहल की बजाय आपने उनसे। 
-
-## Business Look Alike घोटाला
 
 ## Business Look Alike घोटाला
 
@@ -26,11 +22,7 @@ image_credit_url: "https://cypherstack.com"
 
 ## एकमुश्त घोटाला
 
-## एकमुश्त घोटाला
-
 कभी-कभी घोटालेबाज़ सूक्ष्म होने की कोशिश भी नहीं करते हैं। वे विशाल, भव्य दावे करते हैं और जानते हैं कि हमेशा ऐसे मूर्ख होंगे जो हताशा, लालच या अज्ञानता के कारण उन पर विश्वास करेंगे। ये घोटाले कई रूप लेते हैं, सिक्का परियोजनाओं से जो निवेश पर अजीबोगरीब लाभ का वादा करते हैं, जहाँ आप उन्हें पहले पैसे देते हैं (जैसे Bitconnect), विशेष, गुप्त समूहों के लिए जो आपको बाज़ार के सभी हालचालों को अग्रिम रूप से बताने का वादा करते हैं ताकि आप पैसा कमा सकें... एक शुल्क के लिए। याद है। अगर कुछ सच होने के लिए बहुत अच्छा लगता है, तो अक्सर वह होता है। यह सलाह cryptocurrency में विशेष रूप से सच है, क्योंकि इन दिनों एक सिक्का या smart contract तैनात करना बहुत आसान है, और अपने छायादार दावों को ऑनलाइन फैलाना मुफ्त है। याद रखें, अगर किसी को वास्तव में बाज़ार को समयबद्ध करने का कोई तरीका मिल गया है या अनंत धन बनाने का कोई तरीका मिल गया है, तो वे आपको क्यों बताएँगे? वे सिर्फ अमीर बनने के लिए इसका इस्तेमाल करेंगे। वे इसे क्यों साझा करेंगे? स्मार्ट हों। अपने दिमाग से काम लें। किसी पर विश्वास न करें। 
-
-## घोटालों में आपके Monero बीज की भूमिका
 
 ## घोटालों में आपके Monero बीज की भूमिका
 
@@ -39,71 +31,5 @@ image_credit_url: "https://cypherstack.com"
 बहुत बार एक व्यक्ति ने Monero का एक cold wallet रखा है, उनके धन के बारे में उत्सुक रहा है, और उसे देखना चाहता था। लेकिन झंझट से गुज़रने या पूरे wallet application को फिर से wallet करने के बजाय, वे बस अपने बीज को जल्दी से बहाल करने और अपने पैसे को देखने के लिए एक web wallet का उपयोग करने का निर्णय लेते हैं। यदि वे Business Look Alike घोटाले के शिकार हो जाते हैं, तो उनके बीज डालने का कार्य घोटालेबाज़ों को उनका बीज दे देता है, जो फिर पैसे को एक अलग बटुए में स्थानांतरित कर सकते हैं जिसे वे अपनी सुविधानुसार नियंत्रित करते हैं। 
 
 किसी भी समय किसी site, application, या wallet में 'बीज के साथ पुनर्स्थापित करें' विकल्प होता है, बहुत सावधान रहें कि आप जिस application का उपयोग कर रहे हैं वह वैध है। Program के hash की जाँच करें (Monero website पर निर्देश है कि यह कैसे करना है) यह सुनिश्चित करने के लिए कि बाहरी ताकतों द्वारा program से छेड़छाड़ नहीं की गई है, और आप अपने बीज को कहाँ और कैसे उजागर करते हैं, इसके बारे में लगातार जागरूक रहें। दोहरा चेक कष्टप्रद हो सकता है, लेकिन लापरवाही से धन का नुकसान और भी बुरा होगा। 
-
-अग्रिम पठन
-
-  * [कैसे Monero विशिष्ट रूप से परिपत्र अर्थव्यवस्थाओं को सक्षम बनाता है](/knowledge/monero-circular-economies)/
-
-  * [Wasabi की तरह Monero के Ring Signature बनाम CoinJoin](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [क्यों (और कैसे!) आपको अपनी चाबियां खुद रखनी चाहिए](/knowledge/hold-your-keys)/
-
-  * [Monero में वापस योगदान करना](/knowledge/contributing-to-monero)/
-
-  * [Remote nodes कैसे Monero की गोपनीयता को प्रभावित करते हैं](/knowledge/remote-nodes-privacy)/
-
-  * [नेटवर्क को अपग्रेड करने के लिए Monero hard-forks का उपयोग कैसे करता है](/knowledge/network-upgrades)/
-
-  * [view tags: कैसे एक byte Monero wallet sync के समय को ४०%+ तक कम कर देगा](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool और Monero खनन के विकेंद्रीकरण में इसकी भूमिका](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Monero के लिए यह क्या करेगा](/knowledge/seraphis-for-monero)/
-
-  * [क्या Bitcoin को Monero में बदलना उतना ही निजी है जितना कि सीधे मोनेरो को खरीदना?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Monero ZCash के विपरीत एक भरोसा न लगने वाले(Trustless) प्रणाली का उपयोग क्यों करता है](/knowledge/monero-trustless-setup)/
-
-  * [Bitcoin की तुलना में Monero मूल्य का एक बेहतर भण्डार क्यों है](/knowledge/monero-better-store-of-value)/
-
-  * [Monero Bitcoin के नेटवर्क प्रभाव(network effect) से कैसे जीत सकता है](/knowledge/network-effect)/
-
-  * [Monero के पास सबसे गंभीर सोच वाला समुदाय क्यों है](/knowledge/critical-thinking)/
-
-  * [Monero में Atomic Swap कैसे काम करेगा](/knowledge/monero-atomic-swaps)/
-
-  * [जब networking की बात आती है तो हर Monero उपयोगकर्ता को क्या पता होना चाहिए](/knowledge/monero-networking)/
-
-  * [कैसे RingCT Monero लेनदेन राशि को छुपाता है](/knowledge/monero-ringct)/
-
-  * [Monero Stealth Address आपकी पहचान को कैसे सुरक्षित रखता है](/knowledge/monero-stealth-addresses)/
-
-  * [कैसे Monero Subaddress पहचान संयोजन को रोकते हैं](/knowledge/monero-subaddresses)/
-
-  * [Monero Outputs समझाया गया](/knowledge/monero-outputs)/
-
-  * [प्रारंभी लोगों के लिए Monero सर्वोत्तम प्रणाली](/knowledge/monero-best-practices)/
-
-  * [Ring Signature कैसे Monero के उत्पादन को अस्पष्ट करते हैं](/knowledge/ring-signatures)/
-
-  * [Monero ने Bitcoin को प्रभावित करने वाली block size की समस्या को कैसे हल किया](/knowledge/dynamic-block-size)/
-
-  * [CLSAG कैसे Monero की दक्षता में सुधार करेगा](/knowledge/what-is-clsag)/
-
-  * [Monero में Tail Emission क्यों है](/knowledge/monero-tail-emission)/
-
-  * [Monero का एक संक्षिप्त इतिहास](/knowledge/monero-history)/
-
-  * [Wired पत्रिका Monero के बारे में गलत है, जाने क्यों](/knowledge/wired-article-debunked)/
-
-  * [शीर्ष 15 Monero मिथकों और चिंताओं को खारिज किया गया](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion++ कैसे Monero के लेन-देन की उत्पत्ति को निजी रखता है](/knowledge/monero-dandelion)/
-
-  * [Monero खुला स्रोत(open source) और विकेंद्रीकृत क्यों है](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [मोनेरो खनन: क्या RandomX को इतना खास बनाता है](/knowledge/monero-mining-randomx)/
-
-  * [Monero क्यों Dash, Zcash, Zcoin (यहाँ तक कि Lelantus के साथ भी), Grin and Bitcoin Mixers जैसे Wasabi से बेहतर है (संपादित मई २०२०)](/knowledge/why-monero-is-better)/
 
 अग्रिम पठन

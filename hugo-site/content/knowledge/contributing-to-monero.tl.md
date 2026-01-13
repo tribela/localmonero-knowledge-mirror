@@ -12,8 +12,6 @@ Ang karamihan ng mga tao sa komunidad ng Monero ay tiyak na hindi magiging mga d
 
 ## Ang Community Crowdfunding System ng Monero
 
-## Ang Community Crowdfunding System ng Monero
-
 Monero ng natatanging sistema para sa gawaing pagpopondo na tinatawag na [Community Crowdfunding System](https://ccs.getmonero.org/) (o “CCS”) na nagpapahintulot sa sinuman sa komunidad na magpakita ng ideya para sa pagpopondo. Kung maaprubahan ng komunidad, ang mga panukalang ito ay bubuksan para sa pagpopondo ng komunidad.
 
 Mayroong dalawang yugto sa system, na ang bawat isa ay nakikinabang sa higit na pakikilahok ng mga tao mula sa lahat ng background.
@@ -32,8 +30,6 @@ _Makikita mo ang lahat ng panukala na nasa yugtong "Kailangan ng Pagpopondo" sa[
 
 ## Edukasyon
 
-## Edukasyon
-
 Ang isa pang mahusay na paraan upang makilahok ka sa proyekto ng Monero ay ang tumulong na turuan at bigyang kapangyarihan ang mga bago at kasalukuyang miyembro ng komunidad. Maaari itong dumating sa maraming anyo, ngunit maaaring kasing simple ng pagbabahagi ng iyong natututuhan tungkol sa Monero sa social media, isang blog, atbp.
 
 Narito ang ilang konkretong paraan na makakatulong ka sa edukasyon:
@@ -41,8 +37,6 @@ Narito ang ilang konkretong paraan na makakatulong ka sa edukasyon:
   * Magsimula ng sarili mong blog
   * Magsulat ng mga thread sa Twitter o Reddit na mga post tungkol sa mga bagay na natutunan mo o natutunan mong gawin sa Monero
   * Gumawa ng video na "how-tos" ng mga pang-araw-araw na bagay na ginagawa mo sa Monero, gaya ng pagpapadala ng Monero, paggamit ng hardware wallet, pagbili at pagbebenta ng Monero sa [LocalMonero.co](https://localmonero.co), atbp.
-
-## Kamalayan at pakikipag-ugnayan
 
 ## Kamalayan at pakikipag-ugnayan
 
@@ -97,13 +91,9 @@ Maaari ding makatulong na paghambingin ang isang transaksyon sa pagitan ng isang
 
 ## r/monerosupport
 
-## r/monerosupport
-
 Kung matagal ka nang nakapaligid sa Monero o may mahusay na kaalaman sa kung paano gamitin at i-troubleshoot ang paggamit nito, ang isang mahusay na paraan para makilahok ay ang tumalon sa [r/monerosupport](https://www.reddit.com/r/monerosupport/) subreddit at magbigay ng suporta sa mga user na nagpo-post doon.
 
 Palagiang may mga user na nangangailangan ng tulong sa (karaniwang) mga pangunahing isyu, at iilan lang sa amin ang aktibo sa subreddit upang tulungan sila. Napakagandang makakita ng mas maraming tao na sumisid at mag-ambag upang matulungan ang mga bago at umiiral nang user na harapin ang kanilang mga isyu!
-
-## Mga pagpupulong sa komunidad
 
 ## Mga pagpupulong sa komunidad
 
@@ -115,13 +105,9 @@ Kung pipiliin mong sumama at lumahok, mangyaring igalang ang pagkakasunud-sunod 
 
 ## Mga pagsasalin
 
-## Mga pagsasalin
-
 Para sa mga bilingual o higit pa, isang napakahalagang paraan upang mag-ambag ay ang tumulong sa mga pagsasalin mula sa Ingles patungo sa iba pang mga wika. Palaging may pangangailangan para sa mga bagong wika na isasalin at mga kasalukuyang wika na i-update sa buong ecosystem, at kung mas maraming wika ang aktibong sinusuportahan namin, magiging mas inklusibo at madaling lapitan ang Monero.
 
 Makikita mo ang mga pangangailangan at impormasyon sa pagsasalin sa [translate.getmonero.org](https://translate.getmonero.org/) o [sa Github](https://github.com/monero-ecosystem/monero-translations).
-
-## Mga isyu sa paghahain
 
 ## Mga isyu sa paghahain
 
@@ -162,74 +148,6 @@ Kung mas maraming impormasyon ang maibibigay mo sa isyu, mas mabuti!
 
 ## Konklusyon
 
-## Konklusyon
-
 Sana ang gabay na ito ay nakapagbigay ng ilang ideya kung paano ka makakapagbigay pabalik sa Monero gamit ang iyong natatanging set ng kasanayan, background, at karanasan. Kung mas marami ang komunidad na nagbabalik sa mga paraang tulad nito, magiging mas malaki at mas mature ang Monero at mas madali nating matutupad ang mga layunin ng pribado, fungible, self-sovereign, pera na lumalaban sa censorship.
-
-Karagdagang pagbabasa
-
-  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies)/
-
-  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys)/
-
-  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades)/
-
-  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Ano ang Gagawin Nito para kay Monero](/knowledge/seraphis-for-monero)/
-
-  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect)/
-
-  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking)/
-
-  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams)/
-
-  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking)/
-
-  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct)/
-
-  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses)/
-
-  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses)/
-
-  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs)/
-
-  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices)/
-
-  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures)/
-
-  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag)/
-
-  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission)/
-
-  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history)/
-
-  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked)/
-
-  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
-
-  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion)/
-
-  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx)/
-
-  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better)/
 
 Karagdagang pagbabasa

@@ -12,8 +12,6 @@ Jönnek a nézeti címkék (view tag), egy bájtot hozzáadva az minden tranzakc
 
 ## Miért lassabb egy Monero pénztárca szinkronizálása, mint a Bitcoiné?
 
-## Miért lassabb egy Monero pénztárca szinkronizálása, mint a Bitcoiné?
-
 Az egyik első kérdés, amit meg kell válaszolnunk, hogy jobban megértsük az olyan megoldások szükségességét, mint a nézetcímkék, hogy miért lassabb egy Monero pénztárca szinkronizálása, mint a Bitcoiné.
 
 A Bitcoin láncon, mivel minden tranzakció nyilvános, és felfedi az elköltött összegeket és a címeket, a Bitcoin pénztárcák egyszerűen megkereshetik az el nem költött tranzakciós kimeneteket (UTXO-kat) vagy a felhasznált címeket, gyorsan átkutatva a blokkláncot, csak az adott címekhez tartozó UTXO-kat átvizsgálva, hogy megtudják, melyik tartozik a pénztárcájához, és melyiket lehet elkölteni.
@@ -21,8 +19,6 @@ A Bitcoin láncon, mivel minden tranzakció nyilvános, és felfedi az elköltö
 A Monero esetében azonban minden tranzakció titkosítja a felhasználó adatait azáltal, hogy elrejti a feladót, a címzettet és az egyes tranzakciókban érintett összegeket. Ez az adatvédelem, bár létfontosságú a hálózat felhasználóinak védelme szempontjából, a pénztárca lassabb szinkronizálását is eredményezi. A Monero pénztárcának meg kell vizsgálnia a hálózaton található összes tranzakciós kimenetet (TXO) a pénztárca privát kulcsaival.
 
 Ez sok bonyolult matematikai és kriptográfiái műveletet igényel annak igazolására, hogy a kimenet valóban a felhasználóhoz tartozik, mivel minden összeg, cím, és elköltött kimenet rejtve van a Monero láncon.
-
-## Mik a nézetcímkék?
 
 ## Mik a nézetcímkék?
 
@@ -36,8 +32,6 @@ Ez a címke nem árul el semmilyen információt a tranzakcióról a külső sze
 
 ## Nézetcímkék: egyszerűsített példa
 
-## Nézetcímkék: egyszerűsített példa
-
 Képzeljen el egy szobát, amiben 4096 doboz van, amelyből csak 5 a sajátja. A dobozok kívülről megkülönböztethetetlenek, és csak úgy lehet megállapítani, hogy hozzánk tartozik-e, ha kinyitjuk, és megoldjuk a benne található időigényes matematikai feladatot.
 
 Most képzeljük, hogy úgy döntöttünk, hogy aki ezt az 5 dobozt küldi, generáljon egy speciális kódot a címünk alapján, majd a generált kódnak az első karakterét írja rá minden nekünk küldött doboz külsejére. Mindenki más ugyanígy tesz a saját dobozaival (annak érdekében, hogy az összes doboz továbbra is megkülönböztethetetlen legyen), de most egyszerűen megnézhetjük a doboz külső oldalán található egykarakteres kódot, és csak azokat a dobozokat kell kinyitni, amelyeken ez a karakter szerepel. 
@@ -48,13 +42,9 @@ Ugyan előfordul, hogy más dobozokon is ugyanaz a karakter van, pedig nem nekü
 
 ## Mikor lesznek elérhetők a megtekintési címkék Moneroban?
 
-## Mikor lesznek elérhetők a megtekintési címkék Moneroban?
-
 A nézetcímkék egy [közelgő hálózati frissítésben](https://github.com/monero-project/meta/issues/630) tervezett funkciók egyike, valamikor tavasszal fognak megjelenni. A [ közösség összegyűjtött 23.3XMR-t](https://bounties.monero.social/posts/28/implement-view-tags-to-decrease-wallet-sync-times-in-monero) (a cikk írásakor), hogy ösztönözze a nézetcímkék fejlesztését és implementálását, ennek eredményeként a nézetcímkék Monero kódbázisba beépítéséhez szükséges munka túlnyomó többségét j-berman már el is készítette felülvizsgálókkal és kutatókkal együttműködésben.
 
 Amint a hálózaton kötelezőek lesznek a nézetcímkék, a frissítés után küldött összes tranzakció részesülni fog a drasztikusan javuló szinkronizálási időből. Nem kell semmi különöset tennie a nézetcímkék használatához, a kedvenc Monero pénztárcája egyszerűen használni fogja őket a hálózat frissítése után!
-
-## Hogyan tudhatok meg többet?
 
 ## Hogyan tudhatok meg többet?
 
@@ -62,71 +52,5 @@ Ha ez felkeltette az érdeklődését a nézetcímkék iránt, tekintsen meg né
 
   * [Reduce scan times with 1-byte-per-output ‘view tag’](https://github.com/monero-project/research-lab/issues/73)
   * [Add view tags to outputs to reduce wallet scanning time](https://github.com/monero-project/monero/pull/8061)
-
-További olvasnivaló
-
-  * [A Monero egyedülálló módon teszi lehetővé a körkörös gazdaságokat](/knowledge/monero-circular-economies)/
-
-  * [A Monero gyűrűs aláírásai kontra CoinJoin, mint a Wasabiban](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Miért (és hogyan!) érdemes a kulcsokat saját kézben tartani](/knowledge/hold-your-keys)/
-
-  * [Hozzájárulás a Monerohoz](/knowledge/contributing-to-monero)/
-
-  * [Hogyan befolyásolják a távoli csomópontok a Monero adatbiztonságát](/knowledge/remote-nodes-privacy)/
-
-  * [Hogyan használja a Monero a hard forkokat a hálózat frissítéséhez](/knowledge/network-upgrades)/
-
-  * [A P2Pool és szerepe a Monerobányászat decentralizálásában](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Mit fog elhozni Moneronak](/knowledge/seraphis-for-monero)/
-
-  * [A Bitcoin Monerora váltása ugyanolyan privát, mint a közvetlen vásárlás?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Miért bizalommentes a Monero (a Zcash-sel ellentétben)](/knowledge/monero-trustless-setup)/
-
-  * [Miért jobb értékmegőrző a Monero , mint a Bitcoin?](/knowledge/monero-better-store-of-value)/
-
-  * [Hogyan tudja a Monero legyőzni a Bitcoin hálózati hatásait?](/knowledge/network-effect)/
-
-  * [Miért a Monero közösségnek van a legkritikusabb gondolkodása](/knowledge/critical-thinking)/
-
-  * [Átverések, amelyekre figyelni kell a Monero használatakor](/knowledge/monero-scams)/
-
-  * [Hogyan működnek az oszthatatlan cserék Moneroban](/knowledge/monero-atomic-swaps)/
-
-  * [Amit minden Monero felhasználónak tudnia kell, amikor a hálózatról van szó](/knowledge/monero-networking)/
-
-  * [Hogyan rejti el a RingCT a Monero tranzakciók összegét?](/knowledge/monero-ringct)/
-
-  * [Hogyan védik a Monero rejtett címek a személyazonosságát](/knowledge/monero-stealth-addresses)/
-
-  * [Hogyan akadályozzák meg a Monero alcímek az identitás összekapcsolását](/knowledge/monero-subaddresses)/
-
-  * [Monero kimenetek magyarázata](/knowledge/monero-outputs)/
-
-  * [Monero bevált módszerek kezdőknek](/knowledge/monero-best-practices)/
-
-  * [Hogyan rejtik el a gyűrűs aláírások a Monero kimeneteket](/knowledge/ring-signatures)/
-
-  * [A Monero megoldása a Bitcoint sújtó blokkméret-problémára](/knowledge/dynamic-block-size)/
-
-  * [Hogyan javítja a CLSAG a Monero hatékonyságát](/knowledge/what-is-clsag)/
-
-  * [Miért van a Monero hálózaton utólagos kibocsátás](/knowledge/monero-tail-emission)/
-
-  * [A Monero rövid története](/knowledge/monero-history)/
-
-  * [A Wired Magazin téved a Moneroval kapcsolatban, mégpedig ezért](/knowledge/wired-article-debunked)/
-
-  * [A 15 legnépszerűbb Monero mítosz és kétely, cáfolva](/knowledge/monero-myths-debunked)/
-
-  * [Hogyan rejti el a Dandelion++ a Monero tranzakciók eredetét](/knowledge/monero-dandelion)/
-
-  * [Miért nyílt forráskódú és decentralizált a Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero bányaszat: Mitől olyan különleges a RandomX?](/knowledge/monero-mining-randomx)/
-
-  * [Miért jobb a Monero, mint a Dash, a Zcash, a Zcoin (még Lelantussal is), a Grin és a Bitcoin mixerek, mint a Wasabi (Frissítve 2020 májusában)](/knowledge/why-monero-is-better)/
 
 További olvasnivaló

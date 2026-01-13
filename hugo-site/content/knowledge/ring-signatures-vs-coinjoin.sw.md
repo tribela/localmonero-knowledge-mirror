@@ -14,8 +14,6 @@ Katika chapisho hili la blogu tutazama kwa ufupi katika ulinganisho wa CoinJoin 
 
 ## Muamala wa CoinJoin ni nini?
 
-## Muamala wa CoinJoin ni nini?
-
 Kwa vile miamala yote ni wazi kabisa katika Bitcoin - ikionyesha mtumaji, mpokeaji na kiasi - watumiaji lazima wachukue hatua za ziada ili kuhifadhi faragha yao kutoka kwa watumaji wa awali na wapokeaji wa siku zijazo wa fedha zao au udhibiti wa hatari, ufuatiliaji au wizi wa fedha kupitia ukatili wa kimwili.
 
 Suluhisho bora zaidi leo kwa faragha kwenye Bitcoin ni zana zinazoitwa [“CoinJoin”](https://bitcoiner.guide/qna/coinjoin/), ambapo watumiaji 2 au zaidi hufanya kazi pamoja (kwa kawaida kupitia mratibu mkuu) ili kuunda shughuli maalum ambazo zinafanya iwe vigumu kwa watu wa nje. waangalizi kuunganisha pembejeo na matokeo. Kila mshiriki huwasiliana ili kuunda muamala kwa pamoja bila kuwapa ulezi wa pesa zao, na hupokea pato mwishoni ambalo historia yake ya awali sasa haijulikani (au imefichwa) kwa waangalizi wa nje.
@@ -30,31 +28,21 @@ Hii inavunja historia ya UTXO maalum, kuruhusu watumiaji wa Bitcoin kupata kiasi
 
 ## Je, sahihi za pete hutatua vipi masuala haya?
 
-## Je, sahihi za pete hutatua vipi masuala haya?
-
 Kama [ tumechunguza kwa kina jinsi sahihi za pete zilivyo hapo awali](/knowledge/ring-signatures), sitaeleza kwa undani vipengele vya kiufundi vya jinsi zinavyofanya kazi katika chapisho hili la blogu. Badala yake, tutaangalia jinsi mbinu zinazochukuliwa katika Monero kutatua masuala na za CoinJoin kujadiliwa hapo juu.
 
 > CoinJoin imejijumuisha na inahitaji ushiriki
-
-CoinJoin imejijumuisha na inahitaji ushiriki
 
 Sahihi za pete za Monero ni vipengele vikuu vyaa itifaki vya faragha, na _kila_ muamala kwenye mtandao huzitumia. Hii inamaanisha kuwa hakuna miamala ya mtumiaji inayojitokeza kwa ajili ya kutafuta faragha zaidi kuliko watumiaji wa "kawaida" wa Monero, na watumiaji wote wanapata kukanushwa kuwa walitumia pesa katika shughuli yoyote ile. Kwa vile pesa za matumizi za mtumiaji haziratibu au kushiriki na pembejeo za udanganyifu katika muamala, watumiaji hao ambao wanamiliki pembejeo ambazo hutokea kwa kuchaguliwa kama wadanganyifu wanaweza kusema kwa uaminifu huwa hawakushiriki katika shughuli hizo, wakiimarisha faragha zao.
 
 > Matumizi ya mratibu wa kati
 
-Matumizi ya mratibu wa kati
-
 Kwa vile saini za pete za Monero haziratibiwi kabisa na zinahitaji mtumiaji halisi wa pesa kuunda shughuli hizo, hakuna haja ya mratibu mkuu huko Monero. Hii inahakikisha kwamba _hakuna mtu_ anaweza kukunyima ufikiaji wa faragha huko Monero, na hakuna huluki ya serikali kuu inayoweza kushinikizwa, hakuna mashambulio rahisi ya Sybil dhidi ya ukwasi, n.k. Alimradi muamala wako unalipa ada zinazofaa, unapata ufikiaji usiopimika wa faragha, usalama, na kutokujulikana katika Monero.
 
 > CoinJoin inahitaji ukwasi
 
-CoinJoin inahitaji ukwasi
-
 “Uwezo” unaopatikana kwa mtu yeyote anayetumia Monero kutumia kama ulaghai huwa ni jumla ya matokeo kwenye msururu kwa hivyo kusiwe na upungufu wa madanganyiko ili kujificha ukitumia Monero. Mtu anayetaka kutumia Monero anaweza kufanya hivyo ~dakika 20 baada ya kupokea pesa, na hahitaji kuchukua hatua zozote za ziada ili kupata faragha thabiti huko Monero.
 
 > Faragha za CoinJoin inashusha hadhi baada ya muda
-
-Faragha za CoinJoin inashusha hadhi baada ya muda
 
 Kwa vile matokeo ya Monero hayatumiwi kamwe na mtandao, faragha inayotolewa na sahihi za pete haiathiriwi sana na wakati. Mtumiaji hahitaji kuchakachua matokeo katika Monero kila mara, na nje ya hali nadra sana, hukosa faragha kadri muda unavyosonga.
 
@@ -62,11 +50,7 @@ Iwapo mtumiaji hatataka "kuonyesha upya" udanganyifu unaotumiwa na pato, hata hi
 
 > CoinJoin kwa kawaida huhitaji ingizo za ukubwa usiobadilika
 
-CoinJoin kwa kawaida huhitaji ingizo za ukubwa usiobadilika
-
 Kwa vile kiasi hufichwa katika kila muamala kwa kutumia [ “Miamala ya Siri”](/knowledge/monero-ringct) (sehemu ya “RingCT”), udanganyifu unaotumiwa katika muamala wowote unaweza kuwa wa ukubwa wowote. Hakuna sababu ya kuhitaji kuwa na wasiwasi kuhusu urithi kulingana na kiasi katika Monero, na kwa hivyo miamala ni rahisi zaidi kuunda na inaweza kuongeza udanganyifu kutoka kwa wakati wowote na wa kiwango chochote kwenye msururu wa Monero.
-
-## Ninawezaje kujifunza zaidi?
 
 ## Ninawezaje kujifunza zaidi?
 
@@ -76,71 +60,5 @@ Ikiwa una hamu ya kujua na ungependa kuelewa vyema saini za pete au miamala ya C
   * [Sahihi ya Pete - Moneropedia](https://www.getmonero.org/resources/moneropedia/ringsignatures.html)
   * [Jiunge na Coin Q+A](https://bitcoiner.guide/qna/coinjoin/)
   * [Muhtasari waJoinJoin](https://6102bitcoin.com/coinjoin-overview/)
-
-Kusoma zaidi
-
-  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies)/
-
-  * [Kwa nini (na jinsi!) unapaswa kushikilia funguo zako mwenyewe](/knowledge/hold-your-keys)/
-
-  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero)/
-
-  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades)/
-
-  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero)/
-
-  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect)/
-
-  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking)/
-
-  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams)/
-
-  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking)/
-
-  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct)/
-
-  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses)/
-
-  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses)/
-
-  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs)/
-
-  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices)/
-
-  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures)/
-
-  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag)/
-
-  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission)/
-
-  * [Historia fupi ya Monero](/knowledge/monero-history)/
-
-  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked)/
-
-  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked)/
-
-  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion)/
-
-  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx)/
-
-  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better)/
 
 Kusoma zaidi

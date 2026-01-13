@@ -10,11 +10,7 @@ Viele Benutzer könnten schockiert sein, wenn sie erfahren, dass Experten glaube
 
 ## SCHREIBE DEINEN SEED AUF!
 
-## SCHREIBE DEINEN SEED AUF!
-
 Der erste und wichtigste Weg, um Ihre Kryptowährung sicher und geschützt aufzubewahren, besteht darin, Ihren Monero-Mnemonik-Seed aufzuschreiben, der eine kurze Wortliste ist, die angezeigt wird, wenn Sie zum ersten Mal Ihre Wallet erstellen. Wenn Sie diesen Seed haben, aber Ihr Computer/Telefon kaputt geht, können Sie Ihr Monero wiederherstellen. Wenn Sie diesen Seed nicht haben und Sie Ihre Wallet verlieren, ist Ihr Monero verloren und niemand kann Ihnen helfen, das wiederherzustellen. Teilen Sie diesen Seed auf die gleiche Weise mit niemandem. Wenn sie diese Wortliste haben, haben sie vollen Zugriff und Output-Rechte für Ihr Monero. Viele sind unvorsichtig mit der Sicherung ihres Seeds umgegangen und werden mit der erschreckenden Realität verlorener Gelder konfrontiert, weil jemand sie gestohlen hat. Wir empfehlen, es aufzuschreiben. Physisch. Speichern Sie es nicht digital und stellen Sie sicher, dass Sie mehrere Kopien an verschiedenen Orten haben. Dies ist das Wichtigste, was Sie tun können, um Ihr Monero zu sichern. SCHREIBE DEINEN SEED AUF!
-
-## Überprüfen Sie Ihre Adressen
 
 ## Überprüfen Sie Ihre Adressen
 
@@ -22,17 +18,11 @@ Einige Betrügereien verwenden Malware auf Ihrem Computer, die die Kopier-/Einf�
 
 ## Lernen Sie den Unterschied zwischen Hot und Cold Wallets kennen
 
-## Lernen Sie den Unterschied zwischen Hot und Cold Wallets kennen
-
 Hot und Cold Wallets sind eine gängige Terminologie im Bereich der Kryptowährungen, und das Konzept ist wirklich ziemlich einfach. Eine Hot Wallet ist eine, die Sie häufig herausnehmen und verwenden. Es ist "heiß", weil es in Ihrer Gesäßtasche steckt. Cold Wallets sind solche, die nicht sehr oft berührt werden, ähnlich wie Geld in einer Bank. Genauso wie es nicht ratsam ist, Hunderte von Dollar in Ihrer physischen Brieftasche zu tragen, aber es im Allgemeinen akzeptabel ist, dies auf einem Bankkonto zu tun, sollten Benutzer überlegen, wie viel Monero in ihren heißen, mobilen Brieftaschen zu tragen ist und wie viel am besten übrig bleibt, zu Hause in einer zweiten, kalten. Auf diese Weise führt der Verlust eines Telefons, Diebstahl oder andere Pannen nicht zu einem Totalverlust des Geldes.
 
 ## Sind Hardware Wallets das Richtige für Sie?
 
-## Sind Hardware Wallets das Richtige für Sie?
-
 Wenn Ihnen die Idee, Ihre digitale Umgebung komplett frei von Viren und Malware zu halten, um Ihre Monero zu schützen, unheimlich ist, dann sollten Sie eine Hardware-Wallet in Betracht ziehen. Grundsätzlich hält die Hardware Wallet Ihre privaten Keys auf dem Gerät, fern von Ihrem Computer. Selbst wenn Ihr Computer kompromittiert wird, haben die Hacker keinen Zugriff auf Ihren Seed. Sie können das Geld nur ausgeben, wenn die Hardware Wallet mit dem Computer verbunden ist und die Transaktion signiert. Dadurch verlagert sich die Sicherheit der Keys von deinem Computer, der für viele Dinge genutzt wird und eine große Angriffsfläche hat, auf die Hardware Wallet, die nur für eine Sache genutzt wird und eine viel kleinere Angriffsfläche hat. Für die gewöhnliche Person, die die Vor- und Nachteile der Computersicherheit nicht kennt, ist dies eine praktikable Option, um Ihre Gelder sicher aufzubewahren.
-
-## Verwenden Sie im Zweifelsfall die Standardeinstellungen (bei Monero)
 
 ## Verwenden Sie im Zweifelsfall die Standardeinstellungen (bei Monero)
 
@@ -41,71 +31,5 @@ Im Bereich der Privatsphäre ist es oft viel zu einfach, versehentlich Daten üb
 Es gibt verschiedene Dinge, die man tun kann, um versehentlich seine Privatsphäre in anderen Kryptowährungen wie Bitcoin zu verletzen. Die Wahl eines seriösen Mixers, das Erhalten von Münzen ohne KYC/AML, das Nicht-Wiederverwenden von Adressen und die ordnungsgemäße Verwaltung der Coin-Outputs sind alles Dinge, die eine Person berücksichtigen muss, wenn sie versucht, das Durchsickern von Metadaten zu minimieren. Monero umgeht viele dieser Probleme, indem es die Datenschutzfunktionen obligatorisch macht und gute Standardeinstellungen für den durchschnittlichen Benutzer festlegt. Das obige Beispiel der Verwendung einer festen Ringgröße bedeutet, dass Endbenutzer nicht darüber nachdenken müssen, wie sie in dieser Hinsicht die bestmögliche Privatsphäre erreichen können. Die Wallet erledigt das automatisch für sie.
 
 Das mag seltsam erscheinen, darüber zu sprechen. Man könnte den meisten Benutzern verzeihen, dass sie denken, dass alle Software automatisch für sie arbeitet und nicht gegen sie. Leider könnte nichts weiter von der Wahrheit entfernt sein, und wenn es um die Privatsphäre geht, mangelt es fast allen Kryptowährungen stark. Der Aufwand, den man unternehmen muss, um ein gewisses Maß an Privatsphäre zu erreichen, ist normalerweise zu groß und zu schwierig für einen durchschnittlichen Benutzer. Dies ist oft sogar bei anderen Kryptowährungen der Fall, die den Fokus auf Datenschutz legen! Monero sorgt dafür, dass der Datenschutz automatisch erfolgt, ohne, dass der Benutzer darüber nachdenken muss, wenn möglich auf Protokollebene und mit vernünftigen Standardeinstellungen für die Wallet, wenn dies nicht der Fall ist. Verwenden Sie im Zweifelsfall einfach die Standardeinstellungen des Wallets und scheuen Sie sich nicht, Fragen zu stellen.
-
-Weiterlesen
-
-  * [Wie Monero auf einzigartige Weise Kreislaufwirtschaften ermöglicht](/knowledge/monero-circular-economies)/
-
-  * [Moneros Ringsignaturen vs. CoinJoin wie bei Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Warum (und wie!) Sie Ihre eigenen Keys halten sollten](/knowledge/hold-your-keys)/
-
-  * [Zu Monero beitragen](/knowledge/contributing-to-monero)/
-
-  * [Wie sich Remote-Knoten auf die Privatsphäre von Monero auswirken](/knowledge/remote-nodes-privacy)/
-
-  * [Wie Monero Hard-Forks verwendet, um das Netzwerk zu aktualisieren](/knowledge/network-upgrades)/
-
-  * [View-Tags: Wie ein Byte die Synchronisierungszeiten der Monero-Wallet um über 40 % reduziert](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool und seine Rolle bei der Dezentralisierung des Monero-Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Was es für Monero tun wird](/knowledge/seraphis-for-monero)/
-
-  * [Ist die Umwandlung von Bitcoin in Monero genauso privat wie der direkte Kauf von Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Warum Monero im Gegensatz zu Zcash ein vertrauensloses Setup verwendet](/knowledge/monero-trustless-setup)/
-
-  * [Warum Monero ein besserer Wertspeicher ist als Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Wie Monero die Netzwerkeffekte von Bitcoin überwinden kann](/knowledge/network-effect)/
-
-  * [Warum Monero die kritischste Community hat](/knowledge/critical-thinking)/
-
-  * [Betrügereien, auf die Sie bei der Verwendung von Monero achten sollten](/knowledge/monero-scams)/
-
-  * [Wie Atomic Swaps in Monero funktionieren](/knowledge/monero-atomic-swaps)/
-
-  * [Was jeder Monero-Benutzer wissen muss, wenn es ums Networking geht](/knowledge/monero-networking)/
-
-  * [Wie RingCT Monero-Transaktionsbeträge verbirgt](/knowledge/monero-ringct)/
-
-  * [Wie Monero Stealth-Adressen Ihre Identität schützen](/knowledge/monero-stealth-addresses)/
-
-  * [Wie Monero-Subadressen die Identitätsverknüpfung verhindern](/knowledge/monero-subaddresses)/
-
-  * [Monero-Outputs erklärt](/knowledge/monero-outputs)/
-
-  * [Wie Ringsignaturen die Ausgaben von Monero verschleiern](/knowledge/ring-signatures)/
-
-  * [Wie Monero das Blockgrößenproblem löste, das Bitcoin plagt](/knowledge/dynamic-block-size)/
-
-  * [Wie CLSAG die Effizienz von Monero verbessern wird](/knowledge/what-is-clsag)/
-
-  * [Warum Monero eine Tail-Emission hat](/knowledge/monero-tail-emission)/
-
-  * [Eine kurze Geschichte von Monero](/knowledge/monero-history)/
-
-  * [Das Wired Magazine hat Unrecht mit Monero, hier ist der Grund](/knowledge/wired-article-debunked)/
-
-  * [Die 15 wichtigsten Monero-Mythen und -Bedenken widerlegt](/knowledge/monero-myths-debunked)/
-
-  * [Wie Dandelion++ die Transaktionsursprünge von Monero geheim hält](/knowledge/monero-dandelion)/
-
-  * [Warum Monero Open Source und dezentralisiert ist](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Was RandomX so besonders macht](/knowledge/monero-mining-randomx)/
-
-  * [Warum Monero besser ist als Dash, Zcash, Zcoin (sogar mit Lelantus), Grin und Bitcoin-Mixer wie Wasabi (Aktualisiert Mai 2020)](/knowledge/why-monero-is-better)/
 
 Weiterlesen

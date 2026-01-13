@@ -12,8 +12,6 @@ Nesta postagem, vamos mergulhar em alguns detalhes por trás de como o Monero fo
 
 ## Qual é a função dos nós em Monero?
 
-## Qual é a função dos nós em Monero?
-
 Para aqueles menos familiarizados com o funcionamento de Monero, os nós (ou servidores) da rede Monero podem ser executados por qualquer pessoa e permitir que o proprietário do nó - ou outros com quem eles escolham compartilhá-lo! - para sincronizar uma cópia da cadeia de bloqueio e fornecer essa cópia a outros na rede. Estes nós também verificam todas as transações que ocorrem na rede, assim como todos os blocos que são publicados e garantem que todos eles sigam as regras estabelecidas por consenso.
 
 A outra função que os nós servem em Monero é como uma forma de fornecer todos os dados que sua carteira Monero favorita precisa para verificar corretamente as transações que lhe pertencem e fazer novas transações. Estes dados são fornecidos pelos nós de duas maneiras:
@@ -29,15 +27,11 @@ A outra função que os nós servem em Monero é como uma forma de fornecer todo
 
 ## Qual é a maneira mais privada e segura de usar Monero?
 
-## Qual é a maneira mais privada e segura de usar Monero?
-
 A melhor coisa a fazer, mesmo com a forte privacidade na cadeia fornecida por Monero ao usar nós remotos, é rodar seu próprio nó Monero para garantir que você tenha uma cópia intacta da cadeia de bloqueio Monero à mão e que seu endereço IP esteja bem protegido. O outro benefício ao rodar seu próprio nó é que você pode contribuir de volta à rede, permitindo que outros nós se sincronizem a partir de seu nó ou mesmo permitindo que outros usuários se conectem a seu nó com suas carteiras.
 
 Dito isto, Monero ainda proporciona excelente privacidade ao utilizar um nó remoto. Se você estiver interessado em administrar seu próprio nó Monero, aqui está um guia fácil de seguir para fazer isso:
 
   * [Executar um Nó Monero](https://sethforprivacy.com/guides/run-a-monero-node/)
-
-## O que um nó remoto pode aprender sobre mim?
 
 ## O que um nó remoto pode aprender sobre mim?
 
@@ -49,13 +43,9 @@ Um nó remoto também pode tentar causar problemas ocultando blocos de você, fa
 
 ## Que garantias de privacidade ainda existem quando se usa um nó remoto?
 
-## Que garantias de privacidade ainda existem quando se usa um nó remoto?
-
 Embora este artigo possa tê-lo assustado um pouco, é importante perceber que a privacidade proporcionada por Monero é excelente mesmo quando se usa um nó remoto, e ultrapassa de longe qualquer outra moeda criptográfica quando usada desta forma. Você ainda ganha a forte privacidade na cadeia fornecida por Monero, pois o nó remoto nunca sabe a verdadeira entrada (que moedas você está gastando), a quantidade de Monero gasta na transação, ou o endereço do destinatário da transação. Observadores externos também não podem ver a verdadeira entrada, quantidade ou endereços envolvidos (não importa o tipo de nó que você escolher usar!), garantindo que fora do nó remoto até mesmo seu endereço IP, informações de sincronização de carteira e transações tenham fortes garantias de privacidade.
 
 O nó remoto também nunca tem acesso às transações anteriores que você enviou ou recebeu ou à quantidade de Monero atualmente em sua carteira, e perde toda a visibilidade em suas transações no momento em que você começa a usar outro nó. Nenhuma chave privada (seja gasta ou de visualização) é fornecida ao nó remoto, e assim sua carteira permanece privada, segura e utilizável. Não importa o nó remoto, você também nunca corre o risco de perder Monero ou de tê-lo roubado, pois o nó não pode editar o endereço do destinatário, nunca tem acesso às suas carteiras de chaves privadas e não pode confiscar seu Monero de nenhuma forma.
-
-## Que tal "carteiras leves" como MyMonero?
 
 ## Que tal "carteiras leves" como MyMonero?
 
@@ -71,8 +61,6 @@ Para mais informações sobre o servidor de carteiras leve personalizado, veja o
 
 ## Como posso aprender mais?
 
-## Como posso aprender mais?
-
 Se você está curioso e gostaria de entender melhor os nós em Monero e procurar usar um nó remoto ou rodar o seu próprio, veja os links abaixo para obter ótimos lugares para começar:
 
   * [Monero World, uma lista de nós remotos geridos pela comunidade que podem ser utilizados](https://moneroworld.com/#nodes). 
@@ -80,71 +68,5 @@ Se você está curioso e gostaria de entender melhor os nós em Monero e procura
   * [monero.fail, uma lista de nós remotos com status frequentemente verificado](https://monero.fail/)
   * [Como se conectar a um nó remoto dentro da carteira da GUI](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
   * [Moneropedia - Nó Remoto](https://www.getmonero.org/resources/moneropedia/remote-node.html)
-
-Leitura adicional
-
-  * [Como Monero permite de forma única economias circulares](/knowledge/monero-circular-economies)/
-
-  * [Assinaturas do anel de Monero vs CoinJoin como em Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Por que (e como!) você deve segurar suas próprias chaves](/knowledge/hold-your-keys)/
-
-  * [Contribuindo de volta para Monero](/knowledge/contributing-to-monero)/
-
-  * [Como Monero usa o hard-forks para atualizar a rede](/knowledge/network-upgrades)/
-
-  * [Ver tags: Como um byte reduzirá o tempo de sincronização da carteira Monero em mais de 40%.](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool e seu papel na descentralização da mineração Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: O que fará por Monero](/knowledge/seraphis-for-monero)/
-
-  * [Converter Bitcoin em Monero é tão privado quanto comprar Monero diretamente?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Por que Monero usa uma configuração sem confiança ao contrário de Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Por que Monero é uma reserva de valor melhor do que Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Como Monero pode superar os efeitos de rede do Bitcoin](/knowledge/network-effect)/
-
-  * [Por que Monero tem a comunidade de pensamento mais crítico](/knowledge/critical-thinking)/
-
-  * [Golpes a serem observados ao usar o Monero](/knowledge/monero-scams)/
-
-  * [Como as trocas atômicas funcionarão no Monero](/knowledge/monero-atomic-swaps)/
-
-  * [O que todo usuário Monero precisa saber quando se trata de rede](/knowledge/monero-networking)/
-
-  * [Como RingCT esconde valores de transação Monero](/knowledge/monero-ringct)/
-
-  * [Como os endereços Monero Stealth protegem sua identidade](/knowledge/monero-stealth-addresses)/
-
-  * [Como os subendereços do Monero evitam o vínculo de identidade](/knowledge/monero-subaddresses)/
-
-  * [Saídas Monero explicadas](/knowledge/monero-outputs)/
-
-  * [Práticas recomendadas Monero para iniciantes](/knowledge/monero-best-practices)/
-
-  * [Como as assinaturas de toque obscurecem as saídas do Monero](/knowledge/ring-signatures)/
-
-  * [Como Monero resolveu o problema do tamanho do bloco que assola o Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Como o CLSAG melhorará a eficiência da Monero](/knowledge/what-is-clsag)/
-
-  * [Por que Monero tem uma emissão de cauda](/knowledge/monero-tail-emission)/
-
-  * [A história de Monero](/knowledge/monero-history)/
-
-  * [Revista Wired está errada sobre Monero, aqui está o porquê](/knowledge/wired-article-debunked)/
-
-  * [Os 15 principais mitos e preocupações de Monero desmascarados](/knowledge/monero-myths-debunked)/
-
-  * [Como o Dandelion ++ mantém as origens da transação de Monero em sigilo](/knowledge/monero-dandelion)/
-
-  * [Por que o Monero é de código aberto e descentralizado](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: O que torna o RandomX tão especial](/knowledge/monero-mining-randomx)/
-
-  * [Por que Monero é melhor que Dash, Zcash, Zcoin (Even with Lelantus), Grin e Bitcoin Mixers como Wasabi (Atualizado em maio de 2020)](/knowledge/why-monero-is-better)/
 
 Leitura adicional

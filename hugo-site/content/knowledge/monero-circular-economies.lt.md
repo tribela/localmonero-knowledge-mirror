@@ -10,17 +10,11 @@ Vienas svarbiausių kriptovaliutų išlikimo ir augimo bei jų panaudojimo aspek
 
 ## Kas yra žiedinė ekonomika?
 
-## Kas yra žiedinė ekonomika?
-
 Nors esu tikras, kad jūs visi esate laisvai susipažinę su ekonomika kaip plačia tema, „žiedinės ekonomikos“ idėja yra retai aptariama už kriptovaliutų pasaulio ribų. Žiedinė ekonomika yra tokia svarbi ir ypatinga tuo, kad jos sukuria tikrai laisvą rinką, leidžiančią prekiauti paslaugomis, produktais ir prekėmis _tiesiogiai Monero_.
 
 Dalyviams nereikia nuolat judėti ir išeiti iš „fiat“, tačiau jie gali išlaikyti savo „Monero“ sistemoje, uždirbti, taupyti ir išleisti tiesiogiai Monero be trinties, stebėjimo ar įprastos ekonomikos apribojimų. X606X] 
 
 Žiedinė ekonomika paprastai yra visiškai „nepaprasta“ ir legali, tačiau veikia kaip „pilkoji rinka“, palyginti su įprastomis „baltosiomis rinkomis“ fiat pasaulyje.
-
-Žiedinė ekonomika paprastai yra visiškai „nepaprasta“ ir legali, tačiau veikia kaip „pilkoji rinka“, palyginti su įprastomis „baltosiomis rinkomis“ fiat pasaulyje.
-
-## Kodėl mums reikia kurti žiedinę ekonomiką?
 
 ## Kodėl mums reikia kurti žiedinę ekonomiką?
 
@@ -38,8 +32,6 @@ Taip pat galime padaryti atsisakę naudoti centralizuotus KYC mainus ir prekiaut
 
 ## Kaip Monero unikaliai įgalina šią žiedinę ekonomiką?
 
-## Kaip Monero unikaliai įgalina šią žiedinę ekonomiką?
-
 Nors Monero dalijasi kai kuriais pagrindiniais Bitcoin atributais, kurie įgalina žiedinę ekonomiką nauju būdu (atsparūs cenzūrai mokėjimai, P2P operacijos ir t. t.), jis suteikia absoliučiai unikalią galią tiems, kurie nori kurti žiedinę ekonomiką ir joje dalyvauti. 
 
 „Monero“ naudotojams nereikia jaudintis dėl masinio sekimo ar net tikslinės operacijų cenzūros, nes tai suteikia unikalią ramybę ir apsaugo nuo bet kokios naštos prekybai. Naudodami pasirinktą Monero piniginę galite sudaryti sandorius su bet kuriuo pasaulio gyventoju, bet kuriuo metu ir be jokios priežiūros.
@@ -54,11 +46,7 @@ Vienas iš paprasčiausių dalykų, kuriuos reikia suprasti apie Monero operacij
 
 ## Išvada
 
-## Išvada
-
 Galų gale, Monero yra skaitmeniniai grynieji pinigai, kaip ir turėtų būti. Ramybė, pakeičiamumas ir privatumas atliekant operacijas grynaisiais, tačiau visi skaitmeninių, pasaulinių ir p2p operacijų pranašumai yra atskirti nuo valstybės kontrolės ar stebėjimo. Šis gebėjimas veikti kaip skaitmeniniai grynieji pinigai šiandien unikaliai įgalina žiedinę ekonomiką ir padeda joms augti bei klestėti laikui bėgant taip, kaip kitos kriptovaliutos, tokios kaip Bitcoin, tiesiog negali.
-
-## Kaip galiu sužinoti daugiau?
 
 ## Kaip galiu sužinoti daugiau?
 
@@ -68,71 +56,5 @@ Jei jums įdomu ir norite geriau suprasti žiedinę ekonomiką arba pradėti joj
   * ["Atėjo laikas prisijungti prie Bitcoin žiedinės ekonomikos" - Ragnar Lifthrasir](https://bitcoinmagazine.com/business/its-time-to-join-the-bitcoin-circular- ekonomika/)
   * [Monerica.com – Žiedinės Monero ekonomikos žinynas“< /a>](https://monerica.com/)
   * [Monero Merchants – Cryptwerk](https://cryptwerk.com/pay-with/xmr/)
-
-Papildoma literatūra
-
-  * [Monero žiedo parašai prieš CoinJoin kaip Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys)/
-
-  * [Prisideda prie Monero](/knowledge/contributing-to-monero)/
-
-  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy)/
-
-  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades)/
-
-  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: ką tai padarys Monero](/knowledge/seraphis-for-monero)/
-
-  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup)/
-
-  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value)/
-
-  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect)/
-
-  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking)/
-
-  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams)/
-
-  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking)/
-
-  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct)/
-
-  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses)/
-
-  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses)/
-
-  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs)/
-
-  * [„Monero“ geriausia praktika pradedantiesiems](/knowledge/monero-best-practices)/
-
-  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures)/
-
-  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag)/
-
-  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission)/
-
-  * [Trumpa Monero istorija](/knowledge/monero-history)/
-
-  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked)/
-
-  * [15 populiariausių Monero mitų ir rūpesčių, kurie buvo paneigti](/knowledge/monero-myths-debunked)/
-
-  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion)/
-
-  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx)/
-
-  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better)/
 
 Papildoma literatūra

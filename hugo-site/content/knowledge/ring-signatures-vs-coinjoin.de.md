@@ -14,8 +14,6 @@ In diesem Blogbeitrag werden wir kurz einen Vergleich zwischen CoinJoin und Ring
 
 ## Was ist eine CoinJoin-Transaktion?
 
-## Was ist eine CoinJoin-Transaktion?
-
 Da alle Transaktionen bei Bitcoin völlig transparent sind - Absender, Empfänger und Beträge werden offengelegt - müssen die Nutzer zusätzliche Maßnahmen ergreifen, um ihre Privatsphäre vor früheren Absendern und zukünftigen Empfängern ihrer Gelder zu schützen, oder sie riskieren Zensur, Überwachung oder den Diebstahl von Geldern durch physische Gewalt.
 
 Die derzeit beste Lösung für den Schutz der Privatsphäre bei Bitcoin ist ein Tool namens [„CoinJoin“](https://bitcoiner.guide/qna/coinjoin/), bei dem zwei oder mehr Nutzer zusammenarbeiten (in der Regel über einen zentralen Koordinator), um eine spezielle Transaktion zu erstellen, die es Beobachtern von außen erschwert, die Eingaben mit den Ausgaben zu verbinden. Jeder Teilnehmer kommuniziert, um die Transaktion gemeinsam zu erstellen, ohne die Verfügungsgewalt über seine Gelder abzugeben, und erhält am Ende eine Ausgabe, deren Vorgeschichte für Außenstehende nun unklar (oder verschleiert) ist.
@@ -30,31 +28,21 @@ Dies unterbricht die Historie bestimmter UTXOs und ermöglicht es Bitcoin-Nutzer
 
 ## Wie lösen Ringsignaturen diese Probleme?
 
-## Wie lösen Ringsignaturen diese Probleme?
-
 Da [wir uns in der Vergangenheit eingehend mit dem Thema Ringsignaturen beschäftigt haben](/knowledge/ring-signatures), werde ich in diesem Blog-Beitrag nicht näher auf die technischen Aspekte ihrer Funktionsweise eingehen. Stattdessen werden wir uns ansehen, wie die in Monero verwendeten Ansätze die oben diskutierten Probleme mit CoinJoin lösen.
 
 > CoinJoin ist Opt-in und erfordert die Teilnahme
-
-CoinJoin ist Opt-in und erfordert die Teilnahme
 
 Moneros Ringsignaturen sind ein zentrales Merkmal des Datenschutzprotokolls, und _jede_ Transaktion im Netzwerk verwendet sie. Das bedeutet, dass die Transaktionen eines Benutzers nicht dadurch auffallen, dass er mehr Privatsphäre sucht als "normale" Monero-Benutzer, und dass alle Benutzer plausibel abstreiten können, dass sie in einer bestimmten Transaktion Geld ausgegeben haben. Da ein Nutzer, der Geld ausgibt, sich nicht mit den Lockvogel-Eingaben in einer Transaktion koordiniert oder daran teilnimmt, können die Nutzer, die Eingaben besitzen, die zufällig als Lockvogel ausgewählt wurden, ehrlich sagen, dass sie nicht an dieser Transaktion teilgenommen haben, was ihre Privatsphäre stärkt.
 
 > Verwendung eines zentralisierten Koordinators
 
-Verwendung eines zentralisierten Koordinators
-
 Da Moneros Ringsignaturen völlig unkoordiniert sind und nur den wahren Geldgeber benötigen, um die Transaktion zu erstellen, gibt es keinen Bedarf für einen zentralen Koordinator in Monero. Dies stellt sicher, dass _niemand_ Niemand kann Ihnen den Zugang zur Privatsphäre in Monero verwehren, und es gibt keine zentralisierte Instanz, die unter Druck gesetzt werden kann, keine einfachen Sybil-Angriffe auf die Liquidität, etc. Solange Sie für Ihre Transaktion die richtigen Gebühren zahlen, erhalten Sie unzensierten Zugang zu Privatsphäre, Sicherheit und Anonymität in Monero.
 
 > CoinJoin erfordert Liquidität
 
-CoinJoin erfordert Liquidität
-
 Die "Liquidität", die jedem zur Verfügung steht, der Monero ausgibt, um sie als Lockvogel zu verwenden, ist immer die Gesamtmenge der Ausgänge auf der Kette, so dass es nie einen Mangel an Lockvögeln gibt, in denen man sich mit Monero verstecken kann. Jemand, der Monero ausgeben möchte, kann dies ~20 Minuten nach Erhalt des Geldes tun und muss keine zusätzlichen Schritte durchführen, um eine starke Privatsphäre in Monero zu erhalten.
 
 > CoinJoin Privatsphäre verschlechtert sich mit der Zeit
-
-CoinJoin Privatsphäre verschlechtert sich mit der Zeit
 
 Da die Ausgaben von Monero dem Netzwerk nie bekannt sind, ist die Privatsphäre, die durch Ringsignaturen gewährleistet wird, viel weniger anfällig für eine Verschlechterung im Laufe der Zeit. Ein Benutzer muss nicht ständig Ausgaben in Monero tätigen, und außer unter extrem seltenen Umständen verliert er im Laufe der Zeit keine Privatsphäre.
 
@@ -62,11 +50,7 @@ Wenn ein Benutzer jedoch die mit einer Ausgabe verwendeten Köder "auffrischen" 
 
 > CoinJoin erfordert normalerweise Eingaben mit fester Größe
 
-CoinJoin erfordert normalerweise Eingaben mit fester Größe
-
 Da Beträge in jeder Transaktion versteckt werden mit [" Confidential Transactions"](/knowledge/monero-ringct) (ein Teil von "RingCT"), können die in einer bestimmten Transaktion verwendeten Köder eine beliebige Größe haben. Es gibt keinen Grund, sich über betragsbasierte Heuristiken in Monero Gedanken zu machen, und so sind Transaktionen viel einfacher zu erstellen und können Decoys von jedem Zeitpunkt und in jeder Höhe auf der Monero-Blockchain nutzen.
-
-## Wie kann ich mehr erfahren?
 
 ## Wie kann ich mehr erfahren?
 
@@ -76,71 +60,5 @@ Wenn Sie neugierig geworden sind und Ring-Signaturen oder CoinJoin-Transaktionen
   * [Ringsignatur - Moneropedia](https://www.getmonero.org/resources/moneropedia/ringsignatures.html)
   * [Coinjoin-Fragen und Antworten](https://bitcoiner.guide/qna/coinjoin/)
   * [CoinJoin-Übersicht](https://6102bitcoin.com/coinjoin-overview/)
-
-Weiterlesen
-
-  * [Wie Monero auf einzigartige Weise Kreislaufwirtschaften ermöglicht](/knowledge/monero-circular-economies)/
-
-  * [Warum (und wie!) Sie Ihre eigenen Keys halten sollten](/knowledge/hold-your-keys)/
-
-  * [Zu Monero beitragen](/knowledge/contributing-to-monero)/
-
-  * [Wie sich Remote-Knoten auf die Privatsphäre von Monero auswirken](/knowledge/remote-nodes-privacy)/
-
-  * [Wie Monero Hard-Forks verwendet, um das Netzwerk zu aktualisieren](/knowledge/network-upgrades)/
-
-  * [View-Tags: Wie ein Byte die Synchronisierungszeiten der Monero-Wallet um über 40 % reduziert](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool und seine Rolle bei der Dezentralisierung des Monero-Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Was es für Monero tun wird](/knowledge/seraphis-for-monero)/
-
-  * [Ist die Umwandlung von Bitcoin in Monero genauso privat wie der direkte Kauf von Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Warum Monero im Gegensatz zu Zcash ein vertrauensloses Setup verwendet](/knowledge/monero-trustless-setup)/
-
-  * [Warum Monero ein besserer Wertspeicher ist als Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Wie Monero die Netzwerkeffekte von Bitcoin überwinden kann](/knowledge/network-effect)/
-
-  * [Warum Monero die kritischste Community hat](/knowledge/critical-thinking)/
-
-  * [Betrügereien, auf die Sie bei der Verwendung von Monero achten sollten](/knowledge/monero-scams)/
-
-  * [Wie Atomic Swaps in Monero funktionieren](/knowledge/monero-atomic-swaps)/
-
-  * [Was jeder Monero-Benutzer wissen muss, wenn es ums Networking geht](/knowledge/monero-networking)/
-
-  * [Wie RingCT Monero-Transaktionsbeträge verbirgt](/knowledge/monero-ringct)/
-
-  * [Wie Monero Stealth-Adressen Ihre Identität schützen](/knowledge/monero-stealth-addresses)/
-
-  * [Wie Monero-Subadressen die Identitätsverknüpfung verhindern](/knowledge/monero-subaddresses)/
-
-  * [Monero-Outputs erklärt](/knowledge/monero-outputs)/
-
-  * [Monero Best Practices für Anfänger](/knowledge/monero-best-practices)/
-
-  * [Wie Ringsignaturen die Ausgaben von Monero verschleiern](/knowledge/ring-signatures)/
-
-  * [Wie Monero das Blockgrößenproblem löste, das Bitcoin plagt](/knowledge/dynamic-block-size)/
-
-  * [Wie CLSAG die Effizienz von Monero verbessern wird](/knowledge/what-is-clsag)/
-
-  * [Warum Monero eine Tail-Emission hat](/knowledge/monero-tail-emission)/
-
-  * [Eine kurze Geschichte von Monero](/knowledge/monero-history)/
-
-  * [Das Wired Magazine hat Unrecht mit Monero, hier ist der Grund](/knowledge/wired-article-debunked)/
-
-  * [Die 15 wichtigsten Monero-Mythen und -Bedenken widerlegt](/knowledge/monero-myths-debunked)/
-
-  * [Wie Dandelion++ die Transaktionsursprünge von Monero geheim hält](/knowledge/monero-dandelion)/
-
-  * [Warum Monero Open Source und dezentralisiert ist](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Was RandomX so besonders macht](/knowledge/monero-mining-randomx)/
-
-  * [Warum Monero besser ist als Dash, Zcash, Zcoin (sogar mit Lelantus), Grin und Bitcoin-Mixer wie Wasabi (Aktualisiert Mai 2020)](/knowledge/why-monero-is-better)/
 
 Weiterlesen

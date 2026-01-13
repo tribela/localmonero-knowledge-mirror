@@ -12,21 +12,15 @@ Zatiaľ čo jedinečný ťažobný algoritmus [ako RandomX](/knowledge/monero-mi
 
 ## Čo je pool ťažba?
 
-## Čo je pool ťažba?
-
 Pool mining je spôsob, akým sa baníci delia o úlohu pokusu vyriešiť blok v sieti a potom rovnomerne rozdelia odmeny pre všetky bloky, ktoré fond nájde. Aj keď to nesmierne pomáha vyrovnať frekvenciu, s akou sú baníci platení oproti ťažbe samotného Monera, nie je to bez vážnych problémov s centralizáciou.
 
 Keďže každý baník prispieva prácou do fondu, vzdáva sa kontroly nad akoukoľvek prácou, ktorú vykonáva, a blokmi, ktoré nájde, do samotného fondu, pričom verí, že fond čestne a spravodlivo rozdelí odmeny medzi všetkých baníkov na základe množstva prácu, ktorú každý vykonal. Ak všetko pôjde dobre, prevádzkovateľ poolu zozbiera prácu od všetkých baníkov, odošle ju do siete a rovnomerne rozdelí odmeny.
 
 ## Aký je problém s poolovou ťažbou?
 
-## Aký je problém s poolovou ťažbou?
-
 Nanešťastie to závisí výlučne od dôvery a umožňuje prevádzkovateľovi poolu robiť nekalé veci s prácou, ktorú vykonávajú baníci. Operátor poolu by mohol využiť vykonanú prácu na útok na sieť, pokúsiť sa zdvojnásobiť finančné prostriedky (ak je pool dostatočne veľký) alebo jednoducho využiť prácu, ktorú vykonávajú baníci, na zaplatenie seba a nikdy by baníkov za ich prácu riadne neodmeňoval. .
 
 Najväčším rizikom pre sieť je riziko spoločného fondu (alebo viacerých spoločných fondov), ktoré majú pod kontrolou viac ako 51 % hashratov sietí, pretože by to mohli použiť na podvádzanie a míňanie prostriedkov dvakrát (dvojité míňanie útok) alebo pokus o zmenu pravidiel siete.
-
-## Čo je p2pool?
 
 ## Čo je p2pool?
 
@@ -38,15 +32,11 @@ To sa deje pomocou nového blockchainu („side-chain“), ktorý uchováva záz
 
 ## Ako p2pool rieši problémy pool miningu?
 
-## Ako p2pool rieši problémy pool miningu?
-
 V p2pool neexistuje centralizovaný pool, centralizovaný operátor poolu ani jedna osoba, ktorá drží prostriedky a rozdeľuje výplaty. Všetka práca, ktorú kolektívne vykonávajú tí, ktorí ťažia cez p2pool, je kontrolovaná blockchainom p2pool a inými operátormi uzlov, aby sa zabezpečilo, že je legitímna, a všetci baníci sú vyplatení podľa práce, ktorú vykonali okamžite, keď sa blok nájde priamo od. odmeny v nájdenom bloku.
 
 Keď sa baníci rozhodnú používať p2pool namiesto centralizovaného fondu, odoberú prevádzkovateľom poolu všetku moc a dôveru a zabezpečia, aby ich práca prispievala k dobru siete a ich vlastným odmenám, znížili riziko sieťových útokov, zneužitia ich práce, alebo krádež odmien, ktoré im dlhujú.
 
 Nielenže im to pomáha chrániť ich vlastné záujmy, ale znižuje to riziko, ktoré centralizované fondy môžu predstavovať pre sieť Monero ako celok. Využitie p2pool tiež výrazne pomáha znižovať riziko, ktoré by národné štáty alebo regulačné orgány mohli predstavovať pre zdravie siete, pretože neexistujú centralizovaní prevádzkovatelia poolov, ktorí by museli vyvíjať tlak, žiadna geografická koncentrácia poolov, o ktoré by sa dalo oprieť, ani žiadny iný ľahký bod tlaku, aby ich použili proti Moneru.
-
-## Aké sú nevýhody?
 
 ## Aké sú nevýhody?
 
@@ -56,14 +46,10 @@ Našťastie bol p2pool v Monero dobre navrhnutý a dobre skonštruovaný a fungu
 
 ## Ako môžem začať?
 
-## Ako môžem začať?
-
 Vďaka vynikajúcemu dizajnu implementácie p2pool spoločnosti Monero' a mnohým ľuďom v komunite, ktorí si našli čas na zjednodušenie procesu ťažby cez p2pool, je začiatok v priebehu času čoraz jednoduchší. Existuje niekoľko spôsobov, ako začať ťažiť pomocou p2pool, ale keďže technické podrobnosti presahujú rozsah tohto článku, v závislosti od vášho operačného systému môžete prejsť na nižšie uvedený odkaz:
 
   * [Windows](https://www.youtube.com/watch?v=yfbvTksF9ic)
   * [Linux](https://sethforprivacy.com/guides/run-a-p2pool-node/)
-
-## Ako sa môžem dozvedieť viac?
 
 ## Ako sa môžem dozvedieť viac?
 
@@ -75,71 +61,5 @@ Ak to vzbudilo vašu zvedavosť ohľadom ťažby p2pool, pozrite si nižšie nie
   * [p2pool.observer, "prieskumník blokov" svojho druhu pre p2pool](https://p2pool.observer/)
   * [Monero p2pool docker-compose](https://github.com/WeebDataHoarder/p2pool-compose)
   * [Sergei Chernykh: O vývoji P2Pool a decentralizovaného fondu na ťažbu XMR](https://www.monerotalk.live/sergei-chernykh-on-his-development-of-p2pool-a-decentralized-xmr-mining-pool)
-
-Ďalšie čítanie
-
-  * [Ako Monero jedinečne umožňuje obehové ekonomiky](/knowledge/monero-circular-economies)/
-
-  * [Moneroove prstenové podpisy vs CoinJoin ako vo Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Prečo (a ako!) by ste mali držať svoje vlastné kľúče](/knowledge/hold-your-keys)/
-
-  * [Prispievame späť do Monero](/knowledge/contributing-to-monero)/
-
-  * [Ako vzdialené uzly ovplyvňujú súkromie spoločnosti Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Ako Monero používa hard-forky na aktualizáciu siete](/knowledge/network-upgrades)/
-
-  * [Zobraziť značky: Ako jeden bajt zníži časy synchronizácie peňaženky Monero o 40 % a viac](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [Seraphis: Čo to urobí pre Monero](/knowledge/seraphis-for-monero)/
-
-  * [Je prevod bitcoinu na monero rovnako súkromný ako priamy nákup monera?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Prečo Monero používa Trustless Setup na rozdiel od Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Prečo je Monero lepším uchovávateľom hodnoty ako Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Ako môže Monero prekonať sieťové efekty bitcoinu](/knowledge/network-effect)/
-
-  * [Prečo má Monero komunitu najkritickejšieho myslenia](/knowledge/critical-thinking)/
-
-  * [Podvody na ktoré si treba dať pozor pri používaní Monero](/knowledge/monero-scams)/
-
-  * [Ako budú fungovať atómové swapy v Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Čo potrebuje vedieť každý používateľ Monero, pokiaľ ide o vytváranie sietí](/knowledge/monero-networking)/
-
-  * [Ako RingCT skrýva sumy transakcií Monero](/knowledge/monero-ringct)/
-
-  * [Ako Monero Stealth adresy chránia vašu identitu](/knowledge/monero-stealth-addresses)/
-
-  * [Ako podadresy Monero zabraňujú prepojeniu identity](/knowledge/monero-subaddresses)/
-
-  * [Vysvetlenie výstupov Monero](/knowledge/monero-outputs)/
-
-  * [Monero osvedčené postupy pre začiatočníkov](/knowledge/monero-best-practices)/
-
-  * [Ako prstencové podpisy zakrývajú výstupy Monera](/knowledge/ring-signatures)/
-
-  * [Ako Monero vyriešilo problém veľkosti bloku, ktorý trápi Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Ako CLSAG zlepší efektivitu Monero](/knowledge/what-is-clsag)/
-
-  * [Prečo má Monero chvostovú emisiu](/knowledge/monero-tail-emission)/
-
-  * [Stručná história Monera](/knowledge/monero-history)/
-
-  * [Wired Magazine sa o Monere mýli, tu je dôvod](/knowledge/wired-article-debunked)/
-
-  * [Top 15 vyvrátených mýtov a obáv o Monero](/knowledge/monero-myths-debunked)/
-
-  * [Ako Dandelion++ uchováva pôvod transakcií Monero v súkromí](/knowledge/monero-dandelion)/
-
-  * [Prečo je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Čo robí RandomX tak výnimočným](/knowledge/monero-mining-randomx)/
-
-  * [Prečo je Monero lepšie ako Dash, Zcash, Zcoin (dokonca aj s Lelantus), Grin a bitcoinové mixéry ako Wasabi (aktualizované v máji 2020)](/knowledge/why-monero-is-better)/
 
 Ďalšie čítanie

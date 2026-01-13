@@ -12,21 +12,15 @@ Mens en unik minealgoritme [som RandomX](/knowledge/monero-mining-randomx) er ek
 
 ## Hvad er pool minedrift?
 
-## Hvad er pool minedrift?
-
 Pool-mining er en måde for minearbejdere at dele opgaven med at forsøge at løse en blok på netværket og derefter dele belønningerne ligeligt for alle blokke, som puljen finder. Selvom dette hjælper enormt med at udjævne den frekvens, hvormed minearbejdere bliver betalt i forhold til minedrift af Monero alene, er det ikke uden alvorlige centraliseringsproblemer.
 
 Da hver minearbejder bidrager med arbejde til puljen, opgiver de kontrollen over alt arbejde, de udfører, og blokerer, som de finder til selve puljen, i tillid til, at puljen ærligt og retfærdigt vil dele belønningen mellem alle minearbejdere baseret på mængden af arbejde hver især har udført. Hvis alt går vel, indsamler pooloperatøren arbejdet fra alle minearbejdere, sender det til netværket og deler belønningerne ligeligt.
 
 ## Hvad er den problem med pool mining?
 
-## Hvad er den problem med pool mining?
-
 Desværre er dette helt afhængigt af tillid og giver pooloperatøren mulighed for at gøre uhyggelige ting med det arbejde, der udføres af minearbejdere. Pooloperatøren kunne bruge det arbejde, der udføres til at angribe netværket, forsøge at dobbeltbruge midler (hvis puljen er stor nok), eller blot bruge det arbejde, der udføres af minearbejderne til at betale sig selv og aldrig belønne minearbejdere ordentligt for deres arbejde .
 
 Den største risiko for netværket er, at en pulje (eller flere puljer arbejder sammen) har mere end 51 % af netværkets hashrate under deres kontrol, da de kunne bruge dette til at snyde og bruge penge to gange (et dobbeltforbrug) angreb) eller forsøg på at ændre reglerne for netværket.
-
-## Hvad er p2pool?
 
 ## Hvad er p2pool?
 
@@ -38,15 +32,11 @@ Dette gøres ved hjælp af en ny blockchain (en "sidekæde"), der registrerer de
 
 ## Hvordan løser p2pool problemerne med pool mining?
 
-## Hvordan løser p2pool problemerne med pool mining?
-
 I p2pool er der ingen centraliseret pulje, centraliseret puljeoperatør eller enkelt person, der holder på midler og fordeler udbetalinger. Alt det arbejde, der i fællesskab udføres af dem, der miner via p2pool, kontrolleres af p2pool blockchain og andre nodeoperatører for at sikre, at det er legitimt, og alle minearbejdere udbetales i henhold til det arbejde, de har udført, umiddelbart når en blok er fundet direkte fra belønningerne i den fundne blok.
 
 Når minearbejdere vælger at bruge p2pool i stedet for en centraliseret pool, fjerner de al magt og tillid fra pooloperatørerne og sikrer, at deres arbejde bidrager til netværkets bedste og til deres egne belønninger, reducerer risikoen for netværksangreb, misbrug af deres arbejde eller tyveri af belønninger, som de skylder.
 
 Dette hjælper ikke kun dem med at beskytte deres egne interesser, det reducerer også risikoen for, at centraliserede puljer kan udgøre for Monero-netværket som helhed. p2pool-brug hjælper også enormt med at reducere risikoen for, at nationalstater eller regulatorer kan udgøre for netværkets sundhed, da der ikke er nogen centraliserede pooloperatører at presse, ingen geografisk koncentration af pools at læne sig op af, eller noget andet let prespunkt. for dem at bruge mod Monero.
-
-## Hvad er den ulemperne?
 
 ## Hvad er den ulemperne?
 
@@ -56,14 +46,10 @@ Den anden væsentlige forskel fra centraliseret minedrift er, at små minearbejd
 
 ## Hvordan kan jeg få startede?
 
-## Hvordan kan jeg få startede?
-
 På grund af det fremragende design af Monero's p2pool-implementering og de mange mennesker i samfundet, der har brugt tid på at hjælpe med at forenkle processen med minedrift via p2pool, bliver det heldigvis nemmere at komme i gang med tiden. Der er flere måder at komme i gang med mining med p2pool, men da de tekniske detaljer er uden for rammerne af denne artikel, er du velkommen til at springe ind på et link nedenfor afhængigt af dit operativsystem:
 
   * [Windows](https://www.youtube.com/watch?v=yfbvTksF9ic)
   * [Linux](https://sethforprivacy.com/guides/run-a-p2pool-node/)
-
-## Hvordan kan jeg lære mere?
 
 ## Hvordan kan jeg lære mere?
 
@@ -75,71 +61,5 @@ Hvis dette har vakt din nysgerrighed omkring p2pool-mining, så tag et kig neden
   * [p2pool.observer, en "blokudforsker" af slagsen til p2pool](https://p2pool.observer/)
   * [Monero p2pool docker-compose](https://github.com/WeebDataHoarder/p2pool-compose)
   * [Sergei Chernykh: Om hans udvikling af P2Pool en decentraliseret XMR-minepulje](https://www.monerotalk.live/sergei-chernykh-on-his-development-of-p2pool-a-decentralized-xmr-mining-pool)
-
-Yderligere læsning
-
-  * [Hvordan Monero unikt aktiverer cirkulær økonomier](/knowledge/monero-circular-economies)/
-
-  * [Monero's ring signaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Hvorfor (og hvordan!) skal du holde dine egne nøgler](/knowledge/hold-your-keys)/
-
-  * [Bidrager tilbage til Monero](/knowledge/contributing-to-monero)/
-
-  * [Hvordan fjern noder påvirker Monero's privatliv](/knowledge/remote-nodes-privacy)/
-
-  * [Hvordan Monero bruger hard-forks til at opgradere den netværk](/knowledge/network-upgrades)/
-
-  * [Se tags: Hvordan en byte vil reducere Monero wallet-synkroniseringstider med 40 %+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [Seraphis: Hvad Det Vil Gør for Monero](/knowledge/seraphis-for-monero)/
-
-  * [Er konvertering af Bitcoin til Monero lige så privat som at købe Monero direkte?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Hvorfor Monero Brug en Tillidsløs Opsætning i modsætning til Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Hvorfor Monero er en bedre butik af værdi end Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Hvordan Monero Kan Overvinde Bitcoin's Netværk Effekter](/knowledge/network-effect)/
-
-  * [Hvorfor Monero Har Det Mest Kritiske Tænkning Fællesskab](/knowledge/critical-thinking)/
-
-  * [Svindel til Se Ud for Når Bruger Monero](/knowledge/monero-scams)/
-
-  * [Hvordan Atomic Swaps Vil Arbejde i Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Hvad enhver Monero-bruger har brug for at vide, når det kommer til netværk](/knowledge/monero-networking)/
-
-  * [Hvordan RingCT Huder Monero Transaktion Beløb](/knowledge/monero-ringct)/
-
-  * [Hvordan Monero Stealth Adresser Beskyt Din Identitet](/knowledge/monero-stealth-addresses)/
-
-  * [Hvordan Monero Underadresser Forebyg Identitet Linking](/knowledge/monero-subaddresses)/
-
-  * [Monero Outputs Forklaret](/knowledge/monero-outputs)/
-
-  * [Monero Bedste Praksis for Begyndere](/knowledge/monero-best-practices)/
-
-  * [Hvordan Ring Signaturer Obskure Monero's Outputs](/knowledge/ring-signatures)/
-
-  * [Hvordan Monero løste blokstørrelsesproblemet, der plager Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Hvordan CLSAG Vilje Forbedre Monero's Effektivitet](/knowledge/what-is-clsag)/
-
-  * [Hvorfor Monero Har en Hale Emission](/knowledge/monero-tail-emission)/
-
-  * [En kort historie om Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine er Forkert Om Monero, Her er Hvorfor](/knowledge/wired-article-debunked)/
-
-  * [Top 15 Monero Myter og Bekymringer Afkræftet](/knowledge/monero-myths-debunked)/
-
-  * [Hvordan Dandelion++ Holder Monero's Transaktion Oprindelse Privat](/knowledge/monero-dandelion)/
-
-  * [Hvorfor Monero Er Open Source Og Decentraliseret](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Hvad Gør RandomX så Speciel](/knowledge/monero-mining-randomx)/
-
-  * [Hvorfor Monero er bedre end Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-mixere som Wasabi (Opdateret maj 2020)](/knowledge/why-monero-is-better)/
 
 Yderligere læsning

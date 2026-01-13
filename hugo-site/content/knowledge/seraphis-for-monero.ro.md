@@ -8,12 +8,8 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: un upgrade de design modular pentru tranzacțiile Monero
 
-## Seraphis: un upgrade de design modular pentru tranzacțiile Monero
-
 Această postare descrie [Seraphis](https://github.com/UkoeHB/Seraphis), un set de structuri și abstracțiuni ale protocoalelor de tranzacționare dezvoltate de un colaborator pseudonim în domeniul cercetării [`koe`](https://github.com/UkoeHB) pentru ecosistemul Monero, și cu o analiză de securitate în curs de desfășurare de către un contribuitor pseudonim [`coinstudent2048`](https://github.com/coinstudent2048).  
 Facem unele simplificări și omitem anumite detalii tehnice din motive de claritate; din acest motiv, și pentru că proiectarea Seraphis este încă în curs de desfășurare, cititorii interesați ar trebui să consulte documentația Seraphis pentru cele mai recente informații.
-
-## Tranzacții în Monero
 
 ## Tranzacții în Monero
 
@@ -47,12 +43,8 @@ Un proces similar a fost efectuat cu blocul de construcție al semnăturii inela
 
 ## Seraphis
 
-## Seraphis
-
 Seraphis duce această idee cu un pas mai departe.  
 În loc să actualizeze elementele constitutive individuale ale protocolului de tranzacționare RingCT existent, acesta introduce un protocol diferit care poate profita de diferite elemente constitutive și poate oferi o funcționalitate îmbunătățită.
-
-## Blocuri de construcție
 
 ## Blocuri de construcție
 
@@ -76,8 +68,6 @@ Din fericire, unele dintre elementele constitutive necesare pentru Seraphis exis
 
 ## Adresându-se la
 
-## Adresându-se la
-
 Din păcate, adresele Monero utilizate în prezent nu sunt compatibile cu Seraphis. În cazul în care Seraphis ar fi implementat, utilizatorii ar trebui să genereze noi adrese din cheile portofelului lor pentru a primi Monero. Cu toate acestea, acest cost de ecosistem vine cu o serie de beneficii.
 
 În afară de avantajele structurale discutate mai sus, designul Seraphis se pretează la mai multe posibilități de construcție a adreselor, fiecare dintre acestea venind la pachet cu compromisuri. În timp ce construcția finală a adresei care va fi utilizată în Seraphis este [încă în curs de decizie](https://github.com/monero-project/research-lab/issues/92) (o schemă care se bucură de multă atenție se numește [JAMTIS](https://gist.github.com/tevador/50160d160d24cfc6c52ae02eb3d17024)), putem descrie câteva caracteristici comune și utile.
@@ -98,74 +88,6 @@ Construcțiile de adresare Seraphis pot rezolva această problemă. Cu Seraphis,
 
 ## Imaginea de ansamblu
 
-## Imaginea de ansamblu
-
 Seraphis reprezintă o schimbare majoră în ecosistemul Monero. Deși implică modificări ale adreselor și ale blocurilor de construcție ale tranzacțiilor, designul său oferă flexibilitate și funcționalități utile care nu sunt posibile cu protocolul RingCT actual. În timp ce o mare parte din design este finalizat și este dezvoltat [într-o implementare](https://github.com/UkoeHB/monero/tree/seraphis_lib), proiectarea adreselor și analiza de securitate sunt în curs de desfășurare. Seraphis oferă o oportunitate excelentă de a împinge ecosistemul Monero înainte!
-
-Lecturi suplimentare
-
-  * [Cum permite Monero în mod unic economiile circulare](/knowledge/monero-circular-economies)/
-
-  * [Semnături inelare Monero vs CoinJoin ca în Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [De ce (și cum!) ar trebui să vă păstrați propriile chei](/knowledge/hold-your-keys)/
-
-  * [Contribuind înapoi la Monero](/knowledge/contributing-to-monero)/
-
-  * [Cum afectează nodurile de la distanță confidențialitatea Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Cum folosește Monero hard-fork-urile pentru a moderniza rețeaua](/knowledge/network-upgrades)/
-
-  * [Vezi etichete: Cum un singur octet va reduce timpii de sincronizare a portofelului Monero cu 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool și rolul său în descentralizarea mineritului Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Este convertirea Bitcoin în Monero la fel de privată ca și cumpărarea directă de Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [De ce Monero folosește o configurație fără încredere, spre deosebire de Zcash](/knowledge/monero-trustless-setup)/
-
-  * [De ce Monero este un depozit de valoare mai bun decât Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Cum poate Monero să depășească efectele de rețea ale Bitcoin](/knowledge/network-effect)/
-
-  * [De ce Monero are cea mai mare comunitate cu gândire critică](/knowledge/critical-thinking)/
-
-  * [Escrocherii la care să fii atent când folosești Monero](/knowledge/monero-scams)/
-
-  * [Cum vor funcționa schimburile atomice în Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ce trebuie să știe fiecare utilizator Monero atunci când vine vorba de rețea](/knowledge/monero-networking)/
-
-  * [Cum ascunde RingCT sumele tranzacțiilor Monero](/knowledge/monero-ringct)/
-
-  * [Cum îți protejează identitatea adresele Monero invizibile](/knowledge/monero-stealth-addresses)/
-
-  * [Cum previn subadresele Monero legătura de identitate](/knowledge/monero-subaddresses)/
-
-  * [Explicații despre ieșirile Monero](/knowledge/monero-outputs)/
-
-  * [Cele mai bune practici Monero pentru începători](/knowledge/monero-best-practices)/
-
-  * [Modul în care semnăturile inelare ascund ieșirile Monero](/knowledge/ring-signatures)/
-
-  * [Cum a rezolvat Monero problema dimensiunii blocurilor care afectează Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Cum va îmbunătăți CLSAG eficiența Monero](/knowledge/what-is-clsag)/
-
-  * [De ce Monero are o emisie de coadă](/knowledge/monero-tail-emission)/
-
-  * [O scurtă istorie a Monero](/knowledge/monero-history)/
-
-  * [Revista Wired se înșeală în legătură cu Monero, iată de ce](/knowledge/wired-article-debunked)/
-
-  * [Top 15 mituri și îngrijorări legate de Monero dezmințite](/knowledge/monero-myths-debunked)/
-
-  * [Cum păstrează Dandelion++ confidențialitatea originilor tranzacțiilor Monero](/knowledge/monero-dandelion)/
-
-  * [De ce Monero este Open Source și descentralizat](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Mineritul Monero: Ce face ca RandomX să fie atât de special](/knowledge/monero-mining-randomx)/
-
-  * [De ce Monero este mai bun decât Dash, Zcash, Zcoin (chiar și cu Lelantus), Grin și Bitcoin Mixers ca Wasabi (actualizat în mai 2020)](/knowledge/why-monero-is-better)/
 
 Lecturi suplimentare

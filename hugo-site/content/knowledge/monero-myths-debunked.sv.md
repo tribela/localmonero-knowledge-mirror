@@ -26,24 +26,6 @@ Med det sagt finns det en del vanlig kritik mot Monero som antingen är föråld
   14. [Om Monero är så privat, hur kan vi då granska tillgången för att se till att ingen trycker gratis Monero framför näsan på oss?](/knowledge/monero-myths-debunked#14)/
   15. [Det mesta av Moneros nuvarande hashrate kommer från bara två pooler.](/knowledge/monero-myths-debunked#15)/
 
-  1. [Monero kommer att granskas av tillsynsmyndigheter långt utöver andra kryptovalutor på grund av sitt engagemang för integritet och anonymitet i sina transaktioner.](/knowledge/monero-myths-debunked#1)/
-  2. [Monero har färre plånboksalternativ.](/knowledge/monero-myths-debunked#2)/
-  3. [Monero har en dålig användarupplevelse.](/knowledge/monero-myths-debunked#3)/
-  4. [Monero kommer att bli obsolet om en mer populär blockkedja använder sig av stark integritetsteknik.](/knowledge/monero-myths-debunked#4)/
-  5. [Har inte Monero mycket höga transaktionsavgifter?](/knowledge/monero-myths-debunked#5)/
-  6. [En Monero-transaktion är många gånger större än en Bitcoin-transaktion.](/knowledge/monero-myths-debunked#6)/
-  7. [Monero har hårda förgreningar ganska ofta. Betyder inte det att den är centraliserad?](/knowledge/monero-myths-debunked#7)/
-  8. [Det här är fluffyponys personliga mynt!](/knowledge/monero-myths-debunked#8)/
-  9. [Majoriteten av åtagandena sedan 2017 har kommit från en individ känd som moneromooo-monero](/knowledge/monero-myths-debunked#9)/
-  10. [Är inte Monero lätt 51% attackerad?](/knowledge/monero-myths-debunked#10)/
-  11. [CPU-vänlig algoritm? Kommer inte Monero mining bara att tas över av botnät?](/knowledge/monero-myths-debunked#11)/
-  12. [Monero forks skadar inte bara Moneros ekonomiska bärkraft, utan även dess integritet!](/knowledge/monero-myths-debunked#12)/
-  13. [Hade inte Monero en förlamad gruvarbetare i början som användes för att berika grundarna?](/knowledge/monero-myths-debunked#13)/
-  14. [Om Monero är så privat, hur kan vi då granska tillgången för att se till att ingen trycker gratis Monero framför näsan på oss?](/knowledge/monero-myths-debunked#14)/
-  15. [Det mesta av Moneros nuvarande hashrate kommer från bara två pooler.](/knowledge/monero-myths-debunked#15)/
-
-## 1\. Monero kommer att granskas av tillsynsmyndigheter långt utöver andra kryptovalutor på grund av sitt engagemang för integritet och anonymitet i sina transaktioner.
-
 ## 1\. Monero kommer att granskas av tillsynsmyndigheter långt utöver andra kryptovalutor på grund av sitt engagemang för integritet och anonymitet i sina transaktioner.
 
 Detta är en vanlig kritik mot Monero, som får många att ge den en bred kaj, och det är överlägset den där samhällets respons inte är så skärrad som att bara korrigera ett felaktigt antagande.
@@ -58,13 +40,9 @@ Nu kan man hävda att Bitcoins rykte förändrades när folk insåg att det verk
 
 ## 2\. Monero har färre plånboksalternativ.
 
-## 2\. Monero har färre plånboksalternativ.
-
 Monero har verkligen färre plånboksalternativ än många befintliga mynt. Detta beror på att Monero utvecklades från grunden. Det är på en helt annan kodbas än Bitcoin. Detta innebär att Monero inte bara kan dela Bitcoin core-plånboken, eller någon annan plånbok som finns för Bitcoin som de flesta mynt gör, och dra nytta av befintlig infrastruktur. Det betyder också att Monero inte lika lätt kan läggas till tredje parts plånböcker, som Exodus.
 
 Och ändå, sakta men säkert, börjar plånböcker av alla slag dyka upp för Monero. Det var ett meme i många år att Monero inte hade ett GUI och inget stöd för mobil plånbok, men nu kunde ingenting vara längre från sanningen. Det finns plånböcker som passar Monero specifikt, som Monerujo för Android och Cake Wallet för både iOS och Android, samt nya som Wookey, Exa Wallet och mer. Dessutom börjar plånböcker från tredje part att lägga till Monero, om än i långsammare takt, inklusive Exodus och Guarda, och vi förväntar oss att denna trend bara kommer att fortsätta när tiden går och Moneros kodbas mognar.
-
-## 3\. Monero har en dålig användarupplevelse.
 
 ## 3\. Monero har en dålig användarupplevelse.
 
@@ -77,8 +55,6 @@ Vi inbjuder läsaren att läsa artiklar om de steg som Bitcoiners rekommenderar 
 Med Monero är den här tvättlistan med detaljer nästan helt borta. Varje Monero-transaktion behåller en hög nivå av integritet varje gång, utan att användaren behöver göra något eller använda extern programvara. Medan Bitcoin gör det svårt att få sekretess rätt för alla utom den mest erfarna användaren, gör Monero det svårt att göra fel, för alla, hela tiden. När det gäller kompromisser tycker vi att de längre adresserna och synkroniseringstiden är mer än värt det.
 
 Och även efter att ha diskuterat allt ovan kvarstår faktum att användarupplevelsen ofta blir bättre med tiden, och Monero är inget undantag. UX för ett mynt kan förbättras dramatiskt efter några år, men grunden för det är mycket svårare att ändra.
-
-## 4\. Monero kommer att bli obsolet om en mer populär blockkedja använder sig av stark integritetsteknik.
 
 ## 4\. Monero kommer att bli obsolet om en mer populär blockkedja använder sig av stark integritetsteknik.
 
@@ -102,8 +78,6 @@ Om du byter växel en sista gång för den här frågan, gäller mindre ofta det
 
 ## 5\. Har inte Monero mycket höga transaktionsavgifter?
 
-## 5\. Har inte Monero mycket höga transaktionsavgifter?
-
 Inte längre! Tack vare den fantastiska tekniken med skottsäkra, som lades till i oktober 2018, minskas transaktionsstorlekarna drastiskt (med över 80%), vilket leder till en liknande minskning av transaktionsavgifterna. Faktum är att i skrivande stund är Monero billigare per byte än Bitcoin, och ytterligare optimeringar av tekniken gör att dessa blir ännu lägre.
 
 Dessa optimeringar är varierande och frekventa. Ett exempel är smarta optimeringar i själva skottskydden, vilket minskar den matematik som krävs för både beräkning och verifiering, ibland med upp till 25 %
@@ -111,10 +85,6 @@ Dessa optimeringar är varierande och frekventa. Ett exempel är smarta optimeri
 Dessutom finns det nya spännande ringsignatursystem på gång, såsom CLSAG, som kommer att ersätta det nuvarande MLSAG-schemat och ytterligare krympa storleken på hela transaktionen med 25-35 %. Utöver detta finns ännu nyare, mer avancerade teknologier med helt andra bevissystem som har potential att behålla nuvarande transaktionsstorlekar, men som har ringstorlekar på över hundra, såsom Triptych, Arcturus och Lelantus, som alla är mindre och effektivare än nuvarande system.
 
 ## 6\. En Monero-transaktion är många gånger större än en Bitcoin-transaktion.
-
-## 6\. En Monero-transaktion är många gånger större än en Bitcoin-transaktion.
-
-## 7\. Monero har hårda förgreningar ganska ofta. Betyder inte det att den är centraliserad?
 
 ## 7\. Monero har hårda förgreningar ganska ofta. Betyder inte det att den är centraliserad?
 
@@ -128,13 +98,9 @@ Allt detta att säga, det decentraliserade utvecklingsteamet tycker att det är 
 
 ## 8\. Det här är fluffyponys personliga mynt!
 
-## 8\. Det här är fluffyponys personliga mynt!
-
 Detta är inte, och var aldrig, myntet av Riccardo "fluffypony" Spagni. Han klarade det inte ens. Det startades av en pseudonym person känd som thankful_for_today, och det finns en mycket intressant historia om det för en annan gång. Fluffypony blev känd som både en kärngruppsmedlem/lead underhållare, eftersom han gav mycket tid och resurser för att hjälpa myntet att växa, såväl som genom att resa och tala vid konferenser. Med dessa två saker kombinerade blev han ett slags inofficiellt ansikte för Monero, och var vanligtvis porten genom vilken folk hittade oss. På grund av den hemska VD-kulturen som var genomgående i kryptovalutascenen, antog de att han var grundaren och ledaren för Monero, vilket båda inte är sant.
 
 I dag är fluffypony fortfarande en del av kärnteamet, men är inte längre den ledande underhållaren av kodbasen och har tagit ett steg tillbaka för att arbeta med sina egna personliga projekt. Monero fortsätter fint.
-
-## 9\. Majoriteten av åtagandena sedan 2017 har kommit från en individ känd som moneromooo-monero
 
 ## 9\. Majoriteten av åtagandena sedan 2017 har kommit från en individ känd som moneromooo-monero
 
@@ -143,8 +109,6 @@ Detta är ett obestridligt faktum och det är inget att argumentera för. monero
 Som man kan föreställa sig kommer att arbeta på Monero heltid snarare än på volontärbasis resultera i stora mängder ackumulerat arbete. Eftersom Monero inte hade en premine, ICO, och inte tar någon grundares belöning, har vi annars inte heltidsingenjörer som arbetar med projektet, och människor bidrar med vad de kan, när de kan, och det är helt enkelt inte möjligt att förvänta sig dessa bidrag till uppväger en heltidsanställd.
 
 Som sagt, det finns fortfarande stora ansträngningar att ha kontroller och balanser. En medlem av kärnteamet slår fortfarande ihop koden efter granskning, så det är inte ett fall där en individ både skapar och integrerar koden och därigenom kringgår all tillsyn som behövs för att fånga ett allvarligt fel eller skadligt uppsåt.
-
-## 10\. Är inte Monero lätt 51% attackerad?
 
 ## 10\. Är inte Monero lätt 51% attackerad?
 
@@ -158,8 +122,6 @@ Den exakta kostnaden för hårdvara till 51 % attack mot Monero-nätverket har i
 
 ## 11\. CPU-vänlig algoritm? Kommer inte Monero mining bara att tas över av botnät?
 
-## 11\. CPU-vänlig algoritm? Kommer inte Monero mining bara att tas över av botnät?
-
 De två boogeymen i gruvutrymmet är ASIC:er och botnät, och att flytta bort från det ena innebär nödvändigtvis att gå närmare en annan. Om man behöver en CPU för att bryta Monero, så kan hackare teoretiskt ta kontroll över många hundra om inte tusentals sårbara datorer och tvinga dem att bryta Monero för deras räkning, vilket kostar dem ingenting och konkurrera ut de som bara har ett par datorer i sina hushåll .
 
 Det första vederlaget till detta argument handlar om ägarna av botnät själva. Även om vi inte tolererar att hacka andras datorer, är barriären för inträde för att äga och driva ett botnät mycket lägre än för att äga ASIC. Man kräver mjukvara – ofta ganska fritt tillgänglig och öppen källkod – och tid och skarpsinne för att sniffa upp sårbara datorer. Den andra kräver otroliga mängder kapital och tillgång till tillverkning. Det ena kan göras av ett barn i en källare, och det andra endast av de extremt rika. Detta leder oss till slutsatsen att om gruvarbetarnas värsta farhågor skulle besannas, skulle själva botnäten vara mer decentraliserade än vad ASIC skulle vara.
@@ -167,8 +129,6 @@ Det första vederlaget till detta argument handlar om ägarna av botnät själva
 Men som sagt, Monero-communityt är övertygat om att det här problemet är överdrivet. Ingenjörerna av RandomX designade medvetet protokollet för att kräva 2 GB RAM-minne för att fungera. Med andra ord, många små, sårbara virtuella privata servrar (VPS) kommer helt enkelt inte att ha kapaciteten, och om de hade det skulle ökningen av resurser som används vara mycket märkbar för en systemadministratör, vilket leder till omedelbar utredning. Med andra ord kan den inte köras tyst i bakgrunden som komprometterade datorer som deltar i en DDOS-attack eller tyst sniffar lösenord. När gruvarbetaren är igång vet alla det.
 
 Detta minskar mängden datorer som ett botnät framgångsrikt skulle kunna kompromissa med till de som är mycket tekniskt odugliga, eller de som aldrig kontrolleras, snarare än den mängd sårbara datorer som förespråkarna för detta argument antar är i riskzonen .
-
-## 12\. Monero forks skadar inte bara Moneros ekonomiska bärkraft, utan även dess integritet!
 
 ## 12\. Monero forks skadar inte bara Moneros ekonomiska bärkraft, utan även dess integritet!
 
@@ -186,8 +146,6 @@ Med det sagt, vi ser det som naivt att tro att det aldrig kommer att bli en atta
 
 ## 13\. Hade inte Monero en förlamad gruvarbetare i början som användes för att berika grundarna?
 
-## 13\. Hade inte Monero en förlamad gruvarbetare i början som användes för att berika grundarna?
-
 Historien om Monero är intressant, och det kan förvåna många att höra att det verkligen började som en bluff. Skaparen, thankful_for_today, var sannolikt i förbund med en kryptovalutagrupp som skapade CryptoNote-protokollet, men hade slingrande avsikter att lura människor från sina pengar genom att använda det.
 
 Deras första myntförsök misslyckades, så de skapade Monero som ett sätt att försöka igen. Detta misslyckades igen då samhället snabbt insåg att något var fel och tog tag i myntet. Trots det hade de luriga skaparna ett sista trick i rockärmen. De släppte till allmänheten avsiktligt deoptimerad gruvmjukvara, och behöll den optimerade versionen för sig själva för att utmana andra och tjäna massor av pengar på blockbelöningarna.
@@ -196,10 +154,6 @@ Detta lyckades ett tag, men fångades också snabbt av Monero-communityt, fixade
 
 Med facit i hand kan en del kritisera beslutet att inte återlansera myntet, och om dessa bluffiga ursprung räcker för att stöta bort en från det goda arbete Monero har gjort, så finns det inga argument för att svänga dem. Oavsett de initiala frustrationer som scammerskaparna orsakade, har Monero blomstrat och använt sitt kombinerade gemenskapsintellekt och passion för att skapa en kraftfull teknik. Vårt nuvarande kärnteam, såväl som de tidigare medlemmarna, berikades inte av den krymplinggruvan, och såvitt vi vet var ingen inblandad i den första bluffen i Monero-gemenskapen längre än de första veckorna av myntets existens.
 
-Med facit i hand kan en del kritisera beslutet att inte återlansera myntet, och om dessa bluffiga ursprung räcker för att stöta bort en från det goda arbete Monero har gjort, så finns det inga argument för att svänga dem. Oavsett de initiala frustrationer som scammerskaparna orsakade, har Monero blomstrat och använt sitt kombinerade gemenskapsintellekt och passion för att skapa en kraftfull teknik. Vårt nuvarande kärnteam, såväl som de tidigare medlemmarna, berikades inte av den krymplinggruvan, och såvitt vi vet var ingen inblandad i den första bluffen i Monero-gemenskapen längre än de första veckorna av myntets existens.
-
-## 14\. Om Monero är så privat, hur kan vi då granska tillgången för att se till att ingen trycker gratis Monero framför näsan på oss?
-
 ## 14\. Om Monero är så privat, hur kan vi då granska tillgången för att se till att ingen trycker gratis Monero framför näsan på oss?
 
 Det här är en svår fråga att svara på. Ett svar som ofta ges är att vi kan lägga ihop myntbastransaktionerna (när nya Monero belönas till en gruvarbetare för att lösa ett block). Dessa transaktioner är transparenta, och om vi lägger ihop dem bör vi få det totala antalet Monero i omlopp.
@@ -207,8 +161,6 @@ Det här är en svår fråga att svara på. Ett svar som ofta ges är att vi kan
 Det är dock viktigt att notera att om det skulle hända grejer som ökar mängden Monero utöver vad vi förväntar oss att se från myntbastransaktionerna, skulle de inte ske på själva myntbastransaktionerna, utan i en vanlig transaktion mellan plånböcker. Detta skulle bara hända på ett av tre sätt.
 
 Ett, om kryptografin som bevisar att ingen Monero skapades eller förstördes i en transaktion är fundamentalt felaktig. Två, om implementeringen (koden) av den solida kryptografin är felaktig. Tre, om ingen av dem är bristfällig, men datorer blir kraftfulla nog att slå igenom våra nuvarande kryptografiska system och skapa falska bevis.
-
-## 15\. Det mesta av Moneros nuvarande hashrate kommer från bara två pooler.
 
 ## 15\. Det mesta av Moneros nuvarande hashrate kommer från bara två pooler.
 
@@ -229,95 +181,5 @@ Men vi avviker.
 Du kommer att märka i vår uppmuntran till decentralisering ovan, att gruvarbetaren har makten att byta pooler. När som helst, oavsett om det kommer från bättre utbildning, ett samlat krav på decentralisering eller ökad konkurrens mellan pooler, kan hashfördelningen förändras baserat på att enskilda gruvarbetare ändrar var de riktar sina hash. Detsamma kan inte sägas om gruvdrift som är centraliserad på hårdvarunivå, eftersom ASIC-tillverkarna inte har några incitament att peka på någon annan pool än sin egen, och de kommer inte att göra det.
 
 Så det faktum att huvuddelen av Moneros hashrate koncentreras till ett par pooler är inte något vi har fastnat för, och faktiskt kan bero på bristande utbildning om gruvdrift i allmänhet. Det är något som kan fixas eftersom problemet inte ligger på rotnivån, till skillnad från Bitcoins hårdvarucentralisering.
-
-Detta är inte ett lösbart problem. De centraliserade gruvpoolerna äger hårdvaran, poolen och hasharna, och det finns inget som någon kan göra åt det.
-
-Poolcentralisering, även om slutresultatet är liknande, har mycket olika och mycket mer föränderliga grunder. Eftersom Monero har egalitär gruvdrift, kan varje gruvarbetare välja var de ska peka sina hash. Människor väljer ofta att peka på en större pool, helt enkelt för att det betyder att de kommer att se block hittas oftare än en mindre pool. 
-
-Det bör dock noteras att deras individuella snitt av blockbelöningen kommer att vara mindre eftersom de delar den med många fler människor. Mindre pooler hittar block mer sällan, men varje gruvarbetare får en större del av blockbelöningen, och slutresultatet är att en gruvarbetare faktiskt tjänar motsvarande summa pengar oavsett om de är på en mindre pool eller en större, så vi uppmuntrar gruvarbetare att peka deras hash till mindre pooler för att ytterligare decentralisera gruvdriften.
-
-Men vi avviker.
-
-Du kommer att märka i vår uppmuntran till decentralisering ovan, att gruvarbetaren har makten att byta pooler. När som helst, oavsett om det kommer från bättre utbildning, ett samlat krav på decentralisering eller ökad konkurrens mellan pooler, kan hashfördelningen förändras baserat på att enskilda gruvarbetare ändrar var de riktar sina hash. Detsamma kan inte sägas om gruvdrift som är centraliserad på hårdvarunivå, eftersom ASIC-tillverkarna inte har några incitament att peka på någon annan pool än sin egen, och de kommer inte att göra det.
-
-Så det faktum att huvuddelen av Moneros hashrate koncentreras till ett par pooler är inte något vi har fastnat för, och faktiskt kan bero på bristande utbildning om gruvdrift i allmänhet. Det är något som kan fixas eftersom problemet inte ligger på rotnivån, till skillnad från Bitcoins hårdvarucentralisering.
-
-Detta är inte ett lösbart problem. De centraliserade gruvpoolerna äger hårdvaran, poolen och hasharna, och det finns inget som någon kan göra åt det.
-
-Poolcentralisering, även om slutresultatet är liknande, har mycket olika och mycket mer föränderliga grunder. Eftersom Monero har egalitär gruvdrift, kan varje gruvarbetare välja var de ska peka sina hash. Människor väljer ofta att peka på en större pool, helt enkelt för att det betyder att de kommer att se block hittas oftare än en mindre pool. 
-
-Det bör dock noteras att deras individuella snitt av blockbelöningen kommer att vara mindre eftersom de delar den med många fler människor. Mindre pooler hittar block mer sällan, men varje gruvarbetare får en större del av blockbelöningen, och slutresultatet är att en gruvarbetare faktiskt tjänar motsvarande summa pengar oavsett om de är på en mindre pool eller en större, så vi uppmuntrar gruvarbetare att peka deras hash till mindre pooler för att ytterligare decentralisera gruvdriften.
-
-Men vi avviker.
-
-Du kommer att märka i vår uppmuntran till decentralisering ovan, att gruvarbetaren har makten att byta pooler. När som helst, oavsett om det kommer från bättre utbildning, ett samlat krav på decentralisering eller ökad konkurrens mellan pooler, kan hashfördelningen förändras baserat på att enskilda gruvarbetare ändrar var de riktar sina hash. Detsamma kan inte sägas om gruvdrift som är centraliserad på hårdvarunivå, eftersom ASIC-tillverkarna inte har några incitament att peka på någon annan pool än sin egen, och de kommer inte att göra det.
-
-Så det faktum att huvuddelen av Moneros hashrate koncentreras till ett par pooler är inte något vi har fastnat för, och faktiskt kan bero på bristande utbildning om gruvdrift i allmänhet. Det är något som kan fixas eftersom problemet inte ligger på rotnivån, till skillnad från Bitcoins hårdvarucentralisering.
-
-Vidare läsning
-
-  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies)/
-
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Varför (och hur!) du ska hålla i dina egna nycklar](/knowledge/hold-your-keys)/
-
-  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero)/
-
-  * [Hur fjärrnoder påverkar Moneros integritet](/knowledge/remote-nodes-privacy)/
-
-  * [Hur Monero använder hard-forks för att uppgradera nätverket](/knowledge/network-upgrades)/
-
-  * [Visa taggar: Hur en byte kommer att minska Monero plånbokssynkroniseringstider med 40% +](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Vad det kommer att göra för Monero](/knowledge/seraphis-for-monero)/
-
-  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Varför Monero är en bättre värdebevarare än Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect)/
-
-  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking)/
-
-  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams)/
-
-  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking)/
-
-  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct)/
-
-  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses)/
-
-  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses)/
-
-  * [Monero Utgångar Förklaras](/knowledge/monero-outputs)/
-
-  * [Monero bästa praxis för nybörjare](/knowledge/monero-best-practices)/
-
-  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures)/
-
-  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag)/
-
-  * [Varför Monero har en svans emission](/knowledge/monero-tail-emission)/
-
-  * [En kort historia om Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked)/
-
-  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion)/
-
-  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx)/
-
-  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better)/
 
 Vidare läsning

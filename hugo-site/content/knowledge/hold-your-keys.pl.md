@@ -14,8 +14,6 @@ W tym krótkim poście wytłumaczymy, dlaczego powinieneś trzymać własne kluc
 
 ## Dlaczego samodzielne trzymanie kluczy jest ważne?
 
-## Dlaczego samodzielne trzymanie kluczy jest ważne?
-
 Jednym z najczęściej niezrozumiałych aspektów przechowywania własnego Monero jest to, że jeśli nie trzymasz własnych kluczy, zyskujesz niewiele korzyści z prywatności Monero. _Nadawca transakcji widzi prawdziwe wydatki, kwotę i adres odbiorcy_ , Jeśli nie jesteś nadawcą i zamiast tego pozostawiasz to giełdzie lub aplikacji, która nie daje Ci kluczy, widzą one jak wydajesz Monero. 
 
 Na szczęście po wysłaniu funduszy Monero gwarantuje prywatność i zapewnia silną „forward-secrecy”, ale giełda lub aplikacja przechowująca Twoje klucze widzi ile i gdzie wysłałeś środki. 
@@ -37,8 +35,6 @@ Kolejny ważny aspekt trzymania własnych kluczy to aspekt, który jest bardziej
 Chociaż system rezerw cząstkowych w wykonaniu giełd nie jest oficjalnie potwierdzony, to jest wielu członków społeczności podejrzewających, że giełdy takie jak Binance wykorzystują użytkowników Monero do zakładania się przeciwko niemu i wypożyczają pieniądze użytkowników, aby sztucznie zwiększyć podaż Monero. 
 
 To zachowanie może prowadzić do kryzysów płynności Monero, gdy użytkownicy, którzy _chcą_ trzymać własne Monero nie mogą ich wypłacić z giełdy, ponieważ giełda, która im je sprzedała nie ma ich dostępnych. Im więcej Monero użytkownicy samodzielnie będą przechowywali poza giełdami, tym zdrowsza i bardziej naturalna będzie cena i rynek Monero, a ewentualna wroga giełda będzie miała mniejszą możliwość ataku ceny Monero.
-
-## Jak przechowywać własne klucze Monero?
 
 ## Jak przechowywać własne klucze Monero?
 
@@ -72,78 +68,10 @@ Dla tych z nas, którzy lubią mieć Monero ze sobą lub często wydają, posiad
 
 ## Wniosek
 
-## Wniosek
-
 Mamy nadzieję, że ten post wzmocnił w Tobie potrzebę samodzielnego trzymania własnych kluczy, a także nakierował na niektóre doskonałe portfele.
 
 Im więcej bierzesz Monero we własne ręce i faktycznie go używasz, tym więcej korzyści możesz uzyskać zarówno teraz, jak i w przyszłości. Monero to nie tylko spekulacja - jest to potężne narzędzie dla wolności i prywatnych finansów, które są nam bardzo potrzebne w dzisiejszym świecie i w niedługiej przyszłości 
 
 Teraz idź wypłacić to Monero z giełd i zanurz się w tym, do czego Monero jest stworzone. 
-
-Więcej do przeczytania
-
-  * [Jak Monero jednoznacznie umożliwia circular economies](/knowledge/monero-circular-economies)/
-
-  * [Ring signatures w Monero vs CoinJoin jak w Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Wspieranie Monero](/knowledge/contributing-to-monero)/
-
-  * [Jak zdalne węzły wpływają na prywatność Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Jak Monero używa hard forków do aktualizacji sieci](/knowledge/network-upgrades)/
-
-  * [View tags: Jak jeden bajt skróci czas synchronizacji portfela Monero o 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool i jego rola w decentralizacji kopania Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis - Co zrobi dla Monero](/knowledge/seraphis-for-monero)/
-
-  * [Czy sprzedaż Bitcoinów za Monero jest tak samo prywatna jak kupno Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Dlaczego Monero nie wykorzystuje specjalnej konfiguracji w przeciwieństwie do Zcasha](/knowledge/monero-trustless-setup)/
-
-  * [Dlaczego Monero lepiej przechowuje wartości niż Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Jak Monero może pokonać efekt sieciowy Bitcoina](/knowledge/network-effect)/
-
-  * [Dlaczego Monero ma najbardziej krytycznie myślącą społeczność](/knowledge/critical-thinking)/
-
-  * [Oszustwa, na które należy uważać korzystając z Monero](/knowledge/monero-scams)/
-
-  * [Jak wymiany atomiczne będą działały w Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Co każdy użytkownik Monero musi wiedzieć o jego sieci](/knowledge/monero-networking)/
-
-  * [Jak RingCT ukrywa ilości w transakcjach Monero](/knowledge/monero-ringct)/
-
-  * [Jak stealth addresses chronią Twoją tożsamość](/knowledge/monero-stealth-addresses)/
-
-  * [Jak subadresy zapobiegają łączeniu tożsamości](/knowledge/monero-subaddresses)/
-
-  * [Wyjścia Monero wyjaśnione](/knowledge/monero-outputs)/
-
-  * [Dobre praktyki Monero dla początkujących](/knowledge/monero-best-practices)/
-
-  * [Jak ring signatures chowają wyjścia Monero](/knowledge/ring-signatures)/
-
-  * [Jak Monero rozwiązało problem rozmiaru bloku nękający Bitcoina](/knowledge/dynamic-block-size)/
-
-  * [Jak CLSAG poprawi wydajność Monero](/knowledge/what-is-clsag)/
-
-  * [Dlaczego Monero ma Tail Emission](/knowledge/monero-tail-emission)/
-
-  * [Krótka historia Monero](/knowledge/monero-history)/
-
-  * [Oto dlaczego magazyn Wired myli się co do Monero](/knowledge/wired-article-debunked)/
-
-  * [15 najczęstszych obalonych mitów i obaw o Monero](/knowledge/monero-myths-debunked)/
-
-  * [Jak Dandelion++ prywatyzuje źródło transakcji Monero](/knowledge/monero-dandelion)/
-
-  * [Dlaczego Monero jest open source i zdecentralizowane](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Kopanie Monero: Co sprawia, że RandomX jest wyjątkowy](/knowledge/monero-mining-randomx)/
-
-  * [Dlaczego Monero jest lepsze niż Dash, Zcash, Zcoin (nawet z Lelantus), Grin oraz od mikserów Bitcoina takich jak Wasabi (Zaktualizowano w maju 2020 r.)](/knowledge/why-monero-is-better)/
 
 Więcej do przeczytania

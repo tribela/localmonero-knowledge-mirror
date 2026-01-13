@@ -12,8 +12,6 @@ I det här inlägget går vi igenom vad hårdgafflar är, varför de är viktiga
 
 ## Varför behöver Monero fortsätta att uppgradera nätverket?
 
-## Varför behöver Monero fortsätta att uppgradera nätverket?
-
 Monero-communityt har förbundit sig att upprepa och förbättra projektet över tid, och det verkar som att engagemanget kokar ner till två nyckelaspekter av communityns etos:
 
   1. Monero-projektet är i slutändan mjukvara – kod – skriven av människor. Detta kan leda till ett behov av att fixa buggar, lägga till förbättringar som upptäcks eller uppfinns över tid, implementera moderniseringar av protokollet eller att helt enkelt underhålla projektet. Detta liknar på många sätt de andra programvarorna du använder (som webbläsaren du läser detta i!), som hela tiden måste uppdateras för att kunna lägga till nya funktioner och fixa buggar.
@@ -26,8 +24,6 @@ Monero-projektet är ett sekretessverktyg och integritet är en ständigt framsk
 
 ## Vad är en hårdgaffel?
 
-## Vad är en hårdgaffel?
-
 Komplexiteten i att uppgradera Monero träder i kraft när du förstår hur annorlunda det är att uppgradera en kryptovaluta jämfört med att bara skicka en mjukvaruuppdatering till något som en webbläsare.
 
 I kryptovalutor måste nätverkets regler (saker som hur transaktioner ska se ut, hur gruvdrift fungerar och hur man verifierar varje block) överenskommas av nätverket, något som kallas "konsensus". När någon av dessa regler behöver ändras eller uppgraderas måste nätverket komma överens om de nya reglerna, vilket orsakar en "hard-fork" - en situation där nätverket faktiskt delas upp i två kedjor av block - en på de gamla reglerna, och en om de nya reglerna.
@@ -35,8 +31,6 @@ I kryptovalutor måste nätverkets regler (saker som hur transaktioner ska se ut
 När alla i samhället är överens om regeländringarna kallas det en "icke-kontentiös hårdgaffel", och kedjan som fortfarande har de gamla reglerna dör ut och bryts inte efter hårdgaffeln. Detta har varit fallet för nästan varje Monero hårdgaffel, och den enda fortsättningen på gamla regler var genom projekt som försökte dra nytta av hårdgaffeln.
 
 Medan ostridiga hårdgafflar är det enda sättet att korrekt uppgradera viktiga aspekter av Monero-nätverket, har de också en frustrerande bieffekt – gammal programvara, som släpptes innan hårdgaffeln planerades, kan inte förstå den nya regler för nätverket och så fungerar inte efter hårdgaffeln! Detta kan leda till att användare tror att pengar går förlorade, tror att Monero-blockkedjan har slutat och att de inte kan flytta pengar förrän de uppgraderar sin plånbok.
-
-## Vem bestämmer när Monero-nätverket ska uppgraderas och vad som ska ingå?
 
 ## Vem bestämmer när Monero-nätverket ska uppgraderas och vad som ska ingå?
 
@@ -56,8 +50,6 @@ Om du har en viktig idé för en nätverksuppgradering, inte gillar ett tillväg
 
 ## Hur kan jag hjälpa till med nätverksuppgraderingar?
 
-## Hur kan jag hjälpa till med nätverksuppgraderingar?
-
 Eftersom uppgraderingar av Monero-nätverket kräver gemenskapskoordinering och godkännande tillsammans med programuppdateringar, är det oerhört viktigt att så många människor som möjligt engagerar sig i planeringen, testningen och kommunikationsprocessen för nätverksuppgraderingar.
 
 Här är några enkla sätt du kan hjälpa till att smidiga upp kring en nätverksuppgradering:
@@ -66,8 +58,6 @@ Här är några enkla sätt du kan hjälpa till att smidiga upp kring en nätver
   2. Kommunicera detaljerna kring nätverksuppgraderingens timing (när du har bestämt dig!) till din favoritbörs, plånbok eller miningpool. Det kan vara svårt att informera alla Monero-användare om en uppgradering, så det är viktigt att vi alla hjälper till där vi kan för att få ut ordet.
   3. Testa programvaran innan nätverksuppgraderingen. Det kommer att skickas ut ett samtal till testare innan nätverksuppgraderingen, både på testnet och stagenet, för att säkerställa att varje aspekt av uppgraderingen har planerats ordentligt för och implementerats i mjukvaran. Ju fler som engagerar sig och testar de nya versionerna noggrant, desto mer sannolikt kommer nätverksuppgraderingen att gå smidigt!
   4. När utgåvor som är kompatibla med nätverksuppgraderingen har publicerats, se till att uppgradera omedelbart! Ju fler som är uppgraderade och redo för nätverksuppgraderingen, desto smidigare kommer nätverket att hantera det och desto mindre huvudvärk kommer användare att uppleva.
-
-## Vad kan jag förvänta mig av nästa uppgradering av Monero-nätverket?
 
 ## Vad kan jag förvänta mig av nästa uppgradering av Monero-nätverket?
 
@@ -82,78 +72,10 @@ Dessa förändringar kommer att bidra långt till att öka integriteten, effekti
 
 ## Hur kan jag lära mig mer?
 
-## Hur kan jag lära mig mer?
-
 Ämnet hårdgaffel och nätverksuppgraderingar är omfattande och det finns en lång och historisk historia av dem i Monero, så se till att gräva i några av följande länkar om du vill lära dig mer om historik, process eller planering som pågår för den kommande nätverksuppgraderingen!
 
   * [Monero v15 hårdgaffelplanering](https://github.com/monero-project/meta/issues/630)
   * [Schemalagda mjukvaruuppgraderingar (i Monero)](https://github.com/monero-project/monero#scheduled-software-upgrades)
   * [En notering om schemalagda protokolluppgraderingar](https://web.getmonero.org/2020/09/01/note-scheduled-upgrades.html)
-
-Vidare läsning
-
-  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies)/
-
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Varför (och hur!) du ska hålla i dina egna nycklar](/knowledge/hold-your-keys)/
-
-  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero)/
-
-  * [Hur fjärrnoder påverkar Moneros integritet](/knowledge/remote-nodes-privacy)/
-
-  * [Visa taggar: Hur en byte kommer att minska Monero plånbokssynkroniseringstider med 40% +](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Vad det kommer att göra för Monero](/knowledge/seraphis-for-monero)/
-
-  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Varför Monero är en bättre värdebevarare än Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect)/
-
-  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking)/
-
-  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams)/
-
-  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking)/
-
-  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct)/
-
-  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses)/
-
-  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses)/
-
-  * [Monero Utgångar Förklaras](/knowledge/monero-outputs)/
-
-  * [Monero bästa praxis för nybörjare](/knowledge/monero-best-practices)/
-
-  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures)/
-
-  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag)/
-
-  * [Varför Monero har en svans emission](/knowledge/monero-tail-emission)/
-
-  * [En kort historia om Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked)/
-
-  * [Topp 15 Monero myter och bekymmer debunked](/knowledge/monero-myths-debunked)/
-
-  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion)/
-
-  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx)/
-
-  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better)/
 
 Vidare läsning

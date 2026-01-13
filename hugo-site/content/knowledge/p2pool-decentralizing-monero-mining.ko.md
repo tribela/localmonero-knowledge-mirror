@@ -12,21 +12,15 @@ RandomX 와 같은 고유한 마이닝 알고리즘 [은 컴퓨터가 있는 모
 
 ## 풀 마이닝이란 무엇입니까?
 
-## 풀 마이닝이란 무엇입니까?
-
 풀 마이닝은 채굴자가 네트워크의 블록을 해결한 다음 풀이 찾은 모든 블록에 대해 보상을 균등하게 공유하려고 시도하는 작업을 공유하는 방법입니다. 이것은 광부가 마이닝 Monero 에 혼자 지불하는 주파수를 고르게하는 데 대단히 도움이되지만 심각한 중앙 집중 화 문제가없는 것은 아닙니다.
 
 각 광부가 풀에 기여함에 따라, 그들은 그들이하는 모든 일을 통제하고 수영장 자체에 발견 블록, 수영장이 정직하고 공정하게 각 수행 한 작업의 양에 따라 모든 광부 들 사이의 보상을 공유 할 것이라고 신뢰. 모든 것이 잘 되면 풀 운영자는 모든 광부의 작업을 수집하고 네트워크에 제출하고 보상을 동등하게 공유합니다.
 
 ## 풀 마이닝의 문제점은 무엇입니까?
 
-## 풀 마이닝의 문제점은 무엇입니까?
-
 불행히도, 이것은 전적으로 신뢰에 의존하고 풀 운영자가 광부에 의해 수행되는 작업으로 사악한 일을 할 수 있게합니다. 풀 운영자는 네트워크를 공격하거나, 자금을 두 번 지출하려고 시도하거나(풀이 충분히 큰 경우) 수행중인 작업을 사용하거나 광부가 스스로 지불하고 광부에게 제대로 보상하지 않는 작업을 사용할 수 있습니다.
 
 네트워크의 가장 큰 위험은 네트워크의 51% 이상을 보유한 풀(또는 여러 풀)이 이를 사용하여 자금을 두 번(이중 지출 공격)하거나 네트워크 규칙을 변경하려고 시도할 수 있다는 것입니다.
-
-## 피투풀이란?
 
 ## 피투풀이란?
 
@@ -38,15 +32,11 @@ p2pool을 사용하면 채굴자가 함께 협력하여 작업을 공유하기 �
 
 ## p2pool은 풀 마이닝 문제를 어떻게 해결합니까?
 
-## p2pool은 풀 마이닝 문제를 어떻게 해결합니까?
-
 p2pool에는 중앙 집중식 수영장, 중앙 집중식 수영장 운영자 또는 자금을 보유하고 지불금을 배포하는 한 사람이 없습니다. p2pool을 통해 채굴하는 모든 작업은 p2pool 블록 체인 및 기타 노드 운영자가 합법적임을 확인하기 위해 검사되며 모든 광부는 블록이 발견 된 블록의 보상에서 직접 발견 될 때 즉시 수행 한 작업에 따라 지불됩니다.
 
 광부가 중앙 집중식 풀 대신 p2pool을 사용하기로 선택할 때 풀 운영자의 모든 전력과 신뢰를 제거하고 자신의 작업이 네트워크의 양호와 자신의 보상에 기여하도록 보장하고 네트워크 공격의 위험을 감소, 작업의 오용, 또는 그들이 빚진 보상의 도난.
 
 이것이 그들이 자신의 이익을 보호하는 데 도움이 될뿐만 아니라 중앙 집중식 풀이 전체적으로 Monero 네트워크에 제기 할 수있는 위험을 줄입니다. p2pool 사용은 또한 국가 또는 규제 기관이 네트워크의 건강에 제기 할 수있는 위험을 줄이는 데 대단히 도움이, 압력에 중앙 집중화 풀 사업자가 없기 때문에, 에 의지 풀의 지리적 농도, 또는 그들이 Monero에 대해 사용하는 다른 쉬운 압력 지점.
-
-## 단점은 무엇입니까?
 
 ## 단점은 무엇입니까?
 
@@ -56,14 +46,10 @@ p2pool에는 중앙 집중식 수영장, 중앙 집중식 수영장 운영자 �
 
 ## 시작하려면 어떻게 해야 하나요?
 
-## 시작하려면 어떻게 해야 하나요?
-
 고맙게도 Monero'의 p2pool 구현의 탁월한 디자인과 p2pool을 통한 마이닝 프로세스를 단순화하는 데 시간을 투자한 커뮤니티의 많은 사람들 덕분에 시간이 지남에 따라 시작하는 것이 더 간단해지고 있습니다. p2pool을 사용하여 마이닝을 시작하는 방법에는 여러 가지가 있지만 기술적인 세부 사항은 이 문서의 범위를 벗어나므로 운영 체제에 따라 아래 링크로 자유롭게 이동하십시오.
 
   * [Windows](https://www.youtube.com/watch?v=yfbvTksF9ic)
   * [Linux](https://sethforprivacy.com/guides/run-a-p2pool-node/)
-
-## 자세히 알아보려면 어떻게 해야 하나요?
 
 ## 자세히 알아보려면 어떻게 해야 하나요?
 
@@ -75,71 +61,5 @@ p2pool에는 중앙 집중식 수영장, 중앙 집중식 수영장 운영자 �
   * [살고있다, "블록 익스플로러는 p2풀](https://p2pool.observer/)
   * [모네로 p2pool docker-compose](https://github.com/WeebDataHoarder/p2pool-compose)
   * [세르게이 체르니크에 대한 종류의" : P2Pool의 개발에 분산 된 XMR 광산 풀](https://www.monerotalk.live/sergei-chernykh-on-his-development-of-p2pool-a-decentralized-xmr-mining-pool)
-
-더 보기
-
-  * [Monero가 순환 경제를 가능하게 하는 방법](/knowledge/monero-circular-economies)/
-
-  * [와사비처럼 모네로의 링 시그니처 vs 코인조인](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [자신의 키를 보유해야 하는 이유(및 방법!)](/knowledge/hold-your-keys)/
-
-  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero)/
-
-  * [원격 노드가 Monero의 개인 정보에 미치는 영향](/knowledge/remote-nodes-privacy)/
-
-  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades)/
-
-  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero)/
-
-  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup)/
-
-  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value)/
-
-  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect)/
-
-  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking)/
-
-  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams)/
-
-  * [Monero에서 원자 스왑이 작동하는 방법](/knowledge/monero-atomic-swaps)/
-
-  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking)/
-
-  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct)/
-
-  * [모네로 비밀주소가 신상을 보호하는 방법](/knowledge/monero-stealth-addresses)/
-
-  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses)/
-
-  * [모네로 출력에 대하여](/knowledge/monero-outputs)/
-
-  * [초보자를 위한 모네로 사용 습관 추천](/knowledge/monero-best-practices)/
-
-  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures)/
-
-  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size)/
-
-  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag)/
-
-  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission)/
-
-  * [모네로의 간단한 역사](/knowledge/monero-history)/
-
-  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked)/
-
-  * [모네로에 관한 15가지 미신과 우려, 그리고 그 해답](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion)/
-
-  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx)/
-
-  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better)/
 
 더 보기

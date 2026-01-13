@@ -26,24 +26,6 @@ Moneroa kohtaan on kuitenkin esitetty joitain yleisiä kritiikkejä, jotka ovat 
   14. [Jos Monero on niin yksityinen, kuinka voimme tarkastaa toimituksen varmistaaksemme, että kukaan ei tulosta ilmaista Moneroa nenämme alla?](/knowledge/monero-myths-debunked#14)/
   15. [Suurin osa Moneron nykyisestä hashratesta tulee vain kahdesta poolista.](/knowledge/monero-myths-debunked#15)/
 
-  1. [Monero joutuu viranomaisvalvonnan kohteeksi paljon muita kryptovaluuttoja enemmän, koska se on sitoutunut yksityisyyteen ja anonyymiteen transaktioissaan.](/knowledge/monero-myths-debunked#1)/
-  2. [Monerolla on vähemmän lompakkovaihtoehtoja.](/knowledge/monero-myths-debunked#2)/
-  3. [Monerolla on huono käyttäjäkokemus.](/knowledge/monero-myths-debunked#3)/
-  4. [Monero tulee vanhentuneeksi, jos suositumpi lohkoketju ottaa käyttöön vahvan tietosuojatekniikan.](/knowledge/monero-myths-debunked#4)/
-  5. [Eikö Monerolla ole erittäin korkeat transaktiokulut?](/knowledge/monero-myths-debunked#5)/
-  6. [Monero-transaktio on monta kertaa suurempi kuin Bitcoin-transaktio.](/knowledge/monero-myths-debunked#6)/
-  7. [Monerolla on "hard forkit" melko usein. Eikö tämä tarkoita, että se on keskitetty?](/knowledge/monero-myths-debunked#7)/
-  8. [Tämä on fluffyponyn henkilökohtainen kolikko!](/knowledge/monero-myths-debunked#8)/
-  9. [Suurin osa vuoden 2017 jälkeen tehdyistä sitoumuksista on tullut henkilöltä, joka tunnetaan nimellä moneromooo-monero](/knowledge/monero-myths-debunked#9)/
-  10. [Eikö Moneroa hyökätä helposti 51-prosenttiseksi?](/knowledge/monero-myths-debunked#10)/
-  11. [Prosessoriystävällinen algoritmi? Eivätkö botnetit vain ota Moneron louhintaa haltuunsa?](/knowledge/monero-myths-debunked#11)/
-  12. [Monero "forkit" eivät vain vahingoita Moneron taloudellista elinkelpoisuutta, vaan sen yksityisyyttä!](/knowledge/monero-myths-debunked#12)/
-  13. [Eikö Monerolla ollut alkuaikoina "vammautunut" louhija, jota käytettiin perustajien rikastamiseen?](/knowledge/monero-myths-debunked#13)/
-  14. [Jos Monero on niin yksityinen, kuinka voimme tarkastaa toimituksen varmistaaksemme, että kukaan ei tulosta ilmaista Moneroa nenämme alla?](/knowledge/monero-myths-debunked#14)/
-  15. [Suurin osa Moneron nykyisestä hashratesta tulee vain kahdesta poolista.](/knowledge/monero-myths-debunked#15)/
-
-## 1\. Monero joutuu viranomaisvalvonnan kohteeksi paljon muita kryptovaluuttoja enemmän, koska se on sitoutunut yksityisyyteen ja anonyymiteen transaktioissaan.
-
 ## 1\. Monero joutuu viranomaisvalvonnan kohteeksi paljon muita kryptovaluuttoja enemmän, koska se on sitoutunut yksityisyyteen ja anonyymiteen transaktioissaan.
 
 Tämä on yleinen Moneroa koskeva kritiikki, mikä saa monet välttämään sitä, ja se on selkeästi yksi, jossa yhteisön vastaus ei ole yhtä yksinkertainen kuin väärinkäsityksen oikaiseminen. 
@@ -58,13 +40,9 @@ Nyt voisi argumentoida, että Bitcoinin maine muuttui, kun ihmiset huomasivat, e
 
 ## 2\. Monerolla on vähemmän lompakkovaihtoehtoja.
 
-## 2\. Monerolla on vähemmän lompakkovaihtoehtoja.
-
 Monerolla on todellakin vähemmän lompakkovaihtoehtoja kuin monilla olemassa olevilla kolikoilla. Tämä johtuu siitä, että Monero kehitettiin täysin nollasta. Se on täysin eri koodikannassa kuin Bitcoin. Tämä tarkoittaa, että Monero ei voi vain forkata Bitcoin-ydinlompakkoa tai muita Bitcoinille olemassa olevia lompakoita, kuten useimmat kolikot tekevät ja hyödyntävät olemassa olevaa infrastruktuuria. Se tarkoittaa myös sitä, että Moneroa ei voida yhtä helposti lisätä kolmansien osapuolien lompakoihin, kuten Exodukseen.
 
 Silti hitaasti mutta varmasti, Monerolle alkaa ilmaantua kaikenlaisia lompakoita. Monerolla ei ollut graafista käyttöliittymää eikä mobiililompakkotukea ja se oli pitkään yleinen vitsi, mutta nyt vitsit ei voisi olla kauempana totuudesta. On lompakoita jotka palvelevat erityisesti Moneroa, kuten Monerujo Androidille ja Cake Wallet sekä iOS:lle että Androidille, sekä uusia, kuten Wookey, Exa Wallet ja paljon muita. Lisäksi kolmansien osapuolien lompakot ovat alkaneet lisätä Moneroa lompakkoihinsa, vaikkakin hitaammin, mukaan lukien Exodus ja Guarda, ja odotamme tämän trendin jatkuvan vain ajan edetessä ja Moneron koodikannan kypsyessä.
-
-## 3\. Monerolla on huono käyttäjäkokemus.
 
 ## 3\. Monerolla on huono käyttäjäkokemus.
 
@@ -77,8 +55,6 @@ Pyydämme lukijaa lukemaan artikkeleita vaiheista, joita Bitcoiners suositteleva
 Moneron kanssa tämä yksityiskohtien luettelo on kokonaan poistettu. Jokainen Monero-transaktio säilyttää korkean tason yksityisyyden joka kerta ilman, että käyttäjän tarvitsee tehdä mitään erityistä tai käyttää ulkoista ohjelmistoa. Vaikka Bitcoin vaikeuttaa yksityisyyden saamista oikein kaikille paitsi kokeneimmille käyttäjille, Moneron kanssa yksityisyydessä eoäonnistuminen on vaikeaa kaikille, koko ajan. Mitä tulee kompromisseihin, uskomme että pidemmät osoitteet ja synkronointiaika ovat enemmän kuin sen arvoisia.
 
 Ja vaikka kaikesta yllä olevasta on keskusteltu, on tosiasia että käyttökokemus paranee usein ajan myötä, eikä Monero ole poikkeus. Kolikon käyttökokemusta voidaan parantaa dramaattisesti muutaman vuoden kuluttua, mutta sen perustaa on paljon vaikeampi muuttaa.
-
-## 4\. Monero tulee vanhentuneeksi, jos suositumpi lohkoketju ottaa käyttöön vahvan tietosuojatekniikan.
 
 ## 4\. Monero tulee vanhentuneeksi, jos suositumpi lohkoketju ottaa käyttöön vahvan tietosuojatekniikan.
 
@@ -102,8 +78,6 @@ Vaihdetaan viimeisen kerran tähän kysymykseen, harvemmin tämä argumentti pä
 
 ## 5\. Eikö Monerolla ole erittäin korkeat transaktiokulut?
 
-## 5\. Eikö Monerolla ole erittäin korkeat transaktiokulut?
-
 Ei enää! Lokakuussa 2018 lisätyn ihmeellisen luodinkestävän teknologian ansiosta transaktiokoko pienenee huomattavasti (yli 80 %), mikä johtaa vastaavaan laskuun transaktiokuluissa. Itse asiassa, kirjoittamishetkellä Monero on halvempi tavua kohden kuin Bitcoin ja tekniikan lisäoptimoinnit laskevat kuluja vieläkin alhaisemmaksi.
 
 Nämä optimoinnit ovat erilaisia ja toistuvia. Yksi esimerkki on itse luodinkestävän järjestelmän älykkäät optimoinnit, jotka vähentävät sekä laskennan että varmentamisen edellyttämää matematiikkaa, joskus jopa 25 %.
@@ -111,10 +85,6 @@ Nämä optimoinnit ovat erilaisia ja toistuvia. Yksi esimerkki on itse luodinkes
 Lisäksi työn alla on uusia, jännittäviä sormusallekirjoitusjärjestelmiä, kuten CLSAG, joka korvaa nykyisen MLSAG-järjestelmän ja pienentää koko transaktion kokoa entisestään 25-35%. Tämän lisäksi on olemassa vielä uudempia, kehittyneempiä teknologioita täysin erilaisilla todistusjärjestelmillä, joilla on mahdollisuus säilyttää nykyiset transaktiokoot, mutta joiden sormusten koko on yli sata, kuten Triptyykki, Arcturus ja Lelantus, jotka kaikki ovat pienempiä ja tehokkaampia kuin nykyiset järjestelmät.
 
 ## 6\. Monero-transaktio on monta kertaa suurempi kuin Bitcoin-transaktio.
-
-## 6\. Monero-transaktio on monta kertaa suurempi kuin Bitcoin-transaktio.
-
-## 7\. Monerolla on "hard forkit" melko usein. Eikö tämä tarkoita, että se on keskitetty?
 
 ## 7\. Monerolla on "hard forkit" melko usein. Eikö tämä tarkoita, että se on keskitetty?
 
@@ -128,13 +98,9 @@ Kaikki tämä tiivistää siihen, että hajautetun kehitystiimin on liian vaikea
 
 ## 8\. Tämä on fluffyponyn henkilökohtainen kolikko!
 
-## 8\. Tämä on fluffyponyn henkilökohtainen kolikko!
-
 Tämä ei ole, eikä koskaan ollutkaan, Riccardo "fluffypony" Spagnin kolikko. Hän ei edes selvinnyt. Kolikon aloitti pseudonyymi henkilö, joka tunnetaan nimellä "thankful_for_today", ja siitä on erittäin mielenkiintoinen tarina kerrottavaksi toisella kertaa. Fluffypony sai mainetta sekä ydintiimin jäsenenä/pääylläpitäjänä, koska hän antoi paljon omaa aikaa ja resursseja auttaakseen kolikon kasvua sekä matkustamalla ja puhumalla konferensseissa. Kun nämä kaksi asiaa yhdistettiin, hänestä tuli eräänlainen epävirallinen kasvo Monerolle, ja hän oli yleensä portti, jonka kautta ihmiset löysivät meidät. Kryptovaluuttojen alalla vallitsevan kauhean toimitusjohtajakulttuurin vuoksi he olettivat hänen olleen Moneron perustaja ja johtaja, jotka kumpikaan eivät pidä paikkaansa.
 
 Tänä päivänä fluffypony on edelleen osa ydintiimiä, mutta ei ole enää koodikannan pääylläpitäjä, vaan on palannut omiin henkilökohtaisiin projekteihinsa. Monero jatkaa hienosti itsekseen.
-
-## 9\. Suurin osa vuoden 2017 jälkeen tehdyistä sitoumuksista on tullut henkilöltä, joka tunnetaan nimellä moneromooo-monero
 
 ## 9\. Suurin osa vuoden 2017 jälkeen tehdyistä sitoumuksista on tullut henkilöltä, joka tunnetaan nimellä moneromooo-monero
 
@@ -143,8 +109,6 @@ Tämä on kiistaton tosiasia, eikä siitä kannata kiistellä. moneromooo on Mon
 Kuten voi kuvitella, työskentely Monerolla täysipäiväisesti vapaaehtoistyön sijaan johtaa suuriin työmääriin. Koska Monerolla ei ollut pääministeriä, ICO:ta, eikä se saa perustajapalkkiota, meillä ei muuten ole täysipäiväisiä insinöörejä, jotka työskentelevät projektin parissa ja ihmiset osallistuvat mitä voivat, milloin voivat, eikä ole yksinkertaisesti mahdollista odottaa että tämä tuki yittäisi täyspäiväiset työntekijät.
 
 Tarkistusten ja tasapainon saavuttamiseksi on kuitenkin vielä paljon vaivaa. Ydintiimin jäsen yhdistää koodin edelleen katselmoinnin jälkeen, joten kyseessä ei ole tapaus, jossa henkilö sekä tekee että integroi koodin ohittaen siten kaiken valvonnan, jota tarvitaan törkeän virheen tai haitallisen tarkoituksen havaitsemiseen.
-
-## 10\. Eikö Moneroa hyökätä helposti 51-prosenttiseksi?
 
 ## 10\. Eikö Moneroa hyökätä helposti 51-prosenttiseksi?
 
@@ -158,8 +122,6 @@ Moneron verkkoon kohdistuvan 51% hyökkäyksen laitteiston tarkkaa hintaa ei ole
 
 ## 11\. Prosessoriystävällinen algoritmi? Eivätkö botnetit vain ota Moneron louhintaa haltuunsa?
 
-## 11\. Prosessoriystävällinen algoritmi? Eivätkö botnetit vain ota Moneron louhintaa haltuunsa?
-
 Louhinnan kaksi kauhua ovat ASICit ja botnetit, ja yhdestä pois siirtyminen tarkoittaa välttämättä siirtymistä lähemmäksi toista. Jos Moneron louhimiseen tarvitaan prosessori, hakkerit voivat teoriassa ottaa haltuunsa useita satoja ellei tuhansia haavoittuvia tietokoneita ja pakottaa ne louhimaan Moneroa puolestaan, mikä ei maksa heille mitään ja kilpailee niistä, joilla on vain muutama tietokone. 
 
 Ensimmäinen vastalause tälle väitteelle koskee itse bottiverkkojen omistajia. Vaikka emme suvaitse muiden tietokoneiden hakkerointia, este bottiverkon omistamiselle ja käytölle on paljon alhaisempi kuin ASIC-verkkojen omistamisen. Vaatii ohjelmistoja – usein melko vapaasti saatavilla ja avoimen lähdekoodin – sekä aikaa ja taitoa haavoittuvien tietokoneiden haistelemiseen. Toinen vaatii uskomattomia määriä pääomaa ja pääsyä tuotantoon. Toisen voi tehdä lapsi kellarissa ja toisen vain erittäin varakkaat. Tämä johtaa siihen johtopäätökseen, että jos louhijoiden pahimmat pelot toteutuisivat, itse botnetit olisivat hajautetumpia kuin ASIC-verkot.
@@ -167,8 +129,6 @@ Ensimmäinen vastalause tälle väitteelle koskee itse bottiverkkojen omistajia.
 Monero-yhteisö uskoo kuitenkin, että tämä ongelma on liioiteltu. RandomX:n insinöörit suunnittelivat protokollan tarkoituksella vaatimaan 2Gt RAM-muistia toimiakseen. Toisin sanoen monilla pienillä, haavoittuvilla virtuaalisilla yksityispalvelimilla (VPS) ei yksinkertaisesti ole kapasiteettia ja jos olisikin, käytettyjen resurssien lisääntyminen olisi järjestelmänvalvojalle erittäin havaittavissa, mikä johtaisi välittömään tutkimukseen. Toisin sanoen se ei voi toimia äänettömästi taustalla, kuten haavoittuneet tietokoneet, jotka osallistuvat DDOS-hyökkäykseen tai nuuskivat salasanoja hiljaa tietämättään. Kun louhinta on käynnissä, kaikki tietävät sen.
 
 Tämä vähentää niiden tietokoneiden määrää, jotka botnet voisi onnistuneesti vaarantaa. Vain teknologisesti erittäin taitamattomien tietokoneiden tai tarkistamattomien tietokoneiden kaappaaminen olisi mahdollista, eikä olisi lukuisia haavoittuvia tietokoneita, joiden tämän väitteen kannattajat olettavat olevan vaarassa. 
-
-## 12\. Monero "forkit" eivät vain vahingoita Moneron taloudellista elinkelpoisuutta, vaan sen yksityisyyttä!
 
 ## 12\. Monero "forkit" eivät vain vahingoita Moneron taloudellista elinkelpoisuutta, vaan sen yksityisyyttä!
 
@@ -186,8 +146,6 @@ Meidän mielestämme on kuitenkin naiivia ajatella, että Moneroa vastaan ei kos
 
 ## 13\. Eikö Monerolla ollut alkuaikoina "vammautunut" louhija, jota käytettiin perustajien rikastamiseen?
 
-## 13\. Eikö Monerolla ollut alkuaikoina "vammautunut" louhija, jota käytettiin perustajien rikastamiseen?
-
 Moneron historia on mielenkiintoinen, ja monet saattavat yllättyä kuullessaan, että se todellakin alkoi huijauksesta. Luoja, "thankful_for_today", oli luultavasti liittoutunut kryptovaluuttaryhmän kanssa joka loi CryptoNote-protokollan, mutta hänellä oli petolliset aikomukset huijata ihmisiltä heidän rahojaan käyttämällä sitä.
 
 Heidän alkuperäiset kolikkoyrityksensä epäonnistuivat, joten he loivat Moneron yrittääkseen uudelleen. Tämä epäonnistui jälleen, koska yhteisö huomasi nopeasti, että jotain oli vialla ja otti kolikon kiinni. Siitä huolimatta ovelilla tekijöillä oli vielä viimeinen ässä hihassaan. He julkaisivat yleisölle tarkoituksella deoptimoituja louhintaohjelmistoja ja pitivät optimoidun version itselleen, jotta muut voitaisiin ohittaa ja ansaita paljon rahaa lohkopalkkioista.
@@ -196,10 +154,6 @@ Tämä onnistui jonkin aikaa, mutta myös Monero-yhteisö hoksasi sen nopeasti, 
 
 Jälkeenpäin ajatellen jotkut saattavat arvostella päätöstä olla uudelleenkäynnistämättä kolikkoa, ja jos nämä petolliset alkuperät ovat tarpeeksi vakuuttavia saadakseen yhden hylkäämään kaiken sen hyvän työn, jonka Monero on tehnyt, siihen ei ole argumenttia, joka saisi heidät vakuuttuneeksi. Riippumatta alkuperäisten frustraatioiden aiheuttamista petoksen tekijöille, Monero on menestyksekkäästi kukoistanut ja käyttänyt yhdistettyä yhteisön älyä ja intohimoa tehdäkseen tehokkaan teknologian. Nykyinen perustiimimme eivät ole rikastuneet heikkenevän louhinnan ansiosta, eikä meidän tietääksemme kukaan, joka oli mukana alkuperäisessä petoksessa, jäänyt Monero-yhteisön jäseneksi kauemmaksi kuin muutamaksi ensimmäiseksi viikoksi kolikon olemassaolosta. 
 
-Jälkeenpäin ajatellen jotkut saattavat arvostella päätöstä olla uudelleenkäynnistämättä kolikkoa, ja jos nämä petolliset alkuperät ovat tarpeeksi vakuuttavia saadakseen yhden hylkäämään kaiken sen hyvän työn, jonka Monero on tehnyt, siihen ei ole argumenttia, joka saisi heidät vakuuttuneeksi. Riippumatta alkuperäisten frustraatioiden aiheuttamista petoksen tekijöille, Monero on menestyksekkäästi kukoistanut ja käyttänyt yhdistettyä yhteisön älyä ja intohimoa tehdäkseen tehokkaan teknologian. Nykyinen perustiimimme eivät ole rikastuneet heikkenevän louhinnan ansiosta, eikä meidän tietääksemme kukaan, joka oli mukana alkuperäisessä petoksessa, jäänyt Monero-yhteisön jäseneksi kauemmaksi kuin muutamaksi ensimmäiseksi viikoksi kolikon olemassaolosta. 
-
-## 14\. Jos Monero on niin yksityinen, kuinka voimme tarkastaa toimituksen varmistaaksemme, että kukaan ei tulosta ilmaista Moneroa nenämme alla?
-
 ## 14\. Jos Monero on niin yksityinen, kuinka voimme tarkastaa toimituksen varmistaaksemme, että kukaan ei tulosta ilmaista Moneroa nenämme alla?
 
 Tähän kysymykseen on vaikea vastata. Yksi yleisesti annettu vastaus on, että voimme laskea yhteen kolikkopohjaiset transaktiot (kun uusi Monero palkitaan louhijalle lohkon ratkaisemisesta). Nämä transaktiot ovat läpinäkyviä, ja jos laskemme ne yhteen, saamme liikkeessä olevien Monerojen kokonaismäärän.
@@ -207,8 +161,6 @@ Tähän kysymykseen on vaikea vastata. Yksi yleisesti annettu vastaus on, että 
 On kuitenkin tärkeää huomata, että jos tapahtuisi huijauksia, jotka lisäävät Moneron määrää enemmän kuin odotamme kolikon perustan tapahtumista, niitä ei tapahtuisi itse kolikkopohjaisissa transaktioissa, vaan tavallisessa tapahtumassa lompakoiden välillä. Tämä tapahtuisi vain yhdellä kolmesta tavasta.
 
 Yksi, jos salaus, joka osoittaa, ettei Moneroa ole luotu tai tuhoutunut tapahtumassa, on perustavanlaatuisesti virheellinen. Kaksi, jos kiinteän kryptografian toteutus (koodi) on virheellinen. Kolmanneksi, jos kumpikaan ei ole viallinen, mutta tietokoneista tulee tarpeeksi tehokkaita lävistämään nykyiset salausjärjestelmämme ja luomaan vääriä todisteita.
-
-## 15\. Suurin osa Moneron nykyisestä hashratesta tulee vain kahdesta poolista.
 
 ## 15\. Suurin osa Moneron nykyisestä hashratesta tulee vain kahdesta poolista.
 
@@ -229,95 +181,5 @@ Mutta eksymme aiheesta.
 Huomaat yllä olevasta hajauttamiskehotuksestamme, että louhijalla on valta vaihtaa poolia. Missä tahansa vaiheessa hash-jakauma voi muuttua, olipa kyse sitten paremmasta tietämyksestä, hajauttamisvaatimuksesta, poolien välisestä lisääntyneestä kilpailusta tai yksittäiset kaivostyöntekijät vaihtavat hashinsa. Samaa ei voida sanoa louhinnasta, joka on keskitetty laitteistotasolle, sillä ASIC-valmistajilla ei ole kannustinta kohdistua mihinkään muuhun pooliin kuin omaan, eivätkä he tee niin.
 
 Joten se tosiasia, että suurin osa Moneron hashratesta on keskittynyt muutamaan pooliin, ei ole jotain johon olisimme juuttuneet, ja se voi todellakin johtua louhinnan yleisen tietämyksen puutteesta. Se on jotain, joka voidaan korjata, koska ongelma ei ole juuritasolla toisin kuin Bitcoinin laitteiston keskittämisessä.
-
-Tämä ei ole ratkaistava ongelma. Keskitetyt louhintapoolit omistavat laitteiston, poolin ja hashit, eikä kukaan voi tehdä asialle mitään.
-
-Poolin keskittämisellä on hyvin erilaiset ja paljon muutettavissa olevat taustat, vaikka lopputulos onkin samanlainen. Koska Moneron louhinta on tasa-arvoista, jokainen louhija voi valita, mihin kohdistaa hashinsa. Ihmiset päättävät usein kohdistua isompaan poolin, koska tämä tarkoittaa, että he näkevät lohkoja useammin kuin pienemmän poolin louhijat. 
-
-On kuitenkin huomattava, että heidän henkilökohtainen palkkiosummansa on pienempi koska he jakavat sen useammille ihmisille. Pienemmät poolit löytävät lohkoja harvemmin, mutta jokainen louhija saa suuremman osan lohkopalkkiosta ja lopputuloksena on, että louhija ansaitsee itse asiassa vastaavan määrän rahaa riippumatta siitä, ovatko he pienemmässä vai suuremmassa poolissa, joten kannustamme louhijoita osoittamaan heidän hashit pienempiin pooleihin louhinnan hajauttamiseksi entisestään.
-
-Mutta eksymme aiheesta.
-
-Huomaat yllä olevasta hajauttamiskehotuksestamme, että louhijalla on valta vaihtaa poolia. Missä tahansa vaiheessa hash-jakauma voi muuttua, olipa kyse sitten paremmasta tietämyksestä, hajauttamisvaatimuksesta, poolien välisestä lisääntyneestä kilpailusta tai yksittäiset kaivostyöntekijät vaihtavat hashinsa. Samaa ei voida sanoa louhinnasta, joka on keskitetty laitteistotasolle, sillä ASIC-valmistajilla ei ole kannustinta kohdistua mihinkään muuhun pooliin kuin omaan, eivätkä he tee niin.
-
-Joten se tosiasia, että suurin osa Moneron hashratesta on keskittynyt muutamaan pooliin, ei ole jotain johon olisimme juuttuneet, ja se voi todellakin johtua louhinnan yleisen tietämyksen puutteesta. Se on jotain, joka voidaan korjata, koska ongelma ei ole juuritasolla toisin kuin Bitcoinin laitteiston keskittämisessä.
-
-Tämä ei ole ratkaistava ongelma. Keskitetyt louhintapoolit omistavat laitteiston, poolin ja hashit, eikä kukaan voi tehdä asialle mitään.
-
-Poolin keskittämisellä on hyvin erilaiset ja paljon muutettavissa olevat taustat, vaikka lopputulos onkin samanlainen. Koska Moneron louhinta on tasa-arvoista, jokainen louhija voi valita, mihin kohdistaa hashinsa. Ihmiset päättävät usein kohdistua isompaan poolin, koska tämä tarkoittaa, että he näkevät lohkoja useammin kuin pienemmän poolin louhijat. 
-
-On kuitenkin huomattava, että heidän henkilökohtainen palkkiosummansa on pienempi koska he jakavat sen useammille ihmisille. Pienemmät poolit löytävät lohkoja harvemmin, mutta jokainen louhija saa suuremman osan lohkopalkkiosta ja lopputuloksena on, että louhija ansaitsee itse asiassa vastaavan määrän rahaa riippumatta siitä, ovatko he pienemmässä vai suuremmassa poolissa, joten kannustamme louhijoita osoittamaan heidän hashit pienempiin pooleihin louhinnan hajauttamiseksi entisestään.
-
-Mutta eksymme aiheesta.
-
-Huomaat yllä olevasta hajauttamiskehotuksestamme, että louhijalla on valta vaihtaa poolia. Missä tahansa vaiheessa hash-jakauma voi muuttua, olipa kyse sitten paremmasta tietämyksestä, hajauttamisvaatimuksesta, poolien välisestä lisääntyneestä kilpailusta tai yksittäiset kaivostyöntekijät vaihtavat hashinsa. Samaa ei voida sanoa louhinnasta, joka on keskitetty laitteistotasolle, sillä ASIC-valmistajilla ei ole kannustinta kohdistua mihinkään muuhun pooliin kuin omaan, eivätkä he tee niin.
-
-Joten se tosiasia, että suurin osa Moneron hashratesta on keskittynyt muutamaan pooliin, ei ole jotain johon olisimme juuttuneet, ja se voi todellakin johtua louhinnan yleisen tietämyksen puutteesta. Se on jotain, joka voidaan korjata, koska ongelma ei ole juuritasolla toisin kuin Bitcoinin laitteiston keskittämisessä.
-
-Lue lisää
-
-  * [Kuinka Monero ainutlaatuisesti mahdollistaa kiertotaloudet](/knowledge/monero-circular-economies)/
-
-  * [Moneron sormusallekirjoitukset vs CoinJoin kuten Wasabissa](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Miksi (ja miten!) sinun pitäisi hallita omia avaimiasi](/knowledge/hold-your-keys)/
-
-  * [Osallistuminen Moneroon](/knowledge/contributing-to-monero)/
-
-  * [Kuinka etäsolmut vaikuttavat Moneron yksityisyyteen](/knowledge/remote-nodes-privacy)/
-
-  * [Kuinka Monero käyttää hard forkkeja verkon päivittämiseen](/knowledge/network-upgrades)/
-
-  * [Katselutunnisteet: Kuinka yksi tavu vähentää Moneron lompakon synkronointiaikoja yli 40%](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool ja sen rooli Monero-louhinnan hajauttamisessa](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Mitä se tekee Monerolle](/knowledge/seraphis-for-monero)/
-
-  * [Onko Bitcoinin muuntaminen Moneroksi yhtä yksityistä kuin Moneron ostaminen suoraan?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Miksi Monero käyttää "Trustless" -asetusta toisin kuin Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Miksi Monero on parempi arvon säilyttäjä kuin Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Kuinka Monero voi voittaa Bitcoinin verkkovaikutukset](/knowledge/network-effect)/
-
-  * [Miksi Monerolla on kriittisin ajatteluyhteisö](/knowledge/critical-thinking)/
-
-  * [Huijaukset, joita kannattaa huomioida Moneroa käytettäessä](/knowledge/monero-scams)/
-
-  * [Kuinka Atomic Swapit toimivat Monerossa](/knowledge/monero-atomic-swaps)/
-
-  * [Mitä jokaisen Moneron käyttäjän on tiedettävä verkostoitumisesta](/knowledge/monero-networking)/
-
-  * [Kuinka RingCT piilottaa Monero-transaktiosummat](/knowledge/monero-ringct)/
-
-  * [Kuinka Monero Stealth -osoitteet suojaa identiteettiäsi](/knowledge/monero-stealth-addresses)/
-
-  * [Kuinka Monero-aliosoitteet estävät identiteetin yhdistämisen](/knowledge/monero-subaddresses)/
-
-  * [Moneron Outputit selitettynä](/knowledge/monero-outputs)/
-
-  * [Moneron parhaat käytännöt aloittelijoille](/knowledge/monero-best-practices)/
-
-  * [Kuinka sormusallekirjoitukset sekoittavat Moneron outputit](/knowledge/ring-signatures)/
-
-  * [Kuinka Monero ratkaisi Bitcoinia vaivaavan lohkokoko-ongelman](/knowledge/dynamic-block-size)/
-
-  * [Kuinka CLSAG parantaa Moneron tehokkuutta](/knowledge/what-is-clsag)/
-
-  * [Miksi Monerolla on "Tail Emission"](/knowledge/monero-tail-emission)/
-
-  * [Moneron lyhyt historia](/knowledge/monero-history)/
-
-  * [Wired Magazine on väärässä Monerosta, tässä miksi](/knowledge/wired-article-debunked)/
-
-  * [Kuinka Dandelion++ pitää Moneron tapahtuman alkuperän yksityisenä](/knowledge/monero-dandelion)/
-
-  * [Miksi Monero on avoimen lähdekoodin ja hajautettu](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Moneron louhinta: Mikä tekee RandomX:stä niin erityisen?](/knowledge/monero-mining-randomx)/
-
-  * [Miksi Monero on parempi kuin Dash, Zcash, Zcoin (jopa Lelantuksen kanssa), Grin ja Bitcoin-mikserit kuten Wasabi (päivitetty toukokuussa 2020)](/knowledge/why-monero-is-better)/
 
 Lue lisää

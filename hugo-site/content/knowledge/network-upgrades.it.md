@@ -12,8 +12,6 @@ In questo post analizzeremo cosa sono gli hard-fork, perché sono importanti per
 
 ## Perché Monero deve continuare ad aggiornare la rete?
 
-## Perché Monero deve continuare ad aggiornare la rete?
-
 La comunità Monero si è impegnata a iterare e migliorare il progetto nel tempo, e sembra che questo impegno si riduca a due aspetti chiave dell'etica della comunità:
 
   1. Il progetto Monero è in definitiva un software - codice - scritto da esseri umani. Questo può portare alla necessità di correggere i bug, aggiungere miglioramenti che vengono scoperti o inventati nel tempo, implementare modernizzazioni al protocollo, o semplicemente mantenere il progetto. Questo è simile in molti modi agli altri pezzi di software che usi (come il browser in cui stai leggendo questo!), che hanno bisogno di essere costantemente aggiornati per aggiungere nuove funzionalità e correggere i bug.
@@ -26,8 +24,6 @@ Il progetto Monero è uno strumento di privacy, e la privacy è una corsa agli a
 
 ## Cos'è un hard-fork?
 
-## Cos'è un hard-fork?
-
 La complessità dell'aggiornamento di Monero entra in vigore una volta che si capisce quanto sia diverso l'aggiornamento di una criptovaluta rispetto alla semplice spinta di un aggiornamento software a qualcosa come un browser.
 
 Nelle criptovalute, le regole della rete (cose come l'aspetto delle transazioni, come funziona il mining e come verificare ogni blocco) devono essere concordate dalla rete, qualcosa che si chiama "consenso". Quando una di queste regole deve essere cambiata o aggiornata, la rete deve concordare le nuove regole, causando un "hard-fork" - una situazione in cui la rete si divide effettivamente in due catene di blocchi - una sulle vecchie regole, e una sulle nuove regole.
@@ -35,8 +31,6 @@ Nelle criptovalute, le regole della rete (cose come l'aspetto delle transazioni,
 Quando tutti nella comunità sono d'accordo sui cambiamenti delle regole, si chiama "hard-fork non conflittuale", e la catena che ha ancora le vecchie regole muore e non viene minata dopo l'hard-fork. Questo è stato il caso di quasi tutte le hard-fork di Monero, e l'unica continuazione delle vecchie regole è stata fatta da progetti che cercavano di trarre profitto dall'hard-fork.
 
 Mentre le hard-fork non conflittuali sono l'unico modo per aggiornare correttamente aspetti importanti della rete Monero, hanno anche un frustrante effetto collaterale - il vecchio software, rilasciato prima che la hard-fork fosse pianificata, non può capire le nuove regole della rete e quindi non funziona dopo la hard-fork! Questo può portare gli utenti a pensare che i fondi siano persi, a pensare che la blockchain di Monero si sia fermata, e a non essere in grado di spostare i fondi fino a quando non aggiornano il loro portafoglio.
-
-## Chi decide quando la rete Monero si aggiorna e cosa è incluso?
 
 ## Chi decide quando la rete Monero si aggiorna e cosa è incluso?
 
@@ -56,8 +50,6 @@ Se hai un'idea importante per un aggiornamento di rete, non ti piace che venga a
 
 ## Come posso aiutare con gli aggiornamenti della rete?
 
-## Come posso aiutare con gli aggiornamenti della rete?
-
 Poiché gli aggiornamenti alla rete Monero richiedono il coordinamento e l'approvazione della comunità insieme agli aggiornamenti del software, è estremamente importante che quante più persone possibile siano coinvolte nella pianificazione, nei test e nel processo di comunicazione degli aggiornamenti della rete.
 
 Ecco alcuni semplici modi in cui puoi aiutare a facilitare le cose per un aggiornamento della rete:
@@ -66,8 +58,6 @@ Ecco alcuni semplici modi in cui puoi aiutare a facilitare le cose per un aggior
   2. Comunica i dettagli sui tempi dell'aggiornamento della rete (una volta deciso!) al tuo exchange, wallet o mining pool preferito. Può essere difficile notificare correttamente a tutti gli utenti di Monero un aggiornamento, quindi è importante che tutti noi diamo una mano dove possiamo per diffondere la notizia.
   3. Prova il software prima dell'aggiornamento della rete. Ci sarà una chiamata per i tester prima dell'aggiornamento della rete, sia su testnet che su stagenet, per assicurare che ogni aspetto dell'aggiornamento sia stato correttamente pianificato e implementato nel software. Più persone vengono coinvolte e testano a fondo le nuove versioni, più è probabile che l'aggiornamento della rete vada a buon fine!
   4. Una volta che vengono pubblicate le versioni compatibili con l'aggiornamento della rete, assicuratevi di aggiornare immediatamente! Più persone sono aggiornate e pronte per l'aggiornamento della rete, più la rete lo gestirà senza problemi e meno mal di testa avranno gli utenti.
-
-## Cosa posso aspettarmi nel prossimo aggiornamento della rete Monero?
 
 ## Cosa posso aspettarmi nel prossimo aggiornamento della rete Monero?
 
@@ -82,78 +72,10 @@ Questi cambiamenti andranno molto lontano per aumentare la privacy, l'efficienza
 
 ## Come posso saperne di più?
 
-## Come posso saperne di più?
-
 L'argomento degli hard-fork e degli aggiornamenti della rete è molto vasto e c'è una lunga e storica storia di essi in Monero, quindi assicuratevi di scavare in alcuni dei seguenti link se volete saperne di più sulla storia, il processo o la pianificazione che è in corso per il prossimo aggiornamento della rete!
 
   * [Pianificazione dell'hard-fork di Monero v15](https://github.com/monero-project/meta/issues/630)
   * [Aggiornamenti software programmati (in Monero)](https://github.com/monero-project/monero#scheduled-software-upgrades)
   * [Una nota sugli aggiornamenti programmati del protocollo](https://web.getmonero.org/2020/09/01/note-scheduled-upgrades.html)
-
-Ulteriori letture
-
-  * [Come Monero abilita in modo unico le economie circolari](/knowledge/monero-circular-economies)/
-
-  * [Firme ad anello di Monero vs CoinJoin come in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Perché (e come!) dovresti tenere le tue chiavi](/knowledge/hold-your-keys)/
-
-  * [Contribuire a Monero](/knowledge/contributing-to-monero)/
-
-  * [Come i nodi remoti impattano sulla privacy di Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Visualizza i tag: Come un byte ridurrà i tempi di sincronizzazione del portafoglio Monero del 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool e il suo ruolo nella decentralizzazione del mining di Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Cosa farà per Monero](/knowledge/seraphis-for-monero)/
-
-  * [Convertire Bitcoin in Monero è altrettanto privato che comprare Monero direttamente?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Perché Monero usa una configurazione senza fiducia a differenza di Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Perché Monero è un migliore deposito di valore rispetto a Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Come Monero può superare gli effetti di rete di Bitcoin](/knowledge/network-effect)/
-
-  * [Perché Monero ha la comunità di pensiero più critico](/knowledge/critical-thinking)/
-
-  * [Truffe a cui prestare attenzione quando si utilizza Monero](/knowledge/monero-scams)/
-
-  * [Come funzioneranno gli Atomic Swap in Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ciò che ogni utente Monero deve sapere quando si tratta di networking](/knowledge/monero-networking)/
-
-  * [Come RingCT nasconde gli importi delle transazioni Monero](/knowledge/monero-ringct)/
-
-  * [In che modo gli indirizzi Monero Stealth proteggono la tua identità](/knowledge/monero-stealth-addresses)/
-
-  * [In che modo i sottoindirizzo Monero impediscono il collegamento di identità](/knowledge/monero-subaddresses)/
-
-  * [Spiegazione dei risultati di Monero](/knowledge/monero-outputs)/
-
-  * [Migliori pratiche Monero per principianti](/knowledge/monero-best-practices)/
-
-  * [Come le firme ad anello oscurano i risultati di Monero](/knowledge/ring-signatures)/
-
-  * [Come Monero ha risolto il problema delle dimensioni del blocco che affligge Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [In che modo CLSAG migliorerà l'efficienza di Monero](/knowledge/what-is-clsag)/
-
-  * [Perché Monero ha un'emissione di coda](/knowledge/monero-tail-emission)/
-
-  * [La storia di Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine ha sbagliato su Monero, ecco perché](/knowledge/wired-article-debunked)/
-
-  * [Top 15 Miti e preoccupazioni Monero debunked](/knowledge/monero-myths-debunked)/
-
-  * [Come Dandelion ++ mantiene private le origini delle transazioni di Monero](/knowledge/monero-dandelion)/
-
-  * [Perché Monero è open source e decentralizzato](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: cosa rende RandomX così speciale](/knowledge/monero-mining-randomx)/
-
-  * [Perché Monero è meglio di Dash, Zcash, Zcoin (anche con Lelantus), Grin e Bitcoin Mixer come Wasabi (Aggiornato a maggio 2020)](/knowledge/why-monero-is-better)/
 
 Ulteriori letture

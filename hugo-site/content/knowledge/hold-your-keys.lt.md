@@ -14,8 +14,6 @@ Kriptovaliutos pranašumai, kurie iš tikrųjų išskiria ją iš tradicinė fin
 
 ## Kodėl svarbu turėti savo raktus?
 
-## Kodėl svarbu turėti savo raktus?
-
 Vienas iš dažniausiai neteisingai suprantamų savęs globos aspektų Monero yra tai, kad jei neturėsite savo raktų, gausite mažai arba ne pasinaudoti Monero teikiamais privatumo pasiūlymais. Kaip operacijos siuntėjas turi pilną matomumą apie tikrąsias išlaidas, sumą ir gavėjo adresą, jei ne jūs siunčiate operaciją, o palikite tai padaryti birža arba saugotojas, jie turi _visą_ matomumą būdai, kaip išleidžiate savo Monero.
 
 Laimei, jiems išsiuntus lėšas, Monero privatumas garantuojamas įsijungti ir užtikrinti tvirtą „paslaptį pirmyn“, bet tai bus aišku birža ar saugotojas, kur išsiuntėte lėšas ir kiek išsiuntėte iš pradžių.
@@ -37,8 +35,6 @@ Kitas svarbus raktų laikymo aspektas yra mažesnis asmeninis ir labiau bendruom
 Nors tokio tipo veikla nėra dažnai patvirtinama viešai, ten Daugelis bendruomenės narių yra susirūpinę tokiais mainais kaip Binance prekiauja biržoje turimą Monero prieš Monero, padidindamas Monero šortų kiekį ir sukeldamas kainą slopinimas laikui bėgant.
 
 Toks elgesys taip pat gali sukelti likvidumo krizę, kai vartotojai, kurie _do_ , norinčių turėti savo raktus, negali pasitraukti iš birža, nes birža savo vartotojams pažadėjo daugiau Monero nei ji iš tikrųjų turi. Kuo daugiau Monero vartotojų turi savo raktus ir kad jų Monero nesikeistų, tuo sveikesnis ir natūralesnis rinka teoriškai bus piktybiška ar godi, o tuo mažesnė rizika mainai gali lemti Monero kainos stabilumą.
-
-## Kaip su Monero laikyti savo raktus?
 
 ## Kaip su Monero laikyti savo raktus?
 
@@ -72,78 +68,10 @@ Tiems iš mūsų, kurie mėgsta turėti galimybę naudotis savo Monero kelyje ar
 
 ## Išvada
 
-## Išvada
-
 Tikimės, kad šis įrašas padėjo sustiprinti poreikį išlaikyti savo savo raktus, taip pat nurodė kai kurias puikias pinigines erdvė.
 
 Kuo daugiau paimsite Monero į savo rankas ir iš tikrųjų naudosite jį, tuo daugiau naudos galite gauti tiek dabar, tiek ateityje. Monero yra ne tik spekuliacinis turtas – tai galingas laisvės ir finansų įrankis privatumas, kurio labai reikia šiandieniniame pasaulyje ir ateityje iš mūsų.
 
 Dabar išsiimkite tas monetas iš biržos ir pasinerkite į tai, kas buvo Monero sukurta 
-
-Papildoma literatūra
-
-  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies)/
-
-  * [Monero žiedo parašai prieš CoinJoin kaip Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Prisideda prie Monero](/knowledge/contributing-to-monero)/
-
-  * [Kaip nuotoliniai mazgai veikia Monero privatumą](/knowledge/remote-nodes-privacy)/
-
-  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades)/
-
-  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: ką tai padarys Monero](/knowledge/seraphis-for-monero)/
-
-  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup)/
-
-  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value)/
-
-  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect)/
-
-  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking)/
-
-  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams)/
-
-  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking)/
-
-  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct)/
-
-  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses)/
-
-  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses)/
-
-  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs)/
-
-  * [„Monero“ geriausia praktika pradedantiesiems](/knowledge/monero-best-practices)/
-
-  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures)/
-
-  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag)/
-
-  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission)/
-
-  * [Trumpa Monero istorija](/knowledge/monero-history)/
-
-  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked)/
-
-  * [15 populiariausių Monero mitų ir rūpesčių, kurie buvo paneigti](/knowledge/monero-myths-debunked)/
-
-  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion)/
-
-  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx)/
-
-  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better)/
 
 Papildoma literatūra

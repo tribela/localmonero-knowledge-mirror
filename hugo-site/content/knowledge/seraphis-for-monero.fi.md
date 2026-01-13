@@ -8,12 +8,8 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: modulaarinen suunnittelupäivitys Monero-transaktioihin
 
-## Seraphis: modulaarinen suunnittelupäivitys Monero-transaktioihin
-
 Tässä viestissä kuvataan [Seraphis](https://github.com/UkoeHB/Seraphis), joukko transaktioprotokollarakenteita ja abstraktioita, jotka on kehittänyt pseudonyymitutkimuksen avustaja [`kokeellista`](https://github.com/UkoeHB) Monero-ekosysteemiä ja jatkuvaa tietoturva-analyysia varten. Pseudonyymi kirjoittaja [`coinstudent2048`](https://github.com/coinstudent2048).  
 Teemme joitain yksinkertaistuksia ja jätämme pois tiettyjä teknisiä yksityiskohtia selvyyden vuoksi. Ja koska Seraphisin suunnittelu on vielä kesken, kiinnostuneiden lukijoiden kannattaa katsoa Seraphis-dokumentaatiosta uusimmat tiedot.
-
-## Transaktiot Monerossa
 
 ## Transaktiot Monerossa
 
@@ -45,12 +41,8 @@ Samanlainen prosessi käytiin läpi linkitettävän sormusallekirjoituksen raken
 
 ## Seraphis
 
-## Seraphis
-
 Seraphis vie tämän idean askeleen pidemmälle.  
 Sen sijaan, että päivitettäisiin olemassa olevan RingCT-tapahtumaprotokollan yksittäisiä palikoita, se ottaa käyttöön erilaisen protokollan, joka voi hyödyntää erilaisia rakennuspalikoita ja tarjota parannettuja toimintoja.
-
-## Rakennuspalikoita
 
 ## Rakennuspalikoita
 
@@ -69,8 +61,6 @@ Koska RingCT lisää linkitystagin epäselväksi allekirjoitukseksi, allekirjoit
 Onneksi jotkin Seraphisin vaatimista rakennuspalikoista ovat jo olemassa muualla, eikä niitä tarvitse suunnitella tyhjästä. Sekä Bulletproofs- että Bulletproofs+ -rakenteita voidaan käyttää etäisyydenkestävänä. Schnorr-tyyppisiin todistusjärjestelmiin tehtyjä muutoksia voidaan käyttää todistusten hyväksyntään. Ja tehokas [todistusjärjestelmä](https://eprint.iacr.org/2015/643), jota on jo käytetty Triptychin, [Lelantuksen](https://eprint.iacr.org/2019/373) ja [Sparkin](http/ps://eprint.iacr.org/2021/1173)* perustana, voidaan muokata.
 
 * Cypher Stack saa rahoitusta Spark-kehitykseen.
-
-## Osoitteet
 
 ## Osoitteet
 
@@ -94,74 +84,6 @@ Osoitteen haltijana voit päättää, kuinka paljon valtuuksia annat muille lait
 
 ## Kokonaiskuva
 
-## Kokonaiskuva
-
 Seraphis on merkittävä muutos Monero-ekosysteemiin. Vaikka se sisältää muutoksia osoitteisiin ja transaktioita rakentaviin lohkoihin, sen suunnittelu tarjoaa joustavuutta ja hyödyllisiä toimintoja, jotka eivät ole mahdollisia nykypäivän RingCT-protokollalla. Vaikka suuri osa suunnittelusta on viimeistelty ja sitä kehitetään [toteutukseksi](https://github.com/UkoeHB/monero/tree/seraphis_lib), osoitesuunnittelu ja suojausanalyysi ovat käynnissä. Seraphis tarjoaa erinomaisen mahdollisuuden viedä Monero-ekosysteemiä eteenpäin!
-
-Lue lisää
-
-  * [Kuinka Monero ainutlaatuisesti mahdollistaa kiertotaloudet](/knowledge/monero-circular-economies)/
-
-  * [Moneron sormusallekirjoitukset vs CoinJoin kuten Wasabissa](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Miksi (ja miten!) sinun pitäisi hallita omia avaimiasi](/knowledge/hold-your-keys)/
-
-  * [Osallistuminen Moneroon](/knowledge/contributing-to-monero)/
-
-  * [Kuinka etäsolmut vaikuttavat Moneron yksityisyyteen](/knowledge/remote-nodes-privacy)/
-
-  * [Kuinka Monero käyttää hard forkkeja verkon päivittämiseen](/knowledge/network-upgrades)/
-
-  * [Katselutunnisteet: Kuinka yksi tavu vähentää Moneron lompakon synkronointiaikoja yli 40%](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool ja sen rooli Monero-louhinnan hajauttamisessa](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Onko Bitcoinin muuntaminen Moneroksi yhtä yksityistä kuin Moneron ostaminen suoraan?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Miksi Monero käyttää "Trustless" -asetusta toisin kuin Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Miksi Monero on parempi arvon säilyttäjä kuin Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Kuinka Monero voi voittaa Bitcoinin verkkovaikutukset](/knowledge/network-effect)/
-
-  * [Miksi Monerolla on kriittisin ajatteluyhteisö](/knowledge/critical-thinking)/
-
-  * [Huijaukset, joita kannattaa huomioida Moneroa käytettäessä](/knowledge/monero-scams)/
-
-  * [Kuinka Atomic Swapit toimivat Monerossa](/knowledge/monero-atomic-swaps)/
-
-  * [Mitä jokaisen Moneron käyttäjän on tiedettävä verkostoitumisesta](/knowledge/monero-networking)/
-
-  * [Kuinka RingCT piilottaa Monero-transaktiosummat](/knowledge/monero-ringct)/
-
-  * [Kuinka Monero Stealth -osoitteet suojaa identiteettiäsi](/knowledge/monero-stealth-addresses)/
-
-  * [Kuinka Monero-aliosoitteet estävät identiteetin yhdistämisen](/knowledge/monero-subaddresses)/
-
-  * [Moneron Outputit selitettynä](/knowledge/monero-outputs)/
-
-  * [Moneron parhaat käytännöt aloittelijoille](/knowledge/monero-best-practices)/
-
-  * [Kuinka sormusallekirjoitukset sekoittavat Moneron outputit](/knowledge/ring-signatures)/
-
-  * [Kuinka Monero ratkaisi Bitcoinia vaivaavan lohkokoko-ongelman](/knowledge/dynamic-block-size)/
-
-  * [Kuinka CLSAG parantaa Moneron tehokkuutta](/knowledge/what-is-clsag)/
-
-  * [Miksi Monerolla on "Tail Emission"](/knowledge/monero-tail-emission)/
-
-  * [Moneron lyhyt historia](/knowledge/monero-history)/
-
-  * [Wired Magazine on väärässä Monerosta, tässä miksi](/knowledge/wired-article-debunked)/
-
-  * [15 parasta Monero-myyttiä ja -huolia, jotka on kumottu](/knowledge/monero-myths-debunked)/
-
-  * [Kuinka Dandelion++ pitää Moneron tapahtuman alkuperän yksityisenä](/knowledge/monero-dandelion)/
-
-  * [Miksi Monero on avoimen lähdekoodin ja hajautettu](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Moneron louhinta: Mikä tekee RandomX:stä niin erityisen?](/knowledge/monero-mining-randomx)/
-
-  * [Miksi Monero on parempi kuin Dash, Zcash, Zcoin (jopa Lelantuksen kanssa), Grin ja Bitcoin-mikserit kuten Wasabi (päivitetty toukokuussa 2020)](/knowledge/why-monero-is-better)/
 
 Lue lisää

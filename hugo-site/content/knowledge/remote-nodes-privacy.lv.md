@@ -12,8 +12,6 @@ Viena no lielākajām Monero priekšrocībām salīdzinājumā ar citām kriptov
 
 ## Kādas funkcijas veic mezgli Monero?
 
-## Kādas funkcijas veic mezgli Monero?
-
 Tiem, kas mazāk pārzina Monero darbību, Monero tīkla mezglus (vai serverus) var darbināt ikviens un ļaut mezgla īpašniekam vai citiem, ar kuriem viņi izvēlas, to koplietot! – lai sinhronizētu blokķēdes kopiju un nodrošinātu šo kopiju citiem tīklā. Šie mezgli arī pārbauda visus tīklā notiekošos pārskaitījumus, kā arī visus publicētos blokus un nodrošina, ka tie visi atbilst vienprātīgi noteiktajiem noteikumiem.
 
 Otra funkcija, ko mezgli apkalpo Monero, ir veids, kā nodrošināt visus datus, kas jūsu iecienītākajam Monero makam ir nepieciešami, lai pareizi pārbaudītu jums piederošos pārskaitījumus un veiktu jaunus. Šos datus mezgli nodrošina divos veidos: 
@@ -29,15 +27,11 @@ Otra funkcija, ko mezgli apkalpo Monero, ir veids, kā nodrošināt visus datus,
 
 ## Kāds ir privātākais un drošākais Monero lietošanas veids?
 
-## Kāds ir privātākais un drošākais Monero lietošanas veids?
-
 Labākais, ko darīt, pat ar spēcīgo ķēdes privātumu, ko nodrošina Monero ar attālajiem mezgliem, ir tomēr palaist savu Monero mezglu, lai nodrošinātu, ka jums ir pieejama neskarta Monero blokķēdes kopija un jūsu IP adrese ir labi aizsargāta. Vēl viens ieguvums, darbinot savu mezglu, ir tas, ka varat pievienoties tīklam, ļaujot citiem mezgliem sinhronizēt no jūsu mezgla vai pat ļaujot citiem lietotājiem izveidot savienojumu ar jūsu mezglu, izmantojot savus makus.
 
 Jāpiemin, ka Monero joprojām nodrošina izcilu privātumu, izmantojot attālo mezglu. Ja vēlaties palaist savu Monero mezglu, šeit ir viegli izpildāms ceļvedis, kā to izdarīt: 
 
   * [Palaidiet Monero Node](https://sethforprivacy.com/guides/run-a-monero-node/)
-
-## Ko attālais mezgls var uzzināt par mani?
 
 ## Ko attālais mezgls var uzzināt par mani?
 
@@ -49,13 +43,9 @@ Attālais mezgls var arī mēģināt radīt jums problēmas, slēpjot no jums bl
 
 ## Kādas privātuma garantijas joprojām pastāv, izmantojot attālo mezglu?
 
-## Kādas privātuma garantijas joprojām pastāv, izmantojot attālo mezglu?
-
 Lai gan šis raksts jūs, iespējams, ir nedaudz nobiedējis, ir svarīgi saprast, ka Monero nodrošinātā konfidencialitāte ir lieliska pat tad, ja tiek izmantots attālais mezgls, un ievērojami pārspēj jebkuru citu kriptovalūtu, ja to lieto šādā veidā. Jūs joprojām iegūstat Monero nodrošināto spēcīgo privātumu ķēdē, jo attālais mezgls nekad nezina patieso ievadi (kādas monētas jūs tērējat), pārskaitījumā iztērēto Monero summu vai pārskaitījuma saņēmēja adresi. Arī ārējie novērotāji nevar redzēt patieso ievadīto informāciju, summu vai adreses (neatkarīgi no tā, kāda veida mezglu izvēlaties izmantot!), nodrošinot, ka ārpus attālā mezgla pat jūsu IP adresei, maka sinhronizācijas informācijai un pārskaitījumiem ir spēcīgas privātuma garantijas. 
 
 Attālais mezgls arī nekad nevar piekļūt iepriekšējiem pārskaitījumiem, ko esat nosūtījis vai saņēmis, vai Monero summai, kas pašlaik atrodas jūsu makā, un zaudē visu jūsu pārskaitījumu redzamību brīdī, kad sākat izmantot citu mezglu. Attālajam mezglam nekad netiek nodrošinātas privātās atslēgas (ne tērēšanas, ne skatīšanas atslēgas), tāpēc jūsu maks paliek privāts, drošs un lietojams. Neatkarīgi no attālā mezgla jums arī nekad nedraud Monero pazaudēšana vai nozagšana, jo mezgls nevar rediģēt saņēmēja adresi, nekad nevar piekļūt jūsu maka privātajām atslēgām un nekādā veidā nevar konfiscēt jūsu Monero.
-
-## Kā ar "vieglajiem makiem", piemēram, MyMonero?
 
 ## Kā ar "vieglajiem makiem", piemēram, MyMonero?
 
@@ -71,8 +61,6 @@ Plašāku informāciju par pielāgoto vieglā maka serveri skatiet tālāk esoš
 
 ## Kā es varu uzzināt vairāk?
 
-## Kā es varu uzzināt vairāk?
-
 Ja jūs interesē un vēlaties labāk izprast Monero mezglus un izpētīt attālā mezgla izmantošanu vai sava palaišanu, skatiet tālāk esošās saites, lai atrastu lieliskas vietas, kur sākt.
 
   * [Monero World — saraksts ar kopienas pārvaldītiem attāliem mezgliem, ko var izmantot](https://moneroworld.com/#nodes)
@@ -80,71 +68,5 @@ Ja jūs interesē un vēlaties labāk izprast Monero mezglus un izpētīt attāl
   * [monero.fail — attālo mezglu saraksts ar bieži pārbaudītu statusu< /a>](https://monero.fail/)
   * [Kā izveidot savienojumu uz attālo mezglu GUI makā](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
   * [Moneropedia — Attālais Mezgls](https://www.getmonero.org/resources/moneropedia/remote-node.html)
-
-Lasīt tālāk
-
-  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies)/
-
-  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys)/
-
-  * [Iesaiste Monero](/knowledge/contributing-to-monero)/
-
-  * [Kā Monero izmanto hard-forks tīkla uzlabošanai](/knowledge/network-upgrades)/
-
-  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool un tā loma Monero mainošanas decentralizācijā](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero)/
-
-  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup)/
-
-  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect)/
-
-  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking)/
-
-  * [Krāpniecība, kam jāpievērš uzmanība, lietojot Monero](/knowledge/monero-scams)/
-
-  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps)/
-
-  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking)/
-
-  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct)/
-
-  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses)/
-
-  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses)/
-
-  * [Monero izvades tuvplānā](/knowledge/monero-outputs)/
-
-  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices)/
-
-  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures)/
-
-  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag)/
-
-  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission)/
-
-  * [Īsa Monero vēsture](/knowledge/monero-history)/
-
-  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked)/
-
-  * [15 populārākie Monero mīti un bažas atspēkotas](/knowledge/monero-myths-debunked)/
-
-  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion)/
-
-  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx)/
-
-  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better)/
 
 Lasīt tālāk

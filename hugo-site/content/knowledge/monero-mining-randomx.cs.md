@@ -6,21 +6,55 @@ image: "/images/mining.png"
 image_credit: "Illustration by CypherStack"
 image_credit_url: "https://cypherstack.com"
 ---
-## Účel
+30\. listopadu 2019 mělo Monero svůj půlroční hard fork, přičemž nejočekávanější změnou byl přechod ze starého PoW algoritmu, cryptonight, na zcela nový, interně vyvinutý, RandomX. Komunita Monero věří, že RandomX je velkým krokem směrem k rovnostářské těžbě, ale pojďme se podívat hlouběji, abychom zjistili, zda tomu tak je.
 
 ## Účel
 
-## Pozadí
+Abychom mohli posoudit, zda je RandomX vylepšením, musíme nejprve pochopit, jaký je účel těžby. Těžba zajišťuje blockchain od dvojitých útrat prostřednictvím Nakamoto Consensus. Přesné složitosti toho, jak to dělá, přesahují rámec tohoto článku, ale lze je zjistit z mnoha různých zdrojů na internetu. Důležité je, že zabezpečení pochází z hashů generovaných počítači (těžaři), kteří spolu soutěží o nalezení matematického řešení nezbytného k vytvoření dalšího bloku. Jak to dělají, přidávají do blockchainu nové transakce. Na oplátku za svou práci (haše) jsou odměňováni nově vyraženými mincemi.   
+  
+S tímto nastavením se může vyskytnout řada problémů, které vyžadují správné pobídky, aby fungovaly správně, ale my se zaměříme na jeden konkrétní problém, který by mohl nastat. Pokud má být těžba soutěží, co se stane, když jeden těžař získá výhodu?
 
 ## Pozadí
 
-## Zábavná analogie
+Pro kontext si řekněme něco o těžebním hardwaru. Těžaři používají k práci počítače, ale všichni víme, že ne každý počítač je vyroben stejně. Některé počítače jsou dostatečně výkonné, aby na nich mohly běžet sítě umělé inteligence nebo náročné hry, zatímco jiné mají problémy i s jednoduchými úkoly. Tyto rozdíly ve výpočetním výkonu ovlivňují také hash rate neboli rychlost, s jakou hledají bloková řešení.   
+  
+Ale i tyto rozdíly mezi počítači blednou ve srovnání s rychlostí hašování specializovaného hardwaru, jinak známého jako aplikačně specifické integrované obvody (ASIC), které překonávají běžné počítače o několik řádů.  
+  
+Podívejme se na to, co dělá procesory ASIC tak výkonnými. Představte si, že všechny počítače se nacházejí někde ve spektru, které sahá od schopnosti dělat mnoho věcí, ale nic dobře, až po schopnost dělat pouze jednu věc, ale zato velmi dobře. Procesory a ASIC jsou na opačných koncích tohoto spektra.  
+  
+Procesory, které jsou ve všech standardních počítačích, jsou na prvním konci. Zvládnou mnoho věcí, například prohlížení webu, hraní her nebo renderování videa, ale žádnou z nich nedělají nijak zvlášť dobře. Tato flexibilita je však na úkor efektivity.  
+  
+Na druhém konci jsou ASICy, které umí jen jednu věc, ale dělají ji neuvěřitelnou rychlostí. Dokážou vykonávat pouze jednu matematickou funkci, ale protože mohou ignorovat vše ostatní, je nárůst výkonu astronomický. Tato efektivita je však na úkor flexibility, takže pokud se funkce byť jen nepatrně změní - příkladem je x + y = z se změní na 2x + y = z - pak ASIC přestane fungovat úplně.  
+  
+Ne každý vlastní ASIC, ale každý vlastní počítač. To může vést k nespravedlivé výhodě.
 
 ## Zábavná analogie
 
-## RandomX
+Pokud je to pro vás stále matoucí, možná vám pomůže následující analogie. Představte si loterii, kde se každou hodinu rozdává tisíc dolarů, a tato loterie vám umožní vytisknout si vlastní losy! Začnete tisknout tolik tiketů, kolik jen dokážete, na své domácí tiskárně, která dokáže vytisknout jeden tiket za sekundu. Po odečtení nákladů na elektřinu a inkoust zjistíte, že můžete stále vydělávat, i když v loterii vyhrajete jen jednou za několik týdnů.  
+  
+Postupem času budete provoz rozšiřovat, až budete mít celou místnost vyhrazenou pro tiskárny. Celkem 20. Všechno je v pořádku... až do jednoho osudného dne.  
+  
+Velká novinka. Někdo vynalezl nový druh tiskárny. Umí tisknout pouze losy. Neumí tisknout obrázky, kancelářské dokumenty ani oboustranný tisk. Pouze losy. Ale dokáže je tisknout rychlostí 1000 losů za sekundu. Podívejte se do své malé místnosti s tiskárnami. 20 tiskáren. Potřebujete dalších 980 tiskáren, abyste udrželi krok s JEDNOU z těchto monstrózních tiskáren, a pokud má někdo dvě...?  
+  
+Z loterie bohužel odejdete, protože už nedokážete ospravedlnit náklady na elektřinu a inkoust.  
+  
+Ale počkejte! O pár týdnů později jsou tu další novinky! Design tiketu se změnil. Čísla, která byla dříve nahoře, jsou nyní dole. Nové monstrózní tiskárny jsou tak nepružné, že to nedokážou. Dokázaly vyrobit pouze předchozí design. Netrvá dlouho a opět se vesele tiskne dál. Alespoň do té doby, než někdo vyrobí novou monstrózní tiskárnu pro nový design.
 
 ## RandomX
+
+Jak do toho všeho zapadá RandomX? Snaží se vyrovnat výhodu ASIC tím, že velmi ztěžuje jejich výrobu. Toho dosahuje tím, že vyžaduje, aby těžaři vytvářeli a prováděli náhodný kód namísto hashování na základě algoritmu.  
+  
+Může být matoucí, jak to vlastně něčemu pomůže, takže se vraťme k naší analogii s tiskárnou. Vzpomínáte si, co se stalo, když se změnil design? Staré monstrózní tiskárny každou noc zastarávaly a musely být vyvinuty nové s ohledem na nový design. Co by se stalo, kdyby se každý nový výherní los musel řídit novým designovým standardem pro každý nový jackpot?   
+  
+Vytvořit novou monstrózní tiskárnu by bylo neuvěřitelně obtížné. Už nelze plánovat jen jeden design tiketu. Vzhledem k tomu, že návrh je náhodný, museli by tvůrci monstrozní tiskárny přidat možnosti barevného tisku, způsoby tisku různých nápisů a rámečků a tvarů a další. Stručně řečeno, stroj, který by nakonec vynalezli, by byl standardní, běžnou tiskárnou. Takovou, jakou mají všichni ostatní.  
+  
+Jednoduchým zavedením této náhodnosti do návrhu tiketu jsme podstatně snížili velkou výhodu získanou díky specializovanému hardwaru. RandomX dělá totéž, ale s těžbou.  
+  
+Tímto způsobem se minimalizují výhody, které získává několik vybraných bohatých lidí, protože pokud investují do vytvoření "ASIC" pro těžbu RandomX, ve skutečnosti pouze vynaleznou silnější a lepší procesory, z čehož těží celý svět.  
+  
+To znamená, že se do hry vrací malý chlapík s tiskárnami na 20 tiketů. Možná to bude mít stále těžší, protože tito bohatí jedinci si stále mohou koupit více tiskáren než on, ale nyní alespoň není řádově překonán jen díky jednomu stroji. Svým malým způsobem je konkurenceschopný.  
+  
+Protože víme, že i malý chlapík může být v těžbě Monera konkurenceschopný, doporučujeme všem, aby si to vyzkoušeli buď v peněžence s grafickým rozhraním Monero, která má podporu pro samostatnou těžbu, nebo stažením softwaru spravovaného komunitou. Je to snadné, konkurenceschopné a otevřené pro všechny.
 
 Další čtení
 
@@ -87,5 +121,3 @@ Další čtení
   * [Proč je Monero open source a decentralizované](/knowledge/why-monero-is-open-source-and-decentralized)/
 
   * [Proč je Monero lepší než Dash, Zcash, Zcoin (i s Lelantusem), Grin a bitcoinové mixéry jako Wasabi (aktualizováno květen 2020)](/knowledge/why-monero-is-better)/
-
-Další čtení

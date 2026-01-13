@@ -12,8 +12,6 @@ Vienas didžiausių Monero pranašumų, palyginti su kitomis kriptovaliutomis, y
 
 ## Kokias funkcijas atlieka mazgai Monero?
 
-## Kokias funkcijas atlieka mazgai Monero?
-
 Tiems, kurie mažiau žino, kaip veikia „Monero“, „Monero“ tinklo mazgus (arba serverius) gali valdyti bet kas ir leisti mazgo savininkui arba kitiems, su kuriais jie pasirenka, bendrinti! – sinchronizuoti blokų grandinės kopiją ir pateikti tą kopiją kitiems tinkle. Šie mazgai taip pat patikrina visas tinkle vykstančias operacijas, taip pat visus paskelbtus blokus ir užtikrina, kad jie visi laikytųsi bendru sutarimu nustatytų taisyklių.
 
 Kita funkcija, kurią mazgai atlieka Monero, yra būdas pateikti visus duomenis, kurių reikia jūsų mėgstamiausiai Monero piniginei, kad būtų galima tinkamai patikrinti jums priklausančias operacijas ir atlikti naujas operacijas. Šiuos duomenis mazgai teikia dviem būdais: 
@@ -29,15 +27,11 @@ Kita funkcija, kurią mazgai atlieka Monero, yra būdas pateikti visus duomenis,
 
 ## Koks yra privatus ir saugiausias būdas naudoti Monero?
 
-## Koks yra privatus ir saugiausias būdas naudoti Monero?
-
 Geriausias dalykas, kurį reikia padaryti, net ir esant tvirtam grandinės privatumui, kurį teikia Monero naudojant nuotolinius mazgus, yra paleisti savo Monero mazgą, kad įsitikintumėte, jog turite nesugadintą Monero blokų grandinės kopiją ir kad jūsų IP adresas yra gerai apsaugotas. Kitas privalumas, kai naudojate savo mazgą, yra tai, kad galite prisidėti prie tinklo, leisdami kitiems mazgams sinchronizuotis iš jūsų mazgo arba netgi leisdami kitiems vartotojams prisijungti prie jūsų mazgo savo piniginėmis.
 
 Todėl Monero vis tiek užtikrina puikų privatumą naudojant nuotolinį mazgą. Jei norite paleisti savo Monero mazgą, čia yra paprastas vadovas, kaip tai padaryti: 
 
   * [Paleiskite Monero mazgą](https://sethforprivacy.com/guides/run-a-monero-node/)
-
-## Ką apie mane gali sužinoti nuotolinis mazgas?
 
 ## Ką apie mane gali sužinoti nuotolinis mazgas?
 
@@ -49,13 +43,9 @@ Nuotolinis mazgas taip pat gali bandyti sukelti problemų, slėpdamas blokus nuo
 
 ## Kokios privatumo garantijos vis dar galioja naudojant nuotolinį mazgą?
 
-## Kokios privatumo garantijos vis dar galioja naudojant nuotolinį mazgą?
-
 Nors šis straipsnis jus šiek tiek išgąsdino, svarbu suprasti, kad Monero suteikiamas privatumas yra puikus net naudojant nuotolinį mazgą ir gerokai pranoksta bet kurią kitą kriptovaliutą tokiu būdu. Jūs vis tiek gaunate tvirtą Monero teikiamą privatumą tinkle, nes nuotolinis mazgas niekada nežino tikrosios įvesties (kokias monetas išleidžiate), operacijos metu išleistos Monero sumos ar operacijos gavėjo adreso. Išoriniai stebėtojai taip pat negali matyti tikrosios įvesties, sumos ar susijusių adresų (nesvarbu, kokio tipo mazgą pasirinksite naudoti!), užtikrinant, kad net jūsų IP adresas, piniginės sinchronizavimo informacija ir operacijos už nuotolinio mazgo ribų turi tvirtas privatumo garantijas. 
 
 Nuotolinis mazgas taip pat niekada neturi prieigos prie ankstesnių jūsų išsiųstų ar gautų operacijų arba šiuo metu jūsų piniginėje esančios Monero sumos ir praranda bet kokį jūsų operacijų matomumą, kai pradedate naudoti kitą mazgą. Nuotoliniam mazgui niekada neteikiami jokie privatūs raktai (nei išlaidų, nei peržiūros raktai), todėl jūsų piniginė išlieka privati, saugi ir tinkama naudoti. Nesvarbu, koks yra nuotolinis mazgas, jums taip pat niekada negresia pavojus prarasti Monero arba jį pavogti, nes mazgas negali redaguoti gavėjo adreso, niekada neturi prieigos prie jūsų piniginės privačių raktų ir jokiu būdu negali konfiskuoti jūsų Monero.
-
-## Kaip apie „lengvas pinigines“, tokias kaip „MyMonero“?
 
 ## Kaip apie „lengvas pinigines“, tokias kaip „MyMonero“?
 
@@ -71,8 +61,6 @@ Daugiau apie tinkintą lengvosios piniginės serverį rasite toliau pateiktoje �
 
 ## Kaip galiu sužinoti daugiau?
 
-## Kaip galiu sužinoti daugiau?
-
 Jei jums įdomu ir norėtumėte geriau suprasti „Monero“ mazgus ir pabandyti naudoti nuotolinį mazgą ar paleisti savo, žr. toliau pateiktas nuorodas, kur rasite puikių vietų pradėti:
 
   * [Monero World, bendruomenės valdomų nuotolinių mazgų, kurie galima naudoti](https://moneroworld.com/#nodes)
@@ -80,71 +68,5 @@ Jei jums įdomu ir norėtumėte geriau suprasti „Monero“ mazgus ir pabandyti
   * [monero.fail, nuotolinių mazgų, kurių būsena dažnai tikrinama, sąrašas< /a>](https://monero.fail/)
   * [Kaip prisijungti į nuotolinį mazgą GUI piniginėje](https://www.getmonero.org/resources/user-guides/remote_node_gui.html)
   * [Moneropedia – nuotolinis Mazgas](https://www.getmonero.org/resources/moneropedia/remote-node.html)
-
-Papildoma literatūra
-
-  * [Kaip Monero unikaliai įgalina žiedinę ekonomiką](/knowledge/monero-circular-economies)/
-
-  * [Monero žiedo parašai prieš CoinJoin kaip Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Kodėl (ir kaip!) turėtumėte turėti savo raktus](/knowledge/hold-your-keys)/
-
-  * [Prisideda prie Monero](/knowledge/contributing-to-monero)/
-
-  * [Kaip „Monero“ naudoja „hard-forks“ tinklui atnaujinti](/knowledge/network-upgrades)/
-
-  * [Peržiūrėkite žymas: kaip vienas baitas sumažins Monero piniginės sinchronizavimo laiką 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool ir jo vaidmuo decentralizuojant Monero kasybą](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: ką tai padarys Monero](/knowledge/seraphis-for-monero)/
-
-  * [Ar Bitcoin konvertavimas į Monero yra toks pat privatus, kaip ir tiesioginis Monero pirkimas?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Kodėl Monero, skirtingai nei Zcash, naudoja patikimą sąranką](/knowledge/monero-trustless-setup)/
-
-  * [Kodėl „Monero“ yra geresnė vertės parduotuvė nei „Bitcoin“.](/knowledge/monero-better-store-of-value)/
-
-  * [Kaip Monero gali įveikti Bitcoin tinklo efektus](/knowledge/network-effect)/
-
-  * [Kodėl Monero turi kritiškiausią mąstymo bendruomenę](/knowledge/critical-thinking)/
-
-  * [Aferos, į kurias reikia atkreipti dėmesį naudojant Monero](/knowledge/monero-scams)/
-
-  * [Kaip atominiai apsikeitimai veiks Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ką kiekvienas „Monero“ vartotojas turi žinoti, kai kalbama apie tinklų kūrimą](/knowledge/monero-networking)/
-
-  * [Kaip RingCT slepia Monero operacijų sumas](/knowledge/monero-ringct)/
-
-  * [Kaip Monero Stealth Addresses apsaugo jūsų tapatybę](/knowledge/monero-stealth-addresses)/
-
-  * [Kaip Monero subadresai užkerta kelią tapatybės susiejimui](/knowledge/monero-subaddresses)/
-
-  * [Paaiškinti Monero išėjimai](/knowledge/monero-outputs)/
-
-  * [„Monero“ geriausia praktika pradedantiesiems](/knowledge/monero-best-practices)/
-
-  * [Kaip žiedo parašai užgožia Monero išvestis](/knowledge/ring-signatures)/
-
-  * [Kaip Monero išsprendė bloko dydžio problemą, kuri kamuoja Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Kaip CLSAG pagerins Monero efektyvumą](/knowledge/what-is-clsag)/
-
-  * [Kodėl Monero turi uodegą](/knowledge/monero-tail-emission)/
-
-  * [Trumpa Monero istorija](/knowledge/monero-history)/
-
-  * [Žurnalas „Wired“ klysta dėl Monero, štai kodėl](/knowledge/wired-article-debunked)/
-
-  * [15 populiariausių Monero mitų ir rūpesčių, kurie buvo paneigti](/knowledge/monero-myths-debunked)/
-
-  * [Kaip Dandelion++ išlaiko Monero sandorio kilmę privačią](/knowledge/monero-dandelion)/
-
-  * [Kodėl Monero yra atvirojo kodo ir decentralizuotas](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero kasyba: kuo „RandomX“ toks ypatingas](/knowledge/monero-mining-randomx)/
-
-  * [Kodėl „Monero“ yra geresnis nei „Dash“, „Zcash“, „Zcoin“ (net su „Lelantus“), „Grin“ ir „Bitcoin“ maišytuvai, tokie kaip „Wasabi“ (Atnaujinta 2020 m. gegužės mėn.)](/knowledge/why-monero-is-better)/
 
 Papildoma literatūra

@@ -12,8 +12,6 @@ A cikin wannan sakon za mu yi tafiya ta hanyar abin da ke da wuyar gaske, dalili
 
 ## Me yasa Monero ke buƙatar ci gaba da haɓaka hanyar sadarwa?
 
-## Me yasa Monero ke buƙatar ci gaba da haɓaka hanyar sadarwa?
-
 Al'ummar Monero sun himmatu don haɓakawa da haɓaka aikin a kan lokaci, kuma da alama ƙaddamarwar ta ta'allaka ne zuwa mahimman fannoni biyu na ɗabi'ar al'umma:
 
   1. Aikin Monero shine software na ƙarshe - lambar - mutane ne suka rubuta. Wannan na iya haifar da buƙatar gyara kurakurai, ƙara haɓaka abubuwan da aka gano ko ƙirƙira akan lokaci, aiwatar da sabuntar ƙa'idar, ko don kawai kula da aikin. Wannan yana kama da sauran nau'ikan software da kuke amfani da su (kamar burauzar da kuke karantawa a ciki!), waɗanda ke buƙatar sabuntawa koyaushe don ƙara sabbin abubuwa da gyara kwari.
@@ -28,8 +26,6 @@ Aikin Monero kayan aiki ne na sirri, kuma keɓantawa tseren makamai ne na ci gab
 
 ## Menene cokali mai tauri?
 
-## Menene cokali mai tauri?
-
 Rubutun haɓaka Monero yana zuwa aiki da zarar kun fahimci bambancin haɓaka cryptocurrency da kawai tura sabuntawar software zuwa wani abu kamar mai bincike.
 
 A cikin cryptocurrencies, ka'idodin hanyar sadarwa (abubuwa kamar yadda ma'amaloli ya kamata su kasance, yadda ma'adinai ke aiki, da yadda ake tabbatar da kowane toshe) dole ne hanyar sadarwa ta amince da su, wani abu da ake kira "ijma'i". Lokacin da kowane ɗayan waɗannan ƙa'idodin ke buƙatar canzawa ko haɓakawa, hanyar sadarwar dole ne ta yarda da sabbin ƙa'idodin, haifar da "hard-fork" - yanayin da cibiyar sadarwa ta rabu a zahiri zuwa sarƙoƙi biyu na tubalan - ɗaya akan tsoffin dokoki, kuma daya akan sababbin dokoki.
@@ -37,8 +33,6 @@ A cikin cryptocurrencies, ka'idodin hanyar sadarwa (abubuwa kamar yadda ma'amalo
 Lokacin da kowa da kowa a cikin al'umma ya yarda da ƙa'idar ta canza, ana kiranta "cokali mai wuyar warwarewa", kuma sarkar da har yanzu tana da tsoffin ka'idoji ta mutu kuma ba a hako shi bayan cokali mai yatsa. Wannan ya kasance yanayin kusan kowane cokali mai yatsa na Monero, kuma kawai ci gaba na tsoffin ƙa'idodi shine ta ayyukan ƙoƙarin samun riba daga cokali mai yatsa.
 
 Duk da yake ba tare da cokali mai yatsa ba shine hanya ɗaya tilo don haɓaka mahimman al'amuran hanyar sadarwar Monero, kuma suna da tasiri mai ban takaici - tsohuwar software, wacce aka saki kafin a shirya cokali mai yatsa, ba za su iya fahimtar sabuwar ba. dokokin cibiyar sadarwa kuma don haka ba ya aiki bayan cokali mai yatsa! Wannan na iya haifar da masu amfani da tunanin cewa an yi asarar kuɗi, suna tunanin Monero blockchain ya tsaya, kuma ba za su iya motsa kuɗi ba har sai sun haɓaka walat ɗin su.
-
-## Wanene ya yanke shawarar lokacin da cibiyar sadarwar Monero ya inganta kuma menene ya haɗa?
 
 ## Wanene ya yanke shawarar lokacin da cibiyar sadarwar Monero ya inganta kuma menene ya haɗa?
 
@@ -58,8 +52,6 @@ Idan kuna da mahimman ra'ayi don haɓaka hanyar sadarwa, ba ku son tsarin da ake
 
 ## Ta yaya zan iya taimakawa tare da haɓaka hanyar sadarwa?
 
-## Ta yaya zan iya taimakawa tare da haɓaka hanyar sadarwa?
-
 Kamar yadda haɓakawa zuwa cibiyar sadarwar Monero ke buƙatar haɗin kai da amincewar al'umma tare da sabunta software, yana da matukar mahimmanci cewa yawancin mutane masu yiwuwa su shiga cikin tsari, gwaji, da tsarin sadarwa na haɓaka hanyar sadarwa.
 
 Anan akwai ƴan hanyoyi masu sauƙi waɗanda zaku iya taimakawa sauƙaƙe abubuwa a kusa da haɓaka hanyar sadarwa:
@@ -69,8 +61,6 @@ Anan akwai ƴan hanyoyi masu sauƙi waɗanda zaku iya taimakawa sauƙaƙe abubuw
   3. Gwada software kafin haɓaka cibiyar sadarwa. Za a yi kira ga masu gwadawa kafin haɓaka hanyar sadarwar, duka akan testnet da stagenet, don tabbatar da cewa an tsara kowane bangare na haɓakawa da kyau kuma an aiwatar da su a cikin software. Da yawan mutane suna shiga kuma suna gwada sabbin nau'ikan su sosai, mafi yuwuwar haɓaka hanyar sadarwar za ta tafi lafiya!
   4. Da zarar an buga abubuwan da suka dace da haɓaka hanyar sadarwar, tabbatar da haɓakawa nan da nan! Yayin da ake haɓaka mutane da kuma shirye don haɓaka hanyar sadarwar, mafi kyawun hanyar sadarwar za ta sarrafa ta kuma ƙarancin masu amfani da ciwon kai za su fuskanci.
 [X1526]
-
-## Menene zan iya tsammani a haɓaka hanyar sadarwar Monero na gaba?
 
 ## Menene zan iya tsammani a haɓaka hanyar sadarwar Monero na gaba?
 
@@ -85,78 +75,10 @@ Waɗannan canje-canjen za su yi nisa don haɓaka sirrin, inganci, da tsaro na ha
 
 ## Ta yaya zan iya ƙarin koyo?
 
-## Ta yaya zan iya ƙarin koyo?
-
 Batun masu yaƙe-yaƙe da haɓaka hanyoyin sadarwa yana da faɗi sosai kuma akwai dogon tarihin su a Monero, don haka tabbatar da tona cikin wasu hanyoyin haɗin yanar gizo masu zuwa idan kuna son ƙarin koyo game da tarihi, tsari, ko tsarawa wanda ke kan gaba don haɓaka hanyar sadarwa mai zuwa!
 
   * [ Monero v15 Tsarin cokali mai yatsa ](https://github.com/monero-project/meta/issues/630)
   * [ Shirye-shiryen haɓaka software (a cikin Monero) ](https://github.com/monero-project/monero#scheduled-software-upgrades)
   * [ Bayanan kula akan haɓaka yarjejeniya da aka tsara](https://web.getmonero.org/2020/09/01/note-scheduled-upgrades.html)
-
-Kara karantawa
-
-  * [Yadda Monero ke ba da damar tattalin arzikin madauwari ta musamman](/knowledge/monero-circular-economies)/
-
-  * [Sa hannun zoben Monero vs CoinJoin kamar a cikin Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Me yasa (kuma ta yaya!) yakamata ku riƙe maɓallan ku](/knowledge/hold-your-keys)/
-
-  * [Gudunmawar komawa ga Monero](/knowledge/contributing-to-monero)/
-
-  * [Yadda nodes masu nisa ke tasiri sirrin Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Duba tags: Yadda byte ɗaya zai rage lokutan daidaitawa na walat ɗin Monero da 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool da Matsayinsa a Rarraba Ma'adinai na Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Abin da Zai Yi wa Monero](/knowledge/seraphis-for-monero)/
-
-  * [Shin Canza Bitcoin zuwa Monero yana da zaman kansa kamar siyan Monero kai tsaye?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Me yasa Monero ke Amfani da Saitin Amintacce Ba kamar Zcash ba](/knowledge/monero-trustless-setup)/
-
-  * [Me yasa Monero ya fi Bitcoin daraja](/knowledge/monero-better-store-of-value)/
-
-  * [Ta yaya Monero zai iya shawo kan Tasirin hanyar sadarwa na Bitcoin](/knowledge/network-effect)/
-
-  * [Me yasa Monero ke da Mafi Mahimman Tunani Al'umma](/knowledge/critical-thinking)/
-
-  * [Zamba don Kalli Lokacin Amfani da Monero](/knowledge/monero-scams)/
-
-  * [Yadda Atomic Swaps Zai Yi Aiki a Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Abin da Kowane Mai Amfani da Monero Ya Bukatar Sanin Lokacin da Ya zo kan hanyar sadarwa](/knowledge/monero-networking)/
-
-  * [Yadda RingCT ke ɓoye Adadin Kasuwancin Monero](/knowledge/monero-ringct)/
-
-  * [Yadda Monero Stealth Adresoshin Ya Kare Imaninku](/knowledge/monero-stealth-addresses)/
-
-  * [Yadda Monero Subaddresses ke Hana Haɗin Shaida](/knowledge/monero-subaddresses)/
-
-  * [An Bayyana Fitar Monero](/knowledge/monero-outputs)/
-
-  * [Mafi kyawun Ayyuka na Monero don Masu farawa](/knowledge/monero-best-practices)/
-
-  * [Yadda Sa hannu na zobe ke ɓoye abubuwan da Monero ke bayarwa](/knowledge/ring-signatures)/
-
-  * [Yadda Monero Ya Warware Matsalolin Girman Toshe wanda ke addabar Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Yadda CLSAG Zai Inganta Ingantacciyar Monero](/knowledge/what-is-clsag)/
-
-  * [Me yasa Monero ke fitar da wutsiya](/knowledge/monero-tail-emission)/
-
-  * [Takaitaccen Tarihin Monero](/knowledge/monero-history)/
-
-  * [Mujallar Wired ba daidai ba ce Game da Monero, Ga dalilin da ya sa](/knowledge/wired-article-debunked)/
-
-  * [Manyan Tatsuniyoyi 15 na Monero da Abubuwan da Aka Kashe](/knowledge/monero-myths-debunked)/
-
-  * [Yadda Dandelion++ ke Keɓance Ma'amalar Monero Mai zaman kansa](/knowledge/monero-dandelion)/
-
-  * [Me yasa Monero Buɗaɗɗen Madogara da Rarraba](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Abin da ke Sa RandomX ta Musamman](/knowledge/monero-mining-randomx)/
-
-  * [Me yasa Monero ya fi Dash, Zcash, Zcoin (Ko da Lelantus), Grin da Bitcoin Mixers Kamar Wasabi (An sabunta Mayu 2020)](/knowledge/why-monero-is-better)/
 
 Kara karantawa

@@ -12,8 +12,6 @@ Lielākā daļa Monero kopienas cilvēku ne obligāti būs izstrādātāji, tāp
 
 ## Monero Kopienas Finansēšanas Sistēma
 
-## Monero Kopienas Finansēšanas Sistēma
-
 Monero izmanto unikālu sistēmu darba finansēšanai, ko sauc par [Community Crowdfunding System](https://ccs.getmonero.org/) (vai “CCS”), kas ļauj ikvienam kopienā iesniegt ideju par finansējumu. Ja kopiena apstiprina, šie priekšlikumi tiek atvērti finansējumam no kopienas.
 
 Sistēmai ir divi posmi, un katrs no tiem gūst labumu, ja iesaistās cilvēki no dažādām vidēm.
@@ -32,8 +30,6 @@ _Visus priekšlikumus, kas atrodas posmā “Nepieciešams finansējums”, vara
 
 ## Izglītība
 
-## Izglītība
-
 Vēl viens lielisks veids, kā jūs varat iesaistīties Monero projektā, ir palīdzēt izglītot un dot iespēju jauniem un esošiem kopienas locekļiem. Tas var izpausties dažādos veidos, taču tas var būt tik vienkārši kā dalīties ar informāciju par Monero sociālajos tīklos, blogos utt.
 
 Šeit ir daži konkrēti veidi, kā jūs varat palīdzēt izglītībai:
@@ -41,8 +37,6 @@ Vēl viens lielisks veids, kā jūs varat iesaistīties Monero projektā, ir pal
   * Uzsāciet savu blogu
   * Rakstiet pakalpojumā Twitter vai Reddit par lietām, kuras esat atklājis vai iemācījies darīt ar Monero
   * Izveidojiet videoklipus par ikdienas lietām, ko darāt ar Monero, piemēram, Monero nosūtīšanu, hardware maka izmantošanu, Monero pirkšanu un pārdošanu vietnē [LocalMonero.co](https://localmonero.co), utt.
-
-## Apziņa un iesaiste
 
 ## Apziņa un iesaiste
 
@@ -97,13 +91,9 @@ Var būt noderīgi arī salīdzināt darījumus starp Bitcoin un Monero, izmanto
 
 ## r/monerosupport
 
-## r/monerosupport
-
 Ja jau kādu laiku darbojaties ap Monero vai labi izprotat, kā to lietot un novērst problēmas, lielisks veids, kā iesaistīties, būtu doties uz [r/monerosupport](https://www.reddit.com/r/monerosupport/) subreddit un sniegt atbalstu lietotājiem, kuri tur izvieto ziņas.
 
 Pastāvīgi ir lietotāji, kuriem nepieciešama palīdzība (parasti) pamata problēmu risināšanā, un ir tikai daži no mums, kas aktīvi darbojas subreddit, lai viņiem palīdzētu. Būtu lieliski, ja vairāk cilvēku iesaistītos un sniegtu savu ieguldījumu, lai palīdzētu jauniem un esošiem lietotājiem tikt galā ar savām problēmām!
-
-## Kopienas sanāksmes
 
 ## Kopienas sanāksmes
 
@@ -115,13 +105,9 @@ Ja izvēlaties ierasties un piedalīties, lūdzu, ievērojiet tēmu secību, pal
 
 ## Tulkojumi
 
-## Tulkojumi
-
 Tiem, kas pārvalda divas vai vairāk valodu, ļoti svarīgs veids, kā iesaistīties, ir palīdzēt ar tulkojumiem no angļu valodas citās valodās. Vienmēr ir jātulko jaunas valodas un jāatjaunina esošās valodas visā ekosistēmā, un jo vairāk valodu mēs aktīvi atbalstīsim, jo iekļaujošāks un pieejamāks kļūs Monero.
 
 Tulkošanas vajadzības un informāciju varat atrast vietnē [translate.getmonero.org](https://translate.getmonero.org/) vai [ Github](https://github.com/monero-ecosystem/monero-translations).
-
-## Iesniegšanas problēmas
 
 ## Iesniegšanas problēmas
 
@@ -162,74 +148,6 @@ Jo vairāk informācijas varat sniegt par problēmu, jo labāk!
 
 ## Secinājums
 
-## Secinājums
-
 Cerams, ka šī rokasgrāmata ir radījusi dažas idejas par to, kā jūs varat iesaistīties Monero, izmantojot savu unikālo prasmju kopumu, zināšanas un pieredzi. Jo vairāk ļaužu iesaistīsies šādos veidos, jo lielāks un nobriedušāks būs Monero, un jo vieglāk mēs varēsim īstenot privātas, aizstājamas, suverēnas un pret cenzūru izturīgas naudas mērķus.
-
-Lasīt tālāk
-
-  * [Kā Monero unikāli nodrošina aprites ekonomiku](/knowledge/monero-circular-economies)/
-
-  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys)/
-
-  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy)/
-
-  * [Kā Monero izmanto hard-forks tīkla uzlabošanai](/knowledge/network-upgrades)/
-
-  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool un tā loma Monero mainošanas decentralizācijā](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero)/
-
-  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup)/
-
-  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect)/
-
-  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking)/
-
-  * [Krāpniecība, kam jāpievērš uzmanība, lietojot Monero](/knowledge/monero-scams)/
-
-  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps)/
-
-  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking)/
-
-  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct)/
-
-  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses)/
-
-  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses)/
-
-  * [Monero izvades tuvplānā](/knowledge/monero-outputs)/
-
-  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices)/
-
-  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures)/
-
-  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag)/
-
-  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission)/
-
-  * [Īsa Monero vēsture](/knowledge/monero-history)/
-
-  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked)/
-
-  * [15 populārākie Monero mīti un bažas atspēkotas](/knowledge/monero-myths-debunked)/
-
-  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion)/
-
-  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx)/
-
-  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better)/
 
 Lasīt tālāk

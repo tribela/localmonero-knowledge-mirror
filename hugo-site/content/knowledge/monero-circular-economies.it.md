@@ -10,15 +10,11 @@ Uno degli aspetti più importanti della sopravvivenza e della crescita delle cri
 
 ## Cosa sono le economie circolari?
 
-## Cosa sono le economie circolari?
-
 Mentre sono sicuro che tutti voi conoscete vagamente l'economia come argomento ampio, l'idea di "economia circolare" è raramente discussa al di fuori del mondo delle criptovalute. Ciò che rende le economie circolari così importanti e speciali è che creano mercati veramente liberi che consentono lo scambio di servizi, prodotti e beni _direttamente per Monero_.
 
 I partecipanti non hanno bisogno di spostarsi continuamente dentro e fuori dal fiat, ma possono mantenere il loro Monero all'interno del sistema, guadagnando, risparmiando e spendendo direttamente in Monero senza l'attrito, la sorveglianza o le restrizioni del normale economia.
 
 Le economie circolari sono generalmente completamente "fuori bordo" e legali, ma funzionano più come "mercati grigi" rispetto ai normali "mercati bianchi" nel mondo fiat.
-
-## Perché dobbiamo costruire economie circolari?
 
 ## Perché dobbiamo costruire economie circolari?
 
@@ -36,8 +32,6 @@ Possiamo farlo anche rifiutando di utilizzare scambi KYC centralizzati e negozia
 
 ## In che modo Monero abilita in modo unico queste economie circolari?
 
-## In che modo Monero abilita in modo unico queste economie circolari?
-
 Mentre Monero condivide alcuni degli attributi fondamentali di Bitcoin che abilitano le economie circolari in un modo nuovo (pagamenti resistenti alla censura, transazioni p2p, ecc.), porta un potere assolutamente unico a coloro che desiderano costruire e impegnarsi in economie circolari.
 
 Gli utenti di Monero non devono preoccuparsi della sorveglianza di massa o anche della censura mirata delle loro transazioni, consentendo una tranquillità unica e prevenendo qualsiasi peso sul commercio. Puoi transare con chiunque nel mondo, in qualsiasi momento, senza alcuna sorveglianza utilizzando il portafoglio Monero di tua scelta.
@@ -52,11 +46,7 @@ Queste basse commissioni assicurano che il commercio possa fluire liberamente in
 
 ## conclusione
 
-## conclusione
-
 In definitiva, Monero è denaro digitale come dovrebbe essere. La tranquillità, la fungibilità e la privacy delle transazioni in contanti ma con tutti i vantaggi delle transazioni digitali, globali e p2p svincolate dal controllo o dalla sorveglianza dello stato. Questa capacità di agire come denaro digitale consente oggi in modo unico le economie circolari e le aiuta a crescere e prosperare nel tempo in modi che altre criptovalute come Bitcoin semplicemente non possono.
-
-## Come posso saperne di più?
 
 ## Come posso saperne di più?
 
@@ -66,71 +56,5 @@ Se sei curioso e vuoi capire meglio le economie circolari o iniziare a partecipa
   * ["È ora di unirsi all'economia circolare di Bitcoin" - Ragnar Lifthrasir](https://bitcoinmagazine.com/business/its-time-to-join-the-bitcoin-circular-economy/)
   * ["Monerica.com - Una directory per un'economia circolare di Monero"](https://monerica.com/)
   * [Mercanti di Monero - Cryptwerk](https://cryptwerk.com/pay-with/xmr/)
-
-Ulteriori letture
-
-  * [Firme ad anello di Monero vs CoinJoin come in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Perché (e come!) dovresti tenere le tue chiavi](/knowledge/hold-your-keys)/
-
-  * [Contribuire a Monero](/knowledge/contributing-to-monero)/
-
-  * [Come i nodi remoti impattano sulla privacy di Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Come Monero usa gli hard-forks per aggiornare la rete](/knowledge/network-upgrades)/
-
-  * [Visualizza i tag: Come un byte ridurrà i tempi di sincronizzazione del portafoglio Monero del 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool e il suo ruolo nella decentralizzazione del mining di Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Cosa farà per Monero](/knowledge/seraphis-for-monero)/
-
-  * [Convertire Bitcoin in Monero è altrettanto privato che comprare Monero direttamente?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Perché Monero usa una configurazione senza fiducia a differenza di Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Perché Monero è un migliore deposito di valore rispetto a Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Come Monero può superare gli effetti di rete di Bitcoin](/knowledge/network-effect)/
-
-  * [Perché Monero ha la comunità di pensiero più critico](/knowledge/critical-thinking)/
-
-  * [Truffe a cui prestare attenzione quando si utilizza Monero](/knowledge/monero-scams)/
-
-  * [Come funzioneranno gli Atomic Swap in Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ciò che ogni utente Monero deve sapere quando si tratta di networking](/knowledge/monero-networking)/
-
-  * [Come RingCT nasconde gli importi delle transazioni Monero](/knowledge/monero-ringct)/
-
-  * [In che modo gli indirizzi Monero Stealth proteggono la tua identità](/knowledge/monero-stealth-addresses)/
-
-  * [In che modo i sottoindirizzo Monero impediscono il collegamento di identità](/knowledge/monero-subaddresses)/
-
-  * [Spiegazione dei risultati di Monero](/knowledge/monero-outputs)/
-
-  * [Migliori pratiche Monero per principianti](/knowledge/monero-best-practices)/
-
-  * [Come le firme ad anello oscurano i risultati di Monero](/knowledge/ring-signatures)/
-
-  * [Come Monero ha risolto il problema delle dimensioni del blocco che affligge Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [In che modo CLSAG migliorerà l'efficienza di Monero](/knowledge/what-is-clsag)/
-
-  * [Perché Monero ha un'emissione di coda](/knowledge/monero-tail-emission)/
-
-  * [La storia di Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine ha sbagliato su Monero, ecco perché](/knowledge/wired-article-debunked)/
-
-  * [Top 15 Miti e preoccupazioni Monero debunked](/knowledge/monero-myths-debunked)/
-
-  * [Come Dandelion ++ mantiene private le origini delle transazioni di Monero](/knowledge/monero-dandelion)/
-
-  * [Perché Monero è open source e decentralizzato](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: cosa rende RandomX così speciale](/knowledge/monero-mining-randomx)/
-
-  * [Perché Monero è meglio di Dash, Zcash, Zcoin (anche con Lelantus), Grin e Bitcoin Mixer come Wasabi (Aggiornato a maggio 2020)](/knowledge/why-monero-is-better)/
 
 Ulteriori letture

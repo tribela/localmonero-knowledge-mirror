@@ -10,11 +10,7 @@ image_credit_url: "https://cypherstack.com"
 
 ## 제발 시드를 받아 적으세요!
 
-## 제발 시드를 받아 적으세요!
-
 가상화폐를 안전하게 보관하는 가장 중요한 첫번째는 지갑 생성 시 주어지는 단어목록인 모네로 시드를 받아 적는 것입니다. 이 시드가 있으면 컴퓨터/핸드폰이 이용 불가능해도 모네로를 복구할 수 있습니다. 이 시드가 없고 모네로 지갑을 잃어버리면, 모네로는 잃게 되고 아무도 복구해줄 수 없습니다. 이 시드는 절대 공유하면 안됩니다. 다른 사람이 이 시드를 갖고 있다면, 당신의 모네로를 이용할 수 있습니다. 많은 사람들이 시드관리에 소홀히 했다가 누군가가 시드를 훔쳐 모든 자금을 잃는 경우를 경험했습니다. 실제 종이에 적어놓는 것을 추천합니다. 온라인 상에 저장하지 않고 여러 종이에 실제로 적어 분산 보관하는 것을 추천합니다. 이게 모네로를 안전하게 보관하기 위한 최우선 방법입니다. 제발 시드를 받아 적으세요!
-
-## 주소를 다시 한번 확인하세요
 
 ## 주소를 다시 한번 확인하세요
 
@@ -22,17 +18,11 @@ image_credit_url: "https://cypherstack.com"
 
 ## 콜드지갑과 핫지갑의 차이
 
-## 콜드지갑과 핫지갑의 차이
-
 핫지갑과 콜드지감은 가상화폐 상에서 자주 사용되는 단어고 아주 간단한 개념입니다. 핫지갑은 자주 이용하고 들고 다니는 지갑입니다. 뒷주머니에 넣고 다니기에 뜨거운(핫)한 것입니다. 콜드지갑은 자주 사용되지 않는, 은행과 비슷한 개념입니다. 실제 지갑에 몇백만원씩 넣고 다니는건 추천하지 않지만 은행에는 괜찮은 것처럼, 유저들은 모네로를 핫지갑, 모바일 지갑, 그리고 콜드지갑에 어느 정도 보관할 지 생각해봐야 합니다. 이렇게 되면 핸드폰을 잃어버리거나 도난, 또는 어떠한 이유로 지갑을 잃어버려도 모든 돈을 잃지는 않을 것입니다.
 
 ## 당신은 하드지갑이 필요할까?
 
-## 당신은 하드지갑이 필요할까?
-
 모네로를 안전하게 보관하기 위해 온라인상 보안을 철저히 하고 모든 악성프로그램을 차단하는게 힘들다고 생각하면, 하드지갑을 마련하는 것을 고려해보시길 권장합니다. 하드지갑은 컴퓨터가 아닌 하드웨어에 '열쇠'를 보관합니다. 이렇게 되면 컴퓨터가 해킹당해도 해커가 시드에 접속하지 못할 것입니다. 하드지갑이 컴퓨터에 연결이 되어 있고 서명을 해야만 자금을 이용할 수 있을 것입니다. 이는 열쇠 보관의 책임을 자주 사용되고 공격하기 쉬운 컴퓨터에서 단 한가지 목적으로만 사용되고 공격하기 어려운 하드지갑으로 옮깁니다. 컴퓨터 보안에 대해 무지한 문외한에게는 자금을 안전하게 보관하는 좋은 옵션입니다.
-
-## 의심스러울 땐 (모네로의) 기본을 따라라
 
 ## 의심스러울 땐 (모네로의) 기본을 따라라
 
@@ -41,71 +31,5 @@ image_credit_url: "https://cypherstack.com"
 비트코인같은 가상화폐를 이용하면서 개인정보를 유출할 수 있는 몇 가지 실수가 있습니다. 유저가 메타데이터 유출을 방지하기 위해서는 잘 알려진 '세탁기'를 쓰거나, KYC/AML을 요구하지 않는 코인을 쓰거나, 코인 출력 관리 등을 고려해야 합니다. 모네로는 보안기능등을 필수로 요구해 이런 문제들을 방지하고 일반유저들이 이용할 수 있는 기본값을 제공합니다. 위의 고정 링사이즈를 예시로 들면 유저가 최대 보안을 위해서 고민을 할 필요가 없다는 뜻입니다. 지갑이 이를 자동으로 해결해줍니다.
 
 이 다음 이야기는 의외일 수도 있지만, 유저들은 소프트웨어가 유저의 편의를 위해 노력한다는 것이 당연하게 느끼겠지만, 현실은 이 정반대입니다. 특히 보안에 관해서 거의 모든 가상화폐가 기준미달입니다. 개인정보를 보호하기 위해서 들여야 하는 노력은 너무나 어렵고 너무 많은 시간을 필요로 해 평균적이 유저가 도달하기 어렵습니다. 심지어 이는 보안을 목적으로 한 많은 가상화폐에도 해당됩니다! 모네로는 가능한 한 유저의 노력없이 프로토콜 단계에서 보안이 자동적으로 보장되게 하고, 이가 힘들 경우 지갑에서 기본값으로 제공합니다. 개인정보보호가 의심될 경우, 지갑의 기본값을 이용하시고 언제든지 궁금점에 대해서 물어보세요.
-
-더 보기
-
-  * [Monero가 순환 경제를 가능하게 하는 방법](/knowledge/monero-circular-economies)/
-
-  * [와사비처럼 모네로의 링 시그니처 vs 코인조인](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [자신의 키를 보유해야 하는 이유(및 방법!)](/knowledge/hold-your-keys)/
-
-  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero)/
-
-  * [원격 노드가 Monero의 개인 정보에 미치는 영향](/knowledge/remote-nodes-privacy)/
-
-  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades)/
-
-  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool과 Monero Mining의 탈중앙화에서의 역할](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero)/
-
-  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup)/
-
-  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value)/
-
-  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect)/
-
-  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking)/
-
-  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams)/
-
-  * [Monero에서 원자 스왑이 작동하는 방법](/knowledge/monero-atomic-swaps)/
-
-  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking)/
-
-  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct)/
-
-  * [모네로 비밀주소가 신상을 보호하는 방법](/knowledge/monero-stealth-addresses)/
-
-  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses)/
-
-  * [모네로 출력에 대하여](/knowledge/monero-outputs)/
-
-  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures)/
-
-  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size)/
-
-  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag)/
-
-  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission)/
-
-  * [모네로의 간단한 역사](/knowledge/monero-history)/
-
-  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked)/
-
-  * [모네로에 관한 15가지 미신과 우려, 그리고 그 해답](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion)/
-
-  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx)/
-
-  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better)/
 
 더 보기

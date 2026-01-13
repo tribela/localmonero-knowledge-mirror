@@ -14,8 +14,6 @@ A cikin wannan shafin yanar gizon za mu ɗan ɗan nutse cikin kwatancen CoinJoin
 
 ## Menene ma'amalar CoinJoin?
 
-## Menene ma'amalar CoinJoin?
-
 Kamar yadda duk ma'amaloli suke gabaɗaya a cikin Bitcoin - suna bayyana mai aikawa, mai karɓa, da adadin kuɗi - masu amfani dole ne su ɗauki ƙarin matakai don kiyaye sirrin su daga masu aikawa da suka gabata da kuma masu karɓar kuɗinsu na gaba ko yin haɗari, sa ido, ko satar kuɗi ta hanyar. tashin hankali na jiki.
 
 Mafi kyawun bayani a yau don sirri akan Bitcoin shine kayan aiki da ake kira ["CoinJoin"](https://bitcoiner.guide/qna/coinjoin/), inda 2 ko fiye masu amfani ke aiki tare (yawanci ta hanyar mai gudanarwa na tsakiya) don ƙirƙirar ma'amala ta musamman wanda ke ba da wahala ga waje. masu sa ido don haɗa abubuwan shigar da abubuwan da aka fitar. Kowane ɗan takara yana sadarwa don haɗin gwiwa don gina ma'amala ba tare da ba da izinin kula da kuɗin su ba, kuma yana karɓar fitarwa a ƙarshen wanda tarihin da ya gabata ba a bayyana shi ba (ko ɓoye) ga masu sa ido na waje.
@@ -31,25 +29,17 @@ Wannan ya karya tarihin takamaiman UTXOs, yana bawa masu amfani da Bitcoin damar
 
 ## Ta yaya sa hannun zobe ke warware waɗannan batutuwa?
 
-## Ta yaya sa hannun zobe ke warware waɗannan batutuwa?
-
 Kamar yadda [ mun yi zurfin bincike kan abin da sa hannun zobe ke da shi a baya](/knowledge/ring-signatures), ba zan yi cikakken bayani game da fasahohin fasaha na yadda suke aiki a cikin wannan gidan yanar gizon ba. Madadin haka, za mu kalli yadda hanyoyin da aka ɗauka a Monero ke warware matsalolin tare da CoinJoin ya tattauna a sama.
 
 > CoinJoin ya shiga kuma yana buƙatar shiga
-
-CoinJoin ya shiga kuma yana buƙatar shiga
 
 Sa hannun zoben Monero shine ainihin fasalin ƙa'idar sirri, kuma _kowane ma'amala_ akan hanyar sadarwa yana amfani da su. Wannan yana nufin cewa babu wani ma'amalar mai amfani da ya fito don neman mafi girman sirri fiye da masu amfani da Monero na yau da kullun, kuma duk masu amfani suna samun ƙin yarda cewa sun kashe kuɗi a kowace ciniki. Kamar yadda mai amfani da kuɗin kashe kuɗi ba ya haɗawa ko shiga tare da bayanan yaudara a cikin ma'amala, masu amfani waɗanda suka mallaki abubuwan da suka faru da za a zaɓa azaman yaudara za su iya cewa ba sa shiga cikin wannan ma'amala, suna ƙarfafa sirrin su.
 
 > Amfani da mai gudanarwa na tsakiya
 
-Amfani da mai gudanarwa na tsakiya
-
 Kamar yadda sa hannun zoben Monero gabaɗaya ba su da haɗin kai kuma suna buƙatar mai kashe kuɗi na gaske kawai don ƙirƙirar ma'amala, babu buƙatar mai gudanarwa na tsakiya a Monero. Wannan yana tabbatar da cewa _babu wanda_ zai iya hana ku samun damar sirri a Monero, kuma babu wani yanki na tsakiya wanda za'a iya matsawa, babu sauki Sybil kai hari kan ruwa, da dai sauransu. Muddin ma'amalarku ta biya kudaden da suka dace, kuna samun damar da ba za a iya tantancewa ba ga keɓantawa, tsaro, da ɓoyewa a Monero.
 
 > CoinJoin yana buƙatar ruwa 
-
-CoinJoin yana buƙatar ruwa 
 
 “ruwa” da ke akwai ga duk wanda ke kashe Monero don amfani da shi azaman kayan kwalliya koyaushe shine jimillar abubuwan da aka fitar akan sarkar don haka ba a taɓa samun ƙarancin yaudara don ɓoyewa tare da Monero. Wani mai neman kashe Monero zai iya yin haka ~ 20minti bayan ya karɓi kuɗi, kuma baya buƙatar yin wasu ƙarin matakai don samun sirri mai ƙarfi a Monero.
 
@@ -61,11 +51,7 @@ Idan mai amfani yana son "sakewa" abubuwan da aka yi amfani da su tare da fitarw
 
 > CoinJoin yawanci yana buƙatar ƙayyadaddun bayanai masu girman girman
 
-CoinJoin yawanci yana buƙatar ƙayyadaddun bayanai masu girman girman
-
 Kamar yadda adadin kuɗi ke ɓoye a cikin kowace ma'amala ta amfani da [ "Ma'amaloli na Sirri"](/knowledge/monero-ringct) (wani ɓangare na "RingCT"), yaudarar da aka yi amfani da ita a kowace ciniki na iya zama kowane girman. Babu wani dalili da za a buƙaci damuwa game da ilimin lissafi na tushen kuɗi a Monero, don haka ma'amaloli sun fi sauƙi don ginawa kuma suna iya yin amfani da lalata daga kowane lokaci a lokaci da kowane adadin akan Monero blockchain.
-
-## Ta yaya zan iya ƙarin koyo?
 
 ## Ta yaya zan iya ƙarin koyo?
 
@@ -75,71 +61,5 @@ Idan kuna sha'awar kuma kuna son ƙarin fahimtar sa hannun zobe ko ma'amalar Coi
   * [ Sa hannu na zobe - Moneropedia](https://www.getmonero.org/resources/moneropedia/ringsignatures.html)
   * [Coinjoin Q+A](https://bitcoiner.guide/qna/coinjoin/)
   * [ CoinJoin Overview](https://6102bitcoin.com/coinjoin-overview/)
-
-Kara karantawa
-
-  * [Yadda Monero ke ba da damar tattalin arzikin madauwari ta musamman](/knowledge/monero-circular-economies)/
-
-  * [Me yasa (kuma ta yaya!) yakamata ku riƙe maɓallan ku](/knowledge/hold-your-keys)/
-
-  * [Gudunmawar komawa ga Monero](/knowledge/contributing-to-monero)/
-
-  * [Yadda nodes masu nisa ke tasiri sirrin Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Yadda Monero ke amfani da cokali mai yatsa don haɓaka hanyar sadarwa](/knowledge/network-upgrades)/
-
-  * [Duba tags: Yadda byte ɗaya zai rage lokutan daidaitawa na walat ɗin Monero da 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool da Matsayinsa a Rarraba Ma'adinai na Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Abin da Zai Yi wa Monero](/knowledge/seraphis-for-monero)/
-
-  * [Shin Canza Bitcoin zuwa Monero yana da zaman kansa kamar siyan Monero kai tsaye?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Me yasa Monero ke Amfani da Saitin Amintacce Ba kamar Zcash ba](/knowledge/monero-trustless-setup)/
-
-  * [Me yasa Monero ya fi Bitcoin daraja](/knowledge/monero-better-store-of-value)/
-
-  * [Ta yaya Monero zai iya shawo kan Tasirin hanyar sadarwa na Bitcoin](/knowledge/network-effect)/
-
-  * [Me yasa Monero ke da Mafi Mahimman Tunani Al'umma](/knowledge/critical-thinking)/
-
-  * [Zamba don Kalli Lokacin Amfani da Monero](/knowledge/monero-scams)/
-
-  * [Yadda Atomic Swaps Zai Yi Aiki a Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Abin da Kowane Mai Amfani da Monero Ya Bukatar Sanin Lokacin da Ya zo kan hanyar sadarwa](/knowledge/monero-networking)/
-
-  * [Yadda RingCT ke ɓoye Adadin Kasuwancin Monero](/knowledge/monero-ringct)/
-
-  * [Yadda Monero Stealth Adresoshin Ya Kare Imaninku](/knowledge/monero-stealth-addresses)/
-
-  * [Yadda Monero Subaddresses ke Hana Haɗin Shaida](/knowledge/monero-subaddresses)/
-
-  * [An Bayyana Fitar Monero](/knowledge/monero-outputs)/
-
-  * [Mafi kyawun Ayyuka na Monero don Masu farawa](/knowledge/monero-best-practices)/
-
-  * [Yadda Sa hannu na zobe ke ɓoye abubuwan da Monero ke bayarwa](/knowledge/ring-signatures)/
-
-  * [Yadda Monero Ya Warware Matsalolin Girman Toshe wanda ke addabar Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Yadda CLSAG Zai Inganta Ingantacciyar Monero](/knowledge/what-is-clsag)/
-
-  * [Me yasa Monero ke fitar da wutsiya](/knowledge/monero-tail-emission)/
-
-  * [Takaitaccen Tarihin Monero](/knowledge/monero-history)/
-
-  * [Mujallar Wired ba daidai ba ce Game da Monero, Ga dalilin da ya sa](/knowledge/wired-article-debunked)/
-
-  * [Manyan Tatsuniyoyi 15 na Monero da Abubuwan da Aka Kashe](/knowledge/monero-myths-debunked)/
-
-  * [Yadda Dandelion++ ke Keɓance Ma'amalar Monero Mai zaman kansa](/knowledge/monero-dandelion)/
-
-  * [Me yasa Monero Buɗaɗɗen Madogara da Rarraba](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Abin da ke Sa RandomX ta Musamman](/knowledge/monero-mining-randomx)/
-
-  * [Me yasa Monero ya fi Dash, Zcash, Zcoin (Ko da Lelantus), Grin da Bitcoin Mixers Kamar Wasabi (An sabunta Mayu 2020)](/knowledge/why-monero-is-better)/
 
 Kara karantawa

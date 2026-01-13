@@ -12,8 +12,6 @@ Monero の日常的な使用に関する最も一般的な不満の 1 つは、M
 
 ## モネロのウォレット同期がビットコインよりも遅いのはなぜですか?
 
-## モネロのウォレット同期がビットコインよりも遅いのはなぜですか?
-
 ビュータグのようなソリューションの必要性をよりよく理解するために、最初に答えなければならない質問の 1 つは、Monero のウォレット同期がビットコインのような暗号通貨よりも遅い理由です。
 
 ビットコインでは、すべてのトランザクションが非公開ではなく、使用されているコイン、金額、およびチェーン上に含まれるアドレスが明らかになるため、ビットコイン ウォレットは、未使用のトランザクション出力 (UTXO) または特定のウォレットの使用済みアドレスを簡単に探すことができます。 ブロックチェーンをすばやくスキャンして、それらのアドレスが所有するUTXOのみを探し、どのコインがあなたのウォレットに属し、使用できるかを判断します。
@@ -21,8 +19,6 @@ Monero の日常的な使用に関する最も一般的な不満の 1 つは、M
 ただし、Monero では、すべての取引で、各取引に関係する送信者、受信者、および金額を非表示にすることで、ユーザーのプライバシーが保護されます。このプライバシーは、ネットワークのユーザーを保護するために不可欠ですが、ウォレットの同期も遅くなります。 Monero では、ウォレットはネットワーク上に存在するすべてのトランザクション出力 (TXO) をウォレットの秘密鍵と比較する必要があります。
 
 この比較には、すべての金額、アドレス、および既知の使用済みアウトプット (またはコイン) が Monero のチェーン上に隠されているため、アウトプットが本当にあなたのものであることを検証するために、多くの複雑な数学と暗号化が必要です。
-
-## ビュータグとは？
 
 ## ビュータグとは？
 
@@ -36,8 +32,6 @@ Monero ウォレットの同期時間を短縮する方法として、[UkoeHB �
 
 ## タグを表示: 簡単な例
 
-## タグを表示: 簡単な例
-
 部屋に 4,096 個の箱があり、そのうちの 5 個の箱だけがあなたのものだとします。箱はすべて外見と全く見分けがつかず、箱があなたのものかどうかを知る唯一の方法は、箱を開けて中に書かれた時間のかかる数学の問題を解いて、それがあなたのものであることを確認することです。
 
 では、これら 5 つのボックスの送信者に、あなたのアドレスを使用して特別なコードを生成させ、その生成されたコードの最初の文字だけを、送信される各ボックスの外側に配置することにしたとします。他の誰もが自分のボックスに対して同じことを行います (すべてのボックスがまだ見分けがつかないようにするため) が、ボックスの外側にある 1 つの文字コードを確認するだけで、その文字が記載されているボックスのみを開くことができます。
@@ -48,13 +42,9 @@ Monero ウォレットの同期時間を短縮する方法として、[UkoeHB �
 
 ## View タグはいつ Monero で利用できるようになりますか?
 
-## View タグはいつ Monero で利用できるようになりますか?
-
 ビュー タグは、[今後のネットワーク アップグレード](https://github.com/monero-project/meta/issues/630)に含めることが現在計画されている機能の 1 つであり、この春にリリースされる予定です。コミュニティ [ は 23.3XMR](https://bounties.monero.social/posts/28/implement-view-tags-to-decrease-wallet-sync-times-in-monero) (執筆時点) を立ち上げ、ビュー タグの開発と実装を奨励しました。その結果、Monero コード ベースにビュー タグを含めるための作業の大部分は、すでに行われています。 j-berman がレビュアーや研究者と協力して完成させました。
 
 ビュー タグがネットワークによって強制されると、ネットワークのアップグレード後に送信されるすべてのトランザクションは、大幅に改善されたウォレット同期時間の恩恵を受けます。ビュータグの使用を開始するために特別なことをする必要はありません。お気に入りの Monero ウォレットは、ネットワークのアップグレード後に自動的に使用を開始します!
-
-## どうすれば詳細を知ることができますか?
 
 ## どうすれば詳細を知ることができますか?
 
@@ -62,71 +52,5 @@ Monero ウォレットの同期時間を短縮する方法として、[UkoeHB �
 
   * [出力あたり 1 バイトの「ビュー タグ」でスキャン時間を短縮](https://github.com/monero-project/research-lab/issues/73)
   * [ビュータグを出力に追加してウォレットのスキャン時間を短縮](https://github.com/monero-project/monero/pull/8061)
-
-参考文献
-
-  * [Monero が独自に循環型経済を実現する方法](/knowledge/monero-circular-economies)/
-
-  * [モネロのリング署名とWasabiのような CoinJoin の比較](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [なぜ (そしてどのように!) 自分の鍵を保持する必要があるのか](/knowledge/hold-your-keys)/
-
-  * [モネロへの寄付](/knowledge/contributing-to-monero)/
-
-  * [リモートノードが Monero のプライバシーに与える影響](/knowledge/remote-nodes-privacy)/
-
-  * [Monero がハードフォークを使用してネットワークをアップグレードする方法](/knowledge/network-upgrades)/
-
-  * [P2Pool と Monero マイニングの分散化におけるその役割](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [セラフィス: モネロに何をもたらすか](/knowledge/seraphis-for-monero)/
-
-  * [ビットコインをモネロに変換することは、モネロを直接購入することと同じくらいプライベートですか?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Monero が Zcash とは異なりトラストレス設定を使用する理由](/knowledge/monero-trustless-setup)/
-
-  * [モネロがビットコインより優れた価値の保存手段である理由](/knowledge/monero-better-store-of-value)/
-
-  * [モネロがビットコインのネットワーク効果を克服する方法](/knowledge/network-effect)/
-
-  * [モネロが最も批判的思考のコミュニティを持っている理由](/knowledge/critical-thinking)/
-
-  * [モネロを使用する際に注意すべき詐欺](/knowledge/monero-scams)/
-
-  * [モネロでアトミックスワップがどのように機能するか](/knowledge/monero-atomic-swaps)/
-
-  * [ネットワーキングに関してすべての Monero ユーザーが知っておくべきこと](/knowledge/monero-networking)/
-
-  * [RingCT がモネロの取引金額を隠す方法](/knowledge/monero-ringct)/
-
-  * [Monero ステルス アドレスが個人情報を保護する方法](/knowledge/monero-stealth-addresses)/
-
-  * [Monero のサブアドレスが ID リンクを防止するしくみ](/knowledge/monero-subaddresses)/
-
-  * [モネロのアウトプットの説明](/knowledge/monero-outputs)/
-
-  * [初心者のためのモネロのベストプラクティス](/knowledge/monero-best-practices)/
-
-  * [リング署名がMoneroの出力を覆い隠す方法](/knowledge/ring-signatures)/
-
-  * [Monero がビットコインを悩ませているブロックサイズの問題をどのように解決したか](/knowledge/dynamic-block-size)/
-
-  * [CLSAG がモネロの効率を改善する方法](/knowledge/what-is-clsag)/
-
-  * [モネロにテールエミッションがある理由](/knowledge/monero-tail-emission)/
-
-  * [モネロの簡単な歴史](/knowledge/monero-history)/
-
-  * [ワイアード・マガジンはモネロについて間違っている、その理由はここにある](/knowledge/wired-article-debunked)/
-
-  * [トップ15のモネロの神話と懸念が暴かれる](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion++ が Monero のトランザクションの起点を非公開にする方法](/knowledge/monero-dandelion)/
-
-  * [モネロがオープンソースで分散化されている理由](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero マイニング: RandomX が特別な理由](/knowledge/monero-mining-randomx)/
-
-  * [Monero が Dash、Zcash、Zcoin (Lelantus を使用しても)、Grin、およびWasabi のような Bitcoin ミキサーよりも優れている理由 (2020 年 5 月更新)](/knowledge/why-monero-is-better)/
 
 参考文献

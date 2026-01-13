@@ -14,8 +14,6 @@ I det här korta inlägget kommer vi att dyka in i varför du bör hålla dina e
 
 ## Varför är det viktigt att ha dina egna nycklar?
 
-## Varför är det viktigt att ha dina egna nycklar?
-
 En av de mest missförstådda aspekterna av självvård i Monero är att om du inte har dina egna nycklar, vinner du lite eller ingen dra nytta av den sekretess som Monero erbjuder. Som avsändare av en transaktion har full insyn i den verkliga utgiften, beloppet och mottagaradressen, om du inte är den som skickar transaktionen och i stället lämna det till en börs eller vårdnadshavare har de _full_ insyn i hur du spenderar din Monero.
 
 Tack och lov, efter att de har skickat pengarna garanterar Moneros integritet sparka in och ge starkt "framåt-sekretess", men det kommer att vara tydligt börsen eller förvaringsinstitutet dit du skickade medlen och hur mycket du skickade initialt.
@@ -37,8 +35,6 @@ En annan viktig aspekt av att hålla dina egna nycklar är en som är mindre per
 Även om denna typ av aktivitet inte ofta bekräftas offentligt, där är många i samhället som är oroade över att börser som Binance utnyttjar Monero som användarna har på börsen för att handla mot Monero, vilket ökar mängden Monero-shorts och orsakar priset undertryckning över tid.
 
 Detta beteende kan också leda till likviditetskriser där användare som _vill_ behålla sina egna nycklar kan inte dra sig ur utbyte eftersom börsen har lovat mer Monero till sina användare än den faktiskt har tillgänglig. Ju fler Monero-användare har sina egna nycklar och hålla sina Monero utanför utbyten, desto hälsosammare och mer naturligt marknaden kommer teoretiskt att vara, och desto mindre risk skadlig eller girig börser kan bidra till stabiliteten i Moneros pris.
-
-## Hur håller jag mina egna nycklar med Monero?
 
 ## Hur håller jag mina egna nycklar med Monero?
 
@@ -72,78 +68,10 @@ För de av oss som gillar att kunna använda vår Monero på språng eller spend
 
 ## Slutsats
 
-## Slutsats
-
 Förhoppningsvis har det här inlägget hjälpt till att cementera behovet av att hålla dig egna nycklar, samt hänvisade dig till några av de utmärkta plånböckerna i utrymme.
 
 Ju mer du tar Monero i dina egna händer och faktiskt använder den, desto mer mer nytta du kan få både nu och i framtiden. Monero är inte bara en spekulativ tillgång – det är ett kraftfullt verktyg för frihet och ekonomiskt integritet som är välbehövlig i dagens värld och i framtiden av oss.
 
 Gå nu och hämta mynten från ett utbyte och dyk in i vad Monero var byggd för.
-
-Vidare läsning
-
-  * [Hur Monero unikt möjliggör cirkulära ekonomier](/knowledge/monero-circular-economies)/
-
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Bidrar tillbaka till Monero](/knowledge/contributing-to-monero)/
-
-  * [Hur fjärrnoder påverkar Moneros integritet](/knowledge/remote-nodes-privacy)/
-
-  * [Hur Monero använder hard-forks för att uppgradera nätverket](/knowledge/network-upgrades)/
-
-  * [Visa taggar: Hur en byte kommer att minska Monero plånbokssynkroniseringstider med 40% +](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool och dess roll i decentraliseringen av Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Vad det kommer att göra för Monero](/knowledge/seraphis-for-monero)/
-
-  * [Är konvertering av Bitcoin till Monero lika privat som att köpa Monero direkt?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Varför Monero använder en tillitslös installation till skillnad från Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Varför Monero är en bättre värdebevarare än Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Hur Monero kan övervinna Bitcoins nätverkseffekter](/knowledge/network-effect)/
-
-  * [Varför Monero har den mest kritiskt tänkande gemenskapen](/knowledge/critical-thinking)/
-
-  * [Bedrägerier att se upp för när du använder Monero](/knowledge/monero-scams)/
-
-  * [Hur atombyten kommer att fungera i Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Vad varje Monero-användare behöver veta när det gäller nätverkande](/knowledge/monero-networking)/
-
-  * [Hur RingCT döljer Monero-transaktionsbelopp](/knowledge/monero-ringct)/
-
-  * [Hur Monero Stealth-adresser skyddar din identitet](/knowledge/monero-stealth-addresses)/
-
-  * [Hur Monero-underadresser förhindrar identitetslänkning](/knowledge/monero-subaddresses)/
-
-  * [Monero Utgångar Förklaras](/knowledge/monero-outputs)/
-
-  * [Monero bästa praxis för nybörjare](/knowledge/monero-best-practices)/
-
-  * [Hur ringsignaturer obskyr Moneros utgångar](/knowledge/ring-signatures)/
-
-  * [Hur Monero löste problemet med blockstorlek som plågar Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Hur CLSAG kommer att förbättra Moneros effektivitet](/knowledge/what-is-clsag)/
-
-  * [Varför Monero har en svans emission](/knowledge/monero-tail-emission)/
-
-  * [En kort historia om Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine har fel om Monero, här är varför](/knowledge/wired-article-debunked)/
-
-  * [Topp 15 Monero myter och bekymmer debunked](/knowledge/monero-myths-debunked)/
-
-  * [Hur Dandelion++ håller Moneros transaktionsursprung privat](/knowledge/monero-dandelion)/
-
-  * [Varför Monero är öppen källkod och decentraliserad](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Vad gör RandomX så speciellt](/knowledge/monero-mining-randomx)/
-
-  * [Varför Monero är bättre än Dash, Zcash, Zcoin (även med Lelantus), Grin och Bitcoin Mixers som Wasabi (Uppdaterad maj 2020)](/knowledge/why-monero-is-better)/
 
 Vidare läsning

@@ -10,15 +10,11 @@ Et af de vigtigste aspekter i kryptovalutaernes overlevelse og vækst og deres a
 
 ## Hvad er cirkulære økonomier?
 
-## Hvad er cirkulære økonomier?
-
 Selvom jeg er sikker på, at I alle er løst bekendt med økonomier som et bredt emne, er ideen om en "cirkulær økonomi" en, der sjældent diskuteres uden for cryptocurrency-verdenen. Det, der gør cirkulære økonomier så vigtige og specielle, er, at de skaber virkelig frie markeder, der tillader handel med tjenester, produkter og varer _direkte for Monero_.
 
 Deltagere behøver ikke konstant at bevæge sig ind og ud af fiat, men kan beholde deres Monero i systemet, tjene, spare og bruge direkte i Monero uden friktion, overvågning eller restriktioner fra den normale økonomi.
 
 Cirkulære økonomier er generelt fuldstændig "over bord" og lovlige, men fungerer mere som "grå markeder" sammenlignet med de normale "hvide markeder" i fiat-verdenen.
-
-## Hvorfor gør vi behov til bygge cirkulær økonomier?
 
 ## Hvorfor gør vi behov til bygge cirkulær økonomier?
 
@@ -36,8 +32,6 @@ Vi kan også gøre dette ved at nægte at bruge centraliserede KYC-børser og ha
 
 ## Hvordan gør Monero unikt aktivere disse cirkulær økonomier?
 
-## Hvordan gør Monero unikt aktivere disse cirkulær økonomier?
-
 Mens Monero deler nogle af Bitcoins kerneegenskaber, der muliggør cirkulære økonomier på en ny måde (censurresistente betalinger, p2p-transaktioner osv.), giver det en helt unik beføjelse til dem, der ønsker at opbygge og engagere sig i cirkulære økonomier .
 
 Monero-brugere behøver ikke at bekymre sig om masseovervågning eller endda målrettet censur af deres transaktioner, hvilket muliggør enestående ro i sindet og forhindrer enhver byrde for handel. Du kan handle med hvem som helst i verden, når helst og uden overvågning ved at bruge Monero-pungen efter eget valg.
@@ -52,11 +46,7 @@ Disse lave gebyrer sikrer, at handel kan flyde frit uanset mængden af blockchai
 
 ## Konklusion
 
-## Konklusion
-
 I sidste ende er Monero digitale kontanter, som det burde være. Freden i sindet, ombytteligheden og privatlivet ved at handle i kontanter, men med alle fordelene ved digitale, globale og p2p-transaktioner adskilt fra statens kontrol eller overvågning. Denne evne til at fungere som digitale kontanter gør det unikt muligt for cirkulære økonomier i dag og hjælper dem med at vokse og trives over tid på måder, som andre kryptovalutaer som Bitcoin simpelthen ikke kan.
-
-## Hvordan kan jeg lære mere?
 
 ## Hvordan kan jeg lære mere?
 
@@ -66,71 +56,5 @@ Hvis du er nysgerrig og ønsker at forstå cirkulære økonomier bedre eller beg
   * ["Det er tid til at slutte sig til Bitcoin Circular Economy" - Ragnar Lifthrasir](https://bitcoinmagazine.com/business/its-time-to-join-the-bitcoin-circular- økonomi/)
   * [“Monerica.com – En mappe for en cirkulær Monero-økonomi”< /a>](https://monerica.com/)
   * [Monero Merchants - Cryptwerk](https://cryptwerk.com/pay-with/xmr/)
-
-Yderligere læsning
-
-  * [Monero's ring signaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Hvorfor (og hvordan!) skal du holde dine egne nøgler](/knowledge/hold-your-keys)/
-
-  * [Bidrager tilbage til Monero](/knowledge/contributing-to-monero)/
-
-  * [Hvordan fjern noder påvirker Monero's privatliv](/knowledge/remote-nodes-privacy)/
-
-  * [Hvordan Monero bruger hard-forks til at opgradere den netværk](/knowledge/network-upgrades)/
-
-  * [Se tags: Hvordan en byte vil reducere Monero wallet-synkroniseringstider med 40 %+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool og Dets rolle i Decentralisering Monero Minedrift](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Hvad Det Vil Gør for Monero](/knowledge/seraphis-for-monero)/
-
-  * [Er konvertering af Bitcoin til Monero lige så privat som at købe Monero direkte?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Hvorfor Monero Brug en Tillidsløs Opsætning i modsætning til Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Hvorfor Monero er en bedre butik af værdi end Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Hvordan Monero Kan Overvinde Bitcoin's Netværk Effekter](/knowledge/network-effect)/
-
-  * [Hvorfor Monero Har Det Mest Kritiske Tænkning Fællesskab](/knowledge/critical-thinking)/
-
-  * [Svindel til Se Ud for Når Bruger Monero](/knowledge/monero-scams)/
-
-  * [Hvordan Atomic Swaps Vil Arbejde i Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Hvad enhver Monero-bruger har brug for at vide, når det kommer til netværk](/knowledge/monero-networking)/
-
-  * [Hvordan RingCT Huder Monero Transaktion Beløb](/knowledge/monero-ringct)/
-
-  * [Hvordan Monero Stealth Adresser Beskyt Din Identitet](/knowledge/monero-stealth-addresses)/
-
-  * [Hvordan Monero Underadresser Forebyg Identitet Linking](/knowledge/monero-subaddresses)/
-
-  * [Monero Outputs Forklaret](/knowledge/monero-outputs)/
-
-  * [Monero Bedste Praksis for Begyndere](/knowledge/monero-best-practices)/
-
-  * [Hvordan Ring Signaturer Obskure Monero's Outputs](/knowledge/ring-signatures)/
-
-  * [Hvordan Monero løste blokstørrelsesproblemet, der plager Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Hvordan CLSAG Vilje Forbedre Monero's Effektivitet](/knowledge/what-is-clsag)/
-
-  * [Hvorfor Monero Har en Hale Emission](/knowledge/monero-tail-emission)/
-
-  * [En kort historie om Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine er Forkert Om Monero, Her er Hvorfor](/knowledge/wired-article-debunked)/
-
-  * [Top 15 Monero Myter og Bekymringer Afkræftet](/knowledge/monero-myths-debunked)/
-
-  * [Hvordan Dandelion++ Holder Monero's Transaktion Oprindelse Privat](/knowledge/monero-dandelion)/
-
-  * [Hvorfor Monero Er Open Source Og Decentraliseret](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Hvad Gør RandomX så Speciel](/knowledge/monero-mining-randomx)/
-
-  * [Hvorfor Monero er bedre end Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-mixere som Wasabi (Opdateret maj 2020)](/knowledge/why-monero-is-better)/
 
 Yderligere læsning

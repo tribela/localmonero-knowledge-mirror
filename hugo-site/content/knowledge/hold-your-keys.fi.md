@@ -14,8 +14,6 @@ Tässä lyhyessä viestissä sukellamme siihen, miksi sinun pitäisi pitää oma
 
 ## Miksi omien avainten säilyttäminen on tärkeää?
 
-## Miksi omien avainten säilyttäminen on tärkeää?
-
 Yksi yleisimmin väärinymmärretyistä itsehuoltajuuden näkökohdista Monerossa on se, että jos sinulla ei ole omia avaimia, hyödyt vähän tai et ollenkaan Moneron yksityisyydestä. Tapahtuman lähettäjänä saa täydellisen näkyvyyden todellisiin kuluihin, summaan ja vastaanottajan osoitteeseen, joten jos et ole tapahtuman lähettäjä ja jätät sen sen sijaan pörssille tai säilytysyhteisölle, heillä on _täydellinen_ näkyvyys tapoihin, joilla käytät Moneroa.
 
 Onneksi Moneron yksityisyys potkaisee rahan lähettämisen jälkeen ja tarjoaa vahvaa yksityisyyttä Moneron liikkuessa eteenpäin, mutta pörssi silti näkee osoitteen minne lähetit varat ja kuinka paljon lähetit aluksi.
@@ -37,8 +35,6 @@ Toinen tärkeä omia avaimia säilyttäviä koskeva näkökulma on vähemmän he
 Vaikka tämäntyyppistä toimintaa ei usein vahvisteta julkisesti, monet yhteisössä ovat huolissaan Binancen kaltaisista pörsseistä jotka hyödyntävät käyttäjiensä Moneroa pörssissä käydäkseen kauppaa Monerolla, mikä lisää Monero-shorttien määrää ja aiheuttaa hinnan alenemista ajan myötä.
 
 Tämä käyttäytyminen voi myös johtaa likviditeettikriiseihin, joissa käyttäjät, jotka haluavat _säilyttää_ omat avaimet eivät pysty nostamaan rahaa pörssistä, koska pörssi on luvannut käyttäjilleen enemmän Moneroa kuin sillä on todellisuudessa saatavilla. Mitä useammat Moneron käyttäjät pitävät omat avaimensa hallussa ja pitävät Monerot pois pörsseistä, sitä terveellisemmät ja luonnollisemmat markkinat ovat teoriassa.
-
-## Kuinka pidän omat avaimet Monerolla?
 
 ## Kuinka pidän omat avaimet Monerolla?
 
@@ -72,78 +68,10 @@ Meille, jotka haluamme käyttää Moneroamme matkoilla tai käyttää sitä usei
 
 ## Johtopäätös
 
-## Johtopäätös
-
 Toivottavasti tämä viesti on auttanut vahvistamaan tarvetta pitää kiinni omista avaimista, sekä osoitti sinulle jonkun erinomaisen lompakon.
 
 Mitä enemmän otat Moneroa omiin käsiisi ja käytät sitä, sitä enemmän hyötyä voit saada siitä nyt ja tulevaisuudessa. Monero ei ole vain spekulatiivinen omaisuus – se on tehokas työkalu vapauteen ja rahaan liittyvässä yksityisyydessä, jota kaivataan kipeästi nykymaailmassa ja tulevaisuudessa.
 
 Mene nyt hakemaan ne kolikot pörssistä ja hyppää mukaan siihen, mihin Monero on suunniteltu. 
-
-Lue lisää
-
-  * [Kuinka Monero ainutlaatuisesti mahdollistaa kiertotaloudet](/knowledge/monero-circular-economies)/
-
-  * [Moneron sormusallekirjoitukset vs CoinJoin kuten Wasabissa](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Osallistuminen Moneroon](/knowledge/contributing-to-monero)/
-
-  * [Kuinka etäsolmut vaikuttavat Moneron yksityisyyteen](/knowledge/remote-nodes-privacy)/
-
-  * [Kuinka Monero käyttää hard forkkeja verkon päivittämiseen](/knowledge/network-upgrades)/
-
-  * [Katselutunnisteet: Kuinka yksi tavu vähentää Moneron lompakon synkronointiaikoja yli 40%](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool ja sen rooli Monero-louhinnan hajauttamisessa](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Mitä se tekee Monerolle](/knowledge/seraphis-for-monero)/
-
-  * [Onko Bitcoinin muuntaminen Moneroksi yhtä yksityistä kuin Moneron ostaminen suoraan?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Miksi Monero käyttää "Trustless" -asetusta toisin kuin Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Miksi Monero on parempi arvon säilyttäjä kuin Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Kuinka Monero voi voittaa Bitcoinin verkkovaikutukset](/knowledge/network-effect)/
-
-  * [Miksi Monerolla on kriittisin ajatteluyhteisö](/knowledge/critical-thinking)/
-
-  * [Huijaukset, joita kannattaa huomioida Moneroa käytettäessä](/knowledge/monero-scams)/
-
-  * [Kuinka Atomic Swapit toimivat Monerossa](/knowledge/monero-atomic-swaps)/
-
-  * [Mitä jokaisen Moneron käyttäjän on tiedettävä verkostoitumisesta](/knowledge/monero-networking)/
-
-  * [Kuinka RingCT piilottaa Monero-transaktiosummat](/knowledge/monero-ringct)/
-
-  * [Kuinka Monero Stealth -osoitteet suojaa identiteettiäsi](/knowledge/monero-stealth-addresses)/
-
-  * [Kuinka Monero-aliosoitteet estävät identiteetin yhdistämisen](/knowledge/monero-subaddresses)/
-
-  * [Moneron Outputit selitettynä](/knowledge/monero-outputs)/
-
-  * [Moneron parhaat käytännöt aloittelijoille](/knowledge/monero-best-practices)/
-
-  * [Kuinka sormusallekirjoitukset sekoittavat Moneron outputit](/knowledge/ring-signatures)/
-
-  * [Kuinka Monero ratkaisi Bitcoinia vaivaavan lohkokoko-ongelman](/knowledge/dynamic-block-size)/
-
-  * [Kuinka CLSAG parantaa Moneron tehokkuutta](/knowledge/what-is-clsag)/
-
-  * [Miksi Monerolla on "Tail Emission"](/knowledge/monero-tail-emission)/
-
-  * [Moneron lyhyt historia](/knowledge/monero-history)/
-
-  * [Wired Magazine on väärässä Monerosta, tässä miksi](/knowledge/wired-article-debunked)/
-
-  * [15 parasta Monero-myyttiä ja -huolia, jotka on kumottu](/knowledge/monero-myths-debunked)/
-
-  * [Kuinka Dandelion++ pitää Moneron tapahtuman alkuperän yksityisenä](/knowledge/monero-dandelion)/
-
-  * [Miksi Monero on avoimen lähdekoodin ja hajautettu](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Moneron louhinta: Mikä tekee RandomX:stä niin erityisen?](/knowledge/monero-mining-randomx)/
-
-  * [Miksi Monero on parempi kuin Dash, Zcash, Zcoin (jopa Lelantuksen kanssa), Grin ja Bitcoin-mikserit kuten Wasabi (päivitetty toukokuussa 2020)](/knowledge/why-monero-is-better)/
 
 Lue lisää

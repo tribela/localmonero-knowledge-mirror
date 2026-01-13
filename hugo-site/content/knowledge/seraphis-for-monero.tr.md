@@ -8,12 +8,8 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: Monero işlemleri için modüler bir tasarım yükseltmesi
 
-## Seraphis: Monero işlemleri için modüler bir tasarım yükseltmesi
-
 Bu yazı, Monero ekosistemi için araştırma katılımcısı [`koe`](https://github.com/UkoeHB) tarafından geliştirilen ve devam eden güvenlik analiziyle birlikte geliştirilen bir dizi işlem protokolü yapısı ve soyutlaması olan [Seraphis](https://github.com/UkoeHB/Seraphis)'i açıklamaktadır. takma adlı katılımcı tarafından [`coinstudent2048`](https://github.com/coinstudent2048).  
 Anlaşılırlık adına bazı basitleştirmeler yapıyoruz ve bazı teknik detayları atlıyoruz; bu nedenle ve Seraphis'in tasarımı halen devam ettiğinden, ilgilenen okuyucular en güncel bilgiler için Seraphis belgelerine başvurmalıdır.
-
-## Monero'daki işlemler
 
 ## Monero'daki işlemler
 
@@ -45,12 +41,8 @@ Bağlanabilir halka imza yapı bloğunda da benzer bir süreç uygulandı. Oriji
 
 ## Serafis
 
-## Serafis
-
 Seraphis bu fikri bir adım daha ileri taşıyor.  
 Mevcut RingCT işlem protokolünün ayrı ayrı yapı taşlarını güncellemek yerine, farklı yapı taşlarından yararlanabilen ve gelişmiş işlevsellik sunabilen farklı bir protokol sunar.
-
-## Yapı taşları
 
 ## Yapı taşları
 
@@ -69,10 +61,6 @@ RingCT bağlantı etiketini belirsiz imzaya dönüştürdüğü için imzalama (
 Neyse ki, Seraphis'in ihtiyaç duyduğu bazı yapı taşları zaten başka yerlerde mevcut ve sıfırdan tasarlanmalarına gerek yok. Hem Kurşun Geçirmez hem de Kurşun Geçirmez+ yapılar menzile dayanıklı olarak kullanılabilir. Kanıtların onaylanması için Schnorr tipi kanıtlama sistemlerinde yapılan değişiklikler kullanılabilir. Ayrıca halihazırda Triptych, [Lelantus](https://eprint.iacr.org/2019/373) ve [Spark](https://eprint.iacr.org/2021/1173)* için temel olarak kullanılan etkili bir [kanıtlama sistemi](https://eprint.iacr.org/2015/643), üyelik kanıtları için değiştirilebilir.[ X2127X] 
 
 * Cypher Stack, Spark geliştirmesi için fon alıyor.
-
-* Cypher Stack, Spark geliştirmesi için fon alıyor.
-
-## Adresleme
 
 ## Adresleme
 
@@ -94,90 +82,8 @@ Seraphis adresleme yapıları bunu çözebilir. Seraphis ile adresiniz farklı �
 
 Adres sahibi olarak, diğer cihazlara veya üçüncü taraflara ne kadar yetki devredeceğinize siz karar verirsiniz.
 
-Monero adreslerinin, bir cihaza veya üçüncü tarafa bir görüntüleme anahtarı sağlayabileceğiniz ve harcamadan vazgeçmeden sizin adınıza gelen çıktıları izlemesine izin verebileceğiniz _görüntüleme anahtarı_ işlevselliği sunduğunu biliyor olabilirsiniz. yetki. Bu, harcama anahtarınızı güvenli bir şekilde kilitli tutarken güncel kalabilen cüzdanlar için kullanışlıdır. Ayrıca şeffaflık sunan kamuya açık bir hayır kurumu veya muhasebe departmanı olan bir şirket gibi harici görüntüleme erişimi istediğiniz durumlar için de kullanışlıdır.
-
-Monero görünüm tuşlarının dezavantajı, tam veya ayrıntılı görünüm erişimi sağlamamalarıdır. Bir cüzdanın ne zaman para harcadığını güvenilir bir şekilde tespit etmek mümkün değildir; bu da, harcama anahtarı mevcut olmadığında cüzdan bakiyelerinin doğru şekilde hesaplanmasını zorlaştırır. Şu anda, bu çıktıların içerdiği değeri öğrenmeden gelen çıktıları tespit etmek de mümkün değildir (bu, gelen çıktıları bulmaktan sorumlu herhangi bir üçüncü tarafın tam olarak ne kadar Monero satın aldığınızı öğreneceği anlamına gelir).
-
-Seraphis adresleme yapıları bunu çözebilir. Seraphis ile adresiniz farklı şeyler yapabilen farklı anahtarlarla donatılmış olarak gelir:
-
-  * Gelen çıkışları izleyin ancak değerlerini gizleyin
-  * Gelen çıkışları izleyin ancak değerlerini gösterin
-  * Giden çıkışlara dikkat edin
-  * İşlemleri oluşturmanıza yardımcı olur ancak imzalamanıza gerek kalmaz
-  * Yeni adresler oluşturun (perakendeciler veya çok sayıda müşterisi olan borsalar için kullanışlıdır)
-
-Adres sahibi olarak, diğer cihazlara veya üçüncü taraflara ne kadar yetki devredeceğinize siz karar verirsiniz.
-
-## Büyük resim
-
 ## Büyük resim
 
 Seraphis, Monero ekosisteminde büyük bir değişikliktir. Adreslerde ve işlem yapı taşlarında değişiklikler yapılmasına rağmen tasarımı, günümüzün RingCT protokolüyle mümkün olmayan esneklik ve kullanışlı işlevsellik sunar. Tasarımın büyük bir kısmı tamamlanmış ve [bir uygulamaya](https://github.com/UkoeHB/monero/tree/seraphis_lib) dönüştürülmüş olsa da, adres tasarımı ve güvenlik analizi devam etmektedir. Seraphis, Monero ekosistemini ileriye taşımak için mükemmel bir fırsat sunuyor!
-
-daha fazla okuma
-
-  * [Monero döngüsel ekonomileri benzersiz bir şekilde nasıl mümkün kılıyor?](/knowledge/monero-circular-economies)/
-
-  * [Monero'nun halka imzaları Wasabi'deki gibi CoinJoin'e karşı](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Neden (ve nasıl!) kendi anahtarlarınızı tutmalısınız?](/knowledge/hold-your-keys)/
-
-  * [Monero'ya geri katkıda bulunmak](/knowledge/contributing-to-monero)/
-
-  * [Uzak düğümler Monero'nun gizliliğini nasıl etkiler?](/knowledge/remote-nodes-privacy)/
-
-  * [Monero ağı yükseltmek için hard fork'ları nasıl kullanıyor?](/knowledge/network-upgrades)/
-
-  * [Etiketleri görüntüle: Bir bayt, Monero cüzdan senkronizasyon sürelerini nasıl %40'tan fazla azaltır?](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool ve Monero Madenciliğinin Merkezi Olmamasındaki Rolü](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Bitcoin'i Monero'ya Dönüştürmek Doğrudan Monero Satın Almak Kadar Özel mi?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Monero Neden Zcash'ten Farklı Olarak Güvenilir Bir Kurulum Kullanıyor?](/knowledge/monero-trustless-setup)/
-
-  * [Monero Neden Bitcoin'den Daha İyi Bir Değer Deposu?](/knowledge/monero-better-store-of-value)/
-
-  * [Monero, Bitcoin'in Ağ Etkilerinin Üstesinden Nasıl Gelebilir?](/knowledge/network-effect)/
-
-  * [Monero Neden En Eleştirel Düşünme Topluluğuna Sahip?](/knowledge/critical-thinking)/
-
-  * [Monero Kullanırken Dikkat Edilmesi Gereken Dolandırıcılıklar](/knowledge/monero-scams)/
-
-  * [Monero'da Atomik Takaslar Nasıl Çalışacak?](/knowledge/monero-atomic-swaps)/
-
-  * [Konu Ağ Oluşturmaya Geldiğinde Her Monero Kullanıcısının Bilmesi Gerekenler](/knowledge/monero-networking)/
-
-  * [RingCT Monero İşlem Tutarlarını Nasıl Gizliyor?](/knowledge/monero-ringct)/
-
-  * [Monero Gizli Adresleri Kimliğinizi Nasıl Korur?](/knowledge/monero-stealth-addresses)/
-
-  * [Monero Alt Adresleri Kimlik Bağlantısını Nasıl Önler?](/knowledge/monero-subaddresses)/
-
-  * [Monero Çıktılarının Açıklaması](/knowledge/monero-outputs)/
-
-  * [Yeni Başlayanlar İçin Monero En İyi Uygulamaları](/knowledge/monero-best-practices)/
-
-  * [Halka İmzaları Monero'nun Çıktılarını Nasıl Gizliyor?](/knowledge/ring-signatures)/
-
-  * [Monero, Bitcoin'i Saldıran Blok Boyutu Sorununu Nasıl Çözdü?](/knowledge/dynamic-block-size)/
-
-  * [CLSAG Monero'nun Verimliliğini Nasıl Artıracak?](/knowledge/what-is-clsag)/
-
-  * [Monero'nun Neden Kuyruk Emisyonu Var?](/knowledge/monero-tail-emission)/
-
-  * [Monero'nun Kısa Tarihi](/knowledge/monero-history)/
-
-  * [Wired Magazine Monero Konusunda Yanılıyor, İşte Nedeni](/knowledge/wired-article-debunked)/
-
-  * [En Önemli 15 Monero Efsanesi ve Endişesi Çürütüldü](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion++ Monero'nun İşlem Kaynaklarını Nasıl Gizli Tutuyor?](/knowledge/monero-dandelion)/
-
-  * [Monero Neden Açık Kaynaklı ve Merkezi Değildir?](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Madenciliği: RandomX'i Bu Kadar Özel Kılan Nedir?](/knowledge/monero-mining-randomx)/
-
-  * [Monero Neden Dash, Zcash, Zcoin (Lelantus ile Bile), Grin ve Wasabi Gibi Bitcoin Karıştırıcılarından Daha İyidir (Mayıs 2020'de Güncellendi)](/knowledge/why-monero-is-better)/
 
 daha fazla okuma

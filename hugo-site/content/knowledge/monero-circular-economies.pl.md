@@ -10,15 +10,11 @@ Jednym z najważniejszych aspektów przetrwania i wzrostu kryptowalut oraz ich u
 
 ## Czym są circular economies?
 
-## Czym są circular economies?
-
 Jestem pewien, że wszyscy jesteście mniej więcej zaznajomieni z gospodarkami, jako że idea „circular economy” jest rzadko omawiana poza światem kryptowalut. Tym, co sprawia, że circular economies są tak ważne i wyjątkowe, jest to, że tworzą one prawdziwie wolne rynki, które umożliwiają handel usługami, produktami i towarami _bezpośrednio za Monero_. 
 
 Uczestnicy nie muszą ciągle zamieniać z i na fiat, ale mogą pozostać w systemie Monero, zarabiając, oszczędzając i wydając bezpośrednio w Monero bez nadzoru lub ograniczeń normalnej gospodarki. 
 
 Circular economies są zwykle całkowicie legalne, ale funkcjonują w „szarej strefie” w porównaniu z normalną „białą strefą” świata fiat. 
-
-## Dlaczego musimy budować gospodarki okrągłe?
 
 ## Dlaczego musimy budować gospodarki okrągłe?
 
@@ -33,16 +29,6 @@ Niezwykle duża prywatność i decentralizacja jaką oferuje Monero sprawia, że
 Gdy zbudujemy circular economies, nie będziemy musieli korzystać z giełd, żeby zamieniać nasze Monero na fiat i będziemy mogli pozbyć się kontroli rządu nad naszymi pieniędzmi.
 
 Możemy to również zrobić, odmawiając korzystania z scentralizowanych giełd KYC i handlując peer-to-peer tutaj na LocalMonero. 
-
-Eliminowanie tej zależności, poprzez tworzenie circular economies, uniemożliwia władzy kontrolę nad naszą możliwością brania udziału w gospodarce, umożliwia nam życie i przetrwanie bez względu na to co o nas sądzi.
-
-Niezwykle duża prywatność i decentralizacja jaką oferuje Monero sprawia, że jest wyjątkowo ciężko (wręcz nie da się) powstrzymać ludzi przed korzystaniem z niego tak jak chcą. Przez to, że Monero jest potężnym narzędziem dla wolności, rządy szybko zauważają, że ich najlepszą szansą na kontrolowanie użytkowników Monero i zmniejszenie siły jego sieci, jest ograniczenie dla tych, którzy mogą handlować Monero i stworzenie listy jego użytkowników poprzez giełdy wymagające weryfikacji Know-Your-Customer (KYC).
-
-Gdy zbudujemy circular economies, nie będziemy musieli korzystać z giełd, żeby zamieniać nasze Monero na fiat i będziemy mogli pozbyć się kontroli rządu nad naszymi pieniędzmi.
-
-Możemy to również zrobić, odmawiając korzystania z scentralizowanych giełd KYC i handlując peer-to-peer tutaj na LocalMonero. 
-
-## Co wyróżnia Monero w możliwości tworzenia tych circular economies?
 
 ## Co wyróżnia Monero w możliwości tworzenia tych circular economies?
 
@@ -60,11 +46,7 @@ Te niskie opłaty sprawiają, że kapitał może swobodnie płynąć bez względ
 
 ## Wniosek
 
-## Wniosek
-
 Ostatecznie Monero jest cyfrową gotówką, taką jaka powinna ona być. Bezstresowa, wymienna, prywatna, zupełnie jak fizyczna gotówka, ale z zaletami bycia cyfrową i globalną oraz z możliwością wykonywania transakcji peer-to-peer, poza zasięgiem lub nadzorem władzy. Ta zdolność do funkcjonowania jako cyfrowa gotówka wyróżnia Monero w jego możliwości tworzenia circular economies i pomaga im rosnąć, a także prosperować z czasem na sposoby, w jakie inne kryptowaluty, jak Bitcoin, zwyczajnie nie mogą.
-
-## Jak mogę się dowiedzieć więcej?
 
 ## Jak mogę się dowiedzieć więcej?
 
@@ -74,71 +56,5 @@ Jeśli jesteś ciekaw i chcesz lepiej zrozumieć circular economies, lub stać s
   * [“It’s Time To Join The Bitcoin Circular Economy” - Ragnar Lifthrasir](https://bitcoinmagazine.com/business/its-time-to-join-the-bitcoin-circular-economy/)
   * [“Monerica.com - A directory for a circular Monero economy”](https://monerica.com/)
   * [Monero Merchants - Cryptwerk](https://cryptwerk.com/pay-with/xmr/)
-
-Więcej do przeczytania
-
-  * [Ring signatures w Monero vs CoinJoin jak w Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Dlaczego (i jak!) powinieneś trzymać własne klucze ](/knowledge/hold-your-keys)/
-
-  * [Wspieranie Monero](/knowledge/contributing-to-monero)/
-
-  * [Jak zdalne węzły wpływają na prywatność Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Jak Monero używa hard forków do aktualizacji sieci](/knowledge/network-upgrades)/
-
-  * [View tags: Jak jeden bajt skróci czas synchronizacji portfela Monero o 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool i jego rola w decentralizacji kopania Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis - Co zrobi dla Monero](/knowledge/seraphis-for-monero)/
-
-  * [Czy sprzedaż Bitcoinów za Monero jest tak samo prywatna jak kupno Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Dlaczego Monero nie wykorzystuje specjalnej konfiguracji w przeciwieństwie do Zcasha](/knowledge/monero-trustless-setup)/
-
-  * [Dlaczego Monero lepiej przechowuje wartości niż Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Jak Monero może pokonać efekt sieciowy Bitcoina](/knowledge/network-effect)/
-
-  * [Dlaczego Monero ma najbardziej krytycznie myślącą społeczność](/knowledge/critical-thinking)/
-
-  * [Oszustwa, na które należy uważać korzystając z Monero](/knowledge/monero-scams)/
-
-  * [Jak wymiany atomiczne będą działały w Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Co każdy użytkownik Monero musi wiedzieć o jego sieci](/knowledge/monero-networking)/
-
-  * [Jak RingCT ukrywa ilości w transakcjach Monero](/knowledge/monero-ringct)/
-
-  * [Jak stealth addresses chronią Twoją tożsamość](/knowledge/monero-stealth-addresses)/
-
-  * [Jak subadresy zapobiegają łączeniu tożsamości](/knowledge/monero-subaddresses)/
-
-  * [Wyjścia Monero wyjaśnione](/knowledge/monero-outputs)/
-
-  * [Dobre praktyki Monero dla początkujących](/knowledge/monero-best-practices)/
-
-  * [Jak ring signatures chowają wyjścia Monero](/knowledge/ring-signatures)/
-
-  * [Jak Monero rozwiązało problem rozmiaru bloku nękający Bitcoina](/knowledge/dynamic-block-size)/
-
-  * [Jak CLSAG poprawi wydajność Monero](/knowledge/what-is-clsag)/
-
-  * [Dlaczego Monero ma Tail Emission](/knowledge/monero-tail-emission)/
-
-  * [Krótka historia Monero](/knowledge/monero-history)/
-
-  * [Oto dlaczego magazyn Wired myli się co do Monero](/knowledge/wired-article-debunked)/
-
-  * [15 najczęstszych obalonych mitów i obaw o Monero](/knowledge/monero-myths-debunked)/
-
-  * [Jak Dandelion++ prywatyzuje źródło transakcji Monero](/knowledge/monero-dandelion)/
-
-  * [Dlaczego Monero jest open source i zdecentralizowane](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Kopanie Monero: Co sprawia, że RandomX jest wyjątkowy](/knowledge/monero-mining-randomx)/
-
-  * [Dlaczego Monero jest lepsze niż Dash, Zcash, Zcoin (nawet z Lelantus), Grin oraz od mikserów Bitcoina takich jak Wasabi (Zaktualizowano w maju 2020 r.)](/knowledge/why-monero-is-better)/
 
 Więcej do przeczytania

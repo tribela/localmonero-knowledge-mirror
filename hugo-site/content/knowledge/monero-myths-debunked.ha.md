@@ -26,24 +26,6 @@ Wannan ya ce, akwai wasu zargi na gama gari da ake yi wa Monero waɗanda ko dai 
   14. [Idan Monero ya kasance mai zaman kansa, ta yaya za mu iya bincika wadatar don tabbatar da cewa babu wanda ke buga Monero kyauta a ƙarƙashin hanci?](/knowledge/monero-myths-debunked#14)/
   15. [Yawancin hashrate na Monero na yanzu sun fito ne daga tafkuna biyu kawai.](/knowledge/monero-myths-debunked#15)/
 
-  1. [Monero zai fuskanci bincike na tsari fiye da sauran cryptocurrencies saboda jajircewar sa ga keɓantawa da ɓoye suna a cikin ma'amaloli.](/knowledge/monero-myths-debunked#1)/
-  2. [Monero yana da ƙarancin zaɓuɓɓukan walat.](/knowledge/monero-myths-debunked#2)/
-  3. [Monero yana da ƙarancin ƙwarewar mai amfani.](/knowledge/monero-myths-debunked#3)/
-  4. [Monero zai zama wanda ba a daina amfani da shi ba idan wani sanannen blockchain ya ɗauki fasahar sirri mai ƙarfi.](/knowledge/monero-myths-debunked#4)/
-  5. [Shin Monero ba shi da kuɗin ciniki sosai?](/knowledge/monero-myths-debunked#5)/
-  6. [Ma'amalar Monero ta ninka ma'amalar Bitcoin sau da yawa.](/knowledge/monero-myths-debunked#6)/
-  7. [Monero yana da cokali mai yatsa sau da yawa. Wannan ba yana nufin an daidaita shi ba?](/knowledge/monero-myths-debunked#7)/
-  8. [Wannan tsabar kudin Fluffypony ce!](/knowledge/monero-myths-debunked#8)/
-  9. [Yawancin aikata laifuka tun 2017 sun fito ne daga wani mutum da aka sani da moneromooo-monero](/knowledge/monero-myths-debunked#9)/
-  10. [Shin Monero ba a sauƙaƙe 51% hari?](/knowledge/monero-myths-debunked#10)/
-  11. [CPU-friendly algorithm? Shin botnets ba za su karɓi ma'adinan Monero ba?](/knowledge/monero-myths-debunked#11)/
-  12. [Monero cokali mai yatsu ba kawai cutar da tattalin arzikin Monero bane, amma sirrinsa!](/knowledge/monero-myths-debunked#12)/
-  13. [Shin Monero ba shi da gurgu mai hakar ma'adinai a farkon zamanin da aka yi amfani da shi don wadatar da masu kafa?](/knowledge/monero-myths-debunked#13)/
-  14. [Idan Monero ya kasance mai zaman kansa, ta yaya za mu iya bincika wadatar don tabbatar da cewa babu wanda ke buga Monero kyauta a ƙarƙashin hanci?](/knowledge/monero-myths-debunked#14)/
-  15. [Yawancin hashrate na Monero na yanzu sun fito ne daga tafkuna biyu kawai.](/knowledge/monero-myths-debunked#15)/
-
-## 1\. Monero zai fuskanci bincike na tsari fiye da sauran cryptocurrencies saboda jajircewar sa ga keɓantawa da ɓoye suna a cikin ma'amaloli.
-
 ## 1\. Monero zai fuskanci bincike na tsari fiye da sauran cryptocurrencies saboda jajircewar sa ga keɓantawa da ɓoye suna a cikin ma'amaloli.
 
 Wannan zargi ne na kowa akan Monero, wanda ke sa mutane da yawa su ba shi dama, kuma har zuwa yanzu shine inda martanin al'umma ba ya yanke ya bushe kamar kawai gyara wani zato mara kyau. X217X] 
@@ -56,23 +38,11 @@ Tabbacin ɗaya da za mu iya bayarwa, duk da haka, shine cewa a wani lokaci Bitco
 
 Yanzu mutum zai iya jayayya cewa sunan Bitcoin ya canza yayin da mutane suka gane cewa da gaske ba masu zaman kansu ba ne ko kuma ba a san su ba, amma wannan ba gaskiya ba ne, saboda ra'ayin cewa Bitcoin na sirri ne kuma ba za a iya gano shi ba har yanzu ya mamaye ba kawai ba. a cikin jama'a, amma a cikin wadanda ke tsara masana'antu. Wadannan mutane har yanzu sun yi imanin cewa yana da sirri, don haka sun yi imani da shi ya zama abin da Monero yake a zahiri, kuma duk da haka muna saurin matsawa cikin duniyar da ke samun karbuwa tare da jama'a, kasuwanci, da hukumomin gudanarwa. Wannan yana nuna, idan aka ba da isasshen lokaci, Monero na iya ganin wannan karɓa ɗaya.
 
-Gaskiyar ita ce, mu, a matsayinmu na al'umma, har yanzu ba mu san abin da martanin tsari zai kasance ga wani abu kamar Monero ba tukuna. Mun san cewa cryptocurrencies gabaɗaya suna kan radar hukumomin gwamnati da yawa, kuma suna da dalilin yin imani da Monero, fiye da sauran, saboda dalilan da aka ambata a sama, amma, har yanzu, ƙananan yunƙuri da gwamnatocin kowane ɗayan suka yi. kasar dangane da haramta Monero kai tsaye.
-
-Duk da haka, al'ummar Monero sun himmatu wajen yaƙar kyakkyawan yaƙin. Mun yi imanin sirrin kuɗi wani abu ne mai mahimmanci don 'yanci, kuma kowa ya kamata ya sami zaɓi don yin mu'amala a sirri ba tare da gwamnatoci, kamfanoni, ko wani ya yi muku leƙen asiri ba.
-
-Tabbacin ɗaya da za mu iya bayarwa, duk da haka, shine cewa a wani lokaci Bitcoin yana da ainihin sunan da Monero yayi yanzu. An yi tunanin cewa tsabar kudin mai laifi ne, kuma gaba ɗaya masu zaman kansu da kuma ba a san su ba, amma sannu a hankali, a kan lokaci, jama'a sun zo karbar Bitcoin ba tare da la'akari ba. 
-
-Yanzu mutum zai iya jayayya cewa sunan Bitcoin ya canza yayin da mutane suka gane cewa da gaske ba masu zaman kansu ba ne ko kuma ba a san su ba, amma wannan ba gaskiya ba ne, saboda ra'ayin cewa Bitcoin na sirri ne kuma ba za a iya gano shi ba har yanzu ya mamaye ba kawai ba. a cikin jama'a, amma a cikin wadanda ke tsara masana'antu. Wadannan mutane har yanzu sun yi imanin cewa yana da sirri, don haka sun yi imani da shi ya zama abin da Monero yake a zahiri, kuma duk da haka muna saurin matsawa cikin duniyar da ke samun karbuwa tare da jama'a, kasuwanci, da hukumomin gudanarwa. Wannan yana nuna, idan aka ba da isasshen lokaci, Monero na iya ganin wannan karɓa ɗaya.
-
-## 2\. Monero yana da ƙarancin zaɓuɓɓukan walat.
-
 ## 2\. Monero yana da ƙarancin zaɓuɓɓukan walat.
 
 Lallai Monero yana da ƴan zaɓuɓɓukan walat fiye da yawancin kuɗin da ake dasu. Wannan saboda Monero an haɓaka shi ne daga ƙasa zuwa sama. Yana kan madaidaicin codebase fiye da Bitcoin. Wannan yana nufin Monero ba zai iya kawai cokali mai yatsa na ainihin walat ɗin Bitcoin ba, ko kowane walat ɗin da ke wanzu don Bitcoin kamar yawancin tsabar kudi, kuma suyi amfani da abubuwan more rayuwa. Hakazalika, yana nufin cewa Monero ba shi da sauƙi a ƙara zuwa walat ɗin ɓangare na uku, kamar Fitowa.
 
 Kuma duk da haka, a hankali amma tabbas, walat ɗin kowane iri sun fara bayyana don Monero. Ya kasance meme tsawon shekaru da yawa cewa Monero ba shi da GUI, kuma babu tallafin walat ta hannu, amma yanzu, babu abin da zai iya zama gaba daga gaskiya. Akwai wallet ɗin da ke ba Monero musamman, kamar Monerujo na Android, da Cake Wallet na iOS da Android, da kuma sababbi irin su Wookey, Exa Wallet, da ƙari. Bugu da ƙari, walat ɗin ɓangare na uku sun fara ƙara Monero, duk da haka a hankali, ciki har da Fitowa da Guarda, kuma muna tsammanin wannan yanayin zai ci gaba kawai yayin da lokaci ya ci gaba kuma Monero's codebase ya girma.
-
-## 3\. Monero yana da ƙarancin ƙwarewar mai amfani.
 
 ## 3\. Monero yana da ƙarancin ƙwarewar mai amfani.
 
@@ -85,8 +55,6 @@ Muna gayyatar mai karatu don karanta labarai kan matakan da Bitcoiners ke ba da 
 Tare da Monero, wannan jerin wanki na cikakkun bayanai an ƙare su gaba ɗaya. Kowace ma'amala ta Monero tana riƙe babban matakin sirri kowane lokaci, ba tare da mai amfani yana buƙatar yin wani abu ko amfani da software na waje ba. Duk da yake Bitcoin ya sa ya zama da wahala don samun sirri daidai ga kowa sai dai mafi gogaggen mai amfani, Monero ya sa ya zama da wuya a yi kuskure, ga kowa da kowa, kowane lokaci. Dangane da cinikin ciniki, muna tsammanin dogayen adireshi da lokacin daidaitawa sun fi cancanta.
 
 Kuma ko da bayan tattauna duk abin da ke sama, gaskiyar ta kasance cewa ƙwarewar mai amfani sau da yawa yana samun mafi kyawun lokaci, kuma Monero ba togiya bane. UX na tsabar kudin na iya inganta sosai bayan ƴan shekaru, amma tushensa ya fi wuya a canza.
-
-## 4\. Monero zai zama wanda ba a daina amfani da shi ba idan wani sanannen blockchain ya ɗauki fasahar sirri mai ƙarfi.
 
 ## 4\. Monero zai zama wanda ba a daina amfani da shi ba idan wani sanannen blockchain ya ɗauki fasahar sirri mai ƙarfi.
 
@@ -110,8 +78,6 @@ Canja kayan aiki a karo na ƙarshe don wannan tambayar, ƙasa da yawa wannan huj
 
 ## 5\. Shin Monero ba shi da kuɗin ciniki sosai?
 
-## 5\. Shin Monero ba shi da kuɗin ciniki sosai?
-
 Ba kuma! Godiya ga fasaha mai ban mamaki na harsashi, wanda aka ƙara a cikin Oktoba 2018, girman ma'amala ya ragu sosai (sama da 80%), wanda ke haifar da faɗuwar irin wannan a cikin kuɗin ciniki. A zahiri, har zuwa lokacin rubuce-rubuce, Monero yana da rahusa kowace byte fiye da Bitcoin, kuma ƙarin haɓaka fasahar yana kawo waɗannan har ma da ƙasa.
 
 Waɗannan haɓakawa sun bambanta kuma akai-akai. Misali ɗaya shine haɓakawa da wayo a cikin abubuwan hana harsashi da kansu, suna raguwar lissafin da ake buƙata don ƙididdigewa da tabbatarwa, wani lokacin har zuwa 25%.
@@ -119,10 +85,6 @@ Waɗannan haɓakawa sun bambanta kuma akai-akai. Misali ɗaya shine haɓakawa da
 Bugu da ƙari, akwai sabbin tsare-tsaren sa hannu na zobe masu ban sha'awa a cikin ayyukan, kamar CLSAG, wanda zai maye gurbin tsarin MLSAG na yanzu, kuma yana ƙara rage girman duk ma'amala da 25-35%. Bayan wannan, akwai sabbin fasahohi masu haɓaka zub da jini tare da tsarin tabbatarwa daban-daban waɗanda ke da yuwuwar kiyaye girman ma'amala na yanzu, amma suna da girman zobe sama da ɗari, irin su Triptych, Arcturus, da Lelantus, waɗanda duk ƙanana ne kuma mafi inganci fiye da tsare-tsare na yanzu.
 
 ## 6\. Ma'amalar Monero ta ninka ma'amalar Bitcoin sau da yawa.
-
-## 6\. Ma'amalar Monero ta ninka ma'amalar Bitcoin sau da yawa.
-
-## 7\. Monero yana da cokali mai yatsa sau da yawa. Wannan ba yana nufin an daidaita shi ba?
 
 ## 7\. Monero yana da cokali mai yatsa sau da yawa. Wannan ba yana nufin an daidaita shi ba?
 
@@ -136,13 +98,9 @@ Duk wannan da za a faɗi, ƙungiyar haɓaka haɓaka tana samun wahala da gajiyaw
 
 ## 8\. Wannan tsabar kudin Fluffypony ce!
 
-## 8\. Wannan tsabar kudin Fluffypony ce!
-
 Wannan ba, kuma bai taɓa kasancewa ba, tsabar kudin Riccardo 'fluffypony' Spagni. Bai ma yi ba. Wani mutum ne da aka sani da sunan godiya wanda aka sani da godiya_for_today ne ya fara shi, kuma akwai labari mai ban sha'awa game da hakan na wani lokaci. Fluffypony ya sami sananne a matsayin babban memba na ƙungiyar / mai kula da jagora, yayin da ya ba da lokaci da albarkatu masu yawa don taimakawa tsabar kudin girma, da kuma ta hanyar tafiya da magana a taro. Tare da waɗannan abubuwa biyu sun haɗu, ya zama irin fuskar da ba ta dace ba ga Monero, kuma yawanci shine ƙofar da mutane suka same mu. Saboda mugayen al'adun Shugaba da suka mamaye wurin cryptocurrency, sun ɗauka cewa shi ne wanda ya kafa kuma shugaban Monero, dukansu ba gaskiya ba ne.
 
 A halin yanzu, Fluffypony har yanzu wani yanki ne na babban ƙungiyar, amma ba shine jagorar mai kula da codebase ba, kuma ya koma yin aiki akan ayyukan kansa. Monero ya ci gaba da kyau.
-
-## 9\. Yawancin aikata laifuka tun 2017 sun fito ne daga wani mutum da aka sani da moneromooo-monero
 
 ## 9\. Yawancin aikata laifuka tun 2017 sun fito ne daga wani mutum da aka sani da moneromooo-monero
 
@@ -151,8 +109,6 @@ Wannan gaskiya ce da ba za a iya tantama ba, kuma ba abu ne da za a yi jayayya b
 Kamar yadda mutum zai iya tunanin, yin aiki a kan Monero cikakken lokaci maimakon kan aikin sa kai zai haifar da ayyuka masu yawa. Tun da Monero ba shi da wani premine, ICO, kuma bai dauki wani mai kafa ta lada, mu in ba haka ba ba mu da cikakken lokaci injiniyoyi aiki a kan aikin, kuma mutane suna ba da gudummawar abin da za su iya, lokacin da za su iya, kuma yana da kawai ba zai yiwu a sa ran wadannan gudunmawar zuwa ga. fiye da cikakken ma'aikaci.
 
 Wannan ya ce, har yanzu akwai babban ƙoƙari don samun cak da ma'auni. Memba na ainihin ƙungiyar har yanzu yana haɗa lambar bayan bita, don haka ba lamari ba ne inda mutum ya yi kuma ya haɗa lambar, ta haka ya ketare duk wani sa ido da ake buƙata don kama babban kuskure ko mugun nufi.
-
-## 10\. Shin Monero ba a sauƙaƙe 51% hari?
 
 ## 10\. Shin Monero ba a sauƙaƙe 51% hari?
 
@@ -166,8 +122,6 @@ Ainihin farashin kayan aiki zuwa 51% harin hanyar sadarwar Monero ba a ƙididdig
 
 ## 11\. CPU-friendly algorithm? Shin botnets ba za su karɓi ma'adinan Monero ba?
 
-## 11\. CPU-friendly algorithm? Shin botnets ba za su karɓi ma'adinan Monero ba?
-
 Ma'aikata biyu na wuraren hakar ma'adinai sune ASICs da botnets, kuma matsawa daga ɗayan yana nufin matsawa kusa da wani. Idan mutum yana buƙatar CPU don ma'adinin Monero, to, hackers za su iya sarrafa ɗaruruwan ɗaruruwa idan ba dubunnan kwamfutoci masu rauni ba kuma su tilasta musu su haƙa Monero a madadinsu, ba tare da biyan su komai ba, kuma suna cin nasara ga waɗanda ke da kwamfutoci biyu kawai a cikin gidajensu. 
 
 Maganganun farko ga wannan hujja shine game da masu botnets da kansu. Duk da yake ba mu yarda da yin kutse na wasu kwamfutoci ba, shingen shiga mallakar da sarrafa botnet ya yi ƙasa da na mallakar ASICs. Mutum yana buƙatar software - galibi ana samunsa kyauta kuma buɗaɗɗen tushe - da lokaci da ƙwarewa don fitar da kwamfutoci masu rauni. Ɗayan yana buƙatar babban adadin jari da samun dama ga masana'antu. Ɗayan yana iya yin ta yaro a cikin ginshiki, ɗayan kuma ta wurin masu arziki ne kawai. Wannan yana haifar da mu ga ƙarshe cewa, idan mafi munin tsoron masu hakar ma'adinai ya zama gaskiya, botnets da kansu za su kasance mafi ƙasƙanci fiye da ASICs.
@@ -175,8 +129,6 @@ Maganganun farko ga wannan hujja shine game da masu botnets da kansu. Duk da yak
 Wannan ya ce, al'ummar Monero suna da yakinin cewa wannan batu ya wuce gona da iri. Injiniyoyin RandomX da gangan suka tsara ƙa'idar don buƙatar 2GB na ƙwaƙwalwar RAM don aiki. A takaice dai, yawancin ƙananan, sabar masu zaman kansu masu rauni (VPS) ba za su sami damar kawai ba, kuma idan sun yi, haɓakar albarkatun da aka yi amfani da su zai zama sananne ga mai sarrafa tsarin, wanda zai haifar da bincike nan da nan. A wasu kalmomi, ba za ta iya yin shiru ba a bango kamar kwamfutoci da aka yi sulhu da su suna shiga cikin harin DDOS, ko kuma yin shiru da kalmomin shiga. Lokacin da mai hakar ma'adinai ke kunne, kowa ya san shi.
 
 Wannan yana rage adadin kwamfutocin da botnet zai iya samun nasarar yin sulhu ga waɗanda ba su da fasaha sosai, ko kuma waɗanda ba a taɓa bincika su ba, maimakon yawan kwamfutoci masu rauni waɗanda masu wannan hujja suke ɗauka suna cikin haɗari. 
-
-## 12\. Monero cokali mai yatsu ba kawai cutar da tattalin arzikin Monero bane, amma sirrinsa!
 
 ## 12\. Monero cokali mai yatsu ba kawai cutar da tattalin arzikin Monero bane, amma sirrinsa!
 
@@ -194,11 +146,7 @@ Wannan ya ce, muna ganin shi a matsayin wauta don tunanin ba za a taɓa kaiwa Mo
 
 ## 13\. Shin Monero ba shi da gurgu mai hakar ma'adinai a farkon zamanin da aka yi amfani da shi don wadatar da masu kafa?
 
-## 13\. Shin Monero ba shi da gurgu mai hakar ma'adinai a farkon zamanin da aka yi amfani da shi don wadatar da masu kafa?
-
 Tare da fa’idar hangen nesa, wasu na iya sukar shawarar da aka yanke na kin sake dawo da tsabar kudin, kuma idan wadannan ’yan damfara suka isa su ture mutum daga kyakkyawan aikin da Monero ya yi, to babu wata hujja da za ta rinjayi su. Ba tare da la'akari da takaicin farko da masu yin zamba suka haifar ba, Monero ya bunƙasa kuma ya yi amfani da haɗe-haɗen haƙƙin al'umma da sha'awar sa don yin fasaha mai ƙarfi. Tawagarmu ta yau da kullun, da kuma membobin da suka gabata, ba su wadatar da ma'adinan gurgu ba, kuma a saninmu, babu wanda ke da hannu a zamba na farko da ya wanzu a cikin al'ummar Monero fiye da 'yan makonnin farko na kasancewar tsabar kudin.
-
-## 14\. Idan Monero ya kasance mai zaman kansa, ta yaya za mu iya bincika wadatar don tabbatar da cewa babu wanda ke buga Monero kyauta a ƙarƙashin hanci?
 
 ## 14\. Idan Monero ya kasance mai zaman kansa, ta yaya za mu iya bincika wadatar don tabbatar da cewa babu wanda ke buga Monero kyauta a ƙarƙashin hanci?
 
@@ -210,84 +158,14 @@ Yana da mahimmanci a lura duk da haka, cewa idan shenanigans zai faru wanda ya k
 
 ## 15\. Yawancin hashrate na Monero na yanzu sun fito ne daga tafkuna biyu kawai.
 
-## 15\. Yawancin hashrate na Monero na yanzu sun fito ne daga tafkuna biyu kawai.
-
 Wannan shi ne mafi wuyar amsawa saboda sauyin da ake samu na hako ma’adinai gaba daya. A gaskiya ma, yana iya kasancewa bayan an buga wannan labarin ba haka lamarin yake ba, kuma washegari yana iya sake faruwa. Fasaha gabaɗaya yana da wahala a rubuta game da tabbatacce saboda saurin motsi na masana'antar, kuma wannan gaskiya ne musamman game da hakar ma'adinai da hashrate.
 
 Wannan ba matsala ce da za a iya warwarewa ba. Wuraren ma'adinai na tsakiya sun mallaki kayan aiki, tafkin, da hashes, kuma babu wani abu da kowa zai iya yi game da shi.
 
 Tsabtace tafkin, yayin da sakamakon ƙarshe ya yi kama da juna, yana da mabambanta sosai, kuma mafi yawan abubuwan da za a iya canzawa. Saboda Monero yana da ma'adinai na daidaito, kowane mai hakar ma'adinai zai iya zaɓar inda zai nuna hashes. Mutane sukan zaɓi su nuna a babban tafkin, kawai saboda wannan yana nufin za su ga tubalan da aka samo sau da yawa fiye da ƙaramin tafkin. 
 
-Wannan ba matsala ce da za a iya warwarewa ba. Wuraren ma'adinai na tsakiya sun mallaki kayan aiki, tafkin, da hashes, kuma babu wani abu da kowa zai iya yi game da shi.
-
 Ko da yake, ya kamata a lura cewa za a yanke ladan toshe su daidaikun mutane tunda suna raba shi da mutane da yawa. Ƙananan wuraren waha suna samun raguwa sau da yawa, amma kowane mai hakar ma'adinai yana samun kashi mafi girma na ladan toshe, kuma sakamakon ƙarshe shine mai hakar ma'adinai yana yin daidai adadin kuɗi ko suna kan ƙaramin tafkin ko mafi girma, don haka muna ƙarfafa masu hakar ma'adinai su nuna. hash ɗin su zuwa ƙananan tafkuna don ƙara karkatar da ma'adinai.
 
 Amma mun yi kasala.
-
-Kara karantawa
-
-  * [Yadda Monero ke ba da damar tattalin arzikin madauwari ta musamman](/knowledge/monero-circular-economies)/
-
-  * [Sa hannun zoben Monero vs CoinJoin kamar a cikin Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Me yasa (kuma ta yaya!) yakamata ku riƙe maɓallan ku](/knowledge/hold-your-keys)/
-
-  * [Gudunmawar komawa ga Monero](/knowledge/contributing-to-monero)/
-
-  * [Yadda nodes masu nisa ke tasiri sirrin Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Yadda Monero ke amfani da cokali mai yatsa don haɓaka hanyar sadarwa](/knowledge/network-upgrades)/
-
-  * [Duba tags: Yadda byte ɗaya zai rage lokutan daidaitawa na walat ɗin Monero da 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool da Matsayinsa a Rarraba Ma'adinai na Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Abin da Zai Yi wa Monero](/knowledge/seraphis-for-monero)/
-
-  * [Shin Canza Bitcoin zuwa Monero yana da zaman kansa kamar siyan Monero kai tsaye?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Me yasa Monero ke Amfani da Saitin Amintacce Ba kamar Zcash ba](/knowledge/monero-trustless-setup)/
-
-  * [Me yasa Monero ya fi Bitcoin daraja](/knowledge/monero-better-store-of-value)/
-
-  * [Ta yaya Monero zai iya shawo kan Tasirin hanyar sadarwa na Bitcoin](/knowledge/network-effect)/
-
-  * [Me yasa Monero ke da Mafi Mahimman Tunani Al'umma](/knowledge/critical-thinking)/
-
-  * [Zamba don Kalli Lokacin Amfani da Monero](/knowledge/monero-scams)/
-
-  * [Yadda Atomic Swaps Zai Yi Aiki a Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Abin da Kowane Mai Amfani da Monero Ya Bukatar Sanin Lokacin da Ya zo kan hanyar sadarwa](/knowledge/monero-networking)/
-
-  * [Yadda RingCT ke ɓoye Adadin Kasuwancin Monero](/knowledge/monero-ringct)/
-
-  * [Yadda Monero Stealth Adresoshin Ya Kare Imaninku](/knowledge/monero-stealth-addresses)/
-
-  * [Yadda Monero Subaddresses ke Hana Haɗin Shaida](/knowledge/monero-subaddresses)/
-
-  * [An Bayyana Fitar Monero](/knowledge/monero-outputs)/
-
-  * [Mafi kyawun Ayyuka na Monero don Masu farawa](/knowledge/monero-best-practices)/
-
-  * [Yadda Sa hannu na zobe ke ɓoye abubuwan da Monero ke bayarwa](/knowledge/ring-signatures)/
-
-  * [Yadda Monero Ya Warware Matsalolin Girman Toshe wanda ke addabar Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Yadda CLSAG Zai Inganta Ingantacciyar Monero](/knowledge/what-is-clsag)/
-
-  * [Me yasa Monero ke fitar da wutsiya](/knowledge/monero-tail-emission)/
-
-  * [Takaitaccen Tarihin Monero](/knowledge/monero-history)/
-
-  * [Mujallar Wired ba daidai ba ce Game da Monero, Ga dalilin da ya sa](/knowledge/wired-article-debunked)/
-
-  * [Yadda Dandelion++ ke Keɓance Ma'amalar Monero Mai zaman kansa](/knowledge/monero-dandelion)/
-
-  * [Me yasa Monero Buɗaɗɗen Madogara da Rarraba](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Abin da ke Sa RandomX ta Musamman](/knowledge/monero-mining-randomx)/
-
-  * [Me yasa Monero ya fi Dash, Zcash, Zcoin (Ko da Lelantus), Grin da Bitcoin Mixers Kamar Wasabi (An sabunta Mayu 2020)](/knowledge/why-monero-is-better)/
 
 Kara karantawa

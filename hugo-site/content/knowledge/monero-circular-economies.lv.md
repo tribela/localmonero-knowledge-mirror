@@ -10,15 +10,11 @@ Viens no svarīgākajiem aspektiem kriptovalūtu pastāvēšanā, izaugsmē un l
 
 ## Kas ir aprites ekonomika?
 
-## Kas ir aprites ekonomika?
-
 Lai gan esmu pārliecināts, ka jūs visi brīvi pārzināt ekonomiku kā plašu tēmu, ideja par “aprites ekonomiku” tiek reti apspriesta ārpus kriptovalūtu pasaules. Kas aprites ekonomikas padara tik svarīgas un īpašas, ir tas, ka tās rada patiesi brīvus tirgus, kas ļauj tirgot pakalpojumus, produktus un preces _tieši par Monero_.
 
 Dalībniekiem nav nepārtraukti jāpērk un jāpārdod fiat, bet viņi var paturēt savu Monero sistēmā, pelnot, ietaupot un tērējot tieši Monero bez neērtībām, uzraudzības vai parastas ekonomikas ierobežojumiem. 
 
 Aprites ekonomika parasti ir pilnīgi godīga un likumīga, taču tā darbojas vairāk kā "pelēkie tirgi", salīdzinot ar parastajiem "baltajiem tirgiem" fiat pasaulē.
-
-## Kāpēc mums ir jāveido aprites ekonomika?
 
 ## Kāpēc mums ir jāveido aprites ekonomika?
 
@@ -36,8 +32,6 @@ To varam izdarīt arī, atsakoties izmantot centralizētas KYC biržas un tirgoj
 
 ## Kā Monero unikāli nodrošina šīs aprites ekonomikas?
 
-## Kā Monero unikāli nodrošina šīs aprites ekonomikas?
-
 Lai gan Monero izmanto dažus Bitcoin galvenos atribūtus, kas nodrošina aprites ekonomiku jaunā veidā (pret cenzūru izturīgi maksājumi, p2p darījumi utt.), tas sniedz absolūti unikālu iespēju tiem, kas vēlas veidot aprites ekonomiku un tajā iesaistīties. 
 
 Monero lietotājiem nav jāuztraucas par masveida uzraudzību vai pat mērķtiecīgu savu pārskaitījumu cenzūru, nodrošinot unikālu sirdsmieru un novēršot jebkādu slogu tirdzniecībai. Jūs varat veikt darījumus ar jebkuru cilvēku pasaulē jebkurā laikā un bez uzraudzības, izmantojot jūsu izvēlēto Monero maku.
@@ -52,11 +46,7 @@ Viens no vienkāršākajiem punktiem, kas jāsaprot par Monero pārskaitījumiem
 
 ## Secinājums
 
-## Secinājums
-
 Galu galā Monero ir digitālā nauda, kā tam vajadzētu būt. Sirdsmiers, aizvietojamība un privātums kā skaidras naudas darījumos, bet ar visām digitālo, globālo un p2p darījumu priekšrocībām, kas ir atdalītas no valsts kontroles vai uzraudzības. Šī spēja darboties kā digitālai skaidrai naudai mūsdienās unikāli nodrošina aprites ekonomiku un palīdz tai laika gaitā augt un plaukt tādā veidā, kā citas kriptovalūtas, piemēram, Bitcoin, vienkārši nespēj.
-
-## Kā es varu uzzināt vairāk?
 
 ## Kā es varu uzzināt vairāk?
 
@@ -66,71 +56,5 @@ Ja jums interesē un vēlaties labāk izprast aprites ekonomiku vai sākt tajā 
   * [“Ir pienācis laiks pievienoties Bitcoin aprites ekonomikai” - Ragnars Liftrasirs](https://bitcoinmagazine.com/business/its-time-to-join-the-bitcoin-circular- ekonomika/)
   * [“Monerica.com — Monero aprites ekonomikas krātuve”< /a>](https://monerica.com/)
   * [Monero tirgotāji — Cryptwerk](https://cryptwerk.com/pay-with/xmr/)
-
-Lasīt tālāk
-
-  * [Monero gredzenveida paraksti salīdzinājumā ar CoinJoin kā Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Kāpēc (un kā!) jums vajadzētu turēt savas atslēgas](/knowledge/hold-your-keys)/
-
-  * [Iesaiste Monero](/knowledge/contributing-to-monero)/
-
-  * [Kā attālie mezgli ietekmē Monero privātumu](/knowledge/remote-nodes-privacy)/
-
-  * [Kā Monero izmanto hard-forks tīkla uzlabošanai](/knowledge/network-upgrades)/
-
-  * [Skata tagi: kā viens baits samazinās Monero maka sinhronizācijas laiku par 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool un tā loma Monero mainošanas decentralizācijā](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: ko tas darīs Monero](/knowledge/seraphis-for-monero)/
-
-  * [Vai Bitcoin konvertēšana uz Monero ir tikpat privāta kā Monero pirkšana tieši?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Kāpēc Monero atšķirībā no Zcash izmanto bezuzticības iestatījumu](/knowledge/monero-trustless-setup)/
-
-  * [Kāpēc Monero ir labāks vērtības glabātājs nekā Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Kā Monero var pārvarēt Bitcoin tīkla efektus](/knowledge/network-effect)/
-
-  * [Kāpēc Monero ir viskritiskāk domājošā kopiena](/knowledge/critical-thinking)/
-
-  * [Krāpniecība, kam jāpievērš uzmanība, lietojot Monero](/knowledge/monero-scams)/
-
-  * [Kā Monero darbosies atomiskā apmaiņa](/knowledge/monero-atomic-swaps)/
-
-  * [Kas jāzina ikvienam Monero lietotājam, kad runa ir par tīklu veidošanu](/knowledge/monero-networking)/
-
-  * [Kā RingCT slēpj Monero pārskaitījumu summas](/knowledge/monero-ringct)/
-
-  * [Kā Monero slepenās adreses aizsargā jūsu identitāti](/knowledge/monero-stealth-addresses)/
-
-  * [Kā Monero apakšadreses novērš identitātes saistīšanu](/knowledge/monero-subaddresses)/
-
-  * [Monero izvades tuvplānā](/knowledge/monero-outputs)/
-
-  * [Monero labākā prakse iesācējiem](/knowledge/monero-best-practices)/
-
-  * [Kā gredzenveida paraksti apslēpj Monero izvadi](/knowledge/ring-signatures)/
-
-  * [Kā Monero atrisināja bloka izmēra problēmu, kas vajā Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Kā CLSAG uzlabos Monero efektivitāti](/knowledge/what-is-clsag)/
-
-  * [Kāpēc Monero ir astes emisija](/knowledge/monero-tail-emission)/
-
-  * [Īsa Monero vēsture](/knowledge/monero-history)/
-
-  * [Žurnāls Wired kļūdās par Monero. Lūk, kāpēc](/knowledge/wired-article-debunked)/
-
-  * [15 populārākie Monero mīti un bažas atspēkotas](/knowledge/monero-myths-debunked)/
-
-  * [Kā Dandelion++ saglabā Monero pārskaitījumu izcelsmi privātu](/knowledge/monero-dandelion)/
-
-  * [Kāpēc Monero ir atvērtā pirmkoda un decentralizēts](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero mainošana: ar ko RandomX ir tik īpašs](/knowledge/monero-mining-randomx)/
-
-  * [Kāpēc Monero ir labāks par Dash, Zcash, Zcoin (pat ar Lelantus), Grin un Bitcoin mikseriem, piemēram, Wasabi (atjaunināts 2020. gada maijā)](/knowledge/why-monero-is-better)/
 
 Lasīt tālāk

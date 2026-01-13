@@ -10,11 +10,7 @@ De când există bani, au existat escrocherii pentru a-i convinge pe oameni să 
 
 ## Înșelătoria impostorului
 
-## Înșelătoria impostorului
-
 Una dintre cele mai vechi escrocherii din carte și care poate avea loc pe orice platformă de discuții existentă. În această înșelătorie, escrocul va pretinde că este o persoană de încredere din comunitate sau un oficial de rang înalt dintr-o afacere conexă. Odată ce încrederea victimei este câștigată prin această reputație stabilită, escrocul poate trimite utilizatorul pe un site malițios, îl poate pune să descarce un program conceput pentru a-i fura fondurile sau chiar îl poate face pe utilizator să îi trimită direct fonduri. Verificați întotdeauna de trei ori dacă persoana cu care vorbiți este într-adevăr persoana corectă. Companiile vor avea e-mailuri pe care să le contacteze pentru a verifica identitățile (de exemplu, "Directorul general al companiei dvs. tocmai m-a contactat pe Telegram?"), iar alți lideri ai comunității vor putea fi contactați, de obicei, prin alte mijloace. Verificați înainte de a întreprinde orice acțiune. ÎN SPECIAL dacă ei au inițiat conversația cu dvs. și nu dvs. cu ei.
-
-## Afacerea ce seamănă înșelătorie
 
 ## Afacerea ce seamănă înșelătorie
 
@@ -26,11 +22,7 @@ Soluția la acest tip de înșelăciuni este vigilența. Întotdeauna verificaț
 
 ## Înșelătoria absolută
 
-## Înșelătoria absolută
-
 Uneori, escrocii nici măcar nu încearcă să fie subtili. Ei fac afirmații uriașe, grandioase și știu că vor exista întotdeauna proști care îi vor crede din disperare, lăcomie sau ignoranță. Aceste înșelăciuni iau multe forme, de la proiecte de monede care promit randamente ridicole pentru investiții în care le dai mai întâi bani (cum ar fi Bitconnect), la grupuri speciale, secrete, care promit să îți spună toate mișcările pieței în avans, astfel încât să poți face bani... contra unei taxe. Nu uitați. Dacă ceva sună prea frumos ca să fie adevărat, probabil că este. Acest sfat este valabil mai ales în spațiul criptomonedelor, deoarece implementarea unei monede sau a unui contract inteligent este trivială în zilele noastre, iar postarea online a afirmațiilor tale dubioase este gratuită. Nu uitați, dacă cineva chiar a găsit o modalitate de a cronometra piața sau a descoperit o modalitate de a face tone de bani infinit, atunci de ce v-ar spune? L-ar folosi ei înșiși pentru a se îmbogăți. De ce ar împărtăși acest lucru? Fii inteligent. Folosește-ți creierul. Nu aveți încredere în nimeni.
-
-## Rolul semințelor tale Monero în escrocherii
 
 ## Rolul semințelor tale Monero în escrocherii
 
@@ -39,71 +31,5 @@ Sămânța ta Monero ESTE Monero-ul tău. Trebuie să o notezi când îți faci 
 Prea des, un individ a păstrat un portofel rece de Monero, a fost curios despre fondurile sale și a vrut să le verifice. Dar în loc să treacă prin toată bătaia de cap de a reinstala întreaga aplicație de portofel, ei decid pur și simplu să folosească un portofel de web pentru a-și restaura rapid sămânța și a-și privi banii. Dacă sunt victime ale escrocheriei "Business Look Alike", atunci chiar actul de introducere a sămânței le oferă escrocilor, care pot atunci muta banii într-un alt portofel pe care îl controlează la conveniența lor.
 
 ORICÂND un site, o aplicație sau un portofel are o opțiune "restore with seed" (restaurare cu sămânță), fii foarte atent că aplicația pe care o folosești este una legitimă. Verifică hashr-urile programului (site-ul Monero are instrucțiuni despre cum să faci acest lucru) pentru a te asigura că programul nu a fost falsificat de forțe externe, și fii constant conștient de unde și cum îți expui sămânța. Verificarea dublă poate fi enervantă, dar pierderea de fonduri din neglijență ar fi și mai rea.
-
-Lecturi suplimentare
-
-  * [Cum permite Monero în mod unic economiile circulare](/knowledge/monero-circular-economies)/
-
-  * [Semnături inelare Monero vs CoinJoin ca în Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [De ce (și cum!) ar trebui să vă păstrați propriile chei](/knowledge/hold-your-keys)/
-
-  * [Contribuind înapoi la Monero](/knowledge/contributing-to-monero)/
-
-  * [Cum afectează nodurile de la distanță confidențialitatea Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Cum folosește Monero hard-fork-urile pentru a moderniza rețeaua](/knowledge/network-upgrades)/
-
-  * [Vezi etichete: Cum un singur octet va reduce timpii de sincronizare a portofelului Monero cu 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool și rolul său în descentralizarea mineritului Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Ce va face pentru Monero](/knowledge/seraphis-for-monero)/
-
-  * [Este convertirea Bitcoin în Monero la fel de privată ca și cumpărarea directă de Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [De ce Monero folosește o configurație fără încredere, spre deosebire de Zcash](/knowledge/monero-trustless-setup)/
-
-  * [De ce Monero este un depozit de valoare mai bun decât Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Cum poate Monero să depășească efectele de rețea ale Bitcoin](/knowledge/network-effect)/
-
-  * [De ce Monero are cea mai mare comunitate cu gândire critică](/knowledge/critical-thinking)/
-
-  * [Cum vor funcționa schimburile atomice în Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ce trebuie să știe fiecare utilizator Monero atunci când vine vorba de rețea](/knowledge/monero-networking)/
-
-  * [Cum ascunde RingCT sumele tranzacțiilor Monero](/knowledge/monero-ringct)/
-
-  * [Cum îți protejează identitatea adresele Monero invizibile](/knowledge/monero-stealth-addresses)/
-
-  * [Cum previn subadresele Monero legătura de identitate](/knowledge/monero-subaddresses)/
-
-  * [Explicații despre ieșirile Monero](/knowledge/monero-outputs)/
-
-  * [Cele mai bune practici Monero pentru începători](/knowledge/monero-best-practices)/
-
-  * [Modul în care semnăturile inelare ascund ieșirile Monero](/knowledge/ring-signatures)/
-
-  * [Cum a rezolvat Monero problema dimensiunii blocurilor care afectează Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Cum va îmbunătăți CLSAG eficiența Monero](/knowledge/what-is-clsag)/
-
-  * [De ce Monero are o emisie de coadă](/knowledge/monero-tail-emission)/
-
-  * [O scurtă istorie a Monero](/knowledge/monero-history)/
-
-  * [Revista Wired se înșeală în legătură cu Monero, iată de ce](/knowledge/wired-article-debunked)/
-
-  * [Top 15 mituri și îngrijorări legate de Monero dezmințite](/knowledge/monero-myths-debunked)/
-
-  * [Cum păstrează Dandelion++ confidențialitatea originilor tranzacțiilor Monero](/knowledge/monero-dandelion)/
-
-  * [De ce Monero este Open Source și descentralizat](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Mineritul Monero: Ce face ca RandomX să fie atât de special](/knowledge/monero-mining-randomx)/
-
-  * [De ce Monero este mai bun decât Dash, Zcash, Zcoin (chiar și cu Lelantus), Grin și Bitcoin Mixers ca Wasabi (actualizat în mai 2020)](/knowledge/why-monero-is-better)/
 
 Lecturi suplimentare

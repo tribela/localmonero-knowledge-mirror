@@ -10,15 +10,11 @@ Eden najpomembnejših vidikov preživetja in rasti kriptovalut ter njihove upora
 
 ## Kaj so krožna gospodarstva?
 
-## Kaj so krožna gospodarstva?
-
 Čeprav smo prepričani, da ste na splošno seznanjeni z ekonomijo, je ideja o "krožnem gospodarstvu" tista, o kateri se le redko razpravlja zunaj sveta kriptovalut. Zaradi česar so krožna gospodarstva tako pomembna in posebna je, da ustvarjajo resnično proste trge, ki omogočajo trgovanje s storitvami, izdelki in blagom _neposredno za Monero_
 
 Udeležencem ni treba nenehno menjavati in izplačati, ampak lahko svoj Monero obdržijo v sistemu, zaslužijo, varčujejo in trošijo neposredno v Moneru brez trenj, nadzora ali omejitev običajnega gospodarstva.
 
 Krožna gospodarstva so na splošno popolnoma zakonita, vendar delujejo bolj kot "sivi trgi" v primerjavi z običajnimi "belimi trgi" v fiat svetu.
-
-## Zakaj moramo ustvarjati krožna gospodarstva?
 
 ## Zakaj moramo ustvarjati krožna gospodarstva?
 
@@ -36,8 +32,6 @@ To lahko storimo tudi tako, da zavrnemo uporabo centraliziranih borz KYC in trgu
 
 ## Kako Monero edinstveno omogoča ta krožna gospodarstva?
 
-## Kako Monero edinstveno omogoča ta krožna gospodarstva?
-
 Čeprav ima Monero nekatere ključne lastnosti Bitcoina, ki na nov način omogočajo krožna gospodarstva (plačila, odporna na cenzuro, transakcije p2p itd.), prinaša povsem edinstveno moč tistim, ki želijo graditi in sodelovati v krožnih gospodarstvih. 
 
 Uporabnikom Monero ni treba skrbeti za množični nadzor ali celo ciljno cenzuro njihovih transakcij, kar jim omogoča edinstveno mirnost in preprečuje kakršno koli obremenitev pri poslovanju. Z izbrano denarnico Monero lahko kadar koli in s komer koli na svetu opravljate transakcije brez kakršnega koli nadzora.
@@ -52,11 +46,7 @@ Te nizke provizije zagotavljajo, da lahko poslovanje prosto teče ne glede na pr
 
 ## Zaključek
 
-## Zaključek
-
 Monero je digitalna gotovina, kakršna bi morala biti. Mirne duše, zamenljivost in zasebnost transakcij z gotovino, vendar z vsemi prednostmi digitalnih, globalnih in p2p transakcij, ki so ločene od državnega nadzora ali kontrole. Ta zmožnost, da deluje kot digitalni denar, danes edinstveno omogoča krožna gospodarstva ter jim pomaga, da sčasoma rastejo in uspevajo na načine, ki jih druge kriptovalute, kot je Bitcoin, preprosto ne morejo.
-
-## Kako lahko izvem več?
 
 ## Kako lahko izvem več?
 
@@ -66,71 +56,5 @@ Monero je digitalna gotovina, kakršna bi morala biti. Mirne duše, zamenljivost
   * ["Čas je, da se pridružite krožnemu gospodarstvu Bitcoin" - Ragnar Lifthrasir](https://bitcoinmagazine.com/business/its-time-to-join-the-bitcoin-circular- gospodarstvo/)
   * [“Monerica.com – Direktorij za krožno Monero gospodarstvo”< /a>](https://monerica.com/)
   * [Monero Merchants – Cryptwerk](https://cryptwerk.com/pay-with/xmr/)
-
-Nadaljnje branje
-
-  * [Obročni ring podpisi Monero vs CoinJoin kot v Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Zakaj (in kako!) bi morali imeti svoje ključe](/knowledge/hold-your-keys)/
-
-  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero)/
-
-  * [Kako oddaljena vozlišča vplivajo na zasebnost Monera](/knowledge/remote-nodes-privacy)/
-
-  * [Kako Monero uporablja hard-forke za nadgradnjo omrežja](/knowledge/network-upgrades)/
-
-  * [Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Kaj bo Naredil za Monero](/knowledge/seraphis-for-monero)/
-
-  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup)/
-
-  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect)/
-
-  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking)/
-
-  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams)/
-
-  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps)/
-
-  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking)/
-
-  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct)/
-
-  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses)/
-
-  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses)/
-
-  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs)/
-
-  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices)/
-
-  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures)/
-
-  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag)/
-
-  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission)/
-
-  * [Kratka zgodovina Monera](/knowledge/monero-history)/
-
-  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked)/
-
-  * [Razbijamo 15 glavnih mitov in pomislekov o Monero](/knowledge/monero-myths-debunked)/
-
-  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion)/
-
-  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx)/
-
-  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better)/
 
 Nadaljnje branje

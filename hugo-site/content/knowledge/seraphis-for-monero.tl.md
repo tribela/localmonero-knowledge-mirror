@@ -8,12 +8,8 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: isang modular na pag-upgrade ng disenyo para sa mga transaksyong Monero
 
-## Seraphis: isang modular na pag-upgrade ng disenyo para sa mga transaksyong Monero
-
 Inilalarawan ng post na ito ang [Seraphis](https://github.com/UkoeHB/Seraphis), isang hanay ng mga istruktura ng protocol ng transaksyon at abstraction na binuo ng pseudonymous research contributor [`koe`](https://github.com/UkoeHB) para sa Monero ecosystem, at may patuloy na pagsusuri sa seguridad ng pseudonymous contributor [`coinstudent2048`](https://github.com/coinstudent2048).  
 Gumagawa kami ng ilang pagpapasimple at tinanggal ang ilang teknikal na detalye para sa kalinawan; para sa kadahilanang ito, at dahil ang disenyo ng Seraphis ay isinasagawa pa rin, ang mga interesadong mambabasa ay dapat sumangguni sa dokumentasyon ng Seraphis para sa pinaka-up-to-date na impormasyon.
-
-## Mga transaksyon sa Monero
 
 ## Mga transaksyon sa Monero
 
@@ -48,12 +44,8 @@ Isang katulad na proseso ang isinailalim sa linkable ring signature building blo
 
 ## Seraphis
 
-## Seraphis
-
 Isinasagawa ni Seraphis ang ideyang ito nang higit pa.  
 Sa halip na i-update ang mga indibidwal na building block ng kasalukuyang RingCT transaction protocol, nagpapakilala ito ng ibang protocol na maaaring samantalahin ang iba't ibang building block at mag-alok ng pinahusay na functionality.
-
-## Mga bloke ng gusali
 
 ## Mga bloke ng gusali
 
@@ -73,10 +65,6 @@ Dahil inilalagay ng RingCT ang nagli-link na tag sa hindi malinaw na lagda, ang 
 Sa kabutihang palad, ang ilan sa mga bloke ng gusali na kinakailangan ng Seraphis ay umiiral na sa ibang lugar, at hindi na kailangang idisenyo mula sa simula. Parehong ang mga Bulletproof at Bulletproofs+ na mga konstruksyon ay maaaring gamitin bilang mga range proof. Maaaring gamitin ang mga pagbabago sa Schnorr-type proving system para sa pagpapahintulot ng mga patunay. At isang mahusay na [proving system](https://eprint.iacr.org/2015/643) na ginamit na bilang batayan para sa Triptych, [Lelantus](https://eprint.iacr.org/2019/373), at [Spark](https://eprint.iacr.org/2021/1173)* ay maaaring mabago para sa mga patunay ng membership. X2127X] 
 
 * Tumatanggap ang Cypher Stack ng pagpopondo para sa pagpapaunlad ng Spark.
-
-* Tumatanggap ang Cypher Stack ng pagpopondo para sa pagpapaunlad ng Spark.
-
-## Pag-address
 
 ## Pag-address
 
@@ -100,74 +88,6 @@ Bilang may hawak ng address, ikaw ang magpapasya kung gaano kalaki ang awtoridad
 
 ## Ang malaking larawan
 
-## Ang malaking larawan
-
 Ang Seraphis ay isang malaking pagbabago sa Monero ecosystem. Bagama't nagsasangkot ito ng mga pagbabago sa mga address at mga bloke ng pagbuo ng transaksyon, ang disenyo nito ay nag-aalok ng flexibility at kapaki-pakinabang na functionality na hindi posible sa RingCT protocol ngayon. Bagama't ang karamihan sa disenyo ay tinatapos at ginagawang [isang pagpapatupad](https://github.com/UkoeHB/monero/tree/seraphis_lib), ang disenyo ng address at pagsusuri sa seguridad ay nagpapatuloy. Nag-aalok ang Seraphis ng magandang pagkakataon para itulak ang Monero ecosystem pasulong!
-
-Karagdagang pagbabasa
-
-  * [Paano natatanging pinapagana ng Monero ang mga circular na ekonomiya](/knowledge/monero-circular-economies)/
-
-  * [Ang mga ring signature ni Monero vs CoinJoin tulad ng sa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Bakit (at paano!) dapat mong hawakan ang sarili mong mga susi](/knowledge/hold-your-keys)/
-
-  * [Nag-aambag pabalik sa Monero](/knowledge/contributing-to-monero)/
-
-  * [Paano nakakaapekto ang malalayong node sa privacy ni Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Paano gumagamit si Monero ng mga hard-forks para i-upgrade ang network](/knowledge/network-upgrades)/
-
-  * [Tingnan ang mga tag: Paano babawasan ng isang byte ang mga oras ng pag-sync ng Monero wallet ng 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [Ang P2Pool at ang Tungkulin Nito sa Desentralisasyon ng Monero Mining](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Ang Pag-convert ba ng Bitcoin sa Monero ay Kasing Pribado ng Direktang Pagbili ng Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Bakit Gumagamit ang Monero ng Walang Tiwala na Setup Hindi Gaya ng Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Bakit Mas Mabuting Tindahan ng Halaga ang Monero kaysa sa Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Paano Malalampasan ng Monero ang Mga Epekto ng Network ng Bitcoin](/knowledge/network-effect)/
-
-  * [Bakit Ang Monero ang May Pinaka Kritikal na Pag-iisip na Komunidad](/knowledge/critical-thinking)/
-
-  * [Mga Scam na Dapat Abangan Kapag Gumagamit ng Monero](/knowledge/monero-scams)/
-
-  * [Paano Gumagana ang Atomic Swaps sa Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Ang Kailangang Malaman ng Bawat Gumagamit ng Monero Pagdating sa Networking](/knowledge/monero-networking)/
-
-  * [Paano Itinatago ng RingCT ang Mga Halaga ng Transaksyon ng Monero](/knowledge/monero-ringct)/
-
-  * [Paano Pinoprotektahan ng Monero Stealth Address ang Iyong Pagkakakilanlan](/knowledge/monero-stealth-addresses)/
-
-  * [Paano Pinipigilan ng Monero Subaddresses ang Pag-uugnay ng Pagkakakilanlan](/knowledge/monero-subaddresses)/
-
-  * [Ipinaliwanag ang Mga Output ng Monero](/knowledge/monero-outputs)/
-
-  * [Pinakamahuhusay na Kasanayan sa Monero para sa Mga Nagsisimula](/knowledge/monero-best-practices)/
-
-  * [Paano Tinatago ng Mga Lagda ng Ring ang Mga Output ni Monero](/knowledge/ring-signatures)/
-
-  * [Paano Nalutas ni Monero ang Problema sa Laki ng Bloke na Sinasalot ang Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Paano Mapapabuti ng CLSAG ang Efficiency ng Monero](/knowledge/what-is-clsag)/
-
-  * [Bakit May Tail Emission ang Monero](/knowledge/monero-tail-emission)/
-
-  * [Isang Maikling Kasaysayan ng Monero](/knowledge/monero-history)/
-
-  * [Ang Wired Magazine ay Mali Tungkol kay Monero, Narito Kung Bakit](/knowledge/wired-article-debunked)/
-
-  * [Nangungunang 15 Monero Myths and Concerns Debunked](/knowledge/monero-myths-debunked)/
-
-  * [Paano Pinapanatili ng Dandelion++ na Pribado ang Pinagmulan ng Transaksyon ni Monero](/knowledge/monero-dandelion)/
-
-  * [Bakit Open Source At Desentralisado ang Monero](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Ano ang Nagiging Espesyal sa RandomX](/knowledge/monero-mining-randomx)/
-
-  * [Bakit Mas Mahusay ang Monero kaysa Dash, Zcash, Zcoin (Kahit na may Lelantus), Grin at Bitcoin Mixers Like Wasabi (Na-update Mayo 2020)](/knowledge/why-monero-is-better)/
 
 Karagdagang pagbabasa

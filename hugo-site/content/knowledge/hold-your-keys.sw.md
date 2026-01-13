@@ -14,8 +14,6 @@ Katika chapisho hili fupi tutazame kwa nini unapaswa kushikilia funguo zako mwen
 
 ## Kwa nini kushikilia funguo zako mwenyewe ni muhimu?
 
-## Kwa nini kushikilia funguo zako mwenyewe ni muhimu?
-
 Mmojawapo wa vipengele visivyoeleweka sana vya kujitunza katika Monero ni kwamba ikiwa huna funguo zako mwenyewe, unapata kidogo kwa hapana kufaidika na ofa za faragha za Monero. Kama mtumaji wa shughuli ina mwonekano kamili katika matumizi halisi, kiasi, na anwani la mpokeaji, ikiwa si wewe unayetuma muamala na badala yake uiachie hiyo kubadilishana au mlinzi, wana mwonekano _kamili_ kwenye njia unazotumia Monero yako.
 
 Tunashukuru, baada ya kutuma pesa, dhamana la faragha la Monero piga teke na kutoa "usiri-mbele" wenye nguvu, lakini itakuwa wazi ubadilishaji au mtunzaji ambapo ulituma pesa na kiasi gani ulituma awali.
@@ -37,8 +35,6 @@ Kipengele kingine muhimu cha kushikilia funguo zako mwenyewe ni kile ambacho ni 
 Ingawa aina hii ya shughuli haijathibitishwa mara-kwa-mara hadharani, huko ni wengi katika jamii ambao wana wasiwasi kwamba kubadilishana kama Binance wanatumia Monero ambao watumiaji wake wanashikilia kwenye ubadilishanaji wa biashara dhidi ya Monero, kuzidisha kiasi cha kaptula za Monero na kusababisha bei kukandamizwa kwa wakati.
 
 Tabia hii pia inaweza kusababisha migogoro ya ukwasi ambapo watumiaji ambao _wao_ wanataka kushikilia funguo zao wenyewe hawawezi kujiondoa kwenye kubadilishana kama ubadilishaji umeahidi Monero zaidi kwa watumiaji wake kuliko hiyo kweli inapatikana. Watumiaji zaidi wa Monero wanashikilia funguo zao na kuweka Monero yao mbali kubadilishana, afya na zaidi ya asili soko itakuwa kinadharia, na chini ya hatari hasidi au uchoyo kubadilishana kunaweza kuleta uthabiti wa bei la Monero.
-
-## Je, ninawezaje kushikilia funguo zangu mwenyewe na Monero?
 
 ## Je, ninawezaje kushikilia funguo zangu mwenyewe na Monero?
 
@@ -72,78 +68,10 @@ Kwa sisi tunaopenda kuweza kutumia Monero yetu popote pale au tumia mara-kwa-mar
 
 ## Hitimisho
 
-## Hitimisho
-
 Tunatumaini chapisho hili limesaidia kusisitiza hitaji la kushikilia funguo zako mwenyewe, na pia kukuelekeza kwa pochi zingine bora kwenye nafasi.
 
 Kadiri unavyozidi kuchukua Monero mikononi mwako na kuitumia kwa kweli, ndivyo faida zaidi unaweza kupata sasa na baadaye. Monero sio tu mali ya kubahatisha - ni chombo chenye nguvu cha uhuru na kifedha faragha ambalo inahitajika sana katika ulimwengu wa sasa na siku ambazo zijazo .
 
 Sasa nenda kachukue sarafu hizo kwenye kubadilishana na uzame jinsi Monero ilivyokuwa imejengwa kwa ajili ya.
-
-Kusoma zaidi
-
-  * [Jinsi Monero huwezesha kwa njia ya kipekee uchumi wa mduara](/knowledge/monero-circular-economies)/
-
-  * [Saini za pete za Monero dhidi ya CoinJoin kama ilivyo kwa Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Inachangia tena kwa Monero](/knowledge/contributing-to-monero)/
-
-  * [Jinsi nodi za mbali zinavyoathiri faragha ya Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Jinsi Monero hutumia uma-ngumu ili kuboresha mtandao](/knowledge/network-upgrades)/
-
-  * [Tazama lebo: Jinsi baiti moja itapunguza nyakati za usawazishaji wa pochi ya Monero kwa 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool na Jukumu Lake katika Kugatua Uchimbaji wa Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Itafanya nini kwa Monero](/knowledge/seraphis-for-monero)/
-
-  * [Je, Kubadilisha Bitcoin kuwa Monero Ni Faragha Kama Kununua Monero Moja kwa Moja?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Kwa nini Monero Anatumia Usanidi Usioaminika Tofauti na Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Kwa nini Monero Ni Duka Bora la Thamani Kuliko Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Jinsi Monero Inaweza Kushinda Athari za Mtandao za Bitcoin](/knowledge/network-effect)/
-
-  * [Kwa nini Monero Ana Jumuiya Muhimu Zaidi ya Kufikiri](/knowledge/critical-thinking)/
-
-  * [Ulaghai wa Kuangalia Unapotumia Monero](/knowledge/monero-scams)/
-
-  * [Jinsi Ubadilishanaji wa Atomiki Utafanya Kazi huko Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Nini Kila Mtumiaji wa Monero Anahitaji Kujua Linapokuja suala la Mitandao](/knowledge/monero-networking)/
-
-  * [Jinsi RingCT Huficha Kiasi cha Muamala wa Monero](/knowledge/monero-ringct)/
-
-  * [Jinsi Monero Siri Mali HuLinda Utambulisho Wako](/knowledge/monero-stealth-addresses)/
-
-  * [Jinsi Anwani Ndogo za Monero Zinazuia Kuunganisha Utambulisho](/knowledge/monero-subaddresses)/
-
-  * [Matokeo ya Monero Yamefafanuliwa](/knowledge/monero-outputs)/
-
-  * [Mbinu Bora za Monero kwa Wanaoanza](/knowledge/monero-best-practices)/
-
-  * [Jinsi Sahihi za Pete Huficha Mito ya Monero](/knowledge/ring-signatures)/
-
-  * [Jinsi Monero Alivyotatua Tatizo la Ukubwa wa Block Ambayo Inakumba Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Jinsi CLSAG Itakavyoboresha Ufanisi wa Monero](/knowledge/what-is-clsag)/
-
-  * [Kwa nini Monero Ina Utoaji wa Mkia](/knowledge/monero-tail-emission)/
-
-  * [Historia fupi ya Monero](/knowledge/monero-history)/
-
-  * [Jarida la Wired lina makosa Kuhusu Monero, Hii ndio Sababu](/knowledge/wired-article-debunked)/
-
-  * [Hadithi na Maswala 15 Bora ya Monero Yalipingwa](/knowledge/monero-myths-debunked)/
-
-  * [Jinsi Dandelion++ Huweka Asili ya Muamala wa Monero Faragha](/knowledge/monero-dandelion)/
-
-  * [Kwa nini Monero Ni Chanzo Huria na Imegawanywa](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Uchimbaji wa Monero: Ni Nini Hufanya RandomX Kuwa Maalum](/knowledge/monero-mining-randomx)/
-
-  * [Kwa nini Monero ni Bora kuliko Dash, Zcash, Zcoin (Hata na Lelantus), Grin na Mchanganyiko wa Bitcoin Kama Wasabi (Ilisasishwa Mei 2020)](/knowledge/why-monero-is-better)/
 
 Kusoma zaidi

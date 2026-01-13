@@ -8,12 +8,8 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: en modulær designoppgradering for Monero-transaksjoner
 
-## Seraphis: en modulær designoppgradering for Monero-transaksjoner
-
 Dette innlegget beskriver [Seraphis](https://github.com/UkoeHB/Seraphis), et sett med transaksjonsprotokollstrukturer og abstraksjoner utviklet av pseudonym forskningsbidragsyter [`koe`](https://github.com/UkoeHB) for Monero-økosystemet, og med pågående sikkerhetsanalyse av pseudonym bidragsyter [`coinstudent2048`](https://github.com/coinstudent2048).  
 Vi gjør noen forenklinger og utelater visse tekniske detaljer for oversiktens skyld; av denne grunn, og fordi utformingen av Seraphis fortsatt pågår, bør interesserte lesere henvise til Seraphis-dokumentasjonen for den mest oppdaterte informasjonen.
-
-## Transaksjoner i Monero
 
 ## Transaksjoner i Monero
 
@@ -45,12 +41,8 @@ En lignende prosess ble gjennomgått med byggeblokken for koblingssignatur. I de
 
 ## Seraphis
 
-## Seraphis
-
 Seraphis tar denne ideen et skritt videre.  
 I stedet for å oppdatere individuelle byggeblokker i den eksisterende RingCT-transaksjonsprotokollen, introduserer den en annen protokoll som kan dra nytte av forskjellige byggeklosser og tilby forbedret funksjonalitet.
-
-## Byggeklosser
 
 ## Byggeklosser
 
@@ -69,10 +61,6 @@ Fordi RingCT baker koblingskoden inn i den tvetydige signaturen, er signeringsop
 Heldigvis finnes noen av byggeklossene som kreves av Seraphis allerede andre steder, og trenger ikke å designes fra bunnen av. Både Bulletproofs og Bulletproofs+-konstruksjonene kan brukes som rekkeviddebevis. Modifikasjoner av bevissystemer av Schnorr-typen kan brukes for å autorisere bevis. Og et effektivt [prøvesystem](https://eprint.iacr.org/2015/643) som allerede er brukt som grunnlag for Triptych, [Lelantus](https://eprint.iacr.org/2019/373), og [Spark](https://eprint.iacr.org/2021/1173)* kan modifiseres for medlemskapsbevis. X2127X] 
 
 * Cypher Stack mottar midler til Spark-utvikling.
-
-* Cypher Stack mottar midler til Spark-utvikling.
-
-## Adressering
 
 ## Adressering
 
@@ -94,90 +82,8 @@ Seraphis adresseringskonstruksjoner kan løse dette. Med Seraphis er adressen di
 
 Som adresseinnehaver kan du bestemme hvor mye autoritet du delegerer til andre enheter eller tredjeparter.
 
-Du vet kanskje at Monero-adresser tilbyr _visningsnøkkel_ -funksjonalitet, der du kan gi en visningsnøkkel til en enhet eller tredjepart og la den se etter innkommende utganger på dine vegne, men uten å gi opp forbruk autoritet. Dette er nyttig for lommebøker, som kan holde seg oppdatert samtidig som du holder forbruksnøkkelen din trygt låst. Det er også nyttig for tilfeller der du ønsker ekstern visningstilgang, som en offentlig veldedig organisasjon som tilbyr åpenhet eller et selskap med en regnskapsavdeling.
-
-Ulempen med Monero-visningstaster er at de ikke gir fullstendig eller finmasket visningstilgang. Det er ikke mulig å pålitelig oppdage når en lommebok bruker penger, noe som gjør det vanskelig å beregne lommeboksaldoene riktig når forbruksnøkkelen ikke er tilgjengelig. Det er heller ikke for øyeblikket mulig å oppdage innkommende utdata uten også å lære verdien i disse utdataene (noe som betyr at tredjeparter som er ansvarlige for å finne innkommende utdata vil lære nøyaktig hvor mye Monero du anskaffer).
-
-Seraphis adresseringskonstruksjoner kan løse dette. Med Seraphis er adressen din utstyrt med forskjellige nøkler som kan gjøre forskjellige ting:
-
-  * Se etter innkommende utganger, men skjul verdien deres
-  * Se etter innkommende utganger, men vis verdien deres
-  * Se etter utgående utganger
-  * Hjelpe deg å generere transaksjoner, men ikke signere dem
-  * Generer nye adresser (nyttig for forhandlere eller børser med mange kunder)
-
-Som adresseinnehaver kan du bestemme hvor mye autoritet du delegerer til andre enheter eller tredjeparter.
-
-## Det store bildet
-
 ## Det store bildet
 
 Seraphis er en stor endring i Monero-økosystemet. Selv om det innebærer modifikasjoner av adresser og transaksjonsbyggeblokker, tilbyr designen fleksibilitet og nyttig funksjonalitet som ikke er mulig med dagens RingCT-protokoll. Mens mye av designet er ferdigstilt og utviklet til [en implementering](https://github.com/UkoeHB/monero/tree/seraphis_lib), pågår adressedesign og sikkerhetsanalyse. Seraphis tilbyr en utmerket mulighet til å presse Monero-økosystemet fremover!
-
-Videre lesning
-
-  * [Hvordan Monero unikt muliggjør sirkulære økonomier](/knowledge/monero-circular-economies)/
-
-  * [Moneros ringsignaturer vs CoinJoin som i Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Hvorfor (og hvordan!) du bør holde dine egne nøkler](/knowledge/hold-your-keys)/
-
-  * [Bidrar tilbake til Monero](/knowledge/contributing-to-monero)/
-
-  * [Hvordan eksterne noder påvirker Moneros personvern](/knowledge/remote-nodes-privacy)/
-
-  * [Hvordan Monero bruker hard-forks for å oppgradere nettverket](/knowledge/network-upgrades)/
-
-  * [Se tagger: Hvordan én byte vil redusere Monero-lommeboksynkroniseringstiden med 40 %+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool og dens rolle i desentralisering av Monero-gruvedrift](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Er det like privat å konvertere Bitcoin til Monero som å kjøpe Monero direkte?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Hvorfor Monero bruker et tillitsløst oppsett i motsetning til Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Hvorfor Monero er en bedre butikk med verdi enn Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Hvordan Monero kan overvinne Bitcoins nettverkseffekter](/knowledge/network-effect)/
-
-  * [Hvorfor Monero har det mest kritiske tenkningssamfunnet](/knowledge/critical-thinking)/
-
-  * [Svindel å se etter når du bruker Monero](/knowledge/monero-scams)/
-
-  * [Hvordan Atomic Swaps vil fungere i Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Hva enhver Monero-bruker trenger å vite når det kommer til nettverk](/knowledge/monero-networking)/
-
-  * [Hvordan RingCT skjuler Monero-transaksjonsbeløp](/knowledge/monero-ringct)/
-
-  * [Hvordan Monero Stealth-adresser beskytter identiteten din](/knowledge/monero-stealth-addresses)/
-
-  * [Hvordan Monero-underadresser forhindrer identitetskobling](/knowledge/monero-subaddresses)/
-
-  * [Monero-utganger forklart](/knowledge/monero-outputs)/
-
-  * [Monero beste praksis for nybegynnere](/knowledge/monero-best-practices)/
-
-  * [Hvordan ringsignaturer obskure Moneros utganger](/knowledge/ring-signatures)/
-
-  * [Hvordan Monero løste blokkstørrelsesproblemet som plager Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Hvordan CLSAG vil forbedre Moneros effektivitet](/knowledge/what-is-clsag)/
-
-  * [Hvorfor Monero har en haleutslipp](/knowledge/monero-tail-emission)/
-
-  * [En kort historie om Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine tar feil om Monero, her er hvorfor](/knowledge/wired-article-debunked)/
-
-  * [Topp 15 Monero-myter og bekymringer avslørt](/knowledge/monero-myths-debunked)/
-
-  * [Hvordan Dandelion++ holder Moneros transaksjonsopprinnelse privat](/knowledge/monero-dandelion)/
-
-  * [Hvorfor Monero er åpen kildekode og desentralisert](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Hva gjør RandomX så spesiell](/knowledge/monero-mining-randomx)/
-
-  * [Hvorfor Monero er bedre enn Dash, Zcash, Zcoin (selv med Lelantus), Grin og Bitcoin-miksere som Wasabi (Oppdatert mai 2020)](/knowledge/why-monero-is-better)/
 
 Videre lesning

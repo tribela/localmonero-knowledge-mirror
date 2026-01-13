@@ -26,24 +26,6 @@ Meskipun demikian, ada beberapa kritik umum yang ditujukan kepada Monero yang en
   14. [Jika Monero sangat pribadi, bagaimana kita bisa mengaudit supply untuk memastikan tidak ada yang mencetak Monero gratis di bawah pengawasan kita?](/knowledge/monero-myths-debunked#14)/
   15. [Sebagian besar hashrate Monero saat ini hanya berasal dari dua pool.](/knowledge/monero-myths-debunked#15)/
 
-  1. [Monero akan menghadapi pengawasan peraturan jauh melampaui mata uang kripto lainnya karena komitmennya terhadap privasi dan anonimitas dalam transaksinya.](/knowledge/monero-myths-debunked#1)/
-  2. [Monero memiliki opsi dompet yang lebih sedikit.](/knowledge/monero-myths-debunked#2)/
-  3. [Monero memiliki pengalaman pengguna yang buruk.](/knowledge/monero-myths-debunked#3)/
-  4. [Monero akan menjadi usang jika blockchain yang lebih populer mengadopsi teknologi privasi yang kuat.](/knowledge/monero-myths-debunked#4)/
-  5. [Bukankah Monero memiliki biaya transaksi yang sangat tinggi?](/knowledge/monero-myths-debunked#5)/
-  6. [Transaksi Monero jauh lebih besar daripada transaksi Bitcoin.](/knowledge/monero-myths-debunked#6)/
-  7. [Monero cukup sering melakukan hard fork. Bukankah ini berarti tersentralisasi?](/knowledge/monero-myths-debunked#7)/
-  8. [Ini koin pribadi fluffypony!](/knowledge/monero-myths-debunked#8)/
-  9. [Mayoritas komitmen sejak 2017 berasal dari individu yang dikenal sebagai moneromooo-monero](/knowledge/monero-myths-debunked#9)/
-  10. [Bukankah Monero mudah diserang dengan serangan 51%?](/knowledge/monero-myths-debunked#10)/
-  11. [Algoritma yang ramah CPU? tidakkah penambangan Monero akan diambil alih oleh botnet?](/knowledge/monero-myths-debunked#11)/
-  12. [Fork Monero tidak hanya merusak kelangsungan ekonomi Monero, tetapi juga privasinya!](/knowledge/monero-myths-debunked#12)/
-  13. [Bukankah Monero memiliki penambang cacat di masa-masa awal yang digunakan untuk memperkaya para pendiri?](/knowledge/monero-myths-debunked#13)/
-  14. [Jika Monero sangat pribadi, bagaimana kita bisa mengaudit supply untuk memastikan tidak ada yang mencetak Monero gratis di bawah pengawasan kita?](/knowledge/monero-myths-debunked#14)/
-  15. [Sebagian besar hashrate Monero saat ini hanya berasal dari dua pool.](/knowledge/monero-myths-debunked#15)/
-
-## 1\. Monero akan menghadapi pengawasan peraturan jauh melampaui mata uang kripto lainnya karena komitmennya terhadap privasi dan anonimitas dalam transaksinya.
-
 ## 1\. Monero akan menghadapi pengawasan peraturan jauh melampaui mata uang kripto lainnya karena komitmennya terhadap privasi dan anonimitas dalam transaksinya.
 
 Ini adalah kritik umum terhadap Monero, yang menyebabkan banyak orang memberikannya tempat tidur yang luas, dan satu yang sejauh ini di mana tanggapan komunitas tidak begitu terpotong dan kering hanya dengan mengoreksi asumsi yang salah.
@@ -58,13 +40,9 @@ Sekarang orang mungkin berpendapat bahwa reputasi Bitcoin berubah ketika orang m
 
 ## 2\. Monero memiliki opsi dompet yang lebih sedikit.
 
-## 2\. Monero memiliki opsi dompet yang lebih sedikit.
-
 Monero memang memiliki opsi dompet yang lebih sedikit daripada banyak koin yang ada. Ini karena Monero dikembangkan dari bawah ke atas. Itu pada basis kode yang sama sekali berbeda dari Bitcoin. Ini berarti Monero tidak bisa begitu saja melakukan fork pada dompet inti Bitcoin, atau dompet lain yang ada untuk Bitcoin seperti kebanyakan koin, dan memanfaatkan infrastruktur yang ada. Selain itu, ini berarti Monero tidak mudah ditambahkan ke dompet pihak ketiga, seperti Exodus.
 
 Namun, perlahan tapi pasti, segala jenis dompet mulai bermunculan untuk Monero. Sudah menjadi meme selama bertahun-tahun bahwa Monero tidak memiliki GUI, dan tidak ada dukungan dompet seluler, tetapi sekarang, tidak ada yang lebih jauh dari kebenaran. Ada dompet yang khusus melayani Monero, seperti Monerujo untuk Android, dan Cake Wallet untuk iOS dan Android, serta yang baru seperti Wookey, Exa Wallet, dan lainnya. Selain itu, dompet pihak ketiga mulai menambahkan Monero, meskipun pada tingkat yang lebih lambat, termasuk Exodus dan Guarda, dan kami memperkirakan tren ini hanya akan berlanjut seiring berjalannya waktu dan basis kode Monero menjadi matang.
-
-## 3\. Monero memiliki pengalaman pengguna yang buruk.
 
 ## 3\. Monero memiliki pengalaman pengguna yang buruk.
 
@@ -77,8 +55,6 @@ Kami mengundang pembaca untuk membaca artikel tentang langkah-langkah yang direk
 Dengan Monero, daftar cucian yang detail ini sepenuhnya dihilangkan. Setiap transaksi Monero mempertahankan privasi tingkat tinggi setiap saat, tanpa pengguna perlu melakukan apa pun atau menggunakan perangkat lunak eksternal. Sementara Bitcoin mempersulit untuk mendapatkan privasi yang benar untuk semua kecuali pengguna yang paling berpengalaman, Monero mempersulit untuk melakukan kesalahan, untuk semua orang, setiap saat. Sejauh kompromi yang dapat dibuat, menurut kami alamat yang lebih panjang dan waktu sinkronisasi lebih dari sepadan.
 
 Dan bahkan setelah membahas semua hal di atas, faktanya tetap bahwa pengalaman pengguna seringkali menjadi lebih baik dari waktu ke waktu, dan Monero tidak terkecuali. UX koin dapat ditingkatkan secara dramatis setelah beberapa tahun, tetapi fondasinya jauh lebih sulit untuk diubah. 
-
-## 4\. Monero akan menjadi usang jika blockchain yang lebih populer mengadopsi teknologi privasi yang kuat.
 
 ## 4\. Monero akan menjadi usang jika blockchain yang lebih populer mengadopsi teknologi privasi yang kuat.
 
@@ -102,8 +78,6 @@ Mengganti persneling terakhir kalinya untuk pertanyaan ini, lebih jarang argumen
 
 ## 5\. Bukankah Monero memiliki biaya transaksi yang sangat tinggi?
 
-## 5\. Bukankah Monero memiliki biaya transaksi yang sangat tinggi?
-
 Tidak lagi! Berkat teknologi bulletproof yang luar biasa, ditambahkan pada Oktober 2018, ukuran transaksi berkurang drastis (lebih dari 80%), yang menyebabkan penurunan serupa dalam biaya transaksi. Faktanya, pada saat penulisan, Monero lebih murah per byte daripada Bitcoin, dan pengoptimalan lebih lanjut dari teknologi ini membuatnya lebih rendah lagi.
 
 Pengoptimalan ini bervariasi dan sering dilakukan. Salah satu contohnya adalah pengoptimalan cerdas dalam bulletproof itu sendiri, menyusutkan perhitungan yang diperlukan untuk komputasi dan verifikasi, terkadang hingga 25%.
@@ -111,10 +85,6 @@ Pengoptimalan ini bervariasi dan sering dilakukan. Salah satu contohnya adalah p
 Selain itu, ada skema ring signature baru yang menarik yang sedang dikerjakan, seperti CLSAG, yang akan menggantikan skema MLSAG saat ini, dan lebih jauh mengecilkan ukuran seluruh transaksi sebesar 25-35%. Di luar ini, ada teknologi yang lebih baru dan lebih canggih dengan sistem pembuktian yang sangat berbeda yang berpotensi mempertahankan ukuran transaksi saat ini, tetapi memiliki ukuran ring lebih dari seratus, seperti Triptych, Arcturus, dan Lelantus, semuanya lebih kecil dan lebih efisien daripada skema saat ini.
 
 ## 6\. Transaksi Monero jauh lebih besar daripada transaksi Bitcoin.
-
-## 6\. Transaksi Monero jauh lebih besar daripada transaksi Bitcoin.
-
-## 7\. Monero cukup sering melakukan hard fork. Bukankah ini berarti tersentralisasi?
 
 ## 7\. Monero cukup sering melakukan hard fork. Bukankah ini berarti tersentralisasi?
 
@@ -128,13 +98,9 @@ Semua ini untuk mengatakan, tim pengembangan terdesentralisasi merasa terlalu su
 
 ## 8\. Ini koin pribadi fluffypony!
 
-## 8\. Ini koin pribadi fluffypony!
-
 Ini bukan, dan tidak pernah sebelumnya merupakan, koin dari Riccardo 'fluffypony' Spagni. Dia bahkan tidak berhasil. Itu dimulai oleh individu dengan nama samaran yang dikenal sebagai thankful_for_today, dan ada cerita yang sangat menarik tentang itu di lain waktu. Fluffypony mendapatkan ketenaran baik sebagai anggota tim inti/pengelola utama, karena dia memberikan banyak waktu dan sumber daya untuk membantu koin tumbuh, serta melalui perjalanannya dan berbicara di konferensi. Dengan gabungan dua hal ini, dia menjadi semacam wajah tidak resmi untuk Monero, dan biasanya menjadi pintu gerbang tempat orang menemukan kami. Karena budaya CEO yang mengerikan yang menyebar di dunia kripto, mereka berasumsi bahwa dia adalah pendiri dan pemimpin Monero, keduanya tidak benar.
 
 Saat ini, fluffypony masih menjadi bagian dari tim inti, tetapi tidak lagi menjadi pemelihara utama basis kode, dan telah kembali mengerjakan proyek pribadinya sendiri. Monero melanjutkan dengan baik. 
-
-## 9\. Mayoritas komitmen sejak 2017 berasal dari individu yang dikenal sebagai moneromooo-monero
 
 ## 9\. Mayoritas komitmen sejak 2017 berasal dari individu yang dikenal sebagai moneromooo-monero
 
@@ -143,8 +109,6 @@ Ini adalah fakta yang tak terbantahkan, dan bukan sesuatu untuk diperdebatkan. m
 Seperti yang bisa dibayangkan, mengerjakan Monero secara penuh waktu daripada secara sukarela akan menghasilkan akumulasi pekerjaan dalam jumlah besar. Karena Monero tidak memiliki premine, ICO, dan tidak menerima hadiah pendiri, sebaliknya kami tidak memiliki teknisi penuh waktu yang mengerjakan proyek, dan orang-orang berkontribusi apa yang mereka bisa, ketika mereka bisa, dan tidak mungkin mengharapkan kontribusi ini untuk melebihi pekerja penuh waktu.
 
 Meskipun demikian, masih ada upaya besar untuk melakukan check and balance. Seorang anggota tim inti masih menggabungkan kode setelah ditinjau, jadi ini bukan kasus di mana individu membuat dan mengintegrasikan kode sekaligus, sehingga melewati pengawasan yang diperlukan untuk menangkap kesalahan yang mengerikan atau niat jahat.
-
-## 10\. Bukankah Monero mudah diserang dengan serangan 51%?
 
 ## 10\. Bukankah Monero mudah diserang dengan serangan 51%?
 
@@ -158,8 +122,6 @@ Biaya pasti perangkat keras untuk menyerang jaringan Monero dengan serangan 51% 
 
 ## 11\. Algoritma yang ramah CPU? tidakkah penambangan Monero akan diambil alih oleh botnet?
 
-## 11\. Algoritma yang ramah CPU? tidakkah penambangan Monero akan diambil alih oleh botnet?
-
 Dua boogeymen dari ruang penambangan adalah ASIC dan botnet, dan menjauh dari salah satu berarti bergerak lebih dekat ke yang lain. Jika seseorang membutuhkan CPU untuk menambang Monero, maka peretas secara teoritis dapat mengendalikan ratusan bahkan ribuan komputer yang rentan dan memaksa komputer-komputer tersebut menambang Monero untuk mereka, tanpa mereka membayar sepeser pun, dan mengalahkan mereka yang hanya memiliki beberapa komputer di rumah mereka .
 
 Sanggahan pertama untuk argumen ini adalah tentang pemilik botnet itu sendiri. Meskipun kami tidak memaafkan peretasan komputer orang lain, penghalang masuk untuk memiliki dan mengoperasikan botnet jauh lebih rendah daripada memiliki ASIC. Yang satu membutuhkan perangkat lunak – seringkali tersedia secara bebas dan sumber terbuka – dan waktu serta kecerdasan untuk mengendus komputer yang rentan. Yang lain membutuhkan modal yang luar biasa dan akses ke manufaktur. Satu dapat dilakukan oleh seorang anak di ruang bawah tanah, dan yang lainnya hanya oleh orang yang sangat kaya. Hal ini membuat kami menyimpulkan bahwa, jika ketakutan terburuk para penambang menjadi kenyataan, botnet itu sendiri akan lebih terdesentralisasi daripada ASIC.
@@ -167,8 +129,6 @@ Sanggahan pertama untuk argumen ini adalah tentang pemilik botnet itu sendiri. M
 Meskipun demikian, komunitas Monero yakin bahwa masalah ini dilebih-lebihkan. Para Teknisi RandomX sengaja merancang protokol agar membutuhkan memori RAM 2GB untuk dapat berfungsi. Dengan kata lain, banyak Virtual Private Server (VPS) kecil yang rentan yang tidak akan memiliki kapasitas, dan jika mereka melakukannya, peningkatan sumber daya yang digunakan akan sangat terlihat oleh administrator sistem, yang mengarah ke penyelidikan segera. Dengan kata lain, itu tidak dapat berjalan diam-diam di latar belakang seperti komputer yang dikompromikan mengambil bagian dalam serangan DDOS, atau mengendus kata sandi secara diam-diam. Saat penambang aktif, semua orang mengetahuinya.
 
 Ini mengurangi jumlah komputer yang dapat dikompromikan oleh botnet kepada komputer yang sangat tidak kompeten secara teknologi, atau komputer yang tidak pernah diperiksa, daripada kebanyakan komputer rentan yang dianggap oleh pendukung argumen ini berisiko .
-
-## 12\. Fork Monero tidak hanya merusak kelangsungan ekonomi Monero, tetapi juga privasinya!
 
 ## 12\. Fork Monero tidak hanya merusak kelangsungan ekonomi Monero, tetapi juga privasinya!
 
@@ -186,8 +146,6 @@ Meskipun demikian, kami melihatnya sebagai sesuatu yang naif untuk berpikir tida
 
 ## 13\. Bukankah Monero memiliki penambang cacat di masa-masa awal yang digunakan untuk memperkaya para pendiri?
 
-## 13\. Bukankah Monero memiliki penambang cacat di masa-masa awal yang digunakan untuk memperkaya para pendiri?
-
 Sejarah Monero adalah sesuatu yang menarik, dan mungkin mengejutkan banyak orang ketika mendengar bahwa Monero memang dimulai sebagai penipuan. Pembuatnya, thankful_for_today, kemungkinan besar bekerja sama dengan grup mata uang kripto yang membuat protokol CryptoNote, tetapi memiliki niat licik untuk menipu orang mengeluarkan uang mereka dengan menggunakannya.
 
 Usaha koin awal mereka gagal, jadi mereka membuat Monero sebagai cara untuk mencoba lagi. Hal ini lagi-lagi gagal karena komunitas dengan cepat menyadari ada sesuatu yang mencurigakan dan mengambil alih koin tersebut. Meski begitu, pencipta licik tersebut memiliki satu trik terakhir rahasia yang masih disimpan. Mereka merilis ke publik perangkat lunak penambangan yang sengaja tidak dioptimalkan, menyimpan versi yang dioptimalkan untuk diri mereka sendiri untuk mengungguli orang lain dan menghasilkan banyak uang dari hadiah blok.
@@ -196,10 +154,6 @@ Ini berhasil untuk sementara waktu, tetapi juga dengan cepat diketahui oleh komu
 
 Dengan melihat ke belakang, beberapa orang mungkin mengkritik keputusan untuk tidak meluncurkan kembali koin tersebut, dan jika asal muasal yang berbau scam ini cukup untuk menjauhkan seseorang dari kerja bagus yang telah dilakukan Monero, maka tidak ada argumen untuk mempengaruhi mereka. Terlepas dari frustrasi awal yang disebabkan oleh pembuat yang seorang penipu, Monero telah berkembang dan menggunakan gabungan kecerdasan dan semangat komunitasnya untuk membuat teknologi yang kuat. Tim inti kami saat ini, serta anggota sebelumnya, tidak diperkaya oleh tambang cacat, dan sepengetahuan kami, tidak ada yang terlibat dalam penipuan awal yang bertahan di komunitas Monero lebih lama dari beberapa minggu pertama keberadaan koin.
 
-Dengan melihat ke belakang, beberapa orang mungkin mengkritik keputusan untuk tidak meluncurkan kembali koin tersebut, dan jika asal muasal yang berbau scam ini cukup untuk menjauhkan seseorang dari kerja bagus yang telah dilakukan Monero, maka tidak ada argumen untuk mempengaruhi mereka. Terlepas dari frustrasi awal yang disebabkan oleh pembuat yang seorang penipu, Monero telah berkembang dan menggunakan gabungan kecerdasan dan semangat komunitasnya untuk membuat teknologi yang kuat. Tim inti kami saat ini, serta anggota sebelumnya, tidak diperkaya oleh tambang cacat, dan sepengetahuan kami, tidak ada yang terlibat dalam penipuan awal yang bertahan di komunitas Monero lebih lama dari beberapa minggu pertama keberadaan koin.
-
-## 14\. Jika Monero sangat pribadi, bagaimana kita bisa mengaudit supply untuk memastikan tidak ada yang mencetak Monero gratis di bawah pengawasan kita?
-
 ## 14\. Jika Monero sangat pribadi, bagaimana kita bisa mengaudit supply untuk memastikan tidak ada yang mencetak Monero gratis di bawah pengawasan kita?
 
 Ini pertanyaan yang sulit dijawab. Satu jawaban yang biasa diberikan adalah kita dapat menjumlahkan transaksi coinbase (ketika Monero baru diberikan kepada penambang untuk memecahkan blok). Transaksi ini transparan, dan jika kita menjumlahkannya, kita akan mendapatkan jumlah total Monero yang beredar.
@@ -207,8 +161,6 @@ Ini pertanyaan yang sulit dijawab. Satu jawaban yang biasa diberikan adalah kita
 Namun penting untuk dicatat, bahwa jika kejahatan terjadi yang meningkatkan jumlah Monero melebihi apa yang kami harapkan dari transaksi basis koin, itu tidak akan terjadi pada transaksi coinbase itu sendiri, tetapi dalam transaksi reguler antar dompet. Ini hanya akan terjadi dengan salah satu dari tiga cara.
 
 Pertama, jika kriptografi yang membuktikan tidak ada Monero yang dibuat atau dihancurkan dalam suatu transaksi pada dasarnya cacat. Kedua, jika implementasi (kode) kriptografi yang solid itu cacat. Tiga, jika tidak ada yang cacat, tetapi komputer menjadi cukup kuat untuk menembus skema kriptografi kami saat ini, dan membuat bukti palsu. 
-
-## 15\. Sebagian besar hashrate Monero saat ini hanya berasal dari dua pool.
 
 ## 15\. Sebagian besar hashrate Monero saat ini hanya berasal dari dua pool.
 
@@ -229,95 +181,5 @@ Tapi kami sudah menyimpang dari pokok pembicaaan.
 Anda akan melihat dalam dorongan kami untuk desentralisasi di atas, fakta bahwa penambang memiliki kekuatan untuk beralih pool. Kapan saja, baik dari edukasi yang lebih baik, seruan untuk desentralisasi, atau persaingan yang meningkat di antara pool, distribusi hash dapat berubah berdasarkan perubahan penambang individu di mana mereka mengarahkan hash mereka. Hal yang sama tidak berlaku untuk penambangan yang terpusat pada tingkat perangkat keras, karena produsen ASIC tidak memiliki insentif untuk mengarahkan ke pool mana pun selain milik mereka, dan mereka tidak akan melakukannya.
 
 Jadi fakta bahwa sebagian besar hashrate Monero terkonsentrasi ke beberapa pool bukanlah sesuatu yang membuat kita terjebak, dan memang, mungkin karena kurangnya edukasi tentang penambangan secara umum. Ini adalah sesuatu yang dapat diperbaiki karena masalahnya tidak terletak pada tingkat root, tidak seperti sentralisasi perangkat keras Bitcoin.
-
-Ini bukan masalah yang bisa dipecahkan. Mining pool tersentralisasi memiliki perangkat keras, pool, dan hash, dan tidak ada yang dapat dilakukan siapa pun untuk mengatasinya.
-
-Pool sentralisasi, meskipun hasil akhirnya serupa, memiliki dasar yang sangat berbeda dan jauh lebih dapat diubah. Karena Monero memiliki penambangan egaliter, setiap penambang dapat memilih ke mana harus mengarahkan hash mereka. Orang sering memilih untuk mengarah ke pool yang lebih besar, hanya karena ini berarti mereka akan melihat penemuan blok lebih sering daripada di pool yang lebih kecil. 
-
-Meskipun demikian, perlu dicatat bahwa potongan masing-masing hadiah blokir mereka akan lebih kecil karena mereka membaginya dengan lebih banyak orang. Pool yang lebih kecil lebih jarang menemukan blok, tetapi setiap penambang mendapatkan porsi yang lebih besar dari hadiah blok, dan hasil akhirnya adalah penambang benar-benar menghasilkan jumlah uang yang setara baik mereka berada di pool yang lebih kecil atau lebih besar, jadi kami mendorong penambang untuk mengarahkan hash mereka ke pool yang lebih kecil untuk lebih mendesentralisasikan penambangan.
-
-Tapi kami sudah menyimpang dari pokok pembicaaan.
-
-Anda akan melihat dalam dorongan kami untuk desentralisasi di atas, fakta bahwa penambang memiliki kekuatan untuk beralih pool. Kapan saja, baik dari edukasi yang lebih baik, seruan untuk desentralisasi, atau persaingan yang meningkat di antara pool, distribusi hash dapat berubah berdasarkan perubahan penambang individu di mana mereka mengarahkan hash mereka. Hal yang sama tidak berlaku untuk penambangan yang terpusat pada tingkat perangkat keras, karena produsen ASIC tidak memiliki insentif untuk mengarahkan ke pool mana pun selain milik mereka, dan mereka tidak akan melakukannya.
-
-Jadi fakta bahwa sebagian besar hashrate Monero terkonsentrasi ke beberapa pool bukanlah sesuatu yang membuat kita terjebak, dan memang, mungkin karena kurangnya edukasi tentang penambangan secara umum. Ini adalah sesuatu yang dapat diperbaiki karena masalahnya tidak terletak pada tingkat root, tidak seperti sentralisasi perangkat keras Bitcoin.
-
-Ini bukan masalah yang bisa dipecahkan. Mining pool tersentralisasi memiliki perangkat keras, pool, dan hash, dan tidak ada yang dapat dilakukan siapa pun untuk mengatasinya.
-
-Pool sentralisasi, meskipun hasil akhirnya serupa, memiliki dasar yang sangat berbeda dan jauh lebih dapat diubah. Karena Monero memiliki penambangan egaliter, setiap penambang dapat memilih ke mana harus mengarahkan hash mereka. Orang sering memilih untuk mengarah ke pool yang lebih besar, hanya karena ini berarti mereka akan melihat penemuan blok lebih sering daripada di pool yang lebih kecil. 
-
-Meskipun demikian, perlu dicatat bahwa potongan masing-masing hadiah blokir mereka akan lebih kecil karena mereka membaginya dengan lebih banyak orang. Pool yang lebih kecil lebih jarang menemukan blok, tetapi setiap penambang mendapatkan porsi yang lebih besar dari hadiah blok, dan hasil akhirnya adalah penambang benar-benar menghasilkan jumlah uang yang setara baik mereka berada di pool yang lebih kecil atau lebih besar, jadi kami mendorong penambang untuk mengarahkan hash mereka ke pool yang lebih kecil untuk lebih mendesentralisasikan penambangan.
-
-Tapi kami sudah menyimpang dari pokok pembicaaan.
-
-Anda akan melihat dalam dorongan kami untuk desentralisasi di atas, fakta bahwa penambang memiliki kekuatan untuk beralih pool. Kapan saja, baik dari edukasi yang lebih baik, seruan untuk desentralisasi, atau persaingan yang meningkat di antara pool, distribusi hash dapat berubah berdasarkan perubahan penambang individu di mana mereka mengarahkan hash mereka. Hal yang sama tidak berlaku untuk penambangan yang terpusat pada tingkat perangkat keras, karena produsen ASIC tidak memiliki insentif untuk mengarahkan ke pool mana pun selain milik mereka, dan mereka tidak akan melakukannya.
-
-Jadi fakta bahwa sebagian besar hashrate Monero terkonsentrasi ke beberapa pool bukanlah sesuatu yang membuat kita terjebak, dan memang, mungkin karena kurangnya edukasi tentang penambangan secara umum. Ini adalah sesuatu yang dapat diperbaiki karena masalahnya tidak terletak pada tingkat root, tidak seperti sentralisasi perangkat keras Bitcoin.
-
-Bacaan lebih lanjut
-
-  * [Bagaimana Monero secara unik memungkinkan ekonomi sirkular](/knowledge/monero-circular-economies)/
-
-  * [Ring signature Monero vs CoinJoin seperti di Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Mengapa (dan bagaimana!) Anda harus memegang kunci Anda sendiri](/knowledge/hold-your-keys)/
-
-  * [Berkontribusi kembali ke Monero](/knowledge/contributing-to-monero)/
-
-  * [Bagaimana node jarak jauh memengaruhi privasi Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Bagaimana Monero menggunakan hard-fork untuk memutakhirkan jaringan](/knowledge/network-upgrades)/
-
-  * [Lihat tag: Bagaimana satu byte akan mengurangi waktu sinkronisasi dompet Monero hingga 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool dan Perannya dalam Desentralisasi Penambangan Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Apa yang Akan Dilakukannya untuk Monero](/knowledge/seraphis-for-monero)/
-
-  * [Apakah Mengonversi Bitcoin ke Monero Sama Privatnya dengan Membeli Monero Secara Langsung?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Mengapa Monero Menggunakan Pengaturan Tanpa Kepercayaan Tidak Seperti Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Mengapa Monero Adalah Penyimpan Nilai Yang Lebih Baik Dibandingkan Dengan Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Bagaimana Monero Dapat Mengatasi Efek Jaringan Bitcoin](/knowledge/network-effect)/
-
-  * [Mengapa Monero Memiliki Komunitas Dengan Pemikiran Paling Kritis](/knowledge/critical-thinking)/
-
-  * [Penipuan yang Harus Diwaspadai Saat Menggunakan Monero](/knowledge/monero-scams)/
-
-  * [Bagaimana Atomic Swap Akan Bekerja di Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Apa yang Perlu Diketahui Setiap Pengguna Monero Saat Berbicara tentang Jaringan](/knowledge/monero-networking)/
-
-  * [Bagaimana RingCT Menyembunyikan Jumlah Transaksi Monero](/knowledge/monero-ringct)/
-
-  * [Bagaimana Stealth Address Monero Melindungi Identitas Anda](/knowledge/monero-stealth-addresses)/
-
-  * [Bagaimana Sub Alamat Monero Mencegah Penautan Identitas](/knowledge/monero-subaddresses)/
-
-  * [Output Monero Dijelaskan](/knowledge/monero-outputs)/
-
-  * [Praktik Terbaik Monero untuk Pemula](/knowledge/monero-best-practices)/
-
-  * [Bagaimana Ring Signature Mengaburkan Output Monero](/knowledge/ring-signatures)/
-
-  * [Bagaimana Monero Memecahkan Masalah Ukuran Blok Yang Mengganggu Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Bagaimana CLSAG Akan Meningkatkan Efisiensi Monero](/knowledge/what-is-clsag)/
-
-  * [Mengapa Monero Memiliki Tail Emission](/knowledge/monero-tail-emission)/
-
-  * [Sejarah Singkat Monero](/knowledge/monero-history)/
-
-  * [Majalah Wired Salah Tentang Monero, Ini Alasannya](/knowledge/wired-article-debunked)/
-
-  * [Bagaimana Dandelion++ Menjaga Kerahasiaan Asal Transaksi Monero](/knowledge/monero-dandelion)/
-
-  * [Mengapa Monero Open Source Dan Terdesentralisasi](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Penambangan Monero: Apa yang Membuat RandomX begitu Istimewa](/knowledge/monero-mining-randomx)/
-
-  * [Mengapa Monero Lebih Baik dari Dash, Zcash, Zcoin (Bahkan dengan Lelantus), Grin dan Bitcoin Mixer Seperti Wasabi (Diperbarui Mei 2020)](/knowledge/why-monero-is-better)/
 
 Bacaan lebih lanjut

@@ -12,21 +12,15 @@ Hoewel een uniek mining-algoritme [ zoals RandomX ](/knowledge/monero-mining-ran
 
 ## Wat is pool mining?
 
-## Wat is pool mining?
-
 Pool mining is een manier voor miners om de taak te delen om een blok op het netwerk op te lossen en vervolgens de beloningen gelijkmatig te verdelen voor alle blokken die de pool vindt. Hoewel dit enorm helpt om de frequentie waarmee miners worden betaald te verdelen in vergelijking met alleen Monero, is het niet zonder ernstige centralisatie problemen.
 
 Terwijl elke miner werk bijdraagt aan de pool, geven ze de controle over al het werk dat ze doen op en blokkeren ze dat naar de pool zelf, in het vertrouwen dat de pool de beloningen eerlijk zal verdelen onder alle miners op basis van de hoeveelheid werk dat ze hebben gedaan. Als alles goed gaat, verzamelt de poolbeheerder het werk van alle miners, legt het voor aan het netwerk en verdeelt de beloningen gelijkelijk.
 
 ## Wat is het probleem met poolmining?
 
-## Wat is het probleem met poolmining?
-
 Helaas berust dit volledig op vertrouwen en stelt het de poolbeheerder in staat om snode dingen te doen met het werk dat door miners wordt gedaan. De poolbeheerder kan het werk dat wordt gedaan gebruiken om het netwerk aan te vallen, proberen om geld dubbel uit te geven (als de pool groot genoeg is), of gewoon het werk van de miners gebruiken om zichzelf te kunnen betalen en miners hierbij nooit correct te belonen voor hun werk .
 
 Het grootste risico voor het netwerk is dat een pool (of meerdere pools die samenwerken) meer dan 51% van de hashrate van het netwerk onder hun controle heeft, omdat ze dit zouden kunnen gebruiken om vals te spelen en twee keer geld uit te geven (een dubbele uitgave aanval) of proberen de regels van het netwerk te wijzigen.
-
-## Wat is p2pool?
 
 ## Wat is p2pool?
 
@@ -38,15 +32,11 @@ Dit wordt gedaan met behulp van een nieuwe blockchain (een "side-chain") die bij
 
 ## Hoe lost p2pool de problemen van poolmining op?
 
-## Hoe lost p2pool de problemen van poolmining op?
-
 In p2pool is er geen gecentraliseerde pool, gecentraliseerde pooloperator of enkele persoon die fondsen vasthoudt en uitbetalingen verdeelt. Al het werk dat collectief wordt gedaan door degenen die via p2pool minen, wordt gecontroleerd door de p2pool-blockchain en andere knooppunt-operators om ervoor te zorgen dat het legitiem is, en alle miners direct worden uitbetaald op basis van het werk dat ze hebben gedaan wanneer een blok wordt gevonden door de beloningen in dat gevonden blok.
 
 Wanneer miners ervoor kiezen om p2pool te gebruiken in plaats van een gecentraliseerde pool, verwijderen ze alle macht en vertrouwen van pooloperators en zorgen ze ervoor dat hun werk bijdraagt aan het welzijn van het netwerk en aan hun eigen beloningen, en verminderen ze het risico op netwerkaanvallen, misbruik van hun werk, of diefstal van beloningen die ze verschuldigd zijn. 
 
 Dit helpt hen niet alleen hun eigen belangen te beschermen, het vermindert ook het risico dat gecentraliseerde pools kunnen vormen voor het Monero-netwerk als geheel. Het gebruik van p2pool helpt ook enorm om het risico te verminderen dat natiestaten of regelgevers kunnen vormen voor de gezondheid van het netwerk, aangezien er geen gecentraliseerde poolbeheerders zijn die onder druk kunnen worden gezet, geen geografische concentratie van pools om op te leunen of enig ander gemakkelijk drukpunt die ze tegen Monero kunnen gebruiken.
-
-## Wat zijn de nadelen?
 
 ## Wat zijn de nadelen?
 
@@ -56,14 +46,10 @@ Het andere belangrijke verschil met gecentraliseerde mining is dat kleine miners
 
 ## Hoe ga ik aan de slag?
 
-## Hoe ga ik aan de slag?
-
 Dankzij het uitstekende ontwerp van Monero's p2pool-implementatie en de vele mensen in de gemeenschap die tijd hebben gestoken in het proces van minen via p2pool te helpen vereenvoudigen, wordt van start gaan in de loop van de tijd steeds eenvoudiger. Er zijn verschillende manieren om te beginnen te minen met p2pool, maar aangezien de technische details buiten het bereik van dit artikel vallen, voelt uzelf vrij om naar een onderstaande link te gaan, afhankelijk van uw besturingssysteem:
 
   * [Windows](https://www.youtube.com/watch?v=yfbvTksF9ic)
   * [Linux](https://sethforprivacy.com/guides/run-a-p2pool-node/)
-
-## Hoe kan ik meer leren?
 
 ## Hoe kan ik meer leren?
 
@@ -75,71 +61,5 @@ Als dit uw nieuwsgierigheid naar p2pool-mining heeft gewekt, kijk dan hieronder 
   * [p2pool.observer, een soort "blokverkenner" voor p2pool](https://p2pool.observer/)
   * [Monero p2pool docker-samenstellen](https://github.com/WeebDataHoarder/p2pool-compose)
   * [Sergei Chernykh: over zijn ontwikkeling van P2Pool, een gedecentraliseerde XMR-miningpool](https://www.monerotalk.live/sergei-chernykh-on-his-development-of-p2pool-a-decentralized-xmr-mining-pool)
-
-Verder lezen
-
-  * [Hoe Monero op unieke wijze circulaire economieën mogelijk maakt](/knowledge/monero-circular-economies)/
-
-  * [Monero's ringhandtekeningen versus CoinJoin zoals in Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Waarom (en hoe!) u uw eigen sleutels moet bezitten](/knowledge/hold-your-keys)/
-
-  * [Bijdragen aan Monero](/knowledge/contributing-to-monero)/
-
-  * [Hoe externe knooppunten de privacy van Monero beïnvloeden](/knowledge/remote-nodes-privacy)/
-
-  * [Hoe Monero hard forks gebruikt om het netwerk te upgraden](/knowledge/network-upgrades)/
-
-  * [Weergave tags: Hoe één byte de synchronisatietijden van de Monero portefeuille met meer dan 40% vermindert](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [Seraphis: Wat Het Zal Doen voor Monero](/knowledge/seraphis-for-monero)/
-
-  * [Is het Omzetten van Bitcoin naar Monero Net Zo Privé als het Rechtstreeks Kopen van Monero?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Waarom Monero een Trustless Setup Gebruikt in Tegenstelling tot Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Waarom Monero een Betere Waardeopslag Is Dan Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Hoe Monero de Netwerkeffecten van Bitcoin Kan Overwinnen](/knowledge/network-effect)/
-
-  * [Waarom Monero de Meest Kritische Denkgemeenschap Heeft](/knowledge/critical-thinking)/
-
-  * [Oplichtingen Om Voor Uit Te Kijken Bij Gebruik van Monero](/knowledge/monero-scams)/
-
-  * [Hoe Atomic Swaps Zullen Werken in Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Wat Elke Monero Gebruiker Moet Weten Als het om Netwerken Gaat](/knowledge/monero-networking)/
-
-  * [Hoe RingCT Monero's Transactiebedragen verbergt](/knowledge/monero-ringct)/
-
-  * [Hoe Monero Stealth Adressen Uw Identiteit Beschermen](/knowledge/monero-stealth-addresses)/
-
-  * [Hoe Monero's Subadressen Identiteitskoppeling Voorkomen](/knowledge/monero-subaddresses)/
-
-  * [Monero-Outputs uitgelegd](/knowledge/monero-outputs)/
-
-  * [Praktische Tips van Monero voor Beginners](/knowledge/monero-best-practices)/
-
-  * [Hoe Ring-handtekeningen de Resultaten van Monero Verdoezelen](/knowledge/ring-signatures)/
-
-  * [Hoe Monero het Probleem met de Blokgrootte Dat Bitcoin Plaagt Heeft Opgelost](/knowledge/dynamic-block-size)/
-
-  * [Hoe CLSAG de Efficiëntie van Monero Zal Verbeteren](/knowledge/what-is-clsag)/
-
-  * [Waarom Monero een Staartemissie Heeft](/knowledge/monero-tail-emission)/
-
-  * [Een Korte Geschiedenis van Monero](/knowledge/monero-history)/
-
-  * [Wired Magazine heeft Ongelijk over Monero, Dit is Waarom](/knowledge/wired-article-debunked)/
-
-  * [Top 15 Monero Mythen en Zorgen Ontkracht](/knowledge/monero-myths-debunked)/
-
-  * [Hoe Dandelion++ de Oorsprong van de Transacties van Monero Privé Houdt](/knowledge/monero-dandelion)/
-
-  * [Waarom Monero Open Source en Dedecentraliseerd Is](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero-Mining: Wat RandomX zo Speciaal Maakt](/knowledge/monero-mining-randomx)/
-
-  * [Waarom Monero beter is dan Dash, Zcash, Zcoin (zelfs met Lelantus), Grin en Bitcoin Mixers zoals Wasabi (bijgewerkt mei 2020)](/knowledge/why-monero-is-better)/
 
 Verder lezen

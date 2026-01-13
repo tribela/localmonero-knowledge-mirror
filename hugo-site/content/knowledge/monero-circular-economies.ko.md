@@ -10,15 +10,11 @@ image_credit_url: "https://cypherstack.com"
 
 ## 순환 경제란?
 
-## 순환 경제란?
-
 여러분 모두가 경제를 광범위한 주제로 느슨하게 알고 있다고 확신하지만 '순환 경제'라는 개념은 암호화폐 세계 밖에서는 거의 논의되지 않는 개념입니다. 순환 경제를 그토록 중요하고 특별하게 만드는 것은 서비스, 제품 및 상품을 _Monero_ 에 직접 거래할 수 있는 진정한 자유 시장을 창출하기 때문입니다.
 
 참가자는 법정화폐로 계속 이동할 필요가 없지만 시스템 내에서 자신의 Monero를 유지하여 정상적인 마찰, 감시 또는 제한 없이 Monero에서 직접 수입, 저축 및 지출할 수 있습니다. 경제.
 
 순환 경제는 일반적으로 완전히 '최고'이며 합법이지만 명목 세계의 정상적인 '백색 시장'에 비해 '회색 시장'으로 더 많이 기능합니다.
-
-## 순환 경제를 구축해야 하는 이유는 무엇입니까?
 
 ## 순환 경제를 구축해야 하는 이유는 무엇입니까?
 
@@ -36,8 +32,6 @@ image_credit_url: "https://cypherstack.com"
 
 ## Monero는 이러한 순환 경제를 어떻게 고유하게 구현합니까?
 
-## Monero는 이러한 순환 경제를 어떻게 고유하게 구현합니까?
-
 Monero는 새로운 방식으로 순환 경제를 가능하게 하는 비트코인의 핵심 속성(검열 방지 결제, p2p 거래 등)을 공유하지만 순환 경제를 구축하고 참여하려는 사람들에게 절대적으로 고유한 권한을 부여합니다. .
 
 Monero 사용자는 거래에 대한 대량 감시 또는 표적 검열에 대해 걱정할 필요가 없습니다. 상거래에 대한 모든 부담. 원하는 모네로 지갑을 사용하여 감시 없이 언제 어디서나 전 세계 모든 사람과 거래할 수 있습니다.
@@ -52,11 +46,7 @@ Monero 거래에 대해 가장 쉽게 이해할 수 있는 점 중 하나는 거
 
 ## 결론
 
-## 결론
-
 결국 Monero는 원래 있어야 할 디지털 현금입니다. 마음의 평화, 대체 가능성 및 현금 거래의 개인 정보 보호를 제공하지만 국가의 통제 또는 감시에서 분리된 디지털, 글로벌 및 p2p 거래의 모든 이점이 있습니다. 디지털 현금 역할을 하는 이 능력은 오늘날 순환 경제를 독특하게 활성화하고 비트코인과 같은 다른 암호 화폐가 할 수 없는 방식으로 시간이 지남에 따라 성장하고 번영하도록 돕습니다.
-
-## 자세히 알아보려면 어떻게 해야 하나요?
 
 ## 자세히 알아보려면 어떻게 해야 하나요?
 
@@ -66,71 +56,5 @@ Monero 거래에 대해 가장 쉽게 이해할 수 있는 점 중 하나는 거
   * ["Bitcoin 순환 경제에 참여할 때입니다." - Ragnar Lifthrasir](https://bitcoinmagazine.com/business/its-time-to-join-the-bitcoin-circular-economy/)
   * ["Monerica.com - 순환 Monero 경제를 위한 디렉토리"](https://monerica.com/)
   * [Monero Merchants - Cryptwerk](https://cryptwerk.com/pay-with/xmr/)
-
-더 보기
-
-  * [와사비처럼 모네로의 링 시그니처 vs 코인조인](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [자신의 키를 보유해야 하는 이유(및 방법!)](/knowledge/hold-your-keys)/
-
-  * [모네로에 다시 기여하기](/knowledge/contributing-to-monero)/
-
-  * [원격 노드가 Monero의 개인 정보에 미치는 영향](/knowledge/remote-nodes-privacy)/
-
-  * [Monero가 하드 포크를 사용하여 네트워크를 업그레이드하는 방법](/knowledge/network-upgrades)/
-
-  * [태그 보기: 1바이트가 Monero 지갑 동기화 시간을 40% 이상 줄이는 방법](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool과 Monero Mining의 탈중앙화에서의 역할](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [세라피스: 모네로를 위해 할 일](/knowledge/seraphis-for-monero)/
-
-  * [몬에로를 직접 구매하는 것과 마찬가지로 비트코인을 모네로로 변환하는 것이 사적인 것입니까?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Monero가 Zcash와 달리 신뢰할 수없는 설정을 사용하는 이유](/knowledge/monero-trustless-setup)/
-
-  * [Monero가 Bitcoin보다 더 나은 가치 저장소 인 이유](/knowledge/monero-better-store-of-value)/
-
-  * [Monero가 Bitcoin의 네트워크 효과를 극복하는 방법](/knowledge/network-effect)/
-
-  * [Monero가 가장 비판적인 사고 커뮤니티를 보유한 이유](/knowledge/critical-thinking)/
-
-  * [Monero를 사용할 때주의해야 할 사기](/knowledge/monero-scams)/
-
-  * [Monero에서 원자 스왑이 작동하는 방법](/knowledge/monero-atomic-swaps)/
-
-  * [모든 Monero 사용자가 네트워킹에 대해 알아야 할 사항](/knowledge/monero-networking)/
-
-  * [RingCT가 모네로 거래량을 숨기는 방법](/knowledge/monero-ringct)/
-
-  * [모네로 비밀주소가 신상을 보호하는 방법](/knowledge/monero-stealth-addresses)/
-
-  * [모네로 2차주소가 실제 신상과 연결되는 걸 방지하는 방법](/knowledge/monero-subaddresses)/
-
-  * [모네로 출력에 대하여](/knowledge/monero-outputs)/
-
-  * [초보자를 위한 모네로 사용 습관 추천](/knowledge/monero-best-practices)/
-
-  * [링서명이 모네로 출력을 숨기는 방법](/knowledge/ring-signatures)/
-
-  * [모네로는 어떻게 비트코인의 고질적인 문제인 규모의 문제를 해결했을까](/knowledge/dynamic-block-size)/
-
-  * [CLSAG는 어떻게 모네로의 효율을 높였을까](/knowledge/what-is-clsag)/
-
-  * [모네로가 꼬리자르기를 도입한 이유](/knowledge/monero-tail-emission)/
-
-  * [모네로의 간단한 역사](/knowledge/monero-history)/
-
-  * [Wired지는 모네로에 대해 틀렸으며, 왜 그런지 알려드리겠습니다](/knowledge/wired-article-debunked)/
-
-  * [모네로에 관한 15가지 미신과 우려, 그리고 그 해답](/knowledge/monero-myths-debunked)/
-
-  * [Dandelion++가 모네로 거래의 출처를 보호하는 방법](/knowledge/monero-dandelion)/
-
-  * [모네로는 왜 탈중앙화와 오픈소스를 선택했는가](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [모네로 채굴: RandomX가 특출난 이유](/knowledge/monero-mining-randomx)/
-
-  * [모네로가 Dash, Zcash, (Lelantus를 적용해도) Zcoin, Grin 그리고 Wasabi같은 비트코인 세탁 서비스보다 뛰어난 이유 (2020년 5월 업데이트)](/knowledge/why-monero-is-better)/
 
 더 보기

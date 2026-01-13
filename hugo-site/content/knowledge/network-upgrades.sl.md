@@ -12,8 +12,6 @@ V tej objavi se bomo sprehodili skozi to, kaj so hard-forki, zakaj so pomembni z
 
 ## Zakaj mora Monero še naprej nadgrajevati omrežje?
 
-## Zakaj mora Monero še naprej nadgrajevati omrežje?
-
 Skupnost Monero se je zavezala, da bo sčasoma ponovila in izboljšala projekt, in zdi se, da se ta zaveza zmanjša na dva ključna vidika etosa skupnosti: 
 
   1. Projekt Monero je v končni fazi programska oprema – koda – ki so jo napisali ljudje. To lahko povzroči potrebo po odpravljanju napak, dodajanju izboljšav, ki so odkrite ali izumljene sčasoma, izvajanju posodobitev protokola ali preprosto vzdrževanju projekta. To je v mnogih pogledih podobno drugim delom programske opreme, ki jo uporabljate (na primer brskalniku, v katerem to berete!), ki se mora nenehno posodabljati, da lahko doda nove funkcije in odpravi napake.
@@ -26,8 +24,6 @@ Projekt Monero je orodje za zasebnost, boj za zasebnost pa je nenehno napredujo�
 
 ## Kaj je hard-fork?
 
-## Kaj je hard-fork?
-
 Kompleksnost nadgradnje Monera postane učinkovita, ko razumete, kako drugačna je nadgradnja kriptovalute od preprostega potiskanja posodobitve programske opreme v nekaj, kot je brskalnik.
 
 V kriptovalutah se mora omrežje dogovoriti o pravilih omrežja (na primer, kako naj izgledajo transakcije, kako deluje rudarjenje in kako preveriti vsak blok), kar se imenuje "soglasje". Ko je treba katero koli od teh pravil spremeniti ali nadgraditi, se mora omrežje dogovoriti o novih pravilih, kar povzroči "hard-fork" – situacijo, ko se omrežje dejansko razdeli na dve verigi blokov – enega na stara pravila in eno o novih pravilih.
@@ -35,8 +31,6 @@ V kriptovalutah se mora omrežje dogovoriti o pravilih omrežja (na primer, kako
 Ko se vsi v skupnosti strinjajo s spremembami pravil, se to imenuje "nesporen hard-fork" in veriga, ki ima še vedno stara pravila, umre in se ne rudari po hard-forku. To je veljalo za skoraj vse hard-forke Monero in edino nadaljevanje starih pravil so bili projekti, ki so poskušali iztržiti dobiček s hard-forkom.
 
 Čeprav so nesporni hard-forki edini način za ustrezno nadgradnjo pomembnih vidikov omrežja Monero, imajo tudi frustrirajoč stranski učinek – stara programska oprema, izdana preden je bil hard-fork načrtovan, ne more razumeti novega pravila omrežja in tako ne deluje po hard-forku! To lahko povzroči, da uporabniki mislijo, da so sredstva izgubljena, da se je veriga blokov Monero ustavila in da ne morejo premakniti sredstev, dokler ne nadgradijo svoje denarnice.
-
-## Kdo odloča, kdaj se bo omrežje Monero nadgradilo in kaj bo vključeno?
 
 ## Kdo odloča, kdaj se bo omrežje Monero nadgradilo in kaj bo vključeno?
 
@@ -56,8 +50,6 @@ Na Githubu, glavni komunikacijski platformi za dolgotrajne razprave, načrtovanj
 
 ## Kako lahko pomagam pri nadgrajevanju omrežja?
 
-## Kako lahko pomagam pri nadgrajevanju omrežja?
-
 Ker nadgradnje omrežja Monero zahtevajo koordinacijo in odobritev skupnosti skupaj s posodobitvami programske opreme, je izredno pomembno, da se čim več ljudi vključi v proces načrtovanja, testiranja in komuniciranja nadgradenj omrežja.
 
 Tukaj je nekaj preprostih načinov, s katerimi lahko pomagate zgladiti stvari pri nadgradnji omrežja: 
@@ -66,8 +58,6 @@ Tukaj je nekaj preprostih načinov, s katerimi lahko pomagate zgladiti stvari pr
   2. Sporočite podrobnosti glede časa nadgradnje omrežja (ko se odločite!) svoji najljubši borzi, denarnici ali rudarskemu bazenu. Lahko je težavno pravilno obvestiti vse uporabnike Monera o nadgradnji, zato je pomembno, da vsi pomagamo, kjer lahko, da se o tem izvede beseda.
   3. Preskusite programsko opremo pred omrežno nadgradnjo. Pred nadgradnjo omrežja bodo preizkuševalci razpisani tako na testnetu kot na stagenetu, da se zagotovi, da je bil vsak vidik nadgradnje pravilno načrtovan in implementiran v programsko opremo. Več ljudi ko se vključi in temeljito preizkusi nove različice, večja je verjetnost, da bo omrežna nadgradnja potekala gladko! 
   4. Ko so objavljene izdaje, ki so združljive z omrežno nadgradnjo, takoj nadgradite! Več ljudi kot je nadgrajenih in pripravljenih na nadgradnjo omrežja, bolj gladko jo bo omrežje obravnavalo in manj glavobolov bodo imeli uporabniki.
-
-## Kaj lahko pričakujem pri naslednji nadgradnji Monero omrežja?
 
 ## Kaj lahko pričakujem pri naslednji nadgradnji Monero omrežja?
 
@@ -82,78 +72,10 @@ Te spremembe bodo močno pripomogle k povečanju zasebnosti, učinkovitosti in v
 
 ## Kako lahko izvem več?
 
-## Kako lahko izvem več?
-
 Tema hard-forkov in omrežnih nadgradenj je obsežna in Monero ima glede tega dolgo in slavno zgodovino, zato se poglobite v nekaj naslednjih povezav, če želite izvedeti več o zgodovino, postopek ali načrtovanje, ki je v teku za prihajajočo nadgradnjo omrežja! 
 
   * [Načrtovanje Monero v15 hard-fork](https://github.com/monero-project/meta/issues/630)
   * [Načrtovane nadgradnje programske opreme (v Monero)](https://github.com/monero-project/monero#scheduled-software-upgrades)
   * [Opomba o načrtovanih nadgradnjah protokola ](https://web.getmonero.org/2020/09/01/note-scheduled-upgrades.html)
-
-Nadaljnje branje
-
-  * [Kako Monero edinstveno omogoča krožna gospodarstva](/knowledge/monero-circular-economies)/
-
-  * [Obročni ring podpisi Monero vs CoinJoin kot v Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Zakaj (in kako!) bi morali imeti svoje ključe](/knowledge/hold-your-keys)/
-
-  * [Prispevek nazaj v Monero](/knowledge/contributing-to-monero)/
-
-  * [Kako oddaljena vozlišča vplivajo na zasebnost Monera](/knowledge/remote-nodes-privacy)/
-
-  * [Ogled oznak: Kako bo en bajt skrajšal čas sinhronizacije Monero denarnice za 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool in Njegova Vloga pri Decentralizaciji Monero Rudarjenja](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [Seraphis: Kaj bo Naredil za Monero](/knowledge/seraphis-for-monero)/
-
-  * [Ali je Pretvorba Bitcoina v Monero Enako Zasebna kot Neposredni Nakup Monera?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Zakaj Monero Uporablja Nezaupljivo nNastavitev za Razliko od Zcasha](/knowledge/monero-trustless-setup)/
-
-  * [Zakaj je Monero Boljši Hranilnik Vrednosti kot Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Kako lahko Monero premaga omrežne učinke Bitcoina](/knowledge/network-effect)/
-
-  * [Zakaj ima Monero Najbolj Kritično Mislečo Skupnost](/knowledge/critical-thinking)/
-
-  * [Prevare, na Katere Morate Biti Pozorni pri Uporabi Monera](/knowledge/monero-scams)/
-
-  * [Kako Bodo Atomske Menjave v Monero Delovale](/knowledge/monero-atomic-swaps)/
-
-  * [Kaj Mora Vsak Uporabnik Monera Vedeti, ko Gre za Mreženje](/knowledge/monero-networking)/
-
-  * [Kako RingCT Prikrije Zneske Monero Transakcij](/knowledge/monero-ringct)/
-
-  * [Kako Naslovi Monero Stealth Ščitijo Vašo Identiteto](/knowledge/monero-stealth-addresses)/
-
-  * [Kako Monero Podnaslovi Preprečujejo Povezovanje Identitet](/knowledge/monero-subaddresses)/
-
-  * [Pojasnjeni Monero Izhodi (Outputs)](/knowledge/monero-outputs)/
-
-  * [Najboljše Monero Prakse za Začetnike](/knowledge/monero-best-practices)/
-
-  * [Kako Obročni Podpisi Prikrijejo Izhode Monera](/knowledge/ring-signatures)/
-
-  * [Kako je Monero Rešil Problem Velikosti Bloka, ki muči Bitcoin](/knowledge/dynamic-block-size)/
-
-  * [Kako bo CLSAG Izboljšal Učinkovitost Monera](/knowledge/what-is-clsag)/
-
-  * [Zakaj Ima Monero Tail Emisijo](/knowledge/monero-tail-emission)/
-
-  * [Kratka zgodovina Monera](/knowledge/monero-history)/
-
-  * [Wired Magazine se Moti Glede Monera. Evo, Zakaj](/knowledge/wired-article-debunked)/
-
-  * [Razbijamo 15 glavnih mitov in pomislekov o Monero](/knowledge/monero-myths-debunked)/
-
-  * [Kako Dandelion++ Ohranja Zasebnost Izvora Transakcije Monero](/knowledge/monero-dandelion)/
-
-  * [Zakaj je Monero Odprtokoden in Decentraliziran](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero rudarjenje: zakaj je RandomX tako poseben](/knowledge/monero-mining-randomx)/
-
-  * [Zakaj je Monero Boljši od Dash, Zcash, Zcoin (tudi z Lelantusom), Grin in Bitcoin Mikserji, kot je Wasabi (posodobljeno maja 2020)](/knowledge/why-monero-is-better)/
 
 Nadaljnje branje

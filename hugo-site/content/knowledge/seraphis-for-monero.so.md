@@ -8,12 +8,8 @@ image_credit_url: "https://cypherstack.com"
 ---
 ## Seraphis: naqshad casri ah oo casri ah oo loogu talagalay macaamilada Monero
 
-## Seraphis: naqshad casri ah oo casri ah oo loogu talagalay macaamilada Monero
-
 Boostadani waxay sharraxaysaa [ Seraphis ](https://github.com/UkoeHB/Seraphis), oo ah qaab-dhismeedka hab-maamuuska wax kala iibsiga iyo soo-saarista uu sameeyay wax-ku-dariyaha cilmi-baarista ee magac-u-yaal [ ` koe` ](https://github.com/UkoeHB) ee Monero nidaamka deegaanka, iyo falanqaynta amniga socota Waxaa qoray wax ku darsaday magac been abuur ah [`coinstudent2048` ](https://github.com/coinstudent2048).  
 Waxaan samaynaa qaar ka mid ah fududaynta waxaanan ka tagnay tafaasiil farsamo oo gaar ah si loo caddeeyo; Sababtan awgeed, iyo sababtoo ah naqshadaynta Seraphis ayaa weli socota, akhristayaasha xiisaha leh waa inay tixraacaan dukumeentiyada Seraphis macluumaadka ugu casrisan.
-
-## Wax kala iibsiga Monero
 
 ## Wax kala iibsiga Monero
 
@@ -45,12 +41,8 @@ Hannaan la mid ah ayaa lagu soo maray dhismaha saxeexa giraanta ee la isku xidhi
 
 ## Seraafis
 
-## Seraafis
-
 Seraphis waxa uu qaaday fikraddan tallaabo dheeraad ah.  
 Halkii laga cusboonaysiin lahaa dhismooyinka gaarka ah ee nidaamka wax kala iibsiga ee RingCT ee jira, waxay soo bandhigaysaa hab-maamuus ka duwan kan ka faa'iidaysan kara baloogyada kala duwan ee dhismaha oo bixin kara hawlqabad la hagaajiyay.
-
-## Dhismayaasha
 
 ## Dhismayaasha
 
@@ -69,10 +61,6 @@ Sababtoo ah RingCT waxay ku dubtaa summada isku xidhka saxeexa mugdiga leh, saxe
 Nasiib wanaag, qaar ka mid ah baloogyada dhismaha ee uu u baahan yahay Seraphis ayaa horeba u jiray meelo kale, uma baahna in laga nashqadeeyo eber. Dhismayaasha Xabadu iyo kuwa aan xabadu karin + labaduba waxa loo isticmaali karaa cadaymo kala duwan. Wax ka beddelka nidaamyada caddaynta nooca Schnorr ayaa loo isticmaali karaa oggolaanshaha caddaynta. Iyo nidaam wax ku ool ah [ ](https://eprint.iacr.org/2015/643) oo horeyba loo isticmaalay aasaaska Triptych, [ Lelantus ](https://eprint.iacr.org/2019/373), iyo [ Spark](https://eprint.iacr.org/2021/1173) * waa la bedeli karaa xubinnimada. X2127X] 
 
 * Cypher Stack waxa uu helaa maalgelin horumarinta Spark.
-
-* Cypher Stack waxa uu helaa maalgelin horumarinta Spark.
-
-## Isagoo ka hadlaya
 
 ## Isagoo ka hadlaya
 
@@ -96,74 +84,6 @@ Adigoo ah qofka ciwaanka haya, waxaad go'aansan kartaa inta awood ee aad u wakii
 
 ## Sawirka weyn
 
-## Sawirka weyn
-
 Seraphis waa isbeddel weyn oo ku yimid nidaamka deegaanka Monero. In kasta oo ay ku lug leedahay wax ka beddelka ciwaannada iyo dhismooyinka wax kala beddelashada, nashqaddeedu waxay bixisaa dabacsanaan iyo shaqeyn faa'iido leh oo aan suurtagal ahayn borotokoolka RingCT ee maanta. Iyadoo in badan oo nashqada ka mid ah la soo gabagabeeyay oo loo sameeyay [ dhaqangelin ](https://github.com/UkoeHB/monero/tree/seraphis_lib), naqshadaynta ciwaanka iyo falanqaynta amniga ayaa socota. Seraphis wuxuu bixiyaa fursad aad u fiican oo uu horay ugu sii riixayo deegaanka Monero!
-
-Akhris dheeraad ah
-
-  * [Sida Monero si gaar ah u awoodo dhaqaalaha wareegtada ah](/knowledge/monero-circular-economies)/
-
-  * [Saxeexa giraanta Monero vs CoinJoin sida Wasabi](/knowledge/ring-signatures-vs-coinjoin)/
-
-  * [Waa maxay sababta (iyo sidee!) Waa inaad haysataa furayaashaada](/knowledge/hold-your-keys)/
-
-  * [Wax ku biirinta dib ugu noqoshada Monero](/knowledge/contributing-to-monero)/
-
-  * [Sidee noodhka fog u saameeyaan gaarka ah ee Monero](/knowledge/remote-nodes-privacy)/
-
-  * [Sida Monero u isticmaasho fargeeto adag si ay u cusboonaysiiso shabakada](/knowledge/network-upgrades)/
-
-  * [Arag tags: Sida hal byte u dhimi doono wakhtiga isku xidhka jeebka Monero 40%+](/knowledge/view-tags-reduce-monero-sync-time)/
-
-  * [P2Pool iyo Doorka ay ku leedahay Daadejinta Macdanta Monero](/knowledge/p2pool-decentralizing-monero-mining)/
-
-  * [U beddelashada Bitcoin ee Monero ma tahay mid gaar loo leeyahay sida tooska ah ee Monero u iibsanayso?](/knowledge/most-private-way-to-buy-monero)/
-
-  * [Waa maxay sababta Monero u isticmaasho habayn aan la aamini karin oo ka duwan Zcash](/knowledge/monero-trustless-setup)/
-
-  * [Waa maxay sababta Monero uu uga qiimo badan yahay Bitcoin](/knowledge/monero-better-store-of-value)/
-
-  * [Sidee Monero uga gudbi kartaa Saamaynta Shabakadda Bitcoin](/knowledge/network-effect)/
-
-  * [Waa maxay sababta Monero u leedahay bulshada ugu fikirka badan](/knowledge/critical-thinking)/
-
-  * [Khiyaamooyinka la Fikiro Marka la Isticmaalayo Monero](/knowledge/monero-scams)/
-
-  * [Sida Isku-beddelka Atoomikada uu uga Shaqeeyo Monero](/knowledge/monero-atomic-swaps)/
-
-  * [Waxa uu Isticmaale kasta oo Monero u baahan yahay inuu ogaado marka ay timaaddo isku xidhka](/knowledge/monero-networking)/
-
-  * [Sida RingCT u qariso xadiga wax kala iibsiga Monero](/knowledge/monero-ringct)/
-
-  * [Sidee Ciwaanada Monero Stealth ay u ilaaliyaan aqoonsigaaga](/knowledge/monero-stealth-addresses)/
-
-  * [Sidee Monero Dharka-hoosaadka uga hortagaan isku xidhka aqoonsiga](/knowledge/monero-subaddresses)/
-
-  * [Waxsoosaarka Monero waa la sharaxay](/knowledge/monero-outputs)/
-
-  * [Dhaqamada ugu Fiican ee Monero ee Bilowga](/knowledge/monero-best-practices)/
-
-  * [Sidee Saxiixa Garaacuhu u qariyaan wax soo saarka Monero](/knowledge/ring-signatures)/
-
-  * [Sidee Monero u xallisay Dhibaatada Cabbirka Block ee aafaysay Seeraar](/knowledge/dynamic-block-size)/
-
-  * [Sidee CLSAG u hagaajin doontaa waxtarka Monero](/knowledge/what-is-clsag)/
-
-  * [Waa maxay sababta Monero ay leedahay Dabada sii daayo](/knowledge/monero-tail-emission)/
-
-  * [Taariikhda Monero oo Kooban](/knowledge/monero-history)/
-
-  * [Majaladda Wired ayaa ku qaldan Monero, waa kan sababta](/knowledge/wired-article-debunked)/
-
-  * [15ka khuraafaad ee Monero iyo walaaca waa la beeniyey](/knowledge/monero-myths-debunked)/
-
-  * [Sida Dandelion++ uga dhigayo Monero ganacsigiisa mid gaar ah](/knowledge/monero-dandelion)/
-
-  * [Waa maxay sababta Monero Isha Furan tahay oo loo baahiyey](/knowledge/why-monero-is-open-source-and-decentralized)/
-
-  * [Monero Mining: Maxaa RandomX ka dhigaya mid gaar ah](/knowledge/monero-mining-randomx)/
-
-  * [Waa maxay sababta Monero uga fiican tahay Dash, Zcash, Zcoin (Xitaa Lelantus), Grin iyo Bitcoin Mixers sida Wasabi (La cusbooneysiiyay May 2020)](/knowledge/why-monero-is-better)/
 
 Akhris dheeraad ah
